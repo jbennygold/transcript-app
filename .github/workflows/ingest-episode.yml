@@ -36,14 +36,16 @@ jobs:
       - name: Download transcript from Blob
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
-        run: node --import tsx ./scripts/download-blob-transcript.ts ${{ inputs.episode }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/download-blob-transcript.ts "$EPISODE"
 
       - name: Ingest episode ${{ inputs.episode }}
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node --import tsx ./scripts/ingest.ts --episode ${{ inputs.episode }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/ingest.ts --episode "$EPISODE"
 
       - name: Upload updated search index
         env:
