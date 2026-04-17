@@ -20,7 +20,7 @@ export function getSearchTuning(variant?: string): SearchTuning | null {
   switch (variant) {
     case 'fast':
       return {
-        interpretiveModel: process.env.INTERPRETIVE_FAST_MODEL || 'claude-3-haiku-20240307',
+        interpretiveModel: process.env.INTERPRETIVE_FAST_MODEL || 'claude-haiku-4-5',
         interpretiveMaxTokens: 700,
       };
     case 'context':
