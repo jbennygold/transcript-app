@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 313 episodes - updated 2026-04-17
+// Auto-generated - do not edit - 314 episodes - updated 2026-04-18
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -14121,5 +14121,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kwan Hoi-San",
       "John Woo"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 303,
+    "film": "Midnight Run (1988)",
+    "filmYear": 1988,
+    "releaseDate": "4/19/2026",
+    "length": "1:39:53",
+    "reviewer": "birria",
+    "guest": "Dave Itzkoff",
+    "mmmCount": 33,
+    "thatsGreatCount": 14,
+    "notableMoments": "Pod opens with Dave's description of Pantherian roller coaster at King's Dominion on his Spring Break trip\n- Jason's trip to Iceland\n- Haitch debuts explore.escapehatchpod.com that he vibe coded with Claude\n- Jason talks about a possible future for fully bespoke software where you build whatever you need, because code is essentially free. Interesting ideas here\n- Cinemacon - Social Reckoning trailer with Jeremy Strong/Sorkin, Beyond The Spiderverse trailer, and tease of Dune Part 3 and Avengers Doomsday stuff coming\n- Meetup! Dec 18 Dune 3 private screening\n- Midnight Run has become a huge Cult Classic\n- Dave just doesn't get this movie, Jason is on board with this take too. Thinks it is a rote motif repeated over and over in the film. \n- Haitch fights back and explains why he loves it so much. Jason revels in Dave putting Haitch on his back foot. \n- DeNiro as comedic actor, Grodin in one of his biggest roles, but Dave thinks John Ashton as the other bounty hunter pulls the film together\n- The rest of the cast - Yaphett Kotto, Dennis Farina, Phillip Baker Hall, Joe Pantoliano - amazing ensemble \n- Jason says this is basically the Muppet Movie, then they re-cast the movie with Muppets\n- Letters - Animal Mother, Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "Do you have any road trip stories? What was the longest you ever spent in a car?",
+    "tildaH": "Joey Pants part",
+    "tildaJason": "Yaphet Kotto part",
+    "tildaGuest": "Airline Ticket Agent who asks \"Smoking or Non Smoking\"",
+    "tildaCorey": "Every single long white cigarette that is smoked in this movie.",
+    "showLink": "https://www.patreon.com/posts/midnight-run-155805309",
+    "artworkLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/midnight-run/",
+    "imdbLink": "https://www.imdb.com/title/tt0095631/"
   }
 ];
