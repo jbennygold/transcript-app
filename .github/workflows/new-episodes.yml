@@ -59,6 +59,9 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore(metadata): sync sheet metadata"
+            # Transcription can run 60+ min; another push may have landed during
+            # that window. Rebase onto the latest master before pushing.
+            git pull --rebase origin master
             git push origin HEAD:master
             echo "CHANGES_COMMITTED=true" >> "$GITHUB_ENV"
           fi
