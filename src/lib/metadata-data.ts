@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 314 episodes - updated 2026-04-19
+// Auto-generated - do not edit - 314 episodes - updated 2026-04-20
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -14145,6 +14145,29 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/posts/midnight-run-155805309",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/midnight-run/",
-    "imdbLink": "https://www.imdb.com/title/tt0095631/"
+    "imdbLink": "https://www.imdb.com/title/tt0095631/",
+    "tmdbId": 9013,
+    "tmdbPosterPath": "/yx0touyDQ9enWDsFgS4MbBwCSNd.jpg",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Martin Brest"
+    ],
+    "cinematographers": [
+      "Donald E. Thorin"
+    ],
+    "cast": [
+      "Robert De Niro",
+      "Charles Grodin",
+      "Yaphet Kotto",
+      "John Ashton",
+      "Dennis Farina",
+      "Joe Pantoliano",
+      "Richard Foronjy",
+      "Robert Miranda"
+    ]
   }
 ];
