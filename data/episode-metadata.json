@@ -1,5 +1,54 @@
 [
   {
+    "pod": "EH",
+    "season": 0,
+    "episode": 293,
+    "film": "Panic Room (2002)",
+    "filmYear": 2002,
+    "releaseDate": "2/1/2026",
+    "length": "2:07:25",
+    "reviewer": "birria",
+    "guest": "Rosie Knight",
+    "mmmCount": 27,
+    "thatsGreatCount": 11,
+    "notableMoments": "Jason starts with proposing a General Strike against Haitch Industries. Then talk about a real General Strike, Ice and Minnesota. \n- HogTalk - Knight of the Seven Kingdoms (\"How can no one remember Ser Arwyn?\", and The Pitt S2E2. \n- Good David Fincher here - maybe his most Hitchcock movie \n- Haitch - \"This movie is Fucking Tense\" \n- Jodie Foster and Kristin Stewart have such great chemistry casting (even with Jared Leto, Forrest Whitaker, Dwight Yoakum, etc.) \n- Discussion of this movie in the Feminist lens is really great \n- Jason - talks about how pregnancy seems really hard and he's glad he will never have to do it. \n- Talk about Billionaires and Panic Rooms - devolves into why Billionaires aren't more charitable. \n- Letters - Lizzen, Animal Mother, Mr Java (Wide Open Spaces cover), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "When you are stuck at home, what is your go-to snack?",
+    "tildaH": "The Husband",
+    "tildaJason": "Snooty Real Estate Agent",
+    "tildaGuest": "Combo of Burnam and Junior",
+    "tildaCorey": "Snooty Real Estate Agent",
+    "showLink": "https://www.patreon.com/posts/panic-room-2002-149394082",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1769668221012-b2a510787fac1.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/panic-room/",
+    "imdbLink": "https://www.imdb.com/title/tt0258000/?ref_=ext_shr_lnk",
+    "tmdbId": 4547,
+    "tmdbPosterPath": "/hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "David Fincher"
+    ],
+    "cinematographers": [
+      "Conrad W. Hall",
+      "Darius Khondji"
+    ],
+    "cast": [
+      "Jodie Foster",
+      "Kristen Stewart",
+      "Forest Whitaker",
+      "Dwight Yoakam",
+      "Jared Leto",
+      "Patrick Bauchau",
+      "Ann Magnuson",
+      "Ian Buchanan"
+    ]
+  },
+  {
     "pod": "DP",
     "season": 1,
     "episode": 1,
@@ -61,7 +110,7 @@
     "guest": "ctcher",
     "mmmCount": 21,
     "thatsGreatCount": 3,
-    "notableMoments": "- ctcher working on the DunePod logo.  \n- Pod-First: First H Film Synopsis. \n- ctcher says that Harrison Ford came close to ruining this for him.",
+    "notableMoments": "- ctcher working on the DunePod logo.  \n- Pod-First: First H Film Synopsis. \n- ctcher says that Harrison Ford came close to ruining this for him. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
@@ -154,11 +203,11 @@
     "length": "1:16:19",
     "reviewer": "birria",
     "guest": "ctcher",
-    "mmmCount": 6,
-    "thatsGreatCount": 1,
-    "notableMoments": "- Pod-First: Jason suggests the segment: Who Would Tilda Swinton Play? \n- Jason has concerns about Timmy as Paul.",
+    "mmmCount": 17,
+    "thatsGreatCount": 5,
+    "notableMoments": "- Dune News - Set pics including the Ornathopter \n- Ian talks about Jodorowsli's Dune \n- Ian reveals a shocking lack of taste by stating that they did not like Blade Runner 2049 in the Hot Takes segment \n- Cohen Brothers are Jason's favorite living directors, and No Country is one of his favorite films of all time \n- Cohens and Roger Deakins make this a beautiful movie \n- Javier Bardem as Anton Chigurh is one of the best villains of all time \n- Jason still worried about the plan to make Dune Part 1 and Part 2 \n- Great episode from early in the Dune Pod days \n- Letters - Jonesy Loves Beer with a letter about finishing reading Dune, Letter from Jason's Mom",
     "hFlex": "N/A",
-    "jFlex": "Jason used to wear a beige trenchcoat, thinks Dylan is the most overrated songwriter ever.",
+    "jFlex": "Jason used to wear a beige trenchcoat, thinks Dylan is the most overrated songwriter ever. ",
     "kevsQuestion": "N/A",
     "tildaH": "N/A",
     "tildaJason": "The Dad, The Peach",
@@ -213,7 +262,7 @@
     "tildaCorey": null,
     "showLink": "https://open.spotify.com/episode/0Y4xk4jNjoqQKvmVfDd3kf?si=e-Acv3mMSDiVsVjbm6-bNw",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1594093984692-df52fe6b650c7.jpg",
-    "letterboxdLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/no-country-for-old-men/",
     "imdbLink": "https://www.imdb.com/title/tt0477348/?ref_=ext_shr_lnk",
     "tmdbId": 6977,
     "tmdbPosterPath": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
@@ -487,7 +536,7 @@
     "filmYear": 2019,
     "releaseDate": "9/1/2020",
     "length": "1:21:19",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "ctcher",
     "mmmCount": 12,
     "thatsGreatCount": 2,
@@ -607,7 +656,7 @@
     "releaseDate": "9/15/2020",
     "length": "1:19:49",
     "reviewer": "NJBoom",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 16,
     "thatsGreatCount": 4,
     "notableMoments": "- Slim first guest appearance. \n- Nice mention of Maman sculpture by Louise Bourgeois. \n- Proto VM",
@@ -653,7 +702,7 @@
     "filmYear": 2016,
     "releaseDate": "9/22/2020",
     "length": "1:23:04",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Danny Haas",
     "mmmCount": 26,
     "thatsGreatCount": 8,
@@ -662,7 +711,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "K2SO",
-    "tildaJason": "Bor Gullet, Krennic",
+    "tildaJason": "Bor Gullet, Krennic ",
     "tildaGuest": "Krennic",
     "tildaCorey": null,
     "showLink": "https://open.spotify.com/episode/1IIIQJdfBEXpcJ9qpiYNKs?si=-a-E52TGQKeZ75nPI6hyxg",
@@ -701,11 +750,11 @@
     "filmYear": null,
     "releaseDate": "9/28/2020",
     "length": "1:10:38",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Proto",
     "mmmCount": 14,
     "thatsGreatCount": 2,
-    "notableMoments": "Fun to hear how nervous Jason is about how the Dennis V Dune movie will be received",
+    "notableMoments": "Fun to hear how nervous Jason is about how the Dennis V Dune movie will be received ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
@@ -726,7 +775,7 @@
     "filmYear": null,
     "releaseDate": "10/6/2020",
     "length": "1:12:25",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Proto",
     "mmmCount": 19,
     "thatsGreatCount": 0,
@@ -896,7 +945,7 @@
     "filmYear": 2017,
     "releaseDate": "11/2/2020",
     "length": "1:47:23",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "ctcher",
     "mmmCount": 28,
     "thatsGreatCount": 2,
@@ -1093,7 +1142,7 @@
     "releaseDate": "2/1/2021",
     "length": "1:22:10",
     "reviewer": "Buddha",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 7,
     "thatsGreatCount": 0,
     "notableMoments": "- Pod-First: First use of 'Without Further A-Dune\" from last week's email suggestion. \n- H: \"woowwww wow wow wow\"",
@@ -1188,7 +1237,7 @@
     "filmYear": 1981,
     "releaseDate": "2/14/2021",
     "length": "1:02:46",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Proto",
     "mmmCount": 19,
     "thatsGreatCount": 0,
@@ -1213,12 +1262,12 @@
     "filmYear": 2013,
     "releaseDate": "2/23/2021",
     "length": "1:06:40",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Rob Schroeder",
     "mmmCount": 29,
     "thatsGreatCount": 0,
     "notableMoments": "- Fundraiser for tx food banks\n- Jason Dylan Slander Reprised\n- First request to play Insane Clown Posse Miracles\n- Haitch Coen Bros Tier list",
-    "hFlex": "Haitch played guitar with Joan Baez",
+    "hFlex": "Haitch played guitar with Joan Baez ",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "Roland Turner",
@@ -1309,7 +1358,7 @@
     "filmYear": 1998,
     "releaseDate": "3/8/2021",
     "length": "1:11:48",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "Tom Verrilli",
     "mmmCount": 24,
     "thatsGreatCount": 5,
@@ -1358,7 +1407,7 @@
     "releaseDate": "3/14/2021",
     "length": "1:55:24",
     "reviewer": "Pat",
-    "guest": "Charles Forsman / Dale_A",
+    "guest": "Charles Forsman / dale_a",
     "mmmCount": 35,
     "thatsGreatCount": 0,
     "notableMoments": "- Jason notices that H works the title of the film into the end of every synopsis\n- Jason promises to wear a pencil mustache if the episode gets 10000 listens; \n- origin of the original Corey sounder? \n- Pod-First - the Dune Pod Discord is conceived!",
@@ -1372,7 +1421,32 @@
     "showLink": "https://open.spotify.com/episode/6FDi6770kd2oLpnpxuO7NA?si=t1Q7ke6qSief43CzaFy1dA",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1615782925774-7ce9cc0f6421d.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt0116922/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0116922/?ref_=ext_shr_lnk",
+    "tmdbId": 638,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "tmdbPosterPath": "/fdTtij6H0sX9AzIjUeynh5zbfm7.jpg",
+    "directors": [
+      "David Lynch"
+    ],
+    "cinematographers": [
+      "Peter Deming"
+    ],
+    "cast": [
+      "Patricia Arquette",
+      "Bill Pullman",
+      "Balthazar Getty",
+      "Robert Blake",
+      "Robert Loggia",
+      "Michael Massee",
+      "Natasha Gregson Wagner",
+      "Richard Pryor",
+      "Gary Busey",
+      "Lucy Butler"
+    ]
   },
   {
     "pod": "DP",
@@ -1616,7 +1690,7 @@
     "releaseDate": "4/25/2021",
     "length": "2:18:41",
     "reviewer": "NJBoom",
-    "guest": "MG Siegler",
+    "guest": "M.G. Siegler",
     "mmmCount": 43,
     "thatsGreatCount": 9,
     "notableMoments": "- Timmy C's first movie! \n- Science content from J. \n- Clear connections between Christopher Nolan and Dennis V. \n- Corey has been cheating on DunePod with some dodgy KISS podcast. \n- Pat email, Boom email - Tilda should play the Hathaway part. \n- ctcher thinks Tilda should play Damon's part.",
@@ -1813,8 +1887,8 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
-    "tildaH": "Starscream",
-    "tildaJason": "Unicron",
+    "tildaH": "Starscream ",
+    "tildaJason": "Unicron ",
     "tildaGuest": "Jim - Blurr / Caleb - Wheelie",
     "tildaCorey": null,
     "showLink": "https://open.spotify.com/episode/2Fwxi5H99xcoB3f7Xlgqbq?si=_2aMaFOBSz6lGaNb9ZewPA",
@@ -1918,7 +1992,29 @@
     "showLink": "https://open.spotify.com/episode/5KniqQDf2vlx7ZRlcMQmyx",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1623012625645-8afca0211ecd8.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt0087544/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0087544/?ref_=ext_shr_lnk",
+    "tmdbId": 81,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Fantasy"
+    ],
+    "tmdbPosterPath": "/tcrkfB8SRPQCgwI88hQScua6nxh.jpg",
+    "directors": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      "Sumi Shimamoto",
+      "Ichiro Nagai",
+      "Gorō Naya",
+      "Yoji Matsuda",
+      "Yoshiko Sakakibara",
+      "Iemasa Kayumi",
+      "Hisako Kyoda",
+      "Mahito Tsujimura",
+      "Mina Tominaga",
+      "Kohei Miyauchi"
+    ]
   },
   {
     "pod": "DP",
@@ -1929,7 +2025,7 @@
     "releaseDate": "6/13/2021",
     "length": "1:13:56",
     "reviewer": "Terence",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 14,
     "thatsGreatCount": 2,
     "notableMoments": "- \"MOTO PANACAKU!\"\n- Phantom Thread was next says Kev, \n- \"Did anyone in the chat know for sure Canada has a Queen?\" - Slim\n- \"Weed has to be carbonized to be activated\"",
@@ -1981,7 +2077,7 @@
     "mmmCount": 34,
     "thatsGreatCount": 3,
     "notableMoments": "- Jason - 'Never fuck with someone with sleeves in the Dune Universe. Anytime they have sleeves, it's curtains for you.' \n- Sexual Imprinting talk. \n- H - \"Fuck this book\"\n- Jason - \"I'm looking for Fuck Clock in my Amazon Cloud Reader\"\n- SEX DUEL \n- Proto \"The Boner Has Awakened\" (Jason proclaims this is the quote of the episode)\n- Corey's Penthouse Letters style voicemail is great",
-    "hFlex": "More River Phoenix stories \"I had recently formed a progressive punk band called Henrietta's Lovers.\" Then River Phoenix shows up, and you can guess what happens.",
+    "hFlex": "More River Phoenix stories \"I had recently formed a progressive punk band called Henrietta's Lovers.\" Then River Phoenix shows up, and you can guess what happens. ",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "Waff",
@@ -2147,12 +2243,12 @@
     "guest": "Veronica Belmont",
     "mmmCount": 44,
     "thatsGreatCount": 2,
-    "notableMoments": "- Veronica is the Pod Midwife or Dune Doula\n- Matt and Jason met in person for the first time\n- H 50th birthday\n- Veronica sings Bowie song from Labyrinth and Jeff Bezos song",
+    "notableMoments": "- Veronica is the Pod Midwife or Dune Doula\n- Matt and Jason met in person for the first time\n- H 50th birthday\n- Veronica sings Bowie song from Labyrinth and Jeff Bezos song ",
     "hFlex": "Bluto from Popeye and Beast Rabban from Dune 84 went to college with H's dad",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "The Supreme Being or Evil",
-    "tildaJason": "Agamemnon",
+    "tildaJason": "Agamemnon ",
     "tildaGuest": "Robinhood",
     "tildaCorey": null,
     "showLink": "https://open.spotify.com/episode/6n5kiCFD0mMRZPPLINP6rt?si=nHcMrnXoQIijQT52SrA_Dg",
@@ -2198,7 +2294,7 @@
     "mmmCount": 10,
     "thatsGreatCount": 0,
     "notableMoments": "- \"Climaxed on the Worm\" - Haich\n- Haitch's AGGRESSIVE INTERVIEWING \n- \"Danny, Have you seen other movies in the theater?\"  Jason asking if Danny has ever been to a movie theater, ever. \n- J' Denis impressions",
-    "hFlex": "H becomes \"Mayor of Dune Premiere Town\"",
+    "hFlex": "H becomes \"Mayor of Dune Premiere Town\" ",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "N/A",
@@ -2274,8 +2370,8 @@
     "hFlex": "N/A",
     "jFlex": "Jason knows the guy that took the picture of Alex Skarsgård \"exploring the South Pole\"",
     "kevsQuestion": "N/A",
-    "tildaH": "Rutledge",
-    "tildaJason": "Rutledge",
+    "tildaH": "Rutledge ",
+    "tildaJason": "Rutledge ",
     "tildaGuest": "Rutledge",
     "tildaCorey": "Corey didn't watch this movie: didn't even mention Tilda in his VM",
     "showLink": "https://open.spotify.com/episode/18a6toYY77YzALKzZgSXJA?si=YzdxfTNTQ3O2URLGsEkvFw",
@@ -2321,7 +2417,7 @@
     "notableMoments": "-We're only talking about Prince this episode\n-Batman introduced Jason to Prince\n-Sped up audio books + movies \"junkie talk\"\n-Disney Star wars hotel = luxury larping\n-Jason's top hype in order: dune preview, Batman, distant third= kids born\n-Pod-First - KEV'S FIRST QUESTION",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "If you were an executive producer on DUNE '21, who would write the old-fashioned \"lead single\" (ala Aerosmith's \"Don't Wanna Miss a Thing,\" Seal's \"Kiss From a Rose)?",
+    "kevsQuestion": "If you were an executive producer on DUNE '21, who would write the old-fashioned \"lead single\" (ala Aerosmith's \"Don't Wanna Miss a Thing,\" Seal's \"Kiss From a Rose)? ",
     "tildaH": "Alfred",
     "tildaJason": "Alfred",
     "tildaGuest": "Alfred",
@@ -2722,7 +2818,7 @@
     "guest": "Lorelei David",
     "mmmCount": 42,
     "thatsGreatCount": 3,
-    "notableMoments": "- Guys ask Lorelei to provide some high-quality 3-d Avatars for the pod. \n- Lorelei  a perfect guest to talk about why this is such an incredible looking movie - prime Practical Effects period of filmmaking. \n- Jason Sings Ewok Yub-Nub song. \n- Lorelai is in a band where she plays Theremin.",
+    "notableMoments": "- Guys ask Lorelei to provide some high-quality 3-d Avatars for the pod. \n- Lorelei  a perfect guest to talk about why this is such an incredible looking movie - prime Practical Effects period of filmmaking. \n- Jason Sings Ewok Yub-Nub song. \n- Lorelai is in a band where she plays Theremin. ",
     "hFlex": "N/A",
     "jFlex": "Jason ordered a desk that showed up with no screws and he totally screwed that desk (together)",
     "kevsQuestion": "Good Kev voicemail, but no question",
@@ -2770,10 +2866,10 @@
     "guest": "Denis Villeneuve",
     "mmmCount": 23,
     "thatsGreatCount": 0,
-    "notableMoments": "See the title of the episode. It's a big one folks.",
+    "notableMoments": "See the title of the episode. It's a big one folks. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Voicemail but no question.",
+    "kevsQuestion": "Voicemail but no question. ",
     "tildaH": "N/A",
     "tildaJason": "N/A",
     "tildaGuest": null,
@@ -2843,10 +2939,10 @@
     "guest": "None",
     "mmmCount": 77,
     "thatsGreatCount": 0,
-    "notableMoments": "- Duuuuuuuuune! \n- During discussion of the ships coming out of the water on Caladan, \n- Jason wonders if any Crazy Ivans are happening \n- Haitch says \"One ping\" - pre the Red October episode and \"One ping\" taking off in the Discord.",
+    "notableMoments": "- Duuuuuuuuune! \n- During discussion of the ships coming out of the water on Caladan, \n- Jason wonders if any Crazy Ivans are happening \n- Haitch says \"One ping\" - pre the Red October episode and \"One ping\" taking off in the Discord. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Voicemail but no question.",
+    "kevsQuestion": "Voicemail but no question. ",
     "tildaH": "Reverend Mother",
     "tildaJason": "The Harkonen hand harp player in the spa or \"Spider Wanna.\"",
     "tildaGuest": null,
@@ -2890,7 +2986,7 @@
     "guest": "Patrice Vermette",
     "mmmCount": 43,
     "thatsGreatCount": 1,
-    "notableMoments": "- Discussion of the recently announced Dune Part 2\n- Jason hopes for a gender-flipped Feyd to be played by future Alia, Anja Taylor-Joy.",
+    "notableMoments": "- Discussion of the recently announced Dune Part 2\n- Jason hopes for a gender-flipped Feyd to be played by future Alia, Anja Taylor-Joy. ",
     "hFlex": "N/A",
     "jFlex": "Jason does yoga with Harvey Keitel?!?!",
     "kevsQuestion": "N/A",
@@ -2920,7 +3016,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "Dr Fletcher",
-    "tildaJason": "Insurance",
+    "tildaJason": "Insurance ",
     "tildaGuest": "Bob",
     "tildaCorey": "None",
     "showLink": "https://open.spotify.com/episode/0ezv2KS8tuefoTg7TzjQWE?si=oM1xM6QlSWaIe-7FHC9Vpg",
@@ -2963,7 +3059,7 @@
     "guest": "Ryan Condal",
     "mmmCount": 21,
     "thatsGreatCount": 7,
-    "notableMoments": "- Ryan Condal first appearance\n- Condal talking about House of the Dragon production\n- Condal has a hero pulse-rifle from this movie in his collection\n- H says this is a perfect movie. \n- \"Get away from her, you bitch!\" is an all-timer. \n- Explosive Decompression talk.",
+    "notableMoments": "- Ryan Condal first appearance\n- Condal talking about House of the Dragon production\n- Condal has a hero pulse-rifle from this movie in his collection\n- H says this is a perfect movie. \n- \"Get away from her, you bitch!\" is an all-timer. \n- Explosive Decompression talk. ",
     "hFlex": "H had a Shotgun phase",
     "jFlex": "J did not have a Shotgun phase",
     "kevsQuestion": "Good voicemail, but no question",
@@ -3008,14 +3104,14 @@
     "releaseDate": "11/14/2021",
     "length": "1:42:11",
     "reviewer": "Hex",
-    "guest": "MG Siegler",
+    "guest": "M.G. Siegler",
     "mmmCount": 7,
     "thatsGreatCount": 0,
-    "notableMoments": "Haitch plays a song from his teenage rock band's album... twice",
+    "notableMoments": "Haitch plays a song from his teenage rock band's album... twice ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "NA",
-    "tildaH": "didn't answer",
+    "tildaH": "didn't answer ",
     "tildaJason": "N/A",
     "tildaGuest": "HAL",
     "tildaCorey": "HAL",
@@ -3108,10 +3204,10 @@
     "guest": "Kristen Cordle",
     "mmmCount": 62,
     "thatsGreatCount": 1,
-    "notableMoments": "Haitch casts Jena Malone as his wife in the \"eventual biopic of his life.\"",
-    "hFlex": "Mentions his close personal friend, Tom Skerritt (he had a nice 45 minute conversation with him at a wedding).",
+    "notableMoments": "Haitch casts Jena Malone as his wife in the \"eventual biopic of his life.\" ",
+    "hFlex": "Mentions his close personal friend, Tom Skerritt (he had a nice 45 minute conversation with him at a wedding). ",
     "jFlex": "N/A",
-    "kevsQuestion": "None - no voicemail.",
+    "kevsQuestion": "None - no voicemail. ",
     "tildaH": "NSA Advisor or Angela Bassett character",
     "tildaJason": "Religious terrorist (Gary Sinise)",
     "tildaGuest": "Lesbian Palmer Joss (Matthew McConaughey)",
@@ -3250,7 +3346,7 @@
     "filmYear": 1988,
     "releaseDate": "12/19/2021",
     "length": "1:30:33",
-    "reviewer": "birria",
+    "reviewer": "birria ",
     "guest": "None",
     "mmmCount": 20,
     "thatsGreatCount": 1,
@@ -3305,7 +3401,7 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
-    "tildaH": "Tron",
+    "tildaH": "Tron ",
     "tildaJason": "Sark Dillinger",
     "tildaGuest": "Dumont",
     "tildaCorey": "Who knows? Jeff Bridges?",
@@ -3516,7 +3612,7 @@
     "guest": "Slim",
     "mmmCount": 22,
     "thatsGreatCount": 1,
-    "notableMoments": "- Slim held to account for Episode 91 of 70mm - the great Schism and the Great Reconciliation. \n- Jason thought this was a Smart Dumb Movie, now realizes it is a Smart Smart movie. \n- Would You Like To Know More sounder comes from this movie. \n- Dune Pod is officially against Authoritarianism. \n- Corey connects this movie to Revenge of the Nerds cia bad Electric Violin play.",
+    "notableMoments": "- Slim held to account for Episode 91 of 70mm - the great Schism and the Great Reconciliation. \n- Jason thought this was a Smart Dumb Movie, now realizes it is a Smart Smart movie. \n- Would You Like To Know More sounder comes from this movie. \n- Dune Pod is officially against Authoritarianism. \n- Corey connects this movie to Revenge of the Nerds cia bad Electric Violin play. ",
     "hFlex": "N/A",
     "jFlex": "Jason saw this movie on mushrooms back in the 90s",
     "kevsQuestion": "N/A",
@@ -4072,12 +4168,12 @@
     "guest": "Ryan Condal",
     "mmmCount": 25,
     "thatsGreatCount": 5,
-    "notableMoments": "- Jason came home with covid\n- Lynch wants to revisit Dune\n- Zolidus + Buddha join discord!\n- Ryan won bid for Hudson's knife\n-",
+    "notableMoments": "- Jason came home with covid\n- Lynch wants to revisit Dune\n- Zolidus + Buddha join discord!\n- Ryan won bid for Hudson's knife\n- ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
     "tildaH": "N/A",
-    "tildaJason": "Doc Holliday",
+    "tildaJason": "Doc Holliday ",
     "tildaGuest": null,
     "tildaCorey": null,
     "showLink": "https://open.spotify.com/episode/5KrsGTEtmRdcSVgHaj8Nbo?si=b4SqLUUbSaSgPFJswURs3w",
@@ -4168,7 +4264,7 @@
     "notableMoments": "Jason Sings The Raising Arizona theme",
     "hFlex": "N/A",
     "jFlex": "I was on Bloomberg talking about the hot dog meme! If you have a chance to go on basic cable to talk about memes, i highly recommend it. \n\nMy team played on the White House basketball court - I was flattening people left and right.",
-    "kevsQuestion": "What your favorite quotes in films are . . . because of the way they're said?",
+    "kevsQuestion": "What your favorite quotes in films are . . . because of the way they're said? ",
     "tildaH": "Nathan Arizona",
     "tildaJason": "Mrs. Arizona",
     "tildaGuest": "John Goodman",
@@ -4209,10 +4305,10 @@
     "releaseDate": "5/15/2022",
     "length": "1:27:40",
     "reviewer": "Space Monkey",
-    "guest": "Dale_A",
+    "guest": "dale_a",
     "mmmCount": 25,
     "thatsGreatCount": 2,
-    "notableMoments": "Jason sings the theme song from 3-2-1- Contact\n- Dale_A sings the Screech song from Saved By The Bell Hawaiian Style",
+    "notableMoments": "Jason sings the theme song from 3-2-1- Contact\n- dale_a sings the Screech song from Saved By The Bell Hawaiian Style",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Has a performance ever ruined a movie for you?",
@@ -4310,7 +4406,7 @@
     "thatsGreatCount": 3,
     "notableMoments": "- Great pitch for the \"Mum's of DunePod Discord\"\n- H pitched a meetup for Bluey Live. \n- Pod-First: Goldtoe's woes (Coined by Hex!) - Colonoscopy Prep. \n- H announces a Special Edition version of Episode 1 of the pod. \n- H full reading of Zorg monologue. \n- Frank talk about the social benefits of cunnilingus in sci-fi.",
     "hFlex": "H was Mr Mainland at Mainland High School while trying to help save people for Jesus, and make out with girls",
-    "jFlex": "In High School, Jason was in the Math Club, Debate team, Honors Society, Literary Magazine.",
+    "jFlex": "In High School, Jason was in the Math Club, Debate team, Honors Society, Literary Magazine. ",
     "kevsQuestion": "What was your creative outlet at school?",
     "tildaH": "President Lindberg",
     "tildaJason": "Zorg",
@@ -4409,7 +4505,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "your favorite TV series based on a movie",
     "tildaH": "Kastagir",
-    "tildaJason": "Ramirez",
+    "tildaJason": "Ramirez ",
     "tildaGuest": "the Kurgan",
     "tildaCorey": "Michael P.S. Hayes",
     "showLink": "https://open.spotify.com/episode/1G0xsKMx4T4eVDKfJv4zBp?si=TAOrapjpTYmTi6hMPGzPqQ",
@@ -4530,7 +4626,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "Actors alive or dead to act together in a scene like the diner scene.",
     "tildaH": "Jon Voight",
-    "tildaJason": "Val Kilmer",
+    "tildaJason": "Val Kilmer ",
     "tildaGuest": "from the Chat - Van Zandt, Henry Rollins, Pacino",
     "tildaCorey": "Danny Trejo",
     "showLink": "https://open.spotify.com/episode/2jFiojA15bUwI8hAVN63ZK?si=Kn5aP_xPR7elQGuSrVUeCA",
@@ -4982,7 +5078,7 @@
     "guest": "Sophie Shin",
     "mmmCount": 15,
     "thatsGreatCount": 1,
-    "notableMoments": "- Rule #1 of Dune Pod - The Pod can't lead to divorce. \n- Corey: who would win in a krumping battle, H or J? \n- Ethan first email.",
+    "notableMoments": "- Rule #1 of Dune Pod - The Pod can't lead to divorce. \n- Corey: who would win in a krumping battle, H or J? \n- Ethan first email. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "What is your favorite movie that you can never watch again?",
@@ -5296,7 +5392,7 @@
     "releaseDate": "10/23/2022",
     "length": "1:37:00",
     "reviewer": "Space Monkey",
-    "guest": "MG Siegler",
+    "guest": "M.G. Siegler",
     "mmmCount": 26,
     "thatsGreatCount": 4,
     "notableMoments": "Jason asks the guest: \"Have you ever seen The Neverending Story?\" Response: \"Yes, many times.\"",
@@ -5395,11 +5491,11 @@
     "guest": "Tom Coates",
     "mmmCount": 39,
     "thatsGreatCount": 2,
-    "notableMoments": "- H just back from the Hoffman Process, hints at the potency of un-cut H. \n- Lots of Elon talk after he is forced to actually buy Twitter. \n- Is this the greatest movie of all time? \n- Tom reading \"What a Savings\" is gold. \n- Pod-First: Paul Atreides-Nuts drops greatest VM in history - Florence Pew Pew Pew, \n- Silly Thermian voicemail also excellent",
-    "hFlex": "Asked Patrick Stewart a question at a convention",
+    "notableMoments": "- H just back from the Hoffman Process, hints at the potency of un-cut H. \n- Lots of Elon talk after he is forced to actually buy Twitter. \n- Is this the greatest movie of all time? \n- Tom reading \"What a Savings\" is gold. \n- Pod-First: Paul Atreides-Nuts drops greatest VM in history - Florence Pew Pew Pew, \n- Silly Thermian voicemail also excellent ",
+    "hFlex": "Asked Patrick Stewart a question at a convention ",
     "jFlex": "Jason met Michael Moore at a convention while Moore was housing chicken fingers",
     "kevsQuestion": "Since this movie starts at a convention, any funny convention stories?",
-    "tildaH": "Rickman - she should play Dr Lazarus if they ever do a sequel",
+    "tildaH": "Rickman - she should play Dr Lazarus if they ever do a sequel ",
     "tildaJason": "Saris",
     "tildaGuest": "Rickman (obviously), or Mathazar (the better choice)",
     "tildaCorey": "Tim Allen's character",
@@ -5567,9 +5663,9 @@
     "notableMoments": "N/A",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "What movies were you shown in school?",
+    "kevsQuestion": "What movies were you shown in school? ",
     "tildaH": "Hillbilly",
-    "tildaJason": "N/A",
+    "tildaJason": "N/A ",
     "tildaGuest": "Sully",
     "tildaCorey": "Didn't watch/prepped for Gattaca",
     "showLink": "https://open.spotify.com/episode/5HIyBXRxI5RvCMeyfARO0d?si=VsWjIJpvRMaT1Sdnv73WPA",
@@ -5706,7 +5802,7 @@
     "guest": "Ryan Condal",
     "mmmCount": 37,
     "thatsGreatCount": 2,
-    "notableMoments": "- H made an official Dune Pod Explosive Decompression sounder. \n- Jason pitched a live-reading of the Dinner Scene from Dune at the D2 Meetup.",
+    "notableMoments": "- H made an official Dune Pod Explosive Decompression sounder. \n- Jason pitched a live-reading of the Dinner Scene from Dune at the D2 Meetup. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "What is your favorite egregious explosion in a non-Cameron film?",
@@ -5877,7 +5973,7 @@
     "notableMoments": "N/A",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "When's the last time a creative redeemed themselves to you, after a disappointing performance?",
+    "kevsQuestion": "When's the last time a creative redeemed themselves to you, after a disappointing performance? ",
     "tildaH": "Monica Bellucci role",
     "tildaJason": "Blofeld",
     "tildaGuest": "Blofeld/Denby",
@@ -6162,16 +6258,16 @@
     "releaseDate": "3/5/2023",
     "length": "1:42:21",
     "reviewer": "Terence",
-    "guest": "Dale_A / Jonesy Loves Beer",
+    "guest": "dale_a / Jonesy Loves Beer",
     "mmmCount": 23,
     "thatsGreatCount": 3,
     "notableMoments": "Art - John Entwistle/If Tilda plays Prof Sub Zero, that'll be her second time replacing an Asian character",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Haitch - Have you seen Fargo or not?\nFor Dale and Jason - What game shows did you watch growing up?",
+    "kevsQuestion": "Haitch - Have you seen Fargo or not?\nFor Dale and Jason - What game shows did you watch growing up?\n",
     "tildaH": "Weiss",
     "tildaJason": "Professor Sub-Zero",
-    "tildaGuest": "Mick Fleetwood - Jonesy and Dale_A",
+    "tildaGuest": "Mick Fleetwood - Jonesy and dale_a",
     "tildaCorey": "Dawson",
     "showLink": "https://open.spotify.com/episode/4Hc9O1TgVEg3NIyBJuXLUO?si=x88L9d7DQd6I5Z6TtYFCYQ",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1677776053348-bfabd8ad7dd1d.jpg",
@@ -6216,9 +6312,9 @@
     "notableMoments": "- No Haitch Synopsis!?! (Guest synopsis by Rosie!). \n- Pod-First - First Truthsayer segment",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "What Dune spinoff movie would you make? What would it be like?",
+    "kevsQuestion": "What Dune spinoff movie would you make? What would it be like? ",
     "tildaH": "Topo",
-    "tildaJason": "Kraken",
+    "tildaJason": "Kraken ",
     "tildaGuest": "Nuidis Vulko",
     "tildaCorey": "\"Who cares?\" (Corey says someone but it's hard to hear. maybe he says Aquaman?)",
     "showLink": "https://open.spotify.com/episode/0zLYGNIw2mluYhrDKRzP0O?si=iAcEfxDURnSHwStCa6zn7A",
@@ -6272,7 +6368,32 @@
     "showLink": "https://open.spotify.com/episode/07guQjGFiBTj1ArNHEkZV4?si=gjWfgAbqRW2OFB3ORv-ykQ",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1678240542055-6f41d62d13596.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt2403776/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt2403776/?ref_=ext_shr_lnk",
+    "tmdbId": 329865,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "tmdbPosterPath": "/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "cinematographers": [
+      "Bradford Young"
+    ],
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker",
+      "Michael Stuhlbarg",
+      "Mark O'Brien",
+      "Tzi Ma",
+      "Abigail Pniowsky",
+      "Julia Scarlett Dan",
+      "Jadyn Malone",
+      "Frank Schorpion"
+    ]
   },
   {
     "pod": "DP",
@@ -6336,9 +6457,9 @@
     "mmmCount": 45,
     "thatsGreatCount": 4,
     "notableMoments": "- DISNEY_EXEC joins the Discord\n- First secret Disney drop\n- Jason sings Wichita Lineman",
-    "hFlex": "Haitch says his friends in school called him Robert Downey Jr.",
+    "hFlex": "Haitch says his friends in school called him Robert Downey Jr. ",
     "jFlex": "N/A",
-    "kevsQuestion": "Did you play with your food as a kid? Do your kids play with theirs, and if so, how do you deal with that?",
+    "kevsQuestion": "Did you play with your food as a kid? Do your kids play with theirs, and if so, how do you deal with that? ",
     "tildaH": "Whistling Creeper",
     "tildaJason": "Lady Who Gets A Face Full Of Cards in the alien flyby scene",
     "tildaGuest": "Truffaut/Alien",
@@ -6386,8 +6507,8 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "what food could the Agents bribe you with?",
-    "tildaH": "Morpheus",
-    "tildaJason": "Morpheus",
+    "tildaH": "Morpheus ",
+    "tildaJason": "Morpheus ",
     "tildaGuest": "Neo",
     "tildaCorey": "Morpheus",
     "showLink": "https://open.spotify.com/episode/4m66qoyqatxvu1OjKGuiXu?si=_XS7NcEOQfe_6ahFv1owlg",
@@ -6473,7 +6594,7 @@
     "filmYear": 1993,
     "releaseDate": "4/16/2023",
     "length": "1:26:30",
-    "reviewer": "Terence",
+    "reviewer": "Terence ",
     "guest": "Mikey P",
     "mmmCount": 19,
     "thatsGreatCount": 2,
@@ -6722,11 +6843,11 @@
     "mmmCount": 19,
     "thatsGreatCount": 0,
     "notableMoments": "N/A",
-    "hFlex": "Paul Smith (Bluto/the Beast Rabban) was H's dad's college roommate",
+    "hFlex": "Paul Smith (Bluto/the Beast Rabban) was H's dad's college roommate ",
     "jFlex": "N/A",
     "kevsQuestion": "what contemporary musician could write better songs for Popeye?",
-    "tildaH": "the Commodore",
-    "tildaJason": "the Commodore",
+    "tildaH": "the Commodore ",
+    "tildaJason": "the Commodore ",
     "tildaGuest": "Popeye",
     "tildaCorey": "Bear the hermit",
     "showLink": "https://open.spotify.com/episode/4t2Q1D2419J0LLUnaS30zc?si=lsUwhUe6TCeqrAKPO1tGHw",
@@ -7090,7 +7211,7 @@
     "guest": "Ryan Condal / Dave Mandel",
     "mmmCount": 82,
     "thatsGreatCount": 1,
-    "notableMoments": "At timestamp 11:00, the birth of CurlyAllie's daughter, Alia, is announced by Haitch.",
+    "notableMoments": "At timestamp 11:00, the birth of CurlyAllie's daughter, Alia, is announced by Haitch. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "What's the biggest glow up from the original to sequel?",
@@ -7192,7 +7313,7 @@
     "notableMoments": "N/A",
     "hFlex": "Lived on Intracoastal Waterway (setting of movie)",
     "jFlex": "N/A",
-    "kevsQuestion": "Have you ever seen a movie and you feel a lurch, like something absurd is going to happen?",
+    "kevsQuestion": "Have you ever seen a movie and you feel a lurch, like something absurd is going to happen? ",
     "tildaH": "Sarah Jessica Parker role",
     "tildaJason": "Sex Worm",
     "tildaGuest": "Joanna: Max Dave: Dr. Faraday",
@@ -7340,7 +7461,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "(ChatGPT) How does Spike Jonze's film \"Her\" challenge our perceptions of intimacy and relationships in a technologically advanced society? What commentary does it offer about the nature of human connection in an increasingly digital world?",
     "tildaH": "Surrogate/Publisher",
-    "tildaJason": "Surrogate",
+    "tildaJason": "Surrogate ",
     "tildaGuest": "Blind Date",
     "tildaCorey": "Foul-Mouthed Gamer",
     "showLink": "https://www.patreon.com/posts/her-2013-87793219?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
@@ -7702,7 +7823,7 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Have you ever bonded a friendship over a movie that wasn't Dune?",
-    "tildaH": "Harry",
+    "tildaH": "Harry ",
     "tildaJason": "Payne",
     "tildaGuest": "Payne",
     "tildaCorey": "Annoying lady who gets blown up/run over",
@@ -7948,7 +8069,32 @@
     "showLink": "https://www.patreon.com/posts/across-2023-and-92539006?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1699475025999-43a26db76b01.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt0106315/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0106315/?ref_=ext_shr_lnk",
+    "tmdbId": 569094,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "directors": [
+      "Justin K. Thompson",
+      "Kemp Powers",
+      "Joaquim Dos Santos"
+    ],
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Brian Tyree Henry",
+      "Luna Lauren Vélez",
+      "Jake Johnson",
+      "Oscar Isaac",
+      "Jason Schwartzman",
+      "Issa Rae",
+      "Daniel Kaluuya",
+      "Karan Soni"
+    ]
   },
   {
     "pod": "EH",
@@ -8013,7 +8159,7 @@
     "notableMoments": "N/A",
     "hFlex": "N/A",
     "jFlex": "Met Tony Robbins at a juice bar in Vegas",
-    "kevsQuestion": "a. Who is a writer who you know will become a favorite, who you haven't had time to read yet? b. Most recent favorite author?",
+    "kevsQuestion": "a. Who is a writer who you know will become a favorite, who you haven't had time to read yet? b. Most recent favorite author? ",
     "tildaH": "Dr. Hall",
     "tildaJason": "Sterno Drinker",
     "tildaGuest": "Dr. Stone",
@@ -8222,7 +8368,7 @@
     "releaseDate": "12/24/2023",
     "length": "2:07:18",
     "reviewer": "Space Monkey",
-    "guest": "Dale_A",
+    "guest": "dale_a",
     "mmmCount": 41,
     "thatsGreatCount": 5,
     "notableMoments": "N/A",
@@ -8275,8 +8421,8 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Do you have a hidden talent or hobby?",
-    "tildaH": "Jen",
-    "tildaJason": "Aughra",
+    "tildaH": "Jen ",
+    "tildaJason": "Aughra ",
     "tildaGuest": "Chamberlin",
     "tildaCorey": "Landstriders",
     "showLink": "https://www.patreon.com/posts/dark-crystal-95428908?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
@@ -8306,53 +8452,6 @@
       "Louise Gold",
       "Brian Meehl",
       "Stephen Garlick"
-    ]
-  },
-  {
-    "pod": "EH",
-    "season": 8,
-    "episode": 229,
-    "film": "The Warriors (1979)",
-    "filmYear": 1979,
-    "releaseDate": "1/12/2024",
-    "length": "2:07:42",
-    "reviewer": "birria",
-    "guest": "Dave itzkoff",
-    "mmmCount": 32,
-    "thatsGreatCount": 7,
-    "notableMoments": "Haitch upset that Dune Pt 2 isn't getting award nominations, to which Jason declares that H is very easy to troll\n- Another installment of the Itzkoff NYC 1970s Movie Tour\n- Tom Holland/Zendaya Engaged - 'Yes, my Spider Lord\"\n- Jason's Hawaii trip, and a photo of his feet, unleashed a new era in the Discord - ALL FOOT STUFF\n- Haitch did not take the whole Foot thing well - \"I did not start this podcast to collect Feet pics.\"\n- Itzkoff - \"Let a thousand toes bloom!\"\n- Itzkoff is a great guest to talk NYC in the 70s\n- First time Email from Hillary M who suggested some great movies for the pod\n- First time Voicemail from Juan (Animal Mother), and it's a phenomenal start",
-    "hFlex": "N/A",
-    "jFlex": "N/A",
-    "kevsQuestion": "What is the Escape Hatch/Warriors Gang Name and Uniform? The Middle Aged Dads or The Engineers",
-    "tildaH": "N/A",
-    "tildaJason": "Swan",
-    "tildaGuest": "Cyrus - Can You Dig It",
-    "tildaCorey": "Tilda should play Tilda Swinton in a new gang called The Tildas / or Rembrandt",
-    "showLink": "https://www.patreon.com/posts/warriors-1979-119820685",
-    "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1736655562235-bafa3b1edbf45.jpg",
-    "letterboxdLink": "https://letterboxd.com/film/the-warriors/",
-    "imdbLink": "https://www.imdb.com/title/tt0080120/?ref_=ext_shr_lnk",
-    "tmdbId": 11474,
-    "tmdbPosterPath": "/sjN9IZHmRHZmpxvQYYYFNQ22Pch.jpg",
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "directors": [
-      "Walter Hill"
-    ],
-    "cinematographers": [
-      "Andrew Laszlo"
-    ],
-    "cast": [
-      "Michael Beck",
-      "James Remar",
-      "David Patrick Kelly",
-      "Dorsey Wright",
-      "David Harris",
-      "Deborah Van Valkenburgh",
-      "Brian Tyler",
-      "Tom McKitterick"
     ]
   },
   {
@@ -8400,54 +8499,6 @@
       "Martin Ferrero",
       "BD Wong",
       "Joseph Mazzello"
-    ]
-  },
-  {
-    "pod": "EH",
-    "season": 8,
-    "episode": 230,
-    "film": "Burn After Reading",
-    "filmYear": null,
-    "releaseDate": "1/19/2024",
-    "length": "1:37:56",
-    "reviewer": "birria",
-    "guest": "Devindra Hardawar",
-    "mmmCount": 18,
-    "thatsGreatCount": 13,
-    "notableMoments": "Part One of our Tilda Double-Header\n- Devindra notes that this movie from 2008 was a direct response to living through 8 years under GW Bush \n- Because of that, the movie has aged really well as our country has gotten dumber\n- Malkovich is phenomenal in this film, McDormand is great, this is Peak Clooney\n- Brad Pitt - Also Peak Pitt. His Chad character is perfectly idiotic. \n- Letters - Animal Mother, Truthsayer, Kev and Corey",
-    "hFlex": "N/A",
-    "jFlex": "N/A",
-    "kevsQuestion": "What was the least helpful lesson you ever learned?",
-    "tildaH": "Ozzy",
-    "tildaJason": "Palmer at the CIA",
-    "tildaGuest": "Chad (The Brad Pitt role)",
-    "tildaCorey": "swap Tilda and Clooney",
-    "showLink": "https://www.patreon.com/posts/burn-after-120211197",
-    "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1737141605385-1dd7fa972f2af.jpg",
-    "letterboxdLink": "https://letterboxd.com/film/burn-after-reading/",
-    "imdbLink": "https://www.imdb.com/title/tt0887883/?ref_=ext_shr_lnk",
-    "tmdbId": 4944,
-    "tmdbPosterPath": "/jdwSkQu3XirmX18MNj8CqFWsCk.jpg",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "directors": [
-      "Ethan Coen",
-      "Joel Coen"
-    ],
-    "cinematographers": [
-      "Emmanuel Lubezki"
-    ],
-    "cast": [
-      "George Clooney",
-      "Frances McDormand",
-      "Brad Pitt",
-      "John Malkovich",
-      "Tilda Swinton",
-      "Richard Jenkins",
-      "Elizabeth Marvel",
-      "David Rasche"
     ]
   },
   {
@@ -8513,7 +8564,7 @@
     "notableMoments": "Jason Sings Take On Me (A-Ha)",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "What makes a good movie opening credits sequence?",
+    "kevsQuestion": "What makes a good movie opening credits sequence? ",
     "tildaH": "Shaman",
     "tildaJason": "Primal Man",
     "tildaGuest": "Mason",
@@ -8617,7 +8668,31 @@
     "showLink": "https://www.patreon.com/posts/warrior-2019-98571620?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1708064328834-f542ec287fe34.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt5743796/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt5743796/?ref_=ext_shr_lnk",
+    "tmdbId": 59440,
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "tmdbPosterPath": "/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
+    "directors": [
+      "Gavin O'Connor"
+    ],
+    "cinematographers": [
+      "Masanobu Takayanagi"
+    ],
+    "cast": [
+      "Joel Edgerton",
+      "Tom Hardy",
+      "Nick Nolte",
+      "Jennifer Morrison",
+      "Frank Grillo",
+      "Kevin Dunn",
+      "Maximiliano Hernández",
+      "Bryan Callen",
+      "Sam Sheridan",
+      "Fernando Chien"
+    ]
   },
   {
     "pod": "EH",
@@ -8722,7 +8797,7 @@
     "releaseDate": "3/4/2024",
     "length": "0:49:01",
     "reviewer": "Space Monkey",
-    "guest": "All of us!",
+    "guest": "Live Audience",
     "mmmCount": 0,
     "thatsGreatCount": 1,
     "notableMoments": "No drunken nerds got dragged out of the building by security",
@@ -8747,7 +8822,7 @@
     "releaseDate": "3/10/2024",
     "length": "2:23:22",
     "reviewer": "Space Monkey",
-    "guest": "M.G. Sieger",
+    "guest": "M.G. Siegler",
     "mmmCount": 24,
     "thatsGreatCount": 6,
     "notableMoments": "Jason Sings Tubthumper",
@@ -8802,14 +8877,40 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
-    "tildaH": "Donovan",
+    "tildaH": "Donovan ",
     "tildaJason": "N/A",
     "tildaGuest": "Devindra - Mayan Priest or the Inquisitor / ctcher - Friar",
     "tildaCorey": null,
     "showLink": "https://www.patreon.com/posts/fountain-2006-100451743?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1710545606388-131cb3addb1ad.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt0414993/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0414993/?ref_=ext_shr_lnk",
+    "tmdbId": 1381,
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Science Fiction",
+      "Romance"
+    ],
+    "tmdbPosterPath": "/4XTf8GuCVLWolubANaKkpk62YPq.jpg",
+    "directors": [
+      "Darren Aronofsky"
+    ],
+    "cinematographers": [
+      "Matthew Libatique"
+    ],
+    "cast": [
+      "Hugh Jackman",
+      "Rachel Weisz",
+      "Ellen Burstyn",
+      "Mark Margolis",
+      "Stephen McHattie",
+      "Fernando Hernández",
+      "Cliff Curtis",
+      "Sean Patrick Thomas",
+      "Donna Murphy",
+      "Ethan Suplee"
+    ]
   },
   {
     "pod": "EH",
@@ -8834,7 +8935,32 @@
     "showLink": "https://www.patreon.com/posts/total-recall-100892014?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1711155613611-48ace88404cb3.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt0100802/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0100802/?ref_=ext_shr_lnk",
+    "tmdbId": 861,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+    "directors": [
+      "Paul Verhoeven"
+    ],
+    "cinematographers": [
+      "Jost Vacano"
+    ],
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Rachel Ticotin",
+      "Sharon Stone",
+      "Ronny Cox",
+      "Michael Ironside",
+      "Marshall Bell",
+      "Mel Johnson Jr.",
+      "Michael Champion",
+      "Roy Brocksmith",
+      "Ray Baker"
+    ]
   },
   {
     "pod": "EH",
@@ -8853,7 +8979,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "When does a movie leave overall of a director and enter canon proper",
     "tildaH": "Mink",
-    "tildaJason": "Tom Reagan",
+    "tildaJason": "Tom Reagan ",
     "tildaGuest": "The Dane",
     "tildaCorey": "The Dane",
     "showLink": "https://www.patreon.com/posts/millers-crossing-101298603?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link",
@@ -9004,7 +9130,32 @@
     "showLink": "https://www.patreon.com/posts/civil-war-2024-102534092",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1713370772859-a26d7b0b6e0bf.jpg",
     "letterboxdLink": "",
-    "imdbLink": "https://www.imdb.com/title/tt17279496/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt17279496/?ref_=ext_shr_lnk",
+    "tmdbId": 929590,
+    "genres": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "tmdbPosterPath": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+    "directors": [
+      "Alex Garland"
+    ],
+    "cinematographers": [
+      "Rob Hardy"
+    ],
+    "cast": [
+      "Kirsten Dunst",
+      "Wagner Moura",
+      "Cailee Spaeny",
+      "Stephen McKinley Henderson",
+      "Nelson Lee",
+      "Nick Offerman",
+      "Jefferson White",
+      "Evan Lai",
+      "Vince Pisani",
+      "Justin James Boykin"
+    ]
   },
   {
     "pod": "EH",
@@ -9118,7 +9269,7 @@
     "notableMoments": "N/A",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "What's your dream DVD audio commentary?",
+    "kevsQuestion": "What's your dream DVD audio commentary? ",
     "tildaH": "The Architect",
     "tildaJason": "Trinity",
     "tildaGuest": "Agent Smith",
@@ -9215,7 +9366,7 @@
     "notableMoments": "- No Jason (Kidney Surgery)\n- H announces Pod Data Central!!!",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Does historical accuracy matter to you in movies like these?",
+    "kevsQuestion": "Does historical accuracy matter to you in movies like these? ",
     "tildaH": "Hagen",
     "tildaJason": "N/A",
     "tildaGuest": "ctcher: Commodus \nSilly: Commodus/Proximo",
@@ -9308,7 +9459,7 @@
     "mmmCount": 18,
     "thatsGreatCount": 1,
     "notableMoments": "- gabopagan joins the Discord! \n- Jason talks about building !pdc bot based on Pod Data Central \n- Jason's successful tumor removal",
-    "hFlex": "Haitch was nicknamed Ralph Macchio, \"The Karate Kid\"",
+    "hFlex": "Haitch was nicknamed Ralph Macchio, \"The Karate Kid\" ",
     "jFlex": "N/A",
     "kevsQuestion": "How do you feel seen, who represents you in media?",
     "tildaH": "Both Ditovitch's",
@@ -9451,7 +9602,7 @@
     "guest": "Lorelei David",
     "mmmCount": 31,
     "thatsGreatCount": 3,
-    "notableMoments": "Questions about whether or not Lizzen is a bot. \n- Discussion about wrestlers acting in movies\n- Lorelei is not related to Keith David\n- \"I have come here to chew bubblegum and kick ass, and I'm all out of bubble gum.\" which Haitch claims is a definitive line in cinema history. \"Life's a bitch, and she's back in heat.\" is less good.\n- The Alley Fight (and discussion) is epic\n- Corey leaves a voicemail that is an podcast in a podcast \"After the Beep\" with guest Noel (his wife). A top 5 Pod moment!",
+    "notableMoments": "Questions about whether or not Lizzen is a bot. \n- Discussion about wrestlers acting in movies\n- Lorelei is not related to Keith David\n- \"I have come here to chew bubblegum and kick ass, and I'm all out of bubble gum.\" which Haitch claims is a definitive line in cinema history. \"Life's a bitch, and she's back in heat.\" is less good.\n- The Alley Fight (and discussion) is epic\n- Corey leaves a voicemail that is an podcast in a podcast \"After the Beep\" with guest Noel (his wife). A top 5 Pod moment! ",
     "hFlex": "Haitch introduced his son Sam into Pokemon the trading card game, including audio of Sam explaining the rules",
     "jFlex": "N/A",
     "kevsQuestion": "How do you deal with people who think they know everything about your job?",
@@ -9499,7 +9650,7 @@
     "guest": "Dave Itzkoff",
     "mmmCount": 26,
     "thatsGreatCount": 9,
-    "notableMoments": "A lot of train talk at the top - Itzkoff west coast train, Orient Express, Japan train, Jason plans for his own personal Snowpiercer\n- Jason loves this snapshot of 70's NYC, especially how the film frames how the Metro Transit Authority fits into the fabric of the city \n- The score from David Shire is phenomenal\n- Mr Color convention borrowed by Tarantino for Reservoir Dogs \n- New York is 0-for-forever on electing good mayors\n- Jason totally didn't catch that Baron Harkonnen from D84 is in this movie\n- Matthau is a STAR in this movie, albeit an unconventional one\n- Corey Voicemail has episode 2 of \"After the Beep\" with his wife Noel, including a voicemail from Silly Oswald",
+    "notableMoments": "A lot of train talk at the top - Itzkoff west coast train, Orient Express, Japan train, Jason plans for his own personal Snowpiercer\n- Jason loves this snapshot of 70's NYC, especially how the film frames how the Metro Transit Authority fits into the fabric of the city \n- The score from David Shire is phenomenal\n- Mr Color convention borrowed by Tarantino for Reservoir Dogs \n- New York is 0-for-forever on electing good mayors\n- Jason totally didn't catch that Baron Harkonnen from D84 is in this movie\n- Matthau is a STAR in this movie, albeit an unconventional one\n- Corey Voicemail has episode 2 of \"After the Beep\" with his wife Noel, including a voicemail from Silly Oswald\n",
     "hFlex": "Haitch just taught Sam \"Finger Quotes\" which has been fun at home.",
     "jFlex": "Transcript and Pod Data Central AI work continues",
     "kevsQuestion": "Related to Austin Butler in the Bikeriders - Could you ever ride a motorcycle?",
@@ -9550,7 +9701,7 @@
     "notableMoments": "Jason stalked Anticon artists in a record store back in the day",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "If you had a floor between floors, what would you put in it?",
+    "kevsQuestion": "If you had a floor between floors, what would you put in it? ",
     "tildaH": "\"Being Tilda\"",
     "tildaJason": "\"Being Tilda\"",
     "tildaGuest": "Ben: Dr. Lester Rob: \"Being Tilda\"",
@@ -9786,7 +9937,7 @@
     "guest": "Devindra Hardawar / ctcher",
     "mmmCount": 35,
     "thatsGreatCount": 0,
-    "notableMoments": "No Jason (on assignment in Hawaii), ctcher swoops in again to rescue Haitch",
+    "notableMoments": "No Jason (on assignment in Hawaii), ctcher swoops in again to rescue Haitch\n\n",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "What are some changes made to Books you Love when they went to make movies of them?",
@@ -9830,7 +9981,7 @@
     "releaseDate": "8/25/2024",
     "length": "2:21:53",
     "reviewer": "birria",
-    "guest": "ctcher / ⁠Ian de Borja⁠",
+    "guest": "ctcher / Ian de Borja",
     "mmmCount": 36,
     "thatsGreatCount": 7,
     "notableMoments": "Cinenauts Podcast reunion\n- Ian just went on a Limp Bizkit adventure\n- Jason thinks Haitch is a Men's Rights Activist (related to Star Wars Acolyte getting cancelled)\n- Megalopolis Trailer talk\n- Good discussion about this time in tech\n- Lizzen voicemail and BogPod\n- Corey asks if Armie Hammer really ate someone -  to which Haitch replies \"Do your own research.\"",
@@ -9884,7 +10035,7 @@
     "jFlex": "N/A",
     "kevsQuestion": "Kevin Smith made Clerks while working a different full time job. What were your Clerks/passion side jobs?",
     "tildaH": "Jay",
-    "tildaJason": "Old man that dies masturbating on the toilet",
+    "tildaJason": "Old man that dies masturbating on the toilet ",
     "tildaGuest": "NA",
     "tildaCorey": "Olaf",
     "showLink": "https://www.patreon.com/posts/clerks-1994-110974717",
@@ -10021,10 +10172,10 @@
     "guest": "Rosie Knight",
     "mmmCount": 26,
     "thatsGreatCount": 2,
-    "notableMoments": "Jason's former colleague Dustin becomes a Patron!",
+    "notableMoments": "Jason's former colleague Dustin becomes a Patron! ",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "What's the strangest place Dune has appeared in your life?",
+    "kevsQuestion": "What's the strangest place Dune has appeared in your life? ",
     "tildaH": "Toombs",
     "tildaJason": "Lord Marshal",
     "tildaGuest": "Thandie role",
@@ -10116,10 +10267,10 @@
     "guest": "Nicolas Anastassiou",
     "mmmCount": 27,
     "thatsGreatCount": 7,
-    "notableMoments": "Jason and Haitch attended Hans Zimmer in concert with great acclaim. \n- Haitch is not exclusive to Jason and is, in fact, \"seeing other pods.\"",
+    "notableMoments": "Jason and Haitch attended Hans Zimmer in concert with great acclaim. \n- Haitch is not exclusive to Jason and is, in fact, \"seeing other pods.\" ",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Is there another character who could carry a multiverse story like this?",
+    "kevsQuestion": "Is there another character who could carry a multiverse story like this? ",
     "tildaH": "Aunt May",
     "tildaJason": "Doc Oc",
     "tildaGuest": "Spider Man Noir",
@@ -10165,11 +10316,11 @@
     "guest": "Jonesy Loves Beer",
     "mmmCount": 19,
     "thatsGreatCount": 9,
-    "notableMoments": "If Haitch was running for office, Jonesy would vote for the other guy\n- \"Edging\" is really having a moment\n- Jason wants to join Twin Vipers as the 4th Viper\n- Jonesy has modeled his life after Bullitt\n- Jonesy's Corner - comprehensive car talk section\n- Notable Quotable - \" I do not choose to have people accuse me of false promises for the sake of cheap sensationalism, or to be compromised by your lieutenant. Castrate him.\" \"Your world is so far from the one I know. What will happen to us in time? - Time starts now.\"\n- 6 Degrees of Dune - Emil Richards and Joe Corcaro were in the music department for the Lynch Dune\n- Duleck's Division - the shake down of the Hotel Clerk. \"Am I helping you sir? - I never had it so good.\"\n- H sourced a VM from his neighbor to play during the episode",
+    "notableMoments": "If Haitch was running for office, Jonesy would vote for the other guy\n- \"Edging\" is really having a moment\n- Jason wants to join Twin Vipers as the 4th Viper\n- Jonesy has modeled his life after Bullitt\n- Jonesy's Corner - comprehensive car talk section\n- Notable Quotable - \" I do not choose to have people accuse me of false promises for the sake of cheap sensationalism, or to be compromised by your lieutenant. Castrate him.\" \"Your world is so far from the one I know. What will happen to us in time? - Time starts now.\"\n- 6 Degrees of Dune - Emil Richards and Joe Corcaro were in the music department for the Lynch Dune\n- Duleck's Division - the shake down of the Hotel Clerk. \"Am I helping you sir? - I never had it so good.\"\n- H sourced a VM from his neighbor to play during the episode ",
     "hFlex": "Previously stated United Colors of Benetton phase",
     "jFlex": "N/A",
     "kevsQuestion": "Did you have a turtleneck phase?",
-    "tildaH": "Old white haired assassin",
+    "tildaH": "Old white haired assassin ",
     "tildaJason": "Jazz flautist in the coffee shop",
     "tildaGuest": "Chalmers' body man",
     "tildaCorey": "Eddy the informant",
@@ -10215,7 +10366,7 @@
     "thatsGreatCount": 11,
     "notableMoments": "Good Football talk around Friday Night Lights and the Texas Longhorns\n- Duleck's Division - Pumpkin carving scene & irresponsible Babysitter scenes, comparison of levels of responsibility\n- Good talk about how this film helped define horror movie tropes for tons of subsequent movies\n- Jason says Michael Meyers is basically the Shark from Jaws\n- Carpenter may be the Director the pod has covered the most\n- Carpenter is iconic writing scores, as much as being an iconic director",
     "hFlex": "Haitch finished Baldur's Gate",
-    "jFlex": "Jason invented a game for his kids -",
+    "jFlex": "Jason invented a game for his kids - ",
     "kevsQuestion": "What are some Guilty Pleasures for you?",
     "tildaH": "Michael",
     "tildaJason": "Loomis",
@@ -10260,7 +10411,7 @@
     "guest": "Ryan Condal",
     "mmmCount": 22,
     "thatsGreatCount": 12,
-    "notableMoments": "Ryan asked for some Escape Hatch merch\n- Ryan bought the Bat Wing\n- Ryan is DEEP in prep for House of the Dragon season 3 (It doesn't end)\n- Ryan wants to wear a big fur coat for some Season 3 Behind the Scenes shoots\n- Arnold movies the pod has already covered - Conan the Barbarian, Terminator, Running Man, Total Recall, Terminator 2.\n- Ryan suggests that a popcorn bucket for House of the Dragon just looks like your mom's vagina\n- Very efficient story structure. The only things you know about the Predator is shown, not told. And the last 3rd of the film is cinematic greatness\n- Duleck's Division - Mac is mourning the loss of Jesse Ventura's character. A solemn pause before the final rush",
+    "notableMoments": "Ryan asked for some Escape Hatch merch\n- Ryan bought the Bat Wing\n- Ryan is DEEP in prep for House of the Dragon season 3 (It doesn't end)\n- Ryan wants to wear a big fur coat for some Season 3 Behind the Scenes shoots\n- Arnold movies the pod has already covered - Conan the Barbarian, Terminator, Running Man, Total Recall, Terminator 2.\n- Ryan suggests that a popcorn bucket for House of the Dragon just looks like your mom's vagina\n- Very efficient story structure. The only things you know about the Predator is shown, not told. And the last 3rd of the film is cinematic greatness\n- Duleck's Division - Mac is mourning the loss of Jesse Ventura's character. A solemn pause before the final rush\n",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Do you all like to fly on The Choppa?",
@@ -10306,7 +10457,7 @@
     "releaseDate": "11/3/2024",
     "length": "2:29:30",
     "reviewer": "Jeth",
-    "guest": "Rosie Marx",
+    "guest": "Rosie Knight",
     "mmmCount": 66,
     "thatsGreatCount": 2,
     "notableMoments": "Rosie has interviewed Catherine Hardwicke. She's been to Forks WA and the Twilight museum etc.",
@@ -10404,7 +10555,7 @@
     "guest": "Glenn O Brown",
     "mmmCount": 29,
     "thatsGreatCount": 4,
-    "notableMoments": "Haitch shamelessly plugs his old band by playing a portion of a song by Henrietta's Lovers that featured a sound clip from Dr. Strangelove.",
+    "notableMoments": "Haitch shamelessly plugs his old band by playing a portion of a song by Henrietta's Lovers that featured a sound clip from Dr. Strangelove. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Are you guys preppers? Do you have a bug-out bag?",
@@ -10415,7 +10566,31 @@
     "showLink": "https://www.patreon.com/posts/dr-strangelove-i-116017409",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1731619493443-b553a4ef5605c.jpg",
     "letterboxdLink": "https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/",
-    "imdbLink": "https://www.imdb.com/title/tt0079945/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0079945/?ref_=ext_shr_lnk",
+    "tmdbId": 935,
+    "genres": [
+      "Comedy",
+      "War"
+    ],
+    "tmdbPosterPath": "/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg",
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cinematographers": [
+      "Gilbert Taylor"
+    ],
+    "cast": [
+      "Peter Sellers",
+      "George C. Scott",
+      "Sterling Hayden",
+      "Keenan Wynn",
+      "Slim Pickens",
+      "Peter Bull",
+      "James Earl Jones",
+      "Tracy Reed",
+      "Jack Creley",
+      "Frank Berry"
+    ]
   },
   {
     "pod": "EH",
@@ -10571,10 +10746,10 @@
     "guest": "Dave Mandel",
     "mmmCount": 17,
     "thatsGreatCount": 0,
-    "notableMoments": "Haitch's brother Reed becomes a Patron. Yirmummah joins the Discord!",
+    "notableMoments": "Haitch's brother Reed becomes a Patron. Yirmummah joins the Discord! ",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "Which celebrity needs to make an album?",
+    "kevsQuestion": "Which celebrity needs to make an album? ",
     "tildaH": "Agrees with guest",
     "tildaJason": "N/A",
     "tildaGuest": "Harlan Dexter (Corbin Bernsen role)",
@@ -10656,7 +10831,127 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-119044792",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1736126661220-451fae82a9622.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-matrix/",
-    "imdbLink": "https://www.imdb.com/title/tt0133093/?ref_=fn_all_ttl_1"
+    "imdbLink": "https://www.imdb.com/title/tt0133093/?ref_=fn_all_ttl_1",
+    "tmdbId": 603,
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
+    "directors": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
+    "cinematographers": [
+      "Bill Pope"
+    ],
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving",
+      "Gloria Foster",
+      "Joe Pantoliano",
+      "Marcus Chong",
+      "Julian Arahanga",
+      "Matt Doran",
+      "Belinda McClory"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 229,
+    "film": "The Warriors (1979)",
+    "filmYear": 1979,
+    "releaseDate": "1/12/2024",
+    "length": "2:07:42",
+    "reviewer": "birria",
+    "guest": "Dave Itzkoff",
+    "mmmCount": 32,
+    "thatsGreatCount": 7,
+    "notableMoments": "Haitch upset that Dune Pt 2 isn't getting award nominations, to which Jason declares that H is very easy to troll\n- Another installment of the Itzkoff NYC 1970s Movie Tour\n- Tom Holland/Zendaya Engaged - 'Yes, my Spider Lord\"\n- Jason's Hawaii trip, and a photo of his feet, unleashed a new era in the Discord - ALL FOOT STUFF\n- Haitch did not take the whole Foot thing well - \"I did not start this podcast to collect Feet pics.\"\n- Itzkoff - \"Let a thousand toes bloom!\"\n- Itzkoff is a great guest to talk NYC in the 70s\n- First time Email from Hillary M who suggested some great movies for the pod\n- First time Voicemail from Juan (Animal Mother), and it's a phenomenal start",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What is the Escape Hatch/Warriors Gang Name and Uniform? The Middle Aged Dads or The Engineers",
+    "tildaH": "N/A",
+    "tildaJason": "Swan",
+    "tildaGuest": "Cyrus - Can You Dig It",
+    "tildaCorey": "Tilda should play Tilda Swinton in a new gang called The Tildas / or Rembrandt",
+    "showLink": "https://www.patreon.com/posts/warriors-1979-119820685",
+    "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1736655562235-bafa3b1edbf45.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/the-warriors/",
+    "imdbLink": "https://www.imdb.com/title/tt0080120/?ref_=ext_shr_lnk",
+    "tmdbId": 11474,
+    "tmdbPosterPath": "/sjN9IZHmRHZmpxvQYYYFNQ22Pch.jpg",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Walter Hill"
+    ],
+    "cinematographers": [
+      "Andrew Laszlo"
+    ],
+    "cast": [
+      "Michael Beck",
+      "James Remar",
+      "David Patrick Kelly",
+      "Dorsey Wright",
+      "David Harris",
+      "Deborah Van Valkenburgh",
+      "Brian Tyler",
+      "Tom McKitterick"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 230,
+    "film": "Burn After Reading",
+    "filmYear": null,
+    "releaseDate": "1/19/2024",
+    "length": "1:37:56",
+    "reviewer": "birria",
+    "guest": "Devindra Hardawar",
+    "mmmCount": 18,
+    "thatsGreatCount": 13,
+    "notableMoments": "Part One of our Tilda Double-Header\n- Devindra notes that this movie from 2008 was a direct response to living through 8 years under GW Bush \n- Because of that, the movie has aged really well as our country has gotten dumber\n- Malkovich is phenomenal in this film, McDormand is great, this is Peak Clooney\n- Brad Pitt - Also Peak Pitt. His Chad character is perfectly idiotic. \n- Letters - Animal Mother, Truthsayer, Kev and Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What was the least helpful lesson you ever learned?",
+    "tildaH": "Ozzy",
+    "tildaJason": "Palmer at the CIA",
+    "tildaGuest": "Chad (The Brad Pitt role)",
+    "tildaCorey": "swap Tilda and Clooney",
+    "showLink": "https://www.patreon.com/posts/burn-after-120211197",
+    "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1737141605385-1dd7fa972f2af.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/burn-after-reading/",
+    "imdbLink": "https://www.imdb.com/title/tt0887883/?ref_=ext_shr_lnk",
+    "tmdbId": 4944,
+    "tmdbPosterPath": "/jdwSkQu3XirmX18MNj8CqFWsCk.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Ethan Coen",
+      "Joel Coen"
+    ],
+    "cinematographers": [
+      "Emmanuel Lubezki"
+    ],
+    "cast": [
+      "George Clooney",
+      "Frances McDormand",
+      "Brad Pitt",
+      "John Malkovich",
+      "Tilda Swinton",
+      "Richard Jenkins",
+      "Elizabeth Marvel",
+      "David Rasche"
+    ]
   },
   {
     "pod": "EH",
@@ -10872,7 +11167,32 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-122293210",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1739561461204-f1d025c00bd87.jpg",
     "letterboxdLink": "https://letterboxd.com/film/galaxy-quest/",
-    "imdbLink": "https://www.imdb.com/title/tt0177789/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0177789/?ref_=ext_shr_lnk",
+    "tmdbId": 926,
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "tmdbPosterPath": "/fZXSwgZknp81vmciTb86rw0MejV.jpg",
+    "directors": [
+      "Dean Parisot"
+    ],
+    "cinematographers": [
+      "Jerzy Zieliński"
+    ],
+    "cast": [
+      "Tim Allen",
+      "Sigourney Weaver",
+      "Alan Rickman",
+      "Tony Shalhoub",
+      "Sam Rockwell",
+      "Daryl Mitchell",
+      "Enrico Colantoni",
+      "Robin Sachs",
+      "Jed Rees",
+      "Justin Long"
+    ]
   },
   {
     "pod": "EH",
@@ -11425,7 +11745,32 @@
     "showLink": "https://www.patreon.com/posts/episode-250-back-128092542",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1746320439524-57526b166d78d.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-empire-strikes-back/",
-    "imdbLink": "https://www.imdb.com/title/tt0080684/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0080684/?ref_=ext_shr_lnk",
+    "tmdbId": 1891,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
+    "directors": [
+      "Irvin Kershner"
+    ],
+    "cinematographers": [
+      "Peter Suschitzky"
+    ],
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams",
+      "Anthony Daniels",
+      "David Prowse",
+      "Peter Mayhew",
+      "Kenny Baker",
+      "Frank Oz",
+      "Alec Guinness"
+    ]
   },
   {
     "pod": "EH",
@@ -11536,7 +11881,7 @@
     "guest": "None",
     "mmmCount": 21,
     "thatsGreatCount": 11,
-    "notableMoments": "Jason is in a rough spot since Andor ended - \"I feel there is nothing left to live for now.\" \"It's just Glup Shittos all the way down from here, really.\" \"Andor for Star Wars is in the top 3 and it's not 3\" \"Do I love Andor more than the Dune movies?\" \"I am fucking done with the Skywalkers\"\n- First time the Pod has revisited a film - initially covered R1 in Dune Pod Episode 17\n- Andor's appearance in this film has SO much more subtext after watching the series. Seeing him kill the accompolice at the start is far less shocking and far more nuanced\n- On rewatch the CGI characters still don't work \n- The locations are all fantastic - Yavin, Jedda, Scariff\n- Another takeaway - all of the Fan Service moments (Ponda Baba, etc), we don't need them any more\n- Rebellions are built on hope - Another moment that hits harder after the Series\n- Chirrut Imwe and Baze Malbus - incredible additions to the Star Wars canon\n- Krennec - Ben Mendelsohn cooking\n- 'I've been in this fight since I was 6 years old.\" Hits harder after the series\n- The 3rd act in this movie is a banger - totally fits in with the cadence of the Andor series structure\n- Hammerhead Corvette is one of the coolest things that has ever happend in Star Wars\n- The Deaths come hot and heavy - crazy for Star Wars, especially Disney SW\n- Vader stuff - the best Vader has ever looked, but it is also finishing the impact of Andor with the passing of the message all the way to Leia\n- The guys wax poetic about all of these Andor bonus episodes.",
+    "notableMoments": "Jason is in a rough spot since Andor ended - \"I feel there is nothing left to live for now.\" \"It's just Glup Shittos all the way down from here, really.\" \"Andor for Star Wars is in the top 3 and it's not 3\" \"Do I love Andor more than the Dune movies?\" \"I am fucking done with the Skywalkers\"\n- First time the Pod has revisited a film - initially covered R1 in Dune Pod Episode 17\n- Andor's appearance in this film has SO much more subtext after watching the series. Seeing him kill the accompolice at the start is far less shocking and far more nuanced\n- On rewatch the CGI characters still don't work \n- The locations are all fantastic - Yavin, Jedda, Scariff\n- Another takeaway - all of the Fan Service moments (Ponda Baba, etc), we don't need them any more\n- Rebellions are built on hope - Another moment that hits harder after the Series\n- Chirrut Imwe and Baze Malbus - incredible additions to the Star Wars canon\n- Krennec - Ben Mendelsohn cooking\n- 'I've been in this fight since I was 6 years old.\" Hits harder after the series\n- The 3rd act in this movie is a banger - totally fits in with the cadence of the Andor series structure\n- Hammerhead Corvette is one of the coolest things that has ever happend in Star Wars\n- The Deaths come hot and heavy - crazy for Star Wars, especially Disney SW\n- Vader stuff - the best Vader has ever looked, but it is also finishing the impact of Andor with the passing of the message all the way to Leia\n- The guys wax poetic about all of these Andor bonus episodes. ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
@@ -11904,7 +12249,32 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-133376210",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1751658232528-b3a94513ca33f.jpg",
     "letterboxdLink": "https://letterboxd.com/film/jaws/",
-    "imdbLink": "https://www.imdb.com/title/tt0073195/"
+    "imdbLink": "https://www.imdb.com/title/tt0073195/",
+    "tmdbId": 578,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+    ],
+    "tmdbPosterPath": "/tjbLSFwi0I3phZwh8zoHWNfbsEp.jpg",
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "cinematographers": [
+      "Bill Butler"
+    ],
+    "cast": [
+      "Roy Scheider",
+      "Robert Shaw",
+      "Richard Dreyfuss",
+      "Lorraine Gary",
+      "Murray Hamilton",
+      "Carl Gottlieb",
+      "Jeffrey Kramer",
+      "Susan Backlinie",
+      "Jonathan Filley",
+      "Ted Grossman"
+    ]
   },
   {
     "pod": "EH",
@@ -11929,7 +12299,32 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-133397552",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1751675370259-aa60611f9f5ef.jpg",
     "letterboxdLink": "https://letterboxd.com/film/midsommar/",
-    "imdbLink": "https://www.imdb.com/title/tt8772262/"
+    "imdbLink": "https://www.imdb.com/title/tt8772262/",
+    "tmdbId": 530385,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "tmdbPosterPath": "/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+    "directors": [
+      "Ari Aster"
+    ],
+    "cinematographers": [
+      "Pawel Pogorzelski"
+    ],
+    "cast": [
+      "Florence Pugh",
+      "Jack Reynor",
+      "William Jackson Harper",
+      "Will Poulter",
+      "Vilhelm Blomgren",
+      "Isabelle Grill",
+      "Gunnel Fred",
+      "Ellora Torchia",
+      "Archie Madekwe",
+      "Henrik Norlén"
+    ]
   },
   {
     "pod": "EH",
@@ -11993,7 +12388,7 @@
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Of all of the actors who played James Bond, who could conquer the Sand Worm in Dune and ride Shai-Hulud?",
-    "tildaH": "Q",
+    "tildaH": "Q ",
     "tildaJason": "Double-0-6",
     "tildaGuest": "Oramov",
     "tildaCorey": "Double-0-6",
@@ -12034,7 +12429,7 @@
     "releaseDate": "8/10/2025",
     "length": "1:36:10",
     "reviewer": "birria",
-    "guest": "Devindra Hardawar.",
+    "guest": "Devindra Hardawar",
     "mmmCount": 43,
     "thatsGreatCount": 11,
     "notableMoments": "Devindra - Talks about the state of genre films in 2025 - Great year for Horror (Weapons), Comic Films (Superman) coming back, Comedy too (Naked Gun)\n- Jesus Christ Superstar revival discussion - \"This is the best stage musical in the history of the world.\" says Jason\n- Apex Shaky-Cam movie\n- Berlin fight scene is the best in the series - intimate, fast, well scripted, the Magazine, and ends with a literal bang\n- Car chase scene is iconic - everything works. We don't make chase scenes like this any more\n- The score carries a ton of the weight of the film \n- Jason - The Jason Bourne movies are exemplary of The Make Gaze - reminding us of what male competence looks like\n- Joan Allen as Landy is great. Kicking ass and being competent.\n- Tony Gilroy writing for Brian Cox - Chef's kiss\n- The Fridge-ing of Franka Potente is regrettable\n- Karl Urban as Kirill was cast perfectly\n- Duleck's Division - \"She's standing right next to you\" - the movie folds in half around that scene\n- Letters - Haitch's re-designer Luke vm about JCSS, Lizzen, Animal Mother, Truthsayer, Mr Java (Mr Tambourine Man parody), Corey (didn't watch), Kev",
@@ -12226,16 +12621,16 @@
     "releaseDate": "9/7/2025",
     "length": "2:09:14",
     "reviewer": "birria",
-    "guest": "ctcher / Timothief",
+    "guest": "ctcher / Tim Croshaw",
     "mmmCount": 38,
     "thatsGreatCount": 0,
-    "notableMoments": "No Jason on this episode, but ctcher and Timothief fill in very well \n- How is John David Washington not in more stuff? \n- Tim is a great guest to talk about the unconventional and innovative filming of this movie \n- Filmed and released during the SAG/Aftra strikes \n- This movie looked and sounded GREAT - Production design, Sound design, costume design, the world building - all top-notch \n- Haitch - This looks very much like Live Action Anime \n- ctcher and Tim think the movie didn't quite nail the emotional beats, specifically in the last act, but not worth nitpicking \n- The visual effects are about as good as you can do at this point of filmmaking history \n- Needle Drops - Radiohead of \"Everything In It's Right Place\" and Claire de Lune are amazing Letters \n- Animal Mother, Mr Java, Truthsayer, Kev, Corey",
+    "notableMoments": "No Jason on this episode, but ctcher and Tim Croshaw fill in very well \n- How is John David Washington not in more stuff? \n- Tim is a great guest to talk about the unconventional and innovative filming of this movie \n- Filmed and released during the SAG/Aftra strikes \n- This movie looked and sounded GREAT - Production design, Sound design, costume design, the world building - all top-notch \n- Haitch - This looks very much like Live Action Anime \n- ctcher and Tim think the movie didn't quite nail the emotional beats, specifically in the last act, but not worth nitpicking \n- The visual effects are about as good as you can do at this point of filmmaking history \n- Needle Drops - Radiohead of \"Everything In It's Right Place\" and Claire de Lune are amazing Letters \n- Animal Mother, Mr Java, Truthsayer, Kev, Corey",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Tell me about your crazy commutes where everything goes wrong, and you find out that God is real and he hates you.",
     "tildaH": "The Colonel or The Mother",
     "tildaJason": "N/A",
-    "tildaGuest": "ctcher - Drew the Asshole Friend \nTimothief - The Bomb Robot",
+    "tildaGuest": "ctcher - Drew the Asshole Friend \nTim Croshaw - The Bomb Robot",
     "tildaCorey": "The Bomb Robot",
     "showLink": "https://www.patreon.com/posts/creator-2023-138209868",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1757086498791-f5bb373b6220c.jpg",
@@ -12491,7 +12886,7 @@
     "guest": "Danny Haas",
     "mmmCount": 0,
     "thatsGreatCount": 0,
-    "notableMoments": "Episode originally released 12/31/2021 \n- Releasing this to help celebrate the release of Tron: Ares\n-",
+    "notableMoments": "Episode originally released 12/31/2021 \n- Releasing this to help celebrate the release of Tron: Ares\n- ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
@@ -12502,7 +12897,32 @@
     "showLink": "http://patreon.com/posts/best-of-escape-140693161",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1759870902481-92fdcbf568c32.jpg",
     "letterboxdLink": "https://letterboxd.com/film/tron-legacy/",
-    "imdbLink": "https://www.imdb.com/title/tt1104001/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt1104001/?ref_=ext_shr_lnk",
+    "tmdbId": 20526,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/vuifSABRpSnxCAOxEnWpNbZSXpp.jpg",
+    "directors": [
+      "Joseph Kosinski"
+    ],
+    "cinematographers": [
+      "Claudio Miranda"
+    ],
+    "cast": [
+      "Garrett Hedlund",
+      "Olivia Wilde",
+      "Jeff Bridges",
+      "Bruce Boxleitner",
+      "James Frain",
+      "Beau Garrett",
+      "Michael Sheen",
+      "Anis Cheurfa",
+      "Serinda Swan",
+      "Yaya DaCosta"
+    ]
   },
   {
     "pod": "EH",
@@ -12797,7 +13217,7 @@
     "releaseDate": "11/23/2025",
     "length": "1:22:38",
     "reviewer": "birria",
-    "guest": "All of us!",
+    "guest": "Live Audience",
     "mmmCount": 10,
     "thatsGreatCount": 16,
     "notableMoments": "2nd live episode in Pod history, recorded at Light Rail Studios during #Meetup2025 in San Francisco \n- Watch the live video - https://www.patreon.com/posts/running-man-2025-144055775 \n- Meetup people saw The Running Man at the Metreon IMAX, then headed to the studio for the live recording \n- Haitch calls Ben Richards \"Ben Rhodes\" in the movie description \n- Running Man is fine - Edgar Wright made a fun, bright, fast movie, but Third Act Problems \n- Jason offers to be the \"Digital Court Jew\" for the new pope (about AI policy) \n- More talk about the Yummy Mommy thing, Crystal says \"Poor Matt\" \n- After Ethan's question about best coffee, Haitch talks about ripping fascist stickers off the windows at Java Hut \n- Letters - Lizzen (video message), Bog Pod (video message from Vietnam), Truthsayer Live, Animal Mother Live (parody of Network - including the canonical pronunciation of \"Yummy Mommy\"), Silly Oswald live (Love Actually cue card bit), Kev Video message, Corey Live, Mr Java live (Rainbow Connection parody sing-along)",
@@ -12811,7 +13231,32 @@
     "showLink": "https://www.patreon.com/posts/running-man-2025-144048692",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1763686087851-8c9802f153ffb.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-running-man-2025/",
-    "imdbLink": "https://www.imdb.com/title/tt14107334/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt14107334/?ref_=ext_shr_lnk",
+    "tmdbId": 798645,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "tmdbPosterPath": "/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg",
+    "directors": [
+      "Edgar Wright"
+    ],
+    "cinematographers": [
+      "Chung Chung-hoon"
+    ],
+    "cast": [
+      "Glen Powell",
+      "William H. Macy",
+      "Lee Pace",
+      "Michael Cera",
+      "Emilia Jones",
+      "Daniel Ezra",
+      "Jayme Lawson",
+      "Sean Hayes",
+      "Katy O'Brian",
+      "Colman Domingo"
+    ]
   },
   {
     "pod": "EH",
@@ -12836,7 +13281,32 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-144091564",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1734228682624-b07ec89e033ee.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
-    "imdbLink": "https://www.imdb.com/title/tt0120737/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0120737/?ref_=ext_shr_lnk",
+    "tmdbId": 120,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "tmdbPosterPath": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "directors": [
+      "Peter Jackson"
+    ],
+    "cinematographers": [
+      "Andrew Lesnie"
+    ],
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Ian Holm",
+      "Liv Tyler",
+      "Christopher Lee",
+      "Sean Bean",
+      "Billy Boyd",
+      "Dominic Monaghan"
+    ]
   },
   {
     "pod": "EH",
@@ -12995,7 +13465,7 @@
     "guest": "None",
     "mmmCount": 0,
     "thatsGreatCount": 0,
-    "notableMoments": "A re-release of episode 75 of Dune Pod from 12/19/2021 - First Christmas episode on the Pod\n- Jason is on record that he does not love the Christmas season\n- Guys are going to go see Avatar Fire and Ash together\n- Talk about the prospects of Dune 3 coming out in December 2026\n- Great discussion of the Political Machinations in the Disney animated film Frozen\n- In the episode, Haitch \"Interviewed\" Javier Bardem (\"See you in the desert, Motherfucker\"), The guys set goals for 2022, Jason is a big Hans Griber apologist, \"Yippie Ki-Yay Motherfucker\" should ve the American Motto and should be on the money",
+    "notableMoments": "A re-release of episode 75 of Dune Pod from 12/19/2021 - First Christmas episode on the Pod\n- Jason is on record that he does not love the Christmas season\n- Guys are going to go see Avatar Fire and Ash together\n- Talk about the prospects of Dune 3 coming out in December 2026\n- Great discussion of the Political Machinations in the Disney animated film Frozen\n- In the episode, Haitch \"Interviewed\" Javier Bardem (\"See you in the desert, Motherfucker\"), The guys set goals for 2022, Jason is a big Hans Griber apologist, \"Yippie Ki-Yay Motherfucker\" should ve the American Motto and should be on the money\n ",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
@@ -13006,7 +13476,31 @@
     "showLink": "https://www.patreon.com/posts/best-of-escape-146245490",
     "artworkLink": "https://d2a9bkgsuxmqe2.cloudfront.net/production/podcast_uploaded_episode400/5864738/5864738-1639753609964-57b4ceb44ac23.jpg",
     "letterboxdLink": "https://letterboxd.com/film/die-hard/",
-    "imdbLink": "https://www.imdb.com/title/tt0095016/?ref_=ext_shr_lnk"
+    "imdbLink": "https://www.imdb.com/title/tt0095016/?ref_=ext_shr_lnk",
+    "tmdbId": 562,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "tmdbPosterPath": "/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+    "directors": [
+      "John McTiernan"
+    ],
+    "cinematographers": [
+      "Jan de Bont"
+    ],
+    "cast": [
+      "Bruce Willis",
+      "Alan Rickman",
+      "Alexander Godunov",
+      "Bonnie Bedelia",
+      "Reginald VelJohnson",
+      "Paul Gleason",
+      "De'voreaux White",
+      "William Atherton",
+      "Hart Bochner",
+      "James Shigeta"
+    ]
   },
   {
     "pod": "EH",
@@ -13031,7 +13525,21 @@
     "showLink": "https://www.patreon.com/posts/mailbag-2025-146452168",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1766442302352-14141f71cef73.jpg",
     "letterboxdLink": "",
-    "imdbLink": ""
+    "imdbLink": "",
+    "tmdbId": 1016515,
+    "genres": [
+      "Drama"
+    ],
+    "tmdbPosterPath": "/nF4h9jMJjTyx7EzHyp1ejSA2uqH.jpg",
+    "directors": [
+      "Miguel Guzman"
+    ],
+    "cinematographers": [
+      "Lucie Romero"
+    ],
+    "cast": [
+      "Irina Usova"
+    ]
   },
   {
     "pod": "EH",
@@ -13181,51 +13689,460 @@
   },
   {
     "pod": "EH",
-    "season": 0,
-    "episode": 293,
-    "film": "Panic Room (2002)",
-    "filmYear": 2002,
-    "releaseDate": "2/1/2026",
-    "length": "2:07:25",
+    "season": 8,
+    "episode": 294,
+    "film": "Point Blank (1967)",
+    "filmYear": 1967,
+    "releaseDate": "2/8/2026",
+    "length": "1:47:28",
     "reviewer": "birria",
-    "guest": "Rosie Knight",
-    "mmmCount": 27,
-    "thatsGreatCount": 11,
-    "notableMoments": "Jason starts with proposing a General Strike against Haitch Industries. Then talk about a real General Strike, Ice and Minnesota. - HogTalk - Knight of the Seven Kingdoms (\"How can no one remember Ser Arwyn?\", and The Pitt S2E2. - Good David Fincher here - maybe his most Hitchcock movie - Haitch - \"This movie is Fucking Tense\" - Jodie Foster and Kristin Stewart have such great chemistry casting (even with Jared Leto, Forrest Whitaker, Dwight Yoakum, etc.) - Discussion of this movie in the Feminist lens is really great - Jason - talks about how pregnancy seems really hard and he's glad he will never have to do it. - Talk about Billionaires and Panic Rooms - devolves into why Billionaires aren't more charitable. - Letters - Lizzen, Animal Mother, Mr Java (Wide Open Spaces cover), Truthsayer, Kev, Corey",
+    "guest": "Loni Peristere / Derek Kolstad",
+    "mmmCount": 43,
+    "thatsGreatCount": 24,
+    "notableMoments": "Loni Peristere (House of the Dragon S3 director) and Derek Kolstad (Creator of John Wick) - great guests for this pod \n- Derek on being a writer for film \"I'm not a visual thinker. I think in blurry Polaroids and words.\" \n- Loni got his start on Season 3 of Buffy the Vampire Slayer, then Firefly (talk about how he helped come up with the signature spaceship zoom shot, then Battlestar Galactica) \n- Jason - \"I love when a statesman from the acting world starts a story with 'My dear boy,' you know it's going to be good.\" about a story regarding Ben Kingsley. \n- This movie is lesser known in the Gen-X Dad Movie Cannon, but you can see the influence this film had on generations of filmmakers - Heat, Drive, No Country for Old Men, To Live and Die in LA, Michael Mann, Soderberg, Cohens, Tarantino, Fincher \n- Letters - Animal Mother, Mr Java (Jim Croce You Don't Mess Around With Jim parody), Truthsayer (segment about Point Break, not Point Blank), Kev, Corey",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "When you are stuck at home, what is your go-to snack?",
-    "tildaH": "The Husband",
-    "tildaJason": "Snooty Real Estate Agent",
-    "tildaGuest": "Combo of Burnam and Junior",
-    "tildaCorey": "Snooty Real Estate Agent",
-    "showLink": "https://www.patreon.com/posts/panic-room-2002-149394082",
-    "artworkLink": "",
-    "letterboxdLink": "https://letterboxd.com/film/panic-room/",
-    "imdbLink": "https://www.imdb.com/title/tt0258000/?ref_=ext_shr_lnk",
-    "tmdbId": 4547,
-    "tmdbPosterPath": "/hANYbvfwxmkC9E4yY6YyJxYxlSJ.jpg",
+    "kevsQuestion": "Have you ever gotten revenge?",
+    "tildaH": "Mal",
+    "tildaJason": "The Hired Gun Assassin",
+    "tildaGuest": "Lonnie - The Assassin Derek - The used car salesman",
+    "tildaCorey": "Lee Marvin's character",
+    "showLink": "https://www.patreon.com/posts/point-blank-1967-150192094",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1770493290671-c04273ae7d461.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/point-blank/",
+    "imdbLink": "https://www.imdb.com/title/tt0062138/?ref_=ext_shr_lnk",
+    "tmdbId": 26039,
+    "tmdbPosterPath": "/4y8yNXdcP9KQJXd0cIUmQ0t3ezB.jpg",
     "genres": [
       "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "directors": [
+      "John Boorman"
+    ],
+    "cinematographers": [
+      "Philip H. Lathrop"
+    ],
+    "cast": [
+      "Lee Marvin",
+      "Angie Dickinson",
+      "Keenan Wynn",
+      "Carroll O'Connor",
+      "Lloyd Bochner",
+      "Michael Strong",
+      "John Vernon",
+      "Sharon Acker"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 295,
+    "film": "Fast Times at Ridgemont High (1982)",
+    "filmYear": 1982,
+    "releaseDate": "2/15/2026",
+    "length": "1:34:19",
+    "reviewer": "birria",
+    "guest": "Peter Kafka",
+    "mmmCount": 40,
+    "thatsGreatCount": 7,
+    "notableMoments": "Pod starts with Super Bowl talk - On-line betting, prediction markets, AI commercials, Bad Bunny and Bad Bunny political discourse, Trailers (Mandolorian and Grogu, Further Adventures of Cliff Booth) \n- Talk about the proposed Netflix acquisition of Warner Brothers \n- Peter excited to FINALLY get to talk about a movie with Sex in it \n- Peter talks about the Melania premiere, including a wild story about Baron Trump and the British Police \n- Knight of the Seven Kingdoms - \"This is the best I have felt watching TV since Andor\" says Jason \n- Jason's first watch of Fast Times at Ridgemont High \n- Peter with a Savage take about the Escape Hatch pod listeners calling Mark Ratner from Fast Times \"The Escape Hatch coded kid\" \"Not an insult, just Truth-telling\" \n- Sean Penn \"Method Actor\" plus he's really funny in this movie \n- The guys \"really miss the Mall\" \n- Peter - \"This is a feminist Teen Sex comedy\" \n- Haitch tells a story about getting Blue Balls after a huge make-out session as a teen, then that his Youth Minister telling him \"God is cursing you\" - this is now canonically \"The Blue Balls Story\" \n- Peter calls the Phoebe Cates Pool Scene \"the Star Wars of teen sexuality. That is the Death Star being blown up. Minds being blown.\" \n- Letters - Animal Mother, Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "If you could teach a High School class, what would it be, and why?",
+    "tildaH": "Spicoli",
+    "tildaJason": "The Car Stereo Salesman",
+    "tildaGuest": "Mr Hand",
+    "tildaCorey": "Damone",
+    "showLink": "https://www.patreon.com/posts/fast-times-at-150527536",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1770849728173-88104ac39ac9c.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/fast-times-at-ridgemont-high/",
+    "imdbLink": "https://www.imdb.com/title/tt0083929/?ref_=ext_shr_lnk",
+    "tmdbId": 13342,
+    "tmdbPosterPath": "/s1DA8H7qwoOcAEhow2rCzuQtpuO.jpg",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "directors": [
+      "Amy Heckerling"
+    ],
+    "cinematographers": [
+      "Matthew F. Leonetti"
+    ],
+    "cast": [
+      "Sean Penn",
+      "Jennifer Jason Leigh",
+      "Judge Reinhold",
+      "Phoebe Cates",
+      "Brian Backer",
+      "Robert Romanus",
+      "Ray Walston",
+      "Scott Thomson"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 296,
+    "film": "Best of Escape Hatch: No Country for Old Men (2007)",
+    "filmYear": 2007,
+    "releaseDate": "2/22/2026",
+    "length": "1:47:05",
+    "reviewer": "birria",
+    "guest": "Ian de Borja",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "A re-release of episode 6 of Dune Pod from 6/30/2020 \n- Is the 6/7 meme dead? \n- Vacation week - Haitch in Tahoe and Jason on an Island in the South Pacific \n- Jason has been vibe-coding with Claude Code for Pod Data Central 2.0, and Transcript Bots \n- The guys reflect on listening back to an episode from very early in the Pod, deep in Covid",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "https://www.patreon.com/posts/best-of-escape-150616939",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1770944485749-27b2e9217eda1.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/no-country-for-old-men/",
+    "imdbLink": "https://www.imdb.com/title/tt0477348/?ref_=ext_shr_lnk",
+    "tmdbId": 6977,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Western"
+    ],
+    "tmdbPosterPath": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "directors": [
+      "Joel Coen",
+      "Ethan Coen"
+    ],
+    "cinematographers": [
+      "Roger Deakins"
+    ],
+    "cast": [
+      "Javier Bardem",
+      "Tommy Lee Jones",
+      "Josh Brolin",
+      "Woody Harrelson",
+      "Kelly Macdonald",
+      "Garret Dillahunt",
+      "Tess Harper",
+      "Barry Corbin",
+      "Stephen Root",
+      "Rodger Boyce"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 297,
+    "film": "The Cable Guy (1996)",
+    "filmYear": 1996,
+    "releaseDate": "3/1/2026",
+    "length": "1:42:31",
+    "reviewer": "birria",
+    "guest": "dale_a",
+    "mmmCount": 34,
+    "thatsGreatCount": 6,
+    "notableMoments": "Haith calls Escape Hatch an \"Industry-Defining Podcast\" \n- Talk about Close-Up Magic at weddings \n- Audio of Timothee Chalomet talking to Matthew McConaughey sbout a giant turd \n- Jason comes to the conclusion that the Mid Nineties are the best we are ever going to have it \n- Cable Guy is a tremendous critique of where Media writ large was heading \n- Tremendous 90s soundtrack \n- Haitch had more Do Not Disturb failures with his IPad \n- Discussion Jim Carey comedic bombast - Jason calls it borderline dangerous \n- Jason raises the question of whether Haitch has ever killed someone. \"I would not be completely shocked\"\n- Jason talks about his Claude Code setup\n- Letters - Animal Mother, Mr Java (Somebody to Love Jefferson Airplane parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "If you could program a Cable channel, what would you put on there and why?",
+    "tildaH": "The old man singing American Woman",
+    "tildaJason": "Matthew Broderick's Mom",
+    "tildaGuest": "Stephen's Boss with the plugs",
+    "tildaCorey": "Matthew Broderick's character",
+    "showLink": "https://www.patreon.com/posts/cable-guy-1996-151750025",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1772146394731-4c4f5624d4601.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/the-cable-guy/",
+    "imdbLink": "https://www.imdb.com/title/tt0115798/?ref_=ext_shr_lnk",
+    "tmdbId": 9894,
+    "tmdbPosterPath": "/YJt9l3RdrRohI95btQKPXwpdii.jpg",
+    "genres": [
+      "Comedy",
       "Drama",
       "Thriller"
     ],
     "directors": [
-      "David Fincher"
+      "Ben Stiller"
     ],
     "cinematographers": [
-      "Conrad W. Hall",
-      "Darius Khondji"
+      "Robert Brinkmann"
     ],
     "cast": [
-      "Jodie Foster",
-      "Kristen Stewart",
-      "Forest Whitaker",
-      "Dwight Yoakam",
-      "Jared Leto",
-      "Patrick Bauchau",
-      "Ann Magnuson",
-      "Ian Buchanan"
+      "Jim Carrey",
+      "Matthew Broderick",
+      "Leslie Mann",
+      "Jack Black",
+      "George Segal",
+      "Diane Baker",
+      "Ben Stiller",
+      "Eric Roberts"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 298,
+    "film": "High Fidelity (2000)",
+    "filmYear": 2000,
+    "releaseDate": "3/8/2026",
+    "length": "1:56:05",
+    "reviewer": "birria",
+    "guest": "Brian Schneider",
+    "mmmCount": 43,
+    "thatsGreatCount": 12,
+    "notableMoments": "Brian is the former Magic the Gathering Lead Game Designer - he talks about the process of building a game, and the crossroads between Magic and Poker\n- Tom and Zendaya got married in Tiburon\n- Brian likes Nick Hornby's overarching premise that \"People aren's perfect\"\n- Jason - This feels like the last pre-9-11 movie - There is an abundance and stability in this movie (economic and social) that hasn't existed since 9-11.\n- Haitch talks about opening up foor Green Day again\n- Haitch - this is a Gen X classic\n- Soundtrack talk - Jason doesn't think the soundtrack is all that, considering the importance of Gen X music in the film. Too much 70s Boomer music, not enough Punk and New Wave.\n- Jack Black is 1000 Watts in this movie\n- Letters - Bog Pod, Animal Mother, Mr Java (Greg Kihn Band - Jeopardy parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What physical media do you miss the most?",
+    "tildaH": "Ian",
+    "tildaJason": "Lisa Bonet",
+    "tildaGuest": "Laura",
+    "tildaCorey": "Corey forgot to do Tilda",
+    "showLink": "https://www.patreon.com/posts/high-fidelity-152422927",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1772840465358-d577f73c71ef6.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/high-fidelity/",
+    "imdbLink": "https://www.imdb.com/title/tt0146882/",
+    "tmdbId": 243,
+    "tmdbPosterPath": "/e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance",
+      "Music"
+    ],
+    "directors": [
+      "Stephen Frears"
+    ],
+    "cinematographers": [
+      "Seamus McGarvey"
+    ],
+    "cast": [
+      "John Cusack",
+      "Iben Hjejle",
+      "Todd Louiso",
+      "Jack Black",
+      "Lisa Bonet",
+      "Catherine Zeta-Jones",
+      "Joan Cusack",
+      "Tim Robbins"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 299,
+    "film": "Argo (2012)",
+    "filmYear": 2012,
+    "releaseDate": "3/15/2026",
+    "length": "2:21:21",
+    "reviewer": "birria",
+    "guest": "Ben Rhodes",
+    "mmmCount": 37,
+    "thatsGreatCount": 21,
+    "notableMoments": "Opens with talk about the Iran war - Ben is the perfect guest to talk about how crazy and illegal this war is. Plus disheartening discussion about what comes next with China, Russia, North Korea, Cuba\n- Ben's 6th appearance on the pod\n- Talk about Timothee Chalomet's chances at the Oscars\n- Dune 3 trailer coming - attached to theatrical release of Project Hail Mary\n- Haitch's son Sam discovered Mottley Crue, Jason's kids are listening to Axolotl in the Ocean\n- Ben talks about the CIA's relationship to Hollywood - CIA is really good at getting Hollywood to tell their side of the story (over Military and Government)\n- Ben talks about the CIA's relationship to Hollywood - CIA is really good at getting Hollywood to tell their side of the story (over Military and Government)\n- Letters - Bog Pod, Lizzen, Animal Mother, Mr Java with a Shakespeare parody, Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What's a plan you had that you didn't think would work, but everything worked out? ",
+    "tildaH": "Haitch couldn't top Jason's pick of the Ayatollah",
+    "tildaJason": "Ayatollah Khomeni",
+    "tildaGuest": "Bryan Cranston CIA character",
+    "tildaCorey": "Bryan Cranston CIA character",
+    "showLink": "https://www.patreon.com/posts/argo-2012-153108151",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1773594372574-f2f2f686972a2.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/argo/",
+    "imdbLink": "https://www.imdb.com/title/tt1024648/?ref_=ext_shr_lnk",
+    "tmdbId": 68734,
+    "tmdbPosterPath": "/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Ben Affleck"
+    ],
+    "cinematographers": [
+      "Rodrigo Prieto"
+    ],
+    "cast": [
+      "Ben Affleck",
+      "Bryan Cranston",
+      "Alan Arkin",
+      "John Goodman",
+      "Victor Garber",
+      "Tate Donovan",
+      "Clea DuVall",
+      "Scoot McNairy"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 8,
+    "episode": 300,
+    "film": "The Shining (1980)",
+    "filmYear": 1980,
+    "releaseDate": "3/17/2026",
+    "length": "2:57:11",
+    "reviewer": "birria",
+    "guest": "Ryan Condal / Dave Mandel",
+    "mmmCount": 65,
+    "thatsGreatCount": 20,
+    "notableMoments": "Episode 300! And it's a great one\n- Dune 3 Trailer dropped on the day of the recording - great discussion of the trailer\n- Talk about the Oscars - One Battle After Another beat out Sinners, Michael B Jordan beats out Timothee Chalomet\n- Somehow this became the Stephen Webber episode (Dave thought we were talking about the Shining miniseries)\n- Dave talks about how Alcoholism informs this whole movie. Kubrick plays that up, and that's probably why Stephen King dislikes the film\n- Ryan - this is a great example of Location As Character with the Overlook Hotel\n- It's a great discussion of the quality and importance of this film. Dave and Ryan are perfect guests for this classic. \n- Letters - Rosie Knight (Dune 3 trailer review), Lizzen, Silly Oswald, Animal Mother, Mr Java (Bowie All The Young Dudes parody), Bog Pod, Truthsayer, Kev, Corey\n- End of the episode features Lapis Lazuli Blues - the Noir Radio Play produced by Birria and featuring all of the voicemailers and hosts\n- PodFirst - Jason proposes a new segment where he draws a random Dune tarot card and explains what it means",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What is your dream vacation, and why is it New York?",
+    "tildaH": "Lloyd",
+    "tildaJason": "The woman in the bathtub",
+    "tildaGuest": "Dave - Scatman Crothers or the woman in the bathtub or Tony\nRyan - The Grady Twins",
+    "tildaCorey": "Lloyd",
+    "showLink": "https://www.patreon.com/posts/episode-300-1980-153509299",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1774013001047-35e2c4a54b8de.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/the-shining/",
+    "imdbLink": "https://www.imdb.com/title/tt0081505/",
+    "tmdbId": 694,
+    "tmdbPosterPath": "/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cinematographers": [
+      "John Alcott"
+    ],
+    "cast": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd",
+      "Scatman Crothers",
+      "Barry Nelson",
+      "Philip Stone",
+      "Joe Turkel",
+      "Anne Jackson"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 301,
+    "film": "Project Hail Mary (2026)",
+    "filmYear": 2026,
+    "releaseDate": "3/26/2026",
+    "length": "2:10:36",
+    "reviewer": "birria",
+    "guest": "Van Lathan",
+    "mmmCount": 48,
+    "thatsGreatCount": 14,
+    "notableMoments": "First appearance for Van on the show, and he's a top-tier guest.\n- Van - Lord and Miller are now creatives who have the \"Seal of Approval\" - you know they are going to try to do something interesting\n- Van compares Ryan Gosling to Kobe Bryant - he took the long path to greatness\n- The Sign of the Times Karaoke song - this scene just freaking works. Great discussion of Sandra Huller and her performance\n- Every Space Movie Trope is in this movie, and it's a miracle that everything works\n- Some discussion of the 3rd act being clunky, leads into a discussion of Perfect movies vs Great movies (for Perfect - Van mentions The Matrix and No Country for Old Men. Jason brings up Jaws and Empire Strikes Back)\n- Van fakes Jason out by making a joke claim that he want to Princeton\n- Greg Frasier (cinematographer) good discussion of his innovative work\n- Funny discussion on the new Beatles movies which Greg is shooting\n- Rocky is a great character - fully realized with design, puppetry, performance by James Ortiz, and effects\n- Great talk about going to see movies at the theater. \n- Letters - Lizzen, Mr Java collab with Animal Mother (Aerosmith Amazing parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What is the last song you'd sing at Karaoke if the world was coming to an end? What is your \"Farewell to Earth?\"",
+    "tildaH": "N/A - Haitch didn't mention a Tilda",
+    "tildaJason": "A one line cameo as Rocky's partner Adrian",
+    "tildaGuest": "Eva Stratt (the mission head)",
+    "tildaCorey": "Corey didn't watch the movie, and didn't give a Tilda",
+    "showLink": "https://www.patreon.com/posts/project-hail-154040116",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1774569695417-aa94f8388b804.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/project-hail-mary/",
+    "imdbLink": "https://www.imdb.com/title/tt12042730/",
+    "tmdbId": 687163,
+    "tmdbPosterPath": "/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "cinematographers": [
+      "Greig Fraser"
+    ],
+    "cast": [
+      "Ryan Gosling",
+      "James Ortiz",
+      "Sandra Hüller",
+      "Lionel Boyce",
+      "Milana Vayntrub",
+      "Ken Leung",
+      "Priya Kansara",
+      "Mia Soteriou"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 302,
+    "film": "Hard Boiled (1992)",
+    "filmYear": 1992,
+    "releaseDate": "4/5/2026",
+    "length": "1:26:57",
+    "reviewer": "birria",
+    "guest": "Devindra Hardawar",
+    "mmmCount": 29,
+    "thatsGreatCount": 9,
+    "notableMoments": "Haitch is getting 2 dogs.\n- Talk about Vibe Coding - Devindra is not doing any. Jason has built Transcript Bot. \n- Devindra on Chow Yun Fat - there is nobody cooler than this guy. Effortless Charisma\n- Devindra - Allen needed a cooler name - \"Tequila and Allen\" just doesn't work\n- Tony Leung - terrific in this movie. Easy to see the guy he will become in Wong Kar-Wai movies in the future\n- Jason - \"Tarantino You Hack!\"\n- Mad Dog - Phillip Chung-Fung Kwok - was not in the movie. They created the part when they saw what he could do. \n- Devindra - The John Woo operatic violence style is so iconic\n- Haitch has never seen Bloodsport\n- The Hospital One-Shot scene is iconic\n- Jason's doctor told him \"You are borderline critically fat\"\n- Letters - Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What is your wildest babysitting story?",
+    "tildaH": "Uncle Hoi",
+    "tildaJason": "One of the babies",
+    "tildaGuest": "Mad Dog",
+    "tildaCorey": "Mad Dog",
+    "showLink": "https://www.patreon.com/posts/hard-boiled-1992-154681106",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1775220366732-727340fa2860c.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/hard-boiled/",
+    "imdbLink": "https://www.imdb.com/title/tt0104684/",
+    "tmdbId": 11782,
+    "tmdbPosterPath": "/oMqr4CGGqVlfI8DdrSelK1e9aFM.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "directors": [
+      "John Woo"
+    ],
+    "cinematographers": [
+      "Horace Wong Wing-Hang"
+    ],
+    "cast": [
+      "Chow Yun-Fat",
+      "Tony Leung Chiu-wai",
+      "Anthony Wong Chau-Sang",
+      "Teresa Mo Shun-Kwan",
+      "Philip Chan Yan-Kin",
+      "Stephen Tung Wai",
+      "Kwan Hoi-San",
+      "John Woo"
+    ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 303,
+    "film": "Midnight Run (1988)",
+    "filmYear": 1988,
+    "releaseDate": "4/19/2026",
+    "length": "1:39:53",
+    "reviewer": "birria",
+    "guest": "Dave Itzkoff",
+    "mmmCount": 33,
+    "thatsGreatCount": 14,
+    "notableMoments": "Pod opens with Dave's description of Pantherian roller coaster at King's Dominion on his Spring Break trip\n- Jason's trip to Iceland\n- Haitch debuts explore.escapehatchpod.com that he vibe coded with Claude\n- Jason talks about a possible future for fully bespoke software where you build whatever you need, because code is essentially free. Interesting ideas here\n- Cinemacon - Social Reckoning trailer with Jeremy Strong/Sorkin, Beyond The Spiderverse trailer, and tease of Dune Part 3 and Avengers Doomsday stuff coming\n- Meetup! Dec 18 Dune 3 private screening\n- Midnight Run has become a huge Cult Classic\n- Dave just doesn't get this movie, Jason is on board with this take too. Thinks it is a rote motif repeated over and over in the film. \n- Haitch fights back and explains why he loves it so much. Jason revels in Dave putting Haitch on his back foot. \n- DeNiro as comedic actor, Grodin in one of his biggest roles, but Dave thinks John Ashton as the other bounty hunter pulls the film together\n- The rest of the cast - Yaphett Kotto, Dennis Farina, Phillip Baker Hall, Joe Pantoliano - amazing ensemble \n- Jason says this is basically the Muppet Movie, then they re-cast the movie with Muppets\n- Letters - Animal Mother, Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "Do you have any road trip stories? What was the longest you ever spent in a car?",
+    "tildaH": "Joey Pants part",
+    "tildaJason": "Yaphet Kotto part",
+    "tildaGuest": "Airline Ticket Agent who asks \"Smoking or Non Smoking\"",
+    "tildaCorey": "Every single long white cigarette that is smoked in this movie.",
+    "showLink": "https://www.patreon.com/posts/midnight-run-155805309",
+    "artworkLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/midnight-run/",
+    "imdbLink": "https://www.imdb.com/title/tt0095631/"
   }
 ]

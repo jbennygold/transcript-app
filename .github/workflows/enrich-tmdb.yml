@@ -34,16 +34,19 @@ jobs:
           fi
           npm run enrich-tmdb
 
+      - name: Regenerate legacy data/episode-metadata.json
+        run: node --import tsx ./scripts/sync-legacy-metadata-json.ts
+
       - name: Commit and push enriched metadata
         run: |
-          if git diff --quiet -- src/lib/metadata-data.ts; then
+          if git diff --quiet -- src/lib/metadata-data.ts data/episode-metadata.json; then
             echo "No TMDB enrichment changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/lib/metadata-data.ts
+          git add src/lib/metadata-data.ts data/episode-metadata.json
           git commit -m "chore(metadata): enrich tmdb fields"
           git pull --rebase origin master
           git push origin HEAD:master
