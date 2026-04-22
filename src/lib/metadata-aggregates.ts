@@ -316,6 +316,7 @@ export function buildMetadataAggregateResponse(intent: QueryIntent): {
       cast: 'actors',
       directors: 'directors',
       cinematographers: 'cinematographers',
+      composers: 'composers',
       genres: 'genres',
     };
     const header = `Top ${included.length} ${fieldLabels[field]} across the podcast (by ${unit} count)`;

@@ -139,6 +139,12 @@ function extractTopCast(credits: TMDBCredits, limit: number = 8): string[] {
     .map((c) => c.name);
 }
 
+function extractComposers(credits: TMDBCredits): string[] {
+  return credits.crew
+    .filter((c) => c.job === 'Original Music Composer')
+    .map((c) => c.name);
+}
+
 async function enrichEpisode(episode: EpisodeMetadata): Promise<EpisodeMetadata> {
   // Skip if already enriched
   if (episode.tmdbId) {
@@ -194,6 +200,7 @@ async function enrichEpisode(episode: EpisodeMetadata): Promise<EpisodeMetadata>
     enriched.directors = extractDirectors(credits);
     enriched.cinematographers = extractCinematographers(credits);
     enriched.cast = extractTopCast(credits);
+    enriched.composers = extractComposers(credits);
 
     if (enriched.directors.length > 0) {
       console.log(`    Director(s): ${enriched.directors.join(', ')}`);
@@ -203,6 +210,9 @@ async function enrichEpisode(episode: EpisodeMetadata): Promise<EpisodeMetadata>
     }
     if (enriched.cast.length > 0) {
       console.log(`    Cast: ${enriched.cast.slice(0, 3).join(', ')}...`);
+    }
+    if (enriched.composers.length > 0) {
+      console.log(`    Composer(s): ${enriched.composers.join(', ')}`);
     }
   }
 

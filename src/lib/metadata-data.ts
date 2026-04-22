@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 314 episodes - updated 2026-04-21
+// Auto-generated - do not edit - 314 episodes - updated 2026-04-22
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -48,6 +48,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Patrick Bauchau",
       "Ann Magnuson",
       "Ian Buchanan"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -145,6 +148,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sylvia Hoeks",
       "Mackenzie Davis",
       "Jared Leto"
+    ],
+    "composers": [
+      "Hans Zimmer",
+      "Benjamin Wallfisch"
     ]
   },
   {
@@ -193,6 +200,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tzi Ma",
       "Abigail Pniowsky",
       "Julia Scarlett Dan"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -240,6 +250,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Victoire du Bois",
       "Vanda Capriolo",
       "Antonio Rimoldi"
+    ],
+    "composers": [
+      "Sufjan Stevens"
     ]
   },
   {
@@ -289,6 +302,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Garret Dillahunt",
       "Tess Harper",
       "Barry Corbin"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -336,6 +352,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Claire Selby",
       "Symara A. Templeman",
       "Gana Bayarsaikhan"
+    ],
+    "composers": [
+      "Ben Salisbury",
+      "Geoff Barrow"
     ]
   },
   {
@@ -434,6 +454,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Daniel Kaluuya",
       "Jeffrey Donovan",
       "Raoul Max Trujillo"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -480,6 +503,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Brontis Jodorowsky",
       "Amanda Lear",
       "Christian Wander"
+    ],
+    "composers": [
+      "Kurt Stenzel"
     ]
   },
   {
@@ -528,6 +554,18 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Freddie Jones",
       "Brad Dourif",
       "Richard Jordan"
+    ],
+    "composers": [
+      "Brian Eno",
+      "David Paich",
+      "Jeff Porcaro",
+      "Mike Porcaro",
+      "Steve Porcaro",
+      "Marty Paich",
+      "Steve Lukather",
+      "Daniel Lanois",
+      "Roger Eno",
+      "James Newton Howard"
     ]
   },
   {
@@ -576,6 +614,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Timothée Chalamet",
       "Tracy Letts",
       "Bob Odenkirk"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -622,7 +663,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Andreas Dubois",
       "Mark Stanley",
       "August Zirner"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -694,6 +736,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tim Post",
       "Kedar Brown",
       "Darryl Dinn"
+    ],
+    "composers": [
+      "Danny Bensi",
+      "Saunder Jurriaans"
     ]
   },
   {
@@ -742,6 +788,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ben Mendelsohn",
       "Guy Henry",
       "Forest Whitaker"
+    ],
+    "composers": [
+      "Michael Giacchino"
     ]
   },
   {
@@ -841,6 +890,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Niall Buggy",
       "Bosco Hogan",
       "Jessica Swift"
+    ],
+    "composers": [
+      "David Munrow"
     ]
   },
   {
@@ -889,6 +941,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sean Harris",
       "Angela Bassett",
       "Vanessa Kirby"
+    ],
+    "composers": [
+      "Lorne Balfe"
     ]
   },
   {
@@ -937,6 +992,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Melissa Leo",
       "Paul Dano",
       "Dylan Minnette"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -984,6 +1042,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Beanie Feldstein",
       "Lois Smith",
       "Stephen McKinley Henderson"
+    ],
+    "composers": [
+      "Jon Brion"
     ]
   },
   {
@@ -1032,6 +1093,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Christina Hendricks",
       "Ron Perlman",
       "Kaden Leos"
+    ],
+    "composers": [
+      "Cliff Martinez"
     ]
   },
   {
@@ -1087,7 +1151,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "genres": [],
     "directors": [],
     "cinematographers": [],
-    "cast": []
+    "cast": [],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -1133,6 +1198,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Keala Settle",
       "Yahya Abdul-Mateen II",
       "Natasha Liu Bordizzo"
+    ],
+    "composers": [
+      "Joseph Trapanese",
+      "John Debney"
     ]
   },
   {
@@ -1181,6 +1250,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Thomasin McKenzie",
       "Robert Pattinson",
       "Ben Mendelsohn"
+    ],
+    "composers": [
+      "Nicholas Britell"
     ]
   },
   {
@@ -1229,6 +1301,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Johanne-Marie Tremblay",
       "Natalie Hamel-Roy",
       "Pierre-Yves Cardinal"
+    ],
+    "composers": [
+      "Benoît Charest"
     ]
   },
   {
@@ -1302,7 +1377,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Max Casella",
       "Jerry Grayson",
       "Jeanine Serralles"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -1350,6 +1426,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Leo McKern",
       "Ken Hutchison",
       "Giancarlo Prete"
+    ],
+    "composers": [
+      "Andrew Powell"
     ]
   },
   {
@@ -1398,6 +1477,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jonathan Pryce",
       "Sean Bean",
       "Michael Lonsdale"
+    ],
+    "composers": [
+      "Elia Cmiral"
     ]
   },
   {
@@ -1448,6 +1530,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Richard Pryor",
       "Gary Busey",
       "Lucy Butler"
+    ],
+    "composers": [
+      "Angelo Badalamenti"
     ]
   },
   {
@@ -1496,6 +1581,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bérénice Marlohe",
       "Albert Finney",
       "Ben Whishaw"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -1544,6 +1632,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Caine",
       "Martin Donovan",
       "Fiona Dourif"
+    ],
+    "composers": [
+      "Ludwig Göransson"
     ]
   },
   {
@@ -1591,6 +1682,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Philip Seymour Hoffman",
       "Tara Reid",
       "Philip Moon"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -1640,6 +1734,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dakin Matthews",
       "Jarlath Conroy",
       "Paul Rae"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -1681,6 +1778,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "cast": [
       "John David Washington",
       "Zendaya"
+    ],
+    "composers": [
+      "Labrinth"
     ]
   },
   {
@@ -1729,6 +1829,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Wes Bentley",
       "Topher Grace",
       "Mackenzie Foy"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -1776,6 +1879,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Cherie Lunghi",
       "Robert Addie",
       "Gabriel Byrne"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -1824,6 +1930,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dean Stockwell",
       "George Dickerson",
       "Priscilla Pointer"
+    ],
+    "composers": [
+      "Angelo Badalamenti"
     ]
   },
   {
@@ -1871,6 +1980,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tony Way",
       "Kick Gurry",
       "Franz Drameh"
+    ],
+    "composers": [
+      "Christophe Beck"
     ]
   },
   {
@@ -1921,6 +2033,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Casey Kasem",
       "Dan Gilvezan",
       "Scatman Crothers"
+    ],
+    "composers": [
+      "Vince DiCola"
     ]
   },
   {
@@ -1969,6 +2084,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Keanu Reeves",
       "James Gammon",
       "Jack Kehler"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -2016,6 +2134,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Mahito Tsujimura",
       "Mina Tominaga",
       "Kohei Miyauchi"
+    ],
+    "composers": [
+      "Joe Hisaishi"
     ]
   },
   {
@@ -2064,6 +2185,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Benicio del Toro",
       "Jena Malone",
       "Joanna Newsom"
+    ],
+    "composers": [
+      "Jonny Greenwood"
     ]
   },
   {
@@ -2137,6 +2261,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Abdelghafour Elaaziz",
       "Dominique Briand",
       "Frédéric Paquet"
+    ],
+    "composers": [
+      "Grégoire Hetzel"
     ]
   },
   {
@@ -2185,6 +2312,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Juanin Clay",
       "Kent Williams",
       "Dennis Lipscomb"
+    ],
+    "composers": [
+      "Arthur B. Rubinstein"
     ]
   },
   {
@@ -2231,6 +2361,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Casey Affleck",
       "Cole Hauser",
       "Vik Sahay"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -2281,6 +2414,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tiny Ross",
       "Jack Purvis",
       "Ian Holm"
+    ],
+    "composers": [
+      "Mike Moran",
+      "Trevor Jones"
     ]
   },
   {
@@ -2354,6 +2491,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Brian Henson",
       "David Shaughnessy",
       "Ron Mueck"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -2402,6 +2542,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Cas Anvar",
       "Russell Peters",
       "Brent Skagford"
+    ],
+    "composers": [
+      "Chris Bacon"
     ]
   },
   {
@@ -2450,6 +2593,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Billy Dee Williams",
       "Michael Gough",
       "Jack Palance"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -2497,6 +2643,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ian Holm",
       "Yaphet Kotto",
       "Bolaji Badejo"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -2545,6 +2694,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Daryl Hannah",
       "William Sanderson",
       "Brion James"
+    ],
+    "composers": [
+      "Vangelis"
     ]
   },
   {
@@ -2592,6 +2744,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Walter Koenig",
       "Nichelle Nichols",
       "Mark Lenard"
+    ],
+    "composers": [
+      "Leonard Rosenman"
     ]
   },
   {
@@ -2639,6 +2794,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Mark Pellegrino",
       "Robert Forster",
       "Dan Hedaya",
+      "Angelo Badalamenti"
+    ],
+    "composers": [
       "Angelo Badalamenti"
     ]
   },
@@ -2713,6 +2871,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dominique Swain",
       "Nick Cassavetes",
       "Harve Presnell"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -2759,6 +2920,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Susan Blanchard",
       "Anne Marie Howard",
       "Ann Yen"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -2806,6 +2971,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Season Hubley",
       "Harry Dean Stanton",
       "Adrienne Barbeau"
+    ],
+    "composers": [
+      "Alan Howarth",
+      "John Carpenter"
     ]
   },
   {
@@ -2854,6 +3023,11 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Richard Dysart",
       "Charles Hallahan",
       "Peter Maloney"
+    ],
+    "composers": [
+      "Ennio Morricone",
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -2927,6 +3101,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Maggie Gyllenhaal",
       "Mary McDonnell",
       "Holmes Osborne"
+    ],
+    "composers": [
+      "Michael Andrews"
     ]
   },
   {
@@ -2974,6 +3151,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Stephen McKinley Henderson",
       "Josh Brolin",
       "Javier Bardem"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -3047,6 +3227,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jon Seda",
       "Christopher Meloni",
       "Joey Perillo"
+    ],
+    "composers": [
+      "Paul Buckmaster"
     ]
   },
   {
@@ -3095,6 +3278,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bill Paxton",
       "William Hope",
       "Jenette Goldstein"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -3143,7 +3329,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Leonard Rossiter",
       "Margaret Tyzack",
       "Robert Beatty"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -3192,6 +3379,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Pam Ferris",
       "Charlie Hunnam",
       "Danny Huston"
+    ],
+    "composers": [
+      "John Tavener"
     ]
   },
   {
@@ -3240,6 +3430,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "William Fichtner",
       "David Morse",
       "Angela Bassett"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -3288,6 +3481,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "José Ferrer",
       "Anthony Quayle",
       "Claude Rains"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -3338,6 +3534,11 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bae Doona",
       "Ben Whishaw",
       "James D'Arcy"
+    ],
+    "composers": [
+      "Reinhold Heil",
+      "Johnny Klimek",
+      "Tom Tykwer"
     ]
   },
   {
@@ -3385,6 +3586,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Paul Gleason",
       "De'voreaux White",
       "William Atherton"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -3433,6 +3637,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dan Shor",
       "Peter Jurasik",
       "Tony Stephano"
+    ],
+    "composers": [
+      "Wendy Carlos"
     ]
   },
   {
@@ -3481,6 +3688,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Beau Garrett",
       "Michael Sheen",
       "Anis Cheurfa"
+    ],
+    "composers": [
+      "Thomas Bangalter",
+      "Guy-Manuel de Homem-Christo"
     ]
   },
   {
@@ -3528,6 +3739,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Timothée Chalamet",
       "Lyna Khoudri",
       "Jeffrey Wright"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -3575,6 +3789,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Annie Potts",
       "William Atherton",
       "Ernie Hudson"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -3649,6 +3866,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Clancy Brown",
       "Michael Ironside",
       "Patrick Muldoon"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -3697,6 +3917,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "John Cusack",
       "Dash Mihok",
       "John C. Reilly"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -3746,6 +3969,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Richard C. Sarafian",
       "Barry Kivel",
       "Mary Mara"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -3793,6 +4019,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Madsen",
       "Julie Dreyfus",
       "Chiaki Kuriyama"
+    ],
+    "composers": [
+      "RZA"
     ]
   },
   {
@@ -3841,6 +4070,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Parks",
       "Perla Haney-Jardine",
       "Vivica A. Fox"
+    ],
+    "composers": [
+      "Robert Rodriguez",
+      "RZA"
     ]
   },
   {
@@ -3889,6 +4122,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Danielle Skraastad",
       "Wai Chan",
       "Alberto Vazquez"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -3938,6 +4174,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lewis Smith",
       "Rosalind Cash",
       "Robert Ito"
+    ],
+    "composers": [
+      "Michael Boddicker"
     ]
   },
   {
@@ -3986,6 +4225,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kevin Spacey",
       "Jonathan Pryce",
       "Bruce Altman"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -4035,6 +4277,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "David Battley",
       "Bernard Bresslaw",
       "Liam Neeson"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -4082,6 +4327,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ian Richardson",
       "Bruce Spence",
       "Colin Friels"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -4131,6 +4379,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Claire Duburcq",
       "Colin Firth",
       "Benedict Cumberbatch"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -4203,6 +4454,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dana Delany",
       "Sam Elliott",
       "Stephen Lang"
+    ],
+    "composers": [
+      "Bruce Broughton"
     ]
   },
   {
@@ -4249,6 +4503,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Oliver Robins",
       "Zelda Rubinstein",
       "Richard Lawson"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -4296,6 +4553,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sam McMurray",
       "Frances McDormand",
       "Randall \"Tex\" Cobb"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -4344,6 +4604,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ed O'Ross",
       "William Boyett",
       "Richard Brooks"
+    ],
+    "composers": [
+      "Michael Convertino"
     ]
   },
   {
@@ -4392,6 +4655,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ben Kingsley",
       "Denise Dowse",
       "Timothy Busfield"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -4441,6 +4707,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Luke Perry",
       "Brion James",
       "Tommy Lister Jr."
+    ],
+    "composers": [
+      "Éric Serra"
     ]
   },
   {
@@ -4488,6 +4757,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Anderson Jr.",
       "Peter Ustinov",
       "Randolph Roberts"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -4536,6 +4808,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Alan North",
       "Jon Polito",
       "Sheila Gish"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -4584,6 +4859,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ernest Borgnine",
       "Tom McLoughlin",
       "Roddy McDowall"
+    ],
+    "composers": [
+      "John Barry"
     ]
   },
   {
@@ -4657,6 +4935,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Diane Venora",
       "Amy Brenneman",
       "Ashley Judd"
+    ],
+    "composers": [
+      "Elliot Goldenthal"
     ]
   },
   {
@@ -4703,6 +4984,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Alan Rachins",
       "Gina Ravera",
       "Lin Tucci"
+    ],
+    "composers": [
+      "Dave Stewart"
     ]
   },
   {
@@ -4751,6 +5035,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Miranda Richardson",
       "Wallace Shawn",
       "Bai Ling"
+    ],
+    "composers": [
+      "Moby"
     ]
   },
   {
@@ -4826,6 +5113,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Alfred Molina",
       "Stephen Root",
       "Harry Dean Stanton"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -4874,6 +5164,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Denis Akiyama",
       "Henry Rollins",
       "Barbara Sukowa"
+    ],
+    "composers": [
+      "Brad Fiedel",
+      "Mychael Danna"
     ]
   },
   {
@@ -4921,6 +5215,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lance Kerwin",
       "Bumper Robinson",
       "Jim Mapp"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -4969,6 +5266,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Colleen Dewhurst",
       "Martin Sheen",
       "Nicholas Campbell"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -5018,6 +5318,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Clarke Peters",
       "Steven Berkoff",
       "John Ratzenberger"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -5066,6 +5369,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Cassandra Gava",
       "Gerry Lopez",
       "Mako"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -5113,6 +5419,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Giselle Palmer",
       "Taylor Kastle",
       "Thea Carla Schøtt"
+    ],
+    "composers": [
+      "Thomas Bangalter"
     ]
   },
   {
@@ -5160,6 +5469,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Connor Cruise",
       "Edwin Hodge",
       "Jeffrey Dean Morgan"
+    ],
+    "composers": [
+      "Ramin Djawadi"
     ]
   },
   {
@@ -5208,6 +5520,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Rick Rossovich",
       "Bess Motta",
       "Earl Boen"
+    ],
+    "composers": [
+      "Brad Fiedel"
     ]
   },
   {
@@ -5257,6 +5572,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Annie Ross",
       "Pamela Stephenson",
       "Robert Vaughn"
+    ],
+    "composers": [
+      "Ken Thorne"
     ]
   },
   {
@@ -5303,6 +5621,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Beatrice Straight",
       "Wesley Addy",
       "Arthur Burghardt"
+    ],
+    "composers": [
+      "Elliot Lawrence"
     ]
   },
   {
@@ -5336,7 +5657,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
     ],
     "directors": [],
     "cinematographers": [],
-    "cast": []
+    "cast": [],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -5383,6 +5705,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Billy Barty",
       "Cork Hubbert",
       "Peter O'Farrell"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -5430,6 +5755,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jorja Fox",
       "Stephen Tobolowsky",
       "Harriet Sansom Harris"
+    ],
+    "composers": [
+      "David Julyan"
     ]
   },
   {
@@ -5479,6 +5807,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kate Burton",
       "Donald Li",
       "Carter Huang Chia-Ta"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -5527,6 +5859,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Daryl Mitchell",
       "Enrico Colantoni",
       "Robin Sachs"
+    ],
+    "composers": [
+      "David Newman"
     ]
   },
   {
@@ -5575,6 +5910,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kelvin Harrison, Jr.",
       "David Wenham",
       "Kodi Smit-McPhee"
+    ],
+    "composers": [
+      "Elliott Wheeler"
     ]
   },
   {
@@ -5623,6 +5961,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dennis Farina",
       "Catherine Keener",
       "Isaiah Washington"
+    ],
+    "composers": [
+      "David Holmes"
     ]
   },
   {
@@ -5696,6 +6037,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "David Gordon Green",
       "Michael Stuhlbarg",
       "Jessica Harper"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -5743,6 +6088,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Famke Janssen",
       "Martin Landau",
       "Michael Rispoli"
+    ],
+    "composers": [
+      "Christopher Young"
     ]
   },
   {
@@ -5790,6 +6138,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Addison Powell",
       "Walter McGinn",
       "Tina Chen"
+    ],
+    "composers": [
+      "Dave Grusin"
     ]
   },
   {
@@ -5838,6 +6189,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Joe Morton",
       "S. Epatha Merkerson",
       "Castulo Guerra"
+    ],
+    "composers": [
+      "Brad Fiedel"
     ]
   },
   {
@@ -5886,6 +6240,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Louis Giambalvo",
       "Jon Gries",
       "Ed Lauter"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -5933,6 +6290,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Megan Cavanagh",
       "Tracy Reiner",
       "Bitty Schram"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -6006,6 +6366,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ben Whishaw",
       "Naomie Harris",
       "Dave Bautista"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -6055,6 +6418,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Cheng Pei-Pei",
       "Li Fazeng",
       "Gao Xian"
+    ],
+    "composers": [
+      "Tan Dun"
     ]
   },
   {
@@ -6104,6 +6470,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Laurence Mason",
       "Fisher Stevens",
       "Lorraine Bracco"
+    ],
+    "composers": [
+      "Simon Boswell",
+      "Guy Pratt"
     ]
   },
   {
@@ -6151,6 +6521,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Phil Reeves",
       "Molly Hagan",
       "Delaney Driscoll"
+    ],
+    "composers": [
+      "Rolfe Kent"
     ]
   },
   {
@@ -6200,6 +6573,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Gore Vidal",
       "Tony Shalhoub",
       "Ernest Borgnine"
+    ],
+    "composers": [
+      "Michael Nyman"
     ]
   },
   {
@@ -6249,6 +6625,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Brian Cox",
       "Patrick Malahide",
       "David Morse"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -6297,6 +6676,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jesse Ventura",
       "Erland van Lidth",
       "Marvin J. McIntyre"
+    ],
+    "composers": [
+      "Harold Faltermeyer"
     ]
   },
   {
@@ -6345,6 +6727,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dolph Lundgren",
       "Yahya Abdul-Mateen II",
       "Temuera Morrison"
+    ],
+    "composers": [
+      "Rupert Gregson-Williams"
     ]
   },
   {
@@ -6395,6 +6780,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Julia Scarlett Dan",
       "Jadyn Malone",
       "Frank Schorpion"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -6444,6 +6832,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "An So-hee",
       "Kim Eui-sung",
       "Ye Su-jeong"
+    ],
+    "composers": [
+      "Jang Young-gyu"
     ]
   },
   {
@@ -6491,6 +6882,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "J. Patrick McNamara",
       "Warren J. Kemmerling",
       "Roberts Blossom"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -6539,6 +6933,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Joe Pantoliano",
       "Marcus Chong",
       "Julian Arahanga"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -6586,6 +6983,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Pamela Hensley",
       "Barbara Trentham",
       "Shane Rimmer"
+    ],
+    "composers": [
+      "André Previn"
     ]
   },
   {
@@ -6634,6 +7034,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Rob Schneider",
       "Bob Gunton",
       "Glenn Shadix"
+    ],
+    "composers": [
+      "Elliot Goldenthal"
     ]
   },
   {
@@ -6683,6 +7086,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lamorne Morris",
       "Kylie Bunbury",
       "Jesse Plemons"
+    ],
+    "composers": [
+      "Cliff Martinez"
     ]
   },
   {
@@ -6730,6 +7136,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Art Hindle",
       "Lelia Goldoni",
       "Kevin McCarthy"
+    ],
+    "composers": [
+      "Denny Zeitlin"
     ]
   },
   {
@@ -6805,7 +7214,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bob Charlton",
       "Winston Stona",
       "Lucia White"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -6879,6 +7289,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Richard Libertini",
       "Donald Moffat",
       "MacIntyre Dixon"
+    ],
+    "composers": [
+      "Harry Nilsson"
     ]
   },
   {
@@ -6952,6 +7365,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "John Mahoney",
       "Bill Cobbs",
       "Bruce Campbell"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -6999,6 +7415,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Nia Long",
       "Tyra Ferrell",
       "Regina King"
+    ],
+    "composers": [
+      "Stanley Clarke"
     ]
   },
   {
@@ -7046,6 +7465,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Palin",
       "Ian Richardson",
       "Peter Vaughan"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -7094,6 +7516,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Thomas F. Wilson",
       "Marc McClure",
       "Wendie Jo Sperber"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -7142,6 +7567,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "L. Scott Caldwell",
       "Tom Wood",
       "Ron Dean"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -7199,6 +7627,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Marilyn Lightstone",
       "Eugene Levy",
       "Harold Ramis"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -7248,6 +7679,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Walter Koenig",
       "George Takei",
       "Nichelle Nichols"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -7298,6 +7732,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Wallace Shawn",
       "André Roussimoff",
       "Fred Savage"
+    ],
+    "composers": [
+      "Mark Knopfler"
     ]
   },
   {
@@ -7346,6 +7783,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Matt Adler",
       "Howard Hesseman",
       "Robert Small"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -7395,6 +7835,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Adewale Akinnuoye-Agbaje",
       "Gabriel Mann",
       "Julia Stiles"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -7444,6 +7887,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Patricia Hayes",
       "Moses Gunn",
       "Frank Lenart"
+    ],
+    "composers": [
+      "Klaus Doldinger",
+      "Giorgio Moroder"
     ]
   },
   {
@@ -7492,6 +7939,14 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Chris Pratt",
       "Artt Butler",
       "May Lindstrom"
+    ],
+    "composers": [
+      "Régine Chassagne",
+      "Richard Reed Parry",
+      "Tim Kingsbury",
+      "Jeremy Gara",
+      "Win Butler",
+      "Will Butler"
     ]
   },
   {
@@ -7539,6 +7994,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bob Gunton",
       "Howie Long",
       "Jack Thompson"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -7612,7 +8070,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Harvey Keitel",
       "Eric Stoltz",
       "Tim Roth"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -7661,6 +8120,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Eric Schweig",
       "Steven Waddington",
       "Maurice Roëves"
+    ],
+    "composers": [
+      "Randy Edelman",
+      "Trevor Jones"
     ]
   },
   {
@@ -7710,6 +8173,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Terry O'Quinn",
       "Ed Lauter",
       "Jon Polito"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -7758,6 +8224,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Connie Nielsen",
       "Craig T. Nelson",
       "Tamara Tunie"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -7807,6 +8276,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Claude Brooks",
       "Peter DeLuise",
       "Peter Kowanko"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -7854,6 +8326,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Alan Ruck",
       "Glenn Plummer",
       "Richard Lineback"
+    ],
+    "composers": [
+      "Mark Mancina"
     ]
   },
   {
@@ -7902,6 +8377,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Oscar Isaac",
       "Andy Serkis",
       "Lupita Nyong'o"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -7950,6 +8428,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dean Stockwell",
       "Darlanne Fluegel",
       "Michael Greene"
+    ],
+    "composers": [
+      "Nick Feldman",
+      "Jack Hues"
     ]
   },
   {
@@ -7998,6 +8480,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Nathan Jones",
       "Zoë Kravitz",
       "Rosie Huntington-Whiteley"
+    ],
+    "composers": [
+      "Tom Holkenborg"
     ]
   },
   {
@@ -8046,6 +8531,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Chiwetel Ejiofor",
       "Carlos Andrés Gómez",
       "Kim Director"
+    ],
+    "composers": [
+      "Terence Blanchard"
     ]
   },
   {
@@ -8096,6 +8584,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Issa Rae",
       "Daniel Kaluuya",
       "Karan Soni"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -8144,6 +8635,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Timothy Dalton",
       "Brian Blessed",
       "Peter Wyngarde"
+    ],
+    "composers": [
+      "Howard Blake"
     ]
   },
   {
@@ -8191,6 +8685,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "George Mitchell",
       "Ramon Bieri",
       "Peter Hobbs"
+    ],
+    "composers": [
+      "Gil Mellé"
     ]
   },
   {
@@ -8239,6 +8736,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Halle Berry",
       "Anna Paquin",
       "Tyler Mane"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -8286,6 +8786,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Danielle Harris",
       "Halle Berry",
       "Bruce McGill"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -8359,6 +8862,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tamio Ohki",
       "Tessyo Genda",
       "Masakazu Namaki"
+    ],
+    "composers": [
+      "Kenji Kawai"
     ]
   },
   {
@@ -8405,6 +8911,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jamie Lee Curtis",
       "Paul Gleason",
       "Frank Oz"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -8454,6 +8963,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Louise Gold",
       "Brian Meehl",
       "Stephen Garlick"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -8501,6 +9013,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Martin Ferrero",
       "BD Wong",
       "Joseph Mazzello"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -8549,6 +9064,12 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jack Noseworthy",
       "Jason Isaacs",
       "Sean Pertwee"
+    ],
+    "composers": [
+      "Michael Kamen",
+      "Phil Hartnoll",
+      "Paul Hartnoll",
+      "Orbital"
     ]
   },
   {
@@ -8597,6 +9118,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Miguel Godreau",
       "Dori Brenner",
       "Peter Brandon"
+    ],
+    "composers": [
+      "John Corigliano"
     ]
   },
   {
@@ -8645,6 +9169,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Laurel Near",
       "Jack Fisk",
       "Jean Lange"
+    ],
+    "composers": [
+      "David Lynch",
+      "Peter Ivers"
     ]
   },
   {
@@ -8694,6 +9222,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Bryan Callen",
       "Sam Sheridan",
       "Fernando Chien"
+    ],
+    "composers": [
+      "Mark Isham"
     ]
   },
   {
@@ -8741,6 +9272,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Hiroyuki Sanada",
       "Troy Garity",
       "Benedict Wong"
+    ],
+    "composers": [
+      "John Murphy"
     ]
   },
   {
@@ -8788,6 +9322,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Austin Butler",
       "Florence Pugh",
       "Dave Bautista"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -8861,6 +9398,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Dileep Rao",
       "Cillian Murphy",
       "Tom Berenger"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -8912,6 +9452,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sean Patrick Thomas",
       "Donna Murphy",
       "Ethan Suplee"
+    ],
+    "composers": [
+      "Clint Mansell"
     ]
   },
   {
@@ -8962,6 +9505,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Champion",
       "Roy Brocksmith",
       "Ray Baker"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -9010,6 +9556,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Albert Finney",
       "Mike Starr",
       "Al Mancini"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -9058,6 +9607,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jackie Earle Haley",
       "Keean Johnson",
       "Lana Condor"
+    ],
+    "composers": [
+      "Tom Holkenborg"
     ]
   },
   {
@@ -9107,6 +9659,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "James Gandolfini",
       "Rocky Carroll",
       "Jaime Gomez"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -9157,6 +9712,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Evan Lai",
       "Vince Pisani",
       "Justin James Boykin"
+    ],
+    "composers": [
+      "Geoff Barrow",
+      "Ben Salisbury"
     ]
   },
   {
@@ -9204,6 +9763,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Joss Ackland",
       "Richard Jordan",
       "Peter Firth"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -9254,6 +9816,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Benno Fürmann",
       "Hiroyuki Sanada",
       "Rain"
+    ],
+    "composers": [
+      "Michael Giacchino"
     ]
   },
   {
@@ -9304,6 +9869,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Gloria Foster",
       "Harold Perrineau",
       "Monica Bellucci"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -9351,6 +9919,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Daisuke Katō",
       "Isao Kimura",
       "Keiko Tsushima"
+    ],
+    "composers": [
+      "Fumio Hayasaka"
     ]
   },
   {
@@ -9399,6 +9970,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Derek Jacobi",
       "Djimon Hounsou",
       "David Schofield"
+    ],
+    "composers": [
+      "Hans Zimmer",
+      "Lisa Gerrard"
     ]
   },
   {
@@ -9446,6 +10021,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Logan Lerman",
       "Douglas Booth",
       "Nick Nolte"
+    ],
+    "composers": [
+      "Clint Mansell"
     ]
   },
   {
@@ -9494,6 +10072,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "J.K. Simmons",
       "Donna Murphy",
       "Daniel Gillies"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -9541,6 +10122,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Wolf Kahler",
       "Anthony Higgins",
       "Denholm Elliott"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -9590,6 +10174,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Victor Wong Chi-Keung",
       "Robert Jayne",
       "Ariana Richards"
+    ],
+    "composers": [
+      "Ernest Troost"
     ]
   },
   {
@@ -9638,6 +10225,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Raymond St. Jacques",
       "Jason Robards III",
       "John Lawrence"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -9686,6 +10277,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "James Broderick",
       "Dick O'Neill",
       "Lee Wallace"
+    ],
+    "composers": [
+      "David Shire"
     ]
   },
   {
@@ -9734,6 +10328,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Mary Kay Place",
       "W. Earl Brown",
       "Carlos Jacott"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -9782,6 +10379,11 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lee Ingleby",
       "Max Pirkis",
       "Max Benitz"
+    ],
+    "composers": [
+      "Richard Tognetti",
+      "Iva Davies",
+      "Christopher Gordon"
     ]
   },
   {
@@ -9830,6 +10432,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Martha Plimpton",
       "Ke Huy Quan",
       "John Matuszak"
+    ],
+    "composers": [
+      "Dave Grusin"
     ]
   },
   {
@@ -9878,6 +10483,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Rodney Dangerfield",
       "Edie McClurg",
       "Jared Harris"
+    ],
+    "composers": [
+      "Brent Lewis"
     ]
   },
   {
@@ -9925,6 +10533,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Frederick de Cordova",
       "Ed Herlihy",
       "Lou Brown"
+    ],
+    "composers": [
+      "Robbie Robertson"
     ]
   },
   {
@@ -9972,6 +10583,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Oscar Isaac",
       "Benedict Wong",
       "Sonoya Mizuno"
+    ],
+    "composers": [
+      "Ben Salisbury",
+      "Geoff Barrow"
     ]
   },
   {
@@ -10018,6 +10633,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Max Minghella",
       "Brenda Song",
       "Rashida Jones"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -10064,7 +10683,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kevin Smith",
       "Scott Mosier",
       "Scott Schiaffo"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -10112,6 +10732,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Carl Gottlieb",
       "Jeffrey Kramer",
       "Susan Backlinie"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -10160,6 +10783,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Fritz Weaver",
       "Richard Bright",
       "Marc Lawrence"
+    ],
+    "composers": [
+      "Michael Small"
     ]
   },
   {
@@ -10207,6 +10833,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Alexa Davalos",
       "Linus Roache",
       "Yorick van Wageningen"
+    ],
+    "composers": [
+      "Graeme Revell"
     ]
   },
   {
@@ -10255,6 +10884,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Joan Allen",
       "Stephen Lang",
       "David Seaman"
+    ],
+    "composers": [
+      "Michel Rubini",
+      "The Reds"
     ]
   },
   {
@@ -10304,6 +10937,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lily Tomlin",
       "Luna Lauren Vélez",
       "Zoë Kravitz"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -10352,6 +10988,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Simon Oakland",
       "Norman Fell",
       "Georg Stanford Brown"
+    ],
+    "composers": [
+      "Lalo Schifrin"
     ]
   },
   {
@@ -10399,6 +11038,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kyle Richards",
       "Brian Andrews",
       "John Michael Graham"
+    ],
+    "composers": [
+      "John Carpenter"
     ]
   },
   {
@@ -10448,6 +11090,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jesse Ventura",
       "Sonny Landham",
       "Richard Chaves"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -10496,6 +11141,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jackson Rathbone",
       "Nikki Reed",
       "Kellan Lutz"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -10543,6 +11191,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Chris Borchardt",
       "Ken Keen",
       "Matt Weisman"
+    ],
+    "composers": [
+      "Mike Schank"
     ]
   },
   {
@@ -10592,6 +11243,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tracy Reed",
       "Jack Creley",
       "Frank Berry"
+    ],
+    "composers": [
+      "Laurie Johnson"
     ]
   },
   {
@@ -10640,6 +11294,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Walter Koenig",
       "Nichelle Nichols",
       "Stephen Collins"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -10686,6 +11343,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Willard Sage",
       "Alex Rodine",
       "Martin E. Brooks"
+    ],
+    "composers": [
+      "Michel Colombier"
     ]
   },
   {
@@ -10734,6 +11394,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Liv Tyler",
       "Christopher Lee",
       "Sean Bean"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -10783,6 +11446,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Larry Miller",
       "Rockmond Dunbar",
       "Shannyn Sossamon"
+    ],
+    "composers": [
+      "John Ottman"
     ]
   },
   {
@@ -10858,6 +11524,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Julian Arahanga",
       "Matt Doran",
       "Belinda McClory"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -10905,6 +11574,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Deborah Van Valkenburgh",
       "Brian Tyler",
       "Tom McKitterick"
+    ],
+    "composers": [
+      "Barry De Vorzon"
     ]
   },
   {
@@ -10953,6 +11625,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Richard Jenkins",
       "Elizabeth Marvel",
       "David Rasche"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -11001,6 +11676,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Pruitt Taylor Vince",
       "Gavin Rossdale",
       "Tilda Swinton"
+    ],
+    "composers": [
+      "Klaus Badelt",
+      "Brian Tyler"
     ]
   },
   {
@@ -11049,6 +11728,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Mark Strong",
       "Benedict Cumberbatch",
       "Ciarán Hinds"
+    ],
+    "composers": [
+      "Alberto Iglesias"
     ]
   },
   {
@@ -11096,6 +11778,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Diane Keaton",
       "Talia Shire",
       "Gianni Russo"
+    ],
+    "composers": [
+      "Nino Rota"
     ]
   },
   {
@@ -11144,6 +11829,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "James Remar",
       "Thom Barry",
       "Michael Ealy"
+    ],
+    "composers": [
+      "David Arnold"
     ]
   },
   {
@@ -11194,6 +11882,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Robin Sachs",
       "Jed Rees",
       "Justin Long"
+    ],
+    "composers": [
+      "David Newman"
     ]
   },
   {
@@ -11241,6 +11932,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Janet Julian",
       "Joey Chin",
       "Giancarlo Esposito"
+    ],
+    "composers": [
+      "Joe Delia"
     ]
   },
   {
@@ -11288,6 +11982,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Albert Salmi",
       "Sydney Bromley",
       "Chloe Salaman"
+    ],
+    "composers": [
+      "Alex North"
     ]
   },
   {
@@ -11336,6 +12033,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Frédéric de Pasquale",
       "Bill Hickman",
       "Ann Rebbot"
+    ],
+    "composers": [
+      "Don Ellis"
     ]
   },
   {
@@ -11408,6 +12108,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Susan Barnes",
       "Fox Harris",
       "Tom Finnegan"
+    ],
+    "composers": [
+      "Steven Hufsteter",
+      "Tito Larriva"
     ]
   },
   {
@@ -11480,6 +12184,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Phaldut Sharma",
       "Amy Warren",
       "Basher Savage"
+    ],
+    "composers": [
+      "Steven Price"
     ]
   },
   {
@@ -11551,6 +12258,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "John Sumner",
       "William Allen Young",
       "Nick Blake"
+    ],
+    "composers": [
+      "Clinton Shorter"
     ]
   },
   {
@@ -11624,6 +12334,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Raquel Welch",
       "Christopher Lee",
       "Geraldine Chaplin"
+    ],
+    "composers": [
+      "Michel Legrand"
     ]
   },
   {
@@ -11697,6 +12410,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Angela Lansbury",
       "Robert Klein",
       "Keenan Wynn"
+    ],
+    "composers": [
+      "Jimmy Webb"
     ]
   },
   {
@@ -11772,6 +12488,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kenny Baker",
       "Frank Oz",
       "Alec Guinness"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -11844,6 +12563,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Judith Evelyn",
       "Ross Bagdasarian",
       "Georgine Darcy"
+    ],
+    "composers": [
+      "Franz Waxman"
     ]
   },
   {
@@ -11942,6 +12664,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kenjirō Ishiyama",
       "Takeshi Katō",
       "Takashi Shimura"
+    ],
+    "composers": [
+      "Masaru Satō"
     ]
   },
   {
@@ -11988,6 +12713,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ben Vereen",
       "Erzsebet Foldi",
       "Michael Tolan"
+    ],
+    "composers": [
+      "Ralph Burns"
     ]
   },
   {
@@ -12036,6 +12764,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jackie Cooper",
       "Glenn Ford",
       "Trevor Howard"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -12084,6 +12815,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Jack Creley",
       "Lynne Gorman",
       "Julie Khaner"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -12132,6 +12866,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ichirō Nakatani",
       "Kei Satō",
       "Yoshio Inaba"
+    ],
+    "composers": [
+      "Toru Takemitsu"
     ]
   },
   {
@@ -12179,6 +12916,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Talia Shire",
       "Lee Strasberg",
       "Michael V. Gazzo"
+    ],
+    "composers": [
+      "Nino Rota"
     ]
   },
   {
@@ -12226,6 +12966,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Tucci",
       "Kelly Ward",
       "Didi Conn"
+    ],
+    "composers": [
+      "Jim Jacobs",
+      "Warren Casey"
     ]
   },
   {
@@ -12276,6 +13020,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Susan Backlinie",
       "Jonathan Filley",
       "Ted Grossman"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -12326,6 +13073,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ellora Torchia",
       "Archie Madekwe",
       "Henrik Norlén"
+    ],
+    "composers": [
+      "Bobby Krlic"
     ]
   },
   {
@@ -12372,6 +13122,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Spike Lee",
       "Bill Nunn",
       "John Turturro"
+    ],
+    "composers": [
+      "Bill Lee"
     ]
   },
   {
@@ -12420,6 +13173,11 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Judi Dench",
       "Robbie Coltrane",
       "Tchéky Karyo"
+    ],
+    "composers": [
+      "Éric Serra",
+      "The Edge",
+      "Bono"
     ]
   },
   {
@@ -12468,6 +13226,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Gabriel Mann",
       "Joan Allen",
       "Marton Csokas"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -12516,6 +13277,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Kim Dickens",
       "Patrick Fugit",
       "David Clennon"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -12563,6 +13328,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Larry Marshall",
       "Josh Mostel",
       "Kurt Yaghjian"
+    ],
+    "composers": [
+      "Andrew Lloyd Webber"
     ]
   },
   {
@@ -12612,6 +13380,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Peter Capell",
       "Karl John",
       "Friedrich von Ledebur"
+    ],
+    "composers": [
+      "Christopher Franke",
+      "Edgar Froese"
     ]
   },
   {
@@ -12661,6 +13433,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sturgill Simpson",
       "Amar Chadha-Patel",
       "Marc Menchaca"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -12708,6 +13483,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Talisa Soto",
       "Trevor Goddard",
       "Chris Casamassa"
+    ],
+    "composers": [
+      "George S. Clinton"
     ]
   },
   {
@@ -12755,6 +13533,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sydney Greenstreet",
       "Peter Lorre",
       "S.Z. Sakall"
+    ],
+    "composers": [
+      "Max Steiner"
     ]
   },
   {
@@ -12801,6 +13582,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lloyd Gough",
       "Jack Webb",
       "Franklyn Farnum"
+    ],
+    "composers": [
+      "Franz Waxman"
     ]
   },
   {
@@ -12874,6 +13658,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Miguel Ferrer",
       "Robert DoQui",
       "Ray Wise"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -12924,6 +13711,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Anis Cheurfa",
       "Serinda Swan",
       "Yaya DaCosta"
+    ],
+    "composers": [
+      "Thomas Bangalter",
+      "Guy-Manuel de Homem-Christo"
     ]
   },
   {
@@ -12970,6 +13761,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Calista Flockhart",
       "Hank Azaria",
       "Christine Baranski"
+    ],
+    "composers": [
+      "Jonathan Tunick"
     ]
   },
   {
@@ -13019,6 +13813,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ashley Greene",
       "Rachelle Lefevre",
       "Billy Burke"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -13066,6 +13863,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Penn Badgley",
       "Demi Moore",
       "Stanley Tucci"
+    ],
+    "composers": [
+      "Nathan Larson"
     ]
   },
   {
@@ -13114,6 +13914,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Lee Patrick",
       "Sydney Greenstreet",
       "Ward Bond"
+    ],
+    "composers": [
+      "Adolph Deutsch"
     ]
   },
   {
@@ -13161,6 +13964,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Mason Gamble",
       "Sara Tanaka",
       "Stephen McCole"
+    ],
+    "composers": [
+      "Mark Mothersbaugh"
     ]
   },
   {
@@ -13208,6 +14014,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Oliver Smith",
       "Anthony Allen",
       "Leon Davis"
+    ],
+    "composers": [
+      "Christopher Young"
     ]
   },
   {
@@ -13258,6 +14067,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sean Hayes",
       "Katy O'Brian",
       "Colman Domingo"
+    ],
+    "composers": [
+      "Steven Price"
     ]
   },
   {
@@ -13308,6 +14120,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Sean Bean",
       "Billy Boyd",
       "Dominic Monaghan"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13356,6 +14171,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "John Rhys-Davies",
       "Orlando Bloom",
       "Bernard Hill"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13405,6 +14223,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Martin Kove",
       "George Cheung",
       "Andy Wood"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -13453,6 +14274,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Yaya DaCosta",
       "Keith David",
       "Beau Knapp"
+    ],
+    "composers": [
+      "John Ottman",
+      "David Buckley"
     ]
   },
   {
@@ -13502,6 +14327,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "William Atherton",
       "Hart Bochner",
       "James Shigeta"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -13541,7 +14369,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
     ],
     "cast": [
       "Irina Usova"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -13591,6 +14420,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Amanda Plummer",
       "Moriah 'Shining Dove' Snyder",
       "Adam Goldberg"
+    ],
+    "composers": [
+      "David C. Williams"
     ]
   },
   {
@@ -13639,6 +14471,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Litefoot",
       "Roger Willie",
       "Jim Beaver"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -13687,6 +14522,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tony Edwards",
       "John Walter Davis",
       "Ted White"
+    ],
+    "composers": [
+      "Jack Nitzsche"
     ]
   },
   {
@@ -13735,6 +14573,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Michael Strong",
       "John Vernon",
       "Sharon Acker"
+    ],
+    "composers": [
+      "Johnny Mandel"
     ]
   },
   {
@@ -13782,7 +14623,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Robert Romanus",
       "Ray Walston",
       "Scott Thomson"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -13833,6 +14675,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Barry Corbin",
       "Stephen Root",
       "Rodger Boyce"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -13881,6 +14726,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Diane Baker",
       "Ben Stiller",
       "Eric Roberts"
+    ],
+    "composers": [
+      "John Ottman"
     ]
   },
   {
@@ -13930,6 +14778,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Catherine Zeta-Jones",
       "Joan Cusack",
       "Tim Robbins"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13977,6 +14828,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Tate Donovan",
       "Clea DuVall",
       "Scoot McNairy"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -14024,6 +14878,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Philip Stone",
       "Joe Turkel",
       "Anne Jackson"
+    ],
+    "composers": [
+      "Wendy Carlos",
+      "Rachel Elkind"
     ]
   },
   {
@@ -14072,6 +14930,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Ken Leung",
       "Priya Kansara",
       "Mia Soteriou"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -14120,6 +14981,10 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Stephen Tung Wai",
       "Kwan Hoi-San",
       "John Woo"
+    ],
+    "composers": [
+      "Michael Gibbs",
+      "James Wong Jim"
     ]
   },
   {
@@ -14168,6 +15033,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "Joe Pantoliano",
       "Richard Foronjy",
       "Robert Miranda"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   }
 ];

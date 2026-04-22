@@ -158,6 +158,12 @@ const cases: RegressionCase[] = [
     expectAnswerIncludes: ['cinematographers', 'films'],
   },
   {
+    name: 'Aggregate rank — composers',
+    query: 'who is the most featured composer',
+    expectIntent: 'metadata_aggregate_rank',
+    expectAnswerIncludes: ['composers', 'films'],
+  },
+  {
     name: 'Aggregate rank — does NOT hijack notable moments',
     query: 'notable moments for The Godfather',
     expectIntent: 'metadata_notable_moments',

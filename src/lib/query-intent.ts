@@ -22,7 +22,7 @@ export type QueryIntentType =
 
 export type MetadataFieldKey = 'mmmCount' | 'thatsGreatCount';
 export type MetadataEpisodeField = 'guest' | 'reviewer' | 'releaseDate' | 'kevsQuestion';
-export type AggregateRankField = 'cast' | 'directors' | 'cinematographers' | 'genres';
+export type AggregateRankField = 'cast' | 'directors' | 'cinematographers' | 'composers' | 'genres';
 
 export interface QueryIntent {
   type: QueryIntentType;
@@ -364,6 +364,7 @@ function detectEpisodeFieldsIntent(query: string): QueryIntent | null {
 const AGGREGATE_FIELD_PATTERNS: Array<{ pattern: RegExp; field: AggregateRankField }> = [
   { pattern: /\b(actors?|actress(?:es)?|cast\s+members?|performers?)\b/i, field: 'cast' },
   { pattern: /\b(cinematographers?|dps?|director[s]?\s+of\s+photography)\b/i, field: 'cinematographers' },
+  { pattern: /\b(composers?|score\s+composers?|film\s+composers?)\b/i, field: 'composers' },
   { pattern: /\b(directors?|filmmakers?)\b/i, field: 'directors' },
   { pattern: /\bgenres?\b/i, field: 'genres' },
 ];

@@ -29,6 +29,7 @@ export interface EpisodeMetadata {
   directors?: string[];
   cinematographers?: string[];
   cast?: string[];        // Top billed actors
+  composers?: string[];
   genres?: string[];
   tmdbPosterPath?: string;
 }

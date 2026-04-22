@@ -46,6 +46,9 @@
       "Patrick Bauchau",
       "Ann Magnuson",
       "Ian Buchanan"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -143,6 +146,10 @@
       "Sylvia Hoeks",
       "Mackenzie Davis",
       "Jared Leto"
+    ],
+    "composers": [
+      "Hans Zimmer",
+      "Benjamin Wallfisch"
     ]
   },
   {
@@ -191,6 +198,9 @@
       "Tzi Ma",
       "Abigail Pniowsky",
       "Julia Scarlett Dan"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -238,6 +248,9 @@
       "Victoire du Bois",
       "Vanda Capriolo",
       "Antonio Rimoldi"
+    ],
+    "composers": [
+      "Sufjan Stevens"
     ]
   },
   {
@@ -287,6 +300,9 @@
       "Garret Dillahunt",
       "Tess Harper",
       "Barry Corbin"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -334,6 +350,10 @@
       "Claire Selby",
       "Symara A. Templeman",
       "Gana Bayarsaikhan"
+    ],
+    "composers": [
+      "Ben Salisbury",
+      "Geoff Barrow"
     ]
   },
   {
@@ -432,6 +452,9 @@
       "Daniel Kaluuya",
       "Jeffrey Donovan",
       "Raoul Max Trujillo"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -478,6 +501,9 @@
       "Brontis Jodorowsky",
       "Amanda Lear",
       "Christian Wander"
+    ],
+    "composers": [
+      "Kurt Stenzel"
     ]
   },
   {
@@ -526,6 +552,18 @@
       "Freddie Jones",
       "Brad Dourif",
       "Richard Jordan"
+    ],
+    "composers": [
+      "Brian Eno",
+      "David Paich",
+      "Jeff Porcaro",
+      "Mike Porcaro",
+      "Steve Porcaro",
+      "Marty Paich",
+      "Steve Lukather",
+      "Daniel Lanois",
+      "Roger Eno",
+      "James Newton Howard"
     ]
   },
   {
@@ -574,6 +612,9 @@
       "Timothée Chalamet",
       "Tracy Letts",
       "Bob Odenkirk"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -620,7 +661,8 @@
       "Andreas Dubois",
       "Mark Stanley",
       "August Zirner"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -692,6 +734,10 @@
       "Tim Post",
       "Kedar Brown",
       "Darryl Dinn"
+    ],
+    "composers": [
+      "Danny Bensi",
+      "Saunder Jurriaans"
     ]
   },
   {
@@ -740,6 +786,9 @@
       "Ben Mendelsohn",
       "Guy Henry",
       "Forest Whitaker"
+    ],
+    "composers": [
+      "Michael Giacchino"
     ]
   },
   {
@@ -839,6 +888,9 @@
       "Niall Buggy",
       "Bosco Hogan",
       "Jessica Swift"
+    ],
+    "composers": [
+      "David Munrow"
     ]
   },
   {
@@ -887,6 +939,9 @@
       "Sean Harris",
       "Angela Bassett",
       "Vanessa Kirby"
+    ],
+    "composers": [
+      "Lorne Balfe"
     ]
   },
   {
@@ -935,6 +990,9 @@
       "Melissa Leo",
       "Paul Dano",
       "Dylan Minnette"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -982,6 +1040,9 @@
       "Beanie Feldstein",
       "Lois Smith",
       "Stephen McKinley Henderson"
+    ],
+    "composers": [
+      "Jon Brion"
     ]
   },
   {
@@ -1030,6 +1091,9 @@
       "Christina Hendricks",
       "Ron Perlman",
       "Kaden Leos"
+    ],
+    "composers": [
+      "Cliff Martinez"
     ]
   },
   {
@@ -1085,7 +1149,8 @@
     "genres": [],
     "directors": [],
     "cinematographers": [],
-    "cast": []
+    "cast": [],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -1131,6 +1196,10 @@
       "Keala Settle",
       "Yahya Abdul-Mateen II",
       "Natasha Liu Bordizzo"
+    ],
+    "composers": [
+      "Joseph Trapanese",
+      "John Debney"
     ]
   },
   {
@@ -1179,6 +1248,9 @@
       "Thomasin McKenzie",
       "Robert Pattinson",
       "Ben Mendelsohn"
+    ],
+    "composers": [
+      "Nicholas Britell"
     ]
   },
   {
@@ -1227,6 +1299,9 @@
       "Johanne-Marie Tremblay",
       "Natalie Hamel-Roy",
       "Pierre-Yves Cardinal"
+    ],
+    "composers": [
+      "Benoît Charest"
     ]
   },
   {
@@ -1300,7 +1375,8 @@
       "Max Casella",
       "Jerry Grayson",
       "Jeanine Serralles"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -1348,6 +1424,9 @@
       "Leo McKern",
       "Ken Hutchison",
       "Giancarlo Prete"
+    ],
+    "composers": [
+      "Andrew Powell"
     ]
   },
   {
@@ -1396,6 +1475,9 @@
       "Jonathan Pryce",
       "Sean Bean",
       "Michael Lonsdale"
+    ],
+    "composers": [
+      "Elia Cmiral"
     ]
   },
   {
@@ -1446,6 +1528,9 @@
       "Richard Pryor",
       "Gary Busey",
       "Lucy Butler"
+    ],
+    "composers": [
+      "Angelo Badalamenti"
     ]
   },
   {
@@ -1494,6 +1579,9 @@
       "Bérénice Marlohe",
       "Albert Finney",
       "Ben Whishaw"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -1542,6 +1630,9 @@
       "Michael Caine",
       "Martin Donovan",
       "Fiona Dourif"
+    ],
+    "composers": [
+      "Ludwig Göransson"
     ]
   },
   {
@@ -1589,6 +1680,9 @@
       "Philip Seymour Hoffman",
       "Tara Reid",
       "Philip Moon"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -1638,6 +1732,9 @@
       "Dakin Matthews",
       "Jarlath Conroy",
       "Paul Rae"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -1679,6 +1776,9 @@
     "cast": [
       "John David Washington",
       "Zendaya"
+    ],
+    "composers": [
+      "Labrinth"
     ]
   },
   {
@@ -1727,6 +1827,9 @@
       "Wes Bentley",
       "Topher Grace",
       "Mackenzie Foy"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -1774,6 +1877,9 @@
       "Cherie Lunghi",
       "Robert Addie",
       "Gabriel Byrne"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -1822,6 +1928,9 @@
       "Dean Stockwell",
       "George Dickerson",
       "Priscilla Pointer"
+    ],
+    "composers": [
+      "Angelo Badalamenti"
     ]
   },
   {
@@ -1869,6 +1978,9 @@
       "Tony Way",
       "Kick Gurry",
       "Franz Drameh"
+    ],
+    "composers": [
+      "Christophe Beck"
     ]
   },
   {
@@ -1919,6 +2031,9 @@
       "Casey Kasem",
       "Dan Gilvezan",
       "Scatman Crothers"
+    ],
+    "composers": [
+      "Vince DiCola"
     ]
   },
   {
@@ -1967,6 +2082,9 @@
       "Keanu Reeves",
       "James Gammon",
       "Jack Kehler"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -2014,6 +2132,9 @@
       "Mahito Tsujimura",
       "Mina Tominaga",
       "Kohei Miyauchi"
+    ],
+    "composers": [
+      "Joe Hisaishi"
     ]
   },
   {
@@ -2062,6 +2183,9 @@
       "Benicio del Toro",
       "Jena Malone",
       "Joanna Newsom"
+    ],
+    "composers": [
+      "Jonny Greenwood"
     ]
   },
   {
@@ -2135,6 +2259,9 @@
       "Abdelghafour Elaaziz",
       "Dominique Briand",
       "Frédéric Paquet"
+    ],
+    "composers": [
+      "Grégoire Hetzel"
     ]
   },
   {
@@ -2183,6 +2310,9 @@
       "Juanin Clay",
       "Kent Williams",
       "Dennis Lipscomb"
+    ],
+    "composers": [
+      "Arthur B. Rubinstein"
     ]
   },
   {
@@ -2229,6 +2359,9 @@
       "Casey Affleck",
       "Cole Hauser",
       "Vik Sahay"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -2279,6 +2412,10 @@
       "Tiny Ross",
       "Jack Purvis",
       "Ian Holm"
+    ],
+    "composers": [
+      "Mike Moran",
+      "Trevor Jones"
     ]
   },
   {
@@ -2352,6 +2489,9 @@
       "Brian Henson",
       "David Shaughnessy",
       "Ron Mueck"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -2400,6 +2540,9 @@
       "Cas Anvar",
       "Russell Peters",
       "Brent Skagford"
+    ],
+    "composers": [
+      "Chris Bacon"
     ]
   },
   {
@@ -2448,6 +2591,9 @@
       "Billy Dee Williams",
       "Michael Gough",
       "Jack Palance"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -2495,6 +2641,9 @@
       "Ian Holm",
       "Yaphet Kotto",
       "Bolaji Badejo"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -2543,6 +2692,9 @@
       "Daryl Hannah",
       "William Sanderson",
       "Brion James"
+    ],
+    "composers": [
+      "Vangelis"
     ]
   },
   {
@@ -2590,6 +2742,9 @@
       "Walter Koenig",
       "Nichelle Nichols",
       "Mark Lenard"
+    ],
+    "composers": [
+      "Leonard Rosenman"
     ]
   },
   {
@@ -2637,6 +2792,9 @@
       "Mark Pellegrino",
       "Robert Forster",
       "Dan Hedaya",
+      "Angelo Badalamenti"
+    ],
+    "composers": [
       "Angelo Badalamenti"
     ]
   },
@@ -2711,6 +2869,9 @@
       "Dominique Swain",
       "Nick Cassavetes",
       "Harve Presnell"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -2757,6 +2918,10 @@
       "Susan Blanchard",
       "Anne Marie Howard",
       "Ann Yen"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -2804,6 +2969,10 @@
       "Season Hubley",
       "Harry Dean Stanton",
       "Adrienne Barbeau"
+    ],
+    "composers": [
+      "Alan Howarth",
+      "John Carpenter"
     ]
   },
   {
@@ -2852,6 +3021,11 @@
       "Richard Dysart",
       "Charles Hallahan",
       "Peter Maloney"
+    ],
+    "composers": [
+      "Ennio Morricone",
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -2925,6 +3099,9 @@
       "Maggie Gyllenhaal",
       "Mary McDonnell",
       "Holmes Osborne"
+    ],
+    "composers": [
+      "Michael Andrews"
     ]
   },
   {
@@ -2972,6 +3149,9 @@
       "Stephen McKinley Henderson",
       "Josh Brolin",
       "Javier Bardem"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -3045,6 +3225,9 @@
       "Jon Seda",
       "Christopher Meloni",
       "Joey Perillo"
+    ],
+    "composers": [
+      "Paul Buckmaster"
     ]
   },
   {
@@ -3093,6 +3276,9 @@
       "Bill Paxton",
       "William Hope",
       "Jenette Goldstein"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -3141,7 +3327,8 @@
       "Leonard Rossiter",
       "Margaret Tyzack",
       "Robert Beatty"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -3190,6 +3377,9 @@
       "Pam Ferris",
       "Charlie Hunnam",
       "Danny Huston"
+    ],
+    "composers": [
+      "John Tavener"
     ]
   },
   {
@@ -3238,6 +3428,9 @@
       "William Fichtner",
       "David Morse",
       "Angela Bassett"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -3286,6 +3479,9 @@
       "José Ferrer",
       "Anthony Quayle",
       "Claude Rains"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -3336,6 +3532,11 @@
       "Bae Doona",
       "Ben Whishaw",
       "James D'Arcy"
+    ],
+    "composers": [
+      "Reinhold Heil",
+      "Johnny Klimek",
+      "Tom Tykwer"
     ]
   },
   {
@@ -3383,6 +3584,9 @@
       "Paul Gleason",
       "De'voreaux White",
       "William Atherton"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -3431,6 +3635,9 @@
       "Dan Shor",
       "Peter Jurasik",
       "Tony Stephano"
+    ],
+    "composers": [
+      "Wendy Carlos"
     ]
   },
   {
@@ -3479,6 +3686,10 @@
       "Beau Garrett",
       "Michael Sheen",
       "Anis Cheurfa"
+    ],
+    "composers": [
+      "Thomas Bangalter",
+      "Guy-Manuel de Homem-Christo"
     ]
   },
   {
@@ -3526,6 +3737,9 @@
       "Timothée Chalamet",
       "Lyna Khoudri",
       "Jeffrey Wright"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -3573,6 +3787,9 @@
       "Annie Potts",
       "William Atherton",
       "Ernie Hudson"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -3647,6 +3864,9 @@
       "Clancy Brown",
       "Michael Ironside",
       "Patrick Muldoon"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -3695,6 +3915,9 @@
       "John Cusack",
       "Dash Mihok",
       "John C. Reilly"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -3744,6 +3967,9 @@
       "Richard C. Sarafian",
       "Barry Kivel",
       "Mary Mara"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -3791,6 +4017,9 @@
       "Michael Madsen",
       "Julie Dreyfus",
       "Chiaki Kuriyama"
+    ],
+    "composers": [
+      "RZA"
     ]
   },
   {
@@ -3839,6 +4068,10 @@
       "Michael Parks",
       "Perla Haney-Jardine",
       "Vivica A. Fox"
+    ],
+    "composers": [
+      "Robert Rodriguez",
+      "RZA"
     ]
   },
   {
@@ -3887,6 +4120,9 @@
       "Danielle Skraastad",
       "Wai Chan",
       "Alberto Vazquez"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -3936,6 +4172,9 @@
       "Lewis Smith",
       "Rosalind Cash",
       "Robert Ito"
+    ],
+    "composers": [
+      "Michael Boddicker"
     ]
   },
   {
@@ -3984,6 +4223,9 @@
       "Kevin Spacey",
       "Jonathan Pryce",
       "Bruce Altman"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -4033,6 +4275,9 @@
       "David Battley",
       "Bernard Bresslaw",
       "Liam Neeson"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -4080,6 +4325,9 @@
       "Ian Richardson",
       "Bruce Spence",
       "Colin Friels"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -4129,6 +4377,9 @@
       "Claire Duburcq",
       "Colin Firth",
       "Benedict Cumberbatch"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -4201,6 +4452,9 @@
       "Dana Delany",
       "Sam Elliott",
       "Stephen Lang"
+    ],
+    "composers": [
+      "Bruce Broughton"
     ]
   },
   {
@@ -4247,6 +4501,9 @@
       "Oliver Robins",
       "Zelda Rubinstein",
       "Richard Lawson"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -4294,6 +4551,9 @@
       "Sam McMurray",
       "Frances McDormand",
       "Randall \"Tex\" Cobb"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -4342,6 +4602,9 @@
       "Ed O'Ross",
       "William Boyett",
       "Richard Brooks"
+    ],
+    "composers": [
+      "Michael Convertino"
     ]
   },
   {
@@ -4390,6 +4653,9 @@
       "Ben Kingsley",
       "Denise Dowse",
       "Timothy Busfield"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -4439,6 +4705,9 @@
       "Luke Perry",
       "Brion James",
       "Tommy Lister Jr."
+    ],
+    "composers": [
+      "Éric Serra"
     ]
   },
   {
@@ -4486,6 +4755,9 @@
       "Michael Anderson Jr.",
       "Peter Ustinov",
       "Randolph Roberts"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -4534,6 +4806,9 @@
       "Alan North",
       "Jon Polito",
       "Sheila Gish"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -4582,6 +4857,9 @@
       "Ernest Borgnine",
       "Tom McLoughlin",
       "Roddy McDowall"
+    ],
+    "composers": [
+      "John Barry"
     ]
   },
   {
@@ -4655,6 +4933,9 @@
       "Diane Venora",
       "Amy Brenneman",
       "Ashley Judd"
+    ],
+    "composers": [
+      "Elliot Goldenthal"
     ]
   },
   {
@@ -4701,6 +4982,9 @@
       "Alan Rachins",
       "Gina Ravera",
       "Lin Tucci"
+    ],
+    "composers": [
+      "Dave Stewart"
     ]
   },
   {
@@ -4749,6 +5033,9 @@
       "Miranda Richardson",
       "Wallace Shawn",
       "Bai Ling"
+    ],
+    "composers": [
+      "Moby"
     ]
   },
   {
@@ -4824,6 +5111,9 @@
       "Alfred Molina",
       "Stephen Root",
       "Harry Dean Stanton"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -4872,6 +5162,10 @@
       "Denis Akiyama",
       "Henry Rollins",
       "Barbara Sukowa"
+    ],
+    "composers": [
+      "Brad Fiedel",
+      "Mychael Danna"
     ]
   },
   {
@@ -4919,6 +5213,9 @@
       "Lance Kerwin",
       "Bumper Robinson",
       "Jim Mapp"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -4967,6 +5264,9 @@
       "Colleen Dewhurst",
       "Martin Sheen",
       "Nicholas Campbell"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -5016,6 +5316,9 @@
       "Clarke Peters",
       "Steven Berkoff",
       "John Ratzenberger"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -5064,6 +5367,9 @@
       "Cassandra Gava",
       "Gerry Lopez",
       "Mako"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -5111,6 +5417,9 @@
       "Giselle Palmer",
       "Taylor Kastle",
       "Thea Carla Schøtt"
+    ],
+    "composers": [
+      "Thomas Bangalter"
     ]
   },
   {
@@ -5158,6 +5467,9 @@
       "Connor Cruise",
       "Edwin Hodge",
       "Jeffrey Dean Morgan"
+    ],
+    "composers": [
+      "Ramin Djawadi"
     ]
   },
   {
@@ -5206,6 +5518,9 @@
       "Rick Rossovich",
       "Bess Motta",
       "Earl Boen"
+    ],
+    "composers": [
+      "Brad Fiedel"
     ]
   },
   {
@@ -5255,6 +5570,9 @@
       "Annie Ross",
       "Pamela Stephenson",
       "Robert Vaughn"
+    ],
+    "composers": [
+      "Ken Thorne"
     ]
   },
   {
@@ -5301,6 +5619,9 @@
       "Beatrice Straight",
       "Wesley Addy",
       "Arthur Burghardt"
+    ],
+    "composers": [
+      "Elliot Lawrence"
     ]
   },
   {
@@ -5334,7 +5655,8 @@
     ],
     "directors": [],
     "cinematographers": [],
-    "cast": []
+    "cast": [],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -5381,6 +5703,9 @@
       "Billy Barty",
       "Cork Hubbert",
       "Peter O'Farrell"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -5428,6 +5753,9 @@
       "Jorja Fox",
       "Stephen Tobolowsky",
       "Harriet Sansom Harris"
+    ],
+    "composers": [
+      "David Julyan"
     ]
   },
   {
@@ -5477,6 +5805,10 @@
       "Kate Burton",
       "Donald Li",
       "Carter Huang Chia-Ta"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -5525,6 +5857,9 @@
       "Daryl Mitchell",
       "Enrico Colantoni",
       "Robin Sachs"
+    ],
+    "composers": [
+      "David Newman"
     ]
   },
   {
@@ -5573,6 +5908,9 @@
       "Kelvin Harrison, Jr.",
       "David Wenham",
       "Kodi Smit-McPhee"
+    ],
+    "composers": [
+      "Elliott Wheeler"
     ]
   },
   {
@@ -5621,6 +5959,9 @@
       "Dennis Farina",
       "Catherine Keener",
       "Isaiah Washington"
+    ],
+    "composers": [
+      "David Holmes"
     ]
   },
   {
@@ -5694,6 +6035,10 @@
       "David Gordon Green",
       "Michael Stuhlbarg",
       "Jessica Harper"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -5741,6 +6086,9 @@
       "Famke Janssen",
       "Martin Landau",
       "Michael Rispoli"
+    ],
+    "composers": [
+      "Christopher Young"
     ]
   },
   {
@@ -5788,6 +6136,9 @@
       "Addison Powell",
       "Walter McGinn",
       "Tina Chen"
+    ],
+    "composers": [
+      "Dave Grusin"
     ]
   },
   {
@@ -5836,6 +6187,9 @@
       "Joe Morton",
       "S. Epatha Merkerson",
       "Castulo Guerra"
+    ],
+    "composers": [
+      "Brad Fiedel"
     ]
   },
   {
@@ -5884,6 +6238,9 @@
       "Louis Giambalvo",
       "Jon Gries",
       "Ed Lauter"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -5931,6 +6288,9 @@
       "Megan Cavanagh",
       "Tracy Reiner",
       "Bitty Schram"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -6004,6 +6364,9 @@
       "Ben Whishaw",
       "Naomie Harris",
       "Dave Bautista"
+    ],
+    "composers": [
+      "Thomas Newman"
     ]
   },
   {
@@ -6053,6 +6416,9 @@
       "Cheng Pei-Pei",
       "Li Fazeng",
       "Gao Xian"
+    ],
+    "composers": [
+      "Tan Dun"
     ]
   },
   {
@@ -6102,6 +6468,10 @@
       "Laurence Mason",
       "Fisher Stevens",
       "Lorraine Bracco"
+    ],
+    "composers": [
+      "Simon Boswell",
+      "Guy Pratt"
     ]
   },
   {
@@ -6149,6 +6519,9 @@
       "Phil Reeves",
       "Molly Hagan",
       "Delaney Driscoll"
+    ],
+    "composers": [
+      "Rolfe Kent"
     ]
   },
   {
@@ -6198,6 +6571,9 @@
       "Gore Vidal",
       "Tony Shalhoub",
       "Ernest Borgnine"
+    ],
+    "composers": [
+      "Michael Nyman"
     ]
   },
   {
@@ -6247,6 +6623,9 @@
       "Brian Cox",
       "Patrick Malahide",
       "David Morse"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -6295,6 +6674,9 @@
       "Jesse Ventura",
       "Erland van Lidth",
       "Marvin J. McIntyre"
+    ],
+    "composers": [
+      "Harold Faltermeyer"
     ]
   },
   {
@@ -6343,6 +6725,9 @@
       "Dolph Lundgren",
       "Yahya Abdul-Mateen II",
       "Temuera Morrison"
+    ],
+    "composers": [
+      "Rupert Gregson-Williams"
     ]
   },
   {
@@ -6393,6 +6778,9 @@
       "Julia Scarlett Dan",
       "Jadyn Malone",
       "Frank Schorpion"
+    ],
+    "composers": [
+      "Jóhann Jóhannsson"
     ]
   },
   {
@@ -6442,6 +6830,9 @@
       "An So-hee",
       "Kim Eui-sung",
       "Ye Su-jeong"
+    ],
+    "composers": [
+      "Jang Young-gyu"
     ]
   },
   {
@@ -6489,6 +6880,9 @@
       "J. Patrick McNamara",
       "Warren J. Kemmerling",
       "Roberts Blossom"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -6537,6 +6931,9 @@
       "Joe Pantoliano",
       "Marcus Chong",
       "Julian Arahanga"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -6584,6 +6981,9 @@
       "Pamela Hensley",
       "Barbara Trentham",
       "Shane Rimmer"
+    ],
+    "composers": [
+      "André Previn"
     ]
   },
   {
@@ -6632,6 +7032,9 @@
       "Rob Schneider",
       "Bob Gunton",
       "Glenn Shadix"
+    ],
+    "composers": [
+      "Elliot Goldenthal"
     ]
   },
   {
@@ -6681,6 +7084,9 @@
       "Lamorne Morris",
       "Kylie Bunbury",
       "Jesse Plemons"
+    ],
+    "composers": [
+      "Cliff Martinez"
     ]
   },
   {
@@ -6728,6 +7134,9 @@
       "Art Hindle",
       "Lelia Goldoni",
       "Kevin McCarthy"
+    ],
+    "composers": [
+      "Denny Zeitlin"
     ]
   },
   {
@@ -6803,7 +7212,8 @@
       "Bob Charlton",
       "Winston Stona",
       "Lucia White"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "DP",
@@ -6877,6 +7287,9 @@
       "Richard Libertini",
       "Donald Moffat",
       "MacIntyre Dixon"
+    ],
+    "composers": [
+      "Harry Nilsson"
     ]
   },
   {
@@ -6950,6 +7363,9 @@
       "John Mahoney",
       "Bill Cobbs",
       "Bruce Campbell"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -6997,6 +7413,9 @@
       "Nia Long",
       "Tyra Ferrell",
       "Regina King"
+    ],
+    "composers": [
+      "Stanley Clarke"
     ]
   },
   {
@@ -7044,6 +7463,9 @@
       "Michael Palin",
       "Ian Richardson",
       "Peter Vaughan"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -7092,6 +7514,9 @@
       "Thomas F. Wilson",
       "Marc McClure",
       "Wendie Jo Sperber"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -7140,6 +7565,9 @@
       "L. Scott Caldwell",
       "Tom Wood",
       "Ron Dean"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -7197,6 +7625,9 @@
       "Marilyn Lightstone",
       "Eugene Levy",
       "Harold Ramis"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -7246,6 +7677,9 @@
       "Walter Koenig",
       "George Takei",
       "Nichelle Nichols"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -7296,6 +7730,9 @@
       "Wallace Shawn",
       "André Roussimoff",
       "Fred Savage"
+    ],
+    "composers": [
+      "Mark Knopfler"
     ]
   },
   {
@@ -7344,6 +7781,9 @@
       "Matt Adler",
       "Howard Hesseman",
       "Robert Small"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -7393,6 +7833,9 @@
       "Adewale Akinnuoye-Agbaje",
       "Gabriel Mann",
       "Julia Stiles"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -7442,6 +7885,10 @@
       "Patricia Hayes",
       "Moses Gunn",
       "Frank Lenart"
+    ],
+    "composers": [
+      "Klaus Doldinger",
+      "Giorgio Moroder"
     ]
   },
   {
@@ -7490,6 +7937,14 @@
       "Chris Pratt",
       "Artt Butler",
       "May Lindstrom"
+    ],
+    "composers": [
+      "Régine Chassagne",
+      "Richard Reed Parry",
+      "Tim Kingsbury",
+      "Jeremy Gara",
+      "Win Butler",
+      "Will Butler"
     ]
   },
   {
@@ -7537,6 +7992,9 @@
       "Bob Gunton",
       "Howie Long",
       "Jack Thompson"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -7610,7 +8068,8 @@
       "Harvey Keitel",
       "Eric Stoltz",
       "Tim Roth"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -7659,6 +8118,10 @@
       "Eric Schweig",
       "Steven Waddington",
       "Maurice Roëves"
+    ],
+    "composers": [
+      "Randy Edelman",
+      "Trevor Jones"
     ]
   },
   {
@@ -7708,6 +8171,9 @@
       "Terry O'Quinn",
       "Ed Lauter",
       "Jon Polito"
+    ],
+    "composers": [
+      "James Horner"
     ]
   },
   {
@@ -7756,6 +8222,9 @@
       "Connie Nielsen",
       "Craig T. Nelson",
       "Tamara Tunie"
+    ],
+    "composers": [
+      "James Newton Howard"
     ]
   },
   {
@@ -7805,6 +8274,9 @@
       "Claude Brooks",
       "Peter DeLuise",
       "Peter Kowanko"
+    ],
+    "composers": [
+      "Maurice Jarre"
     ]
   },
   {
@@ -7852,6 +8324,9 @@
       "Alan Ruck",
       "Glenn Plummer",
       "Richard Lineback"
+    ],
+    "composers": [
+      "Mark Mancina"
     ]
   },
   {
@@ -7900,6 +8375,9 @@
       "Oscar Isaac",
       "Andy Serkis",
       "Lupita Nyong'o"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -7948,6 +8426,10 @@
       "Dean Stockwell",
       "Darlanne Fluegel",
       "Michael Greene"
+    ],
+    "composers": [
+      "Nick Feldman",
+      "Jack Hues"
     ]
   },
   {
@@ -7996,6 +8478,9 @@
       "Nathan Jones",
       "Zoë Kravitz",
       "Rosie Huntington-Whiteley"
+    ],
+    "composers": [
+      "Tom Holkenborg"
     ]
   },
   {
@@ -8044,6 +8529,9 @@
       "Chiwetel Ejiofor",
       "Carlos Andrés Gómez",
       "Kim Director"
+    ],
+    "composers": [
+      "Terence Blanchard"
     ]
   },
   {
@@ -8094,6 +8582,9 @@
       "Issa Rae",
       "Daniel Kaluuya",
       "Karan Soni"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -8142,6 +8633,9 @@
       "Timothy Dalton",
       "Brian Blessed",
       "Peter Wyngarde"
+    ],
+    "composers": [
+      "Howard Blake"
     ]
   },
   {
@@ -8189,6 +8683,9 @@
       "George Mitchell",
       "Ramon Bieri",
       "Peter Hobbs"
+    ],
+    "composers": [
+      "Gil Mellé"
     ]
   },
   {
@@ -8237,6 +8734,9 @@
       "Halle Berry",
       "Anna Paquin",
       "Tyler Mane"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -8284,6 +8784,9 @@
       "Danielle Harris",
       "Halle Berry",
       "Bruce McGill"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -8357,6 +8860,9 @@
       "Tamio Ohki",
       "Tessyo Genda",
       "Masakazu Namaki"
+    ],
+    "composers": [
+      "Kenji Kawai"
     ]
   },
   {
@@ -8403,6 +8909,9 @@
       "Jamie Lee Curtis",
       "Paul Gleason",
       "Frank Oz"
+    ],
+    "composers": [
+      "Elmer Bernstein"
     ]
   },
   {
@@ -8452,6 +8961,9 @@
       "Louise Gold",
       "Brian Meehl",
       "Stephen Garlick"
+    ],
+    "composers": [
+      "Trevor Jones"
     ]
   },
   {
@@ -8499,6 +9011,9 @@
       "Martin Ferrero",
       "BD Wong",
       "Joseph Mazzello"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -8547,6 +9062,12 @@
       "Jack Noseworthy",
       "Jason Isaacs",
       "Sean Pertwee"
+    ],
+    "composers": [
+      "Michael Kamen",
+      "Phil Hartnoll",
+      "Paul Hartnoll",
+      "Orbital"
     ]
   },
   {
@@ -8595,6 +9116,9 @@
       "Miguel Godreau",
       "Dori Brenner",
       "Peter Brandon"
+    ],
+    "composers": [
+      "John Corigliano"
     ]
   },
   {
@@ -8643,6 +9167,10 @@
       "Laurel Near",
       "Jack Fisk",
       "Jean Lange"
+    ],
+    "composers": [
+      "David Lynch",
+      "Peter Ivers"
     ]
   },
   {
@@ -8692,6 +9220,9 @@
       "Bryan Callen",
       "Sam Sheridan",
       "Fernando Chien"
+    ],
+    "composers": [
+      "Mark Isham"
     ]
   },
   {
@@ -8739,6 +9270,9 @@
       "Hiroyuki Sanada",
       "Troy Garity",
       "Benedict Wong"
+    ],
+    "composers": [
+      "John Murphy"
     ]
   },
   {
@@ -8786,6 +9320,9 @@
       "Austin Butler",
       "Florence Pugh",
       "Dave Bautista"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -8859,6 +9396,9 @@
       "Dileep Rao",
       "Cillian Murphy",
       "Tom Berenger"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -8910,6 +9450,9 @@
       "Sean Patrick Thomas",
       "Donna Murphy",
       "Ethan Suplee"
+    ],
+    "composers": [
+      "Clint Mansell"
     ]
   },
   {
@@ -8960,6 +9503,9 @@
       "Michael Champion",
       "Roy Brocksmith",
       "Ray Baker"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -9008,6 +9554,9 @@
       "Albert Finney",
       "Mike Starr",
       "Al Mancini"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -9056,6 +9605,9 @@
       "Jackie Earle Haley",
       "Keean Johnson",
       "Lana Condor"
+    ],
+    "composers": [
+      "Tom Holkenborg"
     ]
   },
   {
@@ -9105,6 +9657,9 @@
       "James Gandolfini",
       "Rocky Carroll",
       "Jaime Gomez"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -9155,6 +9710,10 @@
       "Evan Lai",
       "Vince Pisani",
       "Justin James Boykin"
+    ],
+    "composers": [
+      "Geoff Barrow",
+      "Ben Salisbury"
     ]
   },
   {
@@ -9202,6 +9761,9 @@
       "Joss Ackland",
       "Richard Jordan",
       "Peter Firth"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -9252,6 +9814,9 @@
       "Benno Fürmann",
       "Hiroyuki Sanada",
       "Rain"
+    ],
+    "composers": [
+      "Michael Giacchino"
     ]
   },
   {
@@ -9302,6 +9867,9 @@
       "Gloria Foster",
       "Harold Perrineau",
       "Monica Bellucci"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -9349,6 +9917,9 @@
       "Daisuke Katō",
       "Isao Kimura",
       "Keiko Tsushima"
+    ],
+    "composers": [
+      "Fumio Hayasaka"
     ]
   },
   {
@@ -9397,6 +9968,10 @@
       "Derek Jacobi",
       "Djimon Hounsou",
       "David Schofield"
+    ],
+    "composers": [
+      "Hans Zimmer",
+      "Lisa Gerrard"
     ]
   },
   {
@@ -9444,6 +10019,9 @@
       "Logan Lerman",
       "Douglas Booth",
       "Nick Nolte"
+    ],
+    "composers": [
+      "Clint Mansell"
     ]
   },
   {
@@ -9492,6 +10070,9 @@
       "J.K. Simmons",
       "Donna Murphy",
       "Daniel Gillies"
+    ],
+    "composers": [
+      "Danny Elfman"
     ]
   },
   {
@@ -9539,6 +10120,9 @@
       "Wolf Kahler",
       "Anthony Higgins",
       "Denholm Elliott"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -9588,6 +10172,9 @@
       "Victor Wong Chi-Keung",
       "Robert Jayne",
       "Ariana Richards"
+    ],
+    "composers": [
+      "Ernest Troost"
     ]
   },
   {
@@ -9636,6 +10223,10 @@
       "Raymond St. Jacques",
       "Jason Robards III",
       "John Lawrence"
+    ],
+    "composers": [
+      "John Carpenter",
+      "Alan Howarth"
     ]
   },
   {
@@ -9684,6 +10275,9 @@
       "James Broderick",
       "Dick O'Neill",
       "Lee Wallace"
+    ],
+    "composers": [
+      "David Shire"
     ]
   },
   {
@@ -9732,6 +10326,9 @@
       "Mary Kay Place",
       "W. Earl Brown",
       "Carlos Jacott"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -9780,6 +10377,11 @@
       "Lee Ingleby",
       "Max Pirkis",
       "Max Benitz"
+    ],
+    "composers": [
+      "Richard Tognetti",
+      "Iva Davies",
+      "Christopher Gordon"
     ]
   },
   {
@@ -9828,6 +10430,9 @@
       "Martha Plimpton",
       "Ke Huy Quan",
       "John Matuszak"
+    ],
+    "composers": [
+      "Dave Grusin"
     ]
   },
   {
@@ -9876,6 +10481,9 @@
       "Rodney Dangerfield",
       "Edie McClurg",
       "Jared Harris"
+    ],
+    "composers": [
+      "Brent Lewis"
     ]
   },
   {
@@ -9923,6 +10531,9 @@
       "Frederick de Cordova",
       "Ed Herlihy",
       "Lou Brown"
+    ],
+    "composers": [
+      "Robbie Robertson"
     ]
   },
   {
@@ -9970,6 +10581,10 @@
       "Oscar Isaac",
       "Benedict Wong",
       "Sonoya Mizuno"
+    ],
+    "composers": [
+      "Ben Salisbury",
+      "Geoff Barrow"
     ]
   },
   {
@@ -10016,6 +10631,10 @@
       "Max Minghella",
       "Brenda Song",
       "Rashida Jones"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -10062,7 +10681,8 @@
       "Kevin Smith",
       "Scott Mosier",
       "Scott Schiaffo"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -10110,6 +10730,9 @@
       "Carl Gottlieb",
       "Jeffrey Kramer",
       "Susan Backlinie"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -10158,6 +10781,9 @@
       "Fritz Weaver",
       "Richard Bright",
       "Marc Lawrence"
+    ],
+    "composers": [
+      "Michael Small"
     ]
   },
   {
@@ -10205,6 +10831,9 @@
       "Alexa Davalos",
       "Linus Roache",
       "Yorick van Wageningen"
+    ],
+    "composers": [
+      "Graeme Revell"
     ]
   },
   {
@@ -10253,6 +10882,10 @@
       "Joan Allen",
       "Stephen Lang",
       "David Seaman"
+    ],
+    "composers": [
+      "Michel Rubini",
+      "The Reds"
     ]
   },
   {
@@ -10302,6 +10935,9 @@
       "Lily Tomlin",
       "Luna Lauren Vélez",
       "Zoë Kravitz"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -10350,6 +10986,9 @@
       "Simon Oakland",
       "Norman Fell",
       "Georg Stanford Brown"
+    ],
+    "composers": [
+      "Lalo Schifrin"
     ]
   },
   {
@@ -10397,6 +11036,9 @@
       "Kyle Richards",
       "Brian Andrews",
       "John Michael Graham"
+    ],
+    "composers": [
+      "John Carpenter"
     ]
   },
   {
@@ -10446,6 +11088,9 @@
       "Jesse Ventura",
       "Sonny Landham",
       "Richard Chaves"
+    ],
+    "composers": [
+      "Alan Silvestri"
     ]
   },
   {
@@ -10494,6 +11139,9 @@
       "Jackson Rathbone",
       "Nikki Reed",
       "Kellan Lutz"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -10541,6 +11189,9 @@
       "Chris Borchardt",
       "Ken Keen",
       "Matt Weisman"
+    ],
+    "composers": [
+      "Mike Schank"
     ]
   },
   {
@@ -10590,6 +11241,9 @@
       "Tracy Reed",
       "Jack Creley",
       "Frank Berry"
+    ],
+    "composers": [
+      "Laurie Johnson"
     ]
   },
   {
@@ -10638,6 +11292,9 @@
       "Walter Koenig",
       "Nichelle Nichols",
       "Stephen Collins"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -10684,6 +11341,9 @@
       "Willard Sage",
       "Alex Rodine",
       "Martin E. Brooks"
+    ],
+    "composers": [
+      "Michel Colombier"
     ]
   },
   {
@@ -10732,6 +11392,9 @@
       "Liv Tyler",
       "Christopher Lee",
       "Sean Bean"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -10781,6 +11444,9 @@
       "Larry Miller",
       "Rockmond Dunbar",
       "Shannyn Sossamon"
+    ],
+    "composers": [
+      "John Ottman"
     ]
   },
   {
@@ -10856,6 +11522,9 @@
       "Julian Arahanga",
       "Matt Doran",
       "Belinda McClory"
+    ],
+    "composers": [
+      "Don Davis"
     ]
   },
   {
@@ -10903,6 +11572,9 @@
       "Deborah Van Valkenburgh",
       "Brian Tyler",
       "Tom McKitterick"
+    ],
+    "composers": [
+      "Barry De Vorzon"
     ]
   },
   {
@@ -10951,6 +11623,9 @@
       "Richard Jenkins",
       "Elizabeth Marvel",
       "David Rasche"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -10999,6 +11674,10 @@
       "Pruitt Taylor Vince",
       "Gavin Rossdale",
       "Tilda Swinton"
+    ],
+    "composers": [
+      "Klaus Badelt",
+      "Brian Tyler"
     ]
   },
   {
@@ -11047,6 +11726,9 @@
       "Mark Strong",
       "Benedict Cumberbatch",
       "Ciarán Hinds"
+    ],
+    "composers": [
+      "Alberto Iglesias"
     ]
   },
   {
@@ -11094,6 +11776,9 @@
       "Diane Keaton",
       "Talia Shire",
       "Gianni Russo"
+    ],
+    "composers": [
+      "Nino Rota"
     ]
   },
   {
@@ -11142,6 +11827,9 @@
       "James Remar",
       "Thom Barry",
       "Michael Ealy"
+    ],
+    "composers": [
+      "David Arnold"
     ]
   },
   {
@@ -11192,6 +11880,9 @@
       "Robin Sachs",
       "Jed Rees",
       "Justin Long"
+    ],
+    "composers": [
+      "David Newman"
     ]
   },
   {
@@ -11239,6 +11930,9 @@
       "Janet Julian",
       "Joey Chin",
       "Giancarlo Esposito"
+    ],
+    "composers": [
+      "Joe Delia"
     ]
   },
   {
@@ -11286,6 +11980,9 @@
       "Albert Salmi",
       "Sydney Bromley",
       "Chloe Salaman"
+    ],
+    "composers": [
+      "Alex North"
     ]
   },
   {
@@ -11334,6 +12031,9 @@
       "Frédéric de Pasquale",
       "Bill Hickman",
       "Ann Rebbot"
+    ],
+    "composers": [
+      "Don Ellis"
     ]
   },
   {
@@ -11406,6 +12106,10 @@
       "Susan Barnes",
       "Fox Harris",
       "Tom Finnegan"
+    ],
+    "composers": [
+      "Steven Hufsteter",
+      "Tito Larriva"
     ]
   },
   {
@@ -11478,6 +12182,9 @@
       "Phaldut Sharma",
       "Amy Warren",
       "Basher Savage"
+    ],
+    "composers": [
+      "Steven Price"
     ]
   },
   {
@@ -11549,6 +12256,9 @@
       "John Sumner",
       "William Allen Young",
       "Nick Blake"
+    ],
+    "composers": [
+      "Clinton Shorter"
     ]
   },
   {
@@ -11622,6 +12332,9 @@
       "Raquel Welch",
       "Christopher Lee",
       "Geraldine Chaplin"
+    ],
+    "composers": [
+      "Michel Legrand"
     ]
   },
   {
@@ -11695,6 +12408,9 @@
       "Angela Lansbury",
       "Robert Klein",
       "Keenan Wynn"
+    ],
+    "composers": [
+      "Jimmy Webb"
     ]
   },
   {
@@ -11770,6 +12486,9 @@
       "Kenny Baker",
       "Frank Oz",
       "Alec Guinness"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -11842,6 +12561,9 @@
       "Judith Evelyn",
       "Ross Bagdasarian",
       "Georgine Darcy"
+    ],
+    "composers": [
+      "Franz Waxman"
     ]
   },
   {
@@ -11940,6 +12662,9 @@
       "Kenjirō Ishiyama",
       "Takeshi Katō",
       "Takashi Shimura"
+    ],
+    "composers": [
+      "Masaru Satō"
     ]
   },
   {
@@ -11986,6 +12711,9 @@
       "Ben Vereen",
       "Erzsebet Foldi",
       "Michael Tolan"
+    ],
+    "composers": [
+      "Ralph Burns"
     ]
   },
   {
@@ -12034,6 +12762,9 @@
       "Jackie Cooper",
       "Glenn Ford",
       "Trevor Howard"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -12082,6 +12813,9 @@
       "Jack Creley",
       "Lynne Gorman",
       "Julie Khaner"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -12130,6 +12864,9 @@
       "Ichirō Nakatani",
       "Kei Satō",
       "Yoshio Inaba"
+    ],
+    "composers": [
+      "Toru Takemitsu"
     ]
   },
   {
@@ -12177,6 +12914,9 @@
       "Talia Shire",
       "Lee Strasberg",
       "Michael V. Gazzo"
+    ],
+    "composers": [
+      "Nino Rota"
     ]
   },
   {
@@ -12224,6 +12964,10 @@
       "Michael Tucci",
       "Kelly Ward",
       "Didi Conn"
+    ],
+    "composers": [
+      "Jim Jacobs",
+      "Warren Casey"
     ]
   },
   {
@@ -12274,6 +13018,9 @@
       "Susan Backlinie",
       "Jonathan Filley",
       "Ted Grossman"
+    ],
+    "composers": [
+      "John Williams"
     ]
   },
   {
@@ -12324,6 +13071,9 @@
       "Ellora Torchia",
       "Archie Madekwe",
       "Henrik Norlén"
+    ],
+    "composers": [
+      "Bobby Krlic"
     ]
   },
   {
@@ -12370,6 +13120,9 @@
       "Spike Lee",
       "Bill Nunn",
       "John Turturro"
+    ],
+    "composers": [
+      "Bill Lee"
     ]
   },
   {
@@ -12418,6 +13171,11 @@
       "Judi Dench",
       "Robbie Coltrane",
       "Tchéky Karyo"
+    ],
+    "composers": [
+      "Éric Serra",
+      "The Edge",
+      "Bono"
     ]
   },
   {
@@ -12466,6 +13224,9 @@
       "Gabriel Mann",
       "Joan Allen",
       "Marton Csokas"
+    ],
+    "composers": [
+      "John Powell"
     ]
   },
   {
@@ -12514,6 +13275,10 @@
       "Kim Dickens",
       "Patrick Fugit",
       "David Clennon"
+    ],
+    "composers": [
+      "Trent Reznor",
+      "Atticus Ross"
     ]
   },
   {
@@ -12561,6 +13326,9 @@
       "Larry Marshall",
       "Josh Mostel",
       "Kurt Yaghjian"
+    ],
+    "composers": [
+      "Andrew Lloyd Webber"
     ]
   },
   {
@@ -12610,6 +13378,10 @@
       "Peter Capell",
       "Karl John",
       "Friedrich von Ledebur"
+    ],
+    "composers": [
+      "Christopher Franke",
+      "Edgar Froese"
     ]
   },
   {
@@ -12659,6 +13431,9 @@
       "Sturgill Simpson",
       "Amar Chadha-Patel",
       "Marc Menchaca"
+    ],
+    "composers": [
+      "Hans Zimmer"
     ]
   },
   {
@@ -12706,6 +13481,9 @@
       "Talisa Soto",
       "Trevor Goddard",
       "Chris Casamassa"
+    ],
+    "composers": [
+      "George S. Clinton"
     ]
   },
   {
@@ -12753,6 +13531,9 @@
       "Sydney Greenstreet",
       "Peter Lorre",
       "S.Z. Sakall"
+    ],
+    "composers": [
+      "Max Steiner"
     ]
   },
   {
@@ -12799,6 +13580,9 @@
       "Lloyd Gough",
       "Jack Webb",
       "Franklyn Farnum"
+    ],
+    "composers": [
+      "Franz Waxman"
     ]
   },
   {
@@ -12872,6 +13656,9 @@
       "Miguel Ferrer",
       "Robert DoQui",
       "Ray Wise"
+    ],
+    "composers": [
+      "Basil Poledouris"
     ]
   },
   {
@@ -12922,6 +13709,10 @@
       "Anis Cheurfa",
       "Serinda Swan",
       "Yaya DaCosta"
+    ],
+    "composers": [
+      "Thomas Bangalter",
+      "Guy-Manuel de Homem-Christo"
     ]
   },
   {
@@ -12968,6 +13759,9 @@
       "Calista Flockhart",
       "Hank Azaria",
       "Christine Baranski"
+    ],
+    "composers": [
+      "Jonathan Tunick"
     ]
   },
   {
@@ -13017,6 +13811,9 @@
       "Ashley Greene",
       "Rachelle Lefevre",
       "Billy Burke"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -13064,6 +13861,9 @@
       "Penn Badgley",
       "Demi Moore",
       "Stanley Tucci"
+    ],
+    "composers": [
+      "Nathan Larson"
     ]
   },
   {
@@ -13112,6 +13912,9 @@
       "Lee Patrick",
       "Sydney Greenstreet",
       "Ward Bond"
+    ],
+    "composers": [
+      "Adolph Deutsch"
     ]
   },
   {
@@ -13159,6 +13962,9 @@
       "Mason Gamble",
       "Sara Tanaka",
       "Stephen McCole"
+    ],
+    "composers": [
+      "Mark Mothersbaugh"
     ]
   },
   {
@@ -13206,6 +14012,9 @@
       "Oliver Smith",
       "Anthony Allen",
       "Leon Davis"
+    ],
+    "composers": [
+      "Christopher Young"
     ]
   },
   {
@@ -13256,6 +14065,9 @@
       "Sean Hayes",
       "Katy O'Brian",
       "Colman Domingo"
+    ],
+    "composers": [
+      "Steven Price"
     ]
   },
   {
@@ -13306,6 +14118,9 @@
       "Sean Bean",
       "Billy Boyd",
       "Dominic Monaghan"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13354,6 +14169,9 @@
       "John Rhys-Davies",
       "Orlando Bloom",
       "Bernard Hill"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13403,6 +14221,9 @@
       "Martin Kove",
       "George Cheung",
       "Andy Wood"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
     ]
   },
   {
@@ -13451,6 +14272,10 @@
       "Yaya DaCosta",
       "Keith David",
       "Beau Knapp"
+    ],
+    "composers": [
+      "John Ottman",
+      "David Buckley"
     ]
   },
   {
@@ -13500,6 +14325,9 @@
       "William Atherton",
       "Hart Bochner",
       "James Shigeta"
+    ],
+    "composers": [
+      "Michael Kamen"
     ]
   },
   {
@@ -13539,7 +14367,8 @@
     ],
     "cast": [
       "Irina Usova"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -13589,6 +14418,9 @@
       "Amanda Plummer",
       "Moriah 'Shining Dove' Snyder",
       "Adam Goldberg"
+    ],
+    "composers": [
+      "David C. Williams"
     ]
   },
   {
@@ -13637,6 +14469,9 @@
       "Litefoot",
       "Roger Willie",
       "Jim Beaver"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -13685,6 +14520,9 @@
       "Tony Edwards",
       "John Walter Davis",
       "Ted White"
+    ],
+    "composers": [
+      "Jack Nitzsche"
     ]
   },
   {
@@ -13733,6 +14571,9 @@
       "Michael Strong",
       "John Vernon",
       "Sharon Acker"
+    ],
+    "composers": [
+      "Johnny Mandel"
     ]
   },
   {
@@ -13780,7 +14621,8 @@
       "Robert Romanus",
       "Ray Walston",
       "Scott Thomson"
-    ]
+    ],
+    "composers": []
   },
   {
     "pod": "EH",
@@ -13831,6 +14673,9 @@
       "Barry Corbin",
       "Stephen Root",
       "Rodger Boyce"
+    ],
+    "composers": [
+      "Carter Burwell"
     ]
   },
   {
@@ -13879,6 +14724,9 @@
       "Diane Baker",
       "Ben Stiller",
       "Eric Roberts"
+    ],
+    "composers": [
+      "John Ottman"
     ]
   },
   {
@@ -13928,6 +14776,9 @@
       "Catherine Zeta-Jones",
       "Joan Cusack",
       "Tim Robbins"
+    ],
+    "composers": [
+      "Howard Shore"
     ]
   },
   {
@@ -13975,6 +14826,9 @@
       "Tate Donovan",
       "Clea DuVall",
       "Scoot McNairy"
+    ],
+    "composers": [
+      "Alexandre Desplat"
     ]
   },
   {
@@ -14022,6 +14876,10 @@
       "Philip Stone",
       "Joe Turkel",
       "Anne Jackson"
+    ],
+    "composers": [
+      "Wendy Carlos",
+      "Rachel Elkind"
     ]
   },
   {
@@ -14070,6 +14928,9 @@
       "Ken Leung",
       "Priya Kansara",
       "Mia Soteriou"
+    ],
+    "composers": [
+      "Daniel Pemberton"
     ]
   },
   {
@@ -14118,6 +14979,10 @@
       "Stephen Tung Wai",
       "Kwan Hoi-San",
       "John Woo"
+    ],
+    "composers": [
+      "Michael Gibbs",
+      "James Wong Jim"
     ]
   },
   {
@@ -14143,6 +15008,32 @@
     "showLink": "https://www.patreon.com/posts/midnight-run-155805309",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/midnight-run/",
-    "imdbLink": "https://www.imdb.com/title/tt0095631/"
+    "imdbLink": "https://www.imdb.com/title/tt0095631/",
+    "tmdbId": 9013,
+    "tmdbPosterPath": "/yx0touyDQ9enWDsFgS4MbBwCSNd.jpg",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Martin Brest"
+    ],
+    "cinematographers": [
+      "Donald E. Thorin"
+    ],
+    "cast": [
+      "Robert De Niro",
+      "Charles Grodin",
+      "Yaphet Kotto",
+      "John Ashton",
+      "Dennis Farina",
+      "Joe Pantoliano",
+      "Richard Foronjy",
+      "Robert Miranda"
+    ],
+    "composers": [
+      "Danny Elfman"
+    ]
   }
 ]
