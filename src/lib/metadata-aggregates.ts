@@ -13,7 +13,7 @@ import {
   queryEpisodes,
   MetadataFieldKey,
 } from './metadata-store';
-import { QueryIntent } from './query-intent';
+import { QueryIntent, AggregateRankField } from './query-intent';
 import { EpisodeMetadata, MetadataSource } from '@/types/episode-metadata';
 import { type EpisodeId, formatEpisodeLabel, episodeSortKey } from './episode-format';
 
@@ -272,6 +272,70 @@ export function buildMetadataAggregateResponse(intent: QueryIntent): {
     const plural = episodes.length === 1 ? 'episode' : 'episodes';
     return {
       answer: `Found ${episodes.length} ${plural} with "${intent.guestName}" as guest:\n${lines.join('\n')}`,
+      sources: { metadata: sources },
+    };
+  }
+
+  if (intent.type === 'metadata_aggregate_rank' && intent.aggregateField) {
+    const episodes = loadEpisodeMetadata();
+    const field = intent.aggregateField;
+    const limit = intent.aggregateLimit ?? 15;
+
+    const buckets = new Map<string, EpisodeMetadata[]>();
+    for (const ep of episodes) {
+      const values = ep[field];
+      if (!Array.isArray(values)) continue;
+      for (const value of values) {
+        if (!buckets.has(value)) buckets.set(value, []);
+        buckets.get(value)!.push(ep);
+      }
+    }
+    if (buckets.size === 0) return null;
+
+    const sorted = Array.from(buckets.entries()).sort((a, b) => {
+      const diff = b[1].length - a[1].length;
+      return diff !== 0 ? diff : a[0].localeCompare(b[0]);
+    });
+
+    // Take first `limit` entries, then include any beyond tied with the last-included
+    const included: typeof sorted = [];
+    for (let i = 0; i < sorted.length; i++) {
+      if (i < limit) included.push(sorted[i]);
+      else if (sorted[i][1].length === included[included.length - 1][1].length) included.push(sorted[i]);
+      else break;
+    }
+
+    const unit = field === 'genres' ? 'episode' : 'film';
+    const plural = `${unit}s`;
+    const lines = included.map(([name, eps]) => {
+      const c = eps.length;
+      return `- **${name}** — ${c} ${c === 1 ? unit : plural}`;
+    });
+
+    const fieldLabels: Record<AggregateRankField, string> = {
+      cast: 'actors',
+      directors: 'directors',
+      cinematographers: 'cinematographers',
+      genres: 'genres',
+    };
+    const header = `Top ${included.length} ${fieldLabels[field]} across the podcast (by ${unit} count)`;
+
+    // Source citations — take up to 8 episodes from the top entries
+    const seen = new Set<string>();
+    const sources: MetadataSource[] = [];
+    for (const [, eps] of included) {
+      for (const ep of eps) {
+        const key = `${ep.season}:${ep.episode}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        sources.push(episodeToMetadataSource(ep));
+        if (sources.length >= 8) break;
+      }
+      if (sources.length >= 8) break;
+    }
+
+    return {
+      answer: `${header}:\n${lines.join('\n')}`,
       sources: { metadata: sources },
     };
   }

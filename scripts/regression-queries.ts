@@ -133,6 +133,40 @@ const cases: RegressionCase[] = [
     expectIntent: 'metadata_episode_lookup',
     expectAnswerIncludes: ['episode 150'],
   },
+  {
+    name: 'Aggregate rank — most featured actor',
+    query: 'which actor has been featured the most in the movies reviewed on the podcast',
+    expectIntent: 'metadata_aggregate_rank',
+    expectAnswerIncludes: ['actors', 'films'],
+  },
+  {
+    name: 'Aggregate rank — most common genre',
+    query: 'what is the most common genre',
+    expectIntent: 'metadata_aggregate_rank',
+    expectAnswerIncludes: ['genres', 'episodes'],
+  },
+  {
+    name: 'Aggregate rank — top N directors',
+    query: 'top 10 directors',
+    expectIntent: 'metadata_aggregate_rank',
+    expectAnswerIncludes: ['directors', 'films'],
+  },
+  {
+    name: 'Aggregate rank — cinematographers',
+    query: 'which cinematographer has the most films covered',
+    expectIntent: 'metadata_aggregate_rank',
+    expectAnswerIncludes: ['cinematographers', 'films'],
+  },
+  {
+    name: 'Aggregate rank — does NOT hijack notable moments',
+    query: 'notable moments for The Godfather',
+    expectIntent: 'metadata_notable_moments',
+  },
+  {
+    name: 'Aggregate rank — does NOT trigger on specific director',
+    query: 'which David Fincher movies have been reviewed',
+    expectIntent: 'metadata_director_films',
+  },
 ];
 
 function runCase(testCase: RegressionCase): string | null {

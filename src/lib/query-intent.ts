@@ -14,6 +14,7 @@ export type QueryIntentType =
   | 'metadata_episode_lookup'
   | 'metadata_guest_search'
   | 'metadata_director_films'
+  | 'metadata_aggregate_rank'
   | 'metadata_tilda'
   | 'metadata_notable_moments'
   | 'transcript_only'
@@ -21,6 +22,7 @@ export type QueryIntentType =
 
 export type MetadataFieldKey = 'mmmCount' | 'thatsGreatCount';
 export type MetadataEpisodeField = 'guest' | 'reviewer' | 'releaseDate' | 'kevsQuestion';
+export type AggregateRankField = 'cast' | 'directors' | 'cinematographers' | 'genres';
 
 export interface QueryIntent {
   type: QueryIntentType;
@@ -32,6 +34,8 @@ export interface QueryIntent {
   film?: string;
   guestName?: string;
   director?: string;
+  aggregateField?: AggregateRankField;
+  aggregateLimit?: number;
 }
 
 const YEAR_RANGE_PATTERN = /\b(19|20)\d{2}\s*-\s*(19|20)\d{2}\b/;
@@ -357,6 +361,48 @@ function detectEpisodeFieldsIntent(query: string): QueryIntent | null {
   };
 }
 
+const AGGREGATE_FIELD_PATTERNS: Array<{ pattern: RegExp; field: AggregateRankField }> = [
+  { pattern: /\b(actors?|actress(?:es)?|cast\s+members?|performers?)\b/i, field: 'cast' },
+  { pattern: /\b(cinematographers?|dps?|director[s]?\s+of\s+photography)\b/i, field: 'cinematographers' },
+  { pattern: /\b(directors?|filmmakers?)\b/i, field: 'directors' },
+  { pattern: /\bgenres?\b/i, field: 'genres' },
+];
+
+function detectAggregateRankIntent(query: string): QueryIntent | null {
+  const normalized = normalize(query);
+
+  const hasRankSignal =
+    /\bmost\b/.test(normalized) ||
+    /\btop\s+\d+\b/.test(normalized) ||
+    /\brank(ed|ing)?\b/.test(normalized) ||
+    /\b(frequent|common|featured|covered|reviewed)\b/.test(normalized);
+  if (!hasRankSignal) return null;
+
+  // Field resolution — cinematographer before director so "director of photography" routes correctly
+  let field: AggregateRankField | null = null;
+  for (const { pattern, field: f } of AGGREGATE_FIELD_PATTERNS) {
+    if (pattern.test(normalized)) { field = f; break; }
+  }
+  if (!field) return null;
+
+  // Bail if the query names a specific director or film — that's a listing query, not a rank
+  if (findDirectorFromQuery(query) || findFilmFromQuery(query)) return null;
+
+  let aggregateLimit = 15;
+  const topNMatch = normalized.match(/\btop\s+(\d+)\b/);
+  if (topNMatch) {
+    const n = parseInt(topNMatch[1], 10);
+    if (n > 0 && n <= 50) aggregateLimit = n;
+  }
+
+  return {
+    type: 'metadata_aggregate_rank',
+    confidence: 'high',
+    aggregateField: field,
+    aggregateLimit,
+  };
+}
+
 export function detectQueryIntent(query: string): QueryIntent {
   const normalized = normalize(query);
   const yearRange = extractYearRange(normalized);
@@ -392,6 +438,11 @@ export function detectQueryIntent(query: string): QueryIntent {
   const guestSearchIntent = detectGuestSearchIntent(query);
   if (guestSearchIntent) {
     return guestSearchIntent;
+  }
+
+  const aggregateRankIntent = detectAggregateRankIntent(query);
+  if (aggregateRankIntent) {
+    return aggregateRankIntent;
   }
 
   // Director-film listing: "what [director] movies/films have been episodes/covered/reviewed"
