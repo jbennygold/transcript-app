@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 314 episodes - updated 2026-04-24
+// Auto-generated - do not edit - 315 episodes - updated 2026-04-25
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15008,7 +15008,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": "Airline Ticket Agent who asks \"Smoking or Non Smoking\"",
     "tildaCorey": "Every single long white cigarette that is smoked in this movie.",
     "showLink": "https://www.patreon.com/posts/midnight-run-155805309",
-    "artworkLink": "",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1776375086155-69e8167150eb5.jpg",
     "letterboxdLink": "https://letterboxd.com/film/midnight-run/",
     "imdbLink": "https://www.imdb.com/title/tt0095631/",
     "tmdbId": 9013,
@@ -15037,5 +15037,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Danny Elfman"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 304,
+    "film": "Battlestar Galactica",
+    "filmYear": null,
+    "releaseDate": "4/26/2026",
+    "length": "1:54:29",
+    "reviewer": "birria",
+    "guest": "Sara Beykpour",
+    "mmmCount": 38,
+    "thatsGreatCount": 9,
+    "notableMoments": "Haitch is working on using Claude as the new \"producer\" for the pod\n- Jason is concerned about how Haitch has been talking to his AI agents, calling it \"AI Psychosis\" \n- Sarah talks about how AI has quickly transformed from a \"tool\" to a \"partner\" \n- Talk about Palantir Manifesto \n- Dune 3 - first 7 minutes of the movie played at CinemaCon. Comparisons to Saving Private Ryan\n- Jason - you can really tell Pre-9-11 Sci-fi vs Post-9-11 Sci-Fi. BSG is a great example of this\n- Gaius Baltar (played by James Callas) - A world-class narcissist villain \n- Six is incredibly hot (played by Tricia Helfer)\n- The scope and ambition of this show is incredible - easy to understand the impact and legacy\n- Edward James Olmos as Adama, and Mary McDonnell as Roslin are the beating heart of the show. Sarah - \"All of the best lines in this show come from Adama\"\n- Rewatching this show in our age of emergent AI and Cyber Security vulnerabilities is eye-opening\n- Letters - Lizzen, Animal Mother, Mr. Java (All Along The Watchtower parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What TV show (that's not BSG or Lost or Andor) would you want to revisit for a Podcast?",
+    "tildaH": "Col. Tigh",
+    "tildaJason": "Baltar",
+    "tildaGuest": "Adama",
+    "tildaCorey": "Starbuck",
+    "showLink": "https://www.patreon.com/posts/battlestar-2003-156380207",
+    "artworkLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/battlestar-galactica-2003/",
+    "imdbLink": "https://www.imdb.com/title/tt0314979/?ref_=fn_i_2"
   }
 ];

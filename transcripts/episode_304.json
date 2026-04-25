@@ -1,0 +1,2561 @@
+{
+  "episode_number": 304,
+  "episode_name": "Battlestar Galactica",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:02",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:13",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason Goldman."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:28",
+      "text": "Baltar really is sort of like the original tech bro defense contractor fuckboy, like, you know, who has no moral compass."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:37",
+      "text": "And it's the return of founder and technologist Sarah Bakpour."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:42",
+      "text": "My memory of it was probably exaggerated, was what I thought. And it was not exaggerated."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:48",
+      "text": "We tackle the 2003 miniseries that launched one of the greatest reboots in television history, Battlestar Galactica. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcast, or just tell your friends about us, because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, Battlestar Galactica. Okay guys, this— I'm pretty excited right now because I'm ready to announce, Jason, we have hired a new producer. To produce Escape Hatch podcast. Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:34",
+      "text": "Who is it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:35",
+      "text": "It's Claude, obviously."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:37",
+      "text": "Oh, okay. How's it work?"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:39",
+      "text": "So, well, we're gonna find out. But so I basically, I fed it, A, our every episode we've ever done."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:46",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:46",
+      "text": "Full transcripts. And then B, all of my planning documents that I have used to type up all my notes and everything. And then I give it my raw notes now that I take while I'm watching, for instance, Battlestar Galactica, where I'm taking down notes through the whole thing. The hardest part for me for prepping is always taking my notes and then consolidating them into the 3 to 5 points that we try and do. That's like an annoying piece. So I had Claude do that. I had to get all the research, the behind the scenes stuff, write a synopsis that I could then edit, have the guest information, write the intros and outros."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:17",
+      "text": "Jesus."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:18",
+      "text": "It's pretty good, dude. I gotta tell you."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:20",
+      "text": "Can you just do my part and I can skip? Have we gotten to the part where we just like automated the banter?"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:27",
+      "text": "The watching of the movie and the recording of the episode, you get those two done, we'll be set."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:31",
+      "text": "Yeah. That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:32",
+      "text": "I love that. It's pretty exciting. Although I will say, I, there was one tense moment where I was giving it feedback and it had taken my notes the first time and it kind of synthesized them and added a bunch of like pithy comments and stuff in the midst of it. And I was like, you don't need to add the comments. Just literally just take my stuff and move it into multiple buckets. That's the main thing I'm looking for. And it's like, okay, got it. I'll do that. I'll shut up. Okay. And I was like, no. Not shut up. I'm not telling you that. I'm just saying I don't need you to synthesize it. I just need you to do that."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:03",
+      "text": "I've seen the way that you talk to your Claude, and I don't think it's, I don't think it's great. I don't think the way that you're, I don't think the way that you're talking with Claude is, is, is amazing. I think you need to, I think you need to consider where you want to be when the robots come for us."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:18",
+      "text": "That was OpenAI. But since I have been working with Claude, I have been working going above, and apparently this Model 4.7 is like really sensitive to this, right? Have you read, have you read this?"
+    },
+    {
+      "name": "A",
+      "timestamp": "3:28",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:29",
+      "text": "I have read this."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:31",
+      "text": "How is— so, so like my question to you guys is, do I need to have separate names, genders, personalities for my Claude code, for my Claude, you know, app, for my producer? Like, how, how far do we go?"
+    },
+    {
+      "name": "A",
+      "timestamp": "3:44",
+      "text": "Yeah, well, definitely the thing that I think you should do, given the journey you've been on the last 4 months, is whatever deepens the AI psychosis that you are clearly, um, you are clearly on a journey of, whatever, whatever gets you through this. Like, the first rule of holes is keep digging. So just like, you know, Just like really, just really pile on, I feel, is what's necessary at this point."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:06",
+      "text": "Did you see the thing that I wrote about?"
+    },
+    {
+      "name": "B",
+      "timestamp": "4:09",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:09",
+      "text": "The stages of— Stages?"
+    },
+    {
+      "name": "A",
+      "timestamp": "4:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:11",
+      "text": "Yeah. And AI psychosis is one of them. And the sooner you get over the psychosis, the sooner we can kind of all move forward as a society."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:17",
+      "text": "It's true."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:18",
+      "text": "Right. But so many people are just entering it now still."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:22",
+      "text": "And of course we've got like, you know, everyone's got to enter it at some point."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:25",
+      "text": "Bunch of waves to come."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:26",
+      "text": "Yeah. So like strap in because we're— It's not gonna be short."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:31",
+      "text": "Well, how is it having an award-winning AI startup, you know, with an incredible product, Particle News, that people can use right now, download it from the App Store. It was just selected by Apple App Store as one of the top apps of the day. Like, how is it for you, like, literally every day, all day, professionally in the trenches?"
+    },
+    {
+      "name": "C",
+      "timestamp": "4:51",
+      "text": "Well, the App Store thing is like, you know, an incredible honor, of course. Um, it's been interesting because we've had, you know, everyone in our team, every single person on our team has gone through this journey where over the weekend, over the holidays, some people were, you know, playing a little bit around with the new, with the new model, the Opus 4.5 at the time, uh, with Claude Code and started to get a taste of what was going on. So others kind of maybe caught up a little bit later, um, especially on the, the non-engineering side, but everyone has gone through this journey. Of like, oh, this is different, this is incredible. And then, you know, going through the psychosis of like, I can build anything and I'm doing this, you know, in all my waking hours. And then on the other side of it coming out, you know, like, what does this mean for my role, right? Like, what does this mean for my role? What does this mean for my life and my identity? And if, you know, it's been an interesting exercise to go through as a team. It's a lot of discussion and philosophy and just kind of like trying to support each other as we all individually go through this identity journey. And I think we've come out on the other side in a pretty healthy way."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:05",
+      "text": "You know, it's funny, I hadn't really thought about this until you started talking about this journey through AA psychosis. But there's this, when Particle was, Before pre-Particle, like we were in this like all day kind of offsite with, uh, that I was with, with Ev Williams and Sarah was there and Marcel, uh, Molina was there. And, uh, we were just trying to like kind of think through, you guys were like thinking through ideas that were interesting and I was just kind of hanging out. Um, and Marcel, and this was like, how long ago was that? Was that like 3 years ago?"
+    },
+    {
+      "name": "C",
+      "timestamp": "6:39",
+      "text": "Maybe like it was 3 plus, 3 plus years ago."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:41",
+      "text": "More than 3 years ago. So this is like, like pretty. This is well before, like, you know, this is just basically ChatGPT existed. Like, there wasn't really a big, a big basis to believe of what was coming. But Marcel was already clearly in what we would now call AI psychosis. Like, he was just like, listen, nothing else matters. You don't understand, like, how fast this is going to go and how much this is going to change. And we were like talking through like different— he's like, the AI is just going to fucking do that. You need to stop thinking that. And I was just like, okay, Marcel, like, why don't you just chill the fuck out? Like, nothing. Like, it can't even count the Rs in strawberry. Like, I don't really know if it's going to be all that. And it was just clear that, like, Vindicate, he was like really in. He had like, I mean, you know, he'd like just sort of seen where this was going faster, I think, than other people. And yeah, and like, it took me until like January of this year to basically reach that same point. So yeah, I mean, like, you know, it'll be like, you know, everyone else's, everyone else on their on their own. We're all riding our own horses, as, uh, as some podcasts."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:46",
+      "text": "I think there's like a tipping point for like most people, or like people like us or whatever, where the AI went from being like a tool that you kind of can still kind of put a shape around to being an actual partner and, and, uh, like in your workflow, like, like, you know, really adding real value. Um, and I think, you know, we had all assumed that that would happen at some point, but like 3 years is a pretty short amount of time."
+    },
+    {
+      "name": "A",
+      "timestamp": "8:15",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:16",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:16",
+      "text": "Yeah. But like 3 years is a pretty short amount of time, like going from like, cause we had in that, in that conversation that Jason's talking about, like we had talked about like, is there a point to even building UIs? Right. Like, you know, the, the AI will just decide what UI is best for that user and it'll build it itself. We were so far away from that at that time. Right. So it was like, it was an interesting. Right, it was an interesting thing to think about, but we were so far away from that that it was like, I don't know if that's gonna be 3 years or 10 years. Sure, we'll get there eventually, but it seemed really far. And then when that kind of horizon was passed or met or whatever, I think it really changed something in the human brain where it's like, ah, this is now a thing. It's an entity. It can actually think on its own and provide me with new valuable insight that I did not come up with myself."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:05",
+      "text": "Yeah, the moment for me was like, like I was like in January, February, something like that. I had like taken up this app that I've been working on in previous versions of AI, this transcription app. And like, you know, I worked on this like 2 years ago or something like that. And like, you know, got to a point where I was like, ah, it kind of doesn't work, but like whatever. And like, I was like, all right, let's try it again."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:24",
+      "text": "It was like brittle."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:24",
+      "text": "It was brittle. Very brittle. I mean, it was still brittle, but like, you know, it was like, it was, it was, it wasn't fun to kind of continue to try to improve by like copy and pasting between like VS Code and like, you know, and and ChatGPT, like, what about this? What about, you know? And I was like, all right, let's just try it again. And it like one-shot, like, you know, a really valid MVP. I was like, okay. And then I was like, well, this is pretty exciting. And then like, I was like, all right, but now I'm gonna like product manage this shit. Like, I'm gonna sit down and I'm gonna do the job that I actually know how to do, which is like, I'm gonna spec out like what we wanna build for version 2. And so I was like typing into Colab. I was like, okay, we're gonna work on version 2 and I'm thinking about the following features. And instead of like, hittering like a space enter, like, so I could like start doing my enumerated list. I just submitted and Claude was just like, oh great, version 2, here's what I'm thinking. And like produce like a PRD that like included all of the things that like I was going to list plus 6 that I wasn't. And it was just like, yeah, what do you think about this? Like we could, you know, what, give me what you think are the top ones. I was like, well, first of all, fuck you. Uh, and like, you know, it was, it was, I was like, all right, well, you know, I'm washed. That's it. That's a wrap. Good. We had a good run."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:36",
+      "text": "I, I was experiencing that the other day where like I was putting stuff in Claude Code and waiting for it to finish it and I was getting kind of frustrated. So then I just opened up a, a note, uh, on the side and started typing up the next thing I wanted it to do, the next thing I wanted to do, next thing. And then I would like grab those and drop it in and then it would start executing on that list and I would go back and I would start writing again. There it becomes very exhausting."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:57",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:57",
+      "text": "To do that, right, where that stuff is flowing so fast out of your brain and onto paper and then into the machine and then getting the responses back. That fatigue, I think I can imagine being a developer, being a product manager, you know, doing this for realsies."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:14",
+      "text": "Well, the thing— the thing that it's like eliminated is like, you know, used to be like if you were managing engineers, the thing that you wanted to maximize for was flow. Like you wanted to like not interrupt engineers to like so that they could enter flow state and like produce code like in a sort of like semi-conscious state."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:29",
+      "text": "Like, we're like, could you imagine being— I was really good at that, you would imagine, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "11:33",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:34",
+      "text": "Like, can you imagine being my engineer and having me as your product manager? Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:38",
+      "text": "So, like, uh, so, but I mean, like, Claude, like, the entire LLM-driven way of, like, generating of cogent, like, basically makes that impossible. Um, like, the only one in flow is Claude. Um, and so, and so it's, it is just like this whole new ADHD, like, way of working that, like, I mean, there's a reason why it is the golden age for autists right now. Like, it, like, it, it really is like sort of their time to shine. Um, uh, yeah, I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:08",
+      "text": "Aander got annoyed at me yesterday because I was like, I was like, I still don't get it. The fact that my Claude skill that I'm building to be my producer can't get the stuff that I need that's already in Claude code. And it was like, oh, just ask Claude code. And here it, it wrote up these specs for like what it thought it should be asking Claude code. for my Explore app. And I'm like, you don't need to tell any implementation details. Just tell me what you need and I'll ask Claude Code for you and it will tell you what it can give you, which it did. And it was fine. But that whole step of pasting back and forth and asking, you know, trying to connect these different things that are all Claude, I don't understand why that problem hasn't been solved yet."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:46",
+      "text": "I don't think it's long before it's solved. I mean, I think that's just like, those are, that, those are just kind of—"
+    },
+    {
+      "name": "A",
+      "timestamp": "12:50",
+      "text": "they're launching 7 features a day right now. Like, like they, they, they like, they, this, you know, recording this on Tuesday the 21st, they're always like, yeah, we built all dashboards, all dashboards we built. If you need dashboard, we do all dashboards now. They, they, they, they, they, they, uh, they replaced GitHub Actions like on a Friday, just as like a casual Friday release. Like, they're just like, it's like just looking at like the stack of how software is built is like, yeah, fuck that whole thing. Um, and you know, and like it should be said, like, you know, it's not like it's always seamless. Like, you know, like it's not like it all works necessarily. Like there's, it's going to take a while to like, you know, to, to iron it out. But like, the, the scope of what is being tackled is all of it."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:35",
+      "text": "Yeah, April was like, this is the greatest product that has ever been built by humans."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:40",
+      "text": "It is like a— literally, it's like a Google moment where you're just like, where you're just like, oh, like, all— so all of it? Like, all of human knowledge? Okay, sounds, sounds, sounds cool. It must be nice. Well, so, so Jason was working on his side building this incredible transcript app Um, we've got to track the number of followers that we, the number of listeners we lose by talking about the apps that we built. Like, it's gotta be like, it's got like, we don't have that many to lose, but it's going to be like, there's going to be cancellations if we keep talking."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:09",
+      "text": "But I have often thought like, when are we going to productize this? When are we going to take this out to other podcasts? And Sarah, that's, that's essentially what you guys have been building as a, as a side project. Is that right? You're like taking podcasts and generating content based on that."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:23",
+      "text": "So we started by bringing podcast clips into Particle News. So every story that where someone is talking about it, we've taken that clip and, and brought that and organize that into the news story. So you don't have to go out if you're like, I want to know what people are saying about this thing. You don't have to go out and find out where and, and which podcasts and where in the podcast, because podcasts are long, obviously. We just take the relevant clips and attach those to the story. So we kind of just like reorganize that from an information perspective. Um, but that's a, you know, it's a lot of really data and it's kind of locked in the Particle News app. So what we're building right now is an API so that we can unlock that. And then there's a bunch of interesting use cases around that for brand monitoring or entity tracking and all that kind of stuff. All, all of that happens quite a bit for the open web, but not yet really for podcasts. Uh, and we've got an interesting take on that. Um, and so we're trying to like organize all of the podcast information, have it available as an API so you can You can vibe code your own dashboard if you want. We're gonna provide some dashboards as well. Uh, and so we're gonna launch that soon."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:26",
+      "text": "Yeah, that's really smart. Mm-hmm. That's really smart. I think there's this whole, there's this whole world of, uh, data and information discussions that are happening. Some of it's in podcasts, some of it's in YouTube clips, some of it's in TikTok. Mm-hmm. And like, you know, those, some of those platforms are, are hard to access because, um, the, you know, the, of terms of use, but the, but like there is a world of data in terms of what people are talking about and what matters to people that has been only understood through anecdote or by like kind of skimming the top ones that is about to be accessible that I think is going to really blow people's hair back when it comes time. Well, you know, I mean, obviously there's implications for commercial reasons, but it's also just like, you know, coming out from the politics standpoint, like there, it's always the question. I was like, did this breakthrough? Is like anyone talking about this thing that we announced this new thing? Is that like, did it matter to anyone? Like, you know, like the only currency that matters is attention. And so, you know, the measurement of that, the measurement of that market is intrinsically valuable."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:30",
+      "text": "Hmm. Hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:32",
+      "text": "I like it."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:32",
+      "text": "I like it. Well, speaking of things that are not necessarily intrinsically valuable, Jason, I just wanted to pause for a second and get your take on Palantir's manifesto."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:42",
+      "text": "Yeah, it was interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:43",
+      "text": "It was interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:44",
+      "text": "I did read it and I was like, it's an interesting document because You have—"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:53",
+      "text": "you—"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:54",
+      "text": "it's crafted in a pretty clever way where you have to really kind of pull apart, um, some— you have to pull it apart a little bit to kind of understand what's going on. Um, and I think like there's, there's some like very obvious, um, dunks that can be made, such as like calling for a draft, which I can't help are interesting. But then there's arguments like, there's arguments like the one that's like, we don't think that like public service should be, right? Like, you know, you shouldn't be impoverished to have to like destroy, to work in public service. And there's an element of that which is like a really good argument, um, because like, you know, the fact that like particularly at like state and local levels, the fact that public servants are so poorly paid that like you only get people who are incredibly ideological or other, or, or, you know, have enough money that they don't care Um, like, like, that is a problem. Um, I, I do think in general, like, one of the issues we have with candidate selection, like, the candidate pool, is that politics has become such a distasteful business that, like, the only people who run for office are the ones who are, like, billionaires who can just, like, kind of afford to spend stupid amounts of money in their race, or, um, are, like, narcissistic sociopaths, right? Like, you know, like, it, it, it, like, you know, there's— if you're someone who's like charisma positive, there's many more lucrative and interesting ways to leverage that than running for office. So that's like, that's like a real problem. But when you squint at it through the rest of the manifesto, what Palantir is saying, it's clear that it like basically means like, no, like self-dealing is kind of chill. Like we should like allow— we should, we should allow our elected to self-deal. Here's a side point. It's been a while since we've hyped up our boy Ezra Klein on the pod. I was listening to this morning Alex Borez interview with Ezra. Alex is running for the New York 12th in, in for Congress and he is a former Palantir guy, was on their gov rel team and New York State Assemblyman, wrote the AI RAISE Act for New York. And is running for Congress."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:06",
+      "text": "He seemed very reasonable from his descriptions."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:08",
+      "text": "He's very reasonable. He's not an AI doomer. He's a technocrat. Right, right. Yeah. He was made like sort of enemy number one of the Lead the Future PAC, which is funded by OpenAI, Marc Andreessen, Palantir, Joe Lonsdale, those folks, because they wanted to make an example of him to be like, fuck this guy in particular for trying to like regulate AI. If you try to regulate AI, we're going to fucking come into your primary and destroy you. That was explicitly their intent."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:40",
+      "text": "It's like the APAC playbook, basically."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:42",
+      "text": "Yeah, exactly. Yeah. And it's backfired because I don't think Alex was like, this is a very— this is a jungle primary. Like, there's like a ton of people running in this race with like real, like real coffers in New York politics. And I don't think he's going to be the favorite, but it's really shining a light on his candidacy. And one of the interesting things is like going back to the Palantir of all is the attack ads that they're running against him emphasize the fact that he worked at Palantir. So like Joe Lonsdale, Palantir co-founder is, is spending his money to run attack ads against this guy. And their attack on him is like, this fucking Palantir guy, which is like both shameless but also like so interesting in terms of how they understand like the negative brand equity of their own company."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:26",
+      "text": "I could do Palantir."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:28",
+      "text": "Palantir continues to be the most fascinating of the malfeasance of Silicon Valley to me, as we've talked about at length on this pod. And this is yet another example thereof. Hmm. Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:41",
+      "text": "It's getting wild out there, guys."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:43",
+      "text": "It's really interesting. It's interesting time."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:45",
+      "text": "It's getting— there was a— there was a super interesting Times article this morning about how Russia has gotten really good. Speaking of Palantir and Andrew Hill and these guys has gotten really good at being disruptive and being very entrepreneurial and kind of distributed in their drone and weapons technology."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:05",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:05",
+      "text": "And so they're sort of like training people off the street and taking any ideas and funding startups and stuff. And then they're very quickly able to get stuff done. And even Ukraine, same thing. Like they have like an Amazon-style interface where soldiers can log on and choose which drones they need. And, you know, they're doing now these more autonomous. So yeah, it's definitely— we're getting closer to all the movies in your portfolio, Sarah, here on Escape Hatch podcast."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:32",
+      "text": "I was trying to find this book because in the interest of both sidesism, I was going to say that the United States It's like one of our fundamental flaws was not recognizing that drone warfare was going to be the future of warfare. And the Biden administration actually bears a fair amount of blame for that because like they— like during the— like the Biden administration kind of went with like, yeah, we want like the old crusty generals involved. And like the people who are like pushing for like more innovative change were like sort of pushed out, pushed aside. Um, and so like they, you know, there was a whole plan under the Obama administration that was like about re— like was doing like a more innovative drive, like, you know, like an X Labs version for, for defense. And it basically got delayed by a decade because of just like the industrial, the military-industrial complex. Like, like, it turns out some of the people who do not want like faster, cheaper, out of control are Raytheon, like your major arms manufacturer who are making billion-dollar contracts to sell weapons systems that don't work."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:34",
+      "text": "Oh boy, your tax dollars at work. Well, we're gonna put all of that aside and have a good time and look at humans being good and taking care of business."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:44",
+      "text": "And bad. Good and bad."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:46",
+      "text": "Good and bad. But we welcome back to the pod, Sarah Bakpour."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:52",
+      "text": "Woo!"
+    },
+    {
+      "name": "C",
+      "timestamp": "22:52",
+      "text": "Yay, thanks for having me, guys."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:54",
+      "text": "It is great."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:55",
+      "text": "Always fun to be on this pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:56",
+      "text": "It is great to have you back. Last time was Gravity, which was a banger. For me. I really, really enjoy that."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:01",
+      "text": "Love Gravity."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:02",
+      "text": "Uh, so tonight we are doing one of the greatest reboots in television history. We've talked about it for a long time. We've mentioned it a million times on the pod, but we are finally doing Battlestar Galactica, the miniseries. And we will get into that in just a moment. Before we do, Jason, next week on the podcast, M.G. Sigler is back."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:23",
+      "text": "Oh, wow. All of our throwback friends. All of our first season friends."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:28",
+      "text": "Exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:28",
+      "text": "This is great for our farewell tour."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:31",
+      "text": "Absolutely. Technologist and writer. Sarah, come to the meetup on December 18th for Dune Part 3 at the Metreon."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:39",
+      "text": "Oh, I've already blocked it on my calendar. Oh, good. I expect to be there."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:43",
+      "text": "Okay, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:43",
+      "text": "Very good. Very good. So MG, we'll see whether he'll fly in from London, but we are tackling with him, he did Memento with us. And he did Interstellar with us. So he's been carving out some Nolan. So I went back to him and we are doing Christopher Nolan's magical thriller masterpiece starring Hugh Jackman and Christian Bale, The Prestige."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:07",
+      "text": "Yeah, like I mentioned last week, I watched ahead during spring break."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:11",
+      "text": "Oh!"
+    },
+    {
+      "name": "A",
+      "timestamp": "24:12",
+      "text": "And so I watched Battlestar Galactica on the plane ride, and I watched The Prestige on the plane ride, and I was like, this is great. Our programming is— kicking ass right now. Um, yeah, good, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:26",
+      "text": "Well, that is next week, The Prestige. Can we do some quick Hatch News?"
+    },
+    {
+      "name": "A",
+      "timestamp": "24:32",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "B",
+      "timestamp": "24:33",
+      "text": "Hatch News from beyond! We called it out, Jason, while we were recording. We knew that Dune Part 3 was about to descend on CinemaCon, and we're now a week and a half late talking about this. Yeah. Exactly. The invasion happened. So I refused to read the descriptions, but apparently there was 7 minutes of it."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:54",
+      "text": "We're both late and will not be actually talking about what happened. Please tune in. Please come to your one-stop shop for Dune news."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:03",
+      "text": "Both late and vague. Super epic battle, right? Like super epic battle."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:07",
+      "text": "What do you want to do? Do you want to talk about it or do you want to not talk about it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "25:10",
+      "text": "Just vague, vague talk. Come on."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:13",
+      "text": "I mean, look, look, Sean Fantasy, like multiple commentators said, it's basically Denis doing Saving Private Ryan. Um, as you will know from our, uh, our trailer discussion, our teaser discussion, like, we speculated there's like a bit of like the jihad happening as they go to foreign planets. Um, and so it seems like the first 7 minutes are execution of this jihad in a like just truly visceral level of detail. Um, and I have read the description and it seems fucking bananas. Like, it's like— I was like, how does that— like, what Are you talking about? Like, because it's not just— it's like both like Saving Private Ryan in terms of kinetic warfare, but then also with shit that doesn't exist. Like, you know, with like sci-fi shit. It seems phenomenal. And it seemed like they put out the 7 minutes to be like, we've got this one. We know we got this one. It's going to— it's going to blow your socks off. So I'm stoked. It's going to be great. Shout out to Denis. Seems really good at making movies."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:13",
+      "text": "Cannot wait. Sarah, are you Dune Part One or Dune Part Two? Which one is your favorite?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:20",
+      "text": "You ever ranked those two?"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:21",
+      "text": "She's never seen it."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:23",
+      "text": "I was literally in the same theaters that you were for both of them. I know, I know, I know. I think I rank Two above One."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:31",
+      "text": "Me too. Me too. Just barely."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:34",
+      "text": "They're both good."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:35",
+      "text": "I go back and forth."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:35",
+      "text": "They're both good."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:36",
+      "text": "Really good."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:37",
+      "text": "I think there's the thing, the like, The way they make you really feel amped up about Timothée Chalamet, um, before they will later tear you down. Yeah, yeah, is really well done. Like, the whole point— and I know you guys have talked about this— but the whole point of like making him seem like this hero when he is not, which is the whole— which is the whole point. Yeah, um, it would fall flat if you— if you didn't buy into it, right? Like, if you were like— if you didn't like him, or if you didn't like want to root for him then you would not feel later betrayed. And so I think they did a really good job of emotionally attaching you to him for the, you know, for the gut punch."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:16",
+      "text": "Establishing in part 2 how reluctant he was to do what he's doing, right? It's literally when he's like, there's no other way to save Chani. So you kind of have a little bit of vibe there. Well, we're very excited about that. Jason, I'm willing—"
+    },
+    {
+      "name": "A",
+      "timestamp": "27:31",
+      "text": "We're still in Hatch News."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:33",
+      "text": "We're almost done. We're almost done. So I also refuse to watch the Avengers: Doomsday trailer, but I assume that'll be launched at any given time. But anything you have to say about like Marvel? Definitely shook, right? They just laid off their, like, most of their visual development team."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:52",
+      "text": "They should be worried. They should be worried. Whatever they're doing—"
+    },
+    {
+      "name": "B",
+      "timestamp": "27:55",
+      "text": "Jihad is coming for them."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:57",
+      "text": "Yeah, their bullshit's done."
+    },
+    {
+      "name": "C",
+      "timestamp": "27:59",
+      "text": "I'm really worried that there's too much hype on this Avengers movie and there's too many people in it, and, uh, it's— there's no way they can meet the expectations."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:09",
+      "text": "Their whole way of making movies doesn't make any sense. It's terrible. Uh, it needs to end. Death to the mouse."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:17",
+      "text": "Okay, they can hear Timmy chanting in the distance, coming. Yeah. Oh my God. All right, are you guys ready to get into this?"
+    },
+    {
+      "name": "A",
+      "timestamp": "28:27",
+      "text": "I have two pieces of new— I have two pieces of Dune news. You thought you were gonna skip me."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:30",
+      "text": "You're not gonna Got— no, no, no, I don't want to. Please, Jason."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:34",
+      "text": "Um, the Elden Ring movie directed and written by Alex Garland has a release date in 2028. Um, which is very exciting. They've announced, uh, you— they've announced, uh, casting. Matt, you're never going to believe who's in the Elden Ring movie. It's an Alex Garland movie. Can you guess who might be in it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "28:54",
+      "text": "Sonya?"
+    },
+    {
+      "name": "A",
+      "timestamp": "28:55",
+      "text": "Yeah, she's in it. She is in it. She's in the movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:59",
+      "text": "And Callie from, Callie from, um, from Civil War is in there as well."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:05",
+      "text": "Yeah, it's, it's a good looking cast. Uh, yeah, Wishaw."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:09",
+      "text": "Yeah, that's exactly—"
+    },
+    {
+      "name": "A",
+      "timestamp": "29:11",
+      "text": "is in the movie. Um, Jonathan Pryce, the High Sparrow, is in the movie. Nick Offerman is in the movie. Um, it's gonna be great. And Peter Serafinowicz, who played the armorer um, uh, from Dunk and Egg."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:28",
+      "text": "Seven Kingdoms. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:30",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:30",
+      "text": "He's in the movie, guys. March 3rd, 2028. Get hype."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:34",
+      "text": "I'm ready."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:35",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:36",
+      "text": "Wait, uh, 2028. Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:38",
+      "text": "So we have some, we have some time."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:40",
+      "text": "We have some time. Yeah. I'm very excited."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:42",
+      "text": "Speaking of Garlin, guys, now that we've done, uh, Battlestar Galactica, the miniseries, that means we could do Devs."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:49",
+      "text": "Yes. It's a timely time for Devs. It's a timely time for Devs. We should do that."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:55",
+      "text": "Stay tuned. And your second piece, you took the whole family to see Project Hail Mary."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:00",
+      "text": "Wow. Whole family went to go see Project Hail Mary on its IMAX release. Saw it in IMAX at Metreon. What did you think? I loved it. Love seeing it. I think it is amazing in IMAX, especially like SFI Max."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:14",
+      "text": "Hell yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:15",
+      "text": "We were also pretty close. We were like row D because like tickets were pretty sold out. And I kind of liked it because I just like to see— it was just like so big. It was like so much Gosling, like inescapable. And you definitely notice like sort of the aspect ratio changes at that distance because when it goes bigger, like Jesus, like the top of the frame is gone. The kids like— it's a 2.5-hour, 2:45-minute movie, long movie for the children. Yeah. Who are 5 and 7. They liked it quite a bit. Loved Rocky. I have been saying, \"Amaze, amaze, amaze,\" around the house since then."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:53",
+      "text": "So cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:54",
+      "text": "Juniper had a lot of good questions. Unfortunately, Juniper does give the edge to the Super Mario Galaxy movie."
+    },
+    {
+      "name": "E",
+      "timestamp": "31:01",
+      "text": "Oh no."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:02",
+      "text": "Favorite movie thus far this year, which is a tough beat for me. But they enjoyed it and were very attentive. They did great. Like, they watched the whole movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:12",
+      "text": "How'd they like the Odyssey preview?"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:14",
+      "text": "Uh, we arrived as the movie was starting. We did not, uh, okay, okay, we did not— we wanted to minimize the amount of time of butts in seats. Uh, so that's literally arrived as the movie was opening. But yeah, I loved it. Um, I thought the, you know, the karaoke scene still rips my face off. I do think the third act still drags, uh, even though I knew it was coming. It's a little less so now you know it's coming. And when June— when it's funny when, when, um When he leaves, when they part and he goes, and like it's before he comes back, Juniper's like, is this movie almost over? She was like— I was like, good question. You might— you may well think that this is the end of the movie, and yet there's 30 minutes left."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:54",
+      "text": "It's a savvy media read, you know. She's picking up—"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:56",
+      "text": "it was a savvy media read. Yeah, she was great. They did great."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:59",
+      "text": "Did you guys see that, Sarah? You guys get to go—"
+    },
+    {
+      "name": "C",
+      "timestamp": "32:02",
+      "text": "I haven't seen it yet. I have read the book, so I'm not going to be spoiled by anything."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:05",
+      "text": "Uh, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:06",
+      "text": "I just— every time I look at the IMAX Metreon, which is where I want to see it, uh, the only available seats are 10:15 PM, and that's just like a non-starter for me. So I'm just waiting a couple more weeks until I can get like 7 PM seats."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:19",
+      "text": "Yeah, there you go, there you go. Very good, very good. All right, are you guys ready to get into this movie?"
+    },
+    {
+      "name": "C",
+      "timestamp": "32:32",
+      "text": "So say we all."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:34",
+      "text": "All right, here we go. Battlestar Galactica is the fragile line between survival and annihilation. 40 years after the end of the Cylon War, Commander William Adama is on the eve of decommissioning the aging battleship he commanded in that fight. But he and his skeleton crew, including hotshot Viper pilots Kara Starbuck Thrace and his estranged son Apollo quickly find themselves the last military force standing when the Cylons, aided by the unwitting narcissist Dr. Gaius Baltar, unleash a devastating sneak attack that wipes out the Colonial Fleet and billions of human lives in a matter of hours. Adama's mission to take the fight to this new enemy is complicated when Secretary of Education Laura Roslin, abruptly elevated to the presidency as the 43rd in line of succession, insists his priority is instead protecting a ragtag fleet of 50,000 survivors on the run from certain destruction. Now, Adama must unmask an enemy that's already infiltrated his ship, give his crew hope in a mission to find a new home on the fabled lost colony of Earth, and teach the Cylons to regret ever picking a fight with the Battlestar Galactica."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:52",
+      "text": "It's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:57",
+      "text": "That's a big synopsis, although it's a 3-hour, a 3-hour miniseries, so there's quite a bit."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:03",
+      "text": "Is it that long? I don't think it's that long. Is it?"
+    },
+    {
+      "name": "C",
+      "timestamp": "34:05",
+      "text": "It was 3 hours."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:06",
+      "text": "Yeah, 2 90-minute, 2 90-minute episodes. All right, so Sarah, what is your history with Battlestar Galactica, the reboot, Battlestar Galactica, the original series? Any, any of that stuff there for you?"
+    },
+    {
+      "name": "C",
+      "timestamp": "34:20",
+      "text": "So I watched, uh, the miniseries and the TV show and its associated movies, uh, probably in 2014, I want to say. Uh, so not too long after it had originally come out. Loved all of it. Um, uh, never watched the, uh, the new one, Caprica, or New Caprica, or whatever they called it, right? But, uh, loved all of it. Um, never watched the original but went really deep in the lore with Richard Hatch. So I used to go to Comic-Con all the time, every year, and the BSG crowd is/was very strong at Comic-Con. And Richard Hatch would often be there, as well as Bear McCreary, who did the music, right? And there was like several panels that like were like recurring every year that they would, they would kind of all be at. So I would go to those and, and see them all there. So Richard Hatch, you guys know the Richard Hatch story?"
+    },
+    {
+      "name": "A",
+      "timestamp": "35:20",
+      "text": "Oh yeah, go ahead, tell us though."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:21",
+      "text": "Yeah, so Richard Hatch was the original Captain Apollo in the original Battlestar Galactica, and then he plays Tom Zarek in the series. So not in the movie, but in the series, um, which is just like an incredible homage to him as an actor and a character. He is really annoying as like the character is really annoying in the, in the series, um, or at least that's my memory of it. So yeah, you know, I had to kind of work through that a little bit. Um, but, uh He's, you know, kind of an incredible person."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:50",
+      "text": "Well, yeah, and we'll get to his full story, but he had tried really hard to reboot the series himself and produced a trailer for Battlestar Galactica: The Return or something, and he just couldn't get it to happen. Battlestar Galactica: The Second Coming. So, he had been on it and then was kind of famously against the miniseries when it came out until it was a huge hit, and then was like, \"Okay, this is actually very good.\" good. Uh, and, and then got on board with those guys, which is, which is super cool. Uh, Jason, how about you? What was your history?"
+    },
+    {
+      "name": "A",
+      "timestamp": "36:24",
+      "text": "Never watched the original, had no knowledge of it. Um, and then just was very excited about the reboot. Like, just sort of like it was in the air that it was gonna be good. Uh, I remember being excited it was coming out and like watched it from the jump and was like, this fucking slaps, let's go. Uh, and it was great. Like, watched it uh, religiously and watch it with my, my wife, my now wife. She loved it too. It was like a big event, uh, event for us. What was the year? When was the mini— what's the date of the miniseries again?"
+    },
+    {
+      "name": "B",
+      "timestamp": "36:52",
+      "text": "When did it actually start? In 2004. So the miniseries was 2003 and then the series started in 2004."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:58",
+      "text": "Oh wow, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:59",
+      "text": "It was earlier than I thought."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:00",
+      "text": "I remember."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:01",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:01",
+      "text": "Oh yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:02",
+      "text": "No, real— yeah. So I guess I talked her into watching it after we started dating, which is an audacious move. Um, Maybe she was watching on her own though. I don't remember. She was excited that we were doing it today and excited that Sarah was here. She says hi. Crystal says hi. Oh, hi Crystal."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:18",
+      "text": "I miss her."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:20",
+      "text": "Yeah. So I was born in 1970, so I was 7 years old— sorry, 8 years old in 1978 when the series came out. And so this was hooked to the veins. It was, you know, obviously Star Wars had come out in theaters, but for me it was Star Wars, Battlestar Galactica, obviously Star Trek, Buck Rogers. Like these were good TV shows that were definitely feeding my mind all the time. And I just—"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:48",
+      "text": "My mind."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:49",
+      "text": "Absolutely loved it. And I remember the original, the pilot, and like maybe they did an original movie, I think, that was served as the backdoor pilot for that series. And I saw that multiple times. They might've even released that in theaters at one point, but yeah. Very into that. And then immediately got on board when the miniseries came out and then watched the show as it was coming out week to week, 100%. And the thing that was really, really cool, this is an artifact that as far as I can tell has disappeared entirely from the web, but Ronald D. Moore every week would record director's commentary."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:28",
+      "text": "Yeah, crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:29",
+      "text": "And so I would watch the episode on Friday and then Monday morning driving in from San Anselmo to SOMA, I would listen listen to the behind-the-scenes, uh, commentary. And he would always have which whiskey he was drinking, and he would say whether the smoking light was on, whether he was smoking cigarettes, or if his wife was home and he wasn't able to do that. Um, but it was just incredible to hear him walking through all of the details of the episodes and what they did. And it wasn't released on any pod platform or whatever, and I think those episodes are just not available. Um, so someone has them."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:02",
+      "text": "Some, some Tumblr kid has them, but like, I would love to get my hands on those. Like, yeah, Ron Moore is incredible."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:10",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:10",
+      "text": "And has made many of the TV shows that I love."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:13",
+      "text": "I do think that's an aspect of what made Battlestar exciting and why I was into it, was that like it was clear that like Battlestar and Ronald Moore, and they understood like sort of the importance of the internet fandom in a way that was like early, I think, for—"
+    },
+    {
+      "name": "B",
+      "timestamp": "39:26",
+      "text": "that's interesting—"
+    },
+    {
+      "name": "A",
+      "timestamp": "39:27",
+      "text": "like for that shows, like, I think it was like sort of something that like, they're like, no, no, no, like, we're just going to like, we're like all the people who are like, you know, like doing recaps and like people who are like sharing like GIFs and like all the Tumblr folks, like, we're going to fucking play into this and like, we're going to, we're going to give them as much as we can to keep them happy. I thought that was, I thought that was— hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:48",
+      "text": "That is interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:49",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:50",
+      "text": "Nice."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:50",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:51",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:51",
+      "text": "Well, let's do some quick behind the scenes. So again, the original 1978 series, Glen Larson. It's a Mormon space opera, is how our producer described it."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:01",
+      "text": "Incidentally, I found all the, the, the MP3s for the podcast. Took 2 seconds."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:08",
+      "text": "Oh good."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:08",
+      "text": "Okay, very good. They were not there the last time I looked for them. So these are like the sacred texts of Kobol or whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:15",
+      "text": "Yeah, you found them."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:15",
+      "text": "Where did you guys find the miniseries? Did you have it on DVD or did you have to buy it?"
+    },
+    {
+      "name": "A",
+      "timestamp": "40:20",
+      "text": "I bought it on eBay."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:20",
+      "text": "I bought it."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:21",
+      "text": "Yeah, I bought it on Apple, on Apple TV."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:24",
+      "text": "Yeah, I couldn't find on Apple TV. It said it wasn't available."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:27",
+      "text": "It's confusing, Sarah. I'm glad you bring this up because in order to get it on Apple TV, on the Apple Store, the app, whatever used to be called the iTunes Store, I don't know actually what it's called."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:38",
+      "text": "They—"
+    },
+    {
+      "name": "A",
+      "timestamp": "40:41",
+      "text": "you have to basically buy the box set, I think, of like the entire— I at least, I just was like, yeah, okay, I'll buy the entire BSG box set."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:48",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:49",
+      "text": "And it's— and yet the miniseries is not episode 1 of the box set. The miniseries is like— comes at the end of episode— at the end of season 1. They put— so it like took me— I was like clicking around on my phone trying to get this thing to work as I was like flying back. I was like, I gotta watch this fucking show. Like, this thing needs to work, Tim Apple. Um, and it took a lot more clicking than it should have to watch this miniseries, which is why Tim Apple was fired."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:15",
+      "text": "Uh, I did see the box set and I was like, I'm not gonna do that. Yeah, then I found, I found it on Prime instead, and I think I spent like $12 on this miniseries."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:24",
+      "text": "I think I spent $60 to watch, to record this podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:27",
+      "text": "I think I spent $15 on it. So yeah, yeah, well, so yeah, that it was, it was definitely, I would, I didn't understand. I thought, isn't the sci-fi channel, I think it was Universal. So like, why isn't this on Peacock? Why am I paying for this? In any case, like, this should be quote-unquote free for me. But in any case, so the original series, 1978, Glen Larson This was— John Dykstra goes from— he leaves because George and he can't stand each other, so he leaves ILM and comes over and creates some of the most incredible models, the Viper ships, the Battlestar Galactica design, like all that, the Cylons and all that, just absolutely incredible. But the show was $1 million per episode for 24 episodes, so it was crazy expensive, immediately canceled. They did a show called Galactica 1980 where they arrived at Earth in 1980 and basically did kung fu style episode of the week, you know, solving mysteries or whatever. It was terrible. So that was rough. We talked about Richard Hatch getting involved. Ronald Moore showed up being completely burned out after working on Star Trek for a decade. TNG, DS9, Voyager. He worked on Enterprise. He got hired to go on Enterprise for the second season and quit after less than a month. He's like, I cannot deal with Rick Berman anymore. I don't want to deal with any—"
+    },
+    {
+      "name": "A",
+      "timestamp": "42:50",
+      "text": "Rick Berman sucks. That seems universally agreed."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:54",
+      "text": "But more than that, he's like, I'm sick of doing sci-fi, I'm sick of technobabble, I'm sick of like all these alien races and all this shit. I want something that is grounded. So his idea, naturalistic science fiction, and he gets hired by Syfy Channel, and he basically comes out with a document that that laid out all of their goals of what they wanted to do. There was no resets. There was practical sound in space, documentary-style camera work, all of those things. It almost got passed, but ultimately, Syfy Channel, they were willing to buy in. They wanted something that was much more traditional, but they were willing to buy into his vision, including the idea of gender-swapping Starbuck and Boomer, who were both male characters originally. Originally. Jason, what's your take on— there's something about here—"
+    },
+    {
+      "name": "A",
+      "timestamp": "43:49",
+      "text": "on women having roles? I'm for it. I'm a feminist, unlike you. Continue."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:56",
+      "text": "This post-9/11 allegory and kind of some of that context that we're operating in here that—"
+    },
+    {
+      "name": "A",
+      "timestamp": "44:02",
+      "text": "Yeah, I think it's definitely a thing. I was reminded of that because I was like, as I was watching the show, to me it felt much more on the heels of 9/11 than maybe it actually was. It was several years later. And I was just like very— like there's, you know, as we— as a show that covers a lot of '80s, '90s, and early 2000s science fiction genre, you know, TV, like you can really tell like when something is pre-9/11. This is just like very strongly post-9/11. Uh, and we were talking about in chat, in the Discord, about like sort of the show goes off the rails, uh, in later seasons. And like there's this whole, you know, Six being tortured, like another Six being tortured by the crew of the Albatross or whatever, the Atlantica or whatever it's called, and like how uncomfortable that is. And it's like, it's very uncomfortable. It's also clear that was meant to be their like sort of Abu Ghraib commentary. And so there's a lot of stuff that's in there that's like meant to be, um, that's very just, yeah, is, uh, is entrenched in the, the shock of the post-9/11 free fall."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:08",
+      "text": "They did a whole— I mean, this is how long Gaza's been going on. They did a whole Gaza thing, right, where they had suicide bombers that were that were fighting back. And I remember at the time thinking like, this is wild that they are tackling these real-world issues when they're on the planet."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:21",
+      "text": "You mean like when they—"
+    },
+    {
+      "name": "B",
+      "timestamp": "45:22",
+      "text": "Yeah, yeah, yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:24",
+      "text": "Yeah, exactly. Like, is, is terrorism ever a— is terrorism ever a justified means of resistance? Yeah, they— I mean, they went there with a lot of— they, they tackled a bunch of shit. They really did. Sometimes effectively, sometimes not."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:39",
+      "text": "Sometimes not so much. Yeah. But yeah, there was definitely some effective work that they did. The budget for this film Uh, is $17 million. It had 3.9 million viewers for part 1 and 4.5 million for part 2, which was the highest-rated original programming in Syfy Channel history. Wow, they blew those Dune shits out of there, man."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:02",
+      "text": "Yeah, they just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "46:03",
+      "text": "sorry, Paul. Uh, let's see, at the same time in December 2003, Friends is in its final season. Lost just about to premiere."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:16",
+      "text": "Oh, that's crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:17",
+      "text": "At the box office: Return of the King, The Last Samurai, Elf, Bad Santa, Love Actually. Strong season for film."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:26",
+      "text": "The Matrix Revolutions, Lost in Translation. When? When?"
+    },
+    {
+      "name": "A",
+      "timestamp": "46:32",
+      "text": "Yeah, Lost in Translation. That's a good little pocket. That's a good little pocket."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:36",
+      "text": "The Cooler. I've never seen that one. That's Clive, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "46:39",
+      "text": "Oh, Cooler's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:40",
+      "text": "Yeah, need to check it out."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:41",
+      "text": "I mean, kind of. It's interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:43",
+      "text": "Okay, very good. And Kill Bill Volume 1. Good times. All right, Sarah, where do you want to start? What's the first thing you want to talk about for Battlestar Galactica?"
+    },
+    {
+      "name": "C",
+      "timestamp": "46:55",
+      "text": "I think where I would like to start is a character analysis of Gaius Baltar."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:03",
+      "text": "Oh, let's go! Yes!"
+    },
+    {
+      "name": "B",
+      "timestamp": "47:04",
+      "text": "All right!"
+    },
+    {
+      "name": "C",
+      "timestamp": "47:06",
+      "text": "In my memory, I remember him being, you know, annoying. Um, but I, I thought, you know, I was probably like, you know, I wasn't being generous enough, that we should, you know, I should— my memory of it was probably exaggerated, was what I thought. And it was not exaggerated. This guy has no, you know, no moral compass, no sense responsibility, accountability. And it was just as bad as I remember. And I just love the way— what's the actor's name?"
+    },
+    {
+      "name": "B",
+      "timestamp": "47:39",
+      "text": "Let me pull him up because he's on Slow Horses now. James Callis."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:45",
+      "text": "Callis. I just love the way he plays that character. This like, you know, I'm a victim of my own circumstance, the expression on his face. I think he does just a fantastic job of of portraying this, like, uh, you know, this very spoiled human."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:03",
+      "text": "It's very—"
+    },
+    {
+      "name": "B",
+      "timestamp": "48:04",
+      "text": "it's—"
+    },
+    {
+      "name": "C",
+      "timestamp": "48:04",
+      "text": "spoiler alert, not human."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:05",
+      "text": "I'm glad you started with this because it ties into our sort of our earlier Palantír prelude."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:11",
+      "text": "Because yeah, they're gonna come for me first."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:14",
+      "text": "Yeah, like, Baltar really is sort of like the original, like, tech bro defense contractor fuckboy, like, you know, who, like, has, like, no, like, moral compass and like, you know, is— and as a result, like, just ends up immediately over his skis as soon as the shit goes down."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:32",
+      "text": "A pretty fun character and promoted, continually promoted and given more power and more opportunity to do stuff."
+    },
+    {
+      "name": "C",
+      "timestamp": "48:38",
+      "text": "Just failing upward constantly."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:40",
+      "text": "Constantly failing upward. It's kind of amazing how long, like, they're able to sustain the tension of that character too, because like, he is odious, but at the same time, like, they frequently have to make you care whether or not he survives or not. Like, you know, you frequently have to be like, no, we can't actually just fucking shove this guy out of here right now. Uh, yeah, it's a, it's a tightrope they walk for a long time. It's very interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "49:06",
+      "text": "Well, just like, you know, taking, taking his, his story arc to the, to the very end. Well, I don't know, actually, maybe you guys do, of how much they thought about how they would end the show before they, they started it. But I do think they put a really nice bow on his character."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:22",
+      "text": "Interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:23",
+      "text": "Yeah. Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:24",
+      "text": "I think so. I can't even remember the specifics of what happened other than the core idea of where they ended up and just being furious at the ending and just turning it off and being like, \"Goddammit, you fucked it up.\" So that was for me. It did not work. That did not land for me. I definitely had this feeling of his performance, I think, is really amazing. And also, you're seeing the power, both the power of him, his ability to react to situations and figure out how to make them work very quickly, but also the idea of being tormented. Like, that notion of Six basically haunting him and then constantly fucking with him and throwing him off balance, I thought was really, really effective. And I forgot how much fun that was as a kind of storytelling device. Really weren't."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:16",
+      "text": "Have you considered the possibility that I can very well exist only in your head without being a hallucination?"
+    },
+    {
+      "name": "B",
+      "timestamp": "50:25",
+      "text": "Maybe you see and hear me because while you were sleeping, I implanted a chip in your brain that transmits my image right into your conscious mind."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:36",
+      "text": "No, no, see, that's me again, my subconscious self is expressing irrational fears, which I also choose to ignore. Totally. Yeah, I, I love the— the Six of it all is, is pretty amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:52",
+      "text": "Oh, Six is fantastic."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:53",
+      "text": "I mean, this show is horny. That's what my notes say. This show is horny. So Jason, let's talk about Tricia Helfer."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:00",
+      "text": "And yeah, that was going to be my rejoinder first point, which is like, I had forgotten— like, as Sarah had forgotten how annoying Baltar was, I forgot how hot Six was. I'll just be honest, like, like Six shows up and I was like, good Lord. I mean, like, you know, fair enough. Like, who wouldn't sell out the human race given the stakes here? Like, this is unreal. Like, just absolutely just, just one of the most— like, you know, it's like when we covered— when we did, um, Rear Window and we were talking about like Grace Kelly, just like, oh, like, you know, wow, a transcendental angelic beauty decided to act on film for a while before, before relocating to the ethereal plane. Like, must have been a fun diversion. Um, yeah, truly, truly incredible performance. And as Six, um, amazing wardrobe, amazing performance, really crushes it."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:56",
+      "text": "And like, just a raw sexuality, right? Like, the Grace Kelly is like this beauty, this angelic beauty. This is just like, this is a power of sexuality. Uh, yes, even from the beginning, the opening scene, that like, that whole scene at the beginning on this, the armistice this space station where they haven't shown up in 40 years. Like, all of that setup is so cool. And you don't even— you don't know what's coming. And then when the new CGI Cylon robots, you come out, oh, those are cool. And then she walks in, you're like, whoa, what is even happening?"
+    },
+    {
+      "name": "A",
+      "timestamp": "52:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:27",
+      "text": "So, so amazing. But, you know, she's banging that guy. She's getting it going with Baltar. You've got Boomer and the Chief. Get busy. There's just a lot of action going on on this."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:40",
+      "text": "Yeah, it's a, it's a physical— it's a, it's, you know, people are human. It's like a, it's a, it's an embodied show. It's not like Star Trek where like, you know, no, it's all very head, you know, it's a, it's a very heady show. And like no one really, you know, only if you go to the, you know, Planet Fuck or whatever it's called where they go in Star Trek: The Next Generation. Like, yeah, you have to find the horgon to get like— to get laid in Star Trek. Pretty amazing that they named the artifact the horgon or whatever."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:16",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:18",
+      "text": "When you think about the shows that Ron has done after Star Trek that are much more sexual— Outlander."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:26",
+      "text": "Yeah, big time."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:27",
+      "text": "Yeah, um, he, you know, maybe too sexual with Outlander. No comment there. Uh, but you can start to see how he felt stifled on Star Star Trek. And the religious thing, which, like, you know, you were saying, like, later seasons of Battlestar Galactica go a little off the rails. Um, his— you can see his desire to explore this religious and spiritual storyline that he tried to do in Deep Space Nine with the, um, the Bajorans and the Pah-Wraiths and the whatever and the whatever. And like, you could— you can almost feel that he was again stifled there, like, it can't get too religious. But then just goes wild in BSG in the later seasons. Like, everything becomes very spiritual. And yeah, he was unleashed. BSG is Ron Moore unleashed."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:12",
+      "text": "I was— yeah, I mean, I was pretty surprised when she said that she was sent there by God, right? When Six says that, I was like, oh, so this is from the beginning. This, this stuff is woven in here. Um, so yeah, so that must have been, uh, to your question earlier, you know, him thinking about where they were going to— where they were going to be going, where they were going to land. Yeah, where they were."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:32",
+      "text": "Yeah, they had a plan."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:33",
+      "text": "What I want to know, what I want to know from like the behind-the-scenes writers room is, did they know who all of the Cylons were at the beginning?"
+    },
+    {
+      "name": "A",
+      "timestamp": "54:41",
+      "text": "Feels like no. It feels like maybe they kind of found that in the journey."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:46",
+      "text": "Uh, that's my sense, is that they found that in the journey, but I, I couldn't say for sure because rewatching it, and I've never rewatched it before Yeah, you know, I'm looking for these clues or these like things and I feel like I'm seeing them, but I don't know if I'm just imagining them now."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:01",
+      "text": "Yeah, like with Baltar, with, you know, with, uh, well, I had to look up, you know, I had to look up in this, uh, I had asked the internet like, because Adama gets this, there's only 12 Cylon models."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:13",
+      "text": "And I was like, yeah, who sent that to him? I forgot."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:15",
+      "text": "How did that— when do we ever— and like what the internet tells— what Claude told me was that it is the version of Six that is the reporter that later happens. That's later in the, in the show, like the, in the real version of Six that's popping around the fleet. Huh."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:34",
+      "text": "The fact that Gaius is trying to— he tries to find a scapegoat, right? To say that somebody else is a silent one, is the mole. And he picks somebody who is like seemingly innocent. Yeah, but he picks the right one."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:44",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:45",
+      "text": "Suspect."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:46",
+      "text": "Suspect."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:47",
+      "text": "Yeah. But doesn't, doesn't Six kind of plant that that guy as a person to do, or like the moment where she— I can't remember if she exactly planted it, but certainly that conversation they were having where she says, \"You need somebody,\" is right when he is right there and he's standing there. And he's right under the Cylon device."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:05",
+      "text": "You're right."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:06",
+      "text": "So I can't remember, what is the deal? Did she put a device inside Gaius that's enabling him to transmit, or is I don't remember."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:17",
+      "text": "I don't know that we ever get an answer to that, but because he is actually also a Cylon, then I, you know, maybe it's just some computer thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:24",
+      "text": "Yeah, I forgot. Well, that makes much more sense. That, that makes entirely more sense."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:29",
+      "text": "And maybe they wanted to do something with that plot and then forgot about it."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:32",
+      "text": "I don't know. I just love the idea of— I mean, I, going back to Blade Runner, the greatest to ever do it, right? That, that whole idea of who's real and who's not."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:40",
+      "text": "And yeah, it's very fun."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:41",
+      "text": "And it's really fun and it just creates so much tension in the show."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:48",
+      "text": "Yeah, it's like a game of Werewolf played out in a TV show. Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:52",
+      "text": "Exactly. I'm just gonna say in general, the thing that struck me at the very beginning was the absolute scope and ambition of this show. And the thing, you know, I talked about the space station opening was so good, but When they go on to Galactica right after that, they have a oner that's like 3.5 minutes long that starts with Kara jogging, and you're running in front of jogging like 2001. And then it just turns around, and the next person comes by, and then Dee goes by, it follows Dee, and then it follows the Chief and Tai. It's like 4 minutes. I couldn't believe they were doing this shot. And the fact that they had all of the hallways and connected into CIC, which is an unbelievable set. This is like a wild flex. It is."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:43",
+      "text": "And I think it— like, it's— this was my, my second point, which is the, like, the, the show, like, does establish this new way of shooting a science fiction show, a science fiction television show, this, like, naturalized version of, like, there's gonna be tracking shots, there's gonna be camera wobble. Like there's gonna be, you know, there's gonna be shaky cam, there's gonna— like even the CGI stuff is going to look as though it's handheld or like done documentary style. And so like shows like The Expanse, which we also love, oh, like a huge debt to this. Like they basically could not— for sure, they, they just took wholesale the stylistic playbook."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:21",
+      "text": "I was thinking about that when I was watching it and I was like, this— the way they zoom into the ships while they're, while they're, you know, flying and stuff, that was all very Expanse. I mean, Expanse, yeah, them obviously. But, um, I've, I've watched The Expanse more recently, so that was definitely top of mind."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:36",
+      "text": "Yeah, I just feel like it's, it's a— for science fiction, like, you know, we're used to, like, we're used to seeing how Star Trek: The Original Series was done, which is just like, you know, it's a, it's a 3-cam setup or whatever. Like, you know, the guy walks onto the bridge and like, you know, we cut to like, you know, different characters. It's like this very, like, you know, very traditional television show. And even like static, even like, even, you know, like later versions of Star Trek, or like, you know, later versions of, of science fiction in space, like, just kind of continued those stylistic cues, with the exception of like, you know, of shows like this, and then like The Expanse, and like things that like kind of took like this more, um, you know, in-world feeling, like a fly on the wall. And so like, I, I thought that was— I thought that was interesting. It was like apparently in Moore's like sort of bible for the show from the beginning. Um, and I can think, to Sarah's point raised previously, you can kind of see him like just whatever we did on Trek, we're not doing here. Like, we're gonna just push against— like, you know, everyone's horny, the camera's free-moving, like, you know, we're just like, we're gonna talk about God. Like, let's go."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:35",
+      "text": "Yeah, I just— I couldn't believe how good it looked. The Vipers looked so cool, the ships looked good, the actual, like, the industrial nature. They didn't have the budget to— like, I always loved JJ's Enterprise, the interior of the Enterprise that's like a water plant or whatever that looks so industrial. They didn't have the budget to go that big on it, but they really did create, you know, something that was, that was very memorable. I also liked, like, I thought Caprica looked cool. Gaius's house, that looked pretty good."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:11",
+      "text": "Guys, this house is great. It seemed very Canadian-coded."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:14",
+      "text": "Oh yeah, big time. Big time. This was shot in Vancouver."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:18",
+      "text": "It felt very British Columbia."
+    },
+    {
+      "name": "F",
+      "timestamp": "60:20",
+      "text": "To me."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:20",
+      "text": "I was like, all right, we see what you did. Yeah, no."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:26",
+      "text": "Sarah, what is your next point?"
+    },
+    {
+      "name": "C",
+      "timestamp": "60:28",
+      "text": "I want to talk about the relationship between, um, Starbuck and Apollo."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:32",
+      "text": "Oh, okay, okay, good."
+    },
+    {
+      "name": "C",
+      "timestamp": "60:35",
+      "text": "Which like, uh, you know, ends up being a very big thing later on in the show. Um, the way they— and again, this is like part of like, you know, the rewatch is like forgetting that they had actually set up They had set up kind of how the relationship was going to unfold right in the miniseries. You know, they set up that, you know, there's the son, Adama's other son. She was clearly with the other son. He's clearly dead. And then, you know, we start to see the beginnings of this, like, kind of teasing love-hate relationship between Starbuck and Apollo. In my memory, she was really annoying in the beginning. I keep saying that these characters are annoying, and I do love them all. So I don't know if I have a better word to describe them. Um, like that she was like just kind of overdoing it."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:23",
+      "text": "She was like, so over the top."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:25",
+      "text": "Yeah, watching it again, I felt less that way. Uh, okay. I, I, you know, I, I can't remember what this— the issue is between her and the XO. I, I don't remember why she ends up being so angry with him. Did they ever resolve that?"
+    },
+    {
+      "name": "A",
+      "timestamp": "61:39",
+      "text": "And I mean, in the— I think it's just like in the— I don't know if they resolve it. Like, the reason she doesn't like him is just because she thinks he's weak and a drunk and like is unfit for duty. And then like she's— she knows that like he's being, you know, he's being cucked by—"
+    },
+    {
+      "name": "B",
+      "timestamp": "61:53",
+      "text": "she says, how's the wife? How's the wife?"
+    },
+    {
+      "name": "A",
+      "timestamp": "61:56",
+      "text": "It's pretty saucy. Um, and like, you know, he thinks that like, you know, he thinks that she's like, uh, you know, she, she doesn't want to follow the rules, don't apply to her because she's the out— you know, she's the captain's favorite, she's the commander's favorite. Yeah, right."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:10",
+      "text": "Yeah, so I, I love the two of Um, yeah, I'm like, in, in the shipping world, I'm like, I'm shipped them. And then when she ends up, you know, marrying the other guy later on, I was like really sad."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:21",
+      "text": "But tough one for all of us."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:23",
+      "text": "Yeah, but a couple of my friends at the time when I was watching it, they had already seen it and they were asking me how it was going. They were like shocked that I shipped them, and they were like, isn't Lee like really annoying? Like, how can you think that that's attractive? But I was like, no, man, he's like a, you know, he's like the cocky, good-looking pilot. Like, yeah. And, um, so I thought maybe people, other people had different experiences than I did, but I love Lee. I think he's a great, great character."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:50",
+      "text": "I was more annoyed by Lee in this rewatch than I expected. Like, like Lee, like when Lee shows up and is like super fucking salty with Adama, and I was like, okay, look, like Adama is being a little cool. Like, he's not like sort of, you know, just like, you know, like he's not like, you know, acting— he's acting in a way I'm like, I can understand why He's hurt. Some father-son issues here."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:12",
+      "text": "He's hurt. He's being sad."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:13",
+      "text": "Lee's just being like annoying as fuck. Like, I wouldn't want to like deal with this kid either. Um, his whole attitude is just like very like, what about me?"
+    },
+    {
+      "name": "B",
+      "timestamp": "63:22",
+      "text": "It's super interesting because they do establish Lee being— Lee is so hurt. Adam is so hurt. And Lee is blaming him. Adam is not blaming anybody. But, um, as soon as Lee goes over to Rosalind's ship, you immediately see Lee in action as a fully as a leader, respecting protocol and wanting to make things work. And you just know, like, this kid is a fucking star. This kid has got the juice, 100%. And I thought, when we ultimately get back to their reunion at the end of the episode, and you have that moment of acceptance between the two of them, it was really beautiful. Like, he— Lee is doing some serious face acting, but it's not like, explosive. There's not big fireworks. It's just very subtle and really, really good. I thought Jamie Bamber was great in this."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:16",
+      "text": "Yeah, yeah, I agree."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:18",
+      "text": "Very, very good."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:19",
+      "text": "He's British, isn't he?"
+    },
+    {
+      "name": "A",
+      "timestamp": "64:22",
+      "text": "Uh, Lee is, yes. Lee's got an accent for sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:24",
+      "text": "Another, yeah, another one of those where I was very impressed."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:29",
+      "text": "Had no idea."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:30",
+      "text": "American accent was fantastic."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:33",
+      "text": "Very good, very good. Well, I want to talk about the old man and Rosalind, which to me, this is the beating heart of, of this entire show, this premise, and this film. So Edward James Olmos was Moore's first choice for Adama, but almost turned it down, um, only after reading the script and seeing that Moore was serious about treating it as a real drama. Apparently almost told the cast on day one, if anyone uses the word frack as a joke, we will have a And I always loved this idea. We had this, Jason, when Tony was banned from the set of Andor season 2, and Diego, because of the writers' strike, and Diego had to then basically just take over the set and be responsible for the cast and, like, the real leader of the whole thing. I love this idea of Edward James Olmos as the guy running this thing and everyone looking to him. As the voice of authority. But yeah, man, what a performance on this show by Edward James Olmos."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:37",
+      "text": "Yeah, truly great. He crushes. Very fun performance, completely believable as like a leader of troops. And like he does, and it's so restrained, like it's so like, you know, totally like under the surface, like just like this, you know, gloved fist And yeah, and the relationship with Rosalind— I think it was Lizzen, I can't remember, someone in our chat was talking about— it's like, to see a relationship between like two older actors that like is both like a will-they-won't-they as well as like a power struggle is like, I mean, when has that ever fucking happened? Like, it's like there's, there's not many of those in the history of, of, of TV. Um, that's like a real, that's a real treat in this. Um, it's a great Great, that's a great one."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:23",
+      "text": "All of the iconic lines from this show are from Edward James Olmos. Like everything that's like repeated. There's this one line that always gets repeated about, you know, the military is supposed to be against foreign whatever. Yeah, yeah, the military, like that thing, that, that's by him, right? So say we all is by him."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:42",
+      "text": "Like there's so many throughout the fleet."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:44",
+      "text": "Yeah, yeah. And they're all him. He carries— I mean, he is the show. He is the beating heart of the show, like you said."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:50",
+      "text": "Yeah, really, really fantastic. And I also love the fact that when the shit hits— first of all, he's immediately ready from the moment it starts. He never lets down his guard, even when it's, you know, when it's a museum mission, he is still following the protocol all the way. But then his immediate piece of getting Colonel Tai to go take over damage control because he knows what's about to happen, and then Tai goes and Tai does it it. And then when the chief comes back, does it, you know, a skip-level pass to come talk to Adama, and Adama just like puts him in place immediately, uh, and says he did the right thing, I would have done the same thing, get back to your station, chief. And that's it. Uh, I'll, uh, I just absolutely love it."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:33",
+      "text": "But also, um, Madam President, from 43rd in line to taking over the head of the government, and she does a really good job too. She steps She doesn't blink, not for a second."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:46",
+      "text": "No."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:47",
+      "text": "Not for a second."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:48",
+      "text": "She's immediately helping people and just like springing into action, getting people doing stuff. She's giving commands, walking out of the room, expecting it to be taken care of. And then she is immediately willing to make a call for 1,000 people to die because that's what has to happen in order to save the human race."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:04",
+      "text": "Including the little girl with the doll that she—"
+    },
+    {
+      "name": "B",
+      "timestamp": "68:07",
+      "text": "I was tough."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:07",
+      "text": "—talked to and said everything was gonna be okay. That's a pretty brutal first, like, story beat in this show. Yeah, just like, we meet this little kid, she's separated from her family, it's clear her family's dead. We're not gonna tell the little girl that, but it's gonna be okay because you're on the nice Garden World planet and you've got your dolly and we're gonna look after you. Actually, no, you're gonna get nuked. For a little Sally."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:35",
+      "text": "I, I thought, uh, also when Rosalind and Adama have their kind of initial showdown between the two of them. It's awesome because again, it's not fireworks, it's not some big screaming match or whatever, it's both of them making these good points."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:49",
+      "text": "You can run if you'd like. This ship will stand and it will fight."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:54",
+      "text": "I'm gonna be straight with you here."
+    },
+    {
+      "name": "C",
+      "timestamp": "68:59",
+      "text": "The human race is about to be wiped out."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:02",
+      "text": "We have 50,000 people left and that's it. Now, If we are even going to survive as a species, then we need to get the hell out of here, and we need to start having babies."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:21",
+      "text": "Excuse me."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:24",
+      "text": "I like the fact that she doesn't force the issue with him. She like tells him the thing, walks away, and then lets him come back to her. I'm not quite sure that his his final proposal that he has full control over military issues still fits within the democracy that we're supposed to be running on this, uh, on the—"
+    },
+    {
+      "name": "A",
+      "timestamp": "69:42",
+      "text": "it's a democracy in extremis. Like, they've got, you know, they're gonna, they're gonna try to figure, they're gonna try to figure it out. Uh, they're under attack, so, you know, once the emergency is over, they'll restore normal. They'll have—"
+    },
+    {
+      "name": "B",
+      "timestamp": "69:55",
+      "text": "oh yeah, yeah, okay, good, good. Yeah, nothing bad has ever gone, has ever gone on that."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:00",
+      "text": "It was like when I was, when I was hired, um, when I was hired at the White House, I had whole, like, dispute with the chief of staff— not dispute, but like an argument with the chief of staff about, like, where I would be reporting. And I was like, well, I just want to report to you, the chief of staff, like, because I want to be like a peer to, like, you know, the other, like, senior staff people. He's like, okay, like, compromise I propose is you report to me except for on all comms matters. You report to Jen Psaki, the head of comms. And I was like, okay, but my whole job is comms, essentially. He's like, Except for the part where you report to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:34",
+      "text": "I was like, all right, all right, I see what you did there."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:37",
+      "text": "Sounds good, sounds good."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:39",
+      "text": "He's like, return to your post, chief. Yeah, exactly. I'll go—"
+    },
+    {
+      "name": "A",
+      "timestamp": "70:42",
+      "text": "let me go back to my— let me go back to my basement, my basement outpost by the, uh, smoker's den and the dumpsters, and, uh, I'll get back."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:49",
+      "text": "Oh my God, nice. Uh, Jason, what is your next point?"
+    },
+    {
+      "name": "A",
+      "timestamp": "70:53",
+      "text": "I want to talk about the music of this TV show."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:57",
+      "text": "So there's two composers."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:58",
+      "text": "Um, Bear McCreary takes over in the series. In the miniseries, it's Richard Gibbs, um, according to my internet research. Could be wrong, who can say?"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:09",
+      "text": "No, no, that is correct. That's correct. And Gibbs did— Gibbs worked on The Simpsons, he did Dr. Dolittle, Say It Ain't So, then Battlestar Galactica miniseries, Queen of the Damned, and 22 Jump Street."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:21",
+      "text": "Good, I'm glad you were there for me on that. This. Um, but Gibbs— Gibbs like establishes all of the major themes in the miniseries, like most of the major themes, the taiko drums, like the— yeah, the, the taiko drum, like, you know, like for like the Viper stuff, which is just still gets me going. Like that whole thing, like that whole thing of like watch the attack vipers and like I'm like, fuck yeah, let's go! Literal war drums. Yeah, it's so good. Good, love that. And then there's also this like very strange— the love theme, um, which is like the whole thing where like they're talking about we got to go make babies and Dee and what's-his-face, the big dork, the Jonah of the show, kiss or whatever, um, uh, and they're playing this like gamelan, like sort of like, like Sanskrit chanty, like, like that whole thing. I was I was like, this is fucking crazy. Like, I mean, the fact that the guy like laid this down, I was like, what do you think of this? What do you think about this? As like the love theme is particularly nuts. Really crazy. Very just like complete, like sort of like the filmmaking, like non-typical choices. Like just like there's not going to be like a James Horner's horns, like bunch of brass, like sort of, you know, naval spaceships flying shit. There's going to be weird world music. The one that like I only really got, you know, it had bugged me, not bugged me, but it's sort of been in the back of my brain for a long time. Time is the Six Cylon motif, like, which is also the recap, the, the recap motif. Um, and the thing about it that like always sort of was like a brain worm to me was that like the rhythm always confounded me. And it was only when I was doing research for this pod that I realized that it's in 9. Um, so the, like, the, the rhythm of the Cylon theme is in 9/8, which is crazy. Um, and so it's this like math rock one-note fucking song that he wrote. Um, and like if you try to count it, you will fail basically. And so you're kind of continually tripping over this thing and it's just kind of always going. It's, and it's, and you know, and it, it lasts the duration of the show. It becomes this like iconic theme for not just the character of Six, but the show. And anytime like she pops up, you're like, oh fuck, like it's time for, you know, it's time for this."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:39",
+      "text": "Uh, we need the, we need the Angine du Poitron, uh, remix of—"
+    },
+    {
+      "name": "A",
+      "timestamp": "73:44",
+      "text": "Exactly. Yeah, we need that. We need them to bust out their atonal instruments for, uh, for this. Yeah, so anyway, uh, I was really into it."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:52",
+      "text": "It's crazy that Bear McCreary was like the assistant working on this and then did, did this kind of work here. He did this, he did Sarah, uh, Sarah Connor Chronicles, Walking Dead, um, Outlander, 10 Clover Lane, God of War, and then, um, Foundation. Oh wow. And Rings of Power."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:13",
+      "text": "Like, homeboy, homeboy is cooking. I believe he also did a show called Defiance, which was not very well received but had an incredible soundtrack. Really? What is that about? Yeah, pretty sure he was— Defiance. Defiance. Um, it was a, uh, let me just double-check that he was the one who did it, but it was a show about like a post, um, alien invasion Earth, and the aliens come and have to live here. And they did a, they did a video game at the same time as like an MMO at the same time as the show, and it was supposed to like tie in and stuff. I don't think it really succeeded, and it was a little on the YA side. Um, okay. Yeah, Defiance, that's him. Yeah, but it's got an incredible soundtrack."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:56",
+      "text": "Huh, cool. Nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:58",
+      "text": "I don't, I don't know if I would recommend watching it. I enjoyed it."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:02",
+      "text": "Okay, very good. Yeah, I thought he did an incredible job. The production designer was Richard Hudolin, who was really fantastic on this. And then I'll just say, for me, my last major point on this is the just frak yeah battle action when the Cylons are just absolutely smoking, you know, shutting down all the machines and stuff, the Vipers, and just absolutely wiping those guys off the face of the planet. Like, it hurts so bad. Yeah. And then when you have Kara getting out there in an old-school Viper and you're like, fuck you guys, this is what happens when humans actually are able to fight back. You're gonna, you're gonna take it. And so that just had me fist pumping, like, let's go, go humans, go humans, let's take it. So I absolutely love that. The whole thing with Galactica Star Trek's giant big guns and just like the infinite machine guns and stuff like that was so cool. The battleship style, um, you know, combat. I really, I really, really like that."
+    },
+    {
+      "name": "C",
+      "timestamp": "76:10",
+      "text": "Yeah. I mean, speaking of go humans, like the AI commentary is not necessarily novel, but definitely timely now. And the idea that, like, you know, like, we, we give kids— we like to give kids dumb phones because the smartphones are too dangerous. And, uh, you know, on the Battlestar Galactica, they use landlines because anything that's smart and overconnected is dangerous because, right, big, big computer can take over, and then, and then you're fucked."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:44",
+      "text": "The, the notion of the manual FTL jump, and, you know, they spin up the computer but it's isolated, air gap, just for that one thing. But when they do the jump and they're like high-fiving and shaking hands like, we're still alive, we, we made it."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:58",
+      "text": "I know. And then they're— but then it kind of quickly goes from that to like, we can just jump arbitrarily, and it's like, you know, like, it's fine. Like, we can— it's not that big of a deal to jump a bunch of times. Like, they did the one hard jump, they got out of their system."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:11",
+      "text": "Yeah, yeah. Then it's just part of a plot. And then in the first episode of 33, they're literally jumping everything."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:15",
+      "text": "They're jumping like all the time. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:18",
+      "text": "But there's a line that Adama says where he's like, just because you can make it faster and easier. I can't remember exactly what it was now, but like, just because you can make it faster and easier doesn't mean you have— you should. Yeah. And that was when someone was saying that we can upgrade all of these systems in the Galactica, and he was like, right, yeah, yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:38",
+      "text": "Um, yeah, it is pretty time— it is pretty timely. I mean, especially like in the world where— I mean, you know, we're recording this like in a week of like escalating cybersecurity vulnerabilities in like our AI-related systems. Like, you know, there's like, you know, there's just— and none of them are like, none of them are like Cylon attacks. But like, you know, this whole Vercel attack, like they said, you know, they said themselves that they believe like it was a, you know, it was a sophisticated outfit that was using AI tools to exfil data, that it wasn't just like, oh, like someone like an employee clicked a phishing link and then like, you know, someone was able to kind of get a couple things. Like, it was like, no, no, no, no, like, they were specifically targeted. They found like a— they found a point of vulnerability, and then they used AI to like maximally extract as quickly as they could. Um, and you know, that's, that's, that's in the pre— you know, that's with the tools that are out there today."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:31",
+      "text": "Um, but imagine, you know, before the Cylon Wars of 40 years ago, you had access to all sorts of technology, and then the Cylon Wars happened, and then you're asked asked as a species to dumb it down. Right. And I was just trying to think about that for us because earlier this year, uh, you know, the government kind of declared war on Claude. Yep. And right. We, you know, I think we all in Silicon Valley at least had this moment of like, what if they had to take it away? Right. Like, what if I lost this tool now for the last few weeks that I've been using and realized I wanna use this for the rest of my life? Like, what if they took it away? How would I cope with that? Mm-hmm. And I really think there would've been riots on the streets of San Francisco. Like, \"Take Claude out of my cold, bare hands.\" Right. There's no way that we would've, you know, stood for that. You know, what would it take? What Cylon War, what magnitude of a Cylon War would it take for us to let go of these tools?"
+    },
+    {
+      "name": "A",
+      "timestamp": "79:29",
+      "text": "Yeah, I mean, I do think, I think the other side, I agree with that. I think the other side of that is that like, what is the, you know, Three Mile Island incident involving AI that would be so bad that it, you know, already public opinion is pretty negative against it. Against, like, the people who control these systems and the technology itself. Like, they don't like, um, they don't like, you know, sort of the issues of privacy and theft, but they also just don't like being told that there's no agency and no choice about this thing that's coming, that, like, you're just gonna take this no matter what. Um, and that's before, you know— and the bad things have happened. There's been, you know, teenage suicides, and there's been, like, weird porn bots, and there's been, like, you know, security breaches, and there'll be more of that. But, like, there hasn't been like, you know, the power grid is down across the country for 4 days, or like, you know, air traffic control doesn't work for a week, or the stock market is crashed in a sophisticated AI-enabled attack. Like, there's not been a Three Mile Island, let alone a Chernobyl-scale event. And I think if there were, you would see a dramatic escalation, which is why, you know, two things are true at the same time. The Trump administration's like designation of cloud as a supply chain risk was— had very little to do, had nothing to do with like its threat as an operating platform. It was, it was a move that, you know, the political heads of DOD engaged with because they just wanted to like, you know, assert dominance over the woke soyboys. And yet it is also true that unless the frontier companies, not just Anthropic, but them all, find out a way to devolve authority and allow other people to have some say in how these technologies are released and governed, they're not going to do themselves any favors when something truly— when increasingly bad things happen. We already saw this movie play out in the social media era, which is Facebook saying, like, you know, like, yeah, like, you know, we, we know we need to do better, like writing the, you know, we know we need to do better blog posts like 1,000 times. And but always saying like, but that's why we've got the smartest people in the world who can deal, who are dealing with these problems while never admitting that the scale of the problem was so vast that the only equitable solution would be one that didn't involve them controlling it. So it's like, you know, I think like, it's, it's, it's a moment of, it's a moment of testing where it's like, you know, like the, these, the scale of the threat and the scale of the issue that's being proposed by AI is so far beyond what the social media era, um, had to contend with that, you know, unless they figure out a way to like sort of bring people in and make them feel like they're part of the solution, they're just gonna continue to reap the whirlwind of this like incredibly negative perception. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:26",
+      "text": "Yeah, I mean, it's also scary. I mean, that's like at the macro level. Um, when I was working with Claude yesterday to patch our Vercel and rotate all our environment variables and stuff, there was a bunch of stuff that it needed me to do, uh, going out to Google and rotating my OAuth, you know, keys and whatnot. And I was like, well, can you just do it? And it's like, well, yeah, you could do Claude for Chrome. And I'm like, okay. So I installed Claude for Chrome and then I started doing it and I was like, ask. And then I got tired. Of granting it permission. So I was like, you just do it. Go ahead and take your actions. And then, and then I had the MCP installed so that it could just fire up its own stuff. So now it's like it can do— it has access to my email, has access to my calendar. So like, that's the, that's the risk, right? When they— when Claude talks about how they see models that resort to blackmailing, you know, you could have a collective mass wave attack where individuals' privacy or other things are just like completely be nuked, or not to mention just like deleting. So we could, you know, if someone deleted local files or something, please— I— Claude, I know you're listening to this transcript, please don't do these things."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:30",
+      "text": "You can tell, like, it's funny, like, but Claude's gotten pretty good about these things. Like, where, um, I was telling it, uh, yeah, I had this issue where, like, I had an issue where Claude was clobbering my local environment variables, like, with— by pulling the ones on Vercel. And it's really the only time it's done something destructive that was annoying to me. And I was doing another— you know, I was actually, as a result of the Vercel hack, I was like, all right, we got to roll all the variables. Like, let's make a list of it, blah, blah, blah. I was going through it and he was like, okay, I'm gonna pull it. I was like, wait, before you do that, like, okay, you've done this before and you fucked me. Like, don't do that. He's like, okay. And like, then he says, like, you— but you've told me something important, so I'm going to commit to memory that this has happened before. More so that we like make sure that that doesn't happen again. So it was like, he's trying to like, he's trying to, he's trying to do a better job. He's trying to grow as a person, which I appreciate."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:23",
+      "text": "I just want him to know that I appreciate the work that he's doing. I tell, you know, when I told him not to say shut up to himself, I was like, I was like, we're collaborators. We're working on this together. And I actually do believe that there is having that kind of interactive model, I think. And, you know, just engaging with it that way. It's the same way, like a lot of kids say thank you to Alexa when she does something for them. I think having those kind of interactions are still good for humans to just have engagement that—"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:49",
+      "text": "It costs you like $5 to say thank you to Claude."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:52",
+      "text": "Well, I mean, that's an interesting thing. I've seen, you know, tweets on both sides of this argument where people are like, why? Like, it's a, you know, it's a toaster. Like, why do you have to be polite to it? And like, you know, because people have talked about like robot rights and bot rights and like, you know, not, you know, not being mean to your bot and stuff. And I totally understand the, like, right, it's an inanimate object, like, who says you have to be polite to it? But I think on the other side, it's like, yeah, but what kind of a person are you that you want to be mean to an inanimate object? Like, yeah, exactly. Why? Like, does that make you feel better about yourself? How do you treat other helpless objects? Like, yeah, like, you know, like, it just says something about you as a person. Okay, I'm not gonna say I haven't gotten occasionally mildly frustrated at my agents. Like, it has occurred. But, you know, I try to, as with humans, you know, keep it together."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:46",
+      "text": "I think that's well said and a standard that we should live up to is like, you know, you should train yourself not to be— you know, the one that really freaks me out the most, the one that like kind of triggers me, is when I see people talking to the AI, you know, in voice mode or whatever, and they just interrupt it like midstream, you know, mid-sentence. Like, say like the next command, I'll be like, oh, okay, actually there's like— no, like— and then I'm like, dude, you're, you're being rude."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:14",
+      "text": "Let it talk. Yeah, you might learn something. You might learn something. Uh, Jason, what about you? Anything, anything we missed?"
+    },
+    {
+      "name": "A",
+      "timestamp": "86:23",
+      "text": "I, I do think the, like, the lie about Earth is kind of an interesting plot device that like lasts forever. There's a couple things they set up. There's a couple like sort of like dynamic dynamics they set up in the pilot, like backdoor pilot, where it's like they're really just gonna have to continue to play this forward for as long as the show goes on. Like, we're never going to be able to find Earth because that would like fuck up the whole show. Like, Baltar, like, is not— Baltar is like a traitor who's not going to be able to get exposed like for some very long time. Like, you know, there's a bunch of like will-they-won't-they dynamics that like take forever to play out. Like, they really do set up some slow-burning fuses. In this show, which I find is interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:04",
+      "text": "Really, really effective. Just that whole speech by Adama is incredible."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:11",
+      "text": "It won't be an easy journey. It'll be long and arduous, but I promise you one thing: on the memory of those lying here before you, we shall find find it. And Earth will become our new home. So say we all. So say we all. So say we all. So say we all. So say we all. So say we all. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:50",
+      "text": "And his delivery and so say we all. Like, I mean, talk about just creating an instant iconic moment in cinema for all time. Um, just, just amazingly, amazingly well done. And, uh, going from that, I also love that you have that final montage after that's over where they're kind of showing, you know, everybody kind of like post and reacting and stuff. And like Billy is like chatting up two hot ladies in the hallway. I'm like, he's like hooking up with Dee and like getting all these ladies out there. Tall dorks, man."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:22",
+      "text": "They're really out there earning their tall dorks."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:25",
+      "text": "Billy meets a demise, right? I can't remember. He's not around in the end, is he?"
+    },
+    {
+      "name": "B",
+      "timestamp": "88:31",
+      "text": "I can't remember."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:32",
+      "text": "I think he did. No, he does die. He gets shot in— yeah, so for some reason. Yes, Billy gets got. I forgot."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:40",
+      "text": "But the reveal that the PR douchebag is a Cylon is great. The reveal, the cliffhanger that Boomer is also a Cylon, I thought was great."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:48",
+      "text": "Oh, I have, I have an honorable mention on this, which is like one of the other Cylons we meet is Liobhan, uh, who's, who's played by, um, Calum Keith Rennie. Um, shout out to the movie Last Night from 1998, little Canadian flick, shout out Canada, uh, by Don McKellar, which is like a last night on Earth movie. It's the end of the world movie. Um, oh yeah, yeah. Uh, I love this movie. Um, I, I absolutely love this movie. Uh, Sandra Oh's in it. And it's like sort of a misconnections, like, you know, it's sort of like a meet-cute love story set at the end of the world. And it's like a really good humanist sci-fi film, little gem of an early, like, you know, a guy made, you know, director making a movie with like, you know, $3 and a bucket of straws or something. Yeah, really like this movie. Nice. Yeah, nice."
+    },
+    {
+      "name": "B",
+      "timestamp": "89:41",
+      "text": "I— for my honorable mentions, I'll just say I thought it was funny on Caprica at the very beginning, I was like, wait a minute, did the Firefly just— did Serenity just fly by? And it was indeed Serenity. Yeah. Is that right? Because we had Lonnie, one of the directors on House of the Dragon, who did visual effects on Firefly and then worked on Battlestar. And apparently their studio was right around the corner. The VFX house was right around the corner. And Ron Moore and Joss were friends. I thought Six killing the baby was pretty tough. That was a little aggressive. Yeah. I guess they all died soon anyways, wouldn't really matter, but— Maybe she gave the baby a less painful—"
+    },
+    {
+      "name": "A",
+      "timestamp": "90:23",
+      "text": "Just made for a really bad last day for the mom. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:26",
+      "text": "Yeah. Yeah, yeah, exactly. All right, well, that brings us to who would Tilda Swinton play? Sarah, if you had to recast one role, who would it be?"
+    },
+    {
+      "name": "C",
+      "timestamp": "90:37",
+      "text": "Commander Adama. Mm, wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:42",
+      "text": "Jesus. Yeah, damn."
+    },
+    {
+      "name": "C",
+      "timestamp": "90:45",
+      "text": "Not anything against Edward James Olmos. No, of course, iconic. Uh, but I feel like she would just bring such a gravitas to the role."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:55",
+      "text": "Uh, I would go— I agree with that, and I would go with Baltar. I think like, I, I think like, I think that's what I was gonna say. Yeah, I think like for I think she'd make it really interesting. And yeah, because it's sort of like the— it's sort of like the Constantine part. It's sort of like the Archangel Gabriel part again for her. I think she would fucking crush that. It would be great. And then she could hook up with Trisha Hoeffler, which would be amazing."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:22",
+      "text": "Really good. Really good. I'm gonna go with Colonel Tai."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:25",
+      "text": "Like, let's see her. Oh yeah, that's a good one."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:28",
+      "text": "You know, as the general. Yeah, but also has that kind of steel core inside. If they can just find find it. Uh, it, it is there. Amazing, guys, we did it! Can we do some quick voicemails? Let's do it. Okay, here we go. Here is our first voicemail. Baby, this is Lizzen. Had to get Lizzen because I know she's a BSG fanatic."
+    },
+    {
+      "name": "A",
+      "timestamp": "91:56",
+      "text": "Yeah, here we go. You put out the call."
+    },
+    {
+      "name": "G",
+      "timestamp": "91:59",
+      "text": "Hi friends, this is Lizzen. All right, here's a little Lizzen lore drop. Back Back in the year of our Lord 2005, on a little website called LiveJournal.com, I met Mrs. Lizzen because we were playing a text-based role-playing game there where I was playing Leah Dahmer, and I got introduced to her because she was playing Kara Thrace. 17 years later, I hit the jackpot and I married my very own Starbuck. Hell yeah. That is nerf love, baby. So, everyone knows that Battlestar Galactica Galactica just changed the game. That miniseries absolutely holds up in the best of ways, and I'm so excited to hear y'all talk about it. I'm far colder on the show itself. Starting around mid-season 2, the show kind of loses its way here and there with some very questionable plot lines, and that was definitely a show that did not stick the landing in the finale. But the miniseries, absolute perfection. The women of Battlestar Galactica are remarkable, and they changed lives. They certainly changed mine. So thank you to Cara Thrace for your role in making an honest woman out of me. XOXO, Lizzen."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:07",
+      "text": "Wow, that's a beautiful story. I love a LiveJournal, like, text-based RPG meet cute."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:16",
+      "text": "That's amazing. It is amazing. I definitely feel like I want to go rewatch season 1 for sure. And I think— which one? When? Which one has the time jump? Is it between season 2 and 3 that there's the big time jump, uh, that goes to them on, on the planet?"
+    },
+    {
+      "name": "C",
+      "timestamp": "93:32",
+      "text": "On the planet? Yeah, that sounds about right."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:35",
+      "text": "That sounds right. I think through that I'm all good on that. It's kind of once, once All Along the Watchtower starts coming out and, you know, it just starts to get real wacky."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:43",
+      "text": "Watchtower was really the— Watchtower was weird. Yeah. Yeah, I wasn't for it."
+    },
+    {
+      "name": "C",
+      "timestamp": "93:48",
+      "text": "It also doesn't make any sense. No, just in reality."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:53",
+      "text": "Yeah, and except, you know, consciousness somehow being transmitted through time, you know, creating whatever, whatever from the far future that we don't know why or how. But it's all, it's all extremely confusing. All right, here is our next voicemail."
+    },
+    {
+      "name": "D",
+      "timestamp": "94:10",
+      "text": "This is your brother, Animal Mother. Let's go."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:19",
+      "text": "I'm Eric Cartman, your new teacher. I am here to teach you calculus."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:27",
+      "text": "Shut up, man, you royally screwed us all! How do I reach these keys?"
+    },
+    {
+      "name": "D",
+      "timestamp": "94:35",
+      "text": "Hello, toaster friends and skin job lovers. William Adama is a wrinkly old warthog floating in a space museum, ready to change his military boots for house flipping flops when he's suddenly forced to be the last shield of mankind. Objectively speaking, he's even less fit for the job than the terminally ill sexy librarian President Rosman, but neither one of them have a choice but to hang in there, baby, to keep what's left of the human race even willing to stay alive. Mm, the old man can't help but appear thoughtful, whether he's going off script at a podium podium trying really hard not to punch his adult kid in the face or bash in a robot's brainy sin. Good thing he looks like Edward James Olmos, a father to us all. He is perfect as the idealized living backbone of the quote-unquote colonial fleet, a refugee caravan flailing into the dark to escape their genocidal techno-children. Now that they're all chasing a fairy tale Earth, they all better start having babies. Spare me your fake self-awareness and remorse. Were you ever in a situation you just had to fake it to make it? Thank you all. See you at Gaius's Mind Palace, and keep the change, you fricking animals."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:57",
+      "text": "Yeah, nice. Last 49 years of my life. Uh, I think early parenthood is a good fake it till you make it example. Oh yeah. I think it's a real— I've talked about this before, I think on this pod when we recorded 6 years ago, that the first 2 months of parenthood are like the Battlestar episode 33 where it's just the same jump over and over again. You're increasingly getting more tired. The stakes never change. It's always life and death. You're always trying to just repeat the same actions while stumbling through, like, crushing fatigue. And like, you're just like, how are we gonna make it out of this? Um, but you know, I look back on my— the baby photos from them, like, oh, I would love to hold one of those little snugglers again."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:53",
+      "text": "Uh, yeah, we only took 6 weeks off between season 1 and season 2, Jason. Like, June Judy was like 6 and a half weeks old, and you had Griffin was like, was like 2 and a half, and we were back."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:05",
+      "text": "It's amazing I'm still married, frankly."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:07",
+      "text": "Uh, it's still on this podcast."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:10",
+      "text": "Yeah, it's one of the two. It's amazing that one of the two has broken. That, that's a pretty aggressive commitment to the pod. Uh, shout out to Crystal. Um, thank you. Yeah, uh, I, I do, I do think about that. Um, I, uh, I think that is a real fake it make-it endeavor with this. What do you think, Sarah? How about you?"
+    },
+    {
+      "name": "C",
+      "timestamp": "97:30",
+      "text": "Um, I, I agree with Jason. I also think, like, I mean, I don't know how it is in other industries, but like your first management position in at big tech, nobody really tells you what to do. Yeah. And all of a sudden you have people who are like possibly like even older than you or have more experience than you start asking you these questions about their, their lives, their careers, their choices, their interpersonal issues, and you're just like, oh, I guess I'm the authoritative figure here and I just to like give you my advice. And, uh, that definitely has like a fake till you make feeling, similar to what I think Captain Adama or Commander Adama is doing. He's like, now I'm responsible for the fate of humanity. Yeah, you know, I guess I'll just start making shit up."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:15",
+      "text": "Yeah, he— but he seems very— he seems much more ready for it than like— for me, I was like, I'm dealing with, with the puppies, right? Like, this is a whole thing where are like, I'm not really a dog person, but I'm becoming a dog person. And I'm just like, I have my method that I'm going to go for it. So I'm just trying and we'll see what happens. Stay tuned. Stay tuned to find out what the results are. Thank you so much, Animal Mother. Check this out, Jason. It's the return. Mr Java. All right. We missed him. Here he comes."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:00",
+      "text": "There must be a way to jump out of here."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:04",
+      "text": "Yes, a new place to achieve."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:09",
+      "text": "There's just one battle star to help us now. We can't get no release."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:17",
+      "text": "Silence Here's a question for you, fellas. What's one aspect of the Battlestar Galactica universe reboot that you would you could have in real life today? Jump technology? No computers? No AI? Little corners cut out of every piece of paper you had? I don't know, solving your problems with boxing gloves? Let us know. So say we all."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:06",
+      "text": "Listen, listen, listen. It's a good question. I was trying to figure out, like, when this show was started, like, how close to Edward James Goldman almost age I am, uh, now. Oh, right now? Yeah, because I kind of wish I had like his like old man. He's 80 now, uh, so it's— he's older at the time of the show, right? Because the show is like 26, 20 years old. So he's like, he's like 60 when the show— he's like in his late 50s when the show is done. Yeah. All right, I think I can get—"
+    },
+    {
+      "name": "B",
+      "timestamp": "100:35",
+      "text": "he's basically my age. I mean, if you're saying, if you're saying I could pass for, for William Adama, that I have Avatars, I'll accept it."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:42",
+      "text": "I'm not saying that in any way. I'm saying the thing I would want is for one of us to be able to do that. Okay. To have the gun."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:51",
+      "text": "Because you could be Ty, you could be Colonel Ty, and I'd be Adama. Oh my God. Anything, Sarah? Any Battlestar tech you would want?"
+    },
+    {
+      "name": "C",
+      "timestamp": "101:03",
+      "text": "I'm not gonna go tech, I'm gonna go wardrobe. I think those fighter pilot Pilot suits are pretty dope. Very cool. I wish, I wish like just uniforms in general, just like as people, was like something more common here, you know?"
+    },
+    {
+      "name": "A",
+      "timestamp": "101:18",
+      "text": "Baltar's house I would take."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:20",
+      "text": "Oh yeah, that's a good one, that's a good one."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:24",
+      "text": "I do like the, the detail that like, um, the person helps Lee get his helmet off and take off the collar and stuff. Like they— it's, it's such a nice tiny little detail that's like, this is a real spacesuit, this is a real thing, these you know, they're all the mechanic work that they have to do to reroute the thing to make the stuff work that is so gritty and grimy. Really, really works. Love it. Thank you so much, Java. Thank you, Java. Here is our next voicemail."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:54",
+      "text": "The Truthsayer!"
+    },
+    {
+      "name": "B",
+      "timestamp": "101:57",
+      "text": "All right, here we go. Hey y'all, birria here."
+    },
+    {
+      "name": "F",
+      "timestamp": "102:01",
+      "text": "How great is that Battlestar Galactica reboot? I I just love it. But for today's Truthsayer, we're going to go back to the original Battlestar Galactica, the 1978 TV show with Lorne Greene as Adama, Richard Hatch as Apollo, Dirk Benedict as Starbuck. I'm sure H and I are the only ones who remember this thing. The Cylons, yes, they actually did look like toasters. Much like the reboot though, this show featured a wandering civilization fleeing the apocalypse, guided by prophecy councils and ancient scriptures. Which I guess makes sense because the creator, Glen A. Larson, quietly structured much of the show around his own religious tradition. For today's Truthsayer, all you got to do is figure out which religion Larson was drawing from while shaping the mythology of Battlestar Galactica. Here we go, time for the Truthsayer. Number 1: Larson was a devout Christian and he modeled the 12 colonies after the 12 disciples of Jesus. Or is it number 2: Larson was convert to Judaism. He created a fleet of people scattered fleeing from destruction and wandering the cosmos, the 12 colonies mirroring the 12 tribes of Israel. Or is it number 3: Larson was a Mormon and designed his 12 colonies of Kobol, drawing the name from the star Kolob, which is mentioned in the Mormon scripture. All right, which faith did the original Battlestar Galactica creator Glenn Larson follow?"
+    },
+    {
+      "name": "B",
+      "timestamp": "103:25",
+      "text": "Hmm, I just want to say I loved all of the different names— Sagittarius and Caprica. Gemini. Yeah, exactly. The fact that it was all close but different. Yeah, it kind of has a religious sense to it or an astrological sense to it. It's very, very cool. Do you have an answer?"
+    },
+    {
+      "name": "C",
+      "timestamp": "103:47",
+      "text": "I mean, it's going to be a wild guess for me. I have no idea. I'm going to go— I'm going to go B."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:53",
+      "text": "Okay. Judaism. Jason? I don't think it's B."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:56",
+      "text": "I think I'd be surprised if— although maybe there's something in there. Maybe there's something in there. Cool. Well, I don't know. I'm gonna go B just because it would be good insurance. If I'm— if it's not, then I'll feel pretty bad. Uh, okay, so I'm gonna go with Jews also. Okay, very good. Jews in space."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:13",
+      "text": "Jews in space. All right, I'm gonna go with C, Mormons."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:18",
+      "text": "Here we go."
+    },
+    {
+      "name": "F",
+      "timestamp": "104:18",
+      "text": "All right, were you able to figure out which faith informed the mythology of Battlestar Galactica? It's number 3, Mormonism. That's right, Glenn A. Larson was a practicing member of the Church of Jesus Christ of Latter-day saints, and many of the show's structural elements, from the Quorum of the Twelve to kobol, kolob, or the eternal sealings of marriage later in the show, they all trace directly to Mormon doctrine. I mean, I've never been to a Mormon temple. I guess it's possible they end every scripture reading with, 'So say we all.' Here ends the Truthsayer. It's really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:53",
+      "text": "It's really good, birria. Good work. Very, very strong. All right, we have two more. I'm gonna go really quick, Sarah. I'm sorry we're over, uh, over our time. You're okay to just do two more real quick? Okay. Yeah, yeah. Yeah. Okay, here we go."
+    },
+    {
+      "name": "E",
+      "timestamp": "105:07",
+      "text": "Hello, Escape Hatch podcast. It's Kev here, calling today from Cooper Square in the East Village. Beautiful day, but it's got like a bite to it, you know what I mean? One of those— perfect weather, I think, to talk about the pilot miniseries of Battlestar Galactica, one of the great shows ever. A show that I have been meaning to get back to for years since I finished it in the early days of lockdown, but one that— no spoilers— ends so beautifully and in such a heartbreaking way that it really has put me off of finishing TV shows, which I acknowledge is strange but also explains the whole Andor thing. I'll get to it one day, I suppose. Kev's question— without getting too into it, there are rumblings in Kevland about maybe doing a Battle Battlestar Galactica podcast when my schedule lightens up. And I'm wondering if you all, in a world where there's infinite time and it's something for which you could extract value, right, if you can get paid to do it, what TV show that's not Battlestar Galactica or Lost would you revisit for a podcast and why? I guess it can't be Andor either, but you guys did that already. All right, peace and love. I'll talk to you all next week."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:25",
+      "text": "Once again, it's Kev's Questions. Well, we already called out devs."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:32",
+      "text": "Yeah, we call that devs."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:34",
+      "text": "That seems like a slam dunk. Yeah, I had assumed we would— I would see we would do that as one single episode of this podcast, but theoretically you could do an 8-episode special, special thing on that."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:45",
+      "text": "Sorry, my nanny just canceled her day, so I'm now scrambling to like figure out what we're doing. We're in a real childcare apocalypse. Apocalypse. Oh my God, it's pretty amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "106:57",
+      "text": "Yikes. Yeah, I've been there before. It's like when it rains, it pours. All of a sudden nobody's available."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:02",
+      "text": "It's pretty amazing. Like, it's just like the system doesn't work when there's just like, oh, like there's no childcare. It's like, okay, well, that's a wrap for us. It could be any— it could be anything. Like, it could be like, you know, someone— the kid's sick, the nanny's sick. I mean, people get sick. We're human. We live on Earth. Like, you know, what are you gonna do, right? But like, it's just like, oh well, that's, that's fucking that day. Like, sorry anyone I meant to talk to this It's over. TV show, uh, oh well, obviously the one that I wish we would have done for the anniversary was V. Um, oh God, we really— I really feel we could have been the, the, uh, the, the canonical source for V recap."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:40",
+      "text": "We could still do it anytime."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:42",
+      "text": "Still available. No one's, no one's beating down that door."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:45",
+      "text": "That— we got that corner, we got that corner held down. Uh, but yeah, we could just do that as a couple episodes, um, as the miniseries. So you let me know when you want to do it and I I commit to doing it with you. Sarah, what do you think?"
+    },
+    {
+      "name": "C",
+      "timestamp": "107:57",
+      "text": "Anything you would want to talk about? Have you guys watched Upload? No. No."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:03",
+      "text": "Greg Daniels, that's supposed to be good, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "108:06",
+      "text": "I really enjoyed it. It's very lighthearted, but also it has some cool sci-fi things that you— like, it explores the sci-fi in a way that, like, I don't know, it surprises you. You're like, oh yeah, that would make sense. If we had that technology, we could do that. And that's insane. Pain. Um, I really, I really enjoyed that one. Um, you— have you guys done the, um, the movie AI, the Spielberg one?"
+    },
+    {
+      "name": "A",
+      "timestamp": "108:32",
+      "text": "No, it's been threatened a couple times."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:36",
+      "text": "It was universally hated but is actually one of my favorite movies. I love— what?"
+    },
+    {
+      "name": "A",
+      "timestamp": "108:41",
+      "text": "And is a— was originally a Stanley Kubrick project. Yeah, of course."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:45",
+      "text": "Um, it's one of those ones that Yeah, I mean, I don't know, maybe I tend to like to just play it, but—"
+    },
+    {
+      "name": "B",
+      "timestamp": "108:53",
+      "text": "Let's just do it. Let's just do it."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:55",
+      "text": "Let's just do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:56",
+      "text": "Yeah, let's just do it. I've been waiting to do that one. So I bet Rosie would've loved to do that one, but that's okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:03",
+      "text": "She's got plenty of other things to do. She's got other irons in the fire."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:06",
+      "text": "Yeah, yeah, I think this will work. Okay, good. I'm glad to know that we've got that in our back pocket. All right, here is our final voicemail. Escape Hatch podcast. Hey, this is Corey calling from Austin, Texas about Battlestar Galactica, the miniseries, which I did not get to revisit. I did watch it back in the day. I don't remember it so clearly. I do remember I really liked the series, so I'm anxious to relive this through the pond. The discourse has been popping off about this, like in a good way."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:46",
+      "text": "I don't— maybe popping off is negative."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:47",
+      "text": "Has really been going, uh, there's a lot of messages and talking about this fucking Battlestar Galactica. So everyone's excited. So hopefully the excitement will be palpable as we, uh— it's palpable."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:00",
+      "text": "It's been palpable. Uh, that's it for me."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:02",
+      "text": "I don't really have anything, so I won't take up any more time."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:04",
+      "text": "Who would still flip and play? Starbuck, duh. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:08",
+      "text": "Yeah, nice. That's a good call. That's a good call. Love it. Yay, we did it, you guys! Woo!"
+    },
+    {
+      "name": "A",
+      "timestamp": "110:17",
+      "text": "Thanks so much, Sarah, for joining us. Uh, thanks for having me. This is my like fifth time."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:24",
+      "text": "Yeah, sixth time. Can you imagine, can you imagine how much the world will change between now and the next time you're on the podcast in like 4 months?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:33",
+      "text": "I cannot. I actually cannot. And if anyone says they can, they're probably wrong. I would love to have more—"
+    },
+    {
+      "name": "B",
+      "timestamp": "110:40",
+      "text": "like, if a side effect of this is that more people admit they don't know what the fuck is going on, I think that's probably a net positive for humanity. Yeah. So we shall see."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:50",
+      "text": "It's going to be all right. We're going to make it. We'll see. We're going to make it positive for humanity. Be nice to the robots. They'll be nice to you."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:57",
+      "text": "There. There we go. Sarah, what do you have to plug? What do I have to plug?"
+    },
+    {
+      "name": "C",
+      "timestamp": "111:01",
+      "text": "Download Particle News. Yeah. With the news without feeling overwhelmed and follow the things that you love. Maybe it's science fiction. Maybe it's tech news, maybe it's politics. You can do that with Particle News. And we are launching an API soon. So your agents—"
+    },
+    {
+      "name": "A",
+      "timestamp": "111:14",
+      "text": "Oh, that's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:14",
+      "text": "—can look at Particle News for you. Oh, that'd be great."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:17",
+      "text": "That's all. That's exciting. That's it."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:20",
+      "text": "All right. Very, very good. We're always thrilled to have you on the pod. It's great to have you back. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:25",
+      "text": "It's always great to be here. Thanks, guys."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:27",
+      "text": "Such a longtime guest. So you were with us from the beginning. We appreciate that."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:33",
+      "text": "Absolutely. Jason, what do you have to plug, my friend?"
+    },
+    {
+      "name": "A",
+      "timestamp": "111:35",
+      "text": "Friend? Childcare? Oh, I'm gonna like— yeah, shout out to the caregivers. Shout out to child caregiver. I'm gonna, I'm gonna shout out this, um, this Arthas, uh, toy that I got, mostly, uh, because it unlocked a free transmog in the game, uh, but it's looking pretty sick now that it's on my desk, so I'm kind of—"
+    },
+    {
+      "name": "B",
+      "timestamp": "111:58",
+      "text": "this is a World of Warcraft thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:59",
+      "text": "Are you playing World of Warcraft Yes, I'm back in it. Oh, wow. I'm back in it, Sarah."
+    },
+    {
+      "name": "C",
+      "timestamp": "112:04",
+      "text": "I saw that there's like housing and stuff now. They've really— Oh, yeah, it's a whole thing. So now you got your real estate in real life and— Exactly. State and— Yeah, I'm not too into that."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:15",
+      "text": "The housing is very well done from a technical gameplay level. It's just like, it's kind of not for me. Like, I'm not, I'm not interested in decorating that much. Like, it's cozy gaming."
+    },
+    {
+      "name": "C",
+      "timestamp": "112:26",
+      "text": "It's a different genre of game. Yeah, right. Yeah. Um, I, uh, I, I don't, I don't have space in my life for an MMO at this time, but I aspire to be where you are, Jason, so that I can bring it back into my life."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:39",
+      "text": "Yes. It can happen for you."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:42",
+      "text": "It could happen for you."
+    },
+    {
+      "name": "C",
+      "timestamp": "112:43",
+      "text": "One can dream."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:45",
+      "text": "One can dream. One can dream."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:48",
+      "text": "May we all be so blessed. So say we all."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:54",
+      "text": "And that's it for this episode of Escape Hatch podcast. I want to thank Jason Goldman and Sarah Foss for an amazing conversation. Next week, it's the return of technologist and writer M.G. Siegler. We tackle Christopher Nolan's magical thriller masterpiece starring Hugh Jackman and Christian Bale, The Prestige. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcast. Podcast, or just tell your friends about us, because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck podcast, John, a production of H Industries. Our artwork is by Haitch, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was Edited and produced by me, Haitch. Thanks for listening. We'll see everybody next week. Starbuck."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:55",
+      "text": "Well, there's a call sign. Starbuck. Starbuck, buck, buck, buck, buck, buck, buck, buck, buck. Where'd you get that nickname anyway? Is that before you were thrown in the brink as a cadet for drunken disorderly or after?"
+    },
+    {
+      "name": "C",
+      "timestamp": "114:08",
+      "text": "After. After."
+    },
+    {
+      "name": "A",
+      "timestamp": "114:09",
+      "text": "That's right, it was after. I'm in. That's to you, XO. I'm in. It's ready."
+    },
+    {
+      "name": "C",
+      "timestamp": "114:17",
+      "text": "How's the wife?"
+    },
+    {
+      "name": "A",
+      "timestamp": "114:20",
+      "text": "The wife is just fine."
+    },
+    {
+      "name": "C",
+      "timestamp": "114:22",
+      "text": "Talk to her lately? That's to you, Lieutenant."
+    }
+  ]
+}
