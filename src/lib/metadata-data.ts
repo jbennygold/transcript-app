@@ -15061,6 +15061,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/posts/battlestar-2003-156380207",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/battlestar-galactica-2003/",
-    "imdbLink": "https://www.imdb.com/title/tt0314979/?ref_=fn_i_2"
+    "imdbLink": "https://www.imdb.com/title/tt0314979/?ref_=fn_i_2",
+    "tmdbId": 148980,
+    "tmdbPosterPath": "/96ETJEnHoVuptkCNMtxcEZ5iWzN.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Richard A. Colla",
+      "Alan J. Levi"
+    ],
+    "cinematographers": [
+      "Ben Colman"
+    ],
+    "cast": [
+      "Richard Hatch",
+      "Dirk Benedict",
+      "Lorne Greene",
+      "Herbert Jefferson Jr.",
+      "Maren Jensen",
+      "Laurette Spang",
+      "Terry Carter",
+      "Tony Swartz"
+    ],
+    "composers": [
+      "Stu Phillips"
+    ]
   }
 ];
