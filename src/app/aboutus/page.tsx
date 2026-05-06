@@ -43,7 +43,6 @@ const filmYears = ehEpisodes
   .map((ep) => ep.filmYear)
   .filter((y): y is number => typeof y === 'number' && y > 0);
 const oldestFilmYear = filmYears.length ? Math.min(...filmYears) : 0;
-const newestFilmYear = filmYears.length ? Math.max(...filmYears) : 0;
 
 function parseReleaseDate(s: string): Date | null {
   const m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
@@ -461,14 +460,9 @@ function Stats() {
     { label: 'Years running', value: `${yearsRunning}` },
     { label: 'Unique guests', value: `${totalGuests}+` },
     { label: 'Directors covered', value: `${totalDirectors}+` },
-    {
-      label: 'Films span',
-      value:
-        oldestFilmYear && newestFilmYear ? `${oldestFilmYear}–${newestFilmYear}` : 'n/a',
-    },
   ];
   return (
-    <section className="mb-16 grid grid-cols-2 gap-4 rounded-2xl border border-brand-dark/10 bg-white p-6 shadow-sm md:grid-cols-5">
+    <section className="mb-16 grid grid-cols-2 gap-4 rounded-2xl border border-brand-dark/10 bg-white p-6 shadow-sm md:grid-cols-4">
       {items.map((s) => (
         <div key={s.label} className="text-center">
           <p className="font-eh text-3xl text-eh-orange md:text-4xl">{s.value}</p>
