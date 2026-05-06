@@ -343,23 +343,25 @@ export default function AboutPage() {
           </p>
         </Section>
 
-        <Section title="Press &amp; Booking">
-          <div className="grid gap-4 md:grid-cols-3">
-            <ContactCard
-              label="Pitch a guest"
-              subject="Guest pitch"
-              description="Publicists, agents, and authors with a film tie-in: send a one-paragraph pitch and we’ll get back to you."
-            />
-            <ContactCard
-              label="Book the hosts"
-              subject="Host booking"
-              description="Jason and Haitch are available for podcast guest spots, panel moderation, and live appearances."
-            />
-            <ContactCard
-              label="Media inquiries"
-              subject="Media inquiry"
-              description="Press, interviews, and editorial requests. Press kit and high-res assets available on request."
-            />
+        <Section title="Get in touch">
+          <div className="rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm md:p-8">
+            <p className="text-lg leading-relaxed text-brand-dark">
+              Guest pitches, host bookings, media inquiries, listener letters —
+              whatever it is, send it to us at{' '}
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="font-semibold text-eh-orange underline decoration-eh-orange/40 underline-offset-4 hover:decoration-eh-orange"
+              >
+                {CONTACT_EMAIL}
+              </a>
+              .
+            </p>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="mt-5 inline-flex items-center rounded-full bg-brand-dark px-6 py-2.5 text-sm font-semibold text-eh-gold transition-colors hover:bg-brand-dark/90"
+            >
+              Email {CONTACT_EMAIL}
+            </a>
           </div>
 
           <PressKit />
@@ -413,18 +415,12 @@ function Hero() {
           Your portal into cinematic pocket universes — every week, a single
           film, picked apart by the hosts and a rotating guest.
         </p>
-        <div className="mt-7 flex flex-wrap gap-3">
+        <div className="mt-7">
           <a
-            href={`mailto:${CONTACT_EMAIL}?subject=Guest%20pitch`}
+            href={`mailto:${CONTACT_EMAIL}`}
             className="inline-flex items-center rounded-full bg-eh-gold px-6 py-2.5 text-sm font-semibold text-brand-dark transition-colors hover:bg-eh-gold-bright"
           >
-            Pitch a guest
-          </a>
-          <a
-            href={`mailto:${CONTACT_EMAIL}?subject=Media%20inquiry`}
-            className="inline-flex items-center rounded-full border border-eh-cream/40 px-6 py-2.5 text-sm font-semibold text-eh-cream transition-colors hover:border-eh-gold hover:text-eh-gold"
-          >
-            Media inquiries
+            Contact us — {CONTACT_EMAIL}
           </a>
         </div>
       </div>
@@ -478,29 +474,6 @@ function Section({
       <h2 className="mb-5 font-eh text-3xl text-brand-dark md:text-4xl">{title}</h2>
       {children}
     </section>
-  );
-}
-
-function ContactCard({
-  label,
-  subject,
-  description,
-}: {
-  label: string;
-  subject: string;
-  description: string;
-}) {
-  const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}`;
-  return (
-    <a
-      href={href}
-      className="group block rounded-xl border border-brand-dark/10 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-eh-orange hover:shadow-md"
-    >
-      <h3 className="text-base font-semibold text-brand-dark group-hover:text-eh-orange">
-        {label} →
-      </h3>
-      <p className="mt-2 text-sm text-brand-dark/80">{description}</p>
-    </a>
   );
 }
 
