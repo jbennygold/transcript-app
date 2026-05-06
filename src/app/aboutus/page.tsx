@@ -121,35 +121,73 @@ const HOSTS = [
   },
 ];
 
+const PRESS_ASSETS: { label: string; href: string; sub: string }[] = [
+  {
+    label: 'Show cover (square)',
+    href: '/aboutus/cover.jpg',
+    sub: 'Official artwork · 1500 × 1500 JPG',
+  },
+  {
+    label: 'Wordmark — gold',
+    href: '/aboutus/wordmark-gold.png',
+    sub: 'Transparent PNG · for dark backgrounds',
+  },
+  {
+    label: 'Wordmark — white',
+    href: '/aboutus/wordmark-white-transparent.png',
+    sub: 'Transparent PNG · for dark backgrounds',
+  },
+  {
+    label: 'Wordmark — black',
+    href: '/aboutus/wordmark-black.png',
+    sub: 'Transparent PNG · for light backgrounds',
+  },
+  {
+    label: 'Wordmark — grey',
+    href: '/aboutus/wordmark-grey.png',
+    sub: 'Transparent PNG · neutral lockup',
+  },
+  {
+    label: 'Banner (flat orange)',
+    href: '/aboutus/banner-flat.jpg',
+    sub: 'Twitter / X header · 1500 × 500 JPG',
+  },
+];
+
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-brand-plum-lighter text-brand-dark">
-      <div className="mx-auto max-w-5xl px-6 py-12 md:py-20">
-        <nav className="mb-10 flex items-center justify-between text-sm">
-          <Link
-            href="/"
-            className="text-brand-plum-muted hover:text-brand-plum transition-colors"
-          >
-            ← Escape Hatch Search
-          </Link>
-          <a
-            href={`mailto:${CONTACT_EMAIL}`}
-            className="text-brand-plum-muted hover:text-brand-plum transition-colors"
-          >
-            {CONTACT_EMAIL}
-          </a>
-        </nav>
+    <main className="min-h-screen bg-eh-cream text-brand-dark">
+      {/* Dark hero — full-bleed */}
+      <div className="bg-brand-dark text-eh-cream">
+        <div className="mx-auto max-w-5xl px-6 pt-8 pb-16 md:pt-10 md:pb-24">
+          <nav className="mb-12 flex items-center justify-between text-sm">
+            <Link
+              href="/"
+              className="text-eh-cream/70 hover:text-eh-gold transition-colors"
+            >
+              ← Escape Hatch Search
+            </Link>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="text-eh-cream/70 hover:text-eh-gold transition-colors"
+            >
+              {CONTACT_EMAIL}
+            </a>
+          </nav>
 
-        <Hero />
+          <Hero />
+        </div>
+      </div>
 
+      <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
         <Stats />
 
         <Section title="What is Escape Hatch?">
           <p className="text-lg leading-relaxed">
-            <strong className="font-semibold text-brand-plum">Escape Hatch</strong> is a
+            <strong className="font-semibold text-brand-dark">Escape Hatch</strong> is a
             weekly film podcast hosted by{' '}
-            <strong className="font-semibold text-brand-plum">Jason</strong> and{' '}
-            <strong className="font-semibold text-brand-plum">Haitch</strong>, built around
+            <strong className="font-semibold text-brand-dark">Jason</strong> and{' '}
+            <strong className="font-semibold text-brand-dark">Haitch</strong>, built around
             the rewatch. Each week, Jason and Haitch sit down with a rotating guest to
             revisit a single film — sometimes a marquee classic, sometimes a cult oddity,
             often something the culture has misjudged — and pick it apart with equal parts
@@ -176,15 +214,15 @@ export default function AboutPage() {
             kind of listeners who&rsquo;ll text you a 700-word reaction to a single
             line of dialogue.
           </p>
-          <div className="mt-6 rounded-xl border border-brand-plum-muted/30 bg-white p-6">
-            <p className="text-sm uppercase tracking-wider text-brand-plum-muted">
+          <div className="mt-6 rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm">
+            <p className="text-xs uppercase tracking-[0.2em] text-eh-orange">
               Community
             </p>
-            <p className="mt-2 text-lg">
+            <p className="mt-2 text-lg leading-relaxed">
               The most engaged listeners gather in the{' '}
               <a
                 href={DISCORD_URL}
-                className="text-brand-plum underline decoration-brand-plum-muted/50 underline-offset-4 hover:decoration-brand-plum"
+                className="font-semibold text-eh-orange underline decoration-eh-orange/40 underline-offset-4 hover:decoration-eh-orange"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -202,26 +240,28 @@ export default function AboutPage() {
             {HOSTS.map((h) => (
               <article
                 key={h.name}
-                className="rounded-xl border border-brand-plum-muted/30 bg-white p-6"
+                className="rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm"
               >
                 <div className="flex items-start gap-4">
                   <div
                     aria-hidden
-                    className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-brand-plum text-2xl font-semibold text-brand-plum-lighter"
+                    className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-brand-dark font-eh text-3xl text-eh-gold"
                     title="Headshot placeholder"
                   >
                     {h.initials}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-brand-plum">{h.name}</h3>
-                    <p className="text-sm text-brand-plum-muted">{h.role}</p>
+                    <h3 className="font-eh text-2xl text-brand-dark">{h.name}</h3>
+                    <p className="text-sm uppercase tracking-wider text-brand-dark/50">
+                      {h.role}
+                    </p>
                   </div>
                 </div>
                 <p className="mt-4 text-base leading-relaxed">{h.bio}</p>
               </article>
             ))}
           </div>
-          <p className="mt-4 text-xs text-brand-plum-muted">
+          <p className="mt-4 text-xs text-brand-dark/60">
             High-resolution host photography available on request — email{' '}
             <a
               href={`mailto:${CONTACT_EMAIL}?subject=Press%20Kit%20Assets`}
@@ -241,13 +281,15 @@ export default function AboutPage() {
               return (
                 <article
                   key={g.name}
-                  className="rounded-xl border border-brand-plum-muted/30 bg-white p-6"
+                  className="rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm"
                 >
-                  <h3 className="text-xl font-semibold text-brand-plum">{g.name}</h3>
-                  <p className="mt-1 text-sm text-brand-plum-muted">{g.credit}</p>
+                  <h3 className="font-eh text-2xl text-brand-dark">{g.name}</h3>
+                  <p className="mt-1 text-sm uppercase tracking-wider text-eh-orange">
+                    {g.credit}
+                  </p>
                   <p className="mt-3 text-base leading-relaxed">{g.blurb}</p>
-                  <p className="mt-4 text-sm">
-                    <span className="font-semibold">{eps.length}</span>{' '}
+                  <p className="mt-4 text-sm text-brand-dark/80">
+                    <span className="font-semibold text-brand-dark">{eps.length}</span>{' '}
                     {eps.length === 1 ? 'appearance' : 'appearances'}
                     {marqueeFilms.length > 0 && (
                       <>
@@ -271,37 +313,37 @@ export default function AboutPage() {
                 href={ep.showLink || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block rounded-xl border border-brand-plum-muted/30 bg-white p-5 transition-colors hover:border-brand-plum"
+                className="group block rounded-xl border border-brand-dark/10 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-eh-orange hover:shadow-md"
               >
-                <p className="text-xs uppercase tracking-wider text-brand-plum-muted">
+                <p className="text-xs uppercase tracking-[0.2em] text-eh-orange">
                   Episode {String(ep.episode)} · {ep.releaseDate}
                 </p>
-                <h3 className="mt-2 text-lg font-semibold text-brand-plum group-hover:underline">
+                <h3 className="mt-2 font-eh text-xl leading-tight text-brand-dark">
                   {ep.film}
                 </h3>
                 {ep.guest && (
-                  <p className="mt-1 text-sm text-brand-dark">
+                  <p className="mt-2 text-sm text-brand-dark">
                     with <span className="font-medium">{ep.guest}</span>
                   </p>
                 )}
                 {ep.directors && ep.directors.length > 0 && (
-                  <p className="mt-2 text-xs text-brand-plum-muted">
+                  <p className="mt-2 text-xs text-brand-dark/60">
                     dir. {ep.directors.join(', ')}
                   </p>
                 )}
               </a>
             ))}
           </div>
-          <p className="mt-4 text-sm text-brand-plum-muted">
+          <p className="mt-4 text-sm text-brand-dark/60">
             The full back catalog of {totalEpisodes} episodes is searchable at{' '}
-            <Link href="/" className="underline">
+            <Link href="/" className="underline hover:text-eh-orange">
               search.escapehatchpod.com
             </Link>
             .
           </p>
         </Section>
 
-        <Section title="Press & Booking">
+        <Section title="Press &amp; Booking">
           <div className="grid gap-4 md:grid-cols-3">
             <ContactCard
               label="Pitch a guest"
@@ -320,39 +362,17 @@ export default function AboutPage() {
             />
           </div>
 
-          <div className="mt-8 rounded-xl border border-brand-plum-muted/30 bg-white p-6">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-brand-plum">
-              Press kit
-            </h3>
-            <ul className="mt-3 space-y-2 text-sm">
-              <li>
-                <span className="font-medium">Show logo:</span>{' '}
-                <a href="/logo.jpg" className="underline" target="_blank" rel="noreferrer">
-                  /logo.jpg
-                </a>
-              </li>
-              <li className="text-brand-plum-muted">
-                Host headshots, one-sheet PDF, and additional artwork: email{' '}
-                <a
-                  href={`mailto:${CONTACT_EMAIL}?subject=Press%20Kit%20Assets`}
-                  className="underline"
-                >
-                  {CONTACT_EMAIL}
-                </a>
-                .
-              </li>
-            </ul>
-          </div>
+          <PressKit />
 
           <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm">
-            <span className="text-brand-plum-muted">Follow {SOCIAL_HANDLE}:</span>
+            <span className="text-brand-dark/60">Follow {SOCIAL_HANDLE}:</span>
             {SOCIALS.map((s) => (
               <a
                 key={s.label}
                 href={s.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-brand-plum underline decoration-brand-plum-muted/50 underline-offset-4 hover:decoration-brand-plum"
+                className="text-brand-dark underline decoration-brand-dark/30 underline-offset-4 hover:text-eh-orange hover:decoration-eh-orange"
               >
                 {s.label}
               </a>
@@ -360,10 +380,10 @@ export default function AboutPage() {
           </div>
         </Section>
 
-        <footer className="mt-16 border-t border-brand-plum-muted/30 pt-6 text-sm text-brand-plum-muted">
+        <footer className="mt-16 border-t border-brand-dark/15 pt-6 text-sm text-brand-dark/60">
           <p>
             Escape Hatch Podcast · {SOCIAL_HANDLE} ·{' '}
-            <a href={`mailto:${CONTACT_EMAIL}`} className="underline">
+            <a href={`mailto:${CONTACT_EMAIL}`} className="underline hover:text-eh-orange">
               {CONTACT_EMAIL}
             </a>
           </p>
@@ -375,36 +395,46 @@ export default function AboutPage() {
 
 function Hero() {
   return (
-    <header className="mb-16 flex flex-col items-start gap-6 md:flex-row md:items-center">
-      <img
-        src="/logo.jpg"
-        alt="Escape Hatch Podcast logo"
-        className="h-28 w-28 rounded-2xl shadow-md md:h-32 md:w-32"
-      />
+    <header className="grid items-center gap-10 md:grid-cols-[1.1fr_1fr]">
       <div>
-        <p className="text-sm uppercase tracking-[0.2em] text-brand-plum-muted">
+        <p className="mb-5 text-xs uppercase tracking-[0.3em] text-eh-gold">
           Press kit · About
         </p>
-        <h1 className="mt-2 text-4xl font-bold text-brand-plum md:text-5xl">
-          Escape Hatch
-        </h1>
-        <p className="mt-3 max-w-2xl text-lg text-brand-dark md:text-xl">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/aboutus/wordmark-gold.png"
+          alt="Escape Hatch"
+          className="h-auto w-full max-w-md"
+        />
+        <p className="mt-6 max-w-xl text-lg leading-relaxed text-eh-cream/90 md:text-xl">
           A long-running rewatch podcast hosted by Jason and Haitch.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3">
+        <p className="mt-3 max-w-xl text-base leading-relaxed text-eh-cream/70">
+          Your portal into cinematic pocket universes — every week, a single
+          film, picked apart by the hosts and a rotating guest.
+        </p>
+        <div className="mt-7 flex flex-wrap gap-3">
           <a
             href={`mailto:${CONTACT_EMAIL}?subject=Guest%20pitch`}
-            className="inline-flex items-center rounded-full bg-brand-plum px-5 py-2 text-sm font-medium text-brand-plum-lighter transition-colors hover:bg-brand-plum-light"
+            className="inline-flex items-center rounded-full bg-eh-gold px-6 py-2.5 text-sm font-semibold text-brand-dark transition-colors hover:bg-eh-gold-bright"
           >
             Pitch a guest
           </a>
           <a
             href={`mailto:${CONTACT_EMAIL}?subject=Media%20inquiry`}
-            className="inline-flex items-center rounded-full border border-brand-plum px-5 py-2 text-sm font-medium text-brand-plum transition-colors hover:bg-white"
+            className="inline-flex items-center rounded-full border border-eh-cream/40 px-6 py-2.5 text-sm font-semibold text-eh-cream transition-colors hover:border-eh-gold hover:text-eh-gold"
           >
             Media inquiries
           </a>
         </div>
+      </div>
+      <div className="relative">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/aboutus/cover.jpg"
+          alt="Escape Hatch Podcast cover art — a porthole opening into a cosmic landscape"
+          className="aspect-square w-full rounded-2xl shadow-2xl shadow-black/40"
+        />
       </div>
     </header>
   );
@@ -418,15 +448,16 @@ function Stats() {
     { label: 'Directors covered', value: `${totalDirectors}+` },
     {
       label: 'Films span',
-      value: oldestFilmYear && newestFilmYear ? `${oldestFilmYear}–${newestFilmYear}` : '—',
+      value:
+        oldestFilmYear && newestFilmYear ? `${oldestFilmYear}–${newestFilmYear}` : '—',
     },
   ];
   return (
-    <section className="mb-16 grid grid-cols-2 gap-4 rounded-2xl border border-brand-plum-muted/30 bg-white p-6 md:grid-cols-5">
+    <section className="mb-16 grid grid-cols-2 gap-4 rounded-2xl border border-brand-dark/10 bg-white p-6 shadow-sm md:grid-cols-5">
       {items.map((s) => (
         <div key={s.label} className="text-center">
-          <p className="text-3xl font-bold text-brand-plum md:text-4xl">{s.value}</p>
-          <p className="mt-1 text-xs uppercase tracking-wider text-brand-plum-muted">
+          <p className="font-eh text-3xl text-eh-orange md:text-4xl">{s.value}</p>
+          <p className="mt-1 text-xs uppercase tracking-wider text-brand-dark/60">
             {s.label}
           </p>
         </div>
@@ -444,7 +475,7 @@ function Section({
 }) {
   return (
     <section className="mb-14">
-      <h2 className="mb-5 text-2xl font-bold text-brand-plum md:text-3xl">{title}</h2>
+      <h2 className="mb-5 font-eh text-3xl text-brand-dark md:text-4xl">{title}</h2>
       {children}
     </section>
   );
@@ -463,12 +494,50 @@ function ContactCard({
   return (
     <a
       href={href}
-      className="group block rounded-xl border border-brand-plum-muted/30 bg-white p-5 transition-colors hover:border-brand-plum"
+      className="group block rounded-xl border border-brand-dark/10 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-eh-orange hover:shadow-md"
     >
-      <h3 className="text-base font-semibold text-brand-plum group-hover:underline">
+      <h3 className="text-base font-semibold text-brand-dark group-hover:text-eh-orange">
         {label} →
       </h3>
-      <p className="mt-2 text-sm text-brand-dark">{description}</p>
+      <p className="mt-2 text-sm text-brand-dark/80">{description}</p>
     </a>
+  );
+}
+
+function PressKit() {
+  return (
+    <div className="mt-8 rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm">
+      <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-eh-orange">
+        Press kit · downloads
+      </h3>
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+        {PRESS_ASSETS.map((a) => (
+          <li key={a.href}>
+            <a
+              href={a.href}
+              target="_blank"
+              rel="noreferrer"
+              download
+              className="group block rounded-lg border border-brand-dark/10 bg-eh-cream/40 px-4 py-3 transition-colors hover:border-eh-orange hover:bg-eh-cream"
+            >
+              <p className="text-sm font-semibold text-brand-dark group-hover:text-eh-orange">
+                {a.label} ↓
+              </p>
+              <p className="mt-0.5 text-xs text-brand-dark/60">{a.sub}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-4 text-xs text-brand-dark/60">
+        Host headshots and one-sheet PDF: email{' '}
+        <a
+          href={`mailto:${CONTACT_EMAIL}?subject=Press%20Kit%20Assets`}
+          className="underline hover:text-eh-orange"
+        >
+          {CONTACT_EMAIL}
+        </a>
+        .
+      </p>
+    </div>
   );
 }
