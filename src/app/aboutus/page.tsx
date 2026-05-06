@@ -110,6 +110,16 @@ function displayFilm(film: string): string {
   return film.replace(/^Best of Escape Hatch:\s*/i, '');
 }
 
+const GUEST_DISPLAY_OVERRIDES: Record<string, string> = {
+  'Sarah McBride': 'Rep. Sarah McBride',
+};
+function displayGuest(guest: string | null | undefined): string {
+  if (!guest) return '';
+  return GUEST_DISPLAY_OVERRIDES[guest] ?? guest;
+}
+
+const SPOTIFY_SHOW_URL = 'https://open.spotify.com/show/6qd41W3ueh2NLdKu9Xwt5G';
+
 const HOSTS = [
   {
     name: 'Jason',
@@ -325,7 +335,7 @@ export default function AboutPage() {
                 </h3>
                 {ep.guest && (
                   <p className="mt-2 text-sm text-brand-dark">
-                    with <span className="font-medium">{ep.guest}</span>
+                    with <span className="font-medium">{displayGuest(ep.guest)}</span>
                   </p>
                 )}
                 {ep.directors && ep.directors.length > 0 && (
@@ -426,12 +436,20 @@ function Hero() {
         </div>
       </div>
       <div className="relative">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/aboutus/cover.jpg"
-          alt="Escape Hatch Podcast cover art: a porthole opening into a cosmic landscape"
-          className="aspect-square w-full rounded-2xl shadow-2xl shadow-black/40"
-        />
+        <a
+          href={SPOTIFY_SHOW_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Listen to Escape Hatch on Spotify"
+          className="block transition-transform hover:scale-[1.01]"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/aboutus/cover.jpg"
+            alt="Escape Hatch Podcast cover art: a porthole opening into a cosmic landscape"
+            className="aspect-square w-full rounded-2xl shadow-2xl shadow-black/40"
+          />
+        </a>
       </div>
     </header>
   );
