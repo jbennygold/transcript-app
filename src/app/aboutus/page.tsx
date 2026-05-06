@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     'Press kit and show information for Escape Hatch — your portal into cinematic pocket universes. For prospective guests, PR teams, and media inquiries.',
 };
 
-const CONTACT_EMAIL = 'letters@escapehatchpod.com';
+const CONTACT_EMAIL = 'hello@escapehatchpod.com';
 const DISCORD_URL = 'https://discord.gg/escapehatch';
 const SOCIAL_HANDLE = '@escapehatchpod';
 
