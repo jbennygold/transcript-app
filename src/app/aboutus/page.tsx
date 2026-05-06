@@ -4,9 +4,9 @@ import { episodeMetadata } from '@/lib/metadata-data';
 import type { EpisodeMetadata } from '@/types/episode-metadata';
 
 export const metadata: Metadata = {
-  title: 'About — Escape Hatch Podcast',
+  title: 'About · Escape Hatch Podcast',
   description:
-    'Press kit and show information for Escape Hatch — your portal into cinematic pocket universes. For prospective guests, PR teams, and media inquiries.',
+    'Press kit and show information for Escape Hatch. Your portal into cinematic pocket universes. For prospective guests, PR teams, and media inquiries.',
 };
 
 const CONTACT_EMAIL = 'hello@escapehatchpod.com';
@@ -79,7 +79,7 @@ const FEATURED_GUESTS: FeaturedGuest[] = [
     name: 'Ryan Condal',
     credit: 'Co-creator & showrunner, House of the Dragon',
     blurb:
-      'Frequent guest known for genre and action picks — Aliens, Predator, the Terminator films, Mad Max: Fury Road.',
+      'Frequent guest known for genre and action picks: Aliens, Predator, the Terminator films, Mad Max: Fury Road.',
   },
   {
     name: 'Dave Mandel',
@@ -91,13 +91,13 @@ const FEATURED_GUESTS: FeaturedGuest[] = [
     name: 'Rosie Knight',
     credit: 'Co-host, X-Ray Vision; critic at IGN',
     blurb:
-      'A pop-culture polymath — anchors recurring deep dives on horror, sci-fi, and the romantic-cinematic margins (Twilight, Constantine, Panic Room).',
+      'Critic and podcaster who anchors deep dives on horror, sci-fi, and the romantic-cinematic margins (Twilight, Constantine, Panic Room).',
   },
   {
     name: 'Ben Rhodes',
     credit: 'Former Deputy National Security Advisor; co-host, Pod Save the World',
     blurb:
-      'The show’s spy-thriller specialist — Hunt for Red October, Tinker Tailor Soldier Spy, Three Days of the Condor, Argo, Casablanca.',
+      'The show’s spy-thriller specialist: Hunt for Red October, Tinker Tailor Soldier Spy, Three Days of the Condor, Argo, Casablanca.',
   },
 ];
 
@@ -111,7 +111,7 @@ const HOSTS = [
     name: 'Jason',
     role: 'Co-host',
     initials: 'J',
-    bio: 'Former executive at Blogger, Google, and Twitter, and Chief Digital Officer of the Obama White House. Brings a tech-and-policy lens to the rewatch — equally at ease talking spycraft, founder myth-making, and the political subtext of a Fincher third act.',
+    bio: 'Former executive at Blogger, Google, and Twitter, and Chief Digital Officer of the Obama White House. Brings a tech-and-policy lens to the rewatch, with a particular soft spot for spycraft, founder myth-making, and the political subtext of a Fincher third act.',
   },
   {
     name: 'Haitch',
@@ -128,22 +128,22 @@ const PRESS_ASSETS: { label: string; href: string; sub: string }[] = [
     sub: 'Official artwork · 1500 × 1500 JPG',
   },
   {
-    label: 'Wordmark — gold',
+    label: 'Wordmark · gold',
     href: '/aboutus/wordmark-gold.png',
     sub: 'Transparent PNG · for dark backgrounds',
   },
   {
-    label: 'Wordmark — white',
+    label: 'Wordmark · white',
     href: '/aboutus/wordmark-white-transparent.png',
     sub: 'Transparent PNG · for dark backgrounds',
   },
   {
-    label: 'Wordmark — black',
+    label: 'Wordmark · black',
     href: '/aboutus/wordmark-black.png',
     sub: 'Transparent PNG · for light backgrounds',
   },
   {
-    label: 'Wordmark — grey',
+    label: 'Wordmark · grey',
     href: '/aboutus/wordmark-grey.png',
     sub: 'Transparent PNG · neutral lockup',
   },
@@ -157,7 +157,7 @@ const PRESS_ASSETS: { label: string; href: string; sub: string }[] = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-eh-cream text-brand-dark">
-      {/* Dark hero — full-bleed */}
+      {/* Dark hero, full-bleed */}
       <div className="bg-brand-dark text-eh-cream">
         <div className="mx-auto max-w-5xl px-6 pt-8 pb-16 md:pt-10 md:pb-24">
           <nav className="mb-12 flex items-center justify-between text-sm">
@@ -189,30 +189,30 @@ export default function AboutPage() {
             <strong className="font-semibold text-brand-dark">Jason</strong> and{' '}
             <strong className="font-semibold text-brand-dark">Haitch</strong>, built around
             the rewatch. Each week, Jason and Haitch sit down with a rotating guest to
-            revisit a single film — sometimes a marquee classic, sometimes a cult oddity,
-            often something the culture has misjudged — and pick it apart with equal parts
-            cinephile rigor and Silicon Valley curiosity.
+            revisit a single film: sometimes a marquee classic, sometimes a cult oddity,
+            often something the culture has misjudged. They pick it apart with cinephile
+            rigor and a Silicon Valley curiosity about how and why things work.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
             What started as a Dune-only pod has grown into a {yearsRunning}-year-running,{' '}
             {totalEpisodes}-episode catalog spanning{' '}
             {oldestFilmYear || 'pre-war classics'} to today, with films from{' '}
             {totalDirectors}+ directors and {totalGuests}+ guests from film, television,
-            comics, journalism, politics, and tech. The conversations are long, generous,
-            and full of running gags — Kev&rsquo;s Question, the Tildas, Haitch&rsquo;s
-            notes on craft, Jason&rsquo;s tangents into systems and power. Every episode
-            is a portal into a single cinematic pocket universe.
+            comics, journalism, politics, and tech. The conversations are long and full of
+            running gags: Kev&rsquo;s Question, the Tildas, Haitch&rsquo;s notes on craft,
+            Jason&rsquo;s tangents into systems and power. Every episode is a portal into
+            a single cinematic pocket universe.
           </p>
         </Section>
 
         <Section title="Who Listens?">
           <p className="text-lg leading-relaxed">
-            Escape Hatch&rsquo;s audience is a particular kind of cinephile — film nerds
+            Escape Hatch&rsquo;s audience is a particular kind of cinephile: film nerds
             who care about craft and history, tech-industry veterans who came for the
             hosts and stayed for the criticism, journalists, screenwriters, founders,
-            and a pleasingly large contingent of the AI-curious. They&rsquo;re the
-            kind of listeners who&rsquo;ll text you a 700-word reaction to a single
-            line of dialogue.
+            and a healthy contingent of the AI-curious. They&rsquo;re the kind of
+            listeners who&rsquo;ll text you a 700-word reaction to a single line of
+            dialogue.
           </p>
           <div className="mt-6 rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm">
             <p className="text-xs uppercase tracking-[0.2em] text-eh-orange">
@@ -227,10 +227,9 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
               >
                 Escape Hatch Discord
-              </a>{' '}
-              — a vibrant, decade-deep community where weekly episode threads run
-              parallel to the show, and where many recurring bits and Letters
-              originate.
+              </a>
+              , a vibrant, decade-deep community. Weekly episode threads run alongside
+              the show, and many recurring bits and Letters started there.
             </p>
           </div>
         </Section>
@@ -262,7 +261,7 @@ export default function AboutPage() {
             ))}
           </div>
           <p className="mt-4 text-xs text-brand-dark/60">
-            High-resolution host photography available on request — email{' '}
+            High-resolution host photography available on request. Email{' '}
             <a
               href={`mailto:${CONTACT_EMAIL}?subject=Press%20Kit%20Assets`}
               className="underline"
@@ -293,7 +292,7 @@ export default function AboutPage() {
                     {eps.length === 1 ? 'appearance' : 'appearances'}
                     {marqueeFilms.length > 0 && (
                       <>
-                        {' '}— including{' '}
+                        , including{' '}
                         <span className="italic">{marqueeFilms.join(', ')}</span>
                       </>
                     )}
@@ -346,8 +345,8 @@ export default function AboutPage() {
         <Section title="Get in touch">
           <div className="rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm md:p-8">
             <p className="text-lg leading-relaxed text-brand-dark">
-              Guest pitches, host bookings, media inquiries, listener letters —
-              whatever it is, send it to us at{' '}
+              Guest pitches, host bookings, media inquiries, listener letters.
+              Whatever it is, send it to us at{' '}
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
                 className="font-semibold text-eh-orange underline decoration-eh-orange/40 underline-offset-4 hover:decoration-eh-orange"
@@ -412,15 +411,14 @@ function Hero() {
           A long-running rewatch podcast hosted by Jason and Haitch.
         </p>
         <p className="mt-3 max-w-xl text-base leading-relaxed text-eh-cream/70">
-          Your portal into cinematic pocket universes — every week, a single
-          film, picked apart by the hosts and a rotating guest.
+          Your portal into cinematic pocket universes.
         </p>
         <div className="mt-7">
           <a
             href={`mailto:${CONTACT_EMAIL}`}
             className="inline-flex items-center rounded-full bg-eh-gold px-6 py-2.5 text-sm font-semibold text-brand-dark transition-colors hover:bg-eh-gold-bright"
           >
-            Contact us — {CONTACT_EMAIL}
+            Contact us · {CONTACT_EMAIL}
           </a>
         </div>
       </div>
@@ -428,7 +426,7 @@ function Hero() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/aboutus/cover.jpg"
-          alt="Escape Hatch Podcast cover art — a porthole opening into a cosmic landscape"
+          alt="Escape Hatch Podcast cover art: a porthole opening into a cosmic landscape"
           className="aspect-square w-full rounded-2xl shadow-2xl shadow-black/40"
         />
       </div>
@@ -445,7 +443,7 @@ function Stats() {
     {
       label: 'Films span',
       value:
-        oldestFilmYear && newestFilmYear ? `${oldestFilmYear}–${newestFilmYear}` : '—',
+        oldestFilmYear && newestFilmYear ? `${oldestFilmYear}–${newestFilmYear}` : 'n/a',
     },
   ];
   return (
