@@ -408,10 +408,10 @@ function Hero() {
           className="h-auto w-full max-w-md"
         />
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-eh-cream/90 md:text-xl">
-          A long-running rewatch podcast hosted by Jason and Haitch.
+          Your portal into cinematic pocket universes.
         </p>
         <p className="mt-3 max-w-xl text-base leading-relaxed text-eh-cream/70">
-          Your portal into cinematic pocket universes.
+          A long running GenX dad movie podcast.
         </p>
         <div className="mt-7">
           <a
