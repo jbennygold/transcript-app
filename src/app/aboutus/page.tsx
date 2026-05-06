@@ -101,10 +101,14 @@ const FEATURED_GUESTS: FeaturedGuest[] = [
   },
 ];
 
-const NOTABLE_EPISODE_NUMBERS = [293, 299, 226, 189, 159, 267];
+const NOTABLE_EPISODE_NUMBERS = [228, 277, 299, 189, 159, 267];
 const notableEpisodes = NOTABLE_EPISODE_NUMBERS.map((num) =>
   ehEpisodes.find((ep) => Number(ep.episode) === num),
 ).filter((ep): ep is EpisodeMetadata => ep !== undefined);
+
+function displayFilm(film: string): string {
+  return film.replace(/^Best of Escape Hatch:\s*/i, '');
+}
 
 const HOSTS = [
   {
@@ -194,8 +198,8 @@ export default function AboutPage() {
             rigor and curiosity about how and why things work.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            What started as a pod focused on Dune has grown into a {yearsRunning}-year-running,{' '}
-            {totalEpisodes}-episode catalog spanning{' '}
+            What started as a pod focused on Dune has grown into a {yearsRunning}-year-running
+            catalog of 300+ episodes spanning{' '}
             {oldestFilmYear || 'pre-war classics'} to today, with films from{' '}
             {totalDirectors}+ directors and {totalGuests}+ guests from film, television,
             comics, journalism, politics, and tech. The conversations are long and full of
@@ -210,8 +214,8 @@ export default function AboutPage() {
             Escape Hatch&rsquo;s audience is a particular kind of culture lover: film
             nerds who care about craft and history, tech-industry veterans who came for
             the hosts and stayed for the criticism, journalists, screenwriters, and
-            founders. They&rsquo;re the kind of listeners who&rsquo;ll text you a
-            700-word reaction to a single line of dialogue.
+            founders. They&rsquo;re the kind of listeners who will record weekly song
+            parodies based on the movie of the week.
           </p>
           <div className="mt-6 rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm">
             <p className="text-xs uppercase tracking-[0.2em] text-eh-orange">
@@ -275,7 +279,7 @@ export default function AboutPage() {
           <div className="grid gap-6 md:grid-cols-2">
             {FEATURED_GUESTS.map((g) => {
               const eps = episodesByGuest(g.name);
-              const marqueeFilms = eps.slice(0, 3).map((ep) => ep.film);
+              const marqueeFilms = eps.slice(0, 3).map((ep) => displayFilm(ep.film));
               return (
                 <article
                   key={g.name}
@@ -317,7 +321,7 @@ export default function AboutPage() {
                   Episode {String(ep.episode)} · {ep.releaseDate}
                 </p>
                 <h3 className="mt-2 font-eh text-xl leading-tight text-brand-dark">
-                  {ep.film}
+                  {displayFilm(ep.film)}
                 </h3>
                 {ep.guest && (
                   <p className="mt-2 text-sm text-brand-dark">
@@ -333,7 +337,7 @@ export default function AboutPage() {
             ))}
           </div>
           <p className="mt-4 text-sm text-brand-dark/60">
-            The full back catalog of {totalEpisodes} episodes is searchable at{' '}
+            The full back catalog of 300+ episodes is searchable at{' '}
             <Link href="/" className="underline hover:text-eh-orange">
               search.escapehatchpod.com
             </Link>
@@ -435,7 +439,7 @@ function Hero() {
 
 function Stats() {
   const items: { label: string; value: string }[] = [
-    { label: 'Episodes', value: `${totalEpisodes}+` },
+    { label: 'Episodes', value: '300+' },
     { label: 'Years running', value: `${yearsRunning}` },
     { label: 'Unique guests', value: `${totalGuests}+` },
     { label: 'Directors covered', value: `${totalDirectors}+` },
