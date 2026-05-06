@@ -108,13 +108,13 @@ const notableEpisodes = NOTABLE_EPISODE_NUMBERS.map((num) =>
 
 const HOSTS = [
   {
-    name: 'Jason Goldman',
+    name: 'Jason',
     role: 'Co-host',
-    initials: 'JG',
+    initials: 'J',
     bio: 'Former executive at Blogger, Google, and Twitter, and Chief Digital Officer of the Obama White House. Brings a tech-and-policy lens to the rewatch — equally at ease talking spycraft, founder myth-making, and the political subtext of a Fincher third act.',
   },
   {
-    name: 'Matt "H" Haitch',
+    name: 'Haitch',
     role: 'Co-host',
     initials: 'H',
     bio: 'The show’s in-house cinephile and resident historian. Catalogs the canon (and the apocrypha), runs the Letters segment, and reliably finds the structural beat or production-design detail nobody else clocked. Opens every episode with the words you already know by heart.',
@@ -148,12 +148,12 @@ export default function AboutPage() {
           <p className="text-lg leading-relaxed">
             <strong className="font-semibold text-brand-plum">Escape Hatch</strong> is a
             weekly film podcast hosted by{' '}
-            <strong className="font-semibold text-brand-plum">Jason Goldman</strong> and{' '}
-            <strong className="font-semibold text-brand-plum">Matt &ldquo;H&rdquo; Haitch</strong>,
-            built around the rewatch. Each week, Jason and H sit down with a rotating
-            guest to revisit a single film — sometimes a marquee classic, sometimes
-            a cult oddity, often something the culture has misjudged — and pick it
-            apart with equal parts cinephile rigor and Silicon Valley curiosity.
+            <strong className="font-semibold text-brand-plum">Jason</strong> and{' '}
+            <strong className="font-semibold text-brand-plum">Haitch</strong>, built around
+            the rewatch. Each week, Jason and Haitch sit down with a rotating guest to
+            revisit a single film — sometimes a marquee classic, sometimes a cult oddity,
+            often something the culture has misjudged — and pick it apart with equal parts
+            cinephile rigor and Silicon Valley curiosity.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
             What started as a Dune-only pod has grown into a {yearsRunning}-year-running,{' '}
@@ -161,9 +161,9 @@ export default function AboutPage() {
             {oldestFilmYear || 'pre-war classics'} to today, with films from{' '}
             {totalDirectors}+ directors and {totalGuests}+ guests from film, television,
             comics, journalism, politics, and tech. The conversations are long, generous,
-            and full of running gags — Kev&rsquo;s Question, the Tildas, H&rsquo;s notes on
-            craft, Jason&rsquo;s tangents into systems and power. Every episode is a
-            portal into a single cinematic pocket universe.
+            and full of running gags — Kev&rsquo;s Question, the Tildas, Haitch&rsquo;s
+            notes on craft, Jason&rsquo;s tangents into systems and power. Every episode
+            is a portal into a single cinematic pocket universe.
           </p>
         </Section>
 
@@ -311,7 +311,7 @@ export default function AboutPage() {
             <ContactCard
               label="Book the hosts"
               subject="Host booking"
-              description="Jason and H are available for podcast guest spots, panel moderation, and live appearances."
+              description="Jason and Haitch are available for podcast guest spots, panel moderation, and live appearances."
             />
             <ContactCard
               label="Media inquiries"
@@ -389,8 +389,7 @@ function Hero() {
           Escape Hatch
         </h1>
         <p className="mt-3 max-w-2xl text-lg text-brand-dark md:text-xl">
-          Your portal into cinematic pocket universes — a long-running rewatch
-          podcast hosted by Jason Goldman and Matt &ldquo;H&rdquo; Haitch.
+          A long-running rewatch podcast hosted by Jason and Haitch.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
           <a
