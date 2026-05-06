@@ -191,10 +191,10 @@ export default function AboutPage() {
             the rewatch. Each week, Jason and Haitch sit down with a rotating guest to
             revisit a single film: sometimes a marquee classic, sometimes a cult oddity,
             often something the culture has misjudged. They pick it apart with cinephile
-            rigor and a Silicon Valley curiosity about how and why things work.
+            rigor and curiosity about how and why things work.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            What started as a Dune-only pod has grown into a {yearsRunning}-year-running,{' '}
+            What started as a pod focused on Dune has grown into a {yearsRunning}-year-running,{' '}
             {totalEpisodes}-episode catalog spanning{' '}
             {oldestFilmYear || 'pre-war classics'} to today, with films from{' '}
             {totalDirectors}+ directors and {totalGuests}+ guests from film, television,
@@ -207,12 +207,11 @@ export default function AboutPage() {
 
         <Section title="Who Listens?">
           <p className="text-lg leading-relaxed">
-            Escape Hatch&rsquo;s audience is a particular kind of cinephile: film nerds
-            who care about craft and history, tech-industry veterans who came for the
-            hosts and stayed for the criticism, journalists, screenwriters, founders,
-            and a healthy contingent of the AI-curious. They&rsquo;re the kind of
-            listeners who&rsquo;ll text you a 700-word reaction to a single line of
-            dialogue.
+            Escape Hatch&rsquo;s audience is a particular kind of culture lover: film
+            nerds who care about craft and history, tech-industry veterans who came for
+            the hosts and stayed for the criticism, journalists, screenwriters, and
+            founders. They&rsquo;re the kind of listeners who&rsquo;ll text you a
+            700-word reaction to a single line of dialogue.
           </p>
           <div className="mt-6 rounded-xl border border-brand-dark/10 bg-white p-6 shadow-sm">
             <p className="text-xs uppercase tracking-[0.2em] text-eh-orange">
@@ -228,8 +227,8 @@ export default function AboutPage() {
               >
                 Escape Hatch Discord
               </a>
-              , a vibrant, decade-deep community. Weekly episode threads run alongside
-              the show, and many recurring bits and Letters started there.
+              , a vibrant community. Weekly episode threads run alongside the show, and
+              many recurring bits and Letters started there.
             </p>
           </div>
         </Section>
