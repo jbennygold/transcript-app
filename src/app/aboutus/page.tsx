@@ -165,12 +165,12 @@ export default function AboutPage() {
       <div className="bg-brand-dark text-eh-cream">
         <div className="mx-auto max-w-5xl px-6 pt-8 pb-16 md:pt-10 md:pb-24">
           <nav className="mb-12 flex items-center justify-between text-sm">
-            <Link
-              href="/"
+            <a
+              href="https://escapehatchpod.com"
               className="text-eh-cream/70 hover:text-eh-gold transition-colors"
             >
-              ← Escape Hatch Search
-            </Link>
+              ← escapehatchpod.com
+            </a>
             <a
               href={`mailto:${CONTACT_EMAIL}`}
               className="text-eh-cream/70 hover:text-eh-gold transition-colors"
