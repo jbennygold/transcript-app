@@ -130,7 +130,7 @@ const HOSTS = [
     name: 'Haitch',
     role: 'Co-host',
     initials: 'H',
-    bio: 'The show’s in-house cinephile and resident historian. Catalogs the canon (and the apocrypha), runs the Letters segment, and reliably finds the structural beat or production-design detail nobody else clocked. Opens every episode with the words you already know by heart.',
+    bio: 'Matt Herrero is a freelance podcast producer and editor. He is also the co-host of the film review podcast Escape Hatch. Previously, Matt spent two decades as a product and technology leader at companies including Amazon Music, Dell, and Symantec, delivering complex software products at scale. He’s based in the San Francisco Bay Area.',
   },
 ];
 
