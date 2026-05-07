@@ -49,12 +49,8 @@ function parseReleaseDate(s: string): Date | null {
   if (!m) return null;
   return new Date(Number(m[3]), Number(m[1]) - 1, Number(m[2]));
 }
-const releaseDates = ehEpisodes
-  .map((ep) => parseReleaseDate(ep.releaseDate ?? ''))
-  .filter((d): d is Date => d !== null)
-  .sort((a, b) => a.getTime() - b.getTime());
-const firstYear = releaseDates.length ? releaseDates[0].getFullYear() : 0;
-const yearsRunning = firstYear ? new Date().getFullYear() - firstYear : 0;
+
+const YEARS_RUNNING = 6;
 
 function episodesByGuest(name: string): EpisodeMetadata[] {
   const needle = name.toLowerCase();
@@ -207,7 +203,7 @@ export default function AboutPage() {
             rigor and curiosity about how and why things work.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            What started as a pod focused on Dune has grown into a {yearsRunning}-year-running
+            What started as a pod focused on Dune has grown into a {YEARS_RUNNING}-year-running
             catalog of 300+ episodes spanning{' '}
             {oldestFilmYear || 'pre-war classics'} to today, with films from{' '}
             {totalDirectors}+ directors and {totalGuests}+ guests from film, television,
@@ -457,7 +453,7 @@ function Hero() {
 function Stats() {
   const items: { label: string; value: string }[] = [
     { label: 'Episodes', value: '300+' },
-    { label: 'Years running', value: `${yearsRunning}` },
+    { label: 'Years running', value: `${YEARS_RUNNING}` },
     { label: 'Unique guests', value: `${totalGuests}+` },
     { label: 'Directors covered', value: `${totalDirectors}+` },
   ];
