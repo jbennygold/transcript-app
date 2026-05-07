@@ -124,7 +124,7 @@ const HOSTS = [
     name: 'Jason',
     role: 'Co-host',
     initials: 'J',
-    bio: 'Former executive at Blogger, Google, and Twitter, and Chief Digital Officer of the Obama White House. Brings a tech-and-policy lens to the rewatch, with a particular soft spot for spycraft, founder myth-making, and the political subtext of a Fincher third act.',
+    bio: 'Jason Goldman is a former executive at Blogger, Google, and Twitter, and former Chief Digital Officer of the Obama White House. He is also the co-host of the film review podcast Escape Hatch. He brings a tech-and-policy lens to the rewatch, with a particular soft spot for spycraft, founder myth-making, and the political subtext of a Fincher third act.',
   },
   {
     name: 'Haitch',
