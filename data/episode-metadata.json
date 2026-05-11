@@ -15110,7 +15110,33 @@
     "showLink": "https://www.patreon.com/posts/prestige-2006-157010175",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1777581844637-d6d0cc5d5dad8.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-prestige/",
-    "imdbLink": "https://www.imdb.com/title/tt0482571/"
+    "imdbLink": "https://www.imdb.com/title/tt0482571/",
+    "tmdbId": 1124,
+    "tmdbPosterPath": "/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cinematographers": [
+      "Wally Pfister"
+    ],
+    "cast": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine",
+      "Piper Perabo",
+      "Rebecca Hall",
+      "Scarlett Johansson",
+      "Samantha Mahurin",
+      "David Bowie"
+    ],
+    "composers": [
+      "David Julyan"
+    ]
   },
   {
     "pod": "EH",
@@ -15135,6 +15161,32 @@
     "showLink": "https://www.patreon.com/posts/last-starfighter-157725240",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/the-last-starfighter/",
-    "imdbLink": "https://www.imdb.com/title/tt0087597/"
+    "imdbLink": "https://www.imdb.com/title/tt0087597/",
+    "tmdbId": 11884,
+    "tmdbPosterPath": "/A7oAHTjtYnIEQjJs62IONRufooq.jpg",
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Action"
+    ],
+    "directors": [
+      "Nick Castle"
+    ],
+    "cinematographers": [
+      "King Baggot"
+    ],
+    "cast": [
+      "Lance Guest",
+      "Robert Preston",
+      "Chris Hebert",
+      "Kay E. Kuter",
+      "Dan Mason",
+      "Dan O'Herlihy",
+      "Catherine Mary Stewart",
+      "Barbara Bosson"
+    ],
+    "composers": [
+      "Craig Safan"
+    ]
   }
 ]
