@@ -20,6 +20,13 @@ import * as dotenv from 'dotenv';
 import { google, drive_v3 } from 'googleapis';
 import { loadEpisodeMetadata } from '../src/lib/metadata-store';
 import { type EpisodeId } from '../src/lib/episode-format';
+import {
+  fetchPodcastFeed,
+  findItemByFilm,
+  downloadEnclosureToFile,
+  getFeedUrl,
+  type PodcastFeedItem,
+} from '../src/lib/podcast-feed';
 
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });
@@ -551,7 +558,61 @@ async function main() {
     }
   }
 
-  console.log(`\nComplete: ${downloaded} downloaded, ${skipped} skipped, ${errors} errors.`);
+  // RSS fallback: any episode in the input list that still has no local MP3
+  // gets a chance to be served from the podcast's public RSS feed (Anchor.fm).
+  // Match strategy is title-based since the feed's <title> equals the metadata
+  // `film` field verbatim.
+  const stillMissing = missingEpisodes.filter(
+    ep => !fs.existsSync(path.join(MP3_DIR, `${ep.episode}.mp3`)),
+  );
+  let rssDownloaded = 0;
+  let rssNotFound = 0;
+  let rssErrors = 0;
+
+  if (stillMissing.length > 0) {
+    console.log(
+      `\nDrive could not serve ${stillMissing.length} episode(s); trying RSS fallback (${getFeedUrl()})...`,
+    );
+    let feed: PodcastFeedItem[] | null = null;
+    try {
+      feed = await fetchPodcastFeed();
+      console.log(`  Loaded ${feed.length} item(s) from feed.`);
+    } catch (err) {
+      console.error(`  ERROR: could not fetch RSS feed - ${err}`);
+    }
+
+    if (feed) {
+      for (const ep of stillMissing) {
+        const item = findItemByFilm(feed, ep.film);
+        if (!item) {
+          console.log(`  MISS: E${ep.episode} - no RSS item matched "${ep.film}"`);
+          rssNotFound++;
+          continue;
+        }
+        const destPath = path.join(MP3_DIR, `${ep.episode}.mp3`);
+        try {
+          console.log(`  Downloading E${ep.episode} from RSS: ${item.title}`);
+          await downloadEnclosureToFile(item.enclosureUrl, destPath);
+          console.log(`    → Saved to ${destPath} (source: rss)`);
+          rssDownloaded++;
+          errors--; // un-count: Drive had logged this as an error earlier
+        } catch (err) {
+          console.error(`  ERROR: E${ep.episode} (rss) - ${err}`);
+          rssErrors++;
+        }
+      }
+    } else {
+      rssErrors = stillMissing.length;
+    }
+  }
+
+  const totalDownloaded = downloaded + rssDownloaded;
+  console.log(
+    `\nComplete: ${totalDownloaded} downloaded (${downloaded} drive, ${rssDownloaded} rss), ` +
+      `${skipped} skipped, ${Math.max(0, errors) + rssErrors} errors` +
+      (rssNotFound > 0 ? `, ${rssNotFound} not found in either source` : '') +
+      '.',
+  );
 }
 
 main().catch(err => {

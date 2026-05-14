@@ -2,7 +2,7 @@
 
 AI-powered semantic search across 300+ podcast episode transcripts.
 
-**[Live app →](https://transcript-app-blue.vercel.app)**
+**[Live app →](https://search.escapehatchpod.com)** · **[About / press kit](https://search.escapehatchpod.com/aboutus)**
 
 ## What it does
 
@@ -65,6 +65,8 @@ The app will be available at `http://localhost:3000`.
 | `ASSEMBLYAI_API_KEY` | No | AssemblyAI — only needed to transcribe new episodes |
 | `TMDB_API_KEY` | No | TMDB — only needed to enrich episode metadata with film/director info |
 | `RESEND_API_KEY` | No | Resend — only needed for email notifications |
+| `GOOGLE_SERVICE_ACCOUNT_KEY_FILE` | No | Path to a service-account JSON; used by the metadata sync and Drive audio download |
+| `PODCAST_RSS_URL` | No | Overrides the default Anchor.fm feed URL used as the audio-download fallback |
 
 ## Scripts reference
 
@@ -84,8 +86,8 @@ The app will be available at `http://localhost:3000`.
 | `npm run transcribe` | Transcribe a single audio file |
 | `npm run batch-transcribe` | Batch-transcribe multiple audio files |
 | `npm run enrich-tmdb` | Enrich episode metadata via TMDB |
-| `npm run sync-metadata` | Sync episode metadata |
-| `npm run download-audio` | Download audio from Google Drive |
+| `npm run sync-metadata` | Sync episode metadata from the Google Sheet (PDC) |
+| `npm run download-audio` | Download episode MP3s. Tries Google Drive first; falls back to the public RSS feed for any episode Drive can't serve |
 
 ## Project structure
 
@@ -93,7 +95,12 @@ The app will be available at `http://localhost:3000`.
 src/
   app/            # Next.js App Router — pages and API routes
     api/          #   search, share, feedback, transcribe, coverage, etc.
+    aboutus/      #   Press kit / about page
+    analytics/    #   Internal analytics views
     coverage/     #   Coverage analytics page
+    docs/         #   In-app documentation
+    eval/         #   Search evaluation pages
+    podreview/    #   Podcast review page
     review/       #   Transcript review/editing pages
     share/        #   Shared search result pages
   components/     # React components (AudioPlayer, TranscriptEditor, etc.)
@@ -107,11 +114,27 @@ src/
     claude.ts             # Claude integration for synthesis
     embeddings.ts         # OpenAI embedding generation
     metadata-store.ts     # Episode metadata access
+    blob-storage.ts       # Vercel Blob read/write for transcripts and audio
+    podcast-feed.ts       # RSS feed fetcher used as a fallback audio source
   types/          # TypeScript type definitions
 scripts/          # CLI tooling — ingest, transcribe, regression, perf, etc.
 transcripts/      # Raw transcript files
 data/             # Episode metadata and search data
 ```
+
+## Audio sources
+
+Per-episode MP3s are needed only for transcription, not at runtime. The
+download script resolves them in this order:
+
+1. **Google Drive** — the historical primary, used for older episodes and
+   pre-release uploads from the production team.
+2. **Public RSS feed** (Anchor.fm) — fallback when an episode isn't in Drive.
+   Matched by film title; the feed's `<title>` mirrors the metadata `film`
+   field verbatim. Override the feed URL with `PODCAST_RSS_URL` if needed.
+
+Each downloaded file is tagged with its source (`drive` or `rss`) in the
+script's report, so you can see at a glance how each episode was served.
 
 ## Discord bot
 
