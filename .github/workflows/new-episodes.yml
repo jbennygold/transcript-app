@@ -53,6 +53,9 @@ jobs:
 
       # Commit metadata + any new transcripts downloaded from Blob
       - name: Commit metadata and transcript changes
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY_JSON }}
+          GOOGLE_SERVICE_ACCOUNT_KEY_FILE: /tmp/gcp-sa-key.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -60,14 +63,61 @@ jobs:
           git add transcripts/episode_*.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore(metadata): sync sheet metadata"
-            # Transcription can run 60+ min; another push may have landed during
-            # that window. Rebase onto the latest master before pushing.
-            git pull --rebase origin master
-            git push origin HEAD:master
-            echo "CHANGES_COMMITTED=true" >> "$GITHUB_ENV"
+            exit 0
           fi
+          git commit -m "chore(metadata): sync sheet metadata"
+
+          # Transcription can run 60+ min; another push may have landed during
+          # that window. Try a fast-path rebase first.
+          if git pull --rebase origin master && git push origin HEAD:master; then
+            echo "Pushed via fast-path rebase."
+            echo "CHANGES_COMMITTED=true" >> "$GITHUB_ENV"
+            exit 0
+          fi
+
+          # Recovery path: rebase failed. Almost always because a parallel
+          # sync run rewrote the auto-generated src/lib/metadata-data.ts and
+          # the auto-merger can't reconcile the two writes. We save the
+          # transcripts we just downloaded (those can't be regenerated),
+          # reset to remote, restore them, then regenerate the auto-generated
+          # metadata on top of the fresh master and push as a new commit.
+          echo "Fast-path push failed; recovering from rebase conflict..."
+          git rebase --abort 2>/dev/null || true
+
+          mkdir -p /tmp/rescue-transcripts
+          cp -a transcripts/episode_*.json /tmp/rescue-transcripts/ 2>/dev/null || true
+
+          git fetch origin master
+          git reset --hard origin/master
+
+          for f in /tmp/rescue-transcripts/episode_*.json; do
+            [ -e "$f" ] || continue
+            base=$(basename "$f")
+            if [ ! -f "transcripts/$base" ]; then
+              cp "$f" "transcripts/$base"
+              echo "Restored $base from rescue."
+            fi
+          done
+
+          # The previous step's shim writes the service account key to
+          # /tmp/gcp-sa-key.json; recreate it here if it's gone.
+          if [ ! -f /tmp/gcp-sa-key.json ] && [ -n "$GOOGLE_SERVICE_ACCOUNT_KEY_JSON" ]; then
+            printf '%s' "$GOOGLE_SERVICE_ACCOUNT_KEY_JSON" > /tmp/gcp-sa-key.json
+            chmod 600 /tmp/gcp-sa-key.json
+          fi
+
+          node --import tsx ./scripts/sync-metadata.ts
+          node --import tsx ./scripts/sync-legacy-metadata-json.ts
+
+          git add src/lib/metadata-data.ts data/episode-metadata.json
+          git add transcripts/episode_*.json
+          if git diff --cached --quiet; then
+            echo "Recovery: nothing left to commit (remote already had everything)."
+            exit 0
+          fi
+          git commit -m "chore(metadata): sync sheet metadata (post-conflict recovery)"
+          git push origin HEAD:master
+          echo "CHANGES_COMMITTED=true" >> "$GITHUB_ENV"
 
       # Deploy so the build picks up the new metadata + the updated search
       # index that was just uploaded to Blob.
