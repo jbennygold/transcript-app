@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 317 episodes - updated 2026-05-14
+// Auto-generated - do not edit - 318 episodes - updated 2026-05-15
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15161,7 +15161,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": "Beta - and play it like they were still twins",
     "tildaCorey": "Centauri",
     "showLink": "https://www.patreon.com/posts/last-starfighter-157725240",
-    "artworkLink": "",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1778254215480-9d843d004da18.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-last-starfighter/",
     "imdbLink": "https://www.imdb.com/title/tt0087597/",
     "tmdbId": 11884,
@@ -15190,5 +15190,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Craig Safan"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 307,
+    "film": "Batman & Robin (1997)",
+    "filmYear": 1997,
+    "releaseDate": "5/14/2026",
+    "length": "2:08:22",
+    "reviewer": "birria",
+    "guest": "Rosie Knight",
+    "mmmCount": 33,
+    "thatsGreatCount": 12,
+    "notableMoments": "Episode starts with Euphoria talk which leads to interesting conversation about sex work\n- Summer of Jason continues as Jason is advocating for the People with this film\n- Phenomenal episode because Rosie and the Discord love this film, and Haitch hates fun\n- Foundational movie for Rosie (saw it at 9 and loved it), Haitch was put off (27 year old), Jason was in College (19 years old and didn't understand it)\n- Rubber Butts, Cod-piece, Nipples opening - Shows you exactly how Camp this movie is going to be. (in dialog with Batman '66) Schumacher, as an Out and Gay director in Hollywood, turns the gaze onto the men. \n- Haitch - Dialog is hot garbage. Every line is played for a laugh. Rosie says this one makes the best of a bad situation if you enjoy Camp, and if you don't hate fun. \n- Discussion of wild cinematography and lighting that you just don't see in other movies. Rosie labels it Bisexual Lighting (pinks and blues)\n- Haitch - The Font looks like shit! The Toys destroyed the look of the film. Jason and Rosie go off on him. \n- Rosie's primary take - This is a great movie for Kids. If you look at it through a larger critical lens out of that context, you're kidding yourself.  Rosie is a great champion of this particular campy flavor of Batman.  \"You can have both! There's enough for everyone\"\n- Letters - Bog Pod, Lizzen, Animal Mother, Mr Java (Seal - Kiss from a Rose parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What were the comic books you read as a Kid?",
+    "tildaH": "Freeze",
+    "tildaJason": "Bane",
+    "tildaGuest": "Batman",
+    "tildaCorey": "Gossip Gerty",
+    "showLink": "https://www.patreon.com/posts/batman-robin-158243574",
+    "artworkLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/batman-robin/",
+    "imdbLink": "https://www.imdb.com/title/tt0118688/"
   }
 ];
