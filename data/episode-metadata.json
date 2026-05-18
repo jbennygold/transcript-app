@@ -15212,6 +15212,32 @@
     "showLink": "https://www.patreon.com/posts/batman-robin-158243574",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/batman-robin/",
-    "imdbLink": "https://www.imdb.com/title/tt0118688/"
+    "imdbLink": "https://www.imdb.com/title/tt0118688/",
+    "tmdbId": 415,
+    "tmdbPosterPath": "/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Joel Schumacher"
+    ],
+    "cinematographers": [
+      "Stephen Goldblatt"
+    ],
+    "cast": [
+      "George Clooney",
+      "Chris O'Donnell",
+      "Arnold Schwarzenegger",
+      "Uma Thurman",
+      "Alicia Silverstone",
+      "Michael Gough",
+      "Pat Hingle",
+      "Elle Macpherson"
+    ],
+    "composers": [
+      "Elliot Goldenthal"
+    ]
   }
 ]
