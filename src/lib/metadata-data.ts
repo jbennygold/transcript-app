@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 318 episodes - updated 2026-05-22
+// Auto-generated - do not edit - 319 episodes - updated 2026-05-23
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15212,7 +15212,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": "Batman",
     "tildaCorey": "Gossip Gerty",
     "showLink": "https://www.patreon.com/posts/batman-robin-158243574",
-    "artworkLink": "",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1778764174690-d09d33efd49e8.jpg",
     "letterboxdLink": "https://letterboxd.com/film/batman-robin/",
     "imdbLink": "https://www.imdb.com/title/tt0118688/",
     "tmdbId": 415,
@@ -15241,5 +15241,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Elliot Goldenthal"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 308,
+    "film": "Almost Famous (2000)",
+    "filmYear": 2000,
+    "releaseDate": "5/24/2026",
+    "length": "1:45:25",
+    "reviewer": "birria",
+    "guest": "Yohannes Abraham",
+    "mmmCount": 49,
+    "thatsGreatCount": 7,
+    "notableMoments": "The Summer of Jason continues\n- Jason talks about his launch of the Center for Shared AI Prosperity (CSAIP)\n- The Music - Jason hates this era of music. Haitch and Yo both agree that late 60s to mid 70s Rock and R&B will never be touched. \n- Jason brings up his pet theory again - \"An era can often be defined by the pathology of its most popular narcotic\"\n- Francis McDormand as the Mom in this is an interesting 3-dimensional person. Great performance. \"It's not too late for you to become a person of Substance, Russell\"\n- Kate Hudson as Penny Lane - Haitch: \"Instantly iconic in this role.\"\n- Discussion of how some sexualization of teens in this movie (and many from pre-2000 cinema) are tough in a more modern light\n- Tiny Dancer scene - Crowe calls it the \"Soul of the movie\" and it works\n- Letters - Mr Java, Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What would an Escape Hatch magazine look like?",
+    "tildaH": "William (by a young Tilda)",
+    "tildaJason": "The Francis McDormand part",
+    "tildaGuest": "The British manager",
+    "tildaCorey": "Lester Bangs, or the other stewardess",
+    "showLink": "https://www.patreon.com/posts/almost-famous-158956498",
+    "artworkLink": "",
+    "letterboxdLink": "https://letterboxd.com/film/almost-famous/",
+    "imdbLink": "https://www.imdb.com/title/tt0181875/"
   }
 ];
