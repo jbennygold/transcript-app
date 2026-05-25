@@ -15263,6 +15263,31 @@
     "showLink": "https://www.patreon.com/posts/almost-famous-158956498",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/almost-famous/",
-    "imdbLink": "https://www.imdb.com/title/tt0181875/"
+    "imdbLink": "https://www.imdb.com/title/tt0181875/",
+    "tmdbId": 786,
+    "tmdbPosterPath": "/3rrkyLYbgLj84AYvjhdcJot4JPx.jpg",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "directors": [
+      "Cameron Crowe"
+    ],
+    "cinematographers": [
+      "John Toll"
+    ],
+    "cast": [
+      "Billy Crudup",
+      "Frances McDormand",
+      "Kate Hudson",
+      "Jason Lee",
+      "Patrick Fugit",
+      "Zooey Deschanel",
+      "Michael Angarano",
+      "Anna Paquin"
+    ],
+    "composers": [
+      "Nancy Wilson"
+    ]
   }
 ]
