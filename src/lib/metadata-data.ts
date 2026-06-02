@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 319 episodes - updated 2026-06-01
+// Auto-generated - do not edit - 320 episodes - updated 2026-06-02
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15263,7 +15263,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": "The British manager",
     "tildaCorey": "Lester Bangs, or the other stewardess",
     "showLink": "https://www.patreon.com/posts/almost-famous-158956498",
-    "artworkLink": "",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1779463160534-0112ef719cf7f.jpg",
     "letterboxdLink": "https://letterboxd.com/film/almost-famous/",
     "imdbLink": "https://www.imdb.com/title/tt0181875/",
     "tmdbId": 786,
@@ -15291,5 +15291,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Nancy Wilson"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 309,
+    "film": "Eyes Wide Shut (1999)",
+    "filmYear": 1999,
+    "releaseDate": "5/28/2026",
+    "length": "1:52:56",
+    "reviewer": "birria",
+    "guest": "Soman Chainani",
+    "mmmCount": 51,
+    "thatsGreatCount": 15,
+    "notableMoments": "Opens with talk about Soman's new novel Young World and School for Good and Evil (about trying to correct how Disney perverted the moral lessons of fairy tales)\n- Soman talks about how the cynicism of teenagers has drastically changed, compounded with anxiety and depression. Jason proposes that the kids may reject technology and modernity. Soman message to kids - you are going to lose to the Phone, You have to put yourself in charge. \n- Summer of Jason continues with Jason's favorite Director Kubrick\n- Mandalorian and Grogu - \"A new Star Wars movie has come out, and it's not very good, and we have to talk about it.\" The segment goes on for a while. \n- Soman has a long history with this film - The form is really like a bedtime story for Children, but re-framed in adult sexy-times\n- Jason loves talking about Kubrick - specifically about how Kubrick is a vampire that sucks up everything from his collaborators\n- Great discussion of how Kubrick put Tom and Nicole through hell during the making. The film ended up being a primary cause of the end of their marriage. They have no heat in the film, and discussion of whether that was Tom and Nicole, or did Stanley foster all of this?\n- Soman talks about the Scientology representative who was on set during this film\n- Letters - Animal Mother, Mr Java (Return of the Mac parody), Truthsayer, Kev, Corey",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What would be the tenants of a creepy Escape Hatch cult?",
+    "tildaH": "Leelee Sobieski's Dad",
+    "tildaJason": "Red Cloak at the Orgy",
+    "tildaGuest": "Leelee Sobieski's role",
+    "tildaCorey": "Red Cloak Guy at the Orgy",
+    "showLink": "https://www.patreon.com/posts/eyes-wide-shut-159483705",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1779987893412-9760c7f28aa9f.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/eyes-wide-shut/",
+    "imdbLink": "https://www.imdb.com/title/tt0120663/"
   }
 ];
