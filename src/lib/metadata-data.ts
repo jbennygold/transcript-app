@@ -15315,6 +15315,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/posts/eyes-wide-shut-159483705",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1779987893412-9760c7f28aa9f.jpg",
     "letterboxdLink": "https://letterboxd.com/film/eyes-wide-shut/",
-    "imdbLink": "https://www.imdb.com/title/tt0120663/"
+    "imdbLink": "https://www.imdb.com/title/tt0120663/",
+    "tmdbId": 345,
+    "tmdbPosterPath": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cinematographers": [
+      "Larry Smith"
+    ],
+    "cast": [
+      "Tom Cruise",
+      "Nicole Kidman",
+      "Sydney Pollack",
+      "Marie Richardson",
+      "Rade Šerbedžija",
+      "Todd Field",
+      "Vinessa Shaw",
+      "Alan Cumming"
+    ],
+    "composers": [
+      "Jocelyn Pook"
+    ]
   }
 ];
