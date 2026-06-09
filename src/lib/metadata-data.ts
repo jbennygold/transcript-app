@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 320 episodes - updated 2026-06-08
+// Auto-generated - do not edit - 321 episodes - updated 2026-06-09
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15342,5 +15342,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Jocelyn Pook"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 310,
+    "film": "The Secret of NIMH (1982)",
+    "filmYear": 1982,
+    "releaseDate": "6/5/2026",
+    "length": "2:06:39",
+    "reviewer": "birria",
+    "guest": "Paul Dini",
+    "mmmCount": 42,
+    "thatsGreatCount": 11,
+    "notableMoments": "Summer of Jason continues\n- Paul has great insight into what it takes to create an iconic rendering of a classic superhero in Batman the Animated Series, and what it was like in the Animation heyday. He Man, Lucas Film and Star Wars, Tiny Tunes, Animaniacs, Harley Quinn, etc.\n- Paul has a lot to say about the current state of Star Wars\n- Secret if Nimh - Good discussion of Don Bluth moving from Disney to make this movie. \n- This is a formative film for Jason \n- Fusion of Lighting, Animation, tech and score (Paul Williams) are groundbreaking in this movie\n- Letters - Silly Oswald (he was a NIMH Lab Rat, for real), Animal Mother, Mr Java (Danger Zone parody), Truthsayer, Kev, Corey\n",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "What were some of the science experiments you did in School?",
+    "tildaH": "N/A",
+    "tildaJason": "The Owl or Nicodemus",
+    "tildaGuest": "The Owl",
+    "tildaCorey": null,
+    "showLink": "https://www.patreon.com/posts/secret-of-nimh-160253569",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1780676556290-92eb1d0dae9ee.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/the-secret-of-nimh/",
+    "imdbLink": "https://www.imdb.com/title/tt0084649/"
   }
 ];
