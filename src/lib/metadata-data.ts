@@ -15366,7 +15366,35 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/posts/secret-of-nimh-160253569",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1780676556290-92eb1d0dae9ee.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-secret-of-nimh/",
-    "imdbLink": "https://www.imdb.com/title/tt0084649/"
+    "imdbLink": "https://www.imdb.com/title/tt0084649/",
+    "tmdbId": 11704,
+    "tmdbPosterPath": "/prNrnOKlkV9wl5Sl3zwHu1f3t2z.jpg",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Don Bluth"
+    ],
+    "cinematographers": [],
+    "cast": [
+      "Elizabeth Hartman",
+      "Derek Jacobi",
+      "Arthur Malet",
+      "Dom DeLuise",
+      "Hermione Baddeley",
+      "Shannen Doherty",
+      "Wil Wheaton",
+      "Jodi Hicks"
+    ],
+    "composers": [
+      "Jerry Goldsmith"
+    ]
   },
   {
     "pod": "EH",
@@ -15391,6 +15419,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/minority-report-160844972",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/minority-report/",
-    "imdbLink": "https://www.imdb.com/title/tt0181689/"
+    "imdbLink": "https://www.imdb.com/title/tt0181689/",
+    "tmdbId": 180,
+    "tmdbPosterPath": "/ccqpHq5tk5W4ymbSbuoy4uYOxFI.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "cinematographers": [
+      "Janusz Kamiński"
+    ],
+    "cast": [
+      "Tom Cruise",
+      "Colin Farrell",
+      "Samantha Morton",
+      "Max von Sydow",
+      "Lois Smith",
+      "Peter Stormare",
+      "Tim Blake Nelson",
+      "Steve Harris"
+    ],
+    "composers": [
+      "John Williams"
+    ]
   }
 ];
