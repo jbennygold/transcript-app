@@ -15468,6 +15468,33 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/fargo-1996-162020496",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/fargo/",
-    "imdbLink": "https://www.imdb.com/title/tt0116282/"
+    "imdbLink": "https://www.imdb.com/title/tt0116282/",
+    "tmdbId": 275,
+    "tmdbPosterPath": "/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Joel Coen",
+      "Ethan Coen"
+    ],
+    "cinematographers": [
+      "Roger Deakins"
+    ],
+    "cast": [
+      "Frances McDormand",
+      "William H. Macy",
+      "Steve Buscemi",
+      "Peter Stormare",
+      "Harve Presnell",
+      "John Carroll Lynch",
+      "Kristin Rudrüd",
+      "Bruce Bohne"
+    ],
+    "composers": [
+      "Carter Burwell"
+    ]
   }
 ]
