@@ -42,7 +42,10 @@ export const QUICK_SYNTHESIS = {
   maxTokens: 700,
 } as const;
 
-export const DEEP_SYNTHESIS_MODEL = 'claude-sonnet-4-20250514';
+// claude-sonnet-4-20250514 was retired (Anthropic API returns 404 "model not
+// found"), which broke agent search and any deep/followup synthesis that hits
+// this constant directly. Pinned to the current Sonnet.
+export const DEEP_SYNTHESIS_MODEL = 'claude-sonnet-4-6';
 
 // Shared helper: convert episode metadata to source shape for API responses
 export function episodeToMetadataSource(episode: EpisodeMetadata): MetadataSource {
@@ -106,7 +109,7 @@ export function shouldUseQuickSynthesis(
 
 // ─── Agent Search Constants ────────────────────────────────────────────────
 
-export const AGENT_SEARCH_MODEL = 'claude-sonnet-4-20250514';
+export const AGENT_SEARCH_MODEL = 'claude-sonnet-4-6';
 export const AGENT_MAX_ITERATIONS = 10;
 export const AGENT_TIMEOUT_MS = 45_000;
 export const AGENT_MAX_TOOL_ERRORS = 3;
