@@ -46,6 +46,7 @@ async function loadAllTranscripts(): Promise<Map<number, Transcript>> {
 
   cacheLoadPromise = (async () => {
     const cache = new Map<number, Transcript>();
+    const loadStart = Date.now();
     try {
       const blobList = await listBlobTranscripts();
       const results = await Promise.all(
@@ -69,6 +70,7 @@ async function loadAllTranscripts(): Promise<Map<number, Transcript>> {
     } catch (err) {
       console.error('Failed to load transcripts from blob storage:', err);
     }
+    console.log(`[agent-search] loaded ${cache.size} transcripts in ${Date.now() - loadStart}ms`);
     transcriptCache = cache;
     return cache;
   })();
