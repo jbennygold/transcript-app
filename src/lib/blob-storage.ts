@@ -78,20 +78,19 @@ export async function loadTranscript(
 /**
  * Load a transcript directly from its blob URL (as returned by
  * listBlobTranscripts), skipping the per-episode `list()` lookup that
- * loadTranscript() does. Caches with an hourly revalidate so bulk loaders
- * (e.g. agent search, which pulls all ~300 transcripts on a cold start) hit
- * the Next data cache instead of re-downloading the full corpus every time.
+ * loadTranscript() does. For bulk loaders (e.g. agent search, which pulls all
+ * ~325 transcripts on a cold start) this avoids ~325 redundant list() API
+ * round-trips.
  *
- * Transcript blob URLs are stable (addRandomSuffix: false), so an edit
- * overwrites in place — cached readers may be up to the revalidate window
- * stale. Acceptable for search/grep; do NOT use where you need the freshest
- * copy (use loadTranscript() with no-store for that).
+ * Uses no-store to match loadTranscript()'s freshness — measurement showed the
+ * full-corpus load is ~1s either way, so caching bought no latency win and only
+ * risked stale grep results.
  */
 export async function loadTranscriptByUrl(
   url: string
 ): Promise<Transcript | null> {
   try {
-    const response = await fetch(url, { next: { revalidate: 3600 } });
+    const response = await fetch(url, { cache: 'no-store' });
     if (!response.ok) {
       return null;
     }
