@@ -1,0 +1,2001 @@
+{
+  "episode_number": 313,
+  "episode_name": "Eternal Sunshine of the Spotless Mind (2004)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:13",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason Goldman."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:28",
+      "text": "'Cause it's like I look like just a Silver Alert victim or something, like, just like lost. Be like, I've got to get to the grocery store."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:35",
+      "text": "And we're joined by romance storytellers Liz Ting."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:38",
+      "text": "When I think of Star Trek, I think of the, like, William Shatner, like, as viewed on, like, my grandmother's TV."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:45",
+      "text": "And Lucy Keating."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:47",
+      "text": "If I were to write it myself, I don't think I would be able to make that decision. Like, I don't think that would have necessarily come to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:53",
+      "text": "The summer of Jason continues with Michel Gondry's 2004 sci-fi romance Eternal Sunshine of the Spotless Spotless Mind. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcast, or just tell your friends about us, because it really does help new listeners find the show. Links are in the show notes. And now, without further ado, Eternal Sunshine of the Spotless Mind. Okay, first of all, I just want to ask the question. It occurred to me this morning I was getting ready for this podcast. Is romance in general just having a moment? Between, I'm thinking of like the rise of romanticy, which has been going on. We have like suddenly everybody's reading, uh, you know, fantasy novels that have lots of, uh, romance and, uh, you know, steamy elements of it. And then of course the last big sensation last year was Heated Rivalry. It just seems like suddenly, uh, romance and steamy romance is in the air. What is going on, Liz and Lucy? Tell us."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:58",
+      "text": "I want Lucy to take this one. She's the romance queen."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:03",
+      "text": "I do think you're seeing kind of mixed signals, and I think maybe it just depends on where you are in the industry. And for me, being so rooted in publishing right now, I am actually hearing for the first time in years that we might be seeing the small amount of cooling, particularly in the rom-com genre."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:25",
+      "text": "Um, but you're not the cooling rivalry. That's terrible. That's terrible. That's not what anyone wants."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:32",
+      "text": "Um, but you're still seeing like everything is getting optioned like wildfire. Like everything is, um, yeah, so that's good. That gives me hope. Um, I think like many things, romantic comedy in particular in the, in publishing got really oversaturated. And so in publishing But speaking of like book to film, I think that's still going pretty strong. And then I think it's really exciting when things like Heated Rivalry happen because it proves that, you know, these ideas and concepts can be evergreen. But also if you get like a fresh take on it, if you pair it with a great producer, then you might really surprise everyone, so that's cool. I do think romanticism is still getting a lot of book deals, but I do think that's cooling a bit too. I'm curious what Liz thinks about that. But yeah, I would say we're sort of like, romance has been growing, growing, growing for several years now, and maybe it's just that it's like, in big ways, book-to-film is reaching the screen more than it has."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:47",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:48",
+      "text": "I think that's right. I am responding too to the kind of cooling of romancy, but also seeing romance kind of pop up with other genre combos, like horror, for instance. I'm seeing, like, a lot of romance horror in the air, and sort of people saying that— sort of calling that out as a genre that they like, when I feel like 10 years ago, I wasn't hearing that combo at all. And I, um— when I was rewatching Eternal Sunshine, I watched Obsession the day before, and it was an interesting— interesting kind of juxtaposition. And, you know, there's a world where obsession is a romance, and I think romance can find its way into any genre. And so I think that's why it's such an interesting one to me, because it's so kind of like Proto and Mercurial, and even when you least expect it, it can pop in and it can be such a hook. Um, and, uh, and so yeah, the steamy side, the gory side, I think we're, we're sort of ready to like, uh, get up close and personal with, with romance in our culture. And, um, I hope that's a good thing. I think it's a good thing."
+    },
+    {
+      "name": "E",
+      "timestamp": "4:48",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:50",
+      "text": "Jason, you watched Heated Rivalry, didn't you?"
+    },
+    {
+      "name": "C",
+      "timestamp": "4:54",
+      "text": "I watched the podcast about Heated Rivalry, the one from the hockey bros that got in trouble. I like consumed that in like one afternoon. I thought that was amazing. I didn't watch Heated Rivalry, but I did watch Off Campus when I was playing WoW a couple weeks ago."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:08",
+      "text": "Which one is that?"
+    },
+    {
+      "name": "C",
+      "timestamp": "5:10",
+      "text": "Off Campus is like the straight Heated Rivalry, I guess. Is that like— I don't— it's a hockey romance show. Yes. Like, you know, I don't know, like, what is the origin of hockey as a locus for romance? Like, what is—"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:24",
+      "text": "I think it's really that, like, a lot of, um, how familiar are you with Wattpad? So, like, Wattpad is a place for— yeah, so where people can—"
+    },
+    {
+      "name": "C",
+      "timestamp": "5:35",
+      "text": "Archive of Our Own."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:37",
+      "text": "What?"
+    },
+    {
+      "name": "C",
+      "timestamp": "5:38",
+      "text": "Archive of Our Own."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:39",
+      "text": "Oh, I don't even know what that is. I don't know what that is."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:41",
+      "text": "That's a fan fiction site."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:44",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:44",
+      "text": "Okay, there's a lot of fans."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:47",
+      "text": "What is Wattpad?"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:47",
+      "text": "Wattpad is a place where writers go and write a lot of fan fiction, but then also like writers who are, you know, doing it more as a hobby, but then not as a hobby can go and just like create their stories and get them right up on the web and everyone can start digesting them and liking them and sharing them. Um, and a lot of, not a lot, but like a fair amount of romance titles have come from Wattpad. And I think Heated Rival— not Heated Rivalry, I think Off Campus. No, it didn't. But it's this sort of— you'd see this like popular genre on Wattpad, which is these are sort of like campus romances, which is like, right, something— yeah, something happening on a campus. It's usually like a nerdy girl who gets paired with like the campus, like the big man on campus, and like to be his tutor. And you just see that again and again and again and again."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:44",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:44",
+      "text": "And this is an example of that kind of story that did really well."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:50",
+      "text": "She takes her glasses off later and then suddenly— yeah, but is it getting more sophisticated than that? Like, is it—"
+    },
+    {
+      "name": "A",
+      "timestamp": "6:56",
+      "text": "there were some really— like, I, I watched it. I— things about it were like a little flat to me, but then also there was like the way that they handle like desire and sex, and it was— felt very— I won't say like forward-thinking, but it was certainly more nuanced than I've seen it portrayed um, historically and in stories like this. And I like that. I was watching it being like, okay, all right, cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:24",
+      "text": "Like, I like the way these, like, two hockey players are in the weight room talking about, like, there's, like, there's an elaborate conversation about, like, consent and, like, female pleasure between two bros, like, between sets, which is, you know, definitely the female gaze, uh, in action."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:42",
+      "text": "Um, they're looking good while they're doing that workout. Yeah, and having that—"
+    },
+    {
+      "name": "C",
+      "timestamp": "7:45",
+      "text": "you're looking good at talking about, like, the importance of, like, consent consent and like making your partner feel safe. Like, it was— it was exactly that."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:52",
+      "text": "That's like pro viral."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:54",
+      "text": "Yeah, you know, it's like there's only one thing. Yeah, it was like— yeah, I do like Heated Rival. I was just looking up, was like an archive of their own fanfic as a start. Um, and like people, uh, people did like sort of like think it sort of reads a little bit like a Harry-Draco fanfic, like, you know, because it's like two like sort of rivals."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:13",
+      "text": "Like, wait, what was the origin? What was the origin IP? Like the NHL or—"
+    },
+    {
+      "name": "C",
+      "timestamp": "8:18",
+      "text": "Yeah, I mean, that's like sort of— I don't know. I like, I haven't gone that deep into the, into the archive, but like, I am— I don't understand like hockey as like a specific— I was like, you know what's hot is like hockey because like to me, like, like hockey is like the grossest of all the sports because it smells incredibly bad. Like, I mean, like, I agree."
+    },
+    {
+      "name": "A",
+      "timestamp": "8:35",
+      "text": "I totally agree with you. It's very visceral."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:38",
+      "text": "They fight, they get up close and personal. Are they fighting to get that aggression out? Is it something coming from somewhere else? Wasn't there—"
+    },
+    {
+      "name": "B",
+      "timestamp": "8:44",
+      "text": "wasn't there a Tom Cruise movie with that, like All the Right Moves or whatever? Wasn't that a hot— wasn't there one where he played a hockey player in high school?"
+    },
+    {
+      "name": "D",
+      "timestamp": "8:51",
+      "text": "I thought that was like a dance, a dance movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:56",
+      "text": "I don't— yeah, anyway, I don't know, I just— I'm just trying to figure out kind of, uh, how that— how this has, has been happening and growing. It seems good to me. Like, there was a huge sensation in the, you know, around my wife's, you know, friend groups, uh, where suddenly everyone was reading On All Fours or whatever. And, um, just, just kind of— it just seems like there's much more of a formation structure now, um, for exploring more of these topics and kind of being open and, and having women feeling more free to do that, which seems like a very good thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:28",
+      "text": "Yeah, I think it kind of goes hand in hand with being like, you know what, I enjoyed this and that's enough, you know? Like, instead of having to be— I feel like that's become more accepted, to just be like, I liked it, instead of like, you know, what what, you know, boundaries did it break?"
+    },
+    {
+      "name": "D",
+      "timestamp": "9:46",
+      "text": "And like, was it—"
+    },
+    {
+      "name": "A",
+      "timestamp": "9:47",
+      "text": "did it make me think? And was it the first time anyone had ever done this? And instead people are like, what if it just made me feel good and that's enough?"
+    },
+    {
+      "name": "G",
+      "timestamp": "9:55",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "9:56",
+      "text": "And I do, as like sort of like a how does the internet shape society person, like, I do think like BookTok is an interesting phenomenon in this because it did create like sort of a permission structure to be like, oh, like these are the books that I got. And it just like created— and obviously there's like, you know, I'm sure podcasts and like, you know, YouTubes about that before, but I think it just like sort of because of the way that the TikTok algorithm works, it would just surface those things to people more frequently. And they'd be like, oh, okay, like there's actually a lot of people who are into this. And like, you know, there's a lot of people talking about the stuff they're into. And like, you know, and, you know, maybe that created like some sort of accelerant, um, for something that was, you know, obviously has always been a part of, um, has always been a part of culture. Um, but like kind of put some boost behind the engine there."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:41",
+      "text": "Yeah, I noticed that too with social media in general, with, um, like YA book publishing. I, I was at, uh, YA in at Penguin, uh, 10 years ago for about 5 years. And, um, you know, everyone for so many years was worried about like the big ebook disruption, like people are going to revert to that and not buy physical. And we were especially not seeing that that was true in the YA audience who really loved to sort of show off their collection on Instagram and take photos and just the physical object of it all. And so Instagram really became, um, this kind of like, uh, trophy case for, for these readers. Um, and now I think we are kind of seeing that evolve now that, that it's more, more permeated with everyday life. And, and certainly, you know, women are known as the novel readers, women are kind of known as the influencers. So it's cool to kind of see how that's all evolved in that direction."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:33",
+      "text": "It is interesting. So like books survived, like it looked like it wasn't going to happen and then it like literally did survive, right? Like, is it— say, is time enough that we can say it's it's safe."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:45",
+      "text": "We're not completely illiterate, but I mean, like, the read— like, the percentage of adults who've like read a full-length book is, uh, that, that chart doesn't look good."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:53",
+      "text": "Uh, I think, I think the bigger—"
+    },
+    {
+      "name": "C",
+      "timestamp": "11:54",
+      "text": "that's not a great chart."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:56",
+      "text": "The bigger disruptor is probably audio, um, versus e-reader. Um, but I think, you know, wherever we can get those stories in is, is fine by me."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:06",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:08",
+      "text": "I mean, I definitely have switched to reading almost exclusively via audiobook. Um, although I ran into a wall with that because I have so much podcast content to consume now that that's eating up my reading time. Although I have been obsessively— been obsessively consuming Maggie Haberman and Jonathan Swan's Regime Change, uh, which, you know, just like, baby, injected into my veins, uh, you know, all this Trump nastiness."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:31",
+      "text": "Have you— have you learned that Trump is not a good president?"
+    },
+    {
+      "name": "B",
+      "timestamp": "12:34",
+      "text": "No, he's bad."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:35",
+      "text": "Clarified— is that clarified anything?"
+    },
+    {
+      "name": "B",
+      "timestamp": "12:37",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:37",
+      "text": "Your opinion of the Trump the Trump presidency."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:40",
+      "text": "It's like, uh, you know, 3 minutes of hate or whatever. It's just like soaking in the awfulness. Um, you know, the most recent example of this I had was when I was doing a lot of running training for a half marathon, and I was listening to the Mueller report for 18 hours as I was running on trails around Marin."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:55",
+      "text": "That's just psychotic. There's a— that whole sentence should be banned by the government. He's training for a half marathon and listening to the Mueller report. You should be quitting."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:03",
+      "text": "Crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:04",
+      "text": "It was good times in 2019 or whatever, 2018. Anyways, uh, yeah, I love, I I love books, and I just— I just like— Sam is now my 8-year-old. You know, we were doing Percy Jackson, which was just awful, and now he is like fully reading Harry Potter on his own. He's mid-book 4 right now, and just buying books, going to the library and taking books out from the library, having that as a process, and just really getting into it, that has just been feeling really good. Like, I love it. Of it."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:38",
+      "text": "I'm going through that, um, with like— I, I have a 3-and-a-half-year-old, and what I'm witnessing is him starting to learn to tell his own stories. And that, as a storyteller, that's thrilling for me."
+    },
+    {
+      "name": "E",
+      "timestamp": "13:49",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:50",
+      "text": "Um, because I tell, you know, I tell him stories every night, and then he started— I'm watching him learn how to construct things. Mainly, you know, he takes ideas from other things, but then once in a while he'll throw like a cliffhanger in there that like blows my mind. Oh my God, like it's so good. So that's been a step beyond the reading piece, which has been wonderful and also like really meditative. You forget, like, I see book— I see reading as a form of self-care, truly, um, outside of like my work, because it helps sort of reset me. And then we get to do it when we get to do it with our kids too. It's like where we get to— you just sort of get those calm moments, which is really nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:33",
+      "text": "But yeah, yeah, that's really great. Yeah, we do— my wife invented this thing. I have a 5 and a 7-year-old, and she invented this thing called voice stories, where it's like, you know, it's like you want like the, um, you're done reading books, you want to turn the lights off, but the kids like don't want to go to bed. And so you just like kind of invent a story, um, as you go along. And like the— and like my daughter is like, is a very kind of participatory audience. She'd be like, no, like the princess is blue, like not pink, you know, whatever. And it's just like has like very definite ideas of what the plot beats should be. It's very fun. It's a very fun kind of interactive storytelling technique. I am not as good at it, and so like I end up just telling them Star Wars stories and like with like sort of, you know, embellishments. I'm like, you know, once was a Jedi, it's like his name, and they're like, okay, we've heard this one. I'm like, yeah, Dad, yeah, we're continuing."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:23",
+      "text": "They say, they say great artists steal, they don't borrow. Yeah, exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:26",
+      "text": "It's like history, it rhymes."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:27",
+      "text": "Yeah, yeah, there you go. Exactly, exactly."
+    },
+    {
+      "name": "G",
+      "timestamp": "15:30",
+      "text": "Well, we are really thrilled to have you joining us on the podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:35",
+      "text": "I met you guys through Brian Schneider, who is a mutual friend and has a Magic: The Gathering podcast, and you guys were talking to him and, and he connected us. And it's just, it's great to meet you guys, great to have you on here. We're happy to have this if this is your first published podcast on Sunday when, when this episode drops. But we put it out there for what you guys would want to choose, and you very quickly chose Michel Gondry's 2004 sci-fi romance story Eternal Sunshine of The Spotless Mind, which we are going to be getting into in just a few minutes at the bottom of the hour. Before we do, Jason, next week the Summer of Jason continues."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:18",
+      "text": "The Summer of Jason has crashed on the rocky shoals of the schedule of Jason, but I'm feeling it's all going to work out somehow. What do we got?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:26",
+      "text": "It's all going to work out somehow. Well, next week, yeah, hopefully next week is okay, uh, but we have the return of the co-host of the Twin Vipers podcast, Jonesy Loves Beer."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:37",
+      "text": "Oh yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:38",
+      "text": "And Jason Goldman, don't wait for the translation, answer the question. We are doing Star Trek VI: The Undiscovered Country."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:48",
+      "text": "Yeah, it's also a movie that will break your heart, much like Eternal Sunshine of the Spotless Mind. It is like two, two films about what it means to be human and in love, in one case with, you know, the person you're meant to be with, and the other case, uh, with a Klingon, uh, a Klingon despot who wants to prosecute you for war crimes."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:10",
+      "text": "Oh man, yeah, I can't wait. I can't wait for that journey. Lucy, Liz, what's your favorite Star Trek movie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "17:16",
+      "text": "Um, I'm afraid to speak because I have very limited exposure to Star Trek."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:23",
+      "text": "We haven't done a ton. This is what our— we've done We've done 3, 2, and 4. 2 and 4."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:28",
+      "text": "2 and 4, that's it."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:29",
+      "text": "No, not 3. Yeah, 2 and 4. 2, 4, and 6. We're doing the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "17:33",
+      "text": "2, 4, and 6 is the best."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:34",
+      "text": "No, we did the original. We did the original one."
+    },
+    {
+      "name": "G",
+      "timestamp": "17:35",
+      "text": "Oh, we did."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:36",
+      "text": "Yeah, that's true."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:37",
+      "text": "So we do 1, 2, 4, and 6."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:39",
+      "text": "That's true, that's true."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:40",
+      "text": "Yeah, when I think of Star Trek, I think of the, like, William Shatner, like, as viewed on, like, my grandmother's TV with, like, the Technicolor and, like, pointing at an alien. That's— and then, and then starts and stops right there."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:53",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:53",
+      "text": "That's it. No, that's great. That works. Maybe Spock is over there somewhere."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:57",
+      "text": "Yeah, for sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:58",
+      "text": "Then I remember the episodes when they, they like went to some planet and it was like beautiful and everyone was in these like Grecian outfits. Do you remember that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:08",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:09",
+      "text": "Imagery is like so strong in my mind. So yeah, same."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:13",
+      "text": "There was one where, yeah, they had to fight Apollo. It turned out Apollo was like an alien and had come to Earth and like the Greek gods, that's who they were."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:22",
+      "text": "It's just like Percy Jackson."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:24",
+      "text": "Yeah, similar, similar. Or Dan Simmons had a series called Olympus and Iliad that was really, really good, that had a similar theme. So that is next week. We are doing Star Trek VI, and I cannot wait. Quickly, Jason, can we do some Hatch News?"
+    },
+    {
+      "name": "C",
+      "timestamp": "18:41",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "E",
+      "timestamp": "18:42",
+      "text": "Hatch News from beyond!"
+    },
+    {
+      "name": "C",
+      "timestamp": "18:44",
+      "text": "What do we got?"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:46",
+      "text": "First of all, there's some kind of big Dune Part 3 preview that's happening. Like, there's an IMAX preview of the new trailer, and maybe early footage or something."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:55",
+      "text": "I'm surprised our representatives didn't get contacted to, uh, to make sure that the top Dune influencers were in attendance."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:03",
+      "text": "We're not invited. Okay, we're not invited. So I don't know what else—"
+    },
+    {
+      "name": "C",
+      "timestamp": "19:07",
+      "text": "every one of these things that happens that we're not included is just like a per— is like a dagger to Matt's heart. Whereas like, I don't enjoy leaving the house, so it's like, it's, it's fine. Um, but like every— like if there's like a— if there's like an Art of Dune book signing and like, you know, we're like, oh, we didn't get an invite. Invite. Matt is like, what, what happened?"
+    },
+    {
+      "name": "B",
+      "timestamp": "19:26",
+      "text": "It didn't, it didn't happen."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:27",
+      "text": "It didn't happen this time."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:29",
+      "text": "I do want to just, uh, quickly check in on the box office, guys. Toy Story 4, did you get a chance to go see that? You take—"
+    },
+    {
+      "name": "C",
+      "timestamp": "19:36",
+      "text": "5, I believe you mean Toy Story 5."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:37",
+      "text": "Toy Story 5 is what I mean. That is correct. Toy Story 5, $275 million sequel, uh, has already hit $312 million."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:46",
+      "text": "Uh, that one's gonna work."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:47",
+      "text": "This, this thing is crushing. Um, and it was very good, although I have to say, like, like it posits a world where all children are extremely anxious and depressed, um, and on their devices. Um, and it was a little like— it was a little hardcore. Like, the villain of the, of the movie is really the parents who aren't imposing any screen time limits."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:06",
+      "text": "Yeah, it's a little shocking from the makers of the Disney+ app. Um, but like, the number— the number one airplane, uh, screen— like, in the world. Um, but fair enough. I mean, you know, points were made."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:23",
+      "text": "Points, points were made. Money, money was made, uh, I guess was the, was the key point."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:26",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:27",
+      "text": "Uh, the last piece on this is Supergirl unfortunately disappointed at the box office."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:32",
+      "text": "Dude, this movie— everyone hates this movie. I've like, I've, I've yet to hear a single good thing about this movie. All the Ringer people hated it. Like, I saw the— I saw like the bootleg footage of the now infamous needle drop and I could not believe, I could not believe it. It is so bad. Real bad movie apparently. Everyone's mad."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:52",
+      "text": "It's just sad. Everybody loves Millie Alcock."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:55",
+      "text": "Everyone loves Millie Alcock."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:56",
+      "text": "She is really terrific. I think her press tour has been super strong. Like, I just have really enjoyed her being out there, and I would love for this movie to be successful, but it's tough."
+    },
+    {
+      "name": "C",
+      "timestamp": "21:09",
+      "text": "No, no."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:09",
+      "text": "How do we crack this, you guys? How do we— like, what do we— what do we need to do to—"
+    },
+    {
+      "name": "C",
+      "timestamp": "21:13",
+      "text": "we need to write better movies. I'm just gonna say, need to write and make better movies. I mean, it just seems like this is just a bad, a bad movie, like, on it was just like a poorly made movie. Like, so what are you gonna do?"
+    },
+    {
+      "name": "D",
+      "timestamp": "21:26",
+      "text": "I mean, I think we need original IP. I mean, that plus— yeah, I'll mention Obsession again. Backrooms. Everyone's talking about this being the kind of like Easy Rider moment that may be the kind of rebirth of independent cinema. Um, because I mean, my understanding of the Obsession thing is that, you know, it was like Gen Z doesn't go to the movies, that's the problem. But then that That didn't seem to be the case with Obsession. So maybe it's like they just don't care for the movies that are out there. And, um, everyone uses Marvel as an example, but, you know, DC is an easy, uh, analog there too. So, um, I, I, anytime there's like a female-led superhero movie, I am kind of, I'm rooting for it. But of course, there is another part of me too that likes the data points that say, um, this kind of like like, you know, recycled IP is maybe not the kind of risk-averse sure thing that Hollywood seems to think it is. Um, and maybe we need to rethink our IP sources."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:24",
+      "text": "It's always a bummer. It's a bummer. It's a— the, the Supergirl one falls into like a particular bummer well for me, which is that like, I hate it when a movie that the chuds were gonna hate, like, just for, you know, sort of like misogynist reasons, like, or racist reasons or whatever, and then like the movie actually sucks, so you can't defend—"
+    },
+    {
+      "name": "G",
+      "timestamp": "22:42",
+      "text": "you can't—"
+    },
+    {
+      "name": "C",
+      "timestamp": "22:43",
+      "text": "like, it was like, The chuds were right, but the movie's not good. It's like sort of like the whole thing that happened with Acolyte, like in the Star Wars universe, like, like, like the show didn't deserve to get canceled after one season. And like, and like the chuds were out against it from the beginning because they were like, you know, Black female, you know, protagonist, antagonist or whatever is like very diverse cast, etc. That was the problem with the show. Like the problem with the show just wasn't very good. And then like, you know, but it's like it's hard to like it's hard to like stand on nuance. Once, uh, in these troubled times."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:15",
+      "text": "Um, but you know, that's a— I like that. I'm gonna steal that. Yeah. And same with like the Ghostbusters remake. I was like, oh, this sucks."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:22",
+      "text": "I exactly fall asleep. Yeah, yeah, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:27",
+      "text": "Defense mechanism, fall asleep. Yeah, yeah. Ah, well, we will hope, we will hope. Maybe she'll— maybe they'll bring her back in, in his next movie or whatever, at least so she— that character will have a chance to keep going because she seems good. Um, it just seems like she's cool. It seems Tough one. Yeah, very, very cool. Jason, anything you want to say about World Cup right now? USA, we are playing tomorrow, round of 32. We're ready to roll."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:50",
+      "text": "Amazing memes. I like, you know, I am— I don't pretend to be an expert in soccer or any sport really, but I do really enjoy the World Cup every year or every 4 years rather, because like one, I feel it's like an opportunity again, like sort of, it's sort of the same point, which is like you could be like, you know, jingoistic, um, and without like sort of having to ally yourself with MAGA. It's like, no, no, like we're actually just like, yeah, we're, you know, you could just like be like, rah, USA. Um, that's like pretty fun. Um, the memes are fantastic. Um, really great ones yesterday, um, when both like Germany and Japan were kicked out on the same day. Worst day since 1945. For the Axis Powers. And, and like, it's like, it's, it's a, it's just a, it's like a fun, it's a fun, fun time. And also, like, now we're looking across it, across a bunch of cultures."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:46",
+      "text": "Like, everybody's looking at the same thing. It is a monoculture moment."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:49",
+      "text": "It is. It's like one of the very few ones. Also, like, really fun uses for AI. There's this whole thing about— I was interested about, like, sort of penalty kicks because I've long been on this crusade. Well, every 4 years I go on this crusade, which is like, there should be better ways to resolve to solve, uh, ties than penalty kicks. My solution is that after the 30-minute extra period, um, the size of the goals just starts to mechanically increase over time until eventually one is scored. Um, and because like penalty kicks are these really arbitrary phenomenon, I was like, I want to find out like how arbitrary is it. And it's essentially a coin flip. Like even if like, if you like, even if you look at like teams that are, if you look at like sort of like, as if you skill level teams, like a highly skilled team would beat a poorly skilled team like of the time, but like when it— they go in again into penalty kicks, it's like a— it becomes a coin flip. Um, and it's just like, well, this is like a terrible way to do things. Like, it's just way— it's way too much, um, uh, reliant on chance."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:46",
+      "text": "So yeah, counterpoint, really fun counterpoint. Penalty kicks are very exciting. Uh, they're exciting in a sort of like frustrating— it's frustrating. I understand the idea, but you fucked it. Like, you're supposed to be the 80% team and you didn't win, so F you. You gotta get— now you have a coin flip, you better make kick it."
+    },
+    {
+      "name": "F",
+      "timestamp": "26:02",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:02",
+      "text": "Um, and it's— everything is on the line. Uh, so I, I actually, I think it's fine."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:09",
+      "text": "Um, okay, we will remain divided on this."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:12",
+      "text": "When it comes to penalty kicks, where's your— like, where does your anxiety go? I guess it turns— it's like depending on what team you're rooting for, but like, for me, I'm always feeling worse for the goalie. Of course, my anxiety is so high, but, but whoever fucks it up."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:29",
+      "text": "Like, yeah, I feel works for the kicker. Like, I feel worse for the kicker because the goalie's like supposed to fail basically, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:35",
+      "text": "Yeah, they have a 10%— they have a 10% chance of success."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:38",
+      "text": "Yeah, the goalie's supposed to fail. And so like, yeah, the, the ones that feel the worst is when like the kicker like just shanks it and like, you know, and just sails it over the bar or whatever, or just like misses totally wide. And you're just— and especially because the way, the way that they shoot it, where like the penalty kick camera angle is like from behind the kicker, right? And because the field is foreshortened, it looks closer than it is. So as like sort of a delusional person, you have this— like, I have this— like, I'm like, you— who, who couldn't score from there? Like, there's— you're like one-on-one, the goalie's like looks tiny in this goal. All you have to do is put the fucking ball in the net and you just kicked it. And like, meanwhile, of course, like, you wouldn't even— like, you know, like, I would kick the ball and like break my ankle or something like that. Like, but like, you know, you have this— it looks really easy. And so that the shooter misses and then they're just completely devastated and, uh, sometimes they're killed in their home country."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:26",
+      "text": "Yeah, totally."
+    },
+    {
+      "name": "C",
+      "timestamp": "27:27",
+      "text": "Yeah, it's tough."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:29",
+      "text": "It's tough."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:30",
+      "text": "Oh man, love it, love it. All right, you guys, are you ready to get into this movie?"
+    },
+    {
+      "name": "C",
+      "timestamp": "27:40",
+      "text": "Let's go!"
+    },
+    {
+      "name": "D",
+      "timestamp": "27:41",
+      "text": "So ready!"
+    },
+    {
+      "name": "B",
+      "timestamp": "27:42",
+      "text": "All right, here we go. Eternal Sunshine of the Spotless Mind is the pursuit of connection and love and the risk of hurt that goes along with it. Today, Joel Barish is a painfully shy man who skips work one winter morning to take a train to Montauk on an impulse he can't name and meets a beautiful and capricious woman named Clementine. Struck by their electric connection, Joel is shocked when he learns that they already knew each other. He and Clementine were romantic partners for two volatile years of highs and lows. But yesterday, when their relationship fell apart, Clementine went to a seedy high-tech company called Lacuna and had every memory of Joel systematically erased. Devastated, Joel visits Lacuna to do the same. But as the technicians begin deleting Clementine from his mind, Joel relives their whole relationship in reverse and realizes just how precious she is to him and begins a game of cat and mouse hiding his memories of Clementine in a desperate attempt to cling to her. Tomorrow, with their deepest fears laid bare in front of each other, Joel and Clementine will have have to decide whether to risk love again, because if they aren't willing to face the reality of darkness, they can never open themselves to the promise of the eternal sunshine of the spotless mind. Change your heart, look around you. That, that's a hard one, trying to figure out."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:19",
+      "text": "It's a complicated movie You got us there."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:23",
+      "text": "I got there. I got there. All right, Liz, what was your first experience with Eternal Sunshine of the Spotless Mind?"
+    },
+    {
+      "name": "D",
+      "timestamp": "29:31",
+      "text": "So this movie came out in 2004, and I checked to see if it— what month it was. March. That would make me a, uh, freshman in college. And I remember seeing it in the movie theater. I don't I don't distinctly remember who I was with, but I'm pretty sure it was the boy I was dating to get over my high school boyfriend that I was still like deeply, deeply in love with. And we were at different schools and it was my first real heartbreak. And I remember love, it was kind of like the perfect time for me as like a, you know, a budding English major, you know, very into showing off my thoughts on interestingly shot films with blue-haired main characters and, you know, feeling like I knew a lot about relationships and feeling like I could appreciate the depth. And, you know, I don't want to sell myself, my 18-year-old self, short, or 19-year-old self. I, you know, I knew some stuff and I was curious about some stuff. But it's, you know, it kind of was sort of the perfect time for me to be seeing it in that I kind of felt like I probably related to the characters a lot. And, um, Mm-hmm."
+    },
+    {
+      "name": "G",
+      "timestamp": "30:49",
+      "text": "When I—"
+    },
+    {
+      "name": "D",
+      "timestamp": "30:49",
+      "text": "and that was the first and only time I had saw the movie until I rewatched it for this conversation. And it's interesting to think back on like what I remember and what I don't remember. Part of me feels like I remember the movie so precisely, the images, the core romance, so many little details and sort of their quirks and jokes they had with each other. The, the beach at winter, the ice scene, of course. Um, and then the things that I forgot were bigger than I would have expected. Like, I completely forgot— I, you know, I knew the conceit of the, the, um, the brain procedure, but I completely forgot about all the side characters and the opening credits. I was like, oh my God, Mark Ruffalo is in this and Kirsten Dunst is in this. Um, and it's just so interesting. It kind of, you know, You know, there's this thing Tom Wilkinson talks about, like, how memory is sort of like— the fruit of the memory is what they zap, and the rest of it just sort of, like, dies on the vine. Yeah. And I'm like, I don't know, like, the fruit of the memory of— I remembered Clementine and Joel, but I kind of, you know, forgot all the rest. And that's interesting because, you know, the Lacuna people are the ones that are, like, kind of giving us the structure and the chronology, right? And so what I took with me was that the more sort of mushy, romance stuff. So anyways, yes, that was my long-winding, non-chronological story of my first experience with the film."
+    },
+    {
+      "name": "H",
+      "timestamp": "32:25",
+      "text": "Yes. Nice."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:26",
+      "text": "Nice. Lucy, what about you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "32:29",
+      "text": "It's funny. It's sort of like opposite of Liz. I actually don't remember when I saw it for the first time. I remember hearing the title thrown around a lot and thinking that it sounded like, kind of, I don't know, like fancy and like interesting. Yeah, yeah. And then, um, I, I eventually saw it, and then I, I've seen it like a bajillion times since then. Like, I, I— yeah. And it was hugely influential to me in my, my first book that I wrote. Um, oh wow. Yeah, speculative, like romance."
+    },
+    {
+      "name": "G",
+      "timestamp": "33:07",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:07",
+      "text": "It was like a big— so it's kind of the opposite. It's like, I don't remember when I first saw it, but I can't really remember when it wasn't a huge part of my, like, sort of creative identity in a way. But I also, it had been a few years and when I rewatched, and it was so interesting that even this rewatch, I was like, oh, there's all— for me, what I had sort of forgotten was the nonlinear nature of the narrative. Like, that's crazy. Like, to me, the, because that's such an important part of the movie, but I was always so stuck on the speculative piece and the, like, light sci-fi of it. And I think, Liz, thinking about you, yeah, after your, like, a first big breakup, like, that's really interesting because I think what, what I loved so much was, like, that it gave validity to, like, feelings, and that especially as sort of teenage girls or young women, feelings were sort of a thing that was like your problem and to control, kind of. And then this movie was like, no, no, like heartache is actually a really big fucking deal, enough that everyone gets their memories— like, people want to get their memories like altered. And you're like, oh yeah, okay, it is, you know, like it, it like is a big deal. And like, it's actually a chemical thing. It's real. Like, feelings are real. They're chemical reactions in the brain and like the impact the heart. And like, so for a romance lover, like, that was just like super fascinating to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:41",
+      "text": "Did you, did you watch the finale of Stranger Things?"
+    },
+    {
+      "name": "A",
+      "timestamp": "34:45",
+      "text": "No, wait, did I watch what?"
+    },
+    {
+      "name": "B",
+      "timestamp": "34:47",
+      "text": "The finale of Stranger Things."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:49",
+      "text": "I think you said the valley of Stranger Things. No, I actually didn't. I like, I, Stranger Things, once we got really like Once we got to, like, superheroy, like, like, I kind of got off the train. I sort of stopped at light sci-fi, but I regret that because I do feel like it seems like thematically, like, I would have been into a lot of it."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:18",
+      "text": "There's an element at the end of the series where the characters who have survived, you know, they're all there, they've been through everything, and then it jumps forward multiple years And some characters that had been, you know, deeply in love and together and going to be together forever are not together anymore. And they're just sort of like connecting. And but that you can see the space that's grown. And yeah, we should get together more often. Sure, we will. Now, you know, like they're not. And there's just something about that idea of some relationships are just going to change and they're going to move on and go in different directions, in different ways. And that's okay as well. So that's the counter side to the— it is so painful. Um, but it also is part of, part of life, uh, being there."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:00",
+      "text": "Yeah, yeah, totally. I mean, and that's kind of— right, that's a huge part of Eternal Sunshine too, right? And those ending, which is like, would you do it again if you knew that it was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "36:11",
+      "text": "we're gonna get— yeah, I wanna— I definitely want to talk about that, uh, talk about that as we get there. Jason, what about you? What was your history?"
+    },
+    {
+      "name": "C",
+      "timestamp": "36:17",
+      "text": "I was really excited for this movie when it came out. Uh, I'm a big Björk fan, and so it was like, you know, like Michelle Gondry you know, Björk video director is going to make a movie. Seems crazy. I didn't see his like first movie. I don't, you know, this was like definitely like sort of his first big movie. Um, and yeah, saw it when it came out, saw it opening weekend probably. I think like the— I only seen it once. I like, I watched it, you know, like this week to like watch again. I loved it when it came out, but I also was like sort of heartbroken at the time that it came out. And so it was like, I think like was just like, well, that hurt um, I don't know if I need to like re-experience that again. Um, and so yeah, it was definitely like, it was funny like watching it, uh, you know, like some, you know, 20 years later or whatever and being like, oh yeah, like, you know, I, I definitely just remember like sort of where I was, um, in that place at, you know, at that time. Um, and you know, uh, it's probably why I didn't revisit it. But yeah, um, good movie, good movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:15",
+      "text": "Yeah, and I had the same experience. I was a huge— I was a Michel Gondry fan as well. Same thing from the videos that he And I would always— the word I would use for Michel Gondry is dreamlike. And he does, like, a lot of stuff with puppets and, like, really cool sets and perspective, as we see in the kitchen scene and stuff here. And so I definitely was into it. I had completely forgotten— it makes more sense that I also would want to see this. I'd forgotten that this was written by Charlie Kaufman. Like, completely forgot about that. And so that also made a lot of things make a lot more sense. But it was just really fun after— same thing, having avoided this forever, um, for no particular reason, because I love this movie. It was amazing to come back and check it out 22 years later. That's a scary sentence to say out loud."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:05",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:06",
+      "text": "So some quick behind the scenes on this. So the original idea of this came from a conceptual artist, Pierre Bismuth, who is a French conceptual artist and a friend of Gondry's. And his original premise, what if you got a card in the mail saying someone had had you erased from their memory? Memory. So that's the seed. And I mean, that's a pretty heavy starting point for this guy to begin the journey. And then Gondry and Kaufman, who had worked on a movie together, came together and started working to flush it out. Kaufman was the hottest screenwriter in Hollywood. He'd had Being John Malkovich in '99, Adaptation in 2002. And so he was a brand name, writer, Oscar-nominated. Gondry had only done those videos. He did the Björk, \"I Fell in Love with a Girl\" by White Stripes. He did this Lego— sorry, this Levi's drugstore ad, which apparently is one of the biggest, most nominated ads in advertising history. I watched the video. It's a real— it's quirky. I'll paste it later. But he had not had a big— he had only done a feature, \"Human Nature,\" which was a Kaufman movie that nobody saw. So they decided to come and do this again. But what was crazy, they did not think this was gonna be marketable, although Kaufman's agent was like, \"This is gonna work.\" And so they sold it to the studio, Focus Features, and got a budget of $20 million. But the deal was they didn't— they wanted to market it as a rom-com in order to get butts in seats. And so the audience got, like, serious whiplash. It got a B- CinemaScore. But the critics loved it. New York Times said it was one of the best films of the century, and off a $20 million budget, Jason worldwide $74 million."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:58",
+      "text": "All right, all right."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:59",
+      "text": "Um, so a good, a good hit."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:03",
+      "text": "And then Michel Gondry basically failed for the rest of his career."
+    },
+    {
+      "name": "F",
+      "timestamp": "40:06",
+      "text": "This was it."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:07",
+      "text": "This was, this was all he was able to achieve."
+    },
+    {
+      "name": "D",
+      "timestamp": "40:09",
+      "text": "I did like, I like Science of Sleep and Be Kind Rewind. I'm certain I I wouldn't like them if I'd watch them now. But again, that, like, you know, college self of me, I loved the puppetry, the clouds, just like the fake videotapes and \"Be Kind, Rewind.\" Again, it's like I'm remembering these details so clearly. And I haven't seen them in over 20 years. Can't really remember much about the plot. But I will— got to give it up to Gondry for his memorable images. And I just love how tactile. I feel like I could reach in. I definitely want to take a bath in that big sink. Never thought I would want that. But I do. Um, so yeah, he's, uh, an interesting guy."
+    },
+    {
+      "name": "C",
+      "timestamp": "40:50",
+      "text": "His follow-up to Be Kind and Re-Ryan was the Seth Rogen Green Hornet, um, which is weird. A bit, a bit of a, bit of an L for everyone involved."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:58",
+      "text": "Yeah, I was trying to figure out what the deal was with that. That seemed, that seems crazy. Um, oh, okay, well, Lucy, why don't you start us off? What is the first thing you want to talk about in this movie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "41:11",
+      "text": "I do want talk about the narrative, like the out of order— The structure?"
+    },
+    {
+      "name": "C",
+      "timestamp": "41:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:20",
+      "text": "Yeah. And because I just found myself again, when I returned to it, I had completely forgotten that we meet them when they have already met, fallen in love, broken up, and had their memories wiped. And I found myself just really thinking a lot about, like, all the starting places we could have had instead. And I do believe this was the best one. And obviously because, like, one of the big reasons being that the film itself is, like, so immersive and, like, you know, with all of the cinematography, you really feel like you're— the dreamlike nature of it, you feel like you're so in it. So, of course, the natural way would be to feel like you are them with their brains wiped, like falling for each other all over again. But I just thought that, yeah, that decision— I don't— if I were to write it myself, I don't think I would be able to make that decision. Like, I don't think that would have necessarily come to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:27",
+      "text": "Um, but it's also like, it's also really cool from the beginning, like when he's working in his notebook and he's like, oh, I don't remember tearing these pages out. So like, he's setting everything up for the payoff from the very, you know, opening minutes here. You know something's going on. And then once you get to the point of making the turn, it's very powerful."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:49",
+      "text": "Yeah. And you— it's one of the reasons it's such a good rewatch movie too, right? Is that you can like, you're like, oh yeah, what did I not sort of notice? But I also found myself thinking a lot about like how that beginning was um, so reliant on the, the character archetypes that we had in front of us. Like, you had to believe that he was sort of like— you had to believe that he could just be miserable sort of day to day as a person. So shy and like forgetful and like kind of confused. And that she's— of course, it works so much even better, I think, for Clementine's character because she's just, like, so all over the place. So when she's like, \"I'm out of sorts,\" you're like, \"Do you— have you said this every day for your entire life?\" Like, maybe you do anyway. Um, but yeah, and then you rewatch it and you're like, \"Oh, so many of those parts are, like, actually because they actually had that.\" Yeah. Or when he's like, \"I don't know that song.\" You know, \"I don't know 'Oh My Darling Clementine.'\" It didn't seem weird to me at all when he first said it. Like, I was like, Yeah, he seems like sort of a reclusive guy who wouldn't, I don't know. Or who, yeah, I don't know. It just didn't. And then you rewatch it and you're like, yeah, because he had his memory wiped. That's why he doesn't know. But I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:13",
+      "text": "That and the constellations too, because it's like, okay, my darling Clementine, her name's in it. That makes sense. But then it's interesting what he remembers and what he doesn't. Can't remember any of the constellations, but he makes one up on the fly. I looked that one up. It means, like, \"bone mouth.\" I was like, \"I don't know. I don't want to think too long on that to figure out how it's relevant.\" But if someone else knows, please say. And just, yeah, but you know, we never learn about his job. It doesn't matter in the context of their relationship. He clearly remembers that. He remembers his opinion about sand being overrated. And we also see his sort of, like, little dark cartoon, which is another great sort of like character thing for him. But yeah, just like how it makes you think about how memory might work. And of course we have the Lacuna employees sort of stepping in for some artful exposition there. But it is interesting how it— I do feel like it— I feel like I've read a few times that people have trouble rewatching it. Like they enjoy it, but they're like, I don't know, it was— it felt like the experience was like a lot. But to Lucy's point, like there is such joy in rewatching it and kind of like looking at all the clues. Like he opens his eyes and you hear the car driving away and that's, you know, Mark Ruffalo driving off after having completed the mission."
+    },
+    {
+      "name": "I",
+      "timestamp": "45:30",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:31",
+      "text": "Right. And it's very satisfying to get all those clues."
+    },
+    {
+      "name": "I",
+      "timestamp": "45:35",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:36",
+      "text": "I'm gonna just one more thing on the structure. So they play out the entire meet cute through her going inside to get her toothbrush. And then that's when Elijah Wood shows up. And as soon as he comes on screen, you're like, this fucking guy, this is not good. And it's great to have Elijah playing against type after being, you know, the greatest of all time good guys. But this moment when it is this absolute smash cut from that to him driving and crying and this Beck song playing, \"Everybody's Gotta Learn Sometime,\" and this is the credits. It's 18 minutes. Into the movie. The first 18 minutes just plays before we get the credits. Jason, it's like a John Carpenter movie almost."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:19",
+      "text": "Yeah, I totally forgotten. It's funny because like I had forgotten that the titles come so late in the opening, but I also remembered immediately like the reality of the film when I saw— I was like, oh, this is after— like, this is like the later part. Like, I was like, I was, you know, I'm like— and, and, um, and, and Frodo's a bad guy in this movie. Like, I remember I'd forgotten that Frodo was in the movie. Um, and, uh, but I was like, oh no, he's not, and he's not— don't trust this man, he's not to be trusted. That was one of my— that was one of my points was the casting against type. Um, because it's like, it's really fun. I mean, it's kind of a Charlie Kaufman thing too, where it's like Charlie— what are Kaufman's like ideas? It's just like movie stars but ugly, like, you know. Um, and, um, uh, and it, you know, it works. It's interesting. People seem to sign up, sign up, sign up, sign up for it. We did, um, you know, Malkovich, and like, you know, so there's like a similar thing there."
+    },
+    {
+      "name": "G",
+      "timestamp": "47:12",
+      "text": "Adaptation."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:13",
+      "text": "Yeah, like, as well, you've got— yeah, you've got— you've got Frodo as a bad guy. You've got, you know, Kate Winslet's supposed to not be super hot, basically. I know, it's like supposed to be a mess, like, not just like, you know, the, the most attractive, like, movie star on the planet."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:27",
+      "text": "So beautiful in it."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:29",
+      "text": "Yeah, Kate Winslet is so hot in this movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:32",
+      "text": "She is very hot, but they're incredible. They're trying to frump her up as much as they can. Like, it does— I mean, like, you know, the lighting and everything."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:39",
+      "text": "Yeah, it didn't, it didn't work for me. Like, she looked amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:44",
+      "text": "Was just like, Jim Carrey, really just like one of our great actors of all time. Like, yeah, and like, you know, kind of has this like very strange career. We did Cable Guy recently. Truman Show is obviously on the list for us to do. Man on the Moon is like an interesting movie. He's just doing like a really— he's doing like a really interesting thing in this. Like, he's like, you know, doing like a romantic lead, um, and he's very constrained. It's like his whole performance, particularly for the first half of the movie, is like very pinned down, um, which is not, you know, sort of what you expect from, you know, The Mask. And it's just like, uh, he's just, he's just great. I just think like, to me, I was just like, God, that guy was so talented. Like, unbelievable, uh, unbelievable talent. Um, I wish he'd done more films."
+    },
+    {
+      "name": "D",
+      "timestamp": "48:29",
+      "text": "I think for all of them, he's the one that was like, no one else could have done that, right? Like, yeah, I think Truman Show really was sort of like the clincher for he can do the straight man, he can kind of be— he can kind of like pull out this really kind of full emotional arc. Um, but then you have the kind of mashed up dream state, and he could be silly and be in the, in the sink and be hiding under the table and, you know, play, play that with in a way where I think another actor could feel a little stiff or just not as natural or just embody that in this sort of full, elastic, you know, Ace Ventura kind of way and just so seamlessly go back and forth between ages, between emotions. And, um, yeah, I just thought it was really impressive. And it's hard to think of someone who might be able to pull that off in the same way."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:16",
+      "text": "It's not just that he pulls it off, but I feel like we then— like, we already are trained to sort of trust that he can do it. Do it too. So like, he is like— as an actor, we already knew like that he did super weird and out there stuff. So when he goes into those like childlike modes, we're not like— it is like, I mean, it's pretty uncomfortable, those scenes. Like, I found them kind of uncomfortable, but I also was like, but I— it's Jim Carrey and I trust him and I know he can like handle this kind of—"
+    },
+    {
+      "name": "B",
+      "timestamp": "49:45",
+      "text": "I don't know. I— so apparently Gondry originally wanted, uh, Nicolas Cage for which makes sense since Cage had just done Adaptation with Kaufman. And it was funny, 'cause I was watching— this is before I'd realized that Kaufman wrote the script, and when Jim was so painfully awkward, it was very similar to how Nicolas Cage was playing the twins in Adaptation. I was like, \"This is just like that.\" So that completely made sense. But Gondry came into this and said, \"It's far easier to take someone really funny and bring them down.\" And he specifically forbade Carrey from doing any any improvising at all."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:26",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:26",
+      "text": "Everyone else was free to do whatever they wanted to, um, but Carey was absolutely— had to do the exact script as written, um, to keep him in the box and prevent him from going nuts, which is really smart."
+    },
+    {
+      "name": "D",
+      "timestamp": "50:39",
+      "text": "And just keep that, like, restrained. That, like, on a lot of levels, that restraint was activated. I think that's cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:46",
+      "text": "That is cool."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:48",
+      "text": "Yeah, really, really, really good. Well, let's keep going just on the, on, on the, the cast. I mean, I, I thought I thought Kate was such a presence in this movie. And that idea of so, like, full of life, clearly, so vivacious, and also trouble, like, whether it was drinking too much or just being a little bit unstable. I was trying to figure out if it was kind of like all the way to the, you know, manic pixie girl kind of like stereotype that can be problematic. Um, I didn't feel like it was all the way, but I'm kind of curious your, your take."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:27",
+      "text": "Yeah, I definitely clocked that."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:29",
+      "text": "Your professional opinions."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:32",
+      "text": "That was like a very interesting thing, especially with Kirsten Dunst in the cast. And, um, I think it was her performance in Elizabethtown that ended— which came out in 2005, and then there was a 2007 review of, of it. I don't— I didn't go into why the review was written 2 years later, but, um, that's when this journal journalist Nathan Rabin. I don't know, he, he coins that term. Um, so I—"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:56",
+      "text": "Oh really?"
+    },
+    {
+      "name": "D",
+      "timestamp": "51:57",
+      "text": "Yeah, I was chatting with Lucy about this character in Elizabethtown, which I've never seen. My husband's like, oh, I liked that movie, she was cute in it. And I'm like, it worked on you?"
+    },
+    {
+      "name": "B",
+      "timestamp": "52:05",
+      "text": "Um, I haven't seen it either."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:07",
+      "text": "Yeah, maybe it's for the list. Um, and so I was talking to Lucy about it and I was like, it's interesting to sort of see this character portrayed, like, put in so earnestly Um, who is kind of like aware of that, like, \"I'm not a concept, I'm a person.\" Um, but it's like, did this kind of come at the perfect time to have this kind of character in place? And we're not kind of, um— It's not like post that term being coined. But I also— On my second watch, I was like, \"It is really interesting that it feels like it's kind of more critiquing that and getting ahead of that kind of a concept.\" That's interesting. And it's told through the guy's perspective more primarily. And he's— it's like we see in objective moments, like she gets drunk and crashes his car, like she says awful things to him. They're cruel to each other, and they both are, but neither one is cast as the villain. And so I did— I felt like it was more sort of taking that trope, kind of acknowledging it, interesting that it's sort of pre-that trope being coined, but, um, and then just sort of being like, \"Yeah, it's just sort of part of all—\" It's like our ugly human nature, and, um, people can prove themselves out to be many different ways and have many different faces, and, um, that Manic Pixie Dream Girl is one of them. Um, so yeah, that was definitely on my mind a lot."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:33",
+      "text": "Claude calls out Claire from Elizabethtown, Clementine, uh, uh, Sam from Garden State, which was the other thing that popped in my head. Right? Um, and then Summer from 500 Days of Summer. And then Holly Golightly, Katharine Hepburn in Bringing Up Baby, Annie Hall, and Maude from Harold and Maude. Jason, your favorite, um, one of your favorite movies."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:55",
+      "text": "Yeah, it was shocking there'd be something sus in that movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:57",
+      "text": "Um, and Ramona Flowers."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:00",
+      "text": "I, I do think like the, the difference maybe is that her faults are are like not meant to be secretly her strengths or whatever, like, you know, which is kind of, I think, part of the manic pixie like, uh, like trope, which is like, oh, like she's fucked up, but that's really fun. Like, it's like, no, she's fucked up. Like, she's like fucked up like he's fucked up, and like we're all fucked up. Like, and I feel it sort of creates maybe a more even playing field. It doesn't make her magical for having these flaws. Um, but I don't know, I could be— I be, you know, it's a French director, let's be, let's tread cautiously. We don't know what's going on."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:38",
+      "text": "I was ready to like, I was ready to be like, to sort of eviscerate it, and I was ready to be like, just because she says she's not a construct like in one line in the movie doesn't mean that like she's not. Yeah, but I really thought about it and I don't, I do think she's, she's a full character. Yeah, yeah, I do. Yeah. I will say what I actually struggled with was Kirsten Dunst's character. I felt like that portion of the sort of affair, the power dynamic, if we were to see now, and when we do see it now, we're a lot more honest about what that dynamic really looks like. Like, in like Margo's— I don't know if anyone's seen Margo's Got Money Troubles— that did— they did a really good job of showing sort of of like the professor character who like reels in the, the younger, you know, student and says she has so much promise and, and, and then sort of things turn sexual and then, you know, he drops her and, and Kirsten Dunst's character was like, she was gunning so hard for— Yeah. And I was like, that feels not accurate to me. I mean, I do feel like everyone got there, like he got— I liked that his wife was like able to have the last word. I liked how all of that went down, but I was just like, there was not enough. He was so innocent in— and maybe that's the point, is that he was supposed to appear that way, and then we understand like what had actually happened. But I just felt like that got sort of glossed over."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:16",
+      "text": "It felt exploitative without being— without like as much of a cost. Even though there's like a reckoning, it's still sort of like we the audience got to enjoy Kristen Dunst in her underwear and like, you know, she's just like sort of like, you know, um, she's like, yeah, like, you know, it didn't work out even though you were essentially raped by your boss. Like, you know, it's just like, it, it doesn't, it doesn't— I, it didn't feel great. Yeah. Uh, as I was watching, and I kind of was just like, all right, well, that's a thing that's in this movie too. That's fine. Like, you know, Mark Ruffalo is also in his underwear. What are we to make of that?"
+    },
+    {
+      "name": "D",
+      "timestamp": "56:48",
+      "text": "Um, so yeah, you know, it's like, it felt mostly like a device. It's almost like, like a device to like, um to showcase how the procedure doesn't really work and how— I sort of read Howard, Tom Wilkinson's character, and sort of his expressions in between her gestures to him as like, \"Ugh, this whole thing I've staked my career on doesn't actually work.\" Also interesting that he's too much of a coward to do it on himself, and so he has has it done to her. So I feel like, to me, I felt a lot of the kind of, like, overplaying of it, and like, \"Oh, I'm stoned and I'm drunk, so that's why I'm being so forward,\" was— That was sort of a— They were— In my interpretation, it was to show that the procedure, like, doesn't hold, and, you know, love knows no bounds."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:44",
+      "text": "Yeah. I mean, at the end of the day, I guess the core thing is is Mary has to go on that journey in order to send the tapes out. So that they can have the tapes. And so then the rest of it is trying to figure out how do we get that? How do we engineer that to happen? Which to me is an amazing element of this movie. This idea that at the end of the day, as we get to the end of the film and they realize what's happened, and then they have the tapes, and they're listening to each of them describe the absolute worst things about their partner. And the idea, like, just how awful that would be, you know, to document that and then to have a person that you love hear that and hear those complaints. But then the idea of still being open to say, \"Even so, you know, we can go for it,\" right? And then they agree that they're gonna accept each other. Yeah. I'm not a concept, Joel."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:40",
+      "text": "I'm just a fucked-up girl who's looking for my own way."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:42",
+      "text": "My own peace of mind."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:43",
+      "text": "I'm not perfect. I can't see anything that I don't like about you."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:47",
+      "text": "But you will. Right now I can't."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:48",
+      "text": "But you will."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:50",
+      "text": "You know, you will think of things, and I'll get bored with you and feel trapped because that's what happens with me."
+    },
+    {
+      "name": "I",
+      "timestamp": "58:57",
+      "text": "Okay."
+    },
+    {
+      "name": "H",
+      "timestamp": "59:03",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:12",
+      "text": "Okay. Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:20",
+      "text": "Change your heart. I was bawling, you know, as that Beck song came back on. I was like, oh my God. So it worked. The journey worked for me for sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:33",
+      "text": "For sure. Yeah."
+    },
+    {
+      "name": "G",
+      "timestamp": "59:34",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:35",
+      "text": "Liz, what's, uh, what's your, what's your first point?"
+    },
+    {
+      "name": "D",
+      "timestamp": "59:39",
+      "text": "I was really struck by bringing up Kirsten Dunst again. Um, I, at first, just thought it was like a really funny bit that she was like really into quotes, like pulling her pull quotes from Bartlett's, and that was sort of how she communicated. And on the one hand, it's very kind of like kooky Michelle Gondry, Charlie Kaufman, um, kind of dialogue. But, um, in, in sort of thinking about it more and certainly thinking about the content of the, the Nietzsche and and Pope Alexander quotes that she was pulling. Of course, the title of the movie comes from that Alexander Pope poem. It's just— To me, it felt like an interesting metaphor for the idea of, like, pulling a memory out of context and sort of trying to make meaning out of it. And, like, how do you make meaning of a quote outside of the context? And the whole thing where the procedure doesn't really— Wasn't really sticking. It didn't, you know, it wasn't sticking for— Kirsten Dunstan and the Doctor. It wasn't sticking for, of course, Joel and Clementine. And there were just like, through her loving these quotes, I noticed other little bits in the film, like when she was at the reception desk, someone called wanting to do the procedure, like for a third time in a month. And she was like, we don't allow that. And I was, my husband happened to be in the room when that came on. I was like, oh, I wonder if that's just a person who just like keeps on falling in love really quickly. And he's like, oh, maybe I was thinking of it. As like, is that like a foreshadow that like it doesn't work because she keeps on like running back into someone? And I was like, oh, interesting. Um, so anyways, just like the quotes out of context, I just thought that was like a nice metaphor. And of course, the Nietzsche quote, um, you know, from like Beyond Good and Evil: Blessed are the forgetful, for they get the better even of their blunders. Mm. Oh, that's Nietzsche. Beyond Good and Evil. I found it in my Bartlett's. I thought that that just was, you know, an interesting sort of theme. Just, you know, again, these two people who are being very cruel to each other, but the movie never really casts either of them as the villain. I think if anyone's a villain, it's the doctor. And that's— so, yeah, just I, that was something I noticed and appreciated."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:00",
+      "text": "Mm, mm. I mean, I think the procedure, I guess, ultimately is like a metaphor for how we deal with our breakups, right? Even the idea of like, you have to go through your house and remove all the objects and get rid of them. And, you know, like, just like even that idea."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:18",
+      "text": "Like pulling quotes out of a sonnet. Yeah. Exactly, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:24",
+      "text": "So that's so funny. I like, I didn't— I love that read, and I totally think I was like so biased towards her character at that point of the movie where I was like, okay, we're just like trying to make her seem— we're just giving her quotes to— yeah, like I, I found it sort of like— and when she gets his name wrong, like when she reverses the name, I was like, yeah, yeah, I was like, like, okay, well, I don't understand why he has to, like, appear sort of dumb here to him. I don't know. So, I kind of, like— Yeah, I had a wall there where I— Which I should have, like, had a little more faith in what I was actually, like, watching in that."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:07",
+      "text": "I just love Kirsten Dunst, so I'm gonna listen when she speaks."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:10",
+      "text": "No, I do too. Yeah, yeah, yeah. No, I actually do too."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:14",
+      "text": "I do too. I need to— I haven't rewatched Virgin Suicides in forever. Mm. She's great. That incredible."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:21",
+      "text": "One of my faves."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:22",
+      "text": "I actually, one of my favorite things in her was, uh, that she was in was— what's that movie about Spider Man? No, what's that like? It was like a— is it Rachel?"
+    },
+    {
+      "name": "C",
+      "timestamp": "63:33",
+      "text": "Are you familiar with your friendly neighborhood Spider Man, also known as Peter Parker?"
+    },
+    {
+      "name": "D",
+      "timestamp": "63:39",
+      "text": "I think it's Melancholia, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "63:41",
+      "text": "Not Melancholia, but the one where someone's getting— she's getting married. I think it's an indie film. Lizzie Kaplan's in in it. And I don't— it's again against Rachel getting married. Not Rachel getting married, which I rewatched some of. That's also good, right? Um, great. Yeah, it's so— it was— that was, that was really interesting to rewatch because I remember the first time I saw it being so uncomfortable with it. And now it shows sort of personal growth that I was like able to sit through it and enjoy it more and like have more, you know, empathy. Um, but anyway, whatever, I'll, I'll figure out the movie though."
+    },
+    {
+      "name": "D",
+      "timestamp": "64:16",
+      "text": "I think it's Bachelorette, and I believe it's Rebel Wilson that's getting I'm very worried."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:20",
+      "text": "Yeah. And it seems like it's gonna be, like, just a comedy, like a rom-com, but it's actually, like, pretty dark and weird. And Kirsten Dunst's character is, like, very, like, layered and interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:30",
+      "text": "Huh. Interesting. Yeah. Interesting. Um, I— Let's see. I wanna just talk about the procedure itself and the whole, um, the whole process. Like, once it starts and they're going through and kind of, like, cutting from inside his mind to hearing them outside of his mind, The journey that we're taking. Most of the effects of this were shot— were done in-camera because Gondry is just a total maniac, and he was not into CG, which was still in its infancy in 2004. But stuff like, you know, cars dropping out of the sky, or the house falling apart, or all of the stuff with the— when it was, like, all dark, and then just, like, the spotlights when he is running around. Or the scene where he's, like, talking to them in the Barnes Noble, then he walks through the door and he's back in the house again. And so just that idea of these pathways inside your mind, or the last one, the one where he's looking down the block and then he goes to the far side and the car is reversed and the damage is on the other side of the car, then it flips back again and it's back on the right side, and then it flips back and all the signs on the— on the building signs are all gone. There's no names of the stores or anything. Just crazy shit."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:51",
+      "text": "This was one of the in-camera stuff was one of my points too. Like, you know, there's a— there's scenes in which Carrey is doubled and he's just like running behind the camera to play both parts. Like, he's not digitally inserted, like he's just like in the shot and then he runs around, sits down at the table, and like does that like 3 times in the course of the scene, which is what, pretty bananas. Um, and there's like— and like the scene where like, yeah, like they're in Grand Central like, yeah, the crew's like just pulling Kate Winslet on wires and occasionally dropping her through trapdoors and shit. Like, it's just, it's very, it's very mechanical. Like, it's very, very mechanical. Um, there's one in the bookstore where like the shot starts to become like bleached out and white, and the one of the ways in which they did that is, uh, the books are turned spine in. And so it's like, oh, you just— and so you just like start gradually, like, as it keeps going, you just start noticing that the color is draining out of the background, but they were just like, yeah, just go turn a bunch of books in, like, you know, like, go turn the books like facing inwards so the spines are white, uh, or so that the pages are showing, you know, uh, are showing out. It's like pretty— it's pretty crazy, like, the, the things that they did to make this work at the time that they did it. Um, I really, I really like that. I like how sort of human-crafted it felt, like, everything from the titles, it like just— you— it really felt like human-crafted. And I kind of— one of my other points was related to this, I'll meld into this one was you could retroactively kind of impose an AI critique onto this movie from like present times, which is like the desire for like, you know, in the craftiness of the movie, like the desire for something that bears like the hallmark of like human, a human touch. And then also from the perspective of just like rejecting synthetic media, of like rejecting like technologically imposed synthetic media. It's like, no, like I don't want to have like my memories like adjusted by technology. I don't want to have like my like sort of, you know, I I don't want to have like take like the iPhone photo and like have, you know, adjust like the, the angle by which it's like shot. Like I don't, I want my memory as I remember it, um, and not like sort of, you know, mucked with by, um, technology. And, you know, obviously that's, you know, a contemporary frame imposed on a previous one, but I think it still works for what they're doing."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:09",
+      "text": "Yeah, I mean, I, I I mean, not to second-guess myself, I don't talk about film that frequently, like on podcasts like this, so I'm probably saying something pretty obvious, but I just like, obviously, you know, thinking about just like the immersive nature of how this is told, I found, you know, I don't know how many people have gone like under the knife on this podcast, but like I've had a few procedures and I found that The waking up and going to sleep, like, I found that incredibly realistic to— and so just to sort of take that back, I guess, like, yeah, the more human and homemade it felt, the more authentic it felt. And like, how would it have felt if things were like, if it was more CGI? And I don't know, like, if it really would have, if you really would have felt like you were there in the same way."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:10",
+      "text": "Yeah. You have stuff like, you know, baby Mark Ruffalo is using, like, some old— some very old computer, right? It's not like even a modern-day 2004 computer. It was like something from the early '80s or whatever, you know, with the weird screen and the keyboard off to the side or whatever. And I just love those little details like that, that it had this kind of very interesting organic feel. Organic, kind of like gritty. It felt like they were really running some kind of weird CD experiment, right? Yeah. Yeah. And I mean, obviously, all this has now been done. It can be done in the glossy way because we've just watched it be done on, you know, the last 3 seasons, or 2 seasons, whatever, of Severance. True. Where you have, you know, gorgeous, really glossy, really nicely, beautifully done stuff in high design style. But it certainly works in the guerrilla mode mode that they did it. I'll just shout out our Deakins Award for Outstanding Excellence. So the DP was Ellen Kuras, who did Swoon, I Shot Andy Warhol, which I never saw. It's a weird one. Spike Lee's Summer of Sam, Blow, this, Be Kind Rewind, and Away We Go, which I think I did. Bunch of weird movies."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:25",
+      "text": "Big weird movies. Bunch of weird movies."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:28",
+      "text": "She won Sundance cinematography 3 times. So really, really cool. Dan Lay was the production designer. And just to me, the production design was fantastic. But the other piece that stands out so phenomenally well is the score by John Bryan. So, John Bryan is like, goated indie film score producer, and then also just a music collaborator. Like, he collaborated on a couple of Kanye's early albums that had had some really lush instrumentation. That's kind of what he's famous for. Um, but he did Magnolia, uh, worked on that, Punch-Drunk Love, Eternal Sunshine, I Heart Huckabees, and Schenectady, Schenectady, New York, which I still have never seen. Jason, is that one good? It's good."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:20",
+      "text": "I've not seen that one actually. It's another weird one."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:23",
+      "text": "Yeah, that's Charlie Kaufman and Philip Seymour Hoffman."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:26",
+      "text": "Yeah, it's funny, all these movies— I mean, there's definitely a lot of overlap in who worked in them, but like everything you just mentioned, I feel like they all came out around the same time, but they all kind of are like roommates in my brain. Yeah, I kind of associate them. And it's so, you know, it's, you know, speaking of like memory and how that works, it's, you know, music, I feel like, and, and the approach to, to it, um, to the soundtrack, um, it probably has a lot to do with how we think about these films and, um, how we cast them in our, in our minds."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:56",
+      "text": "And I also feel like sort of like this time of movies where where it's like, it was so very interested in like internal, like the internal life, like sort of what the internal lived life was like. And it was so, you know, solipsistic, inward-facing, like very like kind of like what's going on inside of people. Can you ever really understand someone? Which is a timeless theme but feels less like, you know, in a time in which like, you know, the biggest movies are like horror movies, like, you know, on an out— coming out of a movie— coming out of time where it's like the biggest movies were like comic book movies. It's like, it's, it seems like, uh, we're interested in other types of entertainment now from, from movies because we like— movies have to be events. And like, you know, having like sort of a 2-hour meditation on the nature of like, you know, what is memory and what is the internal life is, uh, not an event the way that it was to go see like sort of a Michel Gondry film."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:46",
+      "text": "And yet, and yet that is literally the, the entire concept behind Backrooms, uh, it's just like 2 hours."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:52",
+      "text": "Yeah, I mean, it, it is, it is, it's just, I mean, the hook for Backrooms is different though because the hook for Backrooms is like this, you know, very specific internet culture thing too. Like, it, it, like, that is like, that is like the reason, like, that movie, like, I, I, it's, it's— I have not seen it. It seems like a fantastic movie. I'm glad it's, it's so successful. The reason it, like, you know, it has this big hook is because it's like tapped into a zeitgeisty thing that, like, you know, um, people identified with. It was like, you know, its own weird version of IP."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:23",
+      "text": "Um, but, you know, for, for sure, I'm just saying that the, the liminal space is the part that makes it truly magical, but the, the theme themes that they're exploring are all about that, your own memory and how— and, and the own— the way things break down inside."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:37",
+      "text": "All right, it's back, baby."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:41",
+      "text": "It's also reminding me of like Nathan Fielder, like The Rehearsal. I mean, Synecdoche, New York has, has got me thinking that because that's sort of a similar thing where a guy, um, I think— I don't know if he's— I don't know if it's Philip Seymour Hoffman. I don't know if he's grieving. I feel like he's back with his sister or something, but maybe someone died and he comes into money and he kind he spends it trying to recreate, do sort of miniatures, like miniaturize his world, and he's like models over models and models and models, repetition, repetition, repetition. And that got me thinking of Nathan Fielder and The Rehearsal and how just kind of like meta and also a lot of props and puppetry and sort of out-there visuals. And it's just, you kind of keep getting incepted into— That's right. —deeper and deeper into how the brain works. I wouldn't be surprised if Nathan Fielder is a fan of this film. That makes sense. Came out."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:30",
+      "text": "On the topic of Muse, the music, um, yeah, which I love so much, that when you first hear— it's like the, the first time you hear the sort of like romance refrain after he's dropped her off at her apartment. I think he's waiting outside or something, or for her to get a toothbrush. Yeah, and like that comes on and it's just so beautiful and hopeful and, like— And it just, to me, like, completely captured what that feeling is like when you've met someone new and you're like— have a good feeling about it and, like, things feel possible. And I just was, like, so struck— I always knew I liked the music in the movie, but I was so struck in that particular moment by that song. I do have a— I have a pet peeve, actually, that got me— Oh, good. To discuss. Oh good. I, I'm confused as someone who is from and currently resides in the Boston area. This whole like thing with the Charles River, right, was confusing to me. Like, where are they where they're going to Montauk for the day and then they're just like obscurely sort of like driving to the Charles River? Like, I couldn't—"
+    },
+    {
+      "name": "C",
+      "timestamp": "75:45",
+      "text": "I found that because they take LIRR to Montauk, right? Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:49",
+      "text": "So like Yeah, I figured they were on Long Island or Connecticut or something. They're not really in this area. They're in New York City."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:56",
+      "text": "Or like, they're in Rockville Center, but it looks like it was filmed in Brooklyn. I didn't actually look into this. It's a town on Long Island. Why?"
+    },
+    {
+      "name": "A",
+      "timestamp": "76:03",
+      "text": "Like, why the Charles? Just, it just seems so out of place to me as a Bostonian. Every time I get it, it like takes me out because I'm like, what are you talking about? Like, how did you get there? Like, why'd you— why? And then they drive all night, and I love that. I love the scene after they've driven all night coming back and she's waking up in his car. Like, it's so perfect. But I was just like, aren't there other like lakes and rivers you would go to closer to your house? And it's just like, it's almost like, yeah, this is a super good point."
+    },
+    {
+      "name": "C",
+      "timestamp": "76:36",
+      "text": "Now I'm confused, uh, because it's like, the movie is like very— the movie is very grounded in New York and like establishes itself in the opening as like being an outer borough New York movie. Um, and then it's like, second date, Charles River. And like, even, uh, they're like— that, that, that scene that was shot on the Charles River is actually shot in like upstate. Like, it's, you know, it's, it's like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "77:03",
+      "text": "yeah, is it famous that the Charles River freezes and other rivers don't? But yeah, no, they, they—"
+    },
+    {
+      "name": "C",
+      "timestamp": "77:10",
+      "text": "there's no reason. Like, they, they never get any further north than basically. So I don't really understand."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:16",
+      "text": "I'm now like tracking the Charles River as far as I can go in Massachusetts because I'm like, where does it go?"
+    },
+    {
+      "name": "C",
+      "timestamp": "77:21",
+      "text": "Like, does it get closer?"
+    },
+    {
+      "name": "B",
+      "timestamp": "77:24",
+      "text": "We're gonna get to the bottom of this."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:28",
+      "text": "I feel like there's gonna be— or it's just like someone was like— or Charlie Kaufman was like, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:32",
+      "text": "And they watched the— they watched the elephants come to the circus, which is like Madison Square Garden. Like, that's like a big New York thing. I mean, there's so many like New Yorky things in it, um, that have nothing to do with— it's Boston, it's, you know, it's not Boston-coded at all."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:46",
+      "text": "No."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:47",
+      "text": "So yeah, it's a 4.5 to 5 hour drive, which I feel like maybe they're just like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "77:52",
+      "text": "I was gonna be like, well, maybe it's like 3 hours without traffic if you go late, but because I'm also from the Boston area and lived in New York for a long time, and so I've made that drive a few times, and it's not, not a quick one. Not at midnight."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:06",
+      "text": "Not at night."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:06",
+      "text": "They have that like suicide bus that will get you there in like 3 hours."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:09",
+      "text": "Oh yeah, I've taken that a few times. Yeah, that's good. It'll take you there in a couple hours or you'll never get there. Never get there."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:15",
+      "text": "Yeah, you'll be stranded somewhere in Connecticut. Like, the— like, I, I liked the— I like the seeing Montauk in the winter. I thought that was a fun choice. Like, I sort of like the idea of seeing, like, you know, like these, like, you know, like, like, I can't remember another time I've ever seen, like, sort of, like, you know, like that vista or like that part, like, in, like, the dead of winter where no one goes there. Um, it seemed that, that seemed really just like moody and fun, and, um, I love that element of the scenery."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:46",
+      "text": "Taylor Swift's Snow on the Beach. Don't know if anyone's a fan of that song. That's so evocative. Yeah, striking."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:55",
+      "text": "Yeah, striking. Um, I don't have very many, um, honorable mentions, Jason. I did see there was a, a call out in the credits for stunt performer Danny Aiello, the 3rd. Okay, nepo baby. It turns out it is Danny Aiello's son."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:10",
+      "text": "So, okay, Moonstruck."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:13",
+      "text": "Have you ever done Moonstruck on here? That's a good one. Nicolas Cage."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:16",
+      "text": "We have not done Moonstruck. Yeah, I've never actually seen Moonstruck. Uh, there are people in our Discord were just asking for it literally last night."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:23",
+      "text": "Yeah, it's a, it's a beauty."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:25",
+      "text": "That's when I first saw Nic Cage and I was like, oh, he was like a hot— like, he was a same."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:29",
+      "text": "I was like, okay, and then Yeah, and then I got to live in that neighborhood, Carroll Gardens, when I was in my 20s, and that bakery."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:37",
+      "text": "It's the best. It's the best neighborhood."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:38",
+      "text": "I would buy it. I would get my little lard bread there. Yeah. It's just, ugh, what a beautiful thing."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:43",
+      "text": "Carroll Gardens is a real dream. I know."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:45",
+      "text": "I know. I miss it every day."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:47",
+      "text": "Yeah. One of my honorable mentions, I already mentioned the title comes from the Eloise and Abelard poem by Alexander Pope. Charlie Kaufman, this is his second. This is one of two of his allusions to this poem because Uh, Kuzak does a puppet show of Eloise and Abelard in, uh, in the Malkovich movie, Being John Malkovich. So he's just like, dude is just obsessed with this 18th century poem and just like, we're going to work this into all my movies, which I like. Yeah. And apparent—"
+    },
+    {
+      "name": "B",
+      "timestamp": "80:17",
+      "text": "yeah, apparently that this line was actually in one of the drafts of, um, Malkovich, and then they, they took that out."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:24",
+      "text": "He was focused on it. He was really— he really spoke to him. I got to read this poem. Seriously."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:31",
+      "text": "All right, well, you guys, that brings us to our final question. Who would Tilda Swinton play if you had to recast one role in this movie with Tilda Swinton? Who would it be?"
+    },
+    {
+      "name": "A",
+      "timestamp": "80:42",
+      "text": "I know, I think it would be the doc—"
+    },
+    {
+      "name": "D",
+      "timestamp": "80:43",
+      "text": "the doctor. Me too. Yeah, that's what I was going to say."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:46",
+      "text": "Yeah, absolutely, absolutely. Jason, Tom Wilkinson, come on. Our, our, like—"
+    },
+    {
+      "name": "C",
+      "timestamp": "80:50",
+      "text": "I was going to say Tom Wilkinson's aggrieved wife, like, shows up just for the one scene. That'd be a scene—"
+    },
+    {
+      "name": "D",
+      "timestamp": "80:56",
+      "text": "that'd be a scene stealer. Although I don't remember— yeah, I like that actress who— I forget her name, but, um, seen her around. She's good. Yeah, uh, she was just in the, um, the Pedro Pascal movie that takes place in, uh, in New Mexico."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:10",
+      "text": "Oh, okay. Oh, Eddington or whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:14",
+      "text": "Yeah, but no, I— yeah, I could see that. She'd really steal the scene there, I think."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:17",
+      "text": "But yeah, it's giving Doctor vibes. I almost went until the news. We had tickets on. We almost went to, um, uh, Alamo was doing like a— it didn't work out for timing reasons, but like Alamo's doing a Guillermo del Toro Pinocchio screening last night. We almost like took the kids to it, and then it was like, it's like, great. It was like, we're like, is this like— it's gonna be scary. Um, have you seen this, Matt? Did you see that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "81:39",
+      "text": "No, no, no, but it looks, it looks scary, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "81:42",
+      "text": "It, it's— I was like reading the description, I was like, it's a meditation on death as seen through the fascist dictatorship of Geppetto."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:49",
+      "text": "And I was like, or so I was like, okay, like, I Maybe not."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:52",
+      "text": "I don't know if that's gonna work."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:53",
+      "text": "Juniper in particular, the 5-year-old, is going through a real like waking up in the middle of the night screaming because of monsters phase right now. And so, whoa, poor baby. Any more, uh, any more input there?"
+    },
+    {
+      "name": "B",
+      "timestamp": "82:04",
+      "text": "Uh, wooden monsters is not, not a good look."
+    },
+    {
+      "name": "C",
+      "timestamp": "82:06",
+      "text": "No, so we skipped that one."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:09",
+      "text": "I will put her as the Elijah Wood character. Um, just a young Tilda running around scheming and doing things and just being generally troubling. Uh, stealing underwear."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:22",
+      "text": "Stealing underwear."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:23",
+      "text": "Exactly, guys. We did it! Can we do some quick voicemails? Let's go. Okay, here is our first voicemail."
+    },
+    {
+      "name": "H",
+      "timestamp": "82:37",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:41",
+      "text": "All right, Animal Mother."
+    },
+    {
+      "name": "F",
+      "timestamp": "82:43",
+      "text": "So, Jeff, how do you earn a crust?"
+    },
+    {
+      "name": "B",
+      "timestamp": "82:45",
+      "text": "Uh, well, I'm a scientist. I, I work mainly with rockets. What do you What do you do?"
+    },
+    {
+      "name": "C",
+      "timestamp": "82:49",
+      "text": "I'm a brain surgeon. Brain surgery?"
+    },
+    {
+      "name": "A",
+      "timestamp": "82:52",
+      "text": "Not exactly rocket science."
+    },
+    {
+      "name": "H",
+      "timestamp": "82:57",
+      "text": "Hello, animal friends and animal lovers. A man tells a neurologist, Doctor, I have a very hostile form of amnesia. The baffled doctor blurts out, What? And the man replies, What's what, motherfucker? The 3-pound blob of fat and electricity we box in our skulls is the best computer in the universe, hardwired to capture, process, and store data like it's a kink. Unlearning is against its very nature, and even if we try to wipe it, it retains enough bits and pieces to beat you at that game. Try forgetting how to ride a bicycle if you don't buy this. Hmm, Joel's mind palace is being renovated and he's not loving the alterations. What he does love is the memory of his fight-or-flight gal pal, and goes through a very French Jacob's Ladder of longing and heartache to preserve her. In the end, both Clem and Joel's reptile brains save the day, and even if their love will tear them apart again, they both win themselves and each other a fighting chance. I apply my personality into paste. Has your brain ever surprised you with long-forgotten information? Hmm. Thank you all. See you at Mom Talk in February and keep the change, you filthy animals."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:20",
+      "text": "Jason, there's a little Joy Division, uh, quote in there, and Mitchell and Webb. Uh, it's a real, it's a real, it's a real voicemail designed to hit my flavor centers. Yeah, love, love, love Animal Mother. He's really, he's really crushing in the game. What do you say, Haitch?"
+    },
+    {
+      "name": "B",
+      "timestamp": "84:38",
+      "text": "I mean, I had a— I was on acid in college. I had taken a lot of acid and was hanging out in a friend's room, and I had the strongest déjà vu in my life. And I remembered looking at the room and just kind of like looking across, seeing stuff that was piled up on the counter and recognizing it. But it was actually my earliest memory of my childhood. Childhood was seeing this image of this room, um, and, and kind of processing it, and then had that, you know, 20-year, uh, or 18-year flash from that moment to my earliest childhood. So that was a— geez, that was so cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:19",
+      "text": "I really went on a journey there."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:20",
+      "text": "That's— yeah, yeah, maybe I should do that tonight."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:23",
+      "text": "Yeah, find your childhood room."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:26",
+      "text": "Um, well, I'm here with my 21-month-old, so maybe that'll—"
+    },
+    {
+      "name": "C",
+      "timestamp": "85:30",
+      "text": "oh yeah, let's see Yeah, I, uh, I, I don't have like a— I can't think of like my thing. And I was reminded of this recently because I had to like hang out in crowds of people again. It's like I have like— I'm not face blind like in a clinical sense, but I have such a hard time remembering faces and names. And like the particular thing that happens is like at this point it's always this like, like just total seg fault in the brain of where do I know this person from? And like I'm like, oh, I went to high school with them. No, I worked with them them in like San Francisco. No, I worked with them in DC. Like, I just cannot like— I cannot like properly place anyone. And it's just like, it's— and I'm so panicked by it that like the panic is very obvious on my face because they immediately like, dude, it's me. Like, here's— I'll tell you, it's, you know, it's Sylvia. We work together. I was like, don't, don't freak out. I was like, okay, thank you, thank you. Because it's like I look like a just a Silver Alert victim or something. Like, I'm really kind of like— Yeah, just like lost. Like, I've got to get to the grocery store. Um, and, uh, so that's, that's my daily experience of that."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:35",
+      "text": "Yeah, weird. Nice job. How about you guys?"
+    },
+    {
+      "name": "A",
+      "timestamp": "86:41",
+      "text": "I, I am very interested in scent and memory. We're talking about just like our brains, like, yeah, yeah, just a memory popping up. Um, one time I got a candle and like as a gift, and every time I smelled it I was I was just like, in Rome. I was just like, in the city of Rome, where I, I did live for like 6 months. But I, I was just like, why every time I smelled it? And then I remembered I had a, like, a random drugstore body wash that I bought in Rome that was the same. I don't even know how I ended up figuring it out. It was like one day it finally came to me. I was like seeing this bathroom And it was like, oh, this was the scent. Even though these are like so unrelated, it just like just plopped me right down. And I thought that was so cool that my brain just like did that to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:34",
+      "text": "Amazing. Liz, how about you?"
+    },
+    {
+      "name": "D",
+      "timestamp": "87:37",
+      "text": "I think a lot about memory these days. I don't, I don't, I don't want to be like mommy brain or whatever, but I do find myself forgetting a lot more and a lot like differently than I have in like the earlier part of my like adult life. Just like silly things like words. Um, and, but I, I think a lot about memory, you know, in terms of just how, how often you access memories and how often you have, how much time you have to do that. So I remember a lot of stuff from when I was young, like song lyrics from that time period. Uh, with the, you know, the CDs and tapes would come with the lyrics sometimes and I would kind of sit and learn them and I can, I can call those up, but I can't really, uh, recite like a line of literature from, from college and. And, but when I think about that kind of accessing memories a lot, I think about it like in dreams. And I had a, like an intro to psych professor who said that some, one person's theory about dreams was that you, it's your brain like firing axons that are like most, that are like accessed most frequently. So it's like your like biggest memories just kind of like popping up and then your brain tries to kind of like connect them and make sense of them. So I feel like it's like this subconscious subconscious stuff where it's like, I'll wake up thinking about, you know, a teacher or like a person I haven't seen or actively thought about in years. But it's kind of cool to know that the archives are still back there. They're ticking. And, um, and I try not to think about, you know, like what's gonna— what's happening to any— maybe I'm absorbing memories passively now, I hope. Um, but, uh, I don't know. It just makes me think about like, are there ways to kind of like be more present in a moment? So I'm like, I'm gonna lock this in. Yeah. So I don't just sort of Like when I was young, I had time to like obsess and really lock stuff in."
+    },
+    {
+      "name": "B",
+      "timestamp": "89:27",
+      "text": "Time is in short supply at this point. I remembered something as well. I woke up on Saturday morning, we had our entire class of 2032 parental group went to Silver Cloud in the marina for karaoke on Friday night. And I woke up on Saturday morning and I just like, I was like, I was like, did I sing Desperado? And it turned out, yes, I did indeed sing Desperado."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:53",
+      "text": "Dude, the parent group got lit."
+    },
+    {
+      "name": "B",
+      "timestamp": "89:56",
+      "text": "We got lit, we got lit, we had a good time. All right, here is our next voicemail. This is the Dear Mr Java, who does, every week he does a custom song. So check this out. It's a very special day. Gonna dedicate this one to Animal Mother's Mother who loves this song. Let's go!"
+    },
+    {
+      "name": "E",
+      "timestamp": "90:23",
+      "text": "Don't go changing my mind. I was just running high. Hope Proto is such a creep fest, stealing all of my lines. Don't go changing my mind. Brain surgery's not for me. Oh, Clem, your hair I adore. You're like a tangerine. Ooh-hoo! Like a bronzer. They knock me out, then go to town. La Cuna blows, it's La Cuna blows, and they pull me far, but you're in my heart. Oh, oh, I give you my heart."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:24",
+      "text": "I mean, look, it's a straight-up jam. Gotta love this song. Let's talk about closure. What are the important questions you should ask Before you decide it's time to walk away. Oh man. Or maybe you tell a story about walking away. Or maybe we just listen to this song."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:43",
+      "text": "Nice. It's a great song. That was a favorite roller rink song for me back in the day. Really liked it when that one came on. There's like a good Minnie Mouse video of it too, for some reason, where Minnie Mouse sings the girl part. I like that. I like that version. Hey, huh?"
+    },
+    {
+      "name": "B",
+      "timestamp": "91:59",
+      "text": "Shout out to that song. Have not been to a roller rink in a long time. It's been, it's been far too long."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:05",
+      "text": "It's going to be part of the June 3rd meetup. Roller rink. Yeah. Perfect. All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:10",
+      "text": "Anybody have anything they want to do? I don't, I don't need to explore saying goodbye on the air. I've already been transparent enough for today."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:20",
+      "text": "I don't have any, like, really notable, like, goodbye. I will say, like, maybe outside of the context of like, you know, really like emotional closure goodbyes, like breakups or whatever. Like, I am just a huge fan of the like, you know, Irish goodbye, French goodbye. Like, just like, I will just fucking leave. Like, I, I'm not saying goodbye to anyone like at a, at a function. Like, I am, I will just bail. Like, you just, you, it will be like a, you know, a ninja dropped a smoke bomb. Like, I, I feel like I will get out as fast as possible. And this is a point of difference between me and my wife because she likes to, you know, she's like, we gotta say goodbye to like the host to like the kid's birthday party. I was like, no, we're good. Like, they don't need to, you know, like, they, like, you know, they don't. And she is obviously correct. It is nice to say thank you to the host, particularly of the kid's birthday party, and get like the party favor or whatever. Like, but, you know, we're just, we're running as fast as we can from this one. It's time to go."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:12",
+      "text": "So this is, this is yet another case of you and my wife being the same, and yeah, being the same. Yeah, April's like, let's get the fuck out of here."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:20",
+      "text": "Like, gotta go. Yeah, like every partnership has one and the other. Yeah, right. I'm right. I'm an Irish goodbye Sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:27",
+      "text": "Yeah, me too. Oh good! Okay, so 3 on one?"
+    },
+    {
+      "name": "A",
+      "timestamp": "93:32",
+      "text": "All right. My husband can't even get off the phone without— like when he's on the phone with especially members of his family, it's like they say goodbye for like 5 minutes. They're like great to talk to you. Same."
+    },
+    {
+      "name": "C",
+      "timestamp": "93:43",
+      "text": "That's like the Italians like ciao ciao ciao ciao ciao ciao ciao ciao."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:49",
+      "text": "We had in Sam's class this year the tin can which is the wired phone for kids. Kids. Um, they just like all of a sudden they all started getting them, and Sam got it. And the first thing we noticed is these kids, they have no understanding of how to use phones. So like literally they just pick up the phone and they don't say anything, and then they'll talk until they're done talking and then literally just hang up the phone. They won't say goodbye or see you later, thanks for calling."
+    },
+    {
+      "name": "D",
+      "timestamp": "94:11",
+      "text": "Like they do on TV though. That's like a big critique. It's like no one says goodbye on TV shows, so maybe that's where they get it. And exactly, my, my little daughter, who like I feel like we don't walk around on the phone. It's like, we'll just like pick up objects and like pretend she's on the phone."
+    },
+    {
+      "name": "A",
+      "timestamp": "94:24",
+      "text": "And I'm like, where are you?"
+    },
+    {
+      "name": "D",
+      "timestamp": "94:25",
+      "text": "Where'd you get that from? It's wild. I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:28",
+      "text": "Totally great, great move. Uh, here is our next voicemail. The Truthsayer. All right, this is going to be Two Truths and a Lie."
+    },
+    {
+      "name": "F",
+      "timestamp": "94:39",
+      "text": "Check this out. Hey, birria here. Many apologies for not sending in a Truthsayer last week. I was in Canada on a college trip, which I know is an explanation, not an excuse. So I have self-imposed a penalty that I will not allow myself to emigrate to Canada until I have exposed the Escape Hatch podcast to all of the truth, which might take a while. In the exquisite Eternal Sunshine of the Spotless Mind, Kate Winslet turns in my favorite performance in her excellent career so far. To celebrate. We're gonna take a look at a fascinating fact about Kate Winslet. She's been married 3 times in her young life. First to Jim Threapleton in 1998, second to Sam Mendes in 2003. For today's Truthsayer, we're going to ask about Kate's third husband. Though this man has since changed his name back to something normal, when he married Kate in 2012, he had a wild name. I'm gonna tell you about these 3 grooms. 2 of these are totally made up, one is true. Time for the Truthsayer. Number 1: Kate married Barnaby Freefall, the nephew of Sir James Dyson, billionaire inventor of high-velocity vacuums and bladeless fans. Or is it number 2: Orlando Moonbeam, the cousin of Helena Bottom Carter? Or is it number 3: Kate married Ned Rock and Roll, the nephew of billionaire Richard Branson? All right, which of those three crazy named dudes actually married Kate Winslet?"
+    },
+    {
+      "name": "B",
+      "timestamp": "96:12",
+      "text": "Ned Rock and Roll?"
+    },
+    {
+      "name": "A",
+      "timestamp": "96:15",
+      "text": "I think it's that. I think it's him."
+    },
+    {
+      "name": "C",
+      "timestamp": "96:16",
+      "text": "Yeah, that's a great name. I can't believe— I can't believe she— I mean, that's how you get Kate Winslet. You're Ned Rock and Roll."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:26",
+      "text": "Yeah, I mean, that makes sense. Although I like the Dyson, uh, I'm, I'm going to go with the Dyson. That one feels— that one feels—"
+    },
+    {
+      "name": "C",
+      "timestamp": "96:31",
+      "text": "the Dyson guy's really old though, right? I mean, like, not that she can't marry a really old guy, but like, he's like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "96:36",
+      "text": "I think it's his grandson, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "96:38",
+      "text": "Yeah, sorry, sorry, sorry. The grandson of the Dyson guy. No, I'm going with Neff. I'm going— I'm sticking with— I'm sticking with the expert opinion here with my Irish goodbyers."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:46",
+      "text": "Yeah, yeah. Okay, all right, here we go."
+    },
+    {
+      "name": "F",
+      "timestamp": "96:49",
+      "text": "Which one was true? Kate Winslet really married Ned Rocknroll. He was born Edward Abel Smith, and he's since readopted his birth name. Ned works for his uncle Richard Branson's space travel company Virgin Star Trek: Galactic in the capacity of, quote, head of marketing promotion and astronaut experience, end quote. And he's married to the resplendent Kate Winslet. Sounds like a good gig. Here ends the Truthsayer."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:17",
+      "text": "Jeez, congratulations to— congratulations to that."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:21",
+      "text": "Glad to have you back, birria."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:22",
+      "text": "Thank you so much, birria. Here is our next voicemail. Two more. Hello, Escape Hatch podcast podcast."
+    },
+    {
+      "name": "I",
+      "timestamp": "97:29",
+      "text": "It's Kev here. A beautiful day here Denis Villeneuve heading into a brutally hot July 4th weekend. Hope everybody is keeping cool, keeping safe. If the same applies to you, shout out to the new guests. Hope you guys are having a great time. We're talking about Michel Gondry's Eternal Sunshine of the Spotless Mind, movie I haven't revisited since shortly after it came out for a bunch of different reasons. I'll be, I'll be real, the people around me were so particularly annoying about this movie that makes me wish, like the Jim Carrey character in this film, I could erase my mind and just start over. So Kev's question: what is a piece of media, a record, movie, book, show, that you wish you could erase from your mind and experience all over again for the first time? Mm-hmm. Battlestar Galactica is up there for me. I think Lost is up there for me. Any TV show that revolves around a mystery. I think the suitcase episode of Mad Men, which is such a Film Bro answer, but that's about where I'm at. I would also say maybe the Chris Claremont X-Men. Would've been cool to experience again without the dread of the novel coronavirus over my head as I flipped through my iPad."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:38",
+      "text": "Huh. Folks."
+    },
+    {
+      "name": "I",
+      "timestamp": "98:41",
+      "text": "It is crazy to think that we are on the brink of celebrating the 250th anniversary of this country. Mm. I think that there is great potential in America, and I still do love America. And I hope that if you're as angry as I am about current affairs, you will see that there is a way out, and there will be a way out, and there will be a path through this moment. How better appropriate also to celebrate the 250th anniversary of America at this particular point in time by watching and discussing a film about the erasing of relationships Star Wars went sour. Food for thought. Hey H, sorry I went over, but I think one, like, 2 or 3 times in 200 episodes, I think I'm alive. Peace and love, I'll talk to you all next week."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:26",
+      "text": "Once again, it's Kev's Questions."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:29",
+      "text": "Thank you, Kev. Thank you, Kev. I mean, obviously real, obviously. Andor, I would experience again, you know, obviously, uh, you know, America from the beginning. I'm gonna try to experience that again, you know, the first, like, replay the first 250 years, see how it feels on, on, on on, on replay. I am, as I've, I mentioned last week, rewatching The Americans, um, which is just a fucking delight. Um, I'm in the middle of season 3, which is like when it, it really reaches like some— it really touches God in season 3. Um, and, uh, I'm very excited. I'm just gonna keep— I'm, I'm, I mean, I'm committed now. I'm into the end on this one. So yeah, I don't know, those are some options."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:11",
+      "text": "For me, it's interesting because like some stuff like, you know, Star Wars was obviously transformative for my life. I was 7 years old in 1977 and saw it 13 times in theaters, but you couldn't like extract that memory because everything else is tied to that, right? So I can't— if I took it out and I just was experiencing it on its own, it's too far back. I couldn't appreciate it in its appropriate context. So the thing that popped in my head was, which I'm currently in the middle of a rewatch right now of Station 11. Um, that, that could just experience that again for the first time, uh, would be amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:49",
+      "text": "Love it. How about you guys? This is so hard."
+    },
+    {
+      "name": "D",
+      "timestamp": "100:52",
+      "text": "It's so hard. I'm gonna, I'm gonna gesture to Lucy to go first."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:57",
+      "text": "Uh, did I miss— is it like just something you, you wish you could watch again is basically— yeah, something you didn't experience the first time. I would say like Severance would be a good one for that for sure. Yeah. Um, yeah. And then I think the last time I remember saying this, like, oh, I would kill to watch that again from the start, was that pocket episode of, um, The Last of Us with, um, Frank— what's his name— Murray Bartlett. And yeah, I just loved so much. Yeah, Nick Offerman. I just loved so much. Um, yeah, I would love to see that again."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:33",
+      "text": "Yeah, that was really cool. Yeah, that's good."
+    },
+    {
+      "name": "D",
+      "timestamp": "101:36",
+      "text": "I think the last time I remember saying that, it was about Friday Night Lights."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:41",
+      "text": "Oh, so what a good one."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:43",
+      "text": "I love Friday Night Lights. Yeah, and just— I've rewatched all Friday Night Lights multiple times."
+    },
+    {
+      "name": "D",
+      "timestamp": "101:47",
+      "text": "So good. Yeah, yeah. And I watched it for the first time during, like, again, for like the perfect time. It was like my, my— it was like while my dad was like about to bring everyone down, dying. And then like, then I was like during that time, so there's just like so much. And I was like 30, and, um, and I was just like, I love this so much, and I want it to end. And, uh, and that— and then maybe also Succession as a, a newer favorite, just because so good."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:12",
+      "text": "So fucking good. Goddamn, that was magic, man. That show, that show really— that was the first show my wife has watched in, in a long time, and it was just an amazing experience to be able to share that with her. And just really, really, really fun. Oh man. All right, here is our final voicemail. Ah, all right, here we go."
+    },
+    {
+      "name": "G",
+      "timestamp": "102:38",
+      "text": "Hey, this is Corey calling from Austin, Texas. Last minute, I almost forgot to call, but I totally didn't watch the movie Eternal Sunshine of the Spotless Mind from 2004. It was directed by Michel Gondry. I remembered that. I didn't remember that it was written partially by Kaufman. Uh, I remember Jim Carrey was in it. I didn't remember who the lead female was. Looks like, uh, scrolling— Kate Winslet! Wow, there's a lot of people in this movie, huh? I don't remember this movie at all. I didn't see it in the theater, but I know I watched it, um, on VHS, DVD, whatever it was at the time. I have no fucking clue. Maybe I erased it from my memory. Isn't that part of the plot of this? I think I'm kind of remembering now, like, yeah, you got the procedure, parts of your mind, like a relationship or something. What I think was the whole thing. Maybe that's what happened to me. Anyway, who would kill to swim and play? She would play Michelle Gondry and direct this, and then I would watch it, I guess. Whoa, nothing against the movie, I just kind of fucking shit the bed on this one. All right, love you guys, have a great week. Summer of Jason! We love you, Corey. Kinda. I don't I don't know, I'm still suspect about this whole Summer of Jason thing. Is it really Jason Summer? This feels like Summer of Jason via H. It's weird, I can't put my finger on it. Something feels amiss. All right, I love you guys, talk to you next week. Uh, and I'll watch the movie, I promise, I promise, I promise."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:11",
+      "text": "Corey's gonna watch Star Trek VI. That's good. You should—"
+    },
+    {
+      "name": "C",
+      "timestamp": "104:14",
+      "text": "he should be—"
+    },
+    {
+      "name": "B",
+      "timestamp": "104:15",
+      "text": "Corey should be on the alert, should be suspicious. Uh, no, I'm 100% innocent on Summer of Jason. You're getting the picks. All right, there's just some constraints. Even the producers don't always get to pick."
+    },
+    {
+      "name": "C",
+      "timestamp": "104:26",
+      "text": "There's constraints. There's always constraints. Constraints inspire creativity. Welcome to my world, buddy."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:33",
+      "text": "Guys, we did it!"
+    },
+    {
+      "name": "D",
+      "timestamp": "104:35",
+      "text": "Liz, what do you have to plug? Um, uh, nothing specific right now except, um, I'm working on a book project that I hope I can talk about soon. I'm pretty excited about, and Um, also developing a, uh, podcast concept with my co-conspirator Lucy Keating right here, uh, about, um, uh, plot development and, and romance development on the fly. So look out for that. Um, I'm currently doing, uh, freelance developmental editing and consulting. So if anyone is interested in that, hit me up. I don't know how you guys have like, uh, if you add contact info or whatever, but I'm happy to provide that. That."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:15",
+      "text": "Great, great. We will post it. We will have links with the show notes. Folks should check that out. Cannot wait to hear on, uh, to hear on the podcast. Yeah, thank you. Lucy, what do you got? I'm going to plug—"
+    },
+    {
+      "name": "A",
+      "timestamp": "105:28",
+      "text": "if you are an Eternal Sunshine fan and you are or know a teenage girl, then you could buy my first book, Dreamology, which is, um, heavily inspired by that movie. And it's about a girl who always has dreams of a boy. She thinks he only exists in her dreams. Then they meet in real life, and it goes to sort of a weird science dream, like, dream lab place. Um, and that's really fun. I wrote that now over 10 years ago, which is crazy. But my first adult romance comes out next year. It's called What If I Do. It's a lightly speculative, um, rom- It's basically My Best Friend's Wedding plus time travel about a woman who the night of her best friend's wedding, she is thrown 10 years back in time to the summer where he could have been hers, basically. And so, yeah, it's a ways away, but keep an eye out for it. And if you want film rights, they're available. It's really, really good."
+    },
+    {
+      "name": "D",
+      "timestamp": "106:32",
+      "text": "I've been treated to a glimpse at the manuscript and it is really good. So everyone should be really excited."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:40",
+      "text": "Thank you, Lizzen."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:40",
+      "text": "Amazing. Amazing. Well, keep us posted as things are in development. Jason, what do you have to plug, my friend?"
+    },
+    {
+      "name": "C",
+      "timestamp": "106:50",
+      "text": "I already talked about how good The Americans is. Really, really like it quite a bit. I'm excited to go to Oregon. I'm going to celebrate Oregon, as we'll be there on Thursday, and, uh, looking forward to some kids have some time in the pool. Um, it'll be great. Looking forward to that."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:11",
+      "text": "Awesome, awesome. I don't have anything to report except that I'm going to the World Cup game tomorrow night. Thanks everybody, see you later. Flex. And that's it for this episode of Escape Hatch podcast. I want to thank Jason, Liz, and Lucy for an amazing conversation. Next week, the Summer of Jason continues with Star Trek VI: The Undiscovered Country. Let's go, Jonesy! If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating or review wherever you listen to your podcast, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck podcast, John, a production of H Industries. Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, Haitch. Thanks for listening. We'll see everybody next week. I have a little bit of a development. Apparently, I can't technically sue Ewan while he's still alive, but I can sue Greenpeace. You're going to sue Greenpeace?"
+    },
+    {
+      "name": "C",
+      "timestamp": "108:38",
+      "text": "I like your style, Greg. Who do you think you're gonna go after next, Save the Children?"
+    }
+  ]
+}

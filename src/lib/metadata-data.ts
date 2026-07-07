@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 323 episodes - updated 2026-07-06
+// Auto-generated - do not edit - 324 episodes - updated 2026-07-07
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15468,7 +15468,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": "Swap Wade for a wealthy Mother In Law",
     "tildaCorey": "Norma",
     "showLink": "https://www.patreon.com/EscapeHatch/posts/fargo-1996-162020496",
-    "artworkLink": "",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1782362490480-a2965a9c66a32.jpg",
     "letterboxdLink": "https://letterboxd.com/film/fargo/",
     "imdbLink": "https://www.imdb.com/title/tt0116282/",
     "tmdbId": 275,
@@ -15498,5 +15498,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Carter Burwell"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 313,
+    "film": "Eternal Sunshine of the Spotless Mind (2004)",
+    "filmYear": 2004,
+    "releaseDate": "7/5/2026",
+    "length": "1:48:44",
+    "reviewer": "birria",
+    "guest": "Liz Tingue / Lucy Keating",
+    "mmmCount": 56,
+    "thatsGreatCount": 6,
+    "notableMoments": "Summer of Jason continues\n- Starts with a good discussion of Romance genre in literature and media\n- Talk about Toy Story 5 and Supergirl at the box office\n- Eternal Sunshine is a great episode to have Liz and Lucy as guests - good discussions of light-sci-fi, dreamlike feeling, jumbled timeline, the nature of memory\n- Charlie Kaufman and Michel Gondry are a perfect combo for this film\n- Jim Carey turns in a spectacular performance - Gondry totally forbade him from improvising\n- Kate Winslet just beautiful and full of life in this film\n- Letters - Animal Mother, Mr Java (Don't Go Breakin My Heart parody), Truthsayer, Kev, Corey",
+    "hFlex": "Haitch trained for a half-marathon while listening to the Muller Report",
+    "jFlex": "N/A",
+    "kevsQuestion": "What's a piece of media you would erase from your brain so you could re-experience it for the first time?",
+    "tildaH": "Elijah Wood's character",
+    "tildaJason": "The Doctor's aggrieved wife",
+    "tildaGuest": "Both say The Doctor",
+    "tildaCorey": "Michel Gondry",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/eternal-sunshine-162895486",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1783181472900-039b85575153c.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
+    "imdbLink": "https://www.imdb.com/title/tt0338013/"
   }
 ];
