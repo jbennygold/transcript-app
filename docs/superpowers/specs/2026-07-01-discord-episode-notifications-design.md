@@ -165,12 +165,17 @@ successful ingest), before/around the deploy trigger:
 - No message editing / threading / dedup store — fire-and-forget is sufficient.
 - No new npm dependencies — uses `fetch` (Node 20) and `fs`.
 
-## Setup checklist (operator, one-time)
+## Operator setup (one-time)
 
-1. In Discord: `#pod-data-central` → Integrations → Webhooks → New Webhook.
-   Name it after the bot, set the bot's avatar, copy the URL.
-2. Add `DISCORD_PDC_WEBHOOK_URL` as a GitHub Actions secret on the
-   `transcript-app` repo.
+1. In Discord: `#pod-data-central` → **Edit Channel → Integrations →
+   Webhooks → New Webhook**. Name it after the bot, set the bot's avatar,
+   and **Copy Webhook URL**.
+2. In GitHub (`jbennygold/transcript-app`): **Settings → Secrets and
+   variables → Actions → New repository secret**. Name:
+   `DISCORD_PDC_WEBHOOK_URL`, value: the copied URL.
+
+Until this secret exists the notify steps run as a safe no-op (they log a
+warning and exit 0). No other configuration is required.
 
 ## Files touched
 
