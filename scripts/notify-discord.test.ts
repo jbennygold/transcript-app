@@ -66,3 +66,27 @@ test('ingested: single green embed with searchable copy + homepage link', () => 
   assert.match(payload.embeds[0].description ?? '', /now searchable/);
   assert.equal(payload.embeds[0].url, 'https://x.test');
 });
+
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { resolveEpisodes } from './notify-discord.ts';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const METADATA = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
+
+test('resolveEpisodes: resolves film + reviewer from real metadata (ep 293)', () => {
+  const [info] = resolveEpisodes([293], METADATA);
+  assert.equal(info.episode, 293);
+  assert.equal(info.film, 'Panic Room (2002)');
+  assert.equal(info.reviewer, 'birria');
+});
+
+test('resolveEpisodes: unknown episode → null film/reviewer', () => {
+  const [info] = resolveEpisodes([999999], METADATA);
+  assert.deepEqual(info, { episode: 999999, film: null, reviewer: null });
+});
+
+test('resolveEpisodes: unreadable metadata path → null fields, no throw', () => {
+  const [info] = resolveEpisodes([293], '/no/such/file.json');
+  assert.deepEqual(info, { episode: 293, film: null, reviewer: null });
+});

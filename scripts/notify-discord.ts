@@ -1,6 +1,8 @@
 // Posts episode-lifecycle notifications to the #pod-data-central Discord
 // channel via an incoming webhook. Invoked from GitHub Actions. Never fails CI.
 
+import fs from 'node:fs';
+
 export interface EpisodeInfo {
   episode: number;
   film: string | null;
@@ -73,4 +75,33 @@ export function buildIngestedMessage(
       },
     ],
   };
+}
+
+export function resolveEpisodes(
+  numbers: number[],
+  metadataPath: string
+): EpisodeInfo[] {
+  let records: unknown[] = [];
+  try {
+    const parsed = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
+    if (Array.isArray(parsed)) records = parsed;
+  } catch {
+    records = [];
+  }
+
+  const byNumber = new Map<number, { film?: unknown; reviewer?: unknown }>();
+  for (const r of records) {
+    if (r && typeof r === 'object' && typeof (r as any).episode === 'number') {
+      byNumber.set((r as any).episode, r as any);
+    }
+  }
+
+  return numbers.map((n) => {
+    const r = byNumber.get(n);
+    return {
+      episode: n,
+      film: r && typeof r.film === 'string' ? r.film : null,
+      reviewer: r && typeof r.reviewer === 'string' ? r.reviewer : null,
+    };
+  });
 }
