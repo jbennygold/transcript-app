@@ -25,7 +25,8 @@
     "eval": "node --import tsx ./scripts/eval-search.ts",
     "eval:generate": "node --import tsx ./scripts/generate-eval-queries.ts",
     "eval:feedback": "node --import tsx ./scripts/feedback-to-eval.ts",
-    "check-new-episodes": "node --import tsx ./scripts/check-new-episodes.ts"
+    "check-new-episodes": "node --import tsx ./scripts/check-new-episodes.ts",
+    "test:notify": "node --import tsx --test scripts/notify-discord.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
