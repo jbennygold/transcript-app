@@ -119,6 +119,16 @@ jobs:
           git push origin HEAD:master
           echo "CHANGES_COMMITTED=true" >> "$GITHUB_ENV"
 
+      # Announce freshly-transcribed episodes that now need speaker mapping.
+      # Non-fatal: the script exits 0 if the webhook secret is unset or the
+      # POST fails, so notification problems never block the deploy.
+      - name: Notify Discord — episodes need speaker mapping
+        if: hashFiles('transcribed-episodes.txt') != ''
+        continue-on-error: true
+        env:
+          DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=needs-mapping
+
       # Deploy so the build picks up the new metadata + the updated search
       # index that was just uploaded to Blob.
       - name: Trigger deploy

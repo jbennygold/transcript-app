@@ -52,6 +52,15 @@ jobs:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: node --import tsx ./scripts/upload-search-data.ts
 
+      # Announce that the episode is now searchable (speaker mapping + cleanup
+      # complete). Non-fatal — never blocks the deploy.
+      - name: Notify Discord — episode ingested
+        continue-on-error: true
+        env:
+          DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=ingested --episode="$EPISODE"
+
       - name: Trigger deploy
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
