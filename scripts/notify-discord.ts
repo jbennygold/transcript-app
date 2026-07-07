@@ -36,8 +36,7 @@ function episodeLabel(e: EpisodeInfo): string {
 }
 
 export function buildNeedsMappingMessage(
-  episodes: EpisodeInfo[],
-  baseUrl: string
+  episodes: EpisodeInfo[]
 ): WebhookPayload {
   const count = episodes.length;
   const shown = episodes.slice(0, MAX_EMBEDS);
@@ -54,7 +53,6 @@ export function buildNeedsMappingMessage(
   const embeds: DiscordEmbed[] = shown.map((e) => {
     const embed: DiscordEmbed = {
       title: episodeLabel(e),
-      url: `${baseUrl}/review/${e.episode}`,
       color: AMBER,
     };
     if (e.reviewer) {
@@ -171,7 +169,7 @@ async function main(): Promise<void> {
       console.warn('[notify-discord] No transcribed episodes to announce — skipping.');
       return;
     }
-    payload = buildNeedsMappingMessage(resolveEpisodes(numbers, metadataPath), baseUrl);
+    payload = buildNeedsMappingMessage(resolveEpisodes(numbers, metadataPath));
   } else if (event === 'ingested') {
     const epArg = getArg(args, 'episode');
     const episode = Number(epArg);

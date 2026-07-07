@@ -7,15 +7,14 @@ import {
   GREEN,
 } from './notify-discord.ts';
 
-test('needs-mapping: single episode → amber embed with review link + reviewer field', () => {
-  const payload = buildNeedsMappingMessage(
-    [{ episode: 312, film: 'The Thing (1982)', reviewer: 'Jason' }],
-    'https://x.test'
-  );
+test('needs-mapping: single episode → amber embed, no link, reviewer field', () => {
+  const payload = buildNeedsMappingMessage([
+    { episode: 312, film: 'The Thing (1982)', reviewer: 'Jason' },
+  ]);
   assert.equal(payload.content, '🎙️ 1 new episode needs speaker mapping');
   assert.equal(payload.embeds.length, 1);
   assert.equal(payload.embeds[0].title, 'Ep 312 · The Thing (1982)');
-  assert.equal(payload.embeds[0].url, 'https://x.test/review/312');
+  assert.equal(payload.embeds[0].url, undefined);
   assert.equal(payload.embeds[0].color, AMBER);
   assert.deepEqual(payload.embeds[0].fields, [
     { name: 'Reviewer', value: 'Jason', inline: true },
@@ -23,22 +22,18 @@ test('needs-mapping: single episode → amber embed with review link + reviewer 
 });
 
 test('needs-mapping: plural content for multiple episodes', () => {
-  const payload = buildNeedsMappingMessage(
-    [
-      { episode: 312, film: 'The Thing (1982)', reviewer: 'Jason' },
-      { episode: 313, film: 'Alien (1979)', reviewer: 'Haitch' },
-    ],
-    'https://x.test'
-  );
+  const payload = buildNeedsMappingMessage([
+    { episode: 312, film: 'The Thing (1982)', reviewer: 'Jason' },
+    { episode: 313, film: 'Alien (1979)', reviewer: 'Haitch' },
+  ]);
   assert.equal(payload.content, '🎙️ 2 new episodes need speaker mapping');
   assert.equal(payload.embeds.length, 2);
 });
 
 test('needs-mapping: missing film → "Episode N" title, reviewer field omitted', () => {
-  const payload = buildNeedsMappingMessage(
-    [{ episode: 999, film: null, reviewer: null }],
-    'https://x.test'
-  );
+  const payload = buildNeedsMappingMessage([
+    { episode: 999, film: null, reviewer: null },
+  ]);
   assert.equal(payload.embeds[0].title, 'Episode 999');
   assert.equal(payload.embeds[0].fields, undefined);
 });
@@ -49,7 +44,7 @@ test('needs-mapping: >10 episodes → 10 embeds + overflow summary line', () => 
     film: `Film ${i}`,
     reviewer: null,
   }));
-  const payload = buildNeedsMappingMessage(episodes, 'https://x.test');
+  const payload = buildNeedsMappingMessage(episodes);
   assert.equal(payload.embeds.length, 10);
   assert.match(payload.content ?? '', /\+3 more: 310, 311, 312/);
 });

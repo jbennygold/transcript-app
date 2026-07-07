@@ -65,7 +65,9 @@ TypeScript, run via `node --import tsx`, matching repo conventions.
   allows up to 10 embeds per message). If more than 10 episodes, the first 10
   render as embeds and the remainder collapse into a summary line in the message
   content (e.g. "+3 more: 322, 323, 324").
-- Each embed links to `{BASE_URL}/review/{n}`.
+- Embeds carry no link — the `/review/{n}` URL is intentionally omitted so
+  Discord members can't click through to the review UI. The episode number in
+  the title is enough for an operator to find it.
 
 **Mode B — `--event=ingested --episode=N`**
 - Resolves episode N's `film` from `data/episode-metadata.json`.
@@ -95,10 +97,9 @@ builds an episode→record map. No network/LLM calls.
 Author: 🎙️ Escape Hatch Bot   (webhook name+avatar)
 Content: "🎙️ 2 new episodes need speaker mapping"
 Embed (per episode):
-  title:  "Ep 312 · The Thing (1982)"
+  title:  "Ep 312 · The Thing (1982)"   (plain text, no link)
   color:  amber
   fields: Reviewer → Jason
-  url:    https://search.escapehatchpod.com/review/312   (title is the link)
 ```
 
 **Event 2 (green `0x22C55E`, single embed):**
@@ -159,8 +160,9 @@ successful ingest), before/around the deploy trigger:
 
 ## Non-goals (YAGNI)
 
-- No interactive buttons / click handlers (webhook can't handle interactions;
-  link buttons unnecessary — the embed title is the link).
+- No interactive buttons / click handlers (webhook can't handle interactions).
+  Event 1 embeds are deliberately link-free so Discord members can't open the
+  review UI; Event 2 links to the public search homepage only.
 - No changes to the `transcript-bot` repo.
 - No message editing / threading / dedup store — fire-and-forget is sufficient.
 - No new npm dependencies — uses `fetch` (Node 20) and `fs`.
