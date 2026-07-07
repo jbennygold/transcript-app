@@ -76,6 +76,32 @@ export async function loadTranscript(
 }
 
 /**
+ * Load a transcript directly from its blob URL (as returned by
+ * listBlobTranscripts), skipping the per-episode `list()` lookup that
+ * loadTranscript() does. Caches with an hourly revalidate so bulk loaders
+ * (e.g. agent search, which pulls all ~300 transcripts on a cold start) hit
+ * the Next data cache instead of re-downloading the full corpus every time.
+ *
+ * Transcript blob URLs are stable (addRandomSuffix: false), so an edit
+ * overwrites in place — cached readers may be up to the revalidate window
+ * stale. Acceptable for search/grep; do NOT use where you need the freshest
+ * copy (use loadTranscript() with no-store for that).
+ */
+export async function loadTranscriptByUrl(
+  url: string
+): Promise<Transcript | null> {
+  try {
+    const response = await fetch(url, { next: { revalidate: 3600 } });
+    if (!response.ok) {
+      return null;
+    }
+    return await response.json();
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Save the raw (unmapped) transcript to Blob — called once at transcription time.
  * Will not overwrite if a raw copy already exists.
  */

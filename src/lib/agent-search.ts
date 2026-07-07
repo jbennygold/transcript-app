@@ -1,7 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { getAnthropic, HOST_IDENTITY_RULE } from './claude';
 import { queryEpisodes, loadEpisodeMetadata } from './metadata-store';
-import { listBlobTranscripts, loadTranscript as loadBlobTranscript } from './blob-storage';
+import { listBlobTranscripts, loadTranscriptByUrl } from './blob-storage';
 import { TranscriptSource, EpisodeMetadata } from '@/types/episode-metadata';
 import { Transcript, DialogueEntry } from '@/types/transcript';
 import {
@@ -51,7 +51,10 @@ async function loadAllTranscripts(): Promise<Map<number, Transcript>> {
       const results = await Promise.all(
         blobList.map(async (blob) => {
           try {
-            const transcript = await loadBlobTranscript(blob.episodeNumber);
+            // Fetch the URL listBlobTranscripts already resolved — avoids a
+            // redundant per-episode list() call (~300 API round-trips) and
+            // lets the response be cached instead of re-downloaded every time.
+            const transcript = await loadTranscriptByUrl(blob.url);
             return transcript;
           } catch {
             return null;
