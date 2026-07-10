@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { AssemblyAI } from 'assemblyai';
 import { saveTranscriptionJob } from '@/lib/blob-storage';
 import { getKeytermsPrompt } from '@/lib/lexicon';
+import { SPEECH_MODELS } from '@/lib/transcription-config';
 
 const client = new AssemblyAI({
   apiKey: process.env.ASSEMBLYAI_API_KEY || '',
@@ -62,7 +63,7 @@ export async function POST(request: NextRequest) {
     // Start transcription with AssemblyAI Universal-3 Pro
     const transcriptResponse = await client.transcripts.submit({
       audio_url: audioUrl,
-      speech_models: ['universal-3-5-pro', 'universal-2'],
+      speech_models: [...SPEECH_MODELS],
       speaker_labels: true,
       speaker_options: {
         min_speakers_expected: 6,

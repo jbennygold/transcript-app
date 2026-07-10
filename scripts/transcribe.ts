@@ -8,6 +8,7 @@ dotenv.config({ path: '.env.local' });
 
 // Import lexicon functions for keyterms prompt
 import { getKeytermsPrompt } from '../src/lib/lexicon';
+import { SPEECH_MODELS } from '../src/lib/transcription-config';
 
 const client = new AssemblyAI({
   apiKey: process.env.ASSEMBLYAI_API_KEY || '',
@@ -89,7 +90,7 @@ async function transcribeFile(
   // Build transcription config
   const transcriptConfig: Record<string, unknown> = {
     audio: filePath,
-    speech_models: ['universal-3-5-pro', 'universal-2'],
+    speech_models: [...SPEECH_MODELS],
     speaker_labels: true,
     speaker_options: {
       min_speakers_expected: minSpeakers,
