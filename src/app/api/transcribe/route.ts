@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
     // Start transcription with AssemblyAI Universal-3 Pro
     const transcriptResponse = await client.transcripts.submit({
       audio_url: audioUrl,
-      speech_models: ['universal-3-pro', 'universal-2'],
+      speech_models: ['universal-3-5-pro', 'universal-2'],
       speaker_labels: true,
       speaker_options: {
         min_speakers_expected: 6,

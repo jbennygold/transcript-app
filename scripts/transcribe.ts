@@ -89,7 +89,7 @@ async function transcribeFile(
   // Build transcription config
   const transcriptConfig: Record<string, unknown> = {
     audio: filePath,
-    speech_models: ['universal-3-pro', 'universal-2'],
+    speech_models: ['universal-3-5-pro', 'universal-2'],
     speaker_labels: true,
     speaker_options: {
       min_speakers_expected: minSpeakers,
