@@ -172,9 +172,11 @@ async function main(): Promise<void> {
     payload = buildNeedsMappingMessage(resolveEpisodes(numbers, metadataPath));
   } else if (event === 'ingested') {
     const epArg = getArg(args, 'episode');
-    const episode = Number(epArg);
+    // The ingest workflow passes the app's episode identifier ("episode_313"),
+    // so strip the prefix — matching ingest.ts — before coercing to a number.
+    const episode = Number(String(epArg ?? '').replace(/^episode_/, '').trim());
     if (!Number.isInteger(episode)) {
-      console.warn(`[notify-discord] --episode must be a number (got "${epArg}") — skipping.`);
+      console.warn(`[notify-discord] --episode must resolve to a number (got "${epArg}") — skipping.`);
       return;
     }
     payload = buildIngestedMessage(resolveEpisodes([episode], metadataPath)[0], baseUrl);
