@@ -15520,7 +15520,33 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/eternal-sunshine-162895486",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1783181472900-039b85575153c.jpg",
     "letterboxdLink": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/",
-    "imdbLink": "https://www.imdb.com/title/tt0338013/"
+    "imdbLink": "https://www.imdb.com/title/tt0338013/",
+    "tmdbId": 38,
+    "tmdbPosterPath": "/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Romance"
+    ],
+    "directors": [
+      "Michel Gondry"
+    ],
+    "cinematographers": [
+      "Ellen Kuras"
+    ],
+    "cast": [
+      "Jim Carrey",
+      "Kate Winslet",
+      "Kirsten Dunst",
+      "Mark Ruffalo",
+      "Elijah Wood",
+      "Tom Wilkinson",
+      "Jane Adams",
+      "David Cross"
+    ],
+    "composers": [
+      "Jon Brion"
+    ]
   },
   {
     "pod": "EH",
@@ -15545,6 +15571,33 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/star-trek-vi-163435869",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/star-trek-vi-the-undiscovered-country/",
-    "imdbLink": "https://www.imdb.com/title/tt0102975/"
+    "imdbLink": "https://www.imdb.com/title/tt0102975/",
+    "tmdbId": 174,
+    "tmdbPosterPath": "/tvTOJD7Gz668GLy2nNdLRQvpPsv.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "directors": [
+      "Nicholas Meyer"
+    ],
+    "cinematographers": [
+      "Hiro Narita"
+    ],
+    "cast": [
+      "William Shatner",
+      "Leonard Nimoy",
+      "DeForest Kelley",
+      "James Doohan",
+      "Walter Koenig",
+      "Nichelle Nichols",
+      "George Takei",
+      "Mark Lenard"
+    ],
+    "composers": [
+      "Cliff Eidelman"
+    ]
   }
 ]
