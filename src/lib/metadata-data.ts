@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 325 episodes - updated 2026-07-17
+// Auto-generated - do not edit - 326 episodes - updated 2026-07-18
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15601,5 +15601,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Cliff Eidelman"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 315,
+    "film": "O Brother Where Art Thou? (2000)",
+    "filmYear": 2000,
+    "releaseDate": "7/19/2026",
+    "length": "",
+    "reviewer": "",
+    "guest": "ctcher",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
