@@ -766,24 +766,18 @@ function TranscriptionErrorModal({
     setError(null);
 
     try {
-      const fullOriginal = source.text;
-      const fullCorrected = fullOriginal.replace(selectedText.trim(), correctedText.trim());
-      const response = await fetch('/api/transcription-reports', {
+      const response = await fetch('/api/transcription-error', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          episode: Number(source.episodeNumber),
-          anchor: {
-            startTs: source.startTimestamp,
-            endTs: source.endTimestamp,
-            speaker: source.speakers,
-            originalText: fullOriginal,
-          },
-          correction: {
-            type: 'spelling',
-            field: 'text',
-            newValue: fullCorrected,
-          },
+          episodeTitle: source.episodeTitle,
+          episodeNumber: source.episodeNumber,
+          startTimestamp: source.startTimestamp,
+          endTimestamp: source.endTimestamp,
+          speakers: source.speakers,
+          originalText: source.text,
+          selectedText: selectedText.trim(),
+          correctedText: correctedText.trim(),
           reporterName: reporterName.trim() || undefined,
         }),
       });
@@ -979,24 +973,18 @@ function AnswerErrorModal({
     setError(null);
 
     try {
-      const fullOriginal = result.answer;
-      const fullCorrected = fullOriginal.replace(selectedText.trim(), correctedText.trim());
-      const response = await fetch('/api/transcription-reports', {
+      const response = await fetch('/api/transcription-error', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          episode: Number(episodeNumber),
-          anchor: {
-            startTs: startTimestamp,
-            endTs: endTimestamp,
-            speaker: speakers,
-            originalText: fullOriginal,
-          },
-          correction: {
-            type: 'spelling',
-            field: 'text',
-            newValue: fullCorrected,
-          },
+          episodeTitle,
+          episodeNumber,
+          startTimestamp,
+          endTimestamp,
+          speakers,
+          originalText: result.answer,
+          selectedText: selectedText.trim(),
+          correctedText: correctedText.trim(),
           reporterName: reporterName.trim() || undefined,
         }),
       });
