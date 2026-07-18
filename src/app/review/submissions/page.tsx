@@ -167,15 +167,17 @@ function EpisodeSubmissions({
   };
 
   const handleApply = (_accepted: CleanupChange[], decisions: CleanupDecision[]) => {
+    // Only apply the checked reports. Un-checked matched reports are SKIPPED
+    // (left pending), not dismissed — un-checking to defer must never silently
+    // retire a submission. Dismissing a matched report is a deliberate act via
+    // the stale-list Dismiss button; the appliable panel never auto-dismisses.
     const apply: { id: string; newValue: string }[] = [];
-    const dismiss: string[] = [];
     decisions.forEach((d, i) => {
       const id = reportIds[i];
-      if (!id) return;
-      if (d.accepted) apply.push({ id, newValue: d.change.newValue });
-      else dismiss.push(id);
+      if (id && d.accepted) apply.push({ id, newValue: d.change.newValue });
     });
-    submitBatch(apply, dismiss);
+    if (apply.length === 0) return;
+    submitBatch(apply, []);
   };
 
   const dismissStale = (id: string) => submitBatch([], [id]);
