@@ -15,6 +15,7 @@ interface CleanupReviewProps {
   onApply: (accepted: CleanupChange[], decisions: CleanupDecision[]) => void;
   onCancel: () => void;
   onSeekTo?: (timestamp: string) => void;
+  title?: string;
 }
 
 const TYPE_LABELS: Record<string, { label: string; color: string; bg: string }> = {
@@ -24,7 +25,7 @@ const TYPE_LABELS: Record<string, { label: string; color: string; bg: string }> 
   voicemailer: { label: 'Voicemailer', color: 'text-green-700', bg: 'bg-green-50 border-green-200' },
 };
 
-export default function CleanupReview({ changes, dialogues, onApply, onCancel, onSeekTo }: CleanupReviewProps) {
+export default function CleanupReview({ changes, dialogues, onApply, onCancel, onSeekTo, title }: CleanupReviewProps) {
   const [selected, setSelected] = useState<Set<number>>(() => new Set(changes.map((_, i) => i)));
   // Track user edits to newValue — keyed by change index
   const [edits, setEdits] = useState<Record<number, string>>({});
@@ -88,7 +89,7 @@ export default function CleanupReview({ changes, dialogues, onApply, onCancel, o
       <div className="p-6 border-b">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-semibold text-gray-900">Review Cleanup Changes</h2>
+            <h2 className="text-xl font-semibold text-gray-900">{title ?? 'Review Cleanup Changes'}</h2>
             <p className="mt-1 text-sm text-gray-600">
               {changes.length} proposed change{changes.length !== 1 ? 's' : ''} · {selected.size} selected
             </p>
