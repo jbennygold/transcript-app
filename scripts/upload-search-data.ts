@@ -91,6 +91,28 @@ async function uploadSearchData() {
     console.log('Note: playlist-data.json not found, skipping upload');
   }
 
+  // Upload the LLM-extraction caches (content-hash keyed). Persisting these to
+  // Blob is what keeps the next ingest from re-paying full Haiku cost — a cold
+  // topic/playlist cache costs ~$20/full pass. Restored by download-search-data.
+  for (const cacheFile of ['topic-cache.json', 'playlist-cache.json']) {
+    const cachePath = path.join(process.cwd(), cacheFile);
+    if (fs.existsSync(cachePath)) {
+      const cacheData = fs.readFileSync(cachePath, 'utf-8');
+      const sizeInMB = (Buffer.byteLength(cacheData, 'utf-8') / (1024 * 1024)).toFixed(2);
+      console.log(`Uploading ${cacheFile} (${sizeInMB} MB)...`);
+
+      const blob = await put(`${SEARCH_DATA_PREFIX}${cacheFile}`, cacheData, {
+        access: 'public',
+        contentType: 'application/json',
+        addRandomSuffix: false,
+        allowOverwrite: true,
+      });
+      console.log(`  ✓ Uploaded to: ${blob.url}`);
+    } else {
+      console.log(`Note: ${cacheFile} not found, skipping upload`);
+    }
+  }
+
   console.log('\n✓ Search data upload complete!');
 }
 

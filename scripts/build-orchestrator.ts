@@ -8,6 +8,16 @@ function run(command: string, args: string[]) {
   }
 }
 
+// Like run(), but a non-zero exit is logged and tolerated rather than failing
+// the build. Used for best-effort steps (cache warming) where a failure should
+// only cost extra work, never break the deploy.
+function runAllowFail(command: string, args: string[]) {
+  const result = spawnSync(command, args, { stdio: 'inherit', env: process.env });
+  if (result.status !== 0) {
+    console.warn(`Build: '${command} ${args.join(' ')}' exited ${result.status} — continuing.`);
+  }
+}
+
 // Skip re-ingestion when transcripts haven't changed.
 // The ingest script fingerprints local + blob transcripts and compares against
 // a stored manifest — only re-embeds when the hash differs.
@@ -16,6 +26,14 @@ if (process.env.SKIP_INGEST_IF_NO_NEW !== '0') {
   process.env.SKIP_INGEST_IF_NO_NEW = '1';
   console.log('Build: skipping embeddings when transcripts are unchanged (override with SKIP_INGEST_IF_NO_NEW=0).');
 }
+
+// Restore the Haiku-extraction caches (topic + playlist) from Blob before
+// ingest so the song-extraction pass — which is NOT gated by --skip-topics and
+// runs whenever transcripts change — hits cache instead of re-calling Haiku over
+// every episode transcript. Caches-only to avoid pulling the large index files
+// into the working dir during `next build` (file tracing / 250MB limit).
+// Best-effort: a cold or unreachable cache must not fail the deploy.
+runAllowFail('node', ['--import', 'tsx', './scripts/download-search-data.ts', '--caches-only']);
 
 run('npm', ['run', 'ingest', '--', '--skip-topics']);
 
