@@ -5,6 +5,7 @@ import OpenAI from 'openai';
 import * as dotenv from 'dotenv';
 import { list, put } from '@vercel/blob';
 import Anthropic from '@anthropic-ai/sdk';
+import { CostTracker } from '../src/lib/llm-cost';
 
 // Load environment variables
 dotenv.config({ path: '.env.local' });
@@ -667,6 +668,7 @@ async function extractSongMentions(
 
   if (toExtract.length > 0) {
     const anthropic = new Anthropic();
+    const songCost = new CostTracker('claude-haiku-4-5-20251001');
     const BATCH_SIZE = 10;
     const CALL_TIMEOUT_MS = 60_000;
     let successCount = 0;
@@ -690,6 +692,7 @@ async function extractSongMentions(
               setTimeout(() => reject(new Error('Haiku call timed out')), CALL_TIMEOUT_MS)
             );
             const response = await Promise.race([callPromise, timeoutPromise]);
+            songCost.add(response.usage);
             const text = response.content[0].type === 'text' ? response.content[0].text : '[]';
 
             // Parse JSON response
@@ -738,6 +741,7 @@ async function extractSongMentions(
     // Final cache save
     fs.writeFileSync(PLAYLIST_CACHE_PATH, JSON.stringify(cache));
     console.log(`  Song extraction: ${successCount} success, ${failCount} failed, ${cacheHits} cached`);
+    console.log('  ' + songCost.summary('song extraction'));
   }
 
   // Deduplicate songs within each episode
@@ -837,6 +841,7 @@ async function extractTopicSummaries(
 
   // Extract in batches of 20 concurrent Haiku calls
   const anthropic = new Anthropic();
+  const topicCost = new CostTracker('claude-haiku-4-5-20251001');
   const BATCH_SIZE = 20;
   const CALL_TIMEOUT_MS = 30_000; // 30s per Haiku call
   let successCount = 0;
@@ -857,6 +862,7 @@ async function extractTopicSummaries(
             setTimeout(() => reject(new Error('Haiku call timed out')), CALL_TIMEOUT_MS)
           );
           const response = await Promise.race([callPromise, timeoutPromise]);
+          topicCost.add(response.usage);
           const summary = response.content[0].type === 'text' ? response.content[0].text : '';
           return { chunkId: chunk.id, text: chunk.text, summary };
         } catch (err) {
@@ -894,6 +900,7 @@ async function extractTopicSummaries(
   // Final cache save
   fs.writeFileSync(TOPIC_CACHE_PATH, JSON.stringify(cache));
   console.log(`  Topic extraction: ${successCount} success, ${failCount} failed, ${cacheHits} cached`);
+  console.log('  ' + topicCost.summary('topic extraction'));
 
   // Fail-safe: abort if >5% failure rate
   const failRate = failCount / (successCount + failCount);

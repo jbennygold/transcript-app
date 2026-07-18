@@ -2,6 +2,7 @@ import { NextRequest } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import type { DialogueEntry } from '@/types/transcript';
 import { describeLLMError } from '@/lib/llm-error';
+import { CostTracker } from '@/lib/llm-cost';
 
 export interface CleanupChange {
   index: number;
@@ -111,6 +112,7 @@ export async function POST(request: NextRequest) {
     async start(controller) {
       const allChanges: CleanupChange[] = [];
       let batchNum = 0;
+      const cost = new CostTracker('claude-haiku-4-5-20251001');
 
       try {
         for (let start = 0; start < dialogues.length; start += BATCH_SIZE - CONTEXT_OVERLAP) {
@@ -136,6 +138,7 @@ export async function POST(request: NextRequest) {
             max_tokens: 4096,
             messages: [{ role: 'user', content: prompt }],
           });
+          cost.add(message.usage);
 
           const text = message.content[0]?.type === 'text' ? message.content[0].text : '';
           try {
@@ -166,9 +169,21 @@ export async function POST(request: NextRequest) {
 
         allChanges.sort((a, b) => a.index - b.index);
 
+        console.log(cost.summary(`cleanup ${episodeName} (${totalBatches} batches)`));
+
         // Send final result
         controller.enqueue(encoder.encode(
-          JSON.stringify({ type: 'result', changes: allChanges, total: dialogues.length }) + '\n'
+          JSON.stringify({
+            type: 'result',
+            changes: allChanges,
+            total: dialogues.length,
+            cost: {
+              usd: Number(cost.costUsd().toFixed(4)),
+              calls: cost.calls,
+              inputTokens: cost.inputTokens,
+              outputTokens: cost.outputTokens,
+            },
+          }) + '\n'
         ));
       } catch (err) {
         console.error('Cleanup error:', err);
