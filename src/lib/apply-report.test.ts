@@ -42,8 +42,10 @@ test('non-match (not_found) → stale, transcript untouched', () => {
 
 test('already_fixed → stale, no mutation', () => {
   const t = tx([{ name: 'Movie Sample', timestamp: '01:12:04', text: 'unrelated words now' }]);
+  const before = JSON.stringify(t);
   const out = applyReportToTranscript(t, report());
   assert.deepEqual(out, { status: 'stale', reason: 'already_fixed' });
+  assert.equal(JSON.stringify(t), before); // no mutation
 });
 
 test('ambiguous → stale, no mutation', () => {
@@ -51,8 +53,10 @@ test('ambiguous → stale, no mutation', () => {
     { name: 'Jason Goldman', timestamp: '00:05:00', text: 'jumped to lightspeed' },
     { name: 'Jason Goldman', timestamp: '01:30:00', text: 'jumped to lightspeed' },
   ]);
+  const before = JSON.stringify(t);
   const out = applyReportToTranscript(t, report());
   assert.deepEqual(out, { status: 'stale', reason: 'ambiguous' });
+  assert.equal(JSON.stringify(t), before); // no mutation
 });
 
 test('field=text match uses overrideNewValue when provided (inline edit)', () => {

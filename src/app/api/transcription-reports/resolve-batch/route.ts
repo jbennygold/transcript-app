@@ -10,7 +10,10 @@ import { triggerRebuild } from '@/lib/trigger-rebuild';
 
 interface ApplyItem {
   id: string;
-  newValue?: string;
+  // Untyped on purpose: this comes straight off the wire, so a caller can send
+  // a number/object/empty string here even though the "happy path" type is
+  // string. Validated at use (see invalid_new_value handling below).
+  newValue?: unknown;
 }
 
 type ResultStatus =
@@ -19,7 +22,8 @@ type ResultStatus =
   | 'dismissed'
   | 'not_found'
   | 'not_pending'
-  | 'wrong_episode';
+  | 'wrong_episode'
+  | 'invalid_new_value';
 
 interface ReportResult {
   id: string;
@@ -54,15 +58,33 @@ export async function POST(request: NextRequest) {
   if (typeof episodeNumber !== 'number' || !Number.isInteger(episodeNumber) || episodeNumber <= 0) {
     return NextResponse.json({ error: 'episodeNumber must be a positive integer' }, { status: 400 });
   }
-  const applyItems: ApplyItem[] = Array.isArray(b.apply)
+  const applyItemsRaw: ApplyItem[] = Array.isArray(b.apply)
     ? (b.apply as unknown[]).filter(
         (x): x is ApplyItem =>
           !!x && typeof x === 'object' && typeof (x as ApplyItem).id === 'string',
       )
     : [];
-  const dismissIds: string[] = Array.isArray(b.dismiss)
+  const dismissIdsRaw: string[] = Array.isArray(b.dismiss)
     ? (b.dismiss as unknown[]).filter((x): x is string => typeof x === 'string')
     : [];
+
+  // De-dupe ids so each is processed exactly once. Apply takes precedence over
+  // dismiss: if an id shows up in both (or repeated within `apply`), it's
+  // resolved via the apply path only, and later duplicates are dropped.
+  const applyIds = new Set<string>();
+  const applyItems: ApplyItem[] = [];
+  for (const item of applyItemsRaw) {
+    if (applyIds.has(item.id)) continue;
+    applyIds.add(item.id);
+    applyItems.push(item);
+  }
+  const dismissSeen = new Set<string>();
+  const dismissIds: string[] = [];
+  for (const id of dismissIdsRaw) {
+    if (applyIds.has(id) || dismissSeen.has(id)) continue;
+    dismissSeen.add(id);
+    dismissIds.push(id);
+  }
 
   const results: ReportResult[] = [];
 
@@ -110,6 +132,18 @@ export async function POST(request: NextRequest) {
         results.push({ id: item.id, status: 'wrong_episode' });
         continue;
       }
+      // Validate the apply-time override before it ever touches the transcript.
+      // Absent → fall through to the report's own (already-validated) correction.
+      // Present but not a non-empty trimmed string → reject without mutating
+      // anything and leave the report pending.
+      let overrideNewValue: string | undefined;
+      if (item.newValue !== undefined) {
+        if (typeof item.newValue !== 'string' || item.newValue.trim().length === 0) {
+          results.push({ id: item.id, status: 'invalid_new_value' });
+          continue;
+        }
+        overrideNewValue = item.newValue.trim();
+      }
       if (!transcript) {
         // Transcript missing → cannot apply; mark stale.
         const updated: TranscriptionReport = {
@@ -121,7 +155,7 @@ export async function POST(request: NextRequest) {
         results.push({ id: item.id, status: 'stale', reason: 'transcript not found' });
         continue;
       }
-      const outcome = applyReportToTranscript(transcript, report, item.newValue);
+      const outcome = applyReportToTranscript(transcript, report, overrideNewValue);
       if (outcome.status === 'stale') {
         const updated: TranscriptionReport = {
           ...report,
@@ -134,7 +168,7 @@ export async function POST(request: NextRequest) {
         applied.push({
           report,
           index: outcome.index,
-          value: item.newValue ?? report.correction.newValue,
+          value: overrideNewValue ?? report.correction.newValue,
         });
       }
     }
