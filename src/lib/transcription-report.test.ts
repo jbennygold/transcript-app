@@ -5,7 +5,7 @@ import {
   buildReport,
   newReportId,
   type ReportInput,
-} from './transcription-report.ts';
+} from './transcription-report';
 
 const goodBody = {
   episode: 119,

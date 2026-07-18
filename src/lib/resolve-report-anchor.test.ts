@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { resolveReportAnchor } from './resolve-report-anchor.ts';
+import { resolveReportAnchor } from './resolve-report-anchor';
 import type { Transcript } from '@/types/transcript';
 
 function tx(dialogues: { name: string; timestamp: string; text: string }[]): Transcript {

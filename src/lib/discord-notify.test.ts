@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildReportMessage } from './discord-notify.ts';
-import type { TranscriptionReport } from './transcription-report.ts';
+import { buildReportMessage } from './discord-notify';
+import type { TranscriptionReport } from './transcription-report';
 
 const report: TranscriptionReport = {
   id: 'tr_1_abc',
