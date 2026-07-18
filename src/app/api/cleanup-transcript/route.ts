@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import type { DialogueEntry } from '@/types/transcript';
+import { describeLLMError } from '@/lib/llm-error';
 
 export interface CleanupChange {
   index: number;
@@ -171,8 +172,9 @@ export async function POST(request: NextRequest) {
         ));
       } catch (err) {
         console.error('Cleanup error:', err);
+        const { message, status } = describeLLMError(err);
         controller.enqueue(encoder.encode(
-          JSON.stringify({ type: 'error', error: 'Cleanup analysis failed' }) + '\n'
+          JSON.stringify({ type: 'error', error: `Cleanup analysis failed: ${message}`, status }) + '\n'
         ));
       }
 

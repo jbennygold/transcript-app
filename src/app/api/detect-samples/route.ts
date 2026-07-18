@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import type { DialogueEntry } from '@/types/transcript';
+import { describeLLMError } from '@/lib/llm-error';
 
 const BATCH_SIZE = 120;
 const CONTEXT_OVERLAP = 5;
@@ -104,8 +105,9 @@ export async function POST(request: NextRequest) {
     });
   } catch (err) {
     console.error('Sample detection error:', err);
+    const { message } = describeLLMError(err);
     return NextResponse.json(
-      { error: 'Sample detection failed' },
+      { error: `Sample detection failed: ${message}` },
       { status: 500 },
     );
   }
