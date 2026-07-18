@@ -6,11 +6,16 @@ import { ReportCard, type ReportCardData } from '@/components/ReportCard';
 export default function ReportsReviewPage() {
   const [reports, setReports] = useState<ReportCardData[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch('/api/transcription-reports?status=pending')
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`request failed (${r.status})`);
+        return r.json();
+      })
       .then((d) => setReports(d.reports ?? []))
+      .catch((err) => setLoadError(err instanceof Error ? err.message : 'request failed'))
       .finally(() => setLoading(false));
   }, []);
 
@@ -36,6 +41,10 @@ export default function ReportsReviewPage() {
 
       {loading ? (
         <p>Loading…</p>
+      ) : loadError ? (
+        <p style={{ marginTop: 24, color: '#b91c1c', fontWeight: 600 }} role="alert">
+          ⚠ Failed to load reports ({loadError}). Refresh to try again.
+        </p>
       ) : reports.length === 0 ? (
         <p style={{ marginTop: 24 }}>No pending reports. 🎉</p>
       ) : (

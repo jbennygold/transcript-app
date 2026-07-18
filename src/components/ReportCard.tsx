@@ -36,16 +36,23 @@ export function ReportCard({
         body: JSON.stringify({ action }),
       });
       const data = await resp.json();
+      if (!resp.ok || !data.status) {
+        const reason = data?.error ?? `request failed (${resp.status})`;
+        setOutcome({ status: 'error', reason });
+        onResolved(report.id, 'error', reason);
+        return;
+      }
       setOutcome({ status: data.status, reason: data.reason });
       onResolved(report.id, data.status, data.reason);
     } catch {
       setOutcome({ status: 'error', reason: 'request failed' });
+      onResolved(report.id, 'error', 'request failed');
     } finally {
       setBusy(false);
     }
   }
 
-  const isStale = outcome?.status === 'stale';
+  const isSuccess = outcome?.status === 'applied' || outcome?.status === 'dismissed';
 
   return (
     <div style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 16, marginBottom: 12 }}>
@@ -71,8 +78,13 @@ export function ReportCard({
       )}
 
       {outcome ? (
-        <p style={{ marginTop: 12, fontWeight: 600, color: isStale ? '#b45309' : '#16a34a' }}>
-          {isStale ? `⚠ STALE (${outcome.reason}) — not applied` : `✓ ${outcome.status}`}
+        <p
+          aria-live="polite"
+          style={{ marginTop: 12, fontWeight: 600, color: isSuccess ? '#16a34a' : '#b45309' }}
+        >
+          {isSuccess
+            ? `✓ ${outcome.status}`
+            : `⚠ ${outcome.status === 'stale' ? 'STALE' : 'NOT APPLIED'} (${outcome.reason ?? 'unknown error'}) — not applied`}
         </p>
       ) : (
         <div style={{ marginTop: 12, display: 'flex', gap: 8 }}>
