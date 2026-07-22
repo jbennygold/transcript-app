@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 326 episodes - updated 2026-07-22
+// Auto-generated - do not edit - 327 episodes - updated 2026-07-22
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15652,5 +15652,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "T Bone Burnett"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 316,
+    "film": "The Odyssey (2026)",
+    "filmYear": 2026,
+    "releaseDate": "7/22/2026",
+    "length": "",
+    "reviewer": "",
+    "guest": "Bijani Mizell",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
