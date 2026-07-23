@@ -129,6 +129,16 @@ jobs:
           DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
         run: node --import tsx ./scripts/notify-discord.ts --event=needs-mapping
 
+      # On a manual trigger (/pdc-check-episodes) that transcribed nothing, confirm
+      # "no new episodes" so the person who ran it gets a result instead of silence.
+      # Scheduled cron runs stay silent to avoid a daily "nothing new" ping.
+      - name: Notify Discord — no new episodes (manual trigger only)
+        if: github.event_name == 'workflow_dispatch' && hashFiles('transcribed-episodes.txt') == ''
+        continue-on-error: true
+        env:
+          DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=no-new-episodes
+
       # Deploy so the build picks up the new metadata + the updated search
       # index that was just uploaded to Blob.
       - name: Trigger deploy

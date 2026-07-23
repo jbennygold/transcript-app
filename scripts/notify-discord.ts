@@ -64,6 +64,13 @@ export function buildNeedsMappingMessage(
   return { content, embeds };
 }
 
+export function buildNoNewEpisodesMessage(): WebhookPayload {
+  return {
+    content: '✅ Checked the feed — no new episodes. Everything is up to date.',
+    embeds: [],
+  };
+}
+
 export function buildIngestedMessage(
   episode: EpisodeInfo,
   baseUrl: string
@@ -180,8 +187,10 @@ async function main(): Promise<void> {
       return;
     }
     payload = buildIngestedMessage(resolveEpisodes([episode], metadataPath)[0], baseUrl);
+  } else if (event === 'no-new-episodes') {
+    payload = buildNoNewEpisodesMessage();
   } else {
-    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping or ingested.`);
+    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, or no-new-episodes.`);
     return;
   }
 

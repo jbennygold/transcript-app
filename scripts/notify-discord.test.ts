@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   buildNeedsMappingMessage,
   buildIngestedMessage,
+  buildNoNewEpisodesMessage,
   AMBER,
   GREEN,
 } from './notify-discord.ts';
@@ -60,6 +61,15 @@ test('ingested: single green embed with searchable copy + homepage link', () => 
   assert.match(payload.embeds[0].description ?? '', /Ep 312 · The Thing \(1982\)/);
   assert.match(payload.embeds[0].description ?? '', /now searchable/);
   assert.equal(payload.embeds[0].url, 'https://x.test');
+});
+
+test('no-new-episodes: up-to-date content, no embeds', () => {
+  const payload = buildNoNewEpisodesMessage();
+  assert.equal(
+    payload.content,
+    '✅ Checked the feed — no new episodes. Everything is up to date.'
+  );
+  assert.deepEqual(payload.embeds, []);
 });
 
 import path from 'node:path';
