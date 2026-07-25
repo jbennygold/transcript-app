@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 327 episodes - updated 2026-07-24
+// Auto-generated - do not edit - 327 episodes - updated 2026-07-25
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15660,22 +15660,22 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "film": "The Odyssey (2026)",
     "filmYear": 2026,
     "releaseDate": "7/22/2026",
-    "length": "",
-    "reviewer": "",
+    "length": "2:01:13",
+    "reviewer": "birria",
     "guest": "Bijani Mizell",
-    "mmmCount": 0,
-    "thatsGreatCount": 0,
-    "notableMoments": "",
+    "mmmCount": 69,
+    "thatsGreatCount": 20,
+    "notableMoments": "Bijani tells us how hard it has been to teach the Odyssey to Highschool students\n- Doomsday trailer talk - Jason is NOT IN. Haitch says the trailer looks like garbage\n- Jason asks if Argos is the origin of Literary Dogs\n- Bijani tells us the history of this story, across a massive history of translations, and how hard it is to teach to Highschool Students. Translators have always re-framed this story in their own time\n- Jason on Nolan: \"He did it\"\n- Good discussion on the standout actors - Hamish Patel, Robert Pattinson, John Leguizamo, Zendaya, Tom Holland, Elliot Page, Lupita Nyong'o, John Bernthal\n- Nolan makes a real choice to center Odysseus' pain on his own doings. The Trojan Horse is the bomb that went off in his life and world. Bijani: Odysseus is really saying \"I am become Death, destroyer of worlds.\"\n- Are there Gods in this film? Bijani says she thinks there are no goods in this film, but there is Magic. \n- Talk about the technical marvel of this movie. It's on par with the scale and scope of the big ones. Jason is still optimistic that Dennis V will meet the moment with Dune 3 this year\n- Act 3 of the movie - A Jason Borne movie breaks out\n- Letters - Lizzen, Animal Mother, Mr Java (Fantasy by Earth Wind and Fire parody), Truthsayer, Kev, Corey",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "N/A",
-    "tildaH": "N/A",
-    "tildaJason": "N/A",
-    "tildaGuest": null,
-    "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "kevsQuestion": "Have you ever had a difficult commute?",
+    "tildaH": "Agamemnon",
+    "tildaJason": "The Cyclops",
+    "tildaGuest": "Eumaeus (Leguizamo), or Circe",
+    "tildaCorey": "I don't know. Somebody. (Coery hasn't seen it)",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/odyssey-2026-164583707",
+    "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1784758090952-61aa384acc68a.jpg",
+    "letterboxdLink": "https://letterboxd.com/film/the-odyssey/",
+    "imdbLink": "https://www.imdb.com/title/tt33764258/"
   }
 ];
