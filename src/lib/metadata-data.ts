@@ -15676,6 +15676,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/odyssey-2026-164583707",
     "artworkLink": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/5864738/5864738-1784758090952-61aa384acc68a.jpg",
     "letterboxdLink": "https://letterboxd.com/film/the-odyssey/",
-    "imdbLink": "https://www.imdb.com/title/tt33764258/"
+    "imdbLink": "https://www.imdb.com/title/tt33764258/",
+    "tmdbId": 1368337,
+    "tmdbPosterPath": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cinematographers": [
+      "Hoyte van Hoytema"
+    ],
+    "cast": [
+      "Matt Damon",
+      "Tom Holland",
+      "Anne Hathaway",
+      "Robert Pattinson",
+      "Himesh Patel",
+      "John Leguizamo",
+      "Charlize Theron",
+      "Travis Scott"
+    ],
+    "composers": [
+      "Ludwig Göransson"
+    ]
   }
 ];
