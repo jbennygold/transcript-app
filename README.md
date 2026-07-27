@@ -11,9 +11,10 @@ Natural-language search over every episode of the Escape Hatch Podcast. Ask a qu
 ### How search works
 
 1. **Query classification** — Claude Haiku categorises the query as factual, interpretive, or hybrid and extracts filters (guest, film, director, genre, decade, season).
-2. **Intent detection** — Special intents (latest episode, total count, metadata lookups) are routed directly to deterministic aggregates.
-3. **Hybrid retrieval** — OpenAI embeddings feed a vector search; a BM25 inverted index provides lexical matching. Results are merged via Reciprocal Rank Fusion with adaptive retrieval depth per query type.
-4. **Answer synthesis** — Retrieved chunks + metadata are streamed through Claude Sonnet, which produces a markdown answer with source citations.
+2. **Intent detection** — Special intents (latest episode, total count, metadata lookups, director filmographies) are routed directly to deterministic aggregates.
+3. **Routing gate** — Aggregation-style questions ("how many times did X say Y", "list every prop they mentioned", "which episode did X say Y") are routed to an **agent search** path: a Claude Sonnet agent with tools that iteratively greps raw transcripts — the kind of exhaustive scan retrieval can't do. Everything else takes the retrieval path below. Falls back to retrieval on failure.
+4. **Hybrid retrieval** — OpenAI embeddings feed two vector searches — one over full chunk text (1536-dim) and a supplemental one over Haiku-generated topic summaries (512-dim) that surface personal/incidental content buried in film-heavy chunks — alongside a BM25 inverted index for lexical matching. Results are merged via Reciprocal Rank Fusion with adaptive retrieval depth per query type.
+5. **Answer synthesis** — Retrieved chunks + metadata are streamed through Claude Sonnet, which produces a markdown answer with source citations.
 
 ## Tech stack
 
@@ -21,10 +22,10 @@ Natural-language search over every episode of the Escape Hatch Podcast. Ask a qu
 |---|---|
 | Framework | Next.js (App Router), React 19, TypeScript |
 | Styling | Tailwind CSS |
-| AI | Claude (Anthropic) for classification & synthesis, OpenAI for embeddings |
-| Search | BM25 lexical index, vector similarity, Reciprocal Rank Fusion |
+| AI | Claude (Anthropic) for classification, agent search & synthesis, OpenAI for embeddings |
+| Search | BM25 lexical index, vector similarity (full-text + topic-summary vectors), Reciprocal Rank Fusion, agent-driven transcript grep |
 | Transcription | AssemblyAI |
-| Storage | Vercel Blob (vector store + BM25 index in production), local JSON in dev |
+| Storage | Vercel Blob (vector store, topic vectors, BM25 index, transcripts in production), local JSON in dev |
 | Metadata | TMDB (film/director/actor enrichment) |
 | Hosting | Vercel (serverless) |
 
@@ -59,9 +60,14 @@ The app will be available at `http://localhost:3000`.
 |---|---|---|
 | `OPENAI_API_KEY` | Yes | OpenAI — used for generating embeddings |
 | `ANTHROPIC_API_KEY` | Yes | Anthropic — used for query classification and answer synthesis |
-| `BLOB_READ_WRITE_TOKEN` | Yes | Vercel Blob — stores the vector store and BM25 index in production |
+| `BLOB_READ_WRITE_TOKEN` | Yes | Vercel Blob — stores the vector store, topic vectors, BM25 index, and transcripts in production |
 | `NEXT_PUBLIC_BASE_URL` | No | Base URL of the running app (defaults to localhost in dev) |
 | `WARMUP_TOKEN` | No | Protects the `/api/warmup` endpoint |
+| `TOPIC_VECTORS_ENABLED` | No | Feature flag — enables the supplemental topic-summary vector search |
+| `AGENT_SEARCH_ENABLED` | No | Feature flag — enables the agent (transcript-grep) search path |
+| `AGENT_SEARCH_PERCENT_ROLLOUT` | No | Percentage rollout (0–100) for agent search |
+| `AGENT_SEARCH_DISABLE_ON_ERROR_RATE` | No | Auto-disables agent search above this error rate |
+| `DISCORD_PDC_WEBHOOK_URL` | No | Discord webhook for #pod-data-central episode notifications |
 | `ASSEMBLYAI_API_KEY` | No | AssemblyAI — only needed to transcribe new episodes |
 | `TMDB_API_KEY` | No | TMDB — only needed to enrich episode metadata with film/director info |
 | `RESEND_API_KEY` | No | Resend — only needed for email notifications |
@@ -106,11 +112,13 @@ src/
   components/     # React components (AudioPlayer, TranscriptEditor, etc.)
   hooks/          # Custom React hooks
   lib/            # Core modules
-    hybrid-retrieval.ts   # Embedding + BM25 fusion
+    hybrid-retrieval.ts   # Embedding + topic-vector + BM25 fusion
     bm25.ts               # BM25 lexical search
     vectorstore.ts        # Vector similarity search
     query-classifier.ts   # LLM-based query classification
     query-intent.ts       # Intent detection & routing
+    routing-policy.ts     # Agent-vs-RAG routing gate (shared by both endpoints)
+    agent-search.ts       # Agent search — Sonnet + transcript-grep tools
     claude.ts             # Claude integration for synthesis
     embeddings.ts         # OpenAI embedding generation
     metadata-store.ts     # Episode metadata access

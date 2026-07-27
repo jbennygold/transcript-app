@@ -155,7 +155,7 @@ After classification, the system checks whether the query should be handled by t
 If all conditions pass, the query goes to an **LLM agent** (Sonnet) that has tools to grep raw transcript files. The agent iteratively searches, reads results, reformulates queries, and counts occurrences across episodes. This handles queries like "How many times does Jason say big time?" or "List all the props they talked about buying" that RAG fundamentally cannot answer (RAG retrieves the best-matching chunks, but can't exhaustively scan the corpus).
 
 The agent has 4 tools:
-- **grep_transcripts** — regex search across every episode transcript (~234 episodes, loaded from Blob at runtime)
+- **grep_transcripts** — regex search across every episode transcript (300+ episodes, loaded from Blob at runtime)
 - **read_episode_transcript** — load and read a specific episode's full transcript
 - **search_episodes** — search episode metadata (films, guests, etc.)
 - **list_episodes** — list all episodes with numbers and titles
