@@ -60,10 +60,10 @@ flowchart LR
 - **/api/search/stream** — The primary server endpoint used by the UI (SSE streaming) that orchestrates the whole search flow. (`/api/search` is the non-streaming sibling.) Both endpoints share routing policy and synthesis decisions via a common module (`src/lib/routing-policy.ts`).
 - **Intent detection** — A quick check for “easy” metadata questions (latest episode, total count, episode lookup, guest/reviewer lookup, release date, Kev’s question, etc.).
 - **Query classification** — Labels the question as factual, interpretive, or hybrid, and extracts filters.
-- **Routing gate** — Two-step decision in `routing-policy.ts` that determines whether a query goes to the agent search path or the RAG pipeline. Requires both a feature flag (`AGENT_SEARCH_ENABLED=true`) and a match against `AGENT_ROUTING_PATTERNS` (8 regex patterns). Routes counting/frequency queries, speaker comparisons (“who says X more”), windowed comparisons (“first/last N episodes”), exhaustive listings (“list all...talked about”), temporal ordering (“earliest mention of”), frequency rankings (“most frequent/repeated”), episode counting (“how many episodes discuss”), and multi-episode extraction (“N episodes prior/before/after”) to the agent. Everything else goes to RAG. See `docs/rewrite.md` for full design.
+- **Routing gate** — Two-step decision in `routing-policy.ts` that determines whether a query goes to the agent search path or the RAG pipeline. Requires both a feature flag (`AGENT_SEARCH_ENABLED=true`) and a match against `AGENT_ROUTING_PATTERNS` (~16 regex patterns across Phases A, B, and C). Routes counting/frequency queries, speaker comparisons (“who says X more”), windowed comparisons (“first/last N episodes”), exhaustive listings (“list all...talked about”), temporal ordering (“earliest mention of”), frequency rankings (“most frequent/repeated”), episode counting (“how many episodes discuss”), multi-episode extraction (“N episodes prior/before/after”), cross-episode mention context (“in what context has X been mentioned”), quote finders (“which episode did X say Y”), host-scoped topic search (“what has X said about Y”), existence checks (“has X talked about Y”), persona aggregation (“what are some things X said”), and transcript-excerpt requests (“show me the bit where…”) to the agent. Cross-episode patterns (B11/B12) are **film-gated** — if a specific film is detected, the query is treated as episode-scoped and stays on RAG. Everything else goes to RAG. See `docs/rewrite.md` for full design.
 - **Agent search** — An LLM agent (Sonnet) with tool-use that iteratively greps raw transcript files to answer queries RAG can’t handle (counting, frequency, cross-episode aggregation). Has 4 tools: `grep_transcripts`, `read_episode_transcript`, `search_episodes`, `list_episodes`. Max 10 iterations, 45s timeout. Falls back to RAG on failure. Implemented in `src/lib/agent-search.ts`.
 - **Metadata filters** — Structured filters (guest, film, season, etc.) used to narrow the episode list.
-- **Episode metadata store** — The structured episode database (titles, guests, reviewers, release dates, Kev’s question, summaries).
+- **Episode metadata store** — The structured episode database (titles, guests, reviewers, release dates, Kev’s question, summaries). Also backs a **director-film listing fast-path** (`metadata_director_films` intent) that answers “what X movies have been episodes” deterministically — director name → matching episodes, zero LLM calls — and a **notable-moments keyword fallback** (`searchNotableMoments`) that scans notable-moments fields when the classifier extracts no filters.
 - **Hybrid retrieval** — The transcript search step that combines semantic and keyword search.
 - **Vector store (embeddings, 1536-dim)** — Meaning‑based search over transcript chunks using full chunk text embeddings.
 - **Topic vectors (512-dim)** — Supplemental embedding search over LLM-generated topic summaries. Each standard chunk has a corresponding topic summary (2-4 sentences extracted by Haiku at ingest time) that captures personal anecdotes, tangential topics, and incidental mentions buried in film-focused chunks. Stored in a separate blob, loaded in parallel, fail-open. When a topic vector matches, the parent chunk is returned. Gated by `TOPIC_VECTORS_ENABLED` env var. See `docs/topic-extraction-design.md` for full design.
@@ -85,8 +85,9 @@ Some questions are **really just metadata lookups**, like:
 - "Who was the guest or reviewer on *No Country for Old Men*?"
 - "When did episode 6 release?"
 - "What was Kev's question on episode 1?"
+- "What Villeneuve movies have been episodes?" (deterministic director→episode listing, zero LLM calls)
 
-For these, the system **skips the heavier search** and answers directly from episode metadata (titles, guests, reviewers, release dates, Kev's question, etc.). This is fast and avoids over‑complication.
+For these, the system **skips the heavier search** and answers directly from episode metadata (titles, guests, reviewers, release dates, Kev's question, director filmographies, etc.). This is fast and avoids over‑complication.
 
 If an intent fires but the metadata lookup returns nothing (e.g., the film isn't in the database), the system **falls through** to the full search pipeline rather than returning an empty result.
 
@@ -125,20 +126,36 @@ These filters help narrow down the search to the most relevant episodes.
 After classification, the system checks whether the query should be handled by the **agent search path** instead of the standard RAG pipeline. This is a two-step gate:
 
 1. **Feature flag check**: `AGENT_SEARCH_ENABLED` must be `true` (set via environment variable).
-2. **Pattern match**: The query must match at least one of 8 deterministic regex patterns in `AGENT_ROUTING_PATTERNS`:
-   - **Counting/frequency**: "how many times/how often/every time ... say/said/mention/mentioned"
-   - **Speaker comparison**: "who says X more"
-   - **Windowed comparison**: "first/last N episodes" + comparison word (more/less/most)
-   - **Exhaustive listing**: "list/name all/every" + utterance verb (talked/discussed/mentioned/said/brought up)
-   - **Temporal ordering**: "earliest/first mention/time/instance of"
-   - **Frequency ranking**: "most frequent/common/repeated" + noun (phrases/words/callers/voicemailers)
-   - **Episode counting**: "how many episodes" + topic verb (mention/discuss/cover)
-   - **Multi-episode extraction**: "N episodes prior/before/after"
+2. **Pattern match**: The query must match at least one of ~16 deterministic regex patterns in `AGENT_ROUTING_PATTERNS`, grouped into three phases:
 
-If both conditions pass, the query goes to an **LLM agent** (Sonnet) that has tools to grep raw transcript files. The agent iteratively searches, reads results, reformulates queries, and counts occurrences across episodes. This handles queries like "How many times does Jason say big time?" or "List all the props they talked about buying" that RAG fundamentally cannot answer (RAG retrieves the best-matching chunks, but can't exhaustively scan the corpus).
+   **Phase A** — counting/frequency:
+   - "how many times/how often/every time ... say/said/mention/used/interrupted/called/repeated..." (16 verb anchors)
+
+   **Phase B** — broader aggregation (from feedback analysis):
+   - **B1 Speaker comparison**: "who says X more"
+   - **B2 Windowed comparison**: "first/last N episodes" + comparison word (more/less/most/often)
+   - **B3 Exhaustive listing**: "list/name/what are all/every" + utterance or passive verb (talked/discussed/mentioned/said/brought up/called/described/referred to/labeled)
+   - **B3b Listing (noun form)**: "what are all the mentions/references/discussions/instances of X"
+   - **B3c Listing (times form)**: "all the times X has commented/complained/talked/joked/ranted..."
+   - **B4 Temporal ordering**: "earliest/first mention/time/instance of"
+   - **B5 Frequency ranking**: "most frequent/common/repeated" + noun (phrases/words/callers/voicemailers)
+   - **B6 Episode counting**: "how many episodes" + topic verb (mention/discuss/cover/feature)
+   - **B7 Multi-episode extraction**: "N episodes prior/before/after"
+   - **B8 Cross-episode mention context**: "in what context has X been mentioned", "was X ever mentioned", "are there any mentions of X"
+   - **B10 Quote finder**: "which episode/segment did X say/mention/hum/sing/quote Y"
+   - **B11 Host-scoped topic search**: "what does/did/has [host] say/think/talk about [topic]" — *film-gated*
+   - **B12 Existence check**: "has X talked/spoken/commented about Y" — *film-gated*
+   - **B13 Persona aggregation**: "what are some [adj] things X has said/done"
+
+   **Phase C** — transcript excerpt:
+   - **C1**: "give/show/find/pull up the [X] bit/part/section/moment/riff/rant where/when/about..."
+
+3. **Film-detection gate (Gate 3)**: The cross-episode patterns **B11 and B12 are film-gated** — if a specific film was detected in the query and the *only* matching patterns are film-gated, the query is treated as episode-scoped and stays on RAG (e.g., "what did Haitch say about *They Live*" uses RAG, but "what has Haitch said about Verhoeven" goes to the agent).
+
+If all conditions pass, the query goes to an **LLM agent** (Sonnet) that has tools to grep raw transcript files. The agent iteratively searches, reads results, reformulates queries, and counts occurrences across episodes. This handles queries like "How many times does Jason say big time?" or "List all the props they talked about buying" that RAG fundamentally cannot answer (RAG retrieves the best-matching chunks, but can't exhaustively scan the corpus).
 
 The agent has 4 tools:
-- **grep_transcripts** — regex search across all 300 transcript files
+- **grep_transcripts** — regex search across every episode transcript (~234 episodes, loaded from Blob at runtime)
 - **read_episode_transcript** — load and read a specific episode's full transcript
 - **search_episodes** — search episode metadata (films, guests, etc.)
 - **list_episodes** — list all episodes with numbers and titles
