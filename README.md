@@ -10,6 +10,8 @@ Natural-language search over every episode of the Escape Hatch Podcast. Ask a qu
 
 ### How search works
 
+*For a plain-language, end-to-end walkthrough, see [How a query travels through the search system](docs/query-journey.md).*
+
 1. **Query classification** — Claude Haiku categorises the query as factual, interpretive, or hybrid and extracts filters (guest, film, director, genre, decade, season).
 2. **Intent detection** — Special intents (latest episode, total count, metadata lookups, director filmographies) are routed directly to deterministic aggregates.
 3. **Routing gate** — Aggregation-style questions ("how many times did X say Y", "list every prop they mentioned", "which episode did X say Y") are routed to an **agent search** path: a Claude Sonnet agent with tools that iteratively greps raw transcripts — the kind of exhaustive scan retrieval can't do. Everything else takes the retrieval path below. Falls back to retrieval on failure.
@@ -28,6 +30,20 @@ Natural-language search over every episode of the Escape Hatch Podcast. Ask a qu
 | Storage | Vercel Blob (vector store, topic vectors, BM25 index, transcripts in production), local JSON in dev |
 | Metadata | TMDB (film/director/actor enrichment) |
 | Hosting | Vercel (serverless) |
+
+## Documentation
+
+Deeper reference docs live in [`docs/`](docs/):
+
+**Architecture & search**
+- [How a query travels through the search system](docs/query-journey.md) — the "life of a query," end to end
+- [Agent-grep hybrid search architecture](docs/rewrite.md) — design of the agent search path
+- [LLM topic extraction](docs/topic-extraction-design.md) — the supplemental topic-summary vectors
+
+**Operations & reference**
+- [Transcript & audio lifecycle](docs/transcript-audio-lifecycle.md) — how transcripts and MP3s are created, stored, and accessed across Blob, filesystem, and Git
+- [External search API](docs/external-search-api.md) — stable API seam for third-party consumers
+- [Query use cases](docs/query-use-cases.md) — the query categories used for evals and analytics
 
 ## Getting started
 
