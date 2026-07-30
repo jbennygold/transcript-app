@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 327 episodes - updated 2026-07-30
+// Auto-generated - do not edit - 328 episodes - updated 2026-07-30
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15703,5 +15703,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Ludwig Göransson"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 317,
+    "film": "Barton Fink (1991)",
+    "filmYear": 1991,
+    "releaseDate": "8/2/2026",
+    "length": "",
+    "reviewer": "",
+    "guest": "Dave Mandel",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];

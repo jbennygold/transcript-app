@@ -1,0 +1,4046 @@
+{
+  "episode_number": 317,
+  "episode_name": "Barton Fink (1991)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:28",
+      "text": "He's just telling you he's really into heads. I know how things get bungled up at the head office."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:33",
+      "text": "And we're joined by the co-host of The Stuff Dreams Are Made Of, Dave Mandel."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:38",
+      "text": "Find a writer, just throw a rock. Throw it hard."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:42",
+      "text": "Yeah, whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:43",
+      "text": "Yeah, that may be the smartest guy in the movie. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:46",
+      "text": "The Summer of Jason continues with the Coen Brothers' Hollywood writer's block nightmare, Barton Fink. If you're enjoying the show, we need your help. Take a minute to leave us a five-star rating and review wherever you listen to your podcast, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, Barton Fink. All right, so where do we start? The sights and smells of San Diego Comic-Con or phone throwing at the DNC?"
+    },
+    {
+      "name": "C",
+      "timestamp": "1:31",
+      "text": "Uh, let's start with Comic-Con. Let's, let's, let's have some, let's have some, you know, cinematic joy in our lives, hopefully."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:38",
+      "text": "Dave, you were there. You had your own panel there for Stuff Dreams Are Made Of."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:45",
+      "text": "Stuff Dreams Are Made Of panel."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:46",
+      "text": "That's awesome."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:47",
+      "text": "The, the, the whatever, the recording of it went live on, I guess, Monday, today, yesterday? Yesterday."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:54",
+      "text": "Yesterday."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:54",
+      "text": "With, with Todd McFarlane was our special guest."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:57",
+      "text": "It was really fun."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:57",
+      "text": "Oh my God."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:58",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:58",
+      "text": "That's awesome."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:59",
+      "text": "It is a crazy interview with his stories of cutting open cereal boxes to steal baseball cards. And we went down to the cereal aisle, then one brother would stand here and block and the other one would stand there and block. I would have the X-Acto blade and they'd say, go, and you go, and you could try— you got as many cards out, like cut out illegally, stole, whatever word you want to use."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:26",
+      "text": "It's a gray area."
+    },
+    {
+      "name": "E",
+      "timestamp": "2:27",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:27",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:27",
+      "text": "Just an amazing story."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:29",
+      "text": "Yeah, it's, it's really funny. And yet at the same time, you just keep going like, is this really Todd McFarlane?"
+    },
+    {
+      "name": "D",
+      "timestamp": "2:36",
+      "text": "You know?"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:36",
+      "text": "So, I mean, I had some Superman trading cards and I had some Star Wars trading cards. But I never got like a full set of anything, and I was never into baseball cards. So like that, that was just an interesting insight into something that completely consumed his childhood in a positive way."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:54",
+      "text": "I mean, a real collector's gene, you know, just like the, the, I have to complete this. I have to complete this in a great way."
+    },
+    {
+      "name": "F",
+      "timestamp": "3:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:03",
+      "text": "They call that autism nowadays, I think, is what it is. I had that. I had that for Garbage Pail Kids. Like, I was like, I need all these. I need all of these cards. And that like broke something in me. And I was like, all right, I can't ever do that again. We're gonna, we're gonna have to put that on ice for a while."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:19",
+      "text": "What's that behind you on the, you know, you got like the Elden Ring arm thing back there."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:24",
+      "text": "I got the, I got the, the Arm of Malenia, the Blade of Miquella. She's never known defeat except by me. Um, no, I've got some good shit. I've got some good shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:34",
+      "text": "There's no Garbage Pail Kids behind you though."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:36",
+      "text": "No, there's— so I'm going, I'm going home to St. Louis, uh, in 2 weeks where it was a heat index of 125 this past week. And I plan, I plan to do some light raiding. on my childhood, uh, my childhood memories there. See what, see what things we can bring home with us."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:53",
+      "text": "Very nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:53",
+      "text": "Um, yeah. Mm."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:56",
+      "text": "Well, what's the rest? I will tell you really quickly, because you did say the smells, uh, since COVID this was the first year I didn't wear a mask at Comic-Con. I have been masked every year. And this year I, this year I spoke with my wife, who's a pediatrician, and we talked a lot about it. And it was like, because I'm still wearing masks on airplanes and stuff like that."
+    },
+    {
+      "name": "G",
+      "timestamp": "4:16",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:16",
+      "text": "And she said, we're not, we haven't seen anything in our office. It's, it's pretty It's pretty, seems pretty quiet right now COVID-wise, go for it. And I didn't wear a mask and boy, oh boy, oh boy, did I forget how, I mean, and it was hot down there and the AC wasn't great, but boy, oh boy, boy, I know it's a stereotype, but like, come on, nerds bathe, you know, just bathe a little bit, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:38",
+      "text": "Deodorant, like Sam started using deodorant, he's 8 and a half, this week April was like, it's time. So, you know, you got it."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:47",
+      "text": "I thought, I thought, I thought the punch on that was going to be like, and boy, oh boy, do I have hantavirus now."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:53",
+      "text": "Boy, do I have COVID. My wife is an idiot. I'm sick. I can't smell any— I can't smell anything. Nothing smelled good. It was weird."
+    },
+    {
+      "name": "C",
+      "timestamp": "5:04",
+      "text": "There wasn't any BO smells. There wasn't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "5:09",
+      "text": "Oh man. Well, you did give a quick update. I just want to shout out for folks, uh, your incredible podcast with Dear friend of the pod, Ryan Condal. Um, you guys are all into movie props, and you were the underbidder, I'm sorry to say, on Luke's lightsaber and Luke's cut-off hand. You got close, but maybe not that close as it turns out."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:31",
+      "text": "I mean, I, I, you know, it was, it was sort of said to me basically you weren't gonna win, that whoever the other bidder was just was gonna go forever. So I—"
+    },
+    {
+      "name": "C",
+      "timestamp": "5:40",
+      "text": "What did it sell for?"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:42",
+      "text": "It sold for, uh, It's 3-1 Hammer or 3 Hammer, I guess."
+    },
+    {
+      "name": "C",
+      "timestamp": "5:49",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:50",
+      "text": "Yeah. Yeah. So almost—"
+    },
+    {
+      "name": "C",
+      "timestamp": "5:51",
+      "text": "You and I, you, you and I texted about this, uh, when it went on and I, I didn't realize you were gonna be a bidder on it or I wouldn't have, uh—"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:57",
+      "text": "I wasn't 1,000% sure when it first like went live that I had to have it. I went and saw it in person. I was just like, oh man, this is, this is really good. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:08",
+      "text": "Really special. I, I would've, I would've bet for sure that was going north of 5. Like I just, I, I just was like, oh, some, someone out there has got That's the problem right now, is it really does seem like it is the—"
+    },
+    {
+      "name": "A",
+      "timestamp": "6:22",
+      "text": "right now, I think for a certain class of, Lord knows, I don't know, tech bro guy, this is the— It feels like our ball. This is the Mickey Mantle-signed ball of the tech world."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:36",
+      "text": "Someone cashed in 1/48th of their Anthropic shares."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:42",
+      "text": "Yeah, exactly. It's like they shorted SpaceX or something."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:48",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:49",
+      "text": "Yeah, but unlike, you know, Todd told the story of getting— is it Mark McGwire's, you know, home run baseball for $3 million? And then a year later, there was a new home run baseball. So now, you know, it only went for $500,000, which he also unfortunately bought. But there aren't going to be more Luke's lightsabers that are coming out, right? This is just not—"
+    },
+    {
+      "name": "F",
+      "timestamp": "7:09",
+      "text": "No."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:10",
+      "text": "And that was part of my unfortunate calculation, which was in the last year, the, like, the Vader lightsaber sold. And then I know where another lightsaber, you know, and it was like, well, Well, what else might show this may be not it, but this is gonna be about as good as it gets, and I still lost. So yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:28",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:29",
+      "text": "Well, good try. Good try being the representative. Yeah, we try. Representing for the team."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:34",
+      "text": "Representing for all podcasts everywhere."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:36",
+      "text": "Go on."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:37",
+      "text": "Exactly. Exactly. So now I wanna talk about throwing phones at the DNC."
+    },
+    {
+      "name": "E",
+      "timestamp": "7:43",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:43",
+      "text": "So last time we had you on, we had quite a rollicking political discussion, Dave. So we wanted to get into it again."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:50",
+      "text": "Was there feedback? Did you guys like— know your audience."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:52",
+      "text": "People love it. Like, oh good, people love us talking about politics, especially the chuds."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:57",
+      "text": "They're like, we tune in, we tune in for the movie news, but we don't want that. We want just hardcore politics."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:02",
+      "text": "Yeah, I get it. People, people, absolutely the same people who are mad at Matt for saying a fake Latverian accent when we critiqued the Doomsday trailer. I mean, how can it be fake? It's not even a real country. They are going to be stoked about our Ken Martin analysis."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:18",
+      "text": "This is this. Well, hold on. This is amazing. This is our very first ever viral video. We've got 35,000 views on this on TikTok and 289 comments. I was shocked that people had been yelling at us for days. We had no idea. And yeah, it was all just like that. And I remember in Spider-Man and His Amazing Friends, he, Doctor Doom, does not have an accent. He just has a robot voice, right? That that you know give you some metallic. Doctor Doom. Gosh, I wish I'd brought my autograph book."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:49",
+      "text": "Your attempts at humor bore me, Spider-Man. Fortunately, I won't have to listen to them much longer."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:56",
+      "text": "Right, leadhead. You don't need to have a quote-unquote Latverian accent. So that's my take. Like, you don't need it. What do you think? Am I right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "9:04",
+      "text": "I mean, here's the problem. What Doctor Doom is this? So now we're getting really— we're getting into it. Because he doesn't seem to be the Doctor Doom of went to university with Reed Richards. It seems And again, I know nothing, to be some sort of multiverse, sort of like Tony— at first, I thought it was like Tony Stark becomes Doctor Doom. But now maybe it seems like it's just there is no Tony Stark. I mean, I don't know what I'm looking at. I'll be there. I'm buying a ticket. But I just— so it's hard to kind of go, you know, that Doctor Doom is or isn't supposed to be blank."
+    },
+    {
+      "name": "E",
+      "timestamp": "9:46",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:47",
+      "text": "You know, so who knows?"
+    },
+    {
+      "name": "B",
+      "timestamp": "9:50",
+      "text": "I agree. We're in that stuck place."
+    },
+    {
+      "name": "C",
+      "timestamp": "9:52",
+      "text": "I think he should— I think Robert Downey Jr. should do the whole performance as MF DOOM."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:57",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:58",
+      "text": "They disappoint me. They must work faster."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:01",
+      "text": "But the prisoner. Ah, yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:05",
+      "text": "The young traitor who is trying to turn my people against me."
+    },
+    {
+      "name": "F",
+      "timestamp": "10:09",
+      "text": "Watch him."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:10",
+      "text": "I have special plans for that one."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:15",
+      "text": "Beef rap could lead to getting teeth capped."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:17",
+      "text": "And like, just like, and just do it like a very, a very like faithful recreation of, of MF Doom throughout the entirety of Doomsday."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:27",
+      "text": "I feel like at this point, whatever they haven't like done yet, like when they relaunched the X-Men, it's just like, yeah, and Robert Downey Jr. as Cyclops. And then when they're ready, whatever they're, whatever they're gonna get to, you just throw them in."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:42",
+      "text": "Just, uh, because they have some of like Robert Downey Jr.'s blood in a And so therefore he has to do their willing for this universe and all of the multiverse to come."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:53",
+      "text": "Whatever you come up with, it's just— Yeah, Robert Downey Jr. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:57",
+      "text": "Whatever it takes. Whatever it takes. So, you know, there was a— I mean, there's been a whole flurry of stories that I've been following, but there was a story about Ken Martin in the Times and about him throwing his phone at an intern and basically being afraid of having a coup. Ben Wickler was on Ezra this morning, and that was a great interview."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:16",
+      "text": "I hosted, or co-hosted, co-hosted an event for Ben Wikler and his book last night, which is incredible. Highly recommend. The book is called This Is the Plan."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:26",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:26",
+      "text": "And it's beyond fabulous. I was lucky enough to read an early copy. And I was with Ben Wikler last night. Ben Wikler wants nothing to do with the job. I mean, I don't mean to speak for Ben Wikler. He's not looking at this point to take over the DNC. And everything that Ken Martin is going through and is dealing with right now is of his own making."
+    },
+    {
+      "name": "F",
+      "timestamp": "11:53",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:53",
+      "text": "Because he has run that thing into the ground because he was elected by party hacks who just wanted to make sure they got their equal cut of whatever money there was, with no thought to building out the DNC or the Democratic Party in certain states where it isn't strong enough, blah, blah, blah, blah, blah. You get what you deserve. And you deserve Ken Martin. Yeah. Agreed. You know, party hacks deserve party hacks."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:21",
+      "text": "And that doesn't sound good, Dave."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:23",
+      "text": "It's not great. It ain't great."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:25",
+      "text": "I did a lot of work in 2019 and 2020 supporting the DNC tech team, um, working with Nell after Rafi left."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:32",
+      "text": "Yep."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:33",
+      "text": "Um, and they built a really great tech team to do the kinds of things that we need them to do. So like, you're one of those, uh, you know, donor folks that are, that are influential there. Like, what do, what do we do? How do we try and get this thing righted? Because we're going to miss this opportunity that we have between now and 2028 if we don't."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:53",
+      "text": "Oh yeah. I mean, one of the things that Ben talks about in his book, This Is the Plan, available at Amazon— It's a great book."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:02",
+      "text": "Amazing plug."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:03",
+      "text": "And it's not just him. I'm also active with another group called SLAE, which is the State and Local Election Alliance, who are fabulous as well. I highly recommend them as well. And what everybody's saying, anybody with a brain, is basically talking about you win in 2028 by winning in 2026. That's the part people's brains just don't understand. And sometimes I wonder if Ken Martin understands it. I mean, I hear he's a nice guy, so this is not a personal attack. It just makes me insane. And I just, you know, you do worry, you know, what's the phrase? If we're gonna snatch defeat from the jaws of victory?"
+    },
+    {
+      "name": "D",
+      "timestamp": "13:47",
+      "text": "That's right."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:47",
+      "text": "That starts to feel, you know, What's happening? I've got no great answer, but yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:53",
+      "text": "Jason, what do you think?"
+    },
+    {
+      "name": "C",
+      "timestamp": "13:58",
+      "text": "I just kind of view the DNC as sort of— it's unfortunate that it's being kind of misrun, but it ultimately won't matter. First of all, it's not going to matter for the midterms. We're already on the run to the midterms. And then whoever becomes the nominee is going to remake the DNC into whatever they want."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:18",
+      "text": "Well, I hope so. I mean, because Obama was an incredible president, but did not care much about the DNC."
+    },
+    {
+      "name": "F",
+      "timestamp": "14:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:25",
+      "text": "Did not care much about those midterms and things like that. And I think there was just a real— there's an opportunity to remake some of these state parties, and it's just not being done. And so you just end up— you just look back and go, another lost— I mean, again, these are lost opportunities. That's the issue."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:43",
+      "text": "I mean, this is the fundamental tension is that unlike the RNC, even before Trump, the DNC is a much more federalized, distributed party. system in which the state parties have great control. And it is not possible for— it is structurally very difficult for the DNC, the national DNC, to be like, okay, this is what we're doing. The state parties just have a disproportionate amount of control and they are very interested on the things that affect them directly. And so it is hard to get things done that are obviously strategically meaningful. I mean, one of the initiatives I was involved in previously was like, hey, can we just share data between what the state parties are seeing?"
+    },
+    {
+      "name": "E",
+      "timestamp": "15:22",
+      "text": "I know."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:22",
+      "text": "And it's like, no, it's fucking impossible because no one wants to give away their data. That's one of their key assets."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:27",
+      "text": "No, I understand. What people don't seem to get is that the RNC not only is just doing a better job year in, year out, but they've been running a master playbook basically since, vaguely since the riots and the Civil Rights Act of basically the '60s, but certainly since Nixon was thrown out of office. They have been running a playbook that they have, it was 100 pages and page 99 was create law schools and judges, conservative law schools and judges, then find a way to put them on the Supreme Court bench so they can rubber stamp everything we did. And they got to page 99. Their playbook is just efficient and wild. And we Dems just can't organize like that. We just can't help it."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:20",
+      "text": "Maybe Claude can help us."
+    },
+    {
+      "name": "F",
+      "timestamp": "16:23",
+      "text": "I don't know."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:23",
+      "text": "What if we build bigger data centers? Would that help? Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:26",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:29",
+      "text": "What if we change? What if, what if DNC was Data Center National Committee? What if we just rebranded? Would that make it worth a lot?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:37",
+      "text": "I don't know."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:39",
+      "text": "I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:39",
+      "text": "I just— the, the other thing that I saw this weekend that just broke my heart was Ested Herndon, um, who has the incredible America Actually podcast. He was interviewing Jim Clyburn, and it was just kind of shocking as he was asking him what lessons he thought the DNC establishment should take from the election of Mamdani and from Right. From some of the things that are happening, shifting on, on, you know, people being more against AIPAC funding of candidates and what's going on. And he essentially just said, nope, this is all just media, essentially saying fake news, which was shocking to me that the establishment would think it is okay to just say fake news and there's nothing for us to worry about here. That just seems not good."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:26",
+      "text": "Oh, that's— I had not seen that. That is a tough one. I mean, I guess within a week or so, we're going to know what's going on in Michigan, which is going to be fascinating. Obviously, we have a replacement candidate who is a different human being. I don't think, as far as we know, they body searched him for Nazi tattoos, and he has none."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:48",
+      "text": "Yes. Every main candidate has to go through, like, sort of the Yale naked photo initiation ritual."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:55",
+      "text": "That is a birthmark, I swear! But every bit a working-class guy with deep labor roots as Platner was. I think that's going to certainly be interesting. And don't give up on Dan Osborn in Nebraska, or at least keep your eye on Dan Osborn."
+    },
+    {
+      "name": "E",
+      "timestamp": "18:17",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:17",
+      "text": "And certainly if you're a donor and you're thinking about giving some money, let me tell you, people in Texas, The Talarico campaign, I'm not sure they can even spend any more money."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:29",
+      "text": "They've got the money."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:30",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:30",
+      "text": "That's not where you need to go."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:32",
+      "text": "Take a look at Dan Osborn. Take a look at Iowa. Take a look at Mary—"
+    },
+    {
+      "name": "C",
+      "timestamp": "18:36",
+      "text": "Mary Pétola."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:36",
+      "text": "Pétola. Yes, absolutely. In Alaska. And spread some love with your money a little bit there."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:41",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:42",
+      "text": "You know? Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:43",
+      "text": "Yeah. I think that's well observed. And I think that's the right— I'm very excited for the Michigan primary to be over. I would like nothing more than to—"
+    },
+    {
+      "name": "A",
+      "timestamp": "18:53",
+      "text": "I would like there to be a candidate— Yeah, no, I know. But I would like there to be a candidate. But I am very concerned that whichever side wins, so to speak, that people are going to take their balls and go home. And I'm really concerned about that. That's a good point. Yeah, we Democrats need to understand that it doesn't matter who you were for in the primary. When one of them becomes the candidate, if you go home, then you're going to hand the seat to the Republican. And you have to think about where your values lie. And boy, I'm very nervous. So we'll see."
+    },
+    {
+      "name": "F",
+      "timestamp": "19:30",
+      "text": "I agree."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:31",
+      "text": "And I would just like the record to reflect that I refuse the bait to pick a fight with Representative Jim Clyburn because I wish to remain alive in Democratic politics. So Matt could go out on that plank."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:43",
+      "text": "It's fine. Listen, I didn't say he had a bad Liverian accent. Okay? I did not. Fear to tread."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:51",
+      "text": "He has a terrible South Carolina accent. Go on."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:56",
+      "text": "Dave Mandel, showrunner of Veep, writer on Seinfeld, Curb, White House Plumbers, co-host of Stuff Dreams Are Made Of. Welcome back to the pod."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:06",
+      "text": "What a rock fucking resume this guy has. It's ridiculous. It's like, it's like, it's a real crawl. Like, really just, it's amazing."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:14",
+      "text": "Oh my God."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:14",
+      "text": "Dave, why thank you, brother."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:15",
+      "text": "This is your 10th episode."
+    },
+    {
+      "name": "E",
+      "timestamp": "20:16",
+      "text": "Is this? Oh my God."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:17",
+      "text": "What do I get? What do I get? What do I—"
+    },
+    {
+      "name": "B",
+      "timestamp": "20:20",
+      "text": "do I get a pass?"
+    },
+    {
+      "name": "F",
+      "timestamp": "20:21",
+      "text": "You get it."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:21",
+      "text": "You know, you get an immediate invite for episode 11 and probably a request."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:25",
+      "text": "We'll book you for 11 and 12, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "20:27",
+      "text": "And, and a request for Matt to, uh, connect us with Ben Wickler so we can book him as well."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:33",
+      "text": "We're just—"
+    },
+    {
+      "name": "C",
+      "timestamp": "20:33",
+      "text": "that's right, we're— it's just gonna be more bookings."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:36",
+      "text": "They always be closing."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:39",
+      "text": "Uh, how go with the big summer? How go with the, uh—"
+    },
+    {
+      "name": "C",
+      "timestamp": "20:42",
+      "text": "The summer has been great for me. The summer of Jason has been delightful. All we're doing is covering sort of you know very thinky, heady, pretentious bullshit every week. It's been great. I really enjoyed it."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:00",
+      "text": "Odyssey was a was a really fun. Like we don't do."
+    },
+    {
+      "name": "C",
+      "timestamp": "21:03",
+      "text": "Odyssey was great."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:04",
+      "text": "Like current movies very often. So it was really fun to go see a movie in the theater and turn around and talk about it. But this week we are really going there. Jason's been really enjoying our Coens run. And this week we are doing the 1991 Hollywood nightmare Barton Fink."
+    },
+    {
+      "name": "E",
+      "timestamp": "21:21",
+      "text": "Woo!"
+    },
+    {
+      "name": "B",
+      "timestamp": "21:23",
+      "text": "Barton Fink. So that is in just a few minutes before we do Jason next week. The Summer of Jason continues. And I have to say, speaking of summer, this is probably now, Dave, 2 years ago, maybe 3 years ago on your podcast, you interviewed the guy who wrote the book The Future Was Now."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:40",
+      "text": "Yes. Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:41",
+      "text": "About all of the films that came out in 1982. And we have done Almost every single one. We've done every single one that he has listed in his book except for one, and next week we are going to be tackling at last E.T., baby! We are going there and we are making it happen. So I'm thrilled."
+    },
+    {
+      "name": "E",
+      "timestamp": "22:06",
+      "text": "I need E.T."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:06",
+      "text": "to heal my ears after that music."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:09",
+      "text": "Sorry, sorry."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:11",
+      "text": "And yeah, the end of end of the. 4th grade, uh, 4th grade graduation party at E.T. for, uh, wow, with girls, with girls in the theater."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:22",
+      "text": "Wow, that's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:23",
+      "text": "That's amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:24",
+      "text": "No one sat next to the girls, but anyway."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:26",
+      "text": "Well, it's good because then they wouldn't see you, they wouldn't see you cry when E.T. was briefly dead."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:31",
+      "text": "That was scary. That was sad."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:33",
+      "text": "Very scary."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:34",
+      "text": "Uh, so very—"
+    },
+    {
+      "name": "C",
+      "timestamp": "22:35",
+      "text": "I haven't seen that movie in 30 years easily."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:37",
+      "text": "I have not Is it still—"
+    },
+    {
+      "name": "C",
+      "timestamp": "22:39",
+      "text": "is the music still meant to be going during this part of the podcast?"
+    },
+    {
+      "name": "B",
+      "timestamp": "22:42",
+      "text": "I mean, we'll figure it out. Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:47",
+      "text": "It's also my theme music, so it's, it's E.T., but it's also—"
+    },
+    {
+      "name": "B",
+      "timestamp": "22:51",
+      "text": "That's your walk-on music?"
+    },
+    {
+      "name": "A",
+      "timestamp": "22:52",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:52",
+      "text": "Yeah, episode 10."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:55",
+      "text": "And joining us for that, this is his second time on the podcast, the author of David Lynch's Dune: Masterpiece in Disarray is back for his new book, which is about how Spielberg got from Strange Skies or whatever it was called, to turning it into E.T. And that is Max Every."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:18",
+      "text": "Oh, so he's—"
+    },
+    {
+      "name": "A",
+      "timestamp": "23:20",
+      "text": "this is a book? This is a book on the making of E.T.? Fascinating."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:23",
+      "text": "I gotta check that out. The Lynch one is the book I know. I haven't read that one. Is the E.T. one out?"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:29",
+      "text": "It's pre-order."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:30",
+      "text": "Pre-order comes out after pre-order. Okay. Yeah, yeah, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:32",
+      "text": "But you should check out Lynch. Yeah, Masterpiece in Disarray. Great Great, great book. So that is next week. E.T. Do you want me to play the sounder again, Jason?"
+    },
+    {
+      "name": "C",
+      "timestamp": "23:42",
+      "text": "No, please. I'm good. I'm good."
+    },
+    {
+      "name": "F",
+      "timestamp": "23:43",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:43",
+      "text": "We'll leave it."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:44",
+      "text": "Listen to your heart light."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:48",
+      "text": "Can we do some quick hatch news?"
+    },
+    {
+      "name": "C",
+      "timestamp": "23:51",
+      "text": "Would you like to know more hatch news from beyond?"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:57",
+      "text": "All right. So we hit doomsday. We don't have to talk about that anymore. Jason. Friend of the pod, Jonathan Tropper, who is he's been on the pod a couple of times and then is currently doing Your Friends and Neighbors Season Three with Hoon. We're working on lining up the two of them to come back on the pod together. But he obviously wrote Starfighter for Ryan Gosling and Sean Levy, and now the three of them are teaming up again for Ghost Rider."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:28",
+      "text": "Ghost Rider. I missed that Tropper was writing it. I saw the Sean Levy Gosling. I didn't know Tropper was writing. That's great. God, I love. I love when the blessings come in for our friends."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:36",
+      "text": "That's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:37",
+      "text": "It's crazy!"
+    },
+    {
+      "name": "B",
+      "timestamp": "24:39",
+      "text": "How are you— does Ghost Rider do anything for you, Dave? Or where are you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "24:42",
+      "text": "I'm excited. I mean, it's an example of— I think I'm more interested in the fact that Ryan Gosling is doing it than I am— Ghost Rider as a comic is fine for me. It's neither here nor there. Certainly really, really cool looking, but I'm definitely excited. I will say this, with no offense to Shawn Levy, who I think is super talented, whatever. I, I do wish that just other people were allowed to direct Ryan Gosling movies. Uh, but I guess Starfighter's good, I hope. Uh, so who knows?"
+    },
+    {
+      "name": "E",
+      "timestamp": "25:13",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:13",
+      "text": "I would like other people to get time with Gosling as well. Share the Gosling. Don't Bogart the Gosling, I think, is a good policy. I like this, I like this backstory on Ghost Rider, which is that— I don't know if this is— I haven't fact-checked it. I just— it might be AI slop, but that Gosling saw, uh, Ghost Rider '07 with Nic Cage, and Eva Mendes is the, the lady in that."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:38",
+      "text": "Oh."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:39",
+      "text": "Uh, and was like, I like that. I like that lady."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:41",
+      "text": "And then married her."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:43",
+      "text": "And then married her. And now is like— Whoa."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:45",
+      "text": "And is not— is now not letting her be in the movie at all."
+    },
+    {
+      "name": "F",
+      "timestamp": "25:49",
+      "text": "Yeah. Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:51",
+      "text": "That's amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:52",
+      "text": "I'm taking this part of the story. Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:54",
+      "text": "That's crazy. I— so I was really disappointed, uh, 'cause I didn't want him to be wrapped up in, in more, like, Marvel IP stuff. Stuff or whatever. But the fact that he really apparently has been a big Ghost Rider fan and has wanted to do this, so that, that makes it okay for me."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:09",
+      "text": "Um, I mean, it's convenient that the, the character that he was most drawn to is the one that was available, right? But sure, whatever he wants to do. He's very charming."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:19",
+      "text": "Very charming. Speaking of very charming and one of the best accents of all time, this is crazy. Ryan Coogler is coming back for Black Panther 3."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:30",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:31",
+      "text": "And Jason, they cast your boy David Jonasson from Industry."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:35",
+      "text": "I know, I absolutely fucking love him. He's great. Um, I haven't even seen Alien: Romulus, in which he's also apparently really good."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:42",
+      "text": "He was really good. The movie sort of falls apart, but he's quite good in it."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:45",
+      "text": "Yeah, he's amazing in the first season of Industry. He's very, very compelling."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:51",
+      "text": "Um, and so the zero-g segment, the zero-g scene in Romulus was awesome. Like, that was just like a crazy—"
+    },
+    {
+      "name": "C",
+      "timestamp": "26:57",
+      "text": "I gotta see this But yeah, he's, he's a really great actor. I love him. And so I'm excited for, for this. I didn't even know there was a Black Panther 3, but I'm excited that it's him and Kukui."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:10",
+      "text": "Yes. Yeah. And he's playing T'Challa's son, who is aged up. And, and so, you know, we'll have a T'Challa again back in the suit. So that's, that's pretty exciting. Some of the other stuff that dropped that was just crazy. This is a big week for Hatch News. The new Lanterns trailer dropped. So Obviously, Dave Watchmen done by Damon Lindelof, like, there's no reason in the world to expect that that could possibly be good. And then to have it be one of the best TV shows of the last 10 years is just amazing. So we were excited to see him come back. And it seems a little weird. They're like, it's True Detective plus Green Lantern. Seems a little weird, but it looks cool to me."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:50",
+      "text": "I thought every trailer I've seen is great. I mean, I would probably watch Kyle, what's his name? Like, like I don't know. You know, read the phone book. He's sort of. It may be the most perfect Hal Jordan ever. You know what I mean? So I'm I'm pretty on board. I gotta say. Yeah, I'm pretty on board."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:09",
+      "text": "Hell yes!"
+    },
+    {
+      "name": "E",
+      "timestamp": "28:11",
+      "text": "We all fall."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:11",
+      "text": "We all fall. Blade Runner 2099. Speaking of things that aren't supposed to work. Okay, Dave is skeptical."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:19",
+      "text": "Okay, I'm very skeptical. I'm very skeptical. It looks bad."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:24",
+      "text": "I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:25",
+      "text": "Yeah, it wasn't even that it looked bad."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:27",
+      "text": "It felt bad. Like, it just— it was— I don't know how to explain it. It's like, you know, flying cars, everything, the music, everything was right. We love Hunter Schafer."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:39",
+      "text": "No shade to Hunter Schafer, but something is not right."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:41",
+      "text": "No, it just wasn't Blade Runner. I don't know what it was, but it wasn't Blade Runner. It just—"
+    },
+    {
+      "name": "F",
+      "timestamp": "28:45",
+      "text": "I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:45",
+      "text": "Didn't do it."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:47",
+      "text": "It looks very cheap."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:50",
+      "text": "Gave me the icks, as the kids say. I got big icks from it. I don't know why."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:55",
+      "text": "Yeah, I think it's very difficult because Blade Runner is such an aesthetically driven property. Like, you know, it, it really is just like— I mean, that's why 2049 was such a risk, is just like, you've really got to have—"
+    },
+    {
+      "name": "A",
+      "timestamp": "29:07",
+      "text": "And 2049 came pretty darn close in a lot of different ways, and even that didn't quite hit it."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:14",
+      "text": "It doesn't work for some people. It's personally my favorite. I like it."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:16",
+      "text": "I do like it, but I, I just— it, it wasn't exactly Blade Runner. But this doesn't—"
+    },
+    {
+      "name": "C",
+      "timestamp": "29:22",
+      "text": "I don't know, Like, this looks like a fan version of Blade Runner to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:27",
+      "text": "Yeah. Oh no."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:28",
+      "text": "It also—"
+    },
+    {
+      "name": "C",
+      "timestamp": "29:28",
+      "text": "I don't love it."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:29",
+      "text": "It also looks like a lot of AI without knowing anything."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:32",
+      "text": "It did look sloppy. It looked a little sloppy."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:36",
+      "text": "All right, hold on. So let's just slow down for just a second here. So first of all, you have Rob Hardy is one of the DPs. There's a bunch of DPs that worked on this, but Rob Hardy, who is your Elden Ring guy's— your Elden Ring director's guy."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:50",
+      "text": "All right, Alex Garland?"
+    },
+    {
+      "name": "B",
+      "timestamp": "29:51",
+      "text": "Garland. He's Garland's guy for tons of his stuff. You also have many people that worked on Andor, including Ariel Kleeman, who directed 3 episodes, I think, in season 3."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:00",
+      "text": "Yeah, there's no season 3, but—"
+    },
+    {
+      "name": "B",
+      "timestamp": "30:03",
+      "text": "Season 2, you know, he's got, he's got some really good, some really good talent that's there. And I think the premise of saying this isn't about a— this isn't about replicants trying to blend in as humans, it's about a human trying to blend in as a replicant."
+    },
+    {
+      "name": "F",
+      "timestamp": "30:17",
+      "text": "Sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:18",
+      "text": "I think that's a, that's a very cool idea. Um, so I kind of, I Like I like that central framing of it. Yeah, that's fine. I hear you. I mean, I'm nervous."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:28",
+      "text": "And the showrunner is doesn't really have like a credit like that makes me necessarily seem super optimistic. But conversely, on deposit, maybe it will be amazing. I'll certainly watch it. Conversely, looked fucking awesome."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:43",
+      "text": "The neuromancer looked really great."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:46",
+      "text": "Looked real good. Looked real good. I was like. Okay, like, now we're— now we're doing it."
+    },
+    {
+      "name": "E",
+      "timestamp": "30:51",
+      "text": "Now we're—"
+    },
+    {
+      "name": "A",
+      "timestamp": "30:51",
+      "text": "Now I will admit, part of me felt like no one should ever try and film that, but I— of course I'm— but I will be there. I will be there for it."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:58",
+      "text": "Yeah, Neuromancer looked like an easy day one watch to me. I was like, yeah, I will 100% watch this when it comes out. Yeah, hope for the best."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:05",
+      "text": "Um, Callum Turner, that guy's going places."
+    },
+    {
+      "name": "C",
+      "timestamp": "31:08",
+      "text": "Um, yeah, maybe. Uh, yeah, he's going places. He's got— he's, he's getting cast and shit. That sounds Good. Yeah, yeah, yeah. Who's showrunning? Who's who's showrunning the Neuromancer show? I don't remember."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:23",
+      "text": "I don't I don't remember. But but Gibson is involved. Apparently he's like been on set and and and staying staying plugged in."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:29",
+      "text": "So I'm not sure he was on set, but he definitely jacked into the set."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:37",
+      "text": "Speaking of jacking in Rings of Power season three."
+    },
+    {
+      "name": "C",
+      "timestamp": "31:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:43",
+      "text": "Dave, you are not watching the show, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:45",
+      "text": "Neither of you guys are watching the show. I'm not watching the show, although I do like that Jamie what's-his-name from Stranger Things, and I did see him a lot in the trailer, which I did look at. I don't know. I'm sorry. Should I watch it? I don't know."
+    },
+    {
+      "name": "E",
+      "timestamp": "31:56",
+      "text": "I—"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:57",
+      "text": "it just— I don't know. It bores me. What little I saw of the first season bored me. I'm sorry."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:01",
+      "text": "Yeah, I hear what you're saying, and I think it has— it has— it strikes and gutters. It's not, you know, it's not all home runs, but it definitely has some amazing stuff that they're doing, and season 2 had some really high highs. Uh, that I—"
+    },
+    {
+      "name": "C",
+      "timestamp": "32:14",
+      "text": "and season 3 is supposed to be like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:16",
+      "text": "it—"
+    },
+    {
+      "name": "C",
+      "timestamp": "32:16",
+      "text": "like there's someone— oh, Simon Pegg is voicing the Balrog. I saw it as a credit announcement, which seems like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:22",
+      "text": "I don't know."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:22",
+      "text": "Yeah, I didn't know the Balrog had lines."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:28",
+      "text": "I mean, it makes sense because the Balrogs were like— they are intelligent, and they were like— they were like Balrog captains, and, and I, I guess they're the same."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:36",
+      "text": "But he's playing— he's playing Durin's Bane. He's playing the more— he's playing the Balrog. Uh, okay, so I don't, I don't know. I'm not sure. It would be amazing, Dave. It would be amazing if in this season 3, if like there was like a, like a page and a half soliloquy by the Balrog. Like, it would be— it would be a pretty—"
+    },
+    {
+      "name": "A",
+      "timestamp": "32:56",
+      "text": "Don't make me do this."
+    },
+    {
+      "name": "G",
+      "timestamp": "32:58",
+      "text": "I like the helmet."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:03",
+      "text": "The helm, the, the, the crown looks cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:05",
+      "text": "I love you, Balrog."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:07",
+      "text": "He just like starts doing the St. Christmas Day speech or something. Like, it's just like, it could be amazing. Look, I'm very much in the bag for Lord of the Rings. I just finished our, um, Barad-dûr, um, uh, Lego set."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:24",
+      "text": "Lego set."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:25",
+      "text": "Yeah, which was amazing. A very fun build. I've got my Gollum with ring in hand as we speak."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:33",
+      "text": "Nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:33",
+      "text": "Um, the kids love playing with the minifigs. I love Lord of the Rings. We talk about it all the time. I just haven't watched season 2. I don't know. I'll get to it eventually, I guess."
+    },
+    {
+      "name": "E",
+      "timestamp": "33:41",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:42",
+      "text": "I had this vision that we were gonna save the movie until my kids all read the books, and I've now come to the realization that's never— as my daughter plans to leave for college in August, that that's never gonna happen. As my illiterate daughter goes to college this fall, I realize that we will not. I, I think at some point I'm gonna just force them before she goes, like, her—"
+    },
+    {
+      "name": "C",
+      "timestamp": "34:07",
+      "text": "To watch it?"
+    },
+    {
+      "name": "A",
+      "timestamp": "34:08",
+      "text": "Her gift to me before she goes is we watch all 3 extended cuts just in one, in one sitting, you know? No, just all day."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:17",
+      "text": "Yeah, we did it for Christmas last year with the 5-year-old and the 7-year-old, and it went great. Um, so never too, never too young."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:24",
+      "text": "We did theatrical over 3 days, and it was really theatrical."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:27",
+      "text": "We didn't do extended."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:28",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:29",
+      "text": "I sort of feel like if I'm only gonna get them once, I feel like I should do extended, but I don't know, maybe."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:34",
+      "text": "No, for sure. For sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:35",
+      "text": "Last piece, uh, kind of from coming out of, um, uh, San Diego— Spaceballs and the Spaceballs Cinematic Universe bit."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:46",
+      "text": "Uh, I don't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "34:47",
+      "text": "I never had any attachment to Spaceballs."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:50",
+      "text": "Oh, I love Spaceballs. You guys are older. I was in like the, the summer camp— the summer camp year when Spaceballs came out was one of the best summer camp years of all time."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:01",
+      "text": "It was just constant Spaceballs jokes, like for a solid 3 I mean, like all Mel Brooks movies, there's a couple of jokes in there that kill me. I think I have other favorites, but there seems to be a lot of love in this one. And I did— I will give them credit, as I didn't see the panel, but I saw some of the graphics from the panel. Did you see their Phase 1, Phase 11, Phase 12?"
+    },
+    {
+      "name": "C",
+      "timestamp": "35:25",
+      "text": "No, I didn't see it."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:27",
+      "text": "It was really well done. Like, like some really smart comedy writing of of the order you had to watch them and stuff. It was really funny, really confusing on purpose. I will be there. I will be there opening night. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:40",
+      "text": "I don't know the extent to which Mel Brooks was involved in the graphics for the panel or whatever, but I have this argument, Dave, that if you look at the integral of funny, like who has the sum total of the most funny, I think Mel Brooks might just have it because he's 100 years old and he's been— He goes back to the '50s, right? And it's, and his shit has always killed. Like he's just always been so funny. But it is one of those funny things."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:07",
+      "text": "If he literally had like only done the Sid Caesar show, Sid Caesar stuff, right? And then been like run over by a car, he would still be one of the funniest people ever. But then it's like, oh, and then he made The Producers, and then he did this, and then he did 2000 Years. So yeah, no, he is up there."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:23",
+      "text": "Yeah, he's, he's, it's just really, it's a really amazing like testament to like, because it's hard. Like, I mean, like it's very difficult to like be funny, like, like for, you know, a crowd. like, time— like, you know, just generational divides. Um, but he figured something out. He figured something out. Love that guy. In awe of him."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:43",
+      "text": "Absolute hero. Absolute hero. Um, my last piece of Hatch news is mail day, baby!"
+    },
+    {
+      "name": "C",
+      "timestamp": "36:51",
+      "text": "Oh, what is that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "36:53",
+      "text": "Kill Bill: The Whole Bloody Affair 4K."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:56",
+      "text": "You know what? I think mine is sitting with the doorman, so, uh, I, I look forward to it."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:01",
+      "text": "I thought it was like an infrared mask that you had bought that you were using to, like, you know, preserve your youthful features."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:06",
+      "text": "Dave and I both saw that last year at the Vista. That was last year, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:10",
+      "text": "Yeah, I think so."
+    },
+    {
+      "name": "F",
+      "timestamp": "37:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:11",
+      "text": "And that was QT's personal print that had the French subtitles on it. So it'll be fun to see the 4K cleaned up without the subtitles and really watch it."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:20",
+      "text": "You know what I just ordered on 4K, or I think preordered on 4K?"
+    },
+    {
+      "name": "B",
+      "timestamp": "37:23",
+      "text": "What's that?"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:24",
+      "text": "I don't know if you guys have ever done it. Have you guys ever done Night of the Comet?"
+    },
+    {
+      "name": "D",
+      "timestamp": "37:27",
+      "text": "Mm-mm."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:27",
+      "text": "No, but it's been hotly requested."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:30",
+      "text": "It's hotly requested."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:31",
+      "text": "Put me down for number 11. Schedule it whenever you like."
+    },
+    {
+      "name": "F",
+      "timestamp": "37:35",
+      "text": "Oh, great."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:36",
+      "text": "Great."
+    },
+    {
+      "name": "F",
+      "timestamp": "37:37",
+      "text": "Amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:37",
+      "text": "Oh, fuck me. I love that movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:39",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:39",
+      "text": "Oh, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:40",
+      "text": "Well, listen, V is still sitting there, right? We still have to do V."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:43",
+      "text": "No, we got a lot. We got so many."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:44",
+      "text": "We have a lot of business."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:45",
+      "text": "We're gonna get to 25 before you know it."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:47",
+      "text": "Yeah. Well, we also have a question of whether we're gonna do Serious Man or not, because I haven't found anybody to do Serious Man. I've never seen it. Um, it's not one of their well-known Coens."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:56",
+      "text": "Um, it is good. It's just not fun."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:59",
+      "text": "Oh yeah, that was— you were— that was not yours."
+    },
+    {
+      "name": "F",
+      "timestamp": "38:01",
+      "text": "I think—"
+    },
+    {
+      "name": "B",
+      "timestamp": "38:02",
+      "text": "yeah, I tried to get you to pick it."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:03",
+      "text": "I was given the choice and I begged for Barton Fink because Barton Fink is fun."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:08",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:08",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:13",
+      "text": "Speaking of Barton Fink, are you guys ready to get into this movie?"
+    },
+    {
+      "name": "E",
+      "timestamp": "38:16",
+      "text": "Yes, sir."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:17",
+      "text": "All right, here we go. Barton Fink is the dark places we will go to to express the pain we all hold inside. In 1941 New York, New York, fresh off a smash Broadway play, an earnest young playwright is lured to Hollywood and installed at the decaying Hotel Earl to write a B-quality wrestling pic for powerful studio mogul Jack Lipnick."
+    },
+    {
+      "name": "F",
+      "timestamp": "38:43",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:44",
+      "text": "But the words won't come. Paralyzed at his typewriter in a sweltering room where the wallpaper has already begun unraveling, he meets his neighbor Charlie Meadows, a warm, sweating insurance salesman brimming ...with stories of ordinary life. Flailing to find a story that will convey the life of the mind inside of him, he will turn to an uncaring producer, a drunken Southern novelist, and his tender secretary, Audrey, for guidance."
+    },
+    {
+      "name": "G",
+      "timestamp": "39:10",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:12",
+      "text": "But when faced with murder and the flames of perdition itself, he will be left wondering if the world would be better off never hearing another story written."
+    },
+    {
+      "name": "F",
+      "timestamp": "39:31",
+      "text": "Mm."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:32",
+      "text": "Good one. Good one. I like the focus on the writing and the difficulty. It's good."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:37",
+      "text": "Yes. Yes. So, Dave, what is your history with Barton Fink?"
+    },
+    {
+      "name": "A",
+      "timestamp": "39:44",
+      "text": "Saw it in the movie theater. Saw it in the movie theater at college. I believe I saw it up in Cambridge, Massachusetts. Saw it, was in a very— at that point, that's a hell of a run for the Coen Brothers. If you go back to— sorry, my phone is for whatever reason—"
+    },
+    {
+      "name": "B",
+      "timestamp": "40:06",
+      "text": "Blood Simple, Raising Arizona, Reservoir Dogs."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:09",
+      "text": "Blood Simple forward. Yeah, it's just an insane run. And I was particularly obsessed with both Barton Fink and Miller's Cross just in a sort of boom-boom sort of situation there. At the moment I saw it, I was sort of wrestling with my own sort of like, I think I'm gonna try and do this writing thing. So it was a very sort of interesting movie to see with— again, I wasn't going through writer's—"
+    },
+    {
+      "name": "B",
+      "timestamp": "40:38",
+      "text": "You're like, this looks fun."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:38",
+      "text": "Yeah, I wasn't going through writer's block, and I wasn't even like, oh, I'm gonna move to LA. But it was that thing of like, I think this is what I'm going to do, which perhaps made the movie just even that much funnier to me. But I was reveling in sort of all things Coen at the time. You know, John Goodman again. What's his name?"
+    },
+    {
+      "name": "B",
+      "timestamp": "40:59",
+      "text": "John Polito."
+    },
+    {
+      "name": "F",
+      "timestamp": "41:00",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:01",
+      "text": "Polito. All these sort of different— so I just— it really, really hit me where I was living at the time. So yeah. Mm."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:10",
+      "text": "Nice."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:11",
+      "text": "Jason?"
+    },
+    {
+      "name": "C",
+      "timestamp": "41:11",
+      "text": "I saw it later when I— my Coen— 'cause I was in middle school when it came out. And so I didn't— hadn't yet, like, sort of activated my my Coen love. Um, and, uh, I went and I was like, okay, let's just see everything from these guys. And I didn't love it the first time I saw it. I was like, okay, it's not as like— it didn't— it was like, it's like a lot darker. It didn't seem as fun. I was really love— I love The Hudsucker Proxy. I love Raising Arizona. I was like, I want to see like, you know, the—"
+    },
+    {
+      "name": "A",
+      "timestamp": "41:35",
+      "text": "See, it's funny. I, I love, I love Raising Arizona. Not big on Hudsucker Proxy."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:39",
+      "text": "Hudsucker's a pretty polarizing one for people."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:41",
+      "text": "We'll get there."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:42",
+      "text": "Um, I think that's a Tim Robbins problem. Anyway, go on."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:45",
+      "text": "It could be."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:46",
+      "text": "It could well be. And I was like, oh, let's see this one. I was like, oh, this is fucking weird. Like, what is this even about? And then I think it's really only after sort of like understanding the sweep of like what the Coens are interested in, which we'll talk about during the course of the episode, and seeing like you know No Country, which I think is like you know like sort of the pinnacle for them, and a bunch of the other kind of like heavy hitters where they really kind of revisit similar territory into Barton Fink. I was like, okay, I see what they're doing here. And then I revisited. it, and I'm like, oh, this is just a delight. Like, when you know— when you kind of know what the game is, um, I feel it's much more, um, much more pleasing. And, and it's now one of my favorites because I like this branch of the Coens, uh, very much."
+    },
+    {
+      "name": "G",
+      "timestamp": "42:27",
+      "text": "Wow."
+    },
+    {
+      "name": "E",
+      "timestamp": "42:28",
+      "text": "Dang."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:30",
+      "text": "Um, well, as we've discussed on this pod many times, Miller's Crossing was my favorite movie of all time when it came out. And I, and I saw it, I was like, this is absolutely incredible. And that same year Wild at Heart came out, which I absolutely was obsessed with. I was—"
+    },
+    {
+      "name": "E",
+      "timestamp": "42:45",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:46",
+      "text": "I was very big into David Lynch, obviously, from Dune through Blue Velvet and into Wild at Heart. There was something so powerful in what he was doing. And that year, I was so mad because Wild at Heart won the Palme d'Or, and Miller's Crossing didn't. And I was just furious about that. And then, 2 years later, you have this film comes out, and the craziness has been taken to 11. All the, you know, the finale and Goodman going crazy. And I was like, these guys have just sold out, and they're now biting Lynch's style with Barton Fink. And then that goes on to win at the Palme d'Or. And I was just like, I was very annoyed by that. And I thought like it was fine."
+    },
+    {
+      "name": "G",
+      "timestamp": "43:32",
+      "text": "Me too."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:32",
+      "text": "But I felt like it was like this big reaction to David Lynch."
+    },
+    {
+      "name": "F",
+      "timestamp": "43:35",
+      "text": "Lynch."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:36",
+      "text": "And then Hudsucker after that, I'm like, I'm just out on the Coens. It's not working for me. I've got Raising Arizona, I've got Miller's, I'll be happy. And I didn't come back until really Fargo and started to kind of come back to truly loving them. So this was a— this was always a weird one for me, and I never revisited it from when I saw it."
+    },
+    {
+      "name": "C",
+      "timestamp": "43:57",
+      "text": "Salted the earth and refused to cover it for 6 years on the Until now."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:02",
+      "text": "Until the summer. The summer of Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:05",
+      "text": "Summer of Jason."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:06",
+      "text": "Jason on the beach looking out over the ocean. So, quick behind the scenes. They wrote this because they were having their own writer's block on Miller's Crossing. They were totally stalled and they couldn't finish it. So they basically stepped away, and then they wrote all of Barton Fink in 3 weeks, which is pretty crazy. Then they went back and finished Miller's Crossing. This was the only film in history to win the coveted Cannes Triple Crown. Palme d'Or, Best Director, and Best Actor, John Turturro, at the '91 festival."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:40",
+      "text": "This is, this is a movie the French will like for sure. This is, uh, this is, this is guided towards the Gallic sensibility."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:47",
+      "text": "Well, I— yeah, and also, you know, um, you know, potential, uh, pool house guest for, for Dave, uh, you know, the, the panel was chaired by Roman Polanski. So they actually prompted a rule to— that's a deep podcast cut for his pod. This prompted a rule change where they capped how many prizes one film could win."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:09",
+      "text": "Oh, I had no idea. Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:11",
+      "text": "Yeah, it is the only one to get all 3. They definitely did write the story for Turturro and Goodman specifically. They knew that was the plan. But the budget, $9 million worldwide. $6 million."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:26",
+      "text": "Okay, so we'll listen. But I mean, look, I pay— I bought a copy just this week, so it's gonna— it's doing fine. There's a long tail. There's a long tail."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:36",
+      "text": "Yes. Yeah, there is a long tail. At the box office in 1991, Terminator 2."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:43",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:45",
+      "text": "Silence of the Lambs."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:47",
+      "text": "Sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:47",
+      "text": "Robin Hood: Prince of Thieves, JFK, The Fisher King, And Naked Lunch."
+    },
+    {
+      "name": "F",
+      "timestamp": "45:53",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:54",
+      "text": "Did this get any— I know it didn't win any Oscars, but did this get nominations? I have no memory of any of that kind of stuff."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:00",
+      "text": "Good question. I don't know, actually."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:03",
+      "text": "Obviously, that's the year silence swept everything. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:07",
+      "text": "Yeah. Best Supporting Costume and Production Design."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:10",
+      "text": "That's it."
+    },
+    {
+      "name": "F",
+      "timestamp": "46:11",
+      "text": "Okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:12",
+      "text": "Best Supporting for whom?"
+    },
+    {
+      "name": "C",
+      "timestamp": "46:13",
+      "text": "For Michael Lerner as Jack Lip. No, for Michael Lerner."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:19",
+      "text": "Unbelievable performance. Which, if memory serves, there was a good story. I think he, like, ran his own campaign. It was one of those, like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "46:25",
+      "text": "Oh, really?"
+    },
+    {
+      "name": "D",
+      "timestamp": "46:26",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:26",
+      "text": "I think so, 'cause he was not anybody's, you know, like, he was sort of unknown at the time. Yeah. Something like that. It's been a while."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:34",
+      "text": "That makes a lot of sense."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:35",
+      "text": "There's also— there's a good Coen Brothers, like, screenplay book that has an introduction by their editor, Roderick Thorp, who doesn't exist. It's just them. That's their fake name for their editor. And so it's them writing their own introduction, talking about how them as their editor doesn't really like them, which is a very enjoyable book. I believe it's been a while since I read it, but those are, those are a couple of Barton Fink memories that I have buried in my brain somewhere."
+    },
+    {
+      "name": "D",
+      "timestamp": "47:05",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:06",
+      "text": "There's a, there's an Entertainment Weekly story about Michael Lerner's campaign for the supporting actor, and it has one of the best leads of any Hollywood story I've ever read, which I will now read to you. This is from March 27th, 1992 Entertainment Weekly, written by Jeffrey Wells and Benjamin Svetke. Michael Lerner was working his way through the celebrity-studded crowd at Liz Taylor's birthday bash at Disneyland last month when Shirley MacLaine rushed over and gave him a big gushy hug. Quote, actors I've never met before have been running up to me with nice things to say, the 50-year-old character actor reports. I've been at it for 24 years, but now I'm an overnight success."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:48",
+      "text": "Good for him. Good for him."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:53",
+      "text": "That's tremendous. That is tremendous writing."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:56",
+      "text": "He was incredible in this movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "48:00",
+      "text": "Like, I absolutely—"
+    },
+    {
+      "name": "B",
+      "timestamp": "48:01",
+      "text": "I thought he was an anchor of this film. But then secondarily, he looks exactly like my dad. Like, his body shape when he's sitting by the pool and he's got like the, the, the pants are like pulled way up over his big belly, like, that was 100% my dad's exact body frame."
+    },
+    {
+      "name": "C",
+      "timestamp": "48:17",
+      "text": "So the fact that, the fact that Matt's dad is like a Jewish film mogul, like Hollywood mogul, kind of explains why he had a Florida Christian bar mitzvah. Like the whole thing, the whole picture, it continues to come together."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:32",
+      "text": "Yes, yes, fair enough, fair enough. All right, Dave, where do you want to start?"
+    },
+    {
+      "name": "A",
+      "timestamp": "48:38",
+      "text": "Where do I want to start? I want to start with very specifically John Turturro's dancing at the end of the movie."
+    },
+    {
+      "name": "F",
+      "timestamp": "48:51",
+      "text": "Yes!"
+    },
+    {
+      "name": "A",
+      "timestamp": "48:52",
+      "text": "I think people are very aware of John Turturro, the somewhat serious actor, but there is, there is a freewheeling comedy expression in that dancing that, that just— I love so much. He's so ...which is what makes him as a serious actor work so well. And the more you watch the film, and I've now seen it a lot of times..."
+    },
+    {
+      "name": "F",
+      "timestamp": "49:22",
+      "text": "Hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:24",
+      "text": "...the sort of pretentiousness that he brings to Barton Fink that is so spot-on perfect and dry, but absolutely hilarious. His inability, the way he continues to, like, not be able to listen to Charlie, and how he lectures him, And sort of man speaks to Charlie about— or common man speaks to Charlie."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:46",
+      "text": "Right, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:47",
+      "text": "And it's so well done, and there is nothing jokey about it, and yet it is effing hilarious. And he just does not get enough credit. And I'm gonna reference a movie that nobody really go— nobody pays any attention to. Um, did you ever see his take on the Marx Brothers? It was released under Ah, crap. It had a couple of different names. Like, Lame Ducks was one of the names of it. And I think there was a second version of it as well. It was done by Pat Proft, and he plays the Groucho role. It's basically—"
+    },
+    {
+      "name": "C",
+      "timestamp": "50:23",
+      "text": "Brain Donors?"
+    },
+    {
+      "name": "A",
+      "timestamp": "50:25",
+      "text": "Brain Donors was another one, another version of it. Yeah, I think there's different titles, but Brain Donors. Basically, he's Groucho. Mel Smith is Slim. and Bob Nelson is Harpo. And instead of Night at the Opera, it's kind of Night at the Ballet with 2, like, you've never heard of, like a girl dancer and a guy dancer, whatever. He is so funny as Groucho in ways that I cannot explain."
+    },
+    {
+      "name": "F",
+      "timestamp": "50:53",
+      "text": "Amazing. Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:54",
+      "text": "Crazy. And it's— just watch it for Turturro. He is having so much fun in it. But again, that dancing and the way he is just moving his arms and legs, and the fact that that just burst of comedy just ends with him getting the shit kicked out of him by the Navy guys. Anyway, I just wanted to call his— I mean, the whole performance out, but just how funny it is. So that's where I wanted to start."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:23",
+      "text": "I love starting with that focus. I mean, obviously, Turturro with the Coens kind of reaches the apotheosis of the physical comedy in Big Lebowski."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:31",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:32",
+      "text": "The whole musical intro, the whole musical intro to him, you know, licking the ball and all. I mean, which is like a real— I mean, like, that's still like that, like 3 seconds of film gets put into montage all the time."
+    },
+    {
+      "name": "E",
+      "timestamp": "51:44",
+      "text": "Every time."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:45",
+      "text": "It's just like, you know, it's just like, this is some shit that someone once did. Um, and yeah, and like, you know, in the— and like, that big dance is again another Coen's big musical, like, you know, big musical. Like, they just love doing a big dance number. Like, it's just like one of their favorite things to have an excuse to do. Um, he is tremendous in this. Turturro is— I mean, and he's in every scene. He has to carry the whole fucking thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:07",
+      "text": "There's a lot going on in that scene, like the fact that, that it's a USO dance. He is a young man who is not signed up to, to be in there. And then when those guys, like, the desperation for them of like, I'm shipping out tomorrow, I'm gonna die, I need this dance. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "52:26",
+      "text": "And he could not I'm a writer, you monsters!"
+    },
+    {
+      "name": "A",
+      "timestamp": "52:30",
+      "text": "I create! I create for a living!"
+    },
+    {
+      "name": "C",
+      "timestamp": "52:34",
+      "text": "I'm a creator!"
+    },
+    {
+      "name": "B",
+      "timestamp": "52:36",
+      "text": "I am a creator!"
+    },
+    {
+      "name": "C",
+      "timestamp": "52:38",
+      "text": "This is my uniform! This is how I serve the common man! This is where I— This is my uniform! Yeah, it's so— it's so good. It's so good. It's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:52",
+      "text": "How I serve the common man."
+    },
+    {
+      "name": "C",
+      "timestamp": "52:54",
+      "text": "Well, this, this, this actually is a beautiful dovetail into my first point, which is like the delusional artist."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:01",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:02",
+      "text": "As, as like, as like central character. And like the, you know, it's like, so like in the context of Barton Fink, you know, he's, he, he's got this, this, this delusion that he is in touch with the common man. And like this is just continually sort of made fun of throughout the movie. Like we're never meant to believe that this is true. We're never meant to believe that he has some like unique perspective on like theater for the common And man, he's brusque with Charlie. He like, you know, he doesn't—"
+    },
+    {
+      "name": "G",
+      "timestamp": "53:30",
+      "text": "he—"
+    },
+    {
+      "name": "C",
+      "timestamp": "53:30",
+      "text": "Charlie's trying to tell him stories about what it's actually like to be out there. He won't listen. Like, the fact that he won't listen ends up being sort of the climax of the movie. Like, that his inability to listen to Charlie is like the reason why the movie, uh, reaches a crescendo. Um, and like, you know, so it's, it's, it's very funny, like, this whole kind of— and it's funny in the context of the Coens being unable to write, um, because like, you know, they, they create this rough who is similarly blocked, who basically has no purpose and no kind of, you know, direction in what they're actually trying to do, but has delusions about what they're doing."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:02",
+      "text": "But the way they— the way it sort of sneaks in a little bit, where you sort of see those little bits and pieces of that first play, and it certainly— you kind of go, well, this is not for me, you know, fresh fish, and I think we're gonna see that guy. And when it loops back around and you realize that this is all this guy can do—"
+    },
+    {
+      "name": "F",
+      "timestamp": "54:21",
+      "text": "This is it."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:21",
+      "text": "Yeah, fresh fish."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:22",
+      "text": "And I don't need a postcard."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:24",
+      "text": "I think we're gonna see that guy. We're gonna hear from that wrestler. You just know it's so just— it's spot-on perfect. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:31",
+      "text": "And it also sort of establishes this archetype. It's like the beginning of this archetype in Coen's— in the Coens' work, which is like the, the misanthrope, like the misanthrope protagonist. Uh, and like, you know, Llewyn Davis is kind of the best direct analog because it's another artist. In the case of Llewyn Davis, Llewyn Davis is very talented, unlike Bart and Fink, um, but it's like another artist who's like got notions of how they can't compromise on their art, and this ends up being a limitation. And the Coens are obviously just not like sympathetic to that point. I mean, they're sympathetic, but they don't believe it, um, and, uh, and but like the idea of like being at— putting at the heart of their movies like these, these, these people who do not love their fellow man but like are like espousing that they're, they're, you know, they're folk artists or they're, they're, they're, they're, you know, theater— they're common man theater, uh, you know, playwrights, um, you also get a bit of this in like The Man Who that wasn't there in Serious Man, like people who just like don't— can't like form relationships with other folks who are just somehow apart from the rest of humanity, but like trying to seek that. And I just find it like a really— I find it like a— I like this branch of the Coens where they're wrestling with that type of archetype."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:39",
+      "text": "But in typical sort of Coen fashion, I guess he's loosely— Barton is loosely based on Clifford Odets, the very famous playwright of the Theater of the People and all that kind of stuff."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:50",
+      "text": "The Theater of the People, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:51",
+      "text": "And of course, only they would know that. And the rest of us are just like, Clifford of Debt? Who?"
+    },
+    {
+      "name": "B",
+      "timestamp": "55:56",
+      "text": "But there was— I mean, there was something, right? Like, was he authentic in his desire to create that theater that would be accessible?"
+    },
+    {
+      "name": "A",
+      "timestamp": "56:05",
+      "text": "He was more authentic than, yes, I think Barton Fink is. But I think there is a similar— his background has nothing to— you know, like, he does not come to it authentically, I think."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:17",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:17",
+      "text": "But Barton does not— like, he does not seem happy to go to Hollywood. He does not seem like he could have been put up at a really nice hotel but he refused to do that. So, like, he— I mean, this is, I guess, the delusional part of it, but I felt like there was at least— there was a commitment in his mind to an idea that he was gonna try and create this thing, although he could only— he was so narcissistic, he could only imagine it coming from his own pain inside of him and wasn't actually looking outside for anyone else's contributions."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:46",
+      "text": "I mean, I do think there is in this movie, too, like, sort of a commentary on— it's a movie about moviemaking, and there's a commentary about, like, sort of the corrupting nature of Hollywood, like, you know, in the movie business, ultimately, showing how Los Angeles—"
+    },
+    {
+      "name": "B",
+      "timestamp": "56:59",
+      "text": "There is."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:59",
+      "text": "Go."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:59",
+      "text": "I was just gonna say, but it also, at the same time, it sort of makes a little bit fun of anybody who walks around going, oh, I don't watch movies. And his inability to just understand— I feel like when my kids were 12, they could have written a wrestling movie. Do you know what I mean?"
+    },
+    {
+      "name": "F",
+      "timestamp": "57:17",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:18",
+      "text": "It's almost like his inability to understand the basics of a wrestling movie because he hasn't seen them or chooses not to in a weird way. is sort of interesting also. So there's sort of an inverse kind of like, come on, man, movies are fun. Like, so there's that too. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:38",
+      "text": "I mean, the, the, the daily scene where he's watching The Devil on the Canvas— Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "57:42",
+      "text": "Rolling."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:43",
+      "text": "Devil on a Canvas, 12 Apple, take 4."
+    },
+    {
+      "name": "G",
+      "timestamp": "57:45",
+      "text": "Action!"
+    },
+    {
+      "name": "B",
+      "timestamp": "57:46",
+      "text": "I will destroy him! It was so funny."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:52",
+      "text": "Devil on the Canvas, Apple, take 4."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:53",
+      "text": "Yeah. But then the way it transformed into like horror, I thought was really amazing. Like, that was very effective. how it was like, it was really hurting him seeing that."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "E",
+      "timestamp": "58:03",
+      "text": "That was fascinating."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:05",
+      "text": "But you've got sort of him playing off the Mayhew character, which is like a Faulkner stand-in of like, you know, of like someone else who's like a great, you know, a great artist. And like, you know, they came to Hollywood and like sort of ended up like, you know, corrupted or like diminished or, you know, destroyed."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:20",
+      "text": "But even beyond the corruption there, you kind of get the sense of like, even before he got to Hollywood, he was kind of diminished. And so it's like this very famous writer that's just you know, on his knees vomiting and perhaps didn't write 3 or 4 of his best novels yet."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:37",
+      "text": "Yeah, yeah, yeah, yeah. No, it's, it's, it's pretty crazy. It's pretty crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:41",
+      "text": "But his opening, his opening scene after he's throwing up and Barton is trying to get him for help, the dialogue, like, again, it's the Coens, the masterclass."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:49",
+      "text": "I gather that you are freshmen here, eager for an upperclassman's counsel."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:54",
+      "text": "However, just at the moment, I have I have drinking to do. Why don't you stop by my bungalow, which is number 15, later on this afternoon, and we will discuss wrestling scenarios and other things literary. Yeah, it's such a— it's so beautiful. I mean, it is funny how the movie is like full of some of my favorite Coens dialogue, and it is both a movie about writer's block, so it's kind of like an in-your-face fuck you to like— if you like it, I mean, like it's self-reflective because they were struggling with writer's block too, but they're able to produce This like amazing dialogue in the face of someone who can't write more than just, you know, the cries of the fishmongers are also heard, you know, from a tenement in the Lower East Side. And then it makes fun of the Faulkner stand-in. It's very— of all the, of all the sort of like jobs in Hollywood, it is most mean to the writer, like, which is like what they, you know, primarily are. They are first and foremost. And, you know, it's like, you know, Lipnick obviously is a joke, but Lipnick ends up Like sort of probably being right that that um that Barton can't write that you know write this write this script and like Geisler is like sort of it's a beat picture wrestling like why can't you just get this you know everyone else what Geisler wants to say like you know you know find a writer just throw a rock throw it hard whatever yeah that may be the smartest guy in the movie yeah I incidentally I use that line all the time like I use like do me Do me a favor, throw it hard. Like, I love— do me a favor, throw— I love, I love Geisler in this. I think Tony Shalhoub is phenomenal."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:28",
+      "text": "Shalhoub is so funny, and it's kind of a part you haven't seen him ever do, like, before or since. Just, I love just the speed of the performance as well."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:38",
+      "text": "What year was Big Night? It wasn't much before this, right? Or right, right around this time? I mean, I think this was part of his breakout."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:44",
+      "text": "Big Night was a little bit later, but I could be wrong. I thought it was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "60:47",
+      "text": "I don't remember, but I could be wrong."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:49",
+      "text": "Yeah, I thought it was like '93, '94 maybe, but I could be wrong."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:53",
+      "text": "Yeah, just, just, just really good."
+    },
+    {
+      "name": "C",
+      "timestamp": "60:56",
+      "text": "I just— the whole thing is like, he's taken an interest."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:59",
+      "text": "Never get—"
+    },
+    {
+      "name": "C",
+      "timestamp": "61:00",
+      "text": "never make Lipnick take an interest. He's so good. He's so good in it. He's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:06",
+      "text": "Really, really incredible."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:09",
+      "text": "How's Lipnick's ass taste this morning? Like, that whole thing, like, it's so— he's so good."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:15",
+      "text": "He's so Dave, my, my first point is a question for you, which is, how does writing— how does writing work? Or not writing? Like, how do you— how do you do it? How do you approach it? Like, and, and what is the—"
+    },
+    {
+      "name": "C",
+      "timestamp": "61:28",
+      "text": "It seems like it sucks."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:31",
+      "text": "Everyone, everyone does it differently. I am, uh, I will admit I am driven by deadline. Like, uh, you know, there are the people that will tell you, like, I sit down every day from 6 to 10 and I write, and then I take an hour break, and then I work from 11 to whatever, it's like my brain sort of calculates, okay, it's due here. If I start here and work nonstop, I can get it done. And any other time, I kind of will do nothing about it. I mean, I'm percolating, I'm thinking, but I just— I am not great at the sort of the blank page, sit down and write for the sake of it. I need ships burning behind me, or a hotel burning behind me, as the case may be."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:15",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:16",
+      "text": "Yeah, that's it."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:17",
+      "text": "I'm also now, as you said that, as soon as you started saying that, I started remembering 10 appearances ago in your very first appearance, you said that you would often put on Wrath of Khan as your background for—"
+    },
+    {
+      "name": "A",
+      "timestamp": "62:29",
+      "text": "Yes, that's my background music."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:31",
+      "text": "Yeah, that's good."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:32",
+      "text": "Amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:33",
+      "text": "That's good. I need that."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:34",
+      "text": "Ryan's revelation on the official podcast that his Battle of the Gullet was really him doing Wrath of Khan is It's delightful. It's like, holy shit, man, that's delightful. I just, I love this note, like the Underwood typewriter was so gorgeous, and the shots of like panning across the front of the typewriter and zooming in on the words as they're being revealed. Every time the typing is fast, it's the typist. It's, it's never him. It's always the woman."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:04",
+      "text": "Every time you think, oh, he's finally writing, nope, back in, back in what's-his-name's office. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:09",
+      "text": "But that idea of just the steady decay of the Hotel Earle, the dripping, you know, wallpaper glue and stuff, it just— it looked very tough. It looked like a lot of pressure and quite hard."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:22",
+      "text": "Have you ever written in a hotel that was actually hell?"
+    },
+    {
+      "name": "A",
+      "timestamp": "63:26",
+      "text": "As far as I know, no. But—"
+    },
+    {
+      "name": "C",
+      "timestamp": "63:30",
+      "text": "Maybe that's the pressure you need to get these things done."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:35",
+      "text": "Oh, I'm in hell. Okay. I guess I can start writing."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:37",
+      "text": "Yeah, yeah, yeah, yeah. But then it must just be an incredible feeling when, like, when he gets in that flow after, you know, after she's been killed. It kind of reminded me, it's like in a trance, it reminded me of the story of Robert E. Howard, right? Didn't he, like, had a vision that Conan was standing behind him with a sword and, like, was up all night having, you know, visions?"
+    },
+    {
+      "name": "A",
+      "timestamp": "63:59",
+      "text": "I think he was just a big, big drunk also. So yeah, take that with a grain of salt."
+    },
+    {
+      "name": "G",
+      "timestamp": "64:04",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:04",
+      "text": "Whatever works. Whatever works. All right, what is your next point, Dave?"
+    },
+    {
+      "name": "A",
+      "timestamp": "64:09",
+      "text": "The word head is my next point."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:13",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:14",
+      "text": "First of all, heads in general, boxes, heads, boxes. But John Goodman— and by the way, I want to say, young me in college did not catch— the first time through, it's just like, oh, he's misspeaking a couple of times. Yeah, he keeps saying— And then it kind Kind of like having seen the movie and then seeing it a second time. It's like oh heads, heads, heads, heads, heads."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:43",
+      "text": "Yeah, he's just telling you he's really into heads. Yeah, I know how things get bungled up at the head office like that. Like it's just cute. Just it's so good. That's really funny."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:53",
+      "text": "Yeah, that's really funny. Just just doesn't stop and it just keeps coming at you and they they they're relentless with it in a great way."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:00",
+      "text": "What a performance by fucking Goodman, man. Yeah, like how how fantastic. How fantastic is he in this movie? Like, it just— like, does the whole affable neighbor who's just there to help and like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "65:11",
+      "text": "Does the sort of classic John Goodman right into, you know, as the affable best friend kind of big lug you can count on. And then finds that way of— it's not turning on a dime, but just the gears turn into just malevolent evil. Like, scarier than any serial killer in any movie."
+    },
+    {
+      "name": "E",
+      "timestamp": "65:31",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:31",
+      "text": "Just unbelievable. Yeah. And by the way, Heil Hitler, just at the end."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:36",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:37",
+      "text": "Like, just the most thrown away— like, does he even mean Heil Hitler? 'Cause it's just like... Heil Hitler. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:44",
+      "text": "Yeah. Okay, we'll throw that in too. Yeah, it's great. Um, he, he— it's— he really stands out for me. He definitely deserved accolades for this part and this performance, um, that I guess were not forthcoming. But like, he, you know, he is— again, it's like another thing I really like in the Coens, Coens is like, it's one of their archetypes, is like just sort of the animated malevolence that starts with Raising Arizona, um, and, you know, Leonard Smalls, and like continues through Anton Chigurh in No Country for Old Men. And it is just this, no, like in the world there are just like animated avatars of evil who will do evil things."
+    },
+    {
+      "name": "A",
+      "timestamp": "66:23",
+      "text": "I mean, honestly, like forces of nature or forces of evil nature where Yeah, a tornado's gonna tornado. You know what I mean?"
+    },
+    {
+      "name": "C",
+      "timestamp": "66:31",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:32",
+      "text": "Yep."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:32",
+      "text": "Yeah. Yeah. And I love that. I love that about their movies. I think it's like as we've talked about before, it's like a it's a very um it's a you know it's a it's it's just something that like they're drawn to thematically. It's a Cormac McCarthy like kind of notion of how the world is architected. It seems to be it seems to be how they view things. There's just like no there's evil and it will come to town, which is why obviously."
+    },
+    {
+      "name": "A",
+      "timestamp": "66:55",
+      "text": "Obviously, like there's a reason why. Yeah, they all came together."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:58",
+      "text": "Yeah, they keep coming together."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:59",
+      "text": "Yeah, they matched. Yeah, I thought it was interesting that the ear problem was on the right ear initially, and then it migrated apparently to the left ear by the end. And and I was trying to figure out what that was symbolizing."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:12",
+      "text": "Incidentally, just on the Corbic McCarthy really quick, someone posted a tweet. Someone had a tweet this week that was like related to Comic Con and Feige being up there. Kevin Feige being up there. I was just like for the life of me, I cannot stop seeing Kevin Feige as the judge in Blood Meridian, and they put the little hat on, and it was very convincing. It was really funny. Very disturbing. Um, the Coens doing Blood Meridian, I think, would be the, the greatest thing that ever happened to me in my life. I just don't know if I could— I don't know if I could handle it. Um, they come back together for one last ride, and it's Cormac McCarthy's Blood Meridian."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:47",
+      "text": "Let's go. Goddamn, I didn't finish it. It was too— it was too dark for me. Um, so I gotta— I gotta You're weak."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:53",
+      "text": "Weak man."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:54",
+      "text": "Uh, I am weak. Um, I just want to say I thought the production design in this film was so fucking good. Yep. The— all of the '40s, especially like the furniture. I just kept staring at the furniture in the waiting rooms and the desks, but the chairs that they're just sitting in and the carpets, um, it just looked so— it's so good. And it's our homeboy Denny Gassner. Uh, he did Miller's Crossing, Barton Fink, Hudsucker, Lebowski, Opie and the Road to Perdition, Skyfall, Blade Runner 2049. Dude, he made that fucking genetic scanner motorcycle thing that they were using."
+    },
+    {
+      "name": "C",
+      "timestamp": "68:35",
+      "text": "Good work."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:35",
+      "text": "1917. Like, this, this— he— I finally got his Academy Award for 1917. But just—"
+    },
+    {
+      "name": "A",
+      "timestamp": "68:42",
+      "text": "So he's kind of like a little bit at the hip with what's-his-name, the DP. Yeah, interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:47",
+      "text": "Yeah, Roger. Yeah, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "68:49",
+      "text": "Exactly."
+    },
+    {
+      "name": "E",
+      "timestamp": "68:49",
+      "text": "Sorry."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:50",
+      "text": "Yeah, we'll get to it. We'll get to it. Well, actually, we can do that right now. So, I mean, this was his first big collaboration with the Coen Brothers. I think he did like some pickup shots on Miller's Crossing, he said, or something."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:02",
+      "text": "I think that's right."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:03",
+      "text": "I think, what's his name, Sonnenfeld, had to go do Addams Family or something, or had to take off. And so Deakins like helped out doing a couple shots."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:15",
+      "text": "But so Oh, that's nice."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:16",
+      "text": "I mean, this is our boy, and this is, you know, the beginning of his truly epic run that took him all the way. And it just looked so good. Even just the slow zoom on the wallpaper for the credits, the idea of the piece, the peeling paste, the shot from them on the bed into the bathroom and then up into the ceiling. Sink? Just like unflaxing, man."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:43",
+      "text": "The sink drain. Holy Christ. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:46",
+      "text": "That's some real fuck-up filmmaking. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:48",
+      "text": "The dance floor shot into the trumpet. Same thing, going down holes of darkness. Deakins, he was on one."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:57",
+      "text": "He was on one. He had the sight. He had the true vision."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:00",
+      "text": "And then Carter Burwell obviously has done every single Coen film plus Twilight. Just really, It's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:10",
+      "text": "It's a great score."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:11",
+      "text": "Carter Burwell was actually— he's older than me, but he was also a Harvard Lampoon. And we just had our 150th anniversary of the Lampoon. It was founded in 1876. And for the 150th anniversary, Carter Burwell composed an original sort of fanfare for the Lampoon for the 150th anniversary."
+    },
+    {
+      "name": "D",
+      "timestamp": "70:32",
+      "text": "It was really cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:32",
+      "text": "Oh my gosh. Yeah, that's a flex. Yeah, the debate team doesn't have that, I guess, but that's fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:40",
+      "text": "No, they have no fanfares."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:43",
+      "text": "Yeah. Um, my last point is the dialogue. I just want to draw attention a little bit more to some of this best stuff in the script because Dave mentioned the head point, which I thought was so brilliant. Um, the, the dialogue between the 2, um, detectives, Mastroianni and Deutsch, is some of like the best, like, Coen patter stuff. Like, you get a lot of this in Hudsucker Proxy as well, but like this whole thing where they're telling him who Charlie is, who Munt is, is like, started out in Kansas City, couple of housewives. Couple days ago we see the same MO out in Los Feliz. Doctor, ear, nose, and throat man, all of which he's now missing. Well, some of his throat was here. Physician, heal thyself. Good luck with no fucking head anyway. Like, it's just like, I mean, like, it's just, it is patter. It's also a parody of patter, but at the same time it is like, it's obviously Yeah, it's obviously aware of doing a genre-y thing, which is why it also exists in Hudsucker Proxy. Like, they get to do this 1940s, like, sort of dialogue that wouldn't make sense in any other era. But like, it— so it's both like they're drawing attention to the fact it's like, oh yeah, this is like a thing you do. And then it's like, by the way, it's the best fucking one. Like, it's like also just amazing. It's so good. It's just like— it's— and then like the button on one of those detective scenes being like, it's a Jewish name, I didn't think this place— just to like kind of like remind people people of what era this was, like, to take them out of the artifice of it, I think is like so elegant, like, and so, you know, it's, it's just shocking. And like, I don't know, like, I, I just like these guys when they are cooking. It is some of the best fucking movie writing ever. Like, it is just— it really like makes me so happy, um, to hear, you know, like— and it's got some, you know, I love it when the Coens do the— it's not even plant and payoff, they just have like kind of the The continuing runs of lines that they like to put in the movie, like, let's put a stop to that rumor right now. And like the, like the, the, the kind of the, the reflexes that some of their characters, they give to their characters to like help you understand who they are. I, it's again, it's just, it's heightened, but it's like, it's just delectable to me. Um, I love it so much. Um, I miss them. I miss my boys. I just want them back."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:58",
+      "text": "I mean, I was gonna say, I think Miller's Crossing has even stronger dialogue, um, between Leo and Tom. and, you know, just like all the— and Verna, like, it's just unbelievable. But then you got Raising Arizona, same thing. Like, through No Country, like, are these guys the greatest dialogue writers in cinema history? Like, they've got to be. They've got to be up there."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:25",
+      "text": "It's very fun too because they often give their best lines of dialogue to, like, their most vulgar characters. Like, they give, like, their best dialogue to, like, these dirt— not dirty cops, but like, you know, antisemitic cops. And like, they give like, they give like, you know, this whole beautiful patter scene to those cops. Lipnick and like Geisler, who are like, you know, not— they're, they're not lovable characters, but it's like, you know, like, um, and like, you know, they've got like some of the best stuff. And it's just like they give these gifts to these characters that are in there to be like, you know, vulgarians, like to be like sort of, uh, aesthetic shocks to the system. Um, yeah, it's a real trick. It's a real trick. What they're doing."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:04",
+      "text": "Very cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:05",
+      "text": "And like, and like Barton, by, by distinction, sort of speaks— even though he's the writer, like, kind of is often tongue-tied. He can't really express himself. Like, when he does—"
+    },
+    {
+      "name": "A",
+      "timestamp": "74:16",
+      "text": "like, when he can't write, can barely talk."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:18",
+      "text": "Yeah, can barely talk. And like, when he does get wound up, like, he goes on this whole run, which is pretty funny, about like what theater should be. And like, who cares about the 3rd Earl of—"
+    },
+    {
+      "name": "A",
+      "timestamp": "74:27",
+      "text": "but it's so pretentious and so— it is fun."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:29",
+      "text": "Yeah, it's so not fun. It's just like, you know, the 3rd Earl of Higginbottom and did what to Fitzgibbons? And like, you know, the best line— the best line from that is Charlie being like, well, I could feel my butt getting sore. Like, you know, it is— he's just getting outclassed by Charlie, who is a mass murderer, which is great. I just love it. I love them."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:52",
+      "text": "Very, very good. Dave, your last point."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:56",
+      "text": "Can I cheat? I have sort of 2 things that are on my list."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:59",
+      "text": "Yeah, of course. Of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:01",
+      "text": "Number one is the— it's a boys' club, but there's always just a killer woman. And Judy Davis, who I— I'm not gonna lie to you, I have like the world's biggest crush on. I love Judy Davis in movies. I love her in this. I love her in The Ref. I love her in Deconstructing Harry. Like, movies I love. And she— I mean, she doesn't steal the movie, but in this boys' club, if you will, she just— She really does. Like, just so good. So damn good. So that was one point."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:34",
+      "text": "And then my other point— Sultry and in danger and—"
+    },
+    {
+      "name": "A",
+      "timestamp": "75:39",
+      "text": "But also, possibly smartest person in the movie. Like, actually competent."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:44",
+      "text": "The real artist."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:45",
+      "text": "Yeah, I'll help you. I helped Bill. I can get this done. There's none of the pretension of literature. She's writing epsilon, epsilon, and it's just a day in the week kind of a thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:59",
+      "text": "Like, it's not that big of a deal. There's just a formula. You start from here, you go to there, you go to there, you add possibly a waif, you know, like you could do it."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:07",
+      "text": "But only in a weird way, a woman can kind of deconstruct it and not make such a big deal about it. So I think that's— there's something about that. And then the other one, which, you know, Jason, you kind of hinted at, but I just want to say the word specifically, Judaism, which another Coen movie that isn't necessarily specifically about Judaism, but is dipped in Judaism. And just, you know, from Lipnick and his fake uniform."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:34",
+      "text": "Oh my God."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:36",
+      "text": "I mean, there's so much Judaism in your face in this movie. It's kind of— it's sort of fascinating. Some of it's ugly, and I'm sure there are people that think it's an antisemitic movie in some ways. And yet, I don't know, to me, it's a really lovely representation."
+    },
+    {
+      "name": "C",
+      "timestamp": "76:50",
+      "text": "Exactly. No, I have 100%. No, I love it. I mean, the Coens don't— talk about, like, and don't, like, really— A Serious Man is the exception to the rule."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:00",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:00",
+      "text": "It's like their most personal work."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:02",
+      "text": "That's the one where it's kind of like, it's about Judaism. It's about Judaism. But this one is as much about Jews as anything they've ever done."
+    },
+    {
+      "name": "E",
+      "timestamp": "77:09",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:09",
+      "text": "No, it's great. I mean, it's great. Like, all the scenes between— like, you know, it's just like— one of my favorite, like, throwaway jokes is like, you know, it's like, I'm from New York originally. Well, Minsk before that, if you go all the way back. Which we won't if you don't know. don't mind and I'm not asking. Like, it's just like, it's like this whole, like, it's so good."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:32",
+      "text": "It's so good."
+    },
+    {
+      "name": "F",
+      "timestamp": "77:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:33",
+      "text": "Um, I absolutely, I, I love that stuff. It's true. And it is like this, like, yeah, it's on this unblinking sort of look at like, no, like Hollywood in the 1940s. I mean, you know, in a sense, like, it's just like a, it's like a Jewish industry. Like, there's like, you're gonna, like, you're gonna run into some Jews. Um, and like, it's, it's a really fun, it's a really fun example of representation matters to me in the Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:00",
+      "text": "Dig it, dig it. I just have a couple of quick honorable mentions."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:04",
+      "text": "Oh, was this—"
+    },
+    {
+      "name": "B",
+      "timestamp": "78:05",
+      "text": "was this the longest bell ring in cinema history?"
+    },
+    {
+      "name": "C",
+      "timestamp": "78:07",
+      "text": "Oh yeah, the Chet bell ring."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:10",
+      "text": "How about Buscemi as Chet?"
+    },
+    {
+      "name": "C",
+      "timestamp": "78:13",
+      "text": "Shout out to our guy Buscemi, doing great."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:16",
+      "text": "You just gotta love though— and by the way, I, you know, you sort of get a sense of it with The Odyssey too, that these people that are aware that they are lucky enough to sort of be in the club, that they are part of the Nolan repertory squad or the Coen Brothers repertory squad. And the willingness to kind of pop in and do something like just Chet is just fabulous. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:41",
+      "text": "I wonder if you trace it, if that's sort of where things went off the rails for them a bit, the Coens. Not like the movie quality in a way, but just maybe it didn't feel like family anymore or something like that. they just weren't working with all their same guys again. And like, it just— it start— it stopped feeling like some, some kind of ineffable glue that was keeping it together stopped working. Um, but yeah, they really had—"
+    },
+    {
+      "name": "G",
+      "timestamp": "79:03",
+      "text": "they—"
+    },
+    {
+      "name": "C",
+      "timestamp": "79:03",
+      "text": "I mean, they had just like such a, such a like a bounty of talent, like of folks who just knew exactly what to do in this universe and how to play. Um, it was really something. Even folks like Polito has like a very small, you know, very small part in this. Um, has this amazing scene."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:20",
+      "text": "So different than Miller's Crossing. It's kind of wild."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:23",
+      "text": "Oh yeah, it's so like the scene where— the scene where he— Barton shows up to the house and he's out by the pool and like he's like, I don't want to tell you what I'm writing or whatever. And like he gives— and like Lou misreads the, the look from— or maybe he doesn't, maybe this is what he was supposed to do. He's like, you know, never mind me, never mind how many years I've— and goes on this little run, like this little, like, you know, like, thing about, like, you know, the contents of your head. It's, like, so good. It's, like, such a great, like, menace without being menacing little performance. It's, like, his one big speech in the movie. But then he's back at the end being like, yes, Colonel. Like, he's, like, calling."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:00",
+      "text": "Yeah, yeah, yeah, yeah, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:02",
+      "text": "I love him so much."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:03",
+      "text": "Very good."
+    },
+    {
+      "name": "G",
+      "timestamp": "80:05",
+      "text": "It's great."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:05",
+      "text": "Very good."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:06",
+      "text": "So, Matt, like, in all, like, how much— how much did your appreciation of this film change as someone who didn't like it, um, when you first saw it? I was mad at it because of the award season is what I think."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:18",
+      "text": "No, I definitely— I definitely enjoyed it. I enjoyed it a lot more than, than I did the first time. I will say, you know, again, this is inextricably linked to Miller's Crossing in my mind. So the notion of following Tom, who has lots of problems, but Gabriel Byrne's performance as Tom is so compelling and he's such a character, it's so easy to root for him. It's very difficult when you have Barton, who is just, like, kind of hard to— he's just kind of miserable in these awful circumstances. So, like, for me, I respect it much more than I did the first time, and I appreciate more what they're doing, and especially the connectivity to Hail, Caesar!, which I also quite liked. So, I liked it a lot more, but it did not ultimately, like, punch through."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:05",
+      "text": "Because of Barton, because of the character. Character of Barton mostly is what I'm hearing."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:10",
+      "text": "I think so. I think that's, I think that's probably right. Just the, the, the, the kind of dour circumstances. Um, what is this? Is this like a, a fruity feeling movie? What was it? What, what does Lipnick just— how does he describe it? It was just like kind of like a sad movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:25",
+      "text": "Um, see, Dave, we come back again to antisemitism. Exactly. Uh, you learn nothing from your Christian bar mitzvah about how, uh, dour, um, a dour protagonist is a gift."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:42",
+      "text": "But does that, does that make sense?"
+    },
+    {
+      "name": "C",
+      "timestamp": "81:44",
+      "text": "I mean, I think Barton is a hard character. You're like, again, it kind of goes back to my first point about misanthropy, which is like, yeah, he's a difficult character to root for in the same way that the, the protagonist of A Serious Man is difficult to root for, in the same way that Billy Bob in The Man Who Wasn't There is difficult to root for. And, and also I think Llewyn Davis is difficult. Like, Llewyn Davis is another dour Sad, you know, sort of character who doesn't— who can't connect to other people, kind of fucks up every situation he gets into despite having tremendous talent. And you root for him because he's— oh, he's got this talent. Like, it would be great if he could just— no, he's not going to figure out something to do with it. He's a, you know, he's a piece of shit at some level."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:21",
+      "text": "He's gonna get beat up."
+    },
+    {
+      "name": "C",
+      "timestamp": "82:23",
+      "text": "And yeah, like, Barton is like, you know, doesn't— is that but without the talent. Um, and so I think there's something— I think there's something akin there. So I guess like, I I wonder kind of how you would compare and contrast the Lewin-Davis to the Barton of it."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:39",
+      "text": "No, that's an interesting thing. And in Lewin-Davis, you have this music that is so— that lifts you up, right, out of those dark—"
+    },
+    {
+      "name": "C",
+      "timestamp": "82:47",
+      "text": "Lewin has a talent. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:49",
+      "text": "Well, not just the talent, not just seeing the fact that he has the talent, but the music itself touches you in a way that lifts you up and out of the circumstances that you don't get by watching him typing into a typewriter or by having him say, I finished The script or whatever."
+    },
+    {
+      "name": "C",
+      "timestamp": "83:05",
+      "text": "I agree with that. I mean, for me, I think in Barton, that is— the music is the dialogue. Like, the dialogue is so transcendent. And once you get— you clock into like sort of these tricks, like the head thing that Dave was talking about, which I didn't even— I knew about that."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:20",
+      "text": "I didn't get that."
+    },
+    {
+      "name": "C",
+      "timestamp": "83:21",
+      "text": "There's a few of them I was tracking, but I didn't— I realize now there's even more."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "83:25",
+      "text": "And like, but there's so many. I mean, there's so much of that where it's just like every time, you know, you get like the scenes of Barton. I actually rewatched the movie a couple of times and I was just like kind of skipping through the silent scenes of Barton typing. Um, and like going back to like, okay, give me the next Lipnick scene, give me the next geyser scene, give me the next detective scene. And if you watch, like, if you watch just like those— like, now the movie doesn't work that way, obviously, right? But like, the rhythm of the movie does work, um, because you've got these scenes with just this very energetic dialogue delivery, and then it cuts into, you know, it cuts into these other, you know, it cuts into these more sad, you know, sad bits. Um, I just, I just I just really like that."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:03",
+      "text": "Um, yeah, yep, that's fair. Guys, who would Tilda Swinton play?"
+    },
+    {
+      "name": "C",
+      "timestamp": "84:09",
+      "text": "A lot of roles, a lot of options."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:11",
+      "text": "I'm, I'm W.B. Mayhew because I want to hear her off screen just yelling, where's my honey? But yeah, I just— to hear her yell, where's my honey?"
+    },
+    {
+      "name": "C",
+      "timestamp": "84:23",
+      "text": "I'm coming."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:26",
+      "text": "And then singing that like racist song, whatever, whatever that was. That Sound good."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:31",
+      "text": "Oh my God, Bugs Bunny sings that song. I looked up the history of that and it's like, it's a, it's a minstrel song written, written by white people. Um, and, uh, it's a very racist song about a slave returning home."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:42",
+      "text": "Um, in white people's defense, they did write the best minstrel songs."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:47",
+      "text": "Yeah, exactly, exactly. And like, no, but Bugs Bunny sings that part like that. I'm coming, I'm coming, but my head is hanging low. Like, he sings that."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:57",
+      "text": "Wow."
+    },
+    {
+      "name": "F",
+      "timestamp": "84:57",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:59",
+      "text": "Wow, I like that. I would put it—I would try Tilda as Geisler. I mean, I hate to get rid of Tony Shalhoub, but no, I mean, honestly, she could be Geisler."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:06",
+      "text": "She could be either cop. I mean, she really yeah yeah her dress is a colonel at the end of the movie. I got no problem with that either. Yeah. Where's my honey?"
+    },
+    {
+      "name": "C",
+      "timestamp": "85:17",
+      "text": "Honey. Oh man!"
+    },
+    {
+      "name": "B",
+      "timestamp": "85:25",
+      "text": "Guys, can we do some quick voice? Voicemails, please go. All right, here is our first voicemail coming from far across the world. Hello, Bog Pod. Hey, Bog Pod."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:37",
+      "text": "Hello, Bog Pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:37",
+      "text": "Hey, Bog Pod. Hello, Bog Pod."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:38",
+      "text": "Hey, Bog Pod."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:39",
+      "text": "Bog Pod. Bog Pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:40",
+      "text": "Lay it on us, Ethan."
+    },
+    {
+      "name": "E",
+      "timestamp": "85:42",
+      "text": "Hello, Escape Hatch."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:43",
+      "text": "I'm standing in the parking lot of a theater, having nearly forgotten to send a voicemail, hence the rumbling. Rottenfink is really good. Have you experienced the life of the mind? What is the life of the mind to you? When do you think to yourself, boy, I'm experiencing the life of the mind? It's when I achieve flow state while writing. That's when I think I'm experiencing the life of the mind. But, but what is the life of the mind to you, if anything?"
+    },
+    {
+      "name": "C",
+      "timestamp": "86:12",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:13",
+      "text": "I don't have a shotgun. I promise. This is a lot less intimidating than the John Goodman Situation. Goodbye."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:21",
+      "text": "Lots of love."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:22",
+      "text": "Dave, I think you're our guide into the life of the mind as a filmmaker."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:29",
+      "text": "Oh, well, thank you. I was going to say, I don't know if you're ever actually thinking like, I'm in the life of the mind right now. Like, you're probably not actually. It's more sort of a— it's more of a hindsight feeling, I think, where you just kind of go like you finish a day or something and go, oh man, we were really jamming there. And like, you know, in a really good way, whether you're working with people or working yourself or whatever. So I don't know if you can be that aware of it on sort of the front end of things. But yeah, that's my best answer. Although I will say, for me, a lot of times it's the— it's like, you know, I'm sure you've heard, you know, it's like when you can't think of something and then you're in the shower, like that's the life of the mind. Do you know what I mean?"
+    },
+    {
+      "name": "C",
+      "timestamp": "87:10",
+      "text": "Right. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:11",
+      "text": "Where you all of a sudden unlock like act 3, or you solve like a giant issue when you're not actually writing in a weird way."
+    },
+    {
+      "name": "F",
+      "timestamp": "87:19",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:20",
+      "text": "So like that to me is a little bit the life of the mind where you just are like, oh, I just took a shower and I just solved the entire script. Yeah, that's kind of great."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:27",
+      "text": "That's great. Yeah. Yeah. God, I need something like that. For, you know, I will come back to an episode in my life I have referenced, I can't even mention how many times on this podcast, which is nerd camp that I went to my sophomore year of high school in Missouri, um, which was 3 weeks at the University of Missouri in Columbia, Missouri, which was like, and, and there needed to be 2 students from each county in the state of Missouri who were selected to attend this 3-week program. And you would do things like— I learned how to solve a Rubik's Cube there. I took a class on Greek, which we talked about last week, uh, actually on this pod. So it's only been 1 week since I've mentioned Nerd Camp, um, in Missouri, in central Missouri. Um, and like, uh, you know, like, yeah, we took like— I took like logic puzzle classes and like just other just real nerd pursuits with a wild cross-section of Missouri's brightest minds, uh, 15-year-old brightest minds. And I was like, this This is it. This is the life that I am meant to lead, is just like hanging out with a bunch of nerds, like doing nerd shit, talking about Star Trek. And like, I'm, I'm doing it. And like, it turned out that was probably the closest I would ever get. From that point on, I never, I never really felt that way again. But for 3 glorious weeks of summer, it really did, uh, it really did something for me. So—"
+    },
+    {
+      "name": "B",
+      "timestamp": "88:42",
+      "text": "No wonder you have such— no wonder you have such a thing for real genius. Yeah, no, I really— that was your Mitch moment."
+    },
+    {
+      "name": "G",
+      "timestamp": "88:48",
+      "text": "It really was."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:50",
+      "text": "Also so good."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:51",
+      "text": "So good. It really did. It really, it really, uh, uh, it really, it really meant something to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:57",
+      "text": "Nice, nice."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:58",
+      "text": "I went to a nerd camp, by the way. I went to a science camp."
+    },
+    {
+      "name": "D",
+      "timestamp": "89:02",
+      "text": "It was called Harvard."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:02",
+      "text": "It was called Watanka. No, Camp Watanka. And we would have— we had Dungeons and Dragons on the schedule. It was pretty good."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:09",
+      "text": "Oh my God, what a gift."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:11",
+      "text": "Yeah. And to date, to date it, we were doing computer programming programming on, uh, TRS-80s, Trash 80s."
+    },
+    {
+      "name": "F",
+      "timestamp": "89:17",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:17",
+      "text": "And we were saving our files to, uh, tape recorders. Like, that's how we had disk drives, tape recorders."
+    },
+    {
+      "name": "B",
+      "timestamp": "89:25",
+      "text": "Yeah. I went to a— at Daytona Beach Community College, which has since rebranded as Daytona State. Um, I went in 1982, and that was when I would, like, I would walk across from my swim, uh, like, uh, team thing that I did, listening to the Police's Synchronicity, uh, I'll Be Watching You, play at the arcade Tron the video game, and then go and program Trash '80s using BASIC. Uh, so exact same sitch."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:57",
+      "text": "I gotta fire up a Trash '80s emulator on out here in order to fit in with this podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:02",
+      "text": "I mean, I just always felt bad that like we were on Trash '80s instead of Apple IIs. Like I had massive FOMO Of course."
+    },
+    {
+      "name": "C",
+      "timestamp": "90:09",
+      "text": "You were right."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:10",
+      "text": "All right, here is our next voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "90:13",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "F",
+      "timestamp": "90:17",
+      "text": "Here we go."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:20",
+      "text": "Cunnilingus. I've been reading that word since I was 12 years old and still can't seem to wrap my tongue around it."
+    },
+    {
+      "name": "C",
+      "timestamp": "90:28",
+      "text": "Wait, was that a pun or just bad taste? Wait, that may have been another pun. That is just awful. Oh, just fuck off!"
+    },
+    {
+      "name": "G",
+      "timestamp": "90:41",
+      "text": "Hello, animal friends and animal lovers. Of all existential curses, the very worst is scriptwriting. Thank you all. See you. As with Jesus, Mandela, or Keanu, mythologizing Real people means categorizing their legacy, making them too good to be common, and by extension, their humanity, struggles, and messages matter less than their image. This is called for real Santa classification, and John Goodman is a perfect jolly old Nick, if maybe a little hot-headed. Barton is a public intellectual who Santa classifies people he barely knows. animals and himself, isolating him from the common man he claims to champion. His life's intensely artificial, where a cheap LA hotel is a kitschy hell, a boozy asshole can be saved as long as he's a real writer, and the nightmare that is the life of the mind can be put on paper if you're a true artist. Empathy requires understanding, Aubrey said, and he doesn't understand what he's Doesn't understand, but great things are expected of him."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:57",
+      "text": "So yeah, he's a man. We wrestled."
+    },
+    {
+      "name": "G",
+      "timestamp": "92:05",
+      "text": "Tell us of a common person you feel is getting Santa Clausified and why. Thank you all. See you inside the frame beach picture and keep the change."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:14",
+      "text": "You filthy animal. Good question. I mean, this happens. This happens a lot in politics, right? I mean, like this. This is like the you know we went to a diner in rural Pennsylvania to ask these. People why they still whatever, you know, like that. Like, this is like— I think every political season, whether it's like, you know, NASCAR dads or, you know, whatever, Walmart moms, whatever it is, like, there's always something like that every election cycle where they try to come up with some, you know, kind of mytho, you know, because the country is— which makes sense because the country is so big and raucous and confusing that you really can only understand it through caricature. Um, you can only tell story about it through caricature, I I should say. So I think in politics this is pretty common. Very much so."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:57",
+      "text": "Yeah, it was crazy. Wickler was talking about how, you know, Wisconsin is so 50/50, and, you know, it like just comes down to 20,000 votes and that's it. And, you know, you have— you have Trump won and Tammy Baldwin won, uh, you know, in, in '24. So it's just like, it's just on a, on a knife's edge. Yeah. Tough one out there. All right, thank you so much, Animal Mother. Here is our next voicemail."
+    },
+    {
+      "name": "C",
+      "timestamp": "93:22",
+      "text": "All right, birria. Hey, birria here for Barton Fink."
+    },
+    {
+      "name": "D",
+      "timestamp": "93:33",
+      "text": "The Summer of Jason is the gift that keeps on giving. Barton Fink is a film about a man at war with a blank page and the Underwood Universal typewriter sitting Sitting on his desk like a judge. That machine just stares at him, waiting. The Underwood was no ordinary prop. By 1939, the Underwood Typewriter Company had produced 5 million machines, and at the height of their industry, at their main factory in Hartford, Connecticut, turned out one typewriter every minute. For today's Truthsayer, 3 stories about how Underwood promoted itself in the years before World War II. 2 of these 2 of these are fiction, one is true. Time for the Truthsayer. Number 1, in 1926, Underwood Typewriters sponsored a national typing speed tour, sending out champion typist Margaret Holloway to 34 cities in 60 days, typing live in department store windows and drawing crowds of hundreds. Underwood advertised her as the fastest fingers in America and sold a record number of typewriters that Christmas. Or is it number 2, to celebrate the opening of the Chrysler Building in 1930, Underwood installed a fully functional Number 5, on the observation deck and invited journalists to type dispatches from the highest office in New York. The coverage ran in 47 cities. Or is it number 3, Underwood built the world's largest typewriter and put it on display at Garden Pier in Atlantic City for several years. It drew enormous crowds. Often a young woman sat on each of the oversized keys. All right, which of these Underwood promotions actually happened?"
+    },
+    {
+      "name": "C",
+      "timestamp": "95:03",
+      "text": "That's a really good. Do you think the first one? The lady? First one. I like the first one. The lady one. Lady in a window. That sounds crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:13",
+      "text": "I'm going with the first one."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:14",
+      "text": "I'm going with lady in a window."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:16",
+      "text": "You're going with Chrysler Building? Yeah. Okay. All right. I'm with Dave."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:20",
+      "text": "I'm like, I need Dave Sounder needs to just be the lady in a window from now on."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:26",
+      "text": "Every time Dave shows up, we play lady in a window. Headless lady."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:29",
+      "text": "All right, here we go."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:33",
+      "text": "Did you pick out the true story about Underwood typewriters? It's number 3. Yeah, they built a 14-foot typewriter on the Atlantic City boardwalk. What?"
+    },
+    {
+      "name": "A",
+      "timestamp": "95:42",
+      "text": "With dames sitting on the keys."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:44",
+      "text": "We used to be a real country. Now I wonder if Joel and Ethan were using an Underwood when they typed, look upon me and I'll show you the life of the mind. Here ends the Truthsayer. Truthsayer."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:56",
+      "text": "Dave, what was your first typewriter or your first word processor? Like, where did you start?"
+    },
+    {
+      "name": "A",
+      "timestamp": "96:02",
+      "text": "I had a— early on, we would go to my dad's office and use like the IBMs that were there if it was something important."
+    },
+    {
+      "name": "G",
+      "timestamp": "96:11",
+      "text": "What did your dad do?"
+    },
+    {
+      "name": "A",
+      "timestamp": "96:12",
+      "text": "He was a lawyer, but it was just they had a lot of typewriters. You know, they had like electronic typewriters because we— the first one I had, I don't even remember the brand, but it was a travel one. So it was in a suitcase kind of a thing where like it opened up and it was my mom's. Like, I think it was typewriter from school, and it had a ribbon and everything, and we used that. It was, uh, it was kind of wild. Uh, and then at some point we had one of those early sort of hybrid typewriter word processors where the screen was like 3 lines, you know, like, like right in the dead center. That was a Brother, and that was pretty good for a while. So yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:47",
+      "text": "Oh, definitely had a Brother word processor for sure, um, back in the day. All right, thank you so Thank you so much. Here is Kev."
+    },
+    {
+      "name": "E",
+      "timestamp": "96:57",
+      "text": "Hey, Escape Hatch, it's Kev here coming to you from my office, hence what I imagine to be a gigantic echo. This week we're back with the Coen Brothers with Barton Fink, which I think was on the schedule and then was delayed. I don't remember, but what's important is that we're here now when we're doing it. The great Dave Mandel is back. Yes, Kev's question. Barton Fink is a playwright who gets whisked away to Hollywood in order to make it big. And it happens so often on stage, both with playwrights and with actors, that you see somebody in a play you really love and you blink and all of a sudden they're on TV and you never really see them on stage again. And same with many great playwrights. It's because you have to, right? So that's the situation."
+    },
+    {
+      "name": "G",
+      "timestamp": "97:43",
+      "text": "Kev's question."
+    },
+    {
+      "name": "E",
+      "timestamp": "97:48",
+      "text": "If you guys were to write a play, what would that play be about? I'm definitely curious. It cannot be the musical of Dune, so think about that. But if you could write a play, what would it be about? Uh, with peace and love, I'll talk to you all very soon."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:03",
+      "text": "Once again, it's Kev's Questions."
+    },
+    {
+      "name": "C",
+      "timestamp": "98:07",
+      "text": "Have you written for the theater, Dave? Have you written for the theater?"
+    },
+    {
+      "name": "A",
+      "timestamp": "98:09",
+      "text": "I have not. Uh, I was, you know, vaguely approached once Never really had any—"
+    },
+    {
+      "name": "B",
+      "timestamp": "98:15",
+      "text": "The Cat in the Hat: The Musical on Broadway."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:18",
+      "text": "I've never had any kind of idea that I was like, this is a play kind of a thing. That is what has, I guess, stopped me a bit. I love— they don't make them as much anymore, but I used to love mystery plays. You see them a lot in London. They still kind of do some of them. So I like that kind of a thing, like The Mousetrap, which has been running a million years. But no, I've never written anything like that. I don't have any— I have no great answer for this. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:47",
+      "text": "What's the one with Christopher Reeve and Michael Caine?"
+    },
+    {
+      "name": "A",
+      "timestamp": "98:50",
+      "text": "Deathtrap. Really good. Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:53",
+      "text": "I have not— I haven't watched it. I haven't watched it since it came out."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:56",
+      "text": "Holds up. Really good mystery. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:58",
+      "text": "So interesting. Dang. All right."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:01",
+      "text": "I mean, I would try to write something, you know, like absurdist, and it would be terrible. I would basically be the Barton Fink of, like, you know, bad, bad absurdist."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:11",
+      "text": "There's a very famous play that, like, ran for only, like, a couple of nights And was sort of destroyed in, I think, the New York Times by Frank Rich, called Moose Murders."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:22",
+      "text": "Love that."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:23",
+      "text": "Yeah. And it was just terrible, apparently. But I always thought it might be interesting to try and do a play about the ending of Moose Murders. Like about Moose Murders, a play about the play being a disaster. I don't know."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:38",
+      "text": "Something like that. Yeah. I love it. I love it."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:40",
+      "text": "It's very inside theater. Theater, I guess. Maybe a little too much. Sorry, Kev."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:44",
+      "text": "Kev will like this. Yeah. Okay, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:47",
+      "text": "I don't know why, but my first thought was a play that all takes place in a house, and it's election night 2016. Just because I just remember, I've like forever been cemented by my wife and everyone else as the guy who was like, \"Just hold on."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:04",
+      "text": "Pennsylvania is coming.\" Right here it comes."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:06",
+      "text": "We're gonna be okay. We're gonna be okay. Okay, Nate said it was gonna be all right. And just like that existential dread as that all falls apart, it'd be pretty tough."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:18",
+      "text": "I don't even like watching the Succession episode about the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "100:22",
+      "text": "That was very scary. That was really scary, actually. I did not— I actually don't know how we handle that scenario, by the way. I still don't think we have anything."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:29",
+      "text": "I think we'll find out. I think we'll find out."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:31",
+      "text": "Jesus. All right."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:41",
+      "text": "Voicemail."
+    },
+    {
+      "name": "F",
+      "timestamp": "100:42",
+      "text": "Yeah. Ah ah ah. Hey, this is Corey calling from Austin, Texas about Barton Fink. That Coen Brothers movie from 1991 that gets better every time I fucking watch it. Thank God. It is such a great fucking movie. I used to think it was a good movie. And now I'm like, this movie is like one of their best. Oh my God. It's so much fun. It's so open to interpretation. I think there's so much going on. Turturro is just firing on all cylinders. Fucking Goodman is kicking ass. We got a cameo by Steve Buscemi and some of the other fucking Coen Brothers regulars. It's so good. God, it's so good. I mean, that wallpaper, it's this— it's like so like Cronenberg. It's so fleshy and like, I don't know, what is that coming out of the walls? Like semen or pus or not wallpaper paste, that's for fucking sure. I don't know. But yeah, super Lynchian too. Like there's a lot of stuff, you know, not just like, oh, his hair looks like Eraserhead or something like that. There's just the sound design in The acting in this is fucking phenomenal, really reminiscent of some of the stuff that Lynch does that I really love about Lynch films. Anyway, I won't take up too much time other than to say I do love this movie. Who would Tilda Swinton play? I'm going Chet all the way. A nice little Chet from Tilda."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:10",
+      "text": "Chet? Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:10",
+      "text": "I can see that."
+    },
+    {
+      "name": "G",
+      "timestamp": "102:12",
+      "text": "Wow."
+    },
+    {
+      "name": "F",
+      "timestamp": "102:12",
+      "text": "Thanks for doing this one. Summer of Jason is just rocking and rolling. We are just kicking ass and taking names. The people love this Summer of Jason. Know what's next week, but I'm sure I'm gonna love it. All right, unless it's about submarines, then fuck that shit. Okay, love you guys."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:25",
+      "text": "Talk to you next week. Bye. Dang, that's great. I didn't— I wouldn't— I mean, I, I wasn't doubting Corey, but I didn't know if this would be in his wheelhouse. I do like the Cronenberg— it is interesting, the Cronenberg observation, because there is like sort of a— like the pus in the, in the, in the ear and the, the wallpaper and all the sort of the, the gross Of it is unusual for them in some degree. Like you know, there's not like they don't they don't have a ton of that. So yeah, love that. Love that observation."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:57",
+      "text": "It's great. We're doing The Fly next month, and I have not rewatched that movie. Are we? Forty years."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:03",
+      "text": "Summer of Jason ended abruptly."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:07",
+      "text": "Meredith's call, buddy. You gotta you gotta go where the guest goes. Yeah, that's fine. That's fine. Guys, we did it. Hold on."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:14",
+      "text": "I got one last thing based on. Oh, I know Corey didn't exactly ask a question. so I'm gonna kind of whatever."
+    },
+    {
+      "name": "F",
+      "timestamp": "103:20",
+      "text": "Please, no."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:20",
+      "text": "Oh, please, no. What do you guys think the ending means? Or what do you think the ending is, if you don't mind? I'm curious. Yeah. 'Cause I have a theory that I don't necessarily think— I think it's right, but I don't necessarily know if anyone else thinks it. So I'm curious. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:34",
+      "text": "So I think, like, you know, frustratingly for Matt, I think it's meant to be ambiguous and not, like, have a— I don't think it's meant to have a definite ending. The parts of it that, like, sort of, I think, work are, um, it's the girl from the picture and he says to her, are you in pictures? Uh, and she's like, don't be silly. And like this whole like— and I think, I think the— I think that is as much like what the ending is about as anything else, which is just like he doesn't— he's like lost the ability to kind of distinguish reality from not, and like doesn't, you know, and can no longer kind of, um, make sense of the world that he lives in because he's like through the looking glass into this like, uh, hell So that's like— that was my interpretation. I do love, incidentally, I do love that the seagull dives into the water right at the end of the last shot. I think that's like really beautiful."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:24",
+      "text": "It's also the first shot— the first shot when he comes to California is the ocean shot, but it's not him there. It's just like— it's kind of setting the stage there. So as soon as I saw the picture, and I didn't remember it from the thing, but as soon as I saw the picture in the hotel room, Hotel room. I was like, he's going to write about that at some point. So that's my takeaway is that he is that is that is going to be his next story is going to be about this woman and what's happening there, and it's probably not going to be about the common man."
+    },
+    {
+      "name": "C",
+      "timestamp": "104:56",
+      "text": "So I don't think he's get see I don't think there's any like sort of future. I think he's just stuck in hell forever at this point. I think he's like I I don't think he like I don't think there's any kind of see I think it's a weirdly."
+    },
+    {
+      "name": "A",
+      "timestamp": "105:08",
+      "text": "positive ending, which is—"
+    },
+    {
+      "name": "C",
+      "timestamp": "105:09",
+      "text": "Oh yeah, I like it."
+    },
+    {
+      "name": "A",
+      "timestamp": "105:10",
+      "text": "I think it's like Charlie sort of succeeded and shook him out of his assholeness. Like, has not necessarily shown him the life of a common man, but all of a sudden now, Barton Fink actually has something to write about. And so when he— like, for a guy that couldn't write, and it was fishmongers and all his nonfiction, he's like had this insane adventure. He has seen shit, whether it was hell or not, he has seen shit. And now as he sits there sort of on the beach, while she says, don't be ridiculous, it's almost sort of like, stop making writing pretentious, and now just, you can write. I don't know. And again, not based on anything other than my own insanity. So please take it as you will."
+    },
+    {
+      "name": "C",
+      "timestamp": "106:00",
+      "text": "I like that. So no, I like that because it's connected to sort of another idea, which is, is like, what is it that allows him to write the— he— what, what cures his writer's block, right? What are we meant to understand about what cures his writer's block? Because it's like, not just— it's not like, you know, just— he has to have this entirely like visceral experience in order to kind of break through. And so maybe that is like— maybe there is like a hopeful end to this. It's like, yeah, like, you know, you just need to get totally fucked up and be disabused of all this bullshit."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:32",
+      "text": "Um, and you have to go through hell to come out the other end and be able to write, which is Sometimes what writer's block does feel like, I guess."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:40",
+      "text": "But I think he still will be trapped in hell, by the way, just because as Lipnick says, you're gonna be working for us, you're gonna be right, we're gonna own every single thing that you make. So he is trapped."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:51",
+      "text": "But see, I would almost argue that doesn't matter because it's not about what— if he writes a good script, no one has to make it. He actually finally writes a good script."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:01",
+      "text": "I mean, again. Yes, yes, I agree. Like, that's him trying. That is his ticket. to try and get out, um, is if he can tell that story. Um, and maybe it doesn't matter if anyone ever reads it or not, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "107:12",
+      "text": "Um, I do think, I do think the hopeful read is somewhat valid because like he at least is seeing things more clearly than he was before. Like he was—"
+    },
+    {
+      "name": "A",
+      "timestamp": "107:22",
+      "text": "He's seeing shit that he never would have thought."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:24",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:24",
+      "text": "Barton Fink, early Barton Fink, like the Barton Fink who was up his own asshole, which is really what he is, would never go on a beach, would never sit on a Like, I don't know. So I guess I'd like to think it's something, but maybe I'm completely wrong."
+    },
+    {
+      "name": "C",
+      "timestamp": "107:39",
+      "text": "I love this. I love this. I'm into it."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:41",
+      "text": "Jason's gonna watch it again."
+    },
+    {
+      "name": "C",
+      "timestamp": "107:43",
+      "text": "I'm gonna watch it again. Well, we were saying what we were saying also, like this whole observation about like the number of head mentions in it from Charlie. I gotta go back and look at all those because I noticed some of them."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:54",
+      "text": "So many from him. But everybody also uses the word too. Everybody. Oh, really? Other people use it more like correctly, like, but that word head is in the script a lot, right? He really like does like malaproporisms and like just jams the word head in, in random places. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:14",
+      "text": "It's so funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:15",
+      "text": "I also thought it was funny, like, this isn't that many years before Seven."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:18",
+      "text": "That's right."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:20",
+      "text": "Intimate head in the box. Like, yeah, I was kind of, kind of surprised by that. Guys, we did it. Yeah, we did it. Barton Fink. Dave, what do you have to plug, my friend? You have at least a couple of things."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:33",
+      "text": "We got, got the big Stuff Dreams Are Made Of podcast you can check out. I'm gonna remind people to go pick up— even though I have nothing to do with it— I'm gonna remind people to pick up Ben Wickler's book, This Is the Plan. Take a read of that. At some point in, I guess, '27, '28, or '29, we've got the sequel to The Grinch coming out that I'm gonna be co-writing with my old writing partners. So lots to come, lots to come."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:58",
+      "text": "Yeah, lots happening."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:00",
+      "text": "Uh, tell the people about the book you're writing, Dave."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:02",
+      "text": "Oh, that's right, I forgot about that too. Uh, I am working with Brandon Allinger, uh, on a 50th anniversary costumes of Star Wars: A New Hope. Uh, and that has been really exciting."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:14",
+      "text": "Oh, that's so exciting."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:15",
+      "text": "Yeah, it's gonna be really good. It'll be out obviously for the 50th anniversary. Yeah. Um, and, uh, so we are actually a little bit, you know, as fashion, racing to get it done a bit. So we've been doing— we've been tracking down stuff in collectors' collections that people haven't seen before, which is really great, including stuff from my own collection. And now we are going up to the Lucas Ranch to take pictures of some of their stuff, some of which we've been able to sort of very specifically identify, or they've identified, as A New Hope. So it's very fun to kind of specifically look at just the A New Hope stuff in a really interesting way. So, and hopefully this book begets an Empire book and then later a Jedi book. So that would be great. Genius!"
+    },
+    {
+      "name": "C",
+      "timestamp": "109:57",
+      "text": "Oh my God."
+    },
+    {
+      "name": "G",
+      "timestamp": "109:58",
+      "text": "What a move."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:59",
+      "text": "Genius! Franchise, baby!"
+    },
+    {
+      "name": "D",
+      "timestamp": "110:01",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:01",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:02",
+      "text": "Franchise, baby. I love it."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:04",
+      "text": "I'm excited for you."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:05",
+      "text": "Dave, we will next be hanging out in Los Angeles at the Lucas Museum premiere party."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:12",
+      "text": "Jason, you coming to that too, or did you not sign up for that?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:14",
+      "text": "I'm not coming to that because I have a plan to take the kids to the museum for my birthday, like, um, on the, the 24th, like the weekend of the 24th."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:25",
+      "text": "That's your 50th birthday?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:26",
+      "text": "And my 50th birthday is September 24th."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:29",
+      "text": "I'm September 24th."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:31",
+      "text": "No."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:32",
+      "text": "Yes. September 24th, 1970. That's my birthday. Yeah. Isn't that weird?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:35",
+      "text": "We're cosmic twins?"
+    },
+    {
+      "name": "A",
+      "timestamp": "110:36",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:37",
+      "text": "Us and Jim Henson?"
+    },
+    {
+      "name": "A",
+      "timestamp": "110:38",
+      "text": "Yeah. And Jim Henson. Exactly. Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:41",
+      "text": "Get, get a Cuban-shaped cake."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:42",
+      "text": "Like, let's go. I did that."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:44",
+      "text": "For my 40th. I know. For my 40th. Did I tell you that? Oh, I don't know. I thought you were joking. I thought you're like, oh my God, did I tell that story? Okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:53",
+      "text": "This is great. I love this."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:55",
+      "text": "What a great— so you guys are going to be hanging out?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:58",
+      "text": "Yeah, we're going to be hanging out. I'm going to come down to you. Dave, I'll come down to you for my birthday."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:02",
+      "text": "It's not my kids, but Jason's kids."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:04",
+      "text": "Maybe I'll get free. Let's see what happens. All right. Okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:07",
+      "text": "I also might be picking up a new sports car in Los Angeles that weekend. It's not just the museum, But yeah, we'll see."
+    },
+    {
+      "name": "E",
+      "timestamp": "111:13",
+      "text": "Um, we'll see."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:15",
+      "text": "Amazing, amazing. Jason, what do you have to plug, my friend?"
+    },
+    {
+      "name": "C",
+      "timestamp": "111:18",
+      "text": "Uh, a great story came in that was, um, uh, related to where we started the pod, so I'll plug this as we go, as we go at the end, which apparently the headline is the DNC lost nearly $29,000 to an email scammer posing as Ken Martin."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:33",
+      "text": "Oh Jesus."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:34",
+      "text": "The DNC caught the error but only recovered a Portion of the funds. Let's go. It's going great. It's not. It's going great, guys. Going well. Hang in there. All right, everybody hang in there. We're gonna make it."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:48",
+      "text": "Because the password was Ken Martin three."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:51",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:55",
+      "text": "Bye. Bye. And that's it for this episode of Escape Hatch. I want to thank Jason and Dave for an amazing conversation. Conversation. Next week, it's the return of the author of genre cinema behind-the-scenes classics, Max Every. We finally phone home and cover E.T. the Extra-Terrestrial. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server. where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck Podcast, John, a production of H Industries. Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks for listening. We'll see everybody next week."
+    },
+    {
+      "name": "E",
+      "timestamp": "112:53",
+      "text": "Bye."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:59",
+      "text": "I'm back. Jews. What?"
+    },
+    {
+      "name": "C",
+      "timestamp": "113:00",
+      "text": "Jews. Yeah, I was asking Matt to compare and contrast, like, why he— like, even though Llewelyn Davis is a misanthropic character who can't get along with people and gets beat up, and why, you know, why he likes that movie and likes that character and has a harder time connecting Barton, um, and the dourness of Barton. And it's because Barton is Jewish and Llewelyn Davis isn't. That's the Yeah, that's the issue. And even though that Oscar Isaac is half Jewish, it doesn't matter."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:23",
+      "text": "He is half Jewish."
+    },
+    {
+      "name": "C",
+      "timestamp": "113:24",
+      "text": "Matt can tell. Matt can tell that, like, you know, it's not— and, and Turturro isn't Jewish at all, but it doesn't matter. Like, Matt, Matt, Matt knows. Matt knows what's going on."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:33",
+      "text": "Okay, good. Thank you. Thank you for that. None of that made it into the final version. Enjoy, enjoy that uncut, listeners."
+    },
+    {
+      "name": "C",
+      "timestamp": "113:41",
+      "text": "That should be a social clip. That would get— that would get engagement for the people who are also mad about the Latverian accent, I bet."
+    }
+  ]
+}
