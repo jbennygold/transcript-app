@@ -210,16 +210,30 @@ audit trail or edit path.
 
 **Flow**:
 
-1. `ingest-episode.yml` fires `notify-discord.ts --event=notes-open`, posting the episode to
-   `#engineers`.
-2. The app records that episode as the currently open one for notes.
+1. `ingest-episode.yml` fires `notify-discord.ts --event=notes-open`, announcing in `#engineers`
+   that the episode is open for Notable Moment nominations. This is the call for submissions — it
+   names the episode and film, states that `/pdc-note` is how you nominate, and shows an example
+   invocation. Without it nobody knows nominations opened.
+2. The same step records the episode as currently open for notes, at Blob key
+   `episode-notes/open.json` (`{ episode, film, openedAt }`). `/pdc-note` reads this to resolve an
+   omitted episode. A single open episode at a time; a new `notes-open` event replaces it.
 3. Contributors run `/pdc-note note:"…"`. The episode is implicit — it attaches to the open episode.
-   An optional `ep:` argument covers late notes on an older episode.
+   An optional `ep:` argument covers late notes on an older episode, and is required if
+   `episode-notes/open.json` is missing.
 4. The bot POSTs to a new `POST /api/episode-notes`, which stores to Blob at
    `episode-notes/ep{N}_{timestamp}.json` with the submitter's Discord tag and timestamp.
 5. `/review/submissions` gains a notes tab: accept, reject, or edit-then-accept per note, matching
    the existing `CleanupReview` interaction model.
 6. On accept, `appendToCell(episode, 'Notable_Moments', '- ' + note)`.
+
+**Second webhook required**: `scripts/notify-discord.ts` reads a single hardcoded
+`DISCORD_PDC_WEBHOOK_URL` (`notify-discord.ts:156`), and Discord webhooks are channel-scoped — that
+one posts to `#pod-data-central` and cannot reach `#engineers`. This design adds a
+`DISCORD_ENGINEERS_WEBHOOK_URL` secret and changes the script to select the webhook per event:
+`notes-open` posts to `#engineers`, every existing event continues to post to `#pod-data-central`.
+The existing "warn and skip when unset" behaviour is preserved per webhook, so an unconfigured
+`#engineers` webhook degrades to no announcement rather than failing the workflow. `ingest-episode.yml`
+gains the new secret alongside the one it already passes at line 60.
 
 **Format**: `Notable_Moments` is already newline-delimited with `- ` bullets in existing rows, so
 appending a bullet per accepted note matches the established convention and keeps
@@ -262,7 +276,8 @@ proposal costs one rejection click and never reaches the sheet.
    notification. Kev, Tilda, and Film canonicalization only.
 6. MMM / That's Great counters in measure-only mode; calibrate against the ~300 hand-counted rows;
    enable proposals if accuracy is acceptable.
-7. Engineers Notes: `/api/episode-notes`, `/pdc-note` command, `notes-open` event, submissions tab.
+7. Engineers Notes: `#engineers` webhook + `DISCORD_ENGINEERS_WEBHOOK_URL` secret, `notes-open`
+   announcement and open-episode record, `/api/episode-notes`, `/pdc-note` command, submissions tab.
 
 Steps 1–4 have no model involvement and no approval surface, so they can ship and prove out before
 any of the extraction work begins.
