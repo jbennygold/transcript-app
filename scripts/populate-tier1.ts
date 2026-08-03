@@ -27,7 +27,7 @@ import {
   type PatreonMatch,
   type TmdbDetails,
 } from '../src/lib/episode-sources';
-import { episodeSortKey } from '../src/lib/episode-format';
+import { episodeSortKey, parseEpisodeId } from '../src/lib/episode-format';
 
 // Match the module-scope pattern already used by scripts/notify-discord.ts so
 // the entrypoint guard below works under tsx.
@@ -105,13 +105,17 @@ async function main() {
   }
 
   for (const episode of targets) {
-    // Metadata stores `episode` as a number; getEpisodeByNumber compares with
-    // strict equality (see other call sites, e.g. external-response.ts's
-    // toEpisodeNumber), so a raw CLI string never matches.
-    const epNum = Number(episode);
-    const meta = Number.isFinite(epNum) ? getEpisodeByNumber(epNum) : null;
-    if (!meta || !meta.film) {
-      log(`Episode ${episode}: no film title in metadata — skipping.`);
+    // getEpisodeByNumber compares with strict equality against metadata's
+    // `episode` field, which is a number for regular episodes but a string
+    // for bonus episodes (e.g. "147b1"). parseEpisodeId matches that typing
+    // so both kinds resolve correctly.
+    const meta = getEpisodeByNumber(parseEpisodeId(episode));
+    if (!meta) {
+      log(`Episode ${episode}: no matching row in metadata — skipping.`);
+      continue;
+    }
+    if (!meta.film) {
+      log(`Episode ${episode}: metadata row has no film title — skipping.`);
       continue;
     }
 

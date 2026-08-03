@@ -1,6 +1,16 @@
 export type EpisodeId = number | string;
 
 /**
+ * Parse a raw episode identifier string into an EpisodeId.
+ * Numeric ids become numbers ("316" → 316); bonus ids stay strings ("147b1" → "147b1").
+ * Metadata lookups compare with strict equality, so the type must match how the id is stored.
+ */
+export function parseEpisodeId(raw: string): EpisodeId {
+  const trimmed = raw.trim();
+  return /^\d+$/.test(trimmed) ? parseInt(trimmed, 10) : trimmed;
+}
+
+/**
  * Extract numeric sort key from an episode identifier.
  * Regular episodes: 42 → 42, Bonus episodes: "49b1" → 49.01, "49b2" → 49.02
  */

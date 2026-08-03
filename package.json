@@ -29,7 +29,7 @@
     "populate-tier1": "node --import tsx ./scripts/populate-tier1.ts",
     "test:notify": "node --import tsx --test scripts/notify-discord.test.ts",
     "test:reports": "node --import tsx --test src/lib/transcription-report.test.ts src/lib/resolve-report-anchor.test.ts src/lib/discord-notify.test.ts src/lib/apply-report.test.ts",
-    "test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts scripts/populate-tier1.test.ts"
+    "test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts src/lib/episode-format.test.ts scripts/populate-tier1.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

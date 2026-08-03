@@ -20,7 +20,7 @@ import { execSync } from 'child_process';
 import * as fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';
-import { episodeSortKey, type EpisodeId } from '../src/lib/episode-format';
+import { episodeSortKey, parseEpisodeId, type EpisodeId } from '../src/lib/episode-format';
 
 // ---------------------------------------------------------------------------
 // CLI flags
@@ -88,10 +88,6 @@ interface NewEpisode {
 
 function normalizeEpisodeId(id: EpisodeId): string {
   return String(id).trim().toLowerCase();
-}
-
-function parseEpisodeId(id: string): EpisodeId {
-  return /^\d+$/.test(id) ? parseInt(id, 10) : id;
 }
 
 function isRecentRelease(releaseDate: string): boolean {
