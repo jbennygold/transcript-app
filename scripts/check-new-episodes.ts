@@ -267,6 +267,14 @@ async function main() {
   const episodes = await detectNewEpisodes();
   log(`Found ${episodes.length} new episode(s)`);
 
+  // Tier 1: fill deterministic sheet columns. Runs before the no-new-episodes
+  // early exit so scheduled passes keep filling rows whose Spotify/Patreon
+  // entries did not exist yet at first detection. Non-fatal by design — a
+  // source-API outage must never fail the run.
+  if (!dryRun) {
+    run('npm run populate-tier1 -- --fill-gaps', 'populate-tier1 (--fill-gaps)');
+  }
+
   if (episodes.length === 0) {
     writeReport(generateReport(episodes, false));
     process.exit(0);

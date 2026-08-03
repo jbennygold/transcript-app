@@ -36,6 +36,10 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY_JSON }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          PATREON_CREATOR_TOKEN: ${{ secrets.PATREON_CREATOR_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           INCLUDE_BACKFILL: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.include_backfill || 'false' }}
         run: |
           if [ "$INCLUDE_BACKFILL" = "true" ]; then
