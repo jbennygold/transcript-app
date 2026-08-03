@@ -73,8 +73,7 @@ export function mapHeaders(headerRow: string[]): Map<string, number> {
  * Apply rowData onto a copy of existingRow.
  *
  * Blank incoming values are always skipped, so a write can never erase a cell.
- * The `mode` parameter is accepted here but only 'overwrite' is implemented —
- * Task 2 adds the 'fill-empty' branch test-first.
+ * In 'fill-empty' mode a cell that already holds a value is left alone.
  */
 export function mergeRow(
   existingRow: string[],
@@ -92,6 +91,7 @@ export function mergeRow(
     const newVal = rowData[key as PdcColumnKey];
     if (newVal === undefined || newVal === null || newVal.trim() === '') continue;
     const oldVal = String(updatedRow[colIdx] ?? '').trim();
+    if (mode === 'fill-empty' && oldVal !== '') continue;
     if (oldVal === newVal.trim()) continue;
     updatedRow[colIdx] = newVal;
     changedFields.push(key);

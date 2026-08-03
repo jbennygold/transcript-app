@@ -86,3 +86,50 @@ test('buildNewRow places values at mapped indexes and blanks the rest', () => {
   const row = buildNewRow({ Pod: 'EH', Ep: '317', Film: 'Sorcerer (1977)' }, map);
   assert.deepEqual(row, ['EH', '', '317', 'Sorcerer (1977)', '', '', '']);
 });
+
+test('mergeRow fill-empty: fills a blank cell', () => {
+  const map = mapHeaders(HEADERS);
+  const existing = ['EH', '9', '317', 'Sorcerer (1977)', '', '', '0'];
+  const { updatedRow, changedFields } = mergeRow(existing, { Length: '1:42:10' }, map, 'fill-empty');
+  assert.equal(updatedRow[4], '1:42:10');
+  assert.deepEqual(changedFields, ['Length']);
+});
+
+test('mergeRow fill-empty: leaves a human-entered value alone', () => {
+  const map = mapHeaders(HEADERS);
+  const existing = ['EH', '9', '317', 'Sorcerer (1977)', '1:00:00', '', '0'];
+  const { updatedRow, changedFields } = mergeRow(existing, { Length: '1:42:10' }, map, 'fill-empty');
+  assert.equal(updatedRow[4], '1:00:00');
+  assert.deepEqual(changedFields, []);
+});
+
+test('mergeRow fill-empty: treats a whitespace-only cell as blank', () => {
+  const map = mapHeaders(HEADERS);
+  const existing = ['EH', '9', '317', 'Sorcerer (1977)', '   ', '', '0'];
+  const { updatedRow, changedFields } = mergeRow(existing, { Length: '1:42:10' }, map, 'fill-empty');
+  assert.equal(updatedRow[4], '1:42:10');
+  assert.deepEqual(changedFields, ['Length']);
+});
+
+test('mergeRow fill-empty: treats a missing trailing cell as blank', () => {
+  const map = mapHeaders(HEADERS);
+  const existing = ['EH', '9', '317', 'Sorcerer (1977)'];
+  const { updatedRow, changedFields } = mergeRow(existing, { MMM_Count: '4' }, map, 'fill-empty');
+  assert.equal(updatedRow[6], '4');
+  assert.deepEqual(changedFields, ['MMM_Count']);
+});
+
+test('mergeRow fill-empty: mixed row fills only the blanks', () => {
+  const map = mapHeaders(HEADERS);
+  const existing = ['EH', '9', '317', 'Sorcerer (1977)', '1:00:00', '', ''];
+  const { updatedRow, changedFields } = mergeRow(
+    existing,
+    { Length: '1:42:10', Kevs_Question: 'What is your favourite?', MMM_Count: '4' },
+    map,
+    'fill-empty'
+  );
+  assert.equal(updatedRow[4], '1:00:00', 'existing Length preserved');
+  assert.equal(updatedRow[5], 'What is your favourite?');
+  assert.equal(updatedRow[6], '4');
+  assert.deepEqual(changedFields.sort(), ['Kevs_Question', 'MMM_Count']);
+});
