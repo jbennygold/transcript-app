@@ -1,10 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { checkAuth } from '@/lib/podreview-auth';
-import { upsertEpisodeRow, type PdcRow } from '@/lib/pdc-sheet';
+import { upsertEpisodeRow, hasSheetCredentials, PdcSheetValidationError, type PdcRow } from '@/lib/pdc-sheet';
 
 export async function POST(request: NextRequest) {
   if (!checkAuth(request)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
+  if (!hasSheetCredentials()) {
+    const hasJson = !!process.env.GOOGLE_SERVICE_ACCOUNT_KEY_JSON;
+    const hasFile = !!process.env.GOOGLE_SERVICE_ACCOUNT_KEY_FILE;
+    return NextResponse.json(
+      { error: `Google Sheets credentials not configured (JSON: ${hasJson}, FILE: ${hasFile})` },
+      { status: 500 }
+    );
   }
 
   const data = await request.json();
@@ -72,8 +81,10 @@ export async function POST(request: NextRequest) {
     });
   } catch (err: unknown) {
     console.error('Google Sheets update error:', err);
+    if (err instanceof PdcSheetValidationError) {
+      return NextResponse.json({ error: err.message }, { status: 500 });
+    }
     const message = err instanceof Error ? err.message : 'Unknown error';
-    const status = message.startsWith('Google Sheets credentials') ? 500 : 500;
-    return NextResponse.json({ error: `Sheet update failed: ${message}` }, { status });
+    return NextResponse.json({ error: `Sheet update failed: ${message}` }, { status: 500 });
   }
 }

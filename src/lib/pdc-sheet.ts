@@ -28,6 +28,9 @@ export interface UpsertResult {
   changedFields: string[];
 }
 
+/** A validation failure whose message is safe to surface to the caller verbatim. */
+export class PdcSheetValidationError extends Error {}
+
 /** Header spellings the sheet has used over time, canonical form first. */
 export const HEADER_ALIASES: Partial<Record<PdcColumnKey, string[]>> = {
   Ep: ['Ep', 'Episode'],
@@ -157,7 +160,7 @@ export async function upsertEpisodeRow(rowData: PdcRow, mode: WriteMode): Promis
   if (!auth) {
     const hasJson = !!process.env.GOOGLE_SERVICE_ACCOUNT_KEY_JSON;
     const hasFile = !!process.env.GOOGLE_SERVICE_ACCOUNT_KEY_FILE;
-    throw new Error(
+    throw new PdcSheetValidationError(
       `Google Sheets credentials not configured (JSON: ${hasJson}, FILE: ${hasFile})`
     );
   }
@@ -169,12 +172,12 @@ export async function upsertEpisodeRow(rowData: PdcRow, mode: WriteMode): Promis
   });
 
   const rows = (res.data.values as string[][] | undefined) ?? [];
-  if (rows.length === 0) throw new Error('Sheet is empty or not found');
+  if (rows.length === 0) throw new PdcSheetValidationError('Sheet is empty or not found');
 
   const headerRow = rows[0].map(h => String(h).trim());
   const headerMap = mapHeaders(headerRow);
   const epColIdx = headerMap.get('Ep');
-  if (epColIdx === undefined) throw new Error('Could not find Ep column in sheet');
+  if (epColIdx === undefined) throw new PdcSheetValidationError('Could not find Ep column in sheet');
 
   const matchRowIdx = findRowIndexByEpisode(rows, epColIdx, episode);
 
