@@ -143,6 +143,15 @@ jobs:
           DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
         run: node --import tsx ./scripts/notify-discord.ts --event=no-new-episodes
 
+      # Surface episodes whose sheet Film title matched no Drive folder, so a
+      # typo is visible in Discord rather than buried in the job summary.
+      - name: Notify Discord — unresolved Drive folders
+        if: hashFiles('unresolved-episodes.json') != ''
+        continue-on-error: true
+        env:
+          DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=drive-unresolved
+
       # Deploy so the build picks up the new metadata + the updated search
       # index that was just uploaded to Blob.
       - name: Trigger deploy

@@ -62,5 +62,6 @@ bm25-index.json
 topic-vectors.json
 topic-cache.json
 transcribed-episodes.txt
+unresolved-episodes.json
 
 .env*.local

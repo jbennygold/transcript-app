@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import type { UnresolvedEpisode } from '../src/lib/drive-match';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -84,6 +85,21 @@ export function buildIngestedMessage(
         color: GREEN,
       },
     ],
+  };
+}
+
+export function buildDriveUnresolvedMessage(unresolved: UnresolvedEpisode[]): WebhookPayload {
+  const plural = unresolved.length === 1 ? '' : 's';
+  return {
+    content: `⚠️ ${unresolved.length} episode${plural} had no matching audio folder in Drive`,
+    embeds: unresolved.slice(0, 10).map(u => ({
+      title: `Ep ${u.episode} · ${u.film}`,
+      description:
+        u.suggestions.length > 0
+          ? `No folder matched. Closest names in Drive:\n${u.suggestions.map(s => `• ${s}`).join('\n')}`
+          : 'No folder matched, and nothing in Drive came close.',
+      color: AMBER,
+    })),
   };
 }
 
@@ -189,8 +205,20 @@ async function main(): Promise<void> {
     payload = buildIngestedMessage(resolveEpisodes([episode], metadataPath)[0], baseUrl);
   } else if (event === 'no-new-episodes') {
     payload = buildNoNewEpisodesMessage();
+  } else if (event === 'drive-unresolved') {
+    const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
+    if (!fs.existsSync(reportPath)) {
+      console.warn('[notify-discord] No unresolved-episodes.json — skipping.');
+      return;
+    }
+    const unresolved: UnresolvedEpisode[] = JSON.parse(fs.readFileSync(reportPath, 'utf-8'));
+    if (unresolved.length === 0) {
+      console.warn('[notify-discord] unresolved-episodes.json is empty — skipping.');
+      return;
+    }
+    payload = buildDriveUnresolvedMessage(unresolved);
   } else {
-    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, or no-new-episodes.`);
+    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, no-new-episodes, or drive-unresolved.`);
     return;
   }
 

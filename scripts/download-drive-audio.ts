@@ -27,6 +27,12 @@ import {
   getFeedUrl,
   type PodcastFeedItem,
 } from '../src/lib/podcast-feed';
+import {
+  scoreFolderAgainstFilm,
+  suggestFolders,
+  MATCH_THRESHOLD,
+  type UnresolvedEpisode,
+} from '../src/lib/drive-match';
 
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });
@@ -258,94 +264,19 @@ function getEpisodesByNumber(episodes: EpisodeId[]): EpisodeMissing[] {
   return matches;
 }
 
-function normalizeName(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .replace(/\s+/g, ' ')
-    .replace(/\b(the|a|an)\b/g, '')
-    .replace(/\(\d{4}\)/g, '')  // Remove year in parens
-    .replace(/\d{4}$/g, '')      // Remove year at end
-    .replace(/bonus\s*/gi, '')
-    .replace(/episode\s*\d+\s*:?\s*/gi, '')
-    .replace(/best\s*of\s*/gi, '')
-    .trim();
-}
-
-function extractYear(name: string): number | null {
-  const match = name.match(/\((\d{4})\)|\b(19\d{2}|20\d{2})\b/);
-  return match ? parseInt(match[1] || match[2]) : null;
-}
-
 function matchFolderToEpisode(folderName: string, episodes: EpisodeMissing[]): EpisodeMissing | null {
-  const normalizedFolder = normalizeName(folderName);
-  const folderYear = extractYear(folderName);
-
-  // Score each episode and find best match
   let bestMatch: EpisodeMissing | null = null;
   let bestScore = 0;
 
   for (const ep of episodes) {
-    const normalizedFilm = normalizeName(ep.film);
-    const filmYear = extractYear(ep.film);
-    let score = 0;
-
-    // Exact match after normalization (best case)
-    if (normalizedFolder === normalizedFilm) {
-      score = 100;
-    }
-    // One fully contains the other (must be significant portion)
-    else if (normalizedFolder.length >= 4 && normalizedFilm.length >= 4) {
-      if (normalizedFolder.includes(normalizedFilm) && normalizedFilm.length >= normalizedFolder.length * 0.5) {
-        score = 80;
-      } else if (normalizedFilm.includes(normalizedFolder) && normalizedFolder.length >= normalizedFilm.length * 0.5) {
-        score = 80;
-      }
-    }
-
-    // Word-based matching - require substantial overlap
-    if (score === 0) {
-      const folderWords = normalizedFolder.split(' ').filter(w => w.length > 2);
-      const filmWords = normalizedFilm.split(' ').filter(w => w.length > 2);
-
-      if (folderWords.length > 0 && filmWords.length > 0) {
-        // Only count substring matches if the shorter word is at least 5 chars
-        // This prevents "her" matching "godfather" due to substring
-        const matchingWords = folderWords.filter(w => filmWords.some(fw => {
-          if (fw === w) return true;  // Exact match always counts
-          // Substring match only if shorter word is substantial (5+ chars)
-          const shorter = w.length < fw.length ? w : fw;
-          if (shorter.length < 5) return false;
-          return fw.includes(w) || w.includes(fw);
-        }));
-        const matchRatio = matchingWords.length / Math.max(folderWords.length, filmWords.length);
-
-        // Require at least 60% word match AND at least 2 matching words (or all words if fewer)
-        const minMatchingWords = Math.min(2, Math.min(folderWords.length, filmWords.length));
-        if (matchRatio >= 0.6 && matchingWords.length >= minMatchingWords) {
-          score = 50 + (matchRatio * 30);  // Score 50-80 based on match quality
-        }
-      }
-    }
-
-    // Year must match if both have years (penalize mismatches heavily)
-    if (score > 0 && folderYear && filmYear) {
-      if (folderYear === filmYear) {
-        score += 10;  // Bonus for matching year
-      } else {
-        score = 0;  // Wrong year = no match
-      }
-    }
-
-    // Update best match
+    const score = scoreFolderAgainstFilm(folderName, ep.film);
     if (score > bestScore) {
       bestScore = score;
       bestMatch = ep;
     }
   }
 
-  // Require minimum score of 50 to accept a match
-  return bestScore >= 50 ? bestMatch : null;
+  return bestScore >= MATCH_THRESHOLD ? bestMatch : null;
 }
 
 // ---------- Main ----------
@@ -488,6 +419,26 @@ async function main() {
     console.log(`\nUnmatched folders (${unmatched.length}):`);
     unmatched.slice(0, 10).forEach(f => console.log(`  - ${f.name}`));
     if (unmatched.length > 10) console.log(`  ... and ${unmatched.length - 10} more`);
+  }
+
+  // Report episodes that never found audio, with the closest folder names.
+  // This is the signal that a sheet Film title has a typo.
+  if (unmatchedEpisodes.length > 0) {
+    const allFolderNames = folders.map(f => f.name);
+    const unresolved: UnresolvedEpisode[] = unmatchedEpisodes.map(ep => ({
+      episode: String(ep.episode),
+      film: ep.film,
+      suggestions: suggestFolders(ep.film, allFolderNames),
+    }));
+
+    const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
+    fs.writeFileSync(reportPath, JSON.stringify(unresolved, null, 2));
+    console.log(`\nWrote ${unresolved.length} unresolved episode(s) to ${reportPath}`);
+
+    for (const u of unresolved) {
+      const hint = u.suggestions.length > 0 ? ` — closest folders: ${u.suggestions.join(', ')}` : '';
+      console.log(`  E${u.episode}: ${u.film} — no audio found${hint}`);
+    }
   }
 
   console.log('\nMatches:');
