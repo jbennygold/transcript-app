@@ -15727,6 +15727,33 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "",
     "artworkLink": "",
     "letterboxdLink": "",
-    "imdbLink": ""
+    "imdbLink": "",
+    "tmdbId": 290,
+    "tmdbPosterPath": "/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Joel Coen",
+      "Ethan Coen"
+    ],
+    "cinematographers": [
+      "Roger Deakins"
+    ],
+    "cast": [
+      "John Turturro",
+      "John Goodman",
+      "Judy Davis",
+      "Michael Lerner",
+      "John Mahoney",
+      "Tony Shalhoub",
+      "Jon Polito",
+      "Steve Buscemi"
+    ],
+    "composers": [
+      "Carter Burwell"
+    ]
   }
 ];
