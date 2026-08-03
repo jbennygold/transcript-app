@@ -439,6 +439,12 @@ async function main() {
       const hint = u.suggestions.length > 0 ? ` — closest folders: ${u.suggestions.join(', ')}` : '';
       console.log(`  E${u.episode}: ${u.film} — no audio found${hint}`);
     }
+  } else {
+    // Clean up any stale report from a previous run
+    const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
+    if (fs.existsSync(reportPath)) {
+      fs.unlinkSync(reportPath);
+    }
   }
 
   console.log('\nMatches:');
