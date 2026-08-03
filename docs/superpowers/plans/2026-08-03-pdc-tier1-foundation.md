@@ -228,7 +228,8 @@ export function mapHeaders(headerRow: string[]): Map<string, number> {
  * Apply rowData onto a copy of existingRow.
  *
  * Blank incoming values are always skipped, so a write can never erase a cell.
- * In 'fill-empty' mode a cell that already holds a value is left alone.
+ * The `mode` parameter is accepted here but only 'overwrite' is implemented —
+ * Task 2 adds the 'fill-empty' branch test-first.
  */
 export function mergeRow(
   existingRow: string[],
@@ -246,7 +247,6 @@ export function mergeRow(
     const newVal = rowData[key as PdcColumnKey];
     if (newVal === undefined || newVal === null || newVal.trim() === '') continue;
     const oldVal = String(updatedRow[colIdx] ?? '').trim();
-    if (mode === 'fill-empty' && oldVal !== '') continue;
     if (oldVal === newVal.trim()) continue;
     updatedRow[colIdx] = newVal;
     changedFields.push(key);
@@ -478,14 +478,17 @@ git commit -m "refactor(pdc): extract sheet upsert into src/lib/pdc-sheet.ts"
 
 ### Task 2: Add fill-empty write mode
 
-Task 1 defined the `fill-empty` branch but never exercised it. This task proves it.
+Task 1 accepts a `mode` parameter but implements only `overwrite`. This task adds the `fill-empty`
+branch, test-first. It is the safety property the whole Tier 1 design rests on: a machine pass must
+never change a cell a human typed into.
 
 **Files:**
 - Modify: `src/lib/pdc-sheet.test.ts` (append tests)
+- Modify: `src/lib/pdc-sheet.ts` (add one branch to `mergeRow`)
 
 **Interfaces:**
 - Consumes: `mapHeaders`, `mergeRow`, `WriteMode` from Task 1.
-- Produces: nothing new — this task only adds coverage guaranteeing `fill-empty` semantics hold.
+- Produces: no new exports — `mergeRow` gains its documented `fill-empty` behaviour.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -540,16 +543,42 @@ test('mergeRow fill-empty: mixed row fills only the blanks', () => {
 });
 ```
 
-- [ ] **Step 2: Run the tests**
+- [ ] **Step 2: Run the tests to verify they fail**
 
 Run: `npm run test:pdc`
-Expected: PASS — 14 tests passing. If any `fill-empty` test fails, fix `mergeRow` in `src/lib/pdc-sheet.ts` until all pass.
+Expected: FAIL — the four tests asserting that an existing value survives (`leaves a human-entered value alone`, and the `mixed row` case) fail, because `mergeRow` currently overwrites regardless of mode.
 
-- [ ] **Step 3: Commit**
+- [ ] **Step 3: Add the fill-empty branch**
+
+In `src/lib/pdc-sheet.ts`, inside the `mergeRow` loop, add one line immediately after `const oldVal = ...` and before the equality check:
+
+```typescript
+    const oldVal = String(updatedRow[colIdx] ?? '').trim();
+    if (mode === 'fill-empty' && oldVal !== '') continue;
+    if (oldVal === newVal.trim()) continue;
+```
+
+Update the JSDoc on `mergeRow` to describe the now-implemented behaviour:
+
+```typescript
+/**
+ * Apply rowData onto a copy of existingRow.
+ *
+ * Blank incoming values are always skipped, so a write can never erase a cell.
+ * In 'fill-empty' mode a cell that already holds a value is left alone.
+ */
+```
+
+- [ ] **Step 4: Run the tests to verify they pass**
+
+Run: `npm run test:pdc`
+Expected: PASS — 14 tests passing
+
+- [ ] **Step 5: Commit**
 
 ```bash
-git add src/lib/pdc-sheet.test.ts
-git commit -m "test(pdc): cover fill-empty write mode"
+git add src/lib/pdc-sheet.ts src/lib/pdc-sheet.test.ts
+git commit -m "feat(pdc): add fill-empty write mode"
 ```
 
 ---
@@ -1392,6 +1421,7 @@ When Matt's `Film` title does not match a Drive folder, the run reports "Audio n
   - `normalizeFolderName(name: string): string`
   - `extractYear(name: string): number | null`
   - `scoreFolderAgainstFilm(folderName: string, film: string): number`
+  - `nameSimilarity(a: string, b: string): number` — 0..1 edit-distance similarity
   - `suggestFolders(film: string, folderNames: string[], limit?: number): string[]`
   - `interface UnresolvedEpisode { episode: string; film: string; suggestions: string[] }`
   - `buildDriveUnresolvedMessage(unresolved: UnresolvedEpisode[]): WebhookPayload` (in `notify-discord.ts`)
@@ -1407,6 +1437,7 @@ import {
   normalizeFolderName,
   extractYear,
   scoreFolderAgainstFilm,
+  nameSimilarity,
   suggestFolders,
 } from './drive-match.ts';
 
@@ -1443,7 +1474,19 @@ test('scoreFolderAgainstFilm scores substantial word overlap between 50 and 80',
   assert.ok(score >= 50 && score <= 80, `expected 50..80, got ${score}`);
 });
 
-test('suggestFolders ranks the closest names first and drops non-matches', () => {
+test('nameSimilarity scores a one-character typo close to 1', () => {
+  assert.ok(nameSimilarity('sorceror', 'sorcerer') > 0.8);
+});
+
+test('nameSimilarity scores unrelated names near 0', () => {
+  assert.ok(nameSimilarity('jaws', 'sorcerer') < 0.3);
+});
+
+test('suggestFolders surfaces a misspelled folder that word overlap cannot see', () => {
+  // The motivating case: word-overlap scoring rates these 0, because
+  // "sorceror" and "sorcerer" share no whole word.
+  assert.equal(scoreFolderAgainstFilm('Sorceror', 'Sorcerer (1977)'), 0);
+
   const folders = ['Jaws', 'Sorceror', 'The Thing', 'Alien'];
   const suggestions = suggestFolders('Sorcerer (1977)', folders, 3);
   assert.equal(suggestions[0], 'Sorceror');
@@ -1452,6 +1495,11 @@ test('suggestFolders ranks the closest names first and drops non-matches', () =>
 
 test('suggestFolders returns an empty list when nothing is close', () => {
   assert.deepEqual(suggestFolders('Sorcerer (1977)', ['Alien', 'Jaws']), []);
+});
+
+test('suggestFolders honours the limit', () => {
+  const folders = ['Sorceror', 'Sorcerer', 'Sorcerers', 'Sorcerar'];
+  assert.equal(suggestFolders('Sorcerer (1977)', folders, 2).length, 2);
 });
 ```
 
@@ -1481,8 +1529,13 @@ export interface UnresolvedEpisode {
 /** Minimum score download-drive-audio accepts as a real match. */
 export const MATCH_THRESHOLD = 50;
 
-/** Lowest score worth showing a human as a possible near-miss. */
-const SUGGESTION_THRESHOLD = 20;
+/**
+ * Lowest score worth showing a human as a possible near-miss.
+ *
+ * Only gates the typo path: scoreFolderAgainstFilm returns either 0 or >= 68,
+ * so no real match score falls in the filtered band.
+ */
+const SUGGESTION_THRESHOLD = 60;
 
 export function normalizeFolderName(name: string): string {
   return name
@@ -1561,13 +1614,50 @@ export function scoreFolderAgainstFilm(folderName: string, film: string): number
   return score;
 }
 
+/** Levenshtein edit distance, two-row variant. */
+function editDistance(a: string, b: string): number {
+  if (a === b) return 0;
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const curr: number[] = [i];
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      curr[j] = Math.min(curr[j - 1] + 1, prev[j] + 1, prev[j - 1] + cost);
+    }
+    prev = curr;
+  }
+  return prev[b.length];
+}
+
+/** 0..1 similarity between two names. 1 is identical. */
+export function nameSimilarity(a: string, b: string): number {
+  const maxLen = Math.max(a.length, b.length);
+  if (maxLen === 0) return 1;
+  return 1 - editDistance(a, b) / maxLen;
+}
+
 /**
  * Folder names that came closest to a film title without clearing the match
  * threshold — the candidates a human should look at when audio is missing.
+ *
+ * Word-overlap scoring alone cannot see a typo: "Sorceror" and "Sorcerer"
+ * share no whole word, so scoreFolderAgainstFilm rates them 0. Suggestions
+ * therefore take the better of the match score and an edit-distance score,
+ * because a misspelled title is the most common reason audio goes unfound.
  */
 export function suggestFolders(film: string, folderNames: string[], limit = 3): string[] {
+  const normalizedFilm = normalizeFolderName(film);
   return folderNames
-    .map(name => ({ name, score: scoreFolderAgainstFilm(name, film) }))
+    .map(name => ({
+      name,
+      score: Math.max(
+        scoreFolderAgainstFilm(name, film),
+        nameSimilarity(normalizeFolderName(name), normalizedFilm) * 100
+      ),
+    }))
     .filter(entry => entry.score >= SUGGESTION_THRESHOLD)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
@@ -1580,7 +1670,7 @@ Note the added trailing `.replace(/\s+/g, ' ')` in `normalizeFolderName` — rem
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `node --import tsx --test src/lib/drive-match.test.ts`
-Expected: PASS — 9 tests passing
+Expected: PASS — 12 tests passing
 
 - [ ] **Step 5: Point download-drive-audio at the library**
 
@@ -1765,7 +1855,7 @@ And add drive-match to the pdc script:
 ```
 
 Run: `npx tsc --noEmit` — Expected: no errors
-Run: `npm run test:pdc` — Expected: 39 tests passing
+Run: `npm run test:pdc` — Expected: 42 tests passing
 Run: `npm run test:notify` — Expected: existing tests plus 3 new, all passing
 Run: `npm run download-audio -- --dry-run --verbose` — Expected: matching runs as before; any episode with no audio is listed with its closest folder names
 
