@@ -233,13 +233,14 @@ export async function fetchPatreonMatch(query: string): Promise<PatreonMatch | n
 
 // ── TMDB ──
 
-export async function searchTmdb(query: string): Promise<TmdbSearchResult[]> {
+/** Returns null when the upstream call fails, [] when it succeeds with no matches. */
+export async function searchTmdb(query: string): Promise<TmdbSearchResult[] | null> {
   const apiKey = process.env.TMDB_API_KEY;
   if (!apiKey || query.trim().length < 2) return [];
 
   const params = new URLSearchParams({ api_key: apiKey, query: query.trim() });
   const res = await fetch(`${TMDB_BASE_URL}/search/movie?${params}`);
-  if (!res.ok) return [];
+  if (!res.ok) return null;
 
   const data = await res.json();
   return ((data.results || []) as Array<Record<string, unknown>>).slice(0, 8).map(r => ({

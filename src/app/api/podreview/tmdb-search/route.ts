@@ -17,6 +17,9 @@ export async function GET(request: NextRequest) {
   }
 
   const results = await searchTmdb(query);
+  if (results === null) {
+    return NextResponse.json({ error: 'TMDB search failed' }, { status: 502 });
+  }
   return NextResponse.json({ results });
 }
 
