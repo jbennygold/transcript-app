@@ -1918,3 +1918,23 @@ Also corrected after the final whole-branch review, in ways not reflected in the
   Interactive `/podreview` keeps the original lenient threshold unchanged.
 - `.github/workflows/new-episodes.yml` has a `concurrency` group, and the unresolved-folders Discord
   post is gated to `workflow_dispatch` so it does not repeat on every cron pass.
+
+### Post-deploy correction: `--fill-gaps` is bounded to go-forward episodes
+
+The plan's `--fill-gaps` selected "the 15 most recent episodes with any blank Tier 1 column" and treated
+`GAP_LIMIT` as a proxy for recency. It is not one: 214 of 328 historical episodes have blanks, so the
+selection reached back to episode 191 and behaved as an archive backfill.
+
+A dry run caught the consequence before any write. Episode 289's `Film` cell is `Mailbag (2025)` — a
+mailbag episode, not a film — and TMDB has a real 2025 film named "Mail Bag", so the year check passed
+and it would have written that film's IMDB and Letterboxd links permanently.
+
+Tier 1 is a go-forward mechanism: it fills columns as episodes publish and retries for rows whose
+Spotify/Patreon entries landed late. `TIER1_MIN_EPISODE = 315` now floors `--fill-gaps`, compared via
+`episodeSortKey` so bonus IDs sort correctly. Explicit `--episodes=N` is deliberately NOT floored —
+asking for a specific episode means you want it. Selection moved into a pure, exported
+`selectGapTargets(episodes, floor, limit)` with tests covering the floor boundary and bonus IDs above
+and below it.
+
+Historical rows keep whatever a human entered, including deliberate blanks. Backfilling the archive is
+a separate decision, not a side effect of the cron.
