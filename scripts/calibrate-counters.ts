@@ -16,11 +16,33 @@ import { fileURLToPath } from 'node:url';
 import * as dotenv from 'dotenv';
 import { countMmm, countThatsGreat } from '../src/lib/tier2-counters';
 import type { Transcript } from '../src/types/transcript';
+import type { EpisodeId } from '../src/lib/episode-format';
 
 const __filename = fileURLToPath(import.meta.url);
 
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });
+
+/**
+ * Resolve the on-disk transcript path for an episode.
+ *
+ * Episodes 1-5 exist BOTH as zero-padded (`episode_01.json`, current
+ * speaker-mapped names) and unpadded (`episode_1.json`, stale raw diarization
+ * labels). Episodes 6-9 exist ONLY zero-padded, but metadata stores them as
+ * bare numbers. Prefer the zero-padded (canonical/cleaned) form; fall back to
+ * the unpadded form for episodes that only exist that way.
+ */
+export function resolveTranscriptPath(dir: string, episode: EpisodeId): string | null {
+  const raw = String(episode);
+  const candidates = /^\d+$/.test(raw)
+    ? [`episode_${raw.padStart(2, '0')}.json`, `episode_${raw}.json`]
+    : [`episode_${raw}.json`];
+  for (const name of candidates) {
+    const p = path.join(dir, name);
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
 
 export interface CalibrationRow {
   episode: string;
@@ -78,10 +100,11 @@ async function main() {
 
   const rows: CalibrationRow[] = [];
   let missingTranscripts = 0;
+  const handCountZero: Record<string, number> = { MMM_Count: 0, Thats_Great_Count: 0 };
 
   for (const ep of metadata) {
-    const file = path.join(transcriptsDir, `episode_${ep.episode}.json`);
-    if (!fs.existsSync(file)) {
+    const file = resolveTranscriptPath(transcriptsDir, ep.episode);
+    if (!file) {
       missingTranscripts++;
       continue;
     }
@@ -93,21 +116,29 @@ async function main() {
     }
     const dialogues = transcript.dialogues ?? [];
 
-    if ((!only || only === 'MMM_Count') && ep.mmmCount > 0) {
-      rows.push({
-        episode: String(ep.episode),
-        field: 'MMM_Count',
-        expected: ep.mmmCount,
-        actual: countMmm(dialogues).total,
-      });
+    if (!only || only === 'MMM_Count') {
+      if (ep.mmmCount > 0) {
+        rows.push({
+          episode: String(ep.episode),
+          field: 'MMM_Count',
+          expected: ep.mmmCount,
+          actual: countMmm(dialogues).total,
+        });
+      } else {
+        handCountZero.MMM_Count++;
+      }
     }
-    if ((!only || only === 'Thats_Great_Count') && ep.thatsGreatCount > 0) {
-      rows.push({
-        episode: String(ep.episode),
-        field: 'Thats_Great_Count',
-        expected: ep.thatsGreatCount,
-        actual: countThatsGreat(dialogues).total,
-      });
+    if (!only || only === 'Thats_Great_Count') {
+      if (ep.thatsGreatCount > 0) {
+        rows.push({
+          episode: String(ep.episode),
+          field: 'Thats_Great_Count',
+          expected: ep.thatsGreatCount,
+          actual: countThatsGreat(dialogues).total,
+        });
+      } else {
+        handCountZero.Thats_Great_Count++;
+      }
     }
   }
 
@@ -124,6 +155,10 @@ async function main() {
     console.log(`  within +/-2       : ${(s.withinTwo * 100).toFixed(1)}%`);
     console.log(`  mean abs error    : ${s.meanAbsoluteError.toFixed(2)}`);
     console.log(`  mean signed error : ${s.meanSignedError.toFixed(2)} (negative = undercounting)`);
+    console.log(`  hand-count-zero episodes excluded: ${handCountZero[field]}`);
+    console.log(`  NOTE: only episodes with a hand count > 0 are measured. A blank`);
+    console.log(`  cell and a hand-entered 0 are indistinguishable in the data, so`);
+    console.log(`  confirmed zeros are excluded — this biases accuracy DOWNWARD.`);
 
     const worst = [...subset]
       .sort((a, b) => Math.abs(b.actual - b.expected) - Math.abs(a.actual - a.expected))
