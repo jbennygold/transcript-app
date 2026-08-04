@@ -140,3 +140,17 @@ test('isFieldProposal rejects null and non-objects', () => {
   assert.equal(isFieldProposal(undefined), false);
   assert.equal(isFieldProposal('x'), false);
 });
+
+test('isFieldProposal rejects a column Tier 2 is not permitted to touch', () => {
+  // Enforces the TIER2_COLUMNS invariant at the Blob trust boundary, not
+  // just at compile time — a corrupt or hand-edited blob entry naming a
+  // foreign column (e.g. one that reaches the sheet) must not parse as valid.
+  assert.equal(
+    isFieldProposal({ column: 'Reviewer', proposed: 'Someone', status: 'pending' }),
+    false
+  );
+  assert.equal(
+    isFieldProposal({ column: 'Notable_Moments', proposed: 'x', status: 'pending' }),
+    false
+  );
+});

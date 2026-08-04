@@ -41,6 +41,40 @@ test('findKevSegment does not match a host who merely says the word kev', () => 
   assert.deepEqual(findKevSegment([turn('Jason', 'Kev asked us something')]), []);
 });
 
+test('findKevSegment stops before a stray Kev label after a long gap', () => {
+  // A speaker-mapping slip can label one unrelated turn "Kev" far later in
+  // the episode. Without a gap cutoff, the segment would run from the real
+  // voicemail all the way to that stray label — potentially the whole
+  // episode (episode_268: 1,221 of 1,234 turns before this fix).
+  const filler = Array.from({ length: 25 }, (_, i) => turn('Jason', `filler ${i}`));
+  const dialogues = [
+    turn('Jason', 'before'),
+    turn('Kev', 'first cluster question'),
+    turn('Haitch', 'answer'),
+    turn('Jason', 'more chat'),
+    ...filler,
+    turn('Kev', 'stray second cluster'),
+    turn('Haitch', 'reaction'),
+  ];
+  const seg = findKevSegment(dialogues);
+  assert.ok(seg.some(t => t.text === 'first cluster question'));
+  assert.ok(!seg.some(t => t.text === 'stray second cluster'), 'a separated later cluster must be excluded');
+});
+
+test('findKevSegment captures a contiguous multi-turn Kev block in full', () => {
+  const dialogues = [
+    turn('Jason', 'intro'),
+    turn('Kev', 'part one of the question'),
+    turn('Kev', 'part two, still talking'),
+    turn('Kev', 'part three'),
+    turn('Haitch', 'wow ok'),
+    turn('Jason', 'love it'),
+  ];
+  const seg = findKevSegment(dialogues);
+  assert.equal(seg.filter(t => t.name === 'Kev').length, 3, 'all three Kev turns of the block must survive');
+  assert.ok(seg.some(t => t.text.includes('part three')));
+});
+
 test('renderTranscriptForPrompt labels each turn with speaker and timestamp', () => {
   const out = renderTranscriptForPrompt([turn('Jason', 'Hello', '12:45')]);
   assert.match(out, /\[12:45\] Jason: Hello/);

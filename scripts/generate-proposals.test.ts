@@ -65,6 +65,19 @@ test('MMM_Count is never proposed — it is not derivable from a transcript', ()
   assert.equal(f.find(p => p.column === 'MMM_Count'), undefined);
 });
 
+test("a That's Great count of zero matching the sheet produces no proposal", () => {
+  // String(0 || '') === '' would defeat the dedup below and propose "0" on
+  // every zero-count episode.
+  const f = buildProposalFields({
+    current: { ...CURRENT, thatsGreatCount: 0 },
+    kev: { question: null, evidence: null },
+    tilda: EMPTY_TILDA,
+    thatsGreat: 0,
+    canonicalFilm: null,
+  });
+  assert.equal(f.find(p => p.column === 'Thats_Great_Count'), undefined);
+});
+
 test("That's Great proposes as low confidence", () => {
   const f = buildProposalFields({
     current: CURRENT,

@@ -33,6 +33,18 @@ export const KEV_SPEAKER_NAMES = ['kev voicemail', 'kev'] as const;
 /** Turns to keep after Kev stops speaking, so the hosts' answers are in context. */
 const KEV_TRAILING_TURNS = 12;
 
+/**
+ * Consecutive non-Kev turns that end the current voicemail block.
+ *
+ * Some episodes have a stray "Kev" label far from the real voicemail (a
+ * speaker-mapping slip), and 20 (12%) of 171 episodes with a Kev label have
+ * two or more separated Kev clusters. Without a gap cutoff, `findKevSegment`
+ * walked all the way to the LAST Kev turn anywhere in the episode — on
+ * episode_268 that meant 1,221 of 1,234 turns (167,603 chars) handed to a
+ * prompt asking for "the single question Kev asked."
+ */
+const KEV_BLOCK_GAP = 20;
+
 export interface KevExtraction {
   question: string | null;
   evidence: string | null;
@@ -55,13 +67,25 @@ function isKevSpeaker(name: string): boolean {
  * The Kev voicemail segment: from Kev's first turn through the following
  * discussion. Matches on the SPEAKER label only — a host saying the word
  * "Kev" is not the segment.
+ *
+ * Only the first contiguous block of Kev turns is captured: `last` keeps
+ * advancing as long as Kev turns keep recurring within KEV_BLOCK_GAP turns
+ * of each other, and stops the moment that many consecutive non-Kev turns
+ * pass. A later, separated Kev cluster (a mis-mapping elsewhere in the
+ * episode) is left out rather than swallowing everything in between.
  */
 export function findKevSegment(dialogues: DialogueEntry[]): DialogueEntry[] {
   const first = dialogues.findIndex(t => isKevSpeaker(t.name));
   if (first === -1) return [];
   let last = first;
-  for (let i = first; i < dialogues.length; i++) {
-    if (isKevSpeaker(dialogues[i].name)) last = i;
+  let gap = 0;
+  for (let i = first + 1; i < dialogues.length; i++) {
+    if (isKevSpeaker(dialogues[i].name)) {
+      last = i;
+      gap = 0;
+    } else if (++gap >= KEV_BLOCK_GAP) {
+      break;
+    }
   }
   return dialogues.slice(first, Math.min(dialogues.length, last + 1 + KEV_TRAILING_TURNS));
 }
@@ -164,7 +188,10 @@ async function ask(prompt: string): Promise<string> {
 
 export async function extractKevQuestion(transcript: Transcript): Promise<KevExtraction> {
   const segment = findKevSegment(transcript.dialogues ?? []);
-  if (segment.length === 0) return { question: null, evidence: null };
+  if (segment.length === 0) {
+    console.warn('[extractKevQuestion] Kev segment absent from transcript — no Kev-labelled turn found.');
+    return { question: null, evidence: null };
+  }
 
   const prompt = `"Kev" is a listener of the Escape Hatch podcast who leaves a voicemail with one quirky question for the hosts each week. Below is the portion of an episode transcript containing his voicemail and the hosts' reaction.
 
@@ -180,7 +207,10 @@ ${renderTranscriptForPrompt(segment)}`;
 
   try {
     return parseKevResponse(await ask(prompt));
-  } catch {
+  } catch (err) {
+    console.warn(
+      `[extractKevQuestion] Kev extraction failed: ${err instanceof Error ? err.message : String(err)}`
+    );
     return { question: null, evidence: null };
   }
 }
@@ -208,7 +238,10 @@ ${renderTranscriptForPrompt(dialogues)}`;
 
   try {
     return parseTildaResponse(await ask(prompt));
-  } catch {
+  } catch (err) {
+    console.warn(
+      `[extractTildaPicks] Tilda extraction failed: ${err instanceof Error ? err.message : String(err)}`
+    );
     return { tildaH: null, tildaJason: null, tildaGuest: null, tildaCorey: null };
   }
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import type { Tier2Column } from '@/lib/pdc-proposals';
 
 // ── Types ──
 
@@ -166,7 +167,7 @@ function ReviewForm({ auth }: { auth: string }) {
 
   // ── Tier 2 proposals ──
   const [proposals, setProposals] = useState<
-    Array<{ column: string; proposed: string; current: string | null; confidence: string; evidence?: string }>
+    Array<{ column: Tier2Column; proposed: string; current: string | null; confidence: string; evidence?: string }>
   >([]);
 
   // ── TMDB search ──
@@ -488,9 +489,18 @@ function ReviewForm({ auth }: { auth: string }) {
   const updateTildaGuest = setAndStore(setTildaGuest, 'podreview_tildaguest');
   const updateTildaCorey = setAndStore(setTildaCorey, 'podreview_tildacorey');
 
+  function updateTgCountFromProposal(v: string) {
+    setTgCount(num(v));
+    store('podreview_tg', v);
+  }
+
   // ── Tier 2 proposal decisions ──
-  const PROPOSAL_SETTERS: Record<string, (v: string) => void> = {
+  // Typed against Tier2Column (rather than Record<string, ...>) so that
+  // adding a column to TIER2_COLUMNS without a matching entry here is a
+  // compile error, not a silent no-op on Accept.
+  const PROPOSAL_SETTERS: Record<Tier2Column, (v: string) => void> = {
     Film: updateFilm,
+    Thats_Great_Count: updateTgCountFromProposal,
     Kevs_Question: updateKevQ,
     TildaH: updateTildaH,
     TildaJason: updateTildaJ,
@@ -498,22 +508,24 @@ function ReviewForm({ auth }: { auth: string }) {
     TildaCorey: updateTildaCorey,
   };
 
-  async function decideProposal(column: string, status: 'accepted' | 'rejected', value?: string) {
+  async function decideProposal(column: Tier2Column, status: 'accepted' | 'rejected', value?: string) {
     if (status === 'accepted' && value !== undefined) {
-      if (column === 'Thats_Great_Count') {
-        setTgCount(num(value)); store('podreview_tg', value);
-      } else {
-        PROPOSAL_SETTERS[column]?.(value);
-      }
+      PROPOSAL_SETTERS[column](value);
     }
+    const removed = proposals.find(p => p.column === column);
     setProposals(prev => prev.filter(p => p.column !== column));
     try {
-      await fetch('/api/pdc-proposals', {
+      const res = await fetch('/api/pdc-proposals', {
         method: 'POST',
         headers,
         body: JSON.stringify({ episode, decisions: { [column]: status } }),
       });
+      if (!res.ok) {
+        if (removed) setProposals(prev => [...prev, removed]);
+        showToast('Could not record that decision', 'error');
+      }
     } catch {
+      if (removed) setProposals(prev => [...prev, removed]);
       showToast('Could not record that decision', 'error');
     }
   }
@@ -974,9 +986,9 @@ function ProposalsBanner({
   onAccept,
   onReject,
 }: {
-  proposals: Array<{ column: string; proposed: string; current: string | null; confidence: string; evidence?: string }>;
-  onAccept: (column: string, value: string) => void;
-  onReject: (column: string) => void;
+  proposals: Array<{ column: Tier2Column; proposed: string; current: string | null; confidence: string; evidence?: string }>;
+  onAccept: (column: Tier2Column, value: string) => void;
+  onReject: (column: Tier2Column) => void;
 }) {
   if (proposals.length === 0) return null;
   return (

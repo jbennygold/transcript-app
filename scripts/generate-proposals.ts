@@ -99,7 +99,9 @@ export function buildProposalFields(
   add('TildaCorey', input.tilda.tildaCorey, input.current.tildaCorey, 'low');
 
   if (input.thatsGreat !== null) {
-    add('Thats_Great_Count', String(input.thatsGreat), String(input.current.thatsGreatCount || ''), 'low');
+    // `|| ''` would turn a genuine 0 into '', defeating the "already
+    // correct" dedup below and proposing "0" on every zero-count episode.
+    add('Thats_Great_Count', String(input.thatsGreat), String(input.current.thatsGreatCount), 'low');
   }
 
   return out;
@@ -172,11 +174,13 @@ async function main() {
   // result yields no proposal rather than a guess.
   const canonicalFilm = await resolveCanonicalFilm(meta.film, meta.filmYear).catch(() => null);
 
+  // extractKevQuestion and extractTildaPicks already guarantee they never
+  // throw (they catch and console.warn internally, returning all-nulls) — a
+  // second .catch() here would only swallow that signal a layer deeper
+  // without adding any safety, so none is added.
   const [kev, tilda] = await Promise.all([
-    extractKevQuestion(transcript).catch(() => ({ question: null, evidence: null })),
-    extractTildaPicks(transcript).catch(() => ({
-      tildaH: null, tildaJason: null, tildaGuest: null, tildaCorey: null,
-    })),
+    extractKevQuestion(transcript),
+    extractTildaPicks(transcript),
   ]);
 
   const fields = buildProposalFields({
@@ -209,6 +213,19 @@ async function main() {
 
   await saveProposals(doc);
   log(`Episode ${episode}: saved ${fields.length} proposal(s) — ${fields.map(f => f.column).join(', ')}`);
+
+  // Let the workflow trigger the "proposals ready" Discord notification —
+  // without this, proposals accumulate in Blob with nobody told to look.
+  const githubOutput = process.env.GITHUB_OUTPUT;
+  if (githubOutput) {
+    try {
+      const fs = await import('node:fs');
+      const film = meta.film.replace(/\r?\n/g, ' ');
+      fs.appendFileSync(githubOutput, `proposal_count=${fields.length}\nproposal_film=${film}\n`);
+    } catch {
+      // never fatal
+    }
+  }
 
   const summaryPath = process.env.GITHUB_STEP_SUMMARY;
   if (summaryPath) {

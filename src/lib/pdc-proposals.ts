@@ -93,6 +93,7 @@ export function isFieldProposal(value: unknown): value is FieldProposal {
   const v = value as Record<string, unknown>;
   return (
     typeof v.column === 'string' &&
+    isTier2Column(v.column) &&
     typeof v.proposed === 'string' &&
     typeof v.status === 'string'
   );

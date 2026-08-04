@@ -55,10 +55,12 @@ jobs:
       # Tier 2: derive metadata proposals from the now speaker-mapped transcript.
       # Writes proposals to Blob only — never to the sheet. Non-fatal.
       - name: Generate Tier 2 proposals
+        id: tier2
         continue-on-error: true
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           EPISODE: ${{ inputs.episode }}
         run: node --import tsx ./scripts/generate-proposals.ts --episode="$EPISODE"
 
@@ -70,6 +72,17 @@ jobs:
           DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
           EPISODE: ${{ inputs.episode }}
         run: node --import tsx ./scripts/notify-discord.ts --event=ingested --episode="$EPISODE"
+
+      # Announce that Tier 2 proposals are waiting for review — otherwise
+      # nothing tells a human that proposals piled up in Blob. Only fires
+      # when the previous step actually produced proposals.
+      - name: Notify Discord — Tier 2 proposals ready
+        if: steps.tier2.outputs.proposal_count > 0
+        continue-on-error: true
+        env:
+          DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=proposals-ready --episode="$EPISODE" --count="${{ steps.tier2.outputs.proposal_count }}" --film="${{ steps.tier2.outputs.proposal_film }}"
 
       - name: Trigger deploy
         env:
