@@ -27,10 +27,11 @@
     "eval:feedback": "node --import tsx ./scripts/feedback-to-eval.ts",
     "check-new-episodes": "node --import tsx ./scripts/check-new-episodes.ts",
     "populate-tier1": "node --import tsx ./scripts/populate-tier1.ts",
+    "calibrate-counters": "node --import tsx ./scripts/calibrate-counters.ts",
     "test:notify": "node --import tsx --test scripts/notify-discord.test.ts scripts/notify-drive-unresolved.test.ts",
     "test:reports": "node --import tsx --test src/lib/transcription-report.test.ts src/lib/resolve-report-anchor.test.ts src/lib/discord-notify.test.ts src/lib/apply-report.test.ts",
     "test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts src/lib/episode-format.test.ts src/lib/drive-match.test.ts scripts/populate-tier1.test.ts",
-    "test:tier2": "node --import tsx --test src/lib/pdc-proposals.test.ts src/lib/tier2-counters.test.ts"
+    "test:tier2": "node --import tsx --test src/lib/pdc-proposals.test.ts src/lib/tier2-counters.test.ts scripts/calibrate-counters.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
