@@ -124,6 +124,30 @@ export function buildNewRow(rowData: PdcRow, headerMap: Map<string, number>): st
   return newRow;
 }
 
+/**
+ * Append one bullet to a Notable_Moments-style cell.
+ *
+ * Existing rows are newline-delimited "- " bullets, so appended notes match
+ * that shape and searchNotableMoments() tokenisation keeps working. Older rows
+ * are free prose; we append to them rather than reformatting what is there.
+ *
+ * Returns null when the line is blank or already present — the caller treats
+ * that as a no-op, not an error.
+ */
+export function appendBullet(existing: string, line: string): string | null {
+  const clean = String(line ?? '').trim().replace(/^-\s*/, '').trim();
+  if (clean === '') return null;
+
+  const current = String(existing ?? '');
+  const already = current
+    .split('\n')
+    .map(l => l.replace(/^-\s*/, '').trim().toLowerCase())
+    .some(l => l !== '' && l === clean.toLowerCase());
+  if (already) return null;
+
+  return current.trim() === '' ? `- ${clean}` : `${current.replace(/\s+$/, '')}\n- ${clean}`;
+}
+
 function getSheetsAuth() {
   const jsonKey = process.env.GOOGLE_SERVICE_ACCOUNT_KEY_JSON;
   if (jsonKey) {
@@ -216,4 +240,58 @@ export async function upsertEpisodeRow(rowData: PdcRow, mode: WriteMode): Promis
     action: 'inserted',
     changedFields: Object.keys(rowData).filter(k => (rowData[k as PdcColumnKey] ?? '') !== ''),
   };
+}
+
+/**
+ * Append a bullet to one cell of an existing row.
+ *
+ * Never creates a row: an episode with no sheet row returns 'no_row'. This is
+ * a read-modify-write of a single cell, so it writes only that cell rather than
+ * the whole row.
+ */
+export async function appendToCell(
+  episode: string,
+  column: PdcColumnKey,
+  line: string
+): Promise<'appended' | 'duplicate' | 'no_row'> {
+  const auth = getSheetsAuth();
+  if (!auth) throw new PdcSheetValidationError('Google Sheets credentials not configured');
+
+  const sheets = google.sheets({ version: 'v4', auth });
+  const res = await sheets.spreadsheets.values.get({
+    spreadsheetId: SHEET_ID,
+    range: `'${SHEET_TAB}'`,
+  });
+
+  const rows = (res.data.values as string[][] | undefined) ?? [];
+  if (rows.length === 0) throw new PdcSheetValidationError('Sheet is empty or not found');
+
+  const headerMap = mapHeaders(rows[0].map(h => String(h).trim()));
+  const epColIdx = headerMap.get('Ep');
+  if (epColIdx === undefined) throw new PdcSheetValidationError('Could not find Ep column in sheet');
+
+  const colIdx = headerMap.get(column);
+  if (colIdx === undefined) throw new PdcSheetValidationError(`Could not find ${column} column in sheet`);
+
+  const rowIdx = findRowIndexByEpisode(rows, epColIdx, episode);
+  if (rowIdx === -1) return 'no_row';
+
+  const next = appendBullet(String(rows[rowIdx][colIdx] ?? ''), line);
+  if (next === null) return 'duplicate';
+
+  // Column index to A1 letter. The sheet has 24 columns, so one letter suffices,
+  // but handle two just in case a column is added later.
+  const a1 =
+    colIdx < 26
+      ? String.fromCharCode(65 + colIdx)
+      : String.fromCharCode(64 + Math.floor(colIdx / 26)) + String.fromCharCode(65 + (colIdx % 26));
+
+  await sheets.spreadsheets.values.update({
+    spreadsheetId: SHEET_ID,
+    range: `'${SHEET_TAB}'!${a1}${rowIdx + 1}`,
+    valueInputOption: 'USER_ENTERED',
+    requestBody: { values: [[next]] },
+  });
+
+  return 'appended';
 }

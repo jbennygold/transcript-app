@@ -5,6 +5,7 @@ import {
   mergeRow,
   findRowIndexByEpisode,
   buildNewRow,
+  appendBullet,
 } from './pdc-sheet';
 
 const HEADERS = ['Pod', 'Season', 'Ep', 'Film', 'Length', "Kev's Question", 'MMM Count'];
@@ -132,4 +133,46 @@ test('mergeRow fill-empty: mixed row fills only the blanks', () => {
   assert.equal(updatedRow[5], 'What is your favourite?');
   assert.equal(updatedRow[6], '4');
   assert.deepEqual(changedFields.sort(), ['Kevs_Question', 'MMM_Count']);
+});
+
+test('appendBullet adds a bullet to an empty cell without a leading newline', () => {
+  assert.equal(appendBullet('', 'Roy Scheider tangent'), '- Roy Scheider tangent');
+});
+
+test('appendBullet appends to existing bullets on a new line', () => {
+  assert.equal(
+    appendBullet('- First moment', 'Second moment'),
+    '- First moment\n- Second moment'
+  );
+});
+
+test('appendBullet preserves existing content that is not bulleted', () => {
+  // Older rows are free prose; we append rather than reformat what is there.
+  assert.equal(
+    appendBullet('Summer of Jason continues', 'New note'),
+    'Summer of Jason continues\n- New note'
+  );
+});
+
+test('appendBullet trims the incoming line and strips a leading dash', () => {
+  assert.equal(appendBullet('', '  - Already bulleted  '), '- Already bulleted');
+});
+
+test('appendBullet returns null when the line is already present', () => {
+  assert.equal(appendBullet('- First moment', 'First moment'), null);
+});
+
+test('appendBullet duplicate detection ignores case and surrounding space', () => {
+  assert.equal(appendBullet('- First Moment', '  first moment '), null);
+});
+
+test('appendBullet returns null for an empty line rather than adding a bare dash', () => {
+  assert.equal(appendBullet('- First', '   '), null);
+});
+
+test('appendBullet does not treat a longer line containing an existing one as duplicate', () => {
+  assert.equal(
+    appendBullet('- Roy', 'Roy Scheider tangent'),
+    '- Roy\n- Roy Scheider tangent'
+  );
 });
