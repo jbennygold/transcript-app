@@ -54,6 +54,7 @@ test('applyDecisions ignores a column not present in the document', () => {
   const doc = buildProposals('317', 'Barton Fink (1991)', '2026-08-03T00:00:00.000Z', FIELDS);
   const next = applyDecisions(doc, { MMM_Count: 'accepted' });
   assert.equal(next.proposals.length, 2);
+  assert.ok(next.proposals.every(p => p.status === 'pending'));
 });
 
 test('acceptedRow returns only accepted fields', () => {
@@ -65,4 +66,15 @@ test('acceptedRow returns only accepted fields', () => {
 test('acceptedRow is empty when nothing was accepted', () => {
   const doc = buildProposals('317', 'Barton Fink (1991)', '2026-08-03T00:00:00.000Z', FIELDS);
   assert.deepEqual(acceptedRow(doc), {});
+});
+
+test('acceptedRow includes only the accepted field among accepted/rejected/pending', () => {
+  const threeFields = [
+    { column: 'Kevs_Question' as const, proposed: 'What is your favourite?', current: null, confidence: 'high' as const },
+    { column: 'TildaH' as const, proposed: 'Audrey', current: 'N/A', confidence: 'low' as const },
+    { column: 'MMM_Count' as const, proposed: '3', current: '1', confidence: 'high' as const },
+  ];
+  const doc = buildProposals('317', 'Barton Fink (1991)', '2026-08-03T00:00:00.000Z', threeFields);
+  const decided = applyDecisions(doc, { Kevs_Question: 'accepted', TildaH: 'rejected' });
+  assert.deepEqual(acceptedRow(decided), { Kevs_Question: 'What is your favourite?' });
 });

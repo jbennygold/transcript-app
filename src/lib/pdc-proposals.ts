@@ -9,6 +9,7 @@
  * without credentials, matching src/lib/transcription-report.ts.
  */
 import { put, list } from '@vercel/blob';
+import type { PdcColumnKey } from './pdc-sheet';
 
 const PREFIX = 'pdc-proposals/';
 
@@ -25,7 +26,7 @@ export const TIER2_COLUMNS = [
   'TildaJason',
   'TildaGuest',
   'TildaCorey',
-] as const;
+] as const satisfies readonly PdcColumnKey[];
 
 export type Tier2Column = (typeof TIER2_COLUMNS)[number];
 
@@ -88,6 +89,16 @@ export function acceptedRow(doc: EpisodeProposals): Partial<Record<Tier2Column, 
   return row;
 }
 
+function isEpisodeProposals(value: unknown): value is EpisodeProposals {
+  if (typeof value !== 'object' || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.episode === 'string' &&
+    typeof v.createdAt === 'string' &&
+    Array.isArray(v.proposals)
+  );
+}
+
 // ── Blob I/O ──
 
 /**
@@ -118,7 +129,8 @@ export async function loadProposals(episode: string): Promise<EpisodeProposals |
   try {
     const resp = await fetch(match.url, { cache: 'no-store' });
     if (!resp.ok) return null;
-    return (await resp.json()) as EpisodeProposals;
+    const parsed: unknown = await resp.json();
+    return isEpisodeProposals(parsed) ? parsed : null;
   } catch {
     return null;
   }
@@ -132,7 +144,10 @@ export async function listPendingProposals(): Promise<EpisodeProposals[]> {
     if (!blob.pathname.endsWith('.json')) continue;
     try {
       const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) docs.push((await resp.json()) as EpisodeProposals);
+      if (resp.ok) {
+        const parsed: unknown = await resp.json();
+        if (isEpisodeProposals(parsed)) docs.push(parsed);
+      }
     } catch {
       // skip corrupt entries
     }
