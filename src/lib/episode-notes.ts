@@ -53,8 +53,9 @@ export function validateNoteInput(
   const submittedBy = String(o.submittedBy ?? '').trim();
   if (submittedBy === '') return { ok: false, reason: 'submittedBy is required' };
 
-  // One note is one bullet, so collapse any newlines the client sent.
-  const note = String(o.note ?? '').replace(/\s*\n+\s*/g, ' ').trim();
+  // One note is one bullet, so collapse any newlines the client sent
+  // (including a lone \r, which \n-only patterns miss).
+  const note = String(o.note ?? '').replace(/\s*[\r\n]+\s*/g, ' ').trim();
   if (note.length < MIN_NOTE_LENGTH) {
     return { ok: false, reason: `note must be at least ${MIN_NOTE_LENGTH} characters` };
   }
@@ -63,6 +64,28 @@ export function validateNoteInput(
   }
 
   return { ok: true, value: { episode, note, submittedBy } };
+}
+
+/**
+ * Guards a parsed Blob document before it is trusted as an EpisodeNote.
+ *
+ * A document that parses as valid JSON but lacks a required field (partial
+ * write, schema change, `{}`) must not reach `.sort()` — `undefined
+ * .localeCompare(...)` on a missing `createdAt` throws and rejects the whole
+ * listing, not just the bad entry. Mirrors `isEpisodeProposals` in
+ * ./pdc-proposals.ts.
+ */
+export function isEpisodeNote(value: unknown): value is EpisodeNote {
+  if (typeof value !== 'object' || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.id === 'string' &&
+    typeof v.episode === 'string' &&
+    typeof v.note === 'string' &&
+    typeof v.submittedBy === 'string' &&
+    typeof v.createdAt === 'string' &&
+    typeof v.status === 'string'
+  );
 }
 
 export function buildNote(
@@ -92,7 +115,10 @@ export async function listNotes(status: NoteStatus | 'all' = 'all'): Promise<Epi
     if (blob.pathname === OPEN_KEY) continue;
     try {
       const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) notes.push((await resp.json()) as EpisodeNote);
+      if (resp.ok) {
+        const parsed: unknown = await resp.json();
+        if (isEpisodeNote(parsed)) notes.push(parsed);
+      }
     } catch {
       // skip corrupt entries
     }
@@ -109,7 +135,8 @@ export async function loadNote(id: string): Promise<EpisodeNote | null> {
   try {
     const resp = await fetch(match.url, { cache: 'no-store' });
     if (!resp.ok) return null;
-    return (await resp.json()) as EpisodeNote;
+    const parsed: unknown = await resp.json();
+    return isEpisodeNote(parsed) ? parsed : null;
   } catch {
     return null;
   }

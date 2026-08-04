@@ -139,6 +139,54 @@ export function buildReport(
   };
 }
 
+/**
+ * Guards a parsed Blob document before it is trusted as a TranscriptionReport.
+ *
+ * A document that parses as valid JSON but lacks a required field (partial
+ * write, schema change, `{}`) must not reach `.sort()` — `undefined
+ * .localeCompare(...)` on a missing `createdAt` throws and rejects the whole
+ * listing, not just the bad entry. Checks the fields `listTranscriptionReports`
+ * and `loadTranscriptionReport`'s callers actually dereference (id,
+ * episodeNumber, createdAt, status, source, anchor, correction) — every one of
+ * these is always set by `buildReport` from a `validateReportInput`-checked
+ * `ReportInput` plus caller-supplied meta, so a legitimately-stored report is
+ * never rejected. Mirrors `isEpisodeProposals` in ./pdc-proposals.ts.
+ */
+export function isTranscriptionReport(value: unknown): value is TranscriptionReport {
+  if (typeof value !== 'object' || value === null) return false;
+  const v = value as Record<string, unknown>;
+  if (
+    typeof v.id !== 'string' ||
+    typeof v.episodeNumber !== 'number' ||
+    typeof v.createdAt !== 'string' ||
+    typeof v.status !== 'string' ||
+    typeof v.source !== 'string'
+  ) {
+    return false;
+  }
+  const anchor = v.anchor as Record<string, unknown> | undefined;
+  if (
+    typeof anchor !== 'object' ||
+    anchor === null ||
+    typeof anchor.startTs !== 'string' ||
+    typeof anchor.speaker !== 'string' ||
+    typeof anchor.originalText !== 'string'
+  ) {
+    return false;
+  }
+  const correction = v.correction as Record<string, unknown> | undefined;
+  if (
+    typeof correction !== 'object' ||
+    correction === null ||
+    typeof correction.type !== 'string' ||
+    typeof correction.field !== 'string' ||
+    typeof correction.newValue !== 'string'
+  ) {
+    return false;
+  }
+  return true;
+}
+
 export async function saveTranscriptionReport(report: TranscriptionReport): Promise<void> {
   await writeReport(report);
 }
@@ -162,7 +210,10 @@ export async function listTranscriptionReports(
     if (!blob.pathname.endsWith('.json')) continue;
     try {
       const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) reports.push(await resp.json());
+      if (resp.ok) {
+        const parsed: unknown = await resp.json();
+        if (isTranscriptionReport(parsed)) reports.push(parsed);
+      }
     } catch {
       // skip corrupt entries
     }
@@ -178,7 +229,8 @@ export async function loadTranscriptionReport(id: string): Promise<Transcription
   try {
     const resp = await fetch(match.url, { cache: 'no-store' });
     if (!resp.ok) return null;
-    return await resp.json();
+    const parsed: unknown = await resp.json();
+    return isTranscriptionReport(parsed) ? parsed : null;
   } catch {
     return null;
   }

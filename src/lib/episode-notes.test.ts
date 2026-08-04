@@ -1,12 +1,18 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newNoteId, validateNoteInput, buildNote } from './episode-notes';
+import { newNoteId, validateNoteInput, buildNote, isEpisodeNote } from './episode-notes';
 
 test('newNoteId is stable for the same inputs and sortable by time', () => {
   const a = newNoteId(1000, 'abc');
   const b = newNoteId(2000, 'abc');
   assert.equal(a, newNoteId(1000, 'abc'));
   assert.ok(a < b, 'later timestamps must sort after earlier ones');
+});
+
+test('newNoteId sorts correctly across a digit-width boundary', () => {
+  // Without zero-padding, 'note_999_x' > 'note_1000_x' lexicographically
+  // even though 999 is earlier. This is what padStart is for.
+  assert.ok(newNoteId(999, 'x') < newNoteId(1000, 'x'));
 });
 
 test('validateNoteInput accepts a well-formed note', () => {
@@ -56,6 +62,12 @@ test('validateNoteInput strips newlines so one note stays one bullet', () => {
   if (r.ok) assert.equal(r.value.note, 'line one line two');
 });
 
+test('validateNoteInput collapses a lone \\r with no \\n', () => {
+  const r = validateNoteInput({ episode: '317', note: 'line one\rline two', submittedBy: 'matt' });
+  assert.equal(r.ok, true);
+  if (r.ok) assert.equal(r.value.note, 'line one line two');
+});
+
 test('buildNote stamps status pending and carries the id and timestamp', () => {
   const n = buildNote(
     { episode: '317', note: 'a real note here', submittedBy: 'matt' },
@@ -66,4 +78,50 @@ test('buildNote stamps status pending and carries the id and timestamp', () => {
   assert.equal(n.id, 'note_1_abc');
   assert.equal(n.createdAt, '2026-08-03T00:00:00.000Z');
   assert.equal(n.resolvedAt, undefined);
+});
+
+test('isEpisodeNote accepts a well-formed note', () => {
+  assert.equal(
+    isEpisodeNote({
+      id: 'note_1_abc',
+      episode: '317',
+      note: 'a real note here',
+      submittedBy: 'matt',
+      createdAt: '2026-08-03T00:00:00.000Z',
+      status: 'pending',
+    }),
+    true
+  );
+});
+
+test('isEpisodeNote rejects a document missing createdAt', () => {
+  assert.equal(
+    isEpisodeNote({
+      id: 'note_1_abc',
+      episode: '317',
+      note: 'a real note here',
+      submittedBy: 'matt',
+      status: 'pending',
+    }),
+    false
+  );
+});
+
+test('isEpisodeNote rejects a document missing status', () => {
+  assert.equal(
+    isEpisodeNote({
+      id: 'note_1_abc',
+      episode: '317',
+      note: 'a real note here',
+      submittedBy: 'matt',
+      createdAt: '2026-08-03T00:00:00.000Z',
+    }),
+    false
+  );
+});
+
+test('isEpisodeNote rejects null and non-objects', () => {
+  assert.equal(isEpisodeNote(null), false);
+  assert.equal(isEpisodeNote('note'), false);
+  assert.equal(isEpisodeNote(42), false);
 });
