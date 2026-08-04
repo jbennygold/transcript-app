@@ -5,6 +5,8 @@ import {
   renderTranscriptForPrompt,
   parseKevResponse,
   parseTildaResponse,
+  isSpeakerMapped,
+  extractTildaPicks,
 } from './tier2-extract';
 
 const turn = (name: string, text: string, timestamp = '00:00') => ({ name, timestamp, text });
@@ -104,5 +106,59 @@ test('parseTildaResponse treats missing keys as null rather than undefined', () 
 
 test('parseTildaResponse returns all nulls on unparseable output', () => {
   const r = parseTildaResponse('no json here');
+  assert.deepEqual(r, { tildaH: null, tildaJason: null, tildaGuest: null, tildaCorey: null });
+});
+
+test('isSpeakerMapped is false for single-letter diarization labels', () => {
+  const d = [
+    { name: 'A', timestamp: '00:00', text: 'one' },
+    { name: 'B', timestamp: '00:01', text: 'two' },
+    { name: 'C', timestamp: '00:02', text: 'three' },
+  ];
+  assert.equal(isSpeakerMapped(d), false);
+});
+
+test('isSpeakerMapped is false for "Speaker N" labels', () => {
+  const d = [
+    { name: 'Speaker 0', timestamp: '00:00', text: 'one' },
+    { name: 'Speaker 1', timestamp: '00:01', text: 'two' },
+  ];
+  assert.equal(isSpeakerMapped(d), false);
+});
+
+test('isSpeakerMapped is true for real names', () => {
+  const d = [
+    { name: 'Jason', timestamp: '00:00', text: 'one' },
+    { name: 'Haitch', timestamp: '00:01', text: 'two' },
+  ];
+  assert.equal(isSpeakerMapped(d), true);
+});
+
+test('isSpeakerMapped is true when a named cast has one stray label', () => {
+  // Partial mapping still carries usable attribution; only a wholly
+  // placeholder cast is unusable.
+  const d = [
+    { name: 'Jason', timestamp: '00:00', text: 'one' },
+    { name: 'Haitch', timestamp: '00:01', text: 'two' },
+    { name: 'C', timestamp: '00:02', text: 'three' },
+  ];
+  assert.equal(isSpeakerMapped(d), true);
+});
+
+test('isSpeakerMapped is false for an empty transcript', () => {
+  assert.equal(isSpeakerMapped([]), false);
+});
+
+test('extractTildaPicks returns all nulls for an unmapped transcript without calling the model', async () => {
+  const transcript = {
+    episode_number: 317,
+    episode_name: 'Test',
+    dialogues: [
+      { name: 'A', timestamp: '00:00', text: 'I would say Geisler' },
+      { name: 'B', timestamp: '00:01', text: 'Good pick' },
+    ],
+  };
+  // No ANTHROPIC_API_KEY needed: the guard must short-circuit before any call.
+  const r = await extractTildaPicks(transcript);
   assert.deepEqual(r, { tildaH: null, tildaJason: null, tildaGuest: null, tildaCorey: null });
 });

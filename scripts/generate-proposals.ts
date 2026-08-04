@@ -21,6 +21,7 @@ import { countThatsGreat } from '../src/lib/tier2-counters';
 import {
   extractKevQuestion,
   extractTildaPicks,
+  isSpeakerMapped,
   type KevExtraction,
   type TildaExtraction,
 } from '../src/lib/tier2-extract';
@@ -161,6 +162,10 @@ async function main() {
   const dialogues = transcript.dialogues ?? [];
   const tgDerived = countThatsGreat(dialogues).total;
   log(`Derived That's Great count: ${tgDerived}`);
+
+  if (!isSpeakerMapped(dialogues)) {
+    log(`Episode ${episode}: transcript is not speaker-mapped — Tilda picks skipped.`);
+  }
 
   // TMDB canonical title. Reuses Tier 1's year-verified selection, so a remake
   // cannot masquerade as the episode's film. A null year or no year-agreeing

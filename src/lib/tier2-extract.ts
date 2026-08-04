@@ -85,6 +85,33 @@ export function renderTranscriptForPrompt(
   return lines.join('\n');
 }
 
+/** Raw diarization labels AssemblyAI emits before speaker mapping. */
+const PLACEHOLDER_SPEAKER = /^(?:[A-Z]|Speaker\s*\d+)$/i;
+
+/**
+ * Whether a transcript carries real speaker names rather than raw diarization
+ * labels.
+ *
+ * Tilda attribution is meaningless without names: handed a transcript of
+ * "A"/"B"/"C", the model does not fail — it invents plausible attributions.
+ * A real dry run on episode 317 produced four confident Tilda picks, including
+ * one for a person who never spoke in the episode. Silent and confident is the
+ * worst failure mode, because the reviewer sees filled fields with no signal
+ * they are guesses.
+ *
+ * A transcript counts as mapped if ANY speaker has a real name — a partial
+ * mapping still carries usable attribution; only a wholly placeholder cast
+ * is unusable.
+ */
+export function isSpeakerMapped(dialogues: DialogueEntry[]): boolean {
+  if (dialogues.length === 0) return false;
+  const names = new Set(dialogues.map(d => String(d.name ?? '').trim()));
+  for (const n of names) {
+    if (n !== '' && !PLACEHOLDER_SPEAKER.test(n)) return true;
+  }
+  return false;
+}
+
 function extractJson(raw: string): Record<string, unknown> | null {
   const fenced = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
   const candidate = fenced ? fenced[1] : raw;
@@ -160,7 +187,7 @@ ${renderTranscriptForPrompt(segment)}`;
 
 export async function extractTildaPicks(transcript: Transcript): Promise<TildaExtraction> {
   const dialogues = transcript.dialogues ?? [];
-  if (dialogues.length === 0) {
+  if (!isSpeakerMapped(dialogues)) {
     return { tildaH: null, tildaJason: null, tildaGuest: null, tildaCorey: null };
   }
 
