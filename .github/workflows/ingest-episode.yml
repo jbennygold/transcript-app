@@ -84,6 +84,16 @@ jobs:
           EPISODE: ${{ inputs.episode }}
         run: node --import tsx ./scripts/notify-discord.ts --event=proposals-ready --episode="$EPISODE" --count="${{ steps.tier2.outputs.proposal_count }}" --film="${{ steps.tier2.outputs.proposal_film }}"
 
+      # Open the episode for Notable Moment nominations in #engineers.
+      # Needs its own webhook: the PDC webhook is scoped to #pod-data-central.
+      - name: Notify Discord — notes open
+        continue-on-error: true
+        env:
+          DISCORD_ENGINEERS_WEBHOOK_URL: ${{ secrets.DISCORD_ENGINEERS_WEBHOOK_URL }}
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/notify-discord.ts --event=notes-open --episode="$EPISODE"
+
       - name: Trigger deploy
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}

@@ -122,6 +122,37 @@ export function buildProposalsReadyMessage(
   };
 }
 
+export function buildNotesOpenMessage(episode: string, film: string): WebhookPayload {
+  const title = film.trim() === '' ? `Episode ${episode}` : `Ep ${episode} · ${film}`;
+  return {
+    content: '🗒️ Notable Moment nominations are open',
+    embeds: [
+      {
+        title,
+        description:
+          `This episode is now open for Notable Moments. Nominate one with:\n` +
+          '```\n/pdc-note note: Haitch\'s Roy Scheider tangent around 42:00\n```\n' +
+          'One moment per note. Add as many as you like — an admin reviews them before anything reaches the sheet.',
+        color: AMBER,
+      },
+    ],
+  };
+}
+
+/**
+ * Discord webhooks are channel-scoped, so each event posts through the webhook
+ * for its channel. notes-open goes to #engineers; everything else to
+ * #pod-data-central.
+ */
+export function webhookForEvent(
+  event: string,
+  env: Record<string, string | undefined>
+): string | undefined {
+  return event === 'notes-open'
+    ? env.DISCORD_ENGINEERS_WEBHOOK_URL
+    : env.DISCORD_PDC_WEBHOOK_URL;
+}
+
 export function resolveEpisodes(
   numbers: number[],
   metadataPath: string
@@ -188,9 +219,11 @@ function getArg(args: string[], name: string): string | undefined {
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
 
-  const webhookUrl = process.env.DISCORD_PDC_WEBHOOK_URL;
+  const event = getArg(args, 'event') ?? '';
+  const webhookUrl = webhookForEvent(event, process.env);
   if (!webhookUrl) {
-    console.warn('[notify-discord] DISCORD_PDC_WEBHOOK_URL not set — skipping.');
+    const needed = event === 'notes-open' ? 'DISCORD_ENGINEERS_WEBHOOK_URL' : 'DISCORD_PDC_WEBHOOK_URL';
+    console.warn(`[notify-discord] ${needed} not set — skipping.`);
     return;
   }
 
@@ -198,7 +231,6 @@ async function main(): Promise<void> {
     process.env.NEXT_PUBLIC_BASE_URL || 'https://search.escapehatchpod.com'
   ).replace(/\/+$/, '');
   const metadataPath = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
-  const event = getArg(args, 'event');
 
   let payload: WebhookPayload;
 
@@ -236,6 +268,22 @@ async function main(): Promise<void> {
       return;
     }
     payload = buildDriveUnresolvedMessage(unresolved);
+  } else if (event === 'notes-open') {
+    const ep = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
+    const film = getArg(args, 'film') ?? '';
+    if (!ep) {
+      console.warn('[notify-discord] notes-open needs --episode — skipping.');
+      return;
+    }
+    payload = buildNotesOpenMessage(ep, film);
+    try {
+      const { setOpenEpisode } = await import('../src/lib/episode-notes');
+      await setOpenEpisode({ episode: ep, film, openedAt: new Date().toISOString() });
+    } catch (err) {
+      // A failed pointer write means /pdc-note needs an explicit ep, which is
+      // recoverable. Announcing is still worthwhile, so this is not fatal.
+      console.warn(`[notify-discord] could not record open episode: ${err instanceof Error ? err.message : String(err)}`);
+    }
   } else if (event === 'proposals-ready') {
     const episode = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
     const film = getArg(args, 'film') ?? '';
@@ -246,7 +294,7 @@ async function main(): Promise<void> {
     }
     payload = buildProposalsReadyMessage(episode, film, count, baseUrl);
   } else {
-    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, no-new-episodes, drive-unresolved, or proposals-ready.`);
+    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, no-new-episodes, drive-unresolved, notes-open, or proposals-ready.`);
     return;
   }
 
