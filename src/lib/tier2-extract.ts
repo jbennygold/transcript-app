@@ -10,7 +10,22 @@ import Anthropic from '@anthropic-ai/sdk';
 import type { DialogueEntry, Transcript } from '@/types/transcript';
 
 const MODEL = 'claude-haiku-4-5-20251001';
-const DEFAULT_MAX_CHARS = 120_000;
+
+/**
+ * Prompt budget for a whole-episode render.
+ *
+ * Measured across the 327-transcript corpus, rendered exactly as
+ * renderTranscriptForPrompt renders it: median 105,814 chars, max 200,497,
+ * with 97 transcripts (29%) over 120,000. Truncation keeps the FRONT, and the
+ * Tilda bit is a wrap-up segment, so a budget near the median silently removed
+ * the segment being extracted on roughly a third of episodes and returned
+ * nulls indistinguishable from "the bit didn't happen".
+ *
+ * 400,000 chars is ~2x the longest transcript and roughly 115K tokens — well
+ * inside the model's context window. The turn-boundary truncation below is
+ * retained as a backstop for a future outlier, not as normal behaviour.
+ */
+const DEFAULT_MAX_CHARS = 400_000;
 
 /** Speaker labels the Kev voicemail segment appears under after speaker mapping. */
 export const KEV_SPEAKER_NAMES = ['kev voicemail', 'kev'] as const;

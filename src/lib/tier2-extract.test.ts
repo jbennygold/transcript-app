@@ -51,6 +51,19 @@ test('renderTranscriptForPrompt truncates at a turn boundary, not mid-turn', () 
   assert.ok(!out.includes('y'.repeat(50)));
 });
 
+test('renderTranscriptForPrompt does not truncate a realistically long episode', () => {
+  // The real corpus tops out near 200,000 rendered chars; the default budget
+  // must clear that with margin, or the Tilda wrap-up segment gets cut off.
+  const turns = Array.from({ length: 4000 }, (_, i) => ({
+    name: i % 2 === 0 ? 'Jason' : 'Haitch',
+    timestamp: '00:00',
+    text: 'x'.repeat(45),
+  }));
+  const out = renderTranscriptForPrompt(turns);
+  assert.equal(out.split('\n').length, 4000, 'every turn must survive');
+  assert.ok(out.length > 200_000, 'sanity: this fixture exceeds the old 120k budget');
+});
+
 test('parseKevResponse reads a well-formed JSON object', () => {
   const r = parseKevResponse('{"question":"What is your favourite?","evidence":"Kev at 12:45"}');
   assert.equal(r.question, 'What is your favourite?');
