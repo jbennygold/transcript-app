@@ -8,7 +8,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
-import { loadTranscript } from '../src/lib/blob-storage';
+import { loadTranscriptChecked } from '../src/lib/blob-storage';
 
 dotenv.config({ path: '.env.local' });
 
@@ -20,12 +20,24 @@ if (!episodeNum || isNaN(episodeNum)) {
 }
 
 async function main() {
-  const transcript = await loadTranscript(episodeNum);
-  if (!transcript) {
+  // 'patient': this file feeds the search index, so a stale copy silently
+  // indexes the pre-speaker-mapping transcript (which is exactly what happened
+  // to ep 317). Better to wait out the CDN TTL, and better still to fail loudly
+  // than to write a copy we can't confirm is current.
+  const result = await loadTranscriptChecked(episodeNum, 'patient');
+  if (!result) {
     console.error(`Transcript for episode ${episodeNum} not found in Blob`);
     process.exit(1);
   }
 
+  if (!result.fresh) {
+    console.error(
+      `Blob CDN kept serving a stale copy of episode ${episodeNum}; refusing to ingest it. Re-run in a few minutes.`
+    );
+    process.exit(1);
+  }
+
+  const transcript = result.data;
   const dir = path.join(process.cwd(), 'transcripts');
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 

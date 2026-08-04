@@ -10,6 +10,89 @@ export interface BlobTranscriptInfo {
   pathname: string;
   episodeNumber: number | string;
   uploadedAt: Date;
+  /** Current byte size, for stale-edge detection in loadTranscriptByUrl(). */
+  size: number;
+}
+
+/**
+ * Cache TTL for the mutable JSON blobs (transcripts, jobs). Blob's default is
+ * one month, and 60s is the SDK's floor — anything lower is rejected.
+ *
+ * These objects get overwritten in place (speaker mapping, cleanup, job status)
+ * and are read back almost immediately, so a long edge TTL is actively harmful.
+ * Audio and the search-data files are write-once-ish and keep the default.
+ */
+const MUTABLE_BLOB_CACHE_MAX_AGE = 60;
+
+/**
+ * How hard to retry a read the CDN is answering with a stale body.
+ *
+ * Two profiles, because the right answer differs by caller. Interactive reads
+ * (review UI, synopsis) must stay responsive, and a stale transcript there is a
+ * cosmetic problem that the next request fixes — so they barely wait. Batch
+ * readers that feed the search index must not proceed on stale data at all, and
+ * nothing is harmed by waiting out the full TTL — so they're patient.
+ */
+const READ_PROFILES = {
+  fast: { attempts: 2, delayMs: 1_000 },
+  patient: { attempts: 10, delayMs: 10_000 },
+} as const;
+
+export type BlobReadProfile = keyof typeof READ_PROFILES;
+
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+/**
+ * Fetch a JSON blob, defeating a stale CDN edge copy.
+ *
+ * `fetch(url, { cache: 'no-store' })` does NOT do this: it only bypasses the
+ * runtime's own fetch cache, while Blob serves public objects through a CDN that
+ * caches by pathname. Overwriting a blob leaves the old body served at the edge
+ * until its TTL expires, and a query-string cache-buster does not help — the CDN
+ * does not vary its cache key on the query (verified against a live blob:
+ * `?cb=<random>` still returned `x-vercel-cache: HIT` at the same `age`).
+ *
+ * What is reliable is the metadata API: `list()`/`head()` are not CDN-cached and
+ * report the current object's `size` immediately after a write. So we compare the
+ * bytes actually served against that size, and retry while they disagree. This is
+ * the failure that silently indexed a pre-speaker-mapping transcript for ep 317:
+ * the ingest read a body 90s after the write and got the previous one.
+ *
+ * Best-effort by design: if the edge never converges we return the stale body
+ * rather than nothing, since for read paths (review UI, synopsis) stale beats a
+ * hard failure. Callers that must not proceed on stale data should pass
+ * `expectedSize` and check `fresh` on the result.
+ */
+async function fetchBlobJson<T>(
+  url: string,
+  expectedSize?: number,
+  profile: BlobReadProfile = 'fast'
+): Promise<{ data: T; fresh: boolean } | null> {
+  const { attempts, delayMs } = READ_PROFILES[profile];
+  let lastBody: string | null = null;
+
+  for (let attempt = 0; attempt < attempts; attempt++) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) return null;
+
+    const buffer = await response.arrayBuffer();
+    lastBody = new TextDecoder().decode(buffer);
+
+    if (expectedSize === undefined || buffer.byteLength === expectedSize) {
+      return { data: JSON.parse(lastBody) as T, fresh: true };
+    }
+
+    if (attempt < attempts - 1) {
+      console.warn(
+        `[blob] stale edge copy for ${url} (served ${buffer.byteLength}B, expected ${expectedSize}B) — retrying`
+      );
+      await sleep(delayMs);
+    }
+  }
+
+  if (lastBody === null) return null;
+  console.warn(`[blob] giving up on a fresh copy of ${url}; returning the stale body`);
+  return { data: JSON.parse(lastBody) as T, fresh: false };
 }
 
 /**
@@ -42,17 +125,33 @@ export async function saveTranscript(
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 
   return blob.url;
 }
 
 /**
- * Load a transcript from Vercel Blob storage
+ * Load a transcript from Vercel Blob storage.
+ *
+ * Verifies the served bytes against the blob's current size so a stale CDN edge
+ * copy can't be returned silently — see fetchBlobJson().
  */
 export async function loadTranscript(
   episodeNumber: number | string
 ): Promise<Transcript | null> {
+  return (await loadTranscriptChecked(episodeNumber))?.data ?? null;
+}
+
+/**
+ * Same as loadTranscript(), but also reports whether the copy is confirmed fresh.
+ * Use this where acting on a stale transcript would corrupt downstream state —
+ * ingest being the motivating case.
+ */
+export async function loadTranscriptChecked(
+  episodeNumber: number | string,
+  profile: BlobReadProfile = 'fast'
+): Promise<{ data: Transcript; fresh: boolean } | null> {
   const pathname = `${TRANSCRIPT_PREFIX}episode_${episodeNumber}.json`;
 
   try {
@@ -63,13 +162,7 @@ export async function loadTranscript(
       return null;
     }
 
-    // Use no-store to bypass CDN cache and get fresh data
-    const response = await fetch(match.url, { cache: 'no-store' });
-    if (!response.ok) {
-      return null;
-    }
-
-    return await response.json();
+    return await fetchBlobJson<Transcript>(match.url, match.size, profile);
   } catch {
     return null;
   }
@@ -85,16 +178,17 @@ export async function loadTranscript(
  * Uses no-store to match loadTranscript()'s freshness — measurement showed the
  * full-corpus load is ~1s either way, so caching bought no latency win and only
  * risked stale grep results.
+ *
+ * Pass `expectedSize` (available as `size` on listBlobTranscripts() results) to
+ * get the same stale-edge detection loadTranscript() does. Without it the read
+ * is unverified, since there's no cheap oracle for a bare URL.
  */
 export async function loadTranscriptByUrl(
-  url: string
+  url: string,
+  expectedSize?: number
 ): Promise<Transcript | null> {
   try {
-    const response = await fetch(url, { cache: 'no-store' });
-    if (!response.ok) {
-      return null;
-    }
-    return await response.json();
+    return (await fetchBlobJson<Transcript>(url, expectedSize, 'fast'))?.data ?? null;
   } catch {
     return null;
   }
@@ -119,6 +213,7 @@ export async function saveRawTranscript(transcript: Transcript): Promise<string 
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: false,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 
   return blob.url;
@@ -135,10 +230,7 @@ export async function loadRawTranscript(episodeNumber: number): Promise<Transcri
     const match = blobs.blobs.find(b => b.pathname === pathname);
     if (!match) return null;
 
-    const response = await fetch(match.url, { cache: 'no-store' });
-    if (!response.ok) return null;
-
-    return await response.json();
+    return (await fetchBlobJson<Transcript>(match.url, match.size))?.data ?? null;
   } catch {
     return null;
   }
@@ -205,6 +297,7 @@ export async function listBlobTranscripts(): Promise<BlobTranscriptInfo[]> {
         pathname: blob.pathname,
         episodeNumber,
         uploadedAt: new Date(blob.uploadedAt),
+        size: blob.size,
       };
     })
     .sort((a, b) => {
@@ -309,6 +402,7 @@ export async function saveTranscriptionJob(
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 
   return blob.url;
@@ -335,13 +429,18 @@ export async function loadTranscriptionJob(jobId: string): Promise<{
       return null;
     }
 
-    // Use no-store to bypass CDN cache
-    const response = await fetch(match.url, { cache: 'no-store' });
-    if (!response.ok) {
-      return null;
-    }
+    // 'fast': job status is polled, so a stale read self-corrects on the next
+    // tick and is never worth stalling the poll for.
+    const result = await fetchBlobJson<{
+      episodeNumber: number;
+      episodeName: string;
+      status: 'pending' | 'processing' | 'completed' | 'failed';
+      audioUrl: string;
+      error?: string;
+      transcript?: Transcript;
+    }>(match.url, match.size, 'fast');
 
-    return await response.json();
+    return result?.data ?? null;
   } catch {
     return null;
   }

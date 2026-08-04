@@ -341,15 +341,20 @@ async function main() {
     const transcriptsDir = path.resolve(__dirname, '..', 'transcripts');
     if (!fs.existsSync(transcriptsDir)) fs.mkdirSync(transcriptsDir, { recursive: true });
     try {
-      const { loadTranscript } = await import('../src/lib/blob-storage');
+      const { loadTranscriptChecked } = await import('../src/lib/blob-storage');
       for (const ep of transcribed) {
         const epNum = typeof ep.episode === 'number' ? ep.episode : parseInt(String(ep.episode), 10);
         if (Number.isNaN(epNum)) continue;
-        const transcript = await loadTranscript(epNum);
-        if (transcript) {
+        // 'patient': these were written to Blob moments ago by the transcription
+        // webhook, so the CDN edge is the most likely to still hold a stale copy
+        // — and this one gets committed to git.
+        const result = await loadTranscriptChecked(epNum, 'patient');
+        if (result?.fresh) {
           const outPath = path.join(transcriptsDir, `episode_${ep.episode}.json`);
-          fs.writeFileSync(outPath, JSON.stringify(transcript, null, 2));
+          fs.writeFileSync(outPath, JSON.stringify(result.data, null, 2));
           log(`Saved transcript to ${outPath}`);
+        } else if (result) {
+          log(`Warning: skipped episode ${ep.episode} — Blob kept serving a stale copy`);
         }
       }
     } catch (err) {
