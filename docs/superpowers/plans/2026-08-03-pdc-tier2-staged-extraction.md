@@ -887,7 +887,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import type { DialogueEntry, Transcript } from '@/types/transcript';
 
 const MODEL = 'claude-haiku-4-5-20251001';
-const DEFAULT_MAX_CHARS = 120_000;
+const DEFAULT_MAX_CHARS = 400_000; // see amendment: 29% of transcripts exceeded 120k
 
 /** Speaker labels the Kev voicemail segment appears under after speaker mapping. */
 export const KEV_SPEAKER_NAMES = ['kev voicemail', 'kev'] as const;
