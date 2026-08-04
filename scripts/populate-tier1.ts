@@ -29,7 +29,7 @@ import {
   type TmdbDetails,
   type TmdbSearchResult,
 } from '../src/lib/episode-sources';
-import { episodeSortKey, parseEpisodeId } from '../src/lib/episode-format';
+import { episodeSortKey, parseEpisodeId, type EpisodeId } from '../src/lib/episode-format';
 
 // Match the module-scope pattern already used by scripts/notify-discord.ts so
 // the entrypoint guard below works under tsx.
@@ -40,6 +40,18 @@ dotenv.config({ path: '.env' });
 
 /** Upper bound on episodes touched per --fill-gaps run, to cap API fan-out. */
 const GAP_LIMIT = 15;
+
+/**
+ * Tier 1 is a go-forward mechanism, not an archive backfill: it fills columns
+ * for episodes as they publish and retries on later passes for rows whose
+ * Spotify/Patreon entries landed late. Everything below this episode predates
+ * the feature and is left alone — historical rows carry whatever a human
+ * entered, including deliberate blanks.
+ *
+ * Explicit --episodes=N is NOT subject to this floor; asking for a specific
+ * episode means you want that episode.
+ */
+const TIER1_MIN_EPISODE = 315;
 
 function log(msg: string) {
   console.log(`[populate-tier1] ${msg}`);
@@ -82,6 +94,33 @@ export function buildTier1Row(
   set('Letterboxd_Link', tmdb?.letterboxdLink);
 
   return row;
+}
+
+/** Minimal shape needed to decide whether a row still needs Tier 1 columns. */
+export interface Tier1Candidate {
+  episode: EpisodeId;
+  length?: string;
+  showLink?: string;
+  artworkLink?: string;
+  imdbLink?: string;
+  letterboxdLink?: string;
+}
+
+/**
+ * Episodes at or above `floor` that still have at least one blank Tier 1
+ * column, most recent first, capped at `limit`.
+ */
+export function selectGapTargets(
+  episodes: Tier1Candidate[],
+  floor: number,
+  limit: number
+): EpisodeId[] {
+  return episodes
+    .filter(ep => episodeSortKey(ep.episode) >= floor)
+    .filter(ep => !ep.length || !ep.showLink || !ep.artworkLink || !ep.imdbLink || !ep.letterboxdLink)
+    .sort((a, b) => episodeSortKey(b.episode) - episodeSortKey(a.episode))
+    .slice(0, limit)
+    .map(ep => ep.episode);
 }
 
 /**
@@ -136,12 +175,8 @@ async function main() {
   if (episodesArg) {
     targets = episodesArg.split(',').map(s => s.trim()).filter(Boolean);
   } else if (fillGaps) {
-    targets = loadEpisodeMetadata()
-      .filter(ep => !ep.length || !ep.showLink || !ep.artworkLink || !ep.imdbLink || !ep.letterboxdLink)
-      .sort((a, b) => episodeSortKey(b.episode) - episodeSortKey(a.episode))
-      .slice(0, GAP_LIMIT)
-      .map(ep => String(ep.episode));
-    log(`--fill-gaps selected ${targets.length} episode(s) (cap ${GAP_LIMIT}).`);
+    targets = selectGapTargets(loadEpisodeMetadata(), TIER1_MIN_EPISODE, GAP_LIMIT).map(ep => String(ep));
+    log(`--fill-gaps selected ${targets.length} episode(s) at or above ep ${TIER1_MIN_EPISODE} (cap ${GAP_LIMIT}).`);
   } else {
     log('Nothing to do — pass --episodes=<list> or --fill-gaps.');
     return;

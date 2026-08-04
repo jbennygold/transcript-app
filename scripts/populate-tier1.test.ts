@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildTier1Row, pickTmdbMatch } from './populate-tier1';
+import { buildTier1Row, pickTmdbMatch, selectGapTargets, type Tier1Candidate } from './populate-tier1';
 import type { TmdbSearchResult } from '../src/lib/episode-sources';
 
 const SPOTIFY = {
@@ -118,4 +118,73 @@ test('pickTmdbMatch falls back to the top hit when filmYear is null', () => {
 test('pickTmdbMatch returns null for an empty results list regardless of filmYear', () => {
   assert.equal(pickTmdbMatch([], 1984), null);
   assert.equal(pickTmdbMatch([], null), null);
+});
+
+// ── selectGapTargets ──
+
+const FLOOR = 315;
+
+function candidate(
+  episode: Tier1Candidate['episode'],
+  overrides: Partial<Tier1Candidate> = {}
+): Tier1Candidate {
+  return {
+    episode,
+    length: '1:00:00',
+    showLink: 'https://patreon.com/x',
+    artworkLink: 'https://img/x',
+    imdbLink: 'https://imdb.com/x',
+    letterboxdLink: 'https://letterboxd.com/x',
+    ...overrides,
+  };
+}
+
+test('selectGapTargets excludes an episode below the floor even with gaps', () => {
+  const episodes = [candidate(289, { imdbLink: undefined })];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, []);
+});
+
+test('selectGapTargets includes an episode at exactly the floor with gaps', () => {
+  const episodes = [candidate(315, { imdbLink: undefined })];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, [315]);
+});
+
+test('selectGapTargets excludes an episode above the floor with all columns filled', () => {
+  const episodes = [candidate(320)];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, []);
+});
+
+test('selectGapTargets includes a bonus id above the floor with gaps', () => {
+  // episodeSortKey('316b1') === 316.01, above the floor.
+  const episodes = [candidate('316b1', { showLink: undefined })];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, ['316b1']);
+});
+
+test('selectGapTargets excludes a bonus id below the floor with gaps', () => {
+  // episodeSortKey('192b1') === 192.01, below the floor — a naive numeric
+  // comparison against the raw "192" string would get this wrong.
+  const episodes = [candidate('192b1', { showLink: undefined })];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, []);
+});
+
+test('selectGapTargets orders results most-recent-first', () => {
+  const episodes = [
+    candidate(316, { length: undefined }),
+    candidate(320, { length: undefined }),
+    candidate(318, { length: undefined }),
+  ];
+  const result = selectGapTargets(episodes, FLOOR, 15);
+  assert.deepEqual(result, [320, 318, 316]);
+});
+
+test('selectGapTargets caps the result length at limit', () => {
+  const episodes = [316, 317, 318, 319, 320].map(n => candidate(n, { length: undefined }));
+  const result = selectGapTargets(episodes, FLOOR, 3);
+  assert.equal(result.length, 3);
+  assert.deepEqual(result, [320, 319, 318]);
 });
