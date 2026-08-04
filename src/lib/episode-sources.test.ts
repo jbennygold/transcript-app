@@ -37,6 +37,17 @@ test('scoreMatch returns 0 when nothing overlaps', () => {
   assert.equal(scoreMatch('Sorcerer', 'Jaws'), 0);
 });
 
+test('scoreMatch: a short title containment scores 0.8, clearing a 0.5 floor but not a 1.0 floor', () => {
+  // This is exactly the dangerous case an unattended writer must avoid: "Her"
+  // is a substring of "The Godfather" once both are normalized, so a 0.5
+  // floor (interactive default) would accept it as a match. Only an exact
+  // (1.0) floor, used for unattended writes, correctly rejects it.
+  const score = scoreMatch('Her', 'The Godfather');
+  assert.equal(score, 0.8);
+  assert.ok(score > 0.5, 'would pass the interactive 0.5 floor');
+  assert.ok(score < 1.0, 'must fail the unattended 1.0 floor');
+});
+
 test('formatDuration renders H:MM:SS with zero padding', () => {
   assert.equal(formatDuration(6130000), '1:42:10');
   assert.equal(formatDuration(605000), '0:10:05');

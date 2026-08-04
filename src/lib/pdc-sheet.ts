@@ -24,7 +24,7 @@ export type PdcRow = Partial<Record<PdcColumnKey, string>>;
 export type WriteMode = 'fill-empty' | 'overwrite';
 
 export interface UpsertResult {
-  action: 'inserted' | 'updated' | 'no_change';
+  action: 'inserted' | 'updated' | 'no_change' | 'skipped_no_row';
   changedFields: string[];
 }
 
@@ -193,6 +193,15 @@ export async function upsertEpisodeRow(rowData: PdcRow, mode: WriteMode): Promis
     });
     return { action: 'updated', changedFields };
   }
+
+  // Tier 1 (fill-empty) fills rows a human already created; it must never
+  // create one itself. Only the interactive 'overwrite' route (a human
+  // deliberately adding a row via /podreview) may append. Without this
+  // guard, sheet drift (a renumbered/deleted row, a zero-padded Ep) makes
+  // --fill-gaps insert a junk row carrying only Ep + links — no Pod, Season,
+  // Film, Reviewer — which then reads back through sync-metadata as a
+  // permanently "new" episode with a blank film.
+  if (mode === 'fill-empty') return { action: 'skipped_no_row', changedFields: [] };
 
   const newRow = buildNewRow(rowData, headerMap);
   await sheets.spreadsheets.values.append({

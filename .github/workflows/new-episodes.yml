@@ -14,6 +14,14 @@ on:
 permissions:
   contents: write
 
+# Prevent the daily cron from overlapping a manual /pdc-check-episodes
+# dispatch (or a second manual run). upsertEpisodeRow does a read-modify-write
+# of the whole sheet row, so two concurrent runs (or a human saving in
+# /podreview mid-window) can clobber each other's writes.
+concurrency:
+  group: check-new-episodes
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -145,8 +153,11 @@ jobs:
 
       # Surface episodes whose sheet Film title matched no Drive folder, so a
       # typo is visible in Discord rather than buried in the job summary.
+      # Gated to workflow_dispatch, matching the sibling step above: a stubbed
+      # row whose audio isn't uploaded yet would otherwise re-post the same
+      # embed every scheduled cron pass until the audio arrives.
       - name: Notify Discord — unresolved Drive folders
-        if: hashFiles('unresolved-episodes.json') != ''
+        if: github.event_name == 'workflow_dispatch' && hashFiles('unresolved-episodes.json') != ''
         continue-on-error: true
         env:
           DISCORD_PDC_WEBHOOK_URL: ${{ secrets.DISCORD_PDC_WEBHOOK_URL }}

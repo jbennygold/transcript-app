@@ -422,7 +422,10 @@ async function main() {
   }
 
   // Report episodes that never found audio, with the closest folder names.
-  // This is the signal that a sheet Film title has a typo.
+  // This is the signal that a sheet Film title has a typo. The write/delete
+  // of unresolved-episodes.json is skipped in dry-run mode — a dry run must
+  // not have side effects on the workspace — but the console reporting still
+  // runs so `--dry-run` shows what it *would* report.
   if (unmatchedEpisodes.length > 0) {
     const allFolderNames = folders.map(f => f.name);
     const unresolved: UnresolvedEpisode[] = unmatchedEpisodes.map(ep => ({
@@ -431,15 +434,19 @@ async function main() {
       suggestions: suggestFolders(ep.film, allFolderNames),
     }));
 
-    const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
-    fs.writeFileSync(reportPath, JSON.stringify(unresolved, null, 2));
-    console.log(`\nWrote ${unresolved.length} unresolved episode(s) to ${reportPath}`);
+    if (!dryRun) {
+      const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
+      fs.writeFileSync(reportPath, JSON.stringify(unresolved, null, 2));
+      console.log(`\nWrote ${unresolved.length} unresolved episode(s) to ${reportPath}`);
+    } else {
+      console.log(`\n${unresolved.length} unresolved episode(s) (dry run — not writing report):`);
+    }
 
     for (const u of unresolved) {
       const hint = u.suggestions.length > 0 ? ` — closest folders: ${u.suggestions.join(', ')}` : '';
       console.log(`  E${u.episode}: ${u.film} — no audio found${hint}`);
     }
-  } else {
+  } else if (!dryRun) {
     // Clean up any stale report from a previous run
     const reportPath = path.resolve(__dirname, '..', 'unresolved-episodes.json');
     if (fs.existsSync(reportPath)) {

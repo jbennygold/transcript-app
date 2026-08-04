@@ -12,6 +12,7 @@
  *   npm run populate-tier1 -- --episodes=317 --dry-run
  */
 import { fileURLToPath } from 'node:url';
+import * as fs from 'node:fs';
 import * as dotenv from 'dotenv';
 import {
   upsertEpisodeRow,
@@ -26,6 +27,7 @@ import {
   type SpotifyMatch,
   type PatreonMatch,
   type TmdbDetails,
+  type TmdbSearchResult,
 } from '../src/lib/episode-sources';
 import { episodeSortKey, parseEpisodeId } from '../src/lib/episode-format';
 
@@ -41,6 +43,23 @@ const GAP_LIMIT = 15;
 
 function log(msg: string) {
   console.log(`[populate-tier1] ${msg}`);
+}
+
+/**
+ * Surface a one-line summary in the GitHub Actions job UI (same pattern as
+ * check-new-episodes.ts's writeReport) so a revoked sheet grant or expired
+ * credential shows up outside a collapsed log step instead of behind a green
+ * check with no signal. Never fatal: main() still exits 0 either way, and a
+ * failure writing the file itself is only logged, never thrown.
+ */
+function writeStepSummary(line: string) {
+  const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+  if (!summaryPath) return;
+  try {
+    fs.appendFileSync(summaryPath, line + '\n');
+  } catch (err) {
+    log(`Could not write GITHUB_STEP_SUMMARY: ${err instanceof Error ? err.message : String(err)}`);
+  }
 }
 
 /** Assemble the sheet row from whatever the sources returned. Blank values are omitted. */
@@ -65,10 +84,34 @@ export function buildTier1Row(
   return row;
 }
 
-async function resolveTmdb(film: string, tmdbId?: number): Promise<TmdbDetails | null> {
+/**
+ * Pick the TMDB result matching a known release year.
+ * With no known year, falls back to the top hit. With a known year and no
+ * agreeing result, returns null — writing nothing beats writing a wrong link
+ * we can never correct.
+ */
+export function pickTmdbMatch(
+  results: TmdbSearchResult[],
+  filmYear: number | null
+): TmdbSearchResult | null {
+  if (results.length === 0) return null;
+  if (filmYear === null) return results[0];
+  return results.find(r => r.year === String(filmYear)) ?? null;
+}
+
+async function resolveTmdb(
+  film: string,
+  filmYear: number | null,
+  tmdbId?: number
+): Promise<TmdbDetails | null> {
   if (tmdbId) return fetchTmdbDetails(tmdbId);
-  const results = await searchTmdb(film);
-  return results && results.length > 0 ? fetchTmdbDetails(results[0].id) : null;
+  // meta.film carries a "(YYYY)" suffix; TMDB's query param does not parse a
+  // year out of it, so strip it before searching and verify the hit against
+  // the known year instead of trusting popularity ranking (see pickTmdbMatch).
+  const query = film.replace(/\s*\(\d{4}\)\s*$/, '');
+  const results = await searchTmdb(query);
+  const match = results ? pickTmdbMatch(results, filmYear) : null;
+  return match ? fetchTmdbDetails(match.id) : null;
 }
 
 function getArgValue(args: string[], flag: string): string | undefined {
@@ -104,6 +147,10 @@ async function main() {
     return;
   }
 
+  let filled = 0;
+  let skipped = 0;
+  let failed = 0;
+
   for (const episode of targets) {
     // getEpisodeByNumber compares with strict equality against metadata's
     // `episode` field, which is a number for regular episodes but a string
@@ -112,23 +159,31 @@ async function main() {
     const meta = getEpisodeByNumber(parseEpisodeId(episode));
     if (!meta) {
       log(`Episode ${episode}: no matching row in metadata — skipping.`);
+      skipped++;
       continue;
     }
     if (!meta.film) {
       log(`Episode ${episode}: metadata row has no film title — skipping.`);
+      skipped++;
       continue;
     }
 
     const [spotify, patreon, tmdb] = await Promise.all([
-      fetchSpotifyMatch(meta.film).catch(() => null),
-      fetchPatreonMatch(meta.film).catch(() => null),
-      resolveTmdb(meta.film, meta.tmdbId).catch(() => null),
+      // Unattended writes require an exact normalized-title match (1.0):
+      // interactive /podreview has a human reviewing the result, so its 0.5
+      // floor (the fetch* default) is fine; a cron job is not, and a 0.8
+      // containment near-miss (e.g. "Her" inside "the godfather") would get
+      // written into a blank cell permanently.
+      fetchSpotifyMatch(meta.film, 1.0).catch(() => null),
+      fetchPatreonMatch(meta.film, 1.0).catch(() => null),
+      resolveTmdb(meta.film, meta.filmYear, meta.tmdbId).catch(() => null),
     ]);
 
     const row = buildTier1Row(episode, spotify, patreon, tmdb);
     const fieldCount = Object.keys(row).length - 1; // minus Ep
     if (fieldCount === 0) {
       log(`Episode ${episode} (${meta.film}): no source data found.`);
+      skipped++;
       continue;
     }
 
@@ -139,14 +194,28 @@ async function main() {
 
     try {
       const result = await upsertEpisodeRow(row, 'fill-empty');
-      if (result.action === 'no_change') {
+      if (result.action === 'skipped_no_row') {
+        // Tier 1 never creates a row — a human stubs it first. No matching
+        // Ep means sheet drift (renumbered/deleted row, zero-padded Ep),
+        // not "nothing to fill", so this gets its own log line rather than
+        // being folded into "already complete".
+        log(`Episode ${episode} (${meta.film}): no matching sheet row — skipping (Tier 1 never inserts).`);
+        skipped++;
+      } else if (result.action === 'no_change') {
         log(`Episode ${episode} (${meta.film}): already complete.`);
+        skipped++;
       } else {
         log(`Episode ${episode} (${meta.film}): filled ${result.changedFields.join(', ')}.`);
+        filled++;
       }
     } catch (err) {
       log(`Episode ${episode}: write failed — ${err instanceof Error ? err.message : String(err)}`);
+      failed++;
     }
+  }
+
+  if (!dryRun) {
+    writeStepSummary(`Tier 1: ${filled} filled, ${skipped} skipped, ${failed} failed.`);
   }
 }
 
