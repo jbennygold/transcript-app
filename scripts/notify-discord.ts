@@ -216,21 +216,76 @@ function getArg(args: string[], name: string): string | undefined {
   return hit ? hit.slice(prefix.length) : undefined;
 }
 
+/**
+ * Resolve the film to announce for notes-open. An explicit --film always
+ * wins (it's an override); otherwise look the episode up in metadata, the
+ * same way the 'ingested' event does via resolveEpisodes.
+ */
+export function resolveNotesOpenFilm(
+  ep: string,
+  filmArg: string | undefined,
+  metadataPath: string
+): string {
+  if (filmArg !== undefined) return filmArg;
+  const epNum = Number(ep);
+  if (!Number.isInteger(epNum)) return '';
+  return resolveEpisodes([epNum], metadataPath)[0]?.film ?? '';
+}
+
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
 
   const event = getArg(args, 'event') ?? '';
-  const webhookUrl = webhookForEvent(event, process.env);
-  if (!webhookUrl) {
-    const needed = event === 'notes-open' ? 'DISCORD_ENGINEERS_WEBHOOK_URL' : 'DISCORD_PDC_WEBHOOK_URL';
-    console.warn(`[notify-discord] ${needed} not set — skipping.`);
-    return;
-  }
-
   const baseUrl = (
     process.env.NEXT_PUBLIC_BASE_URL || 'https://search.escapehatchpod.com'
   ).replace(/\/+$/, '');
   const metadataPath = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
+
+  // notes-open writes the open-episode Blob pointer that /pdc-note relies on.
+  // That write needs only BLOB_READ_WRITE_TOKEN — it must not be gated behind
+  // the #engineers webhook, or a missing webhook secret silently breaks
+  // /pdc-note for every contributor. Handle it before the generic
+  // webhook-availability short-circuit below; the announcement itself still
+  // skips gracefully when the webhook isn't configured.
+  if (event === 'notes-open') {
+    const ep = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
+    if (!ep) {
+      console.warn('[notify-discord] notes-open needs --episode — skipping.');
+      return;
+    }
+    const film = resolveNotesOpenFilm(ep, getArg(args, 'film'), metadataPath);
+
+    try {
+      const { setOpenEpisode } = await import('../src/lib/episode-notes');
+      await setOpenEpisode({ episode: ep, film, openedAt: new Date().toISOString() });
+    } catch (err) {
+      // A failed pointer write means /pdc-note needs an explicit ep, which is
+      // recoverable. Announcing is still worthwhile, so this is not fatal.
+      console.warn(`[notify-discord] could not record open episode: ${err instanceof Error ? err.message : String(err)}`);
+    }
+
+    const webhookUrl = webhookForEvent(event, process.env);
+    if (!webhookUrl) {
+      console.warn('[notify-discord] DISCORD_ENGINEERS_WEBHOOK_URL not set — skipping announcement.');
+      return;
+    }
+
+    try {
+      await postToDiscord(webhookUrl, buildNotesOpenMessage(ep, film));
+      console.log('[notify-discord] Posted notification.');
+    } catch (err) {
+      console.warn(
+        `[notify-discord] Failed to post (non-fatal): ${err instanceof Error ? err.message : String(err)}`
+      );
+    }
+    return;
+  }
+
+  const webhookUrl = webhookForEvent(event, process.env);
+  if (!webhookUrl) {
+    console.warn('[notify-discord] DISCORD_PDC_WEBHOOK_URL not set — skipping.');
+    return;
+  }
 
   let payload: WebhookPayload;
 
@@ -268,22 +323,6 @@ async function main(): Promise<void> {
       return;
     }
     payload = buildDriveUnresolvedMessage(unresolved);
-  } else if (event === 'notes-open') {
-    const ep = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
-    const film = getArg(args, 'film') ?? '';
-    if (!ep) {
-      console.warn('[notify-discord] notes-open needs --episode — skipping.');
-      return;
-    }
-    payload = buildNotesOpenMessage(ep, film);
-    try {
-      const { setOpenEpisode } = await import('../src/lib/episode-notes');
-      await setOpenEpisode({ episode: ep, film, openedAt: new Date().toISOString() });
-    } catch (err) {
-      // A failed pointer write means /pdc-note needs an explicit ep, which is
-      // recoverable. Announcing is still worthwhile, so this is not fatal.
-      console.warn(`[notify-discord] could not record open episode: ${err instanceof Error ? err.message : String(err)}`);
-    }
   } else if (event === 'proposals-ready') {
     const episode = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
     const film = getArg(args, 'film') ?? '';

@@ -286,10 +286,15 @@ export async function appendToCell(
       ? String.fromCharCode(65 + colIdx)
       : String.fromCharCode(64 + Math.floor(colIdx / 26)) + String.fromCharCode(65 + (colIdx % 26));
 
+  // RAW, not USER_ENTERED: this column is prose fed by a Discord command open
+  // to the channel. USER_ENTERED interprets the string as if typed into
+  // Sheets, so a numeric-looking first note (e.g. "12345") lands as "- 12345"
+  // and evaluates to -12345, destroying the note. upsertEpisodeRow is
+  // unaffected — it writes links/dates that benefit from USER_ENTERED coercion.
   await sheets.spreadsheets.values.update({
     spreadsheetId: SHEET_ID,
     range: `'${SHEET_TAB}'!${a1}${rowIdx + 1}`,
-    valueInputOption: 'USER_ENTERED',
+    valueInputOption: 'RAW',
     requestBody: { values: [[next]] },
   });
 

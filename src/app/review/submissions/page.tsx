@@ -35,6 +35,11 @@ const STALE_LABEL: Record<string, string> = {
   ambiguous: 'matches multiple turns',
 };
 
+/** Outcomes that mean the note is no longer pending through no fault of this request. */
+const NOTES_OK_OUTCOMES = new Set(['appended', 'rejected', 'duplicate']);
+/** Outcomes that are informational, not failures: someone else already resolved it. */
+const NOTES_INFO_OUTCOMES = new Set(['already_approved', 'already_rejected']);
+
 export default function SubmissionsPage() {
   const [reports, setReports] = useState<SubmittedReport[]>([]);
   const [loading, setLoading] = useState(true);
@@ -44,6 +49,13 @@ export default function SubmissionsPage() {
   const [notes, setNotes] = useState<EpisodeNoteView[]>([]);
   const [edited, setEdited] = useState<Record<string, string>>({});
   const [notesError, setNotesError] = useState<string | null>(null);
+
+  // The notes tab hits Bearer-authed endpoints (GET /api/episode-notes,
+  // POST /api/episode-notes/resolve) — same PODREVIEW_PASSWORD as
+  // src/app/podreview/page.tsx, so the auth flow mirrors that page,
+  // including reusing its sessionStorage key so a session carries over.
+  const [notesAuth, setNotesAuth] = useState<string | null>(null);
+  const [notesAuthChecked, setNotesAuthChecked] = useState(false);
 
   const load = useCallback(() => {
     setLoading(true);
@@ -61,37 +73,81 @@ export default function SubmissionsPage() {
     load();
   }, [load]);
 
-  const loadNotes = useCallback(() => {
-    fetch('/api/episode-notes?status=pending')
-      .then((r) => r.json())
-      .then((d) => {
-        setNotes(d.notes ?? []);
-        setNotesError(null);
+  useEffect(() => {
+    const saved = sessionStorage.getItem('podreview_auth');
+    if (!saved) {
+      setNotesAuthChecked(true);
+      return;
+    }
+    fetch('/api/podreview/auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: saved }),
+    })
+      .then((res) => {
+        if (res.ok) setNotesAuth(saved);
       })
-      .catch(() => setNotesError('Failed to load notes. Refresh to try again.'));
+      .catch(() => {})
+      .finally(() => setNotesAuthChecked(true));
   }, []);
+
+  const loadNotes = useCallback(async () => {
+    if (!notesAuth) return;
+    try {
+      const res = await fetch('/api/episode-notes?status=pending', {
+        headers: { Authorization: `Bearer ${notesAuth}` },
+      });
+      if (!res.ok) throw new Error('request failed');
+      const d = await res.json();
+      setNotes(d.notes ?? []);
+      setNotesError(null);
+    } catch {
+      setNotesError('Failed to load notes. Refresh to try again.');
+    }
+  }, [notesAuth]);
 
   useEffect(() => {
     loadNotes();
   }, [loadNotes]);
 
+  function handleNotesAuth(pw: string) {
+    sessionStorage.setItem('podreview_auth', pw);
+    setNotesAuth(pw);
+  }
+
   async function resolveNotes(decisions: Array<{ id: string; status: 'approved' | 'rejected' }>) {
+    if (!notesAuth) return;
     const withEdits = decisions.map((d) =>
       d.status === 'approved' && edited[d.id] ? { ...d, note: edited[d.id] } : d
     );
-    const res = await fetch('/api/episode-notes/resolve', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ decisions: withEdits }),
-    });
-    const data = await res.json();
-    const failed = (data.results ?? []).filter(
-      (r: { outcome: string }) => r.outcome !== 'appended' && r.outcome !== 'rejected' && r.outcome !== 'duplicate'
-    );
-    if (failed.length > 0) {
-      setNotesError(
-        `${failed.length} note(s) could not be applied: ${failed.map((f: { outcome: string }) => f.outcome).join(', ')}. They remain pending.`
+    try {
+      const res = await fetch('/api/episode-notes/resolve', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${notesAuth}` },
+        body: JSON.stringify({ decisions: withEdits }),
+      });
+      if (!res.ok) {
+        setNotesError('Request failed. Nothing was changed — notes remain pending.');
+        return;
+      }
+      const data = await res.json();
+      const results: Array<{ outcome: string }> = data.results ?? [];
+      const failed = results.filter(
+        (r) => !NOTES_OK_OUTCOMES.has(r.outcome) && !NOTES_INFO_OUTCOMES.has(r.outcome)
       );
+      const alreadyResolved = results.filter((r) => NOTES_INFO_OUTCOMES.has(r.outcome));
+      if (failed.length > 0) {
+        setNotesError(
+          `${failed.length} note(s) could not be applied: ${failed.map((f) => f.outcome).join(', ')}. They remain pending.`
+        );
+      } else if (alreadyResolved.length > 0) {
+        setNotesError(`${alreadyResolved.length} note(s) were already resolved by someone else.`);
+      } else {
+        setNotesError(null);
+      }
+    } catch {
+      setNotesError('Request failed. Nothing was changed — notes remain pending.');
+      return;
     }
     loadNotes();
   }
@@ -150,35 +206,94 @@ export default function SubmissionsPage() {
 
       {tab === 'notes' && (
         <div>
-          {notesError && <p style={{ color: '#b91c1c' }}>{notesError}</p>}
-          {notes.length === 0 && <p>No notes awaiting review.</p>}
-          {notes.map((n) => (
-            <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
-              <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
-                Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
-              </div>
-              <textarea
-                value={edited[n.id] ?? n.note}
-                onChange={(e) => setEdited((prev) => ({ ...prev, [n.id]: e.target.value }))}
-                rows={2}
-                style={{ width: '100%', marginBottom: 8 }}
-              />
-              <div style={{ display: 'flex', gap: 8 }}>
-                <button onClick={() => resolveNotes([{ id: n.id, status: 'approved' }])}>Approve</button>
-                <button onClick={() => resolveNotes([{ id: n.id, status: 'rejected' }])}>Reject</button>
-              </div>
-            </div>
-          ))}
-          {notes.length > 1 && (
-            <button
-              onClick={() => resolveNotes(notes.map((n) => ({ id: n.id, status: 'approved' as const })))}
-            >
-              Approve all {notes.length}
-            </button>
+          {!notesAuthChecked ? (
+            <p>Checking…</p>
+          ) : !notesAuth ? (
+            <NotesAuthGate onAuth={handleNotesAuth} />
+          ) : (
+            <>
+              {notesError && <p style={{ color: '#b91c1c' }}>{notesError}</p>}
+              {notes.length === 0 && <p>No notes awaiting review.</p>}
+              {notes.map((n) => (
+                <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
+                  <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
+                    Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
+                  </div>
+                  <textarea
+                    value={edited[n.id] ?? n.note}
+                    onChange={(e) => setEdited((prev) => ({ ...prev, [n.id]: e.target.value }))}
+                    rows={2}
+                    style={{ width: '100%', marginBottom: 8 }}
+                  />
+                  <div style={{ display: 'flex', gap: 8 }}>
+                    <button onClick={() => resolveNotes([{ id: n.id, status: 'approved' }])}>Approve</button>
+                    <button onClick={() => resolveNotes([{ id: n.id, status: 'rejected' }])}>Reject</button>
+                  </div>
+                </div>
+              ))}
+              {notes.length > 1 && (
+                <button
+                  onClick={() => resolveNotes(notes.map((n) => ({ id: n.id, status: 'approved' as const })))}
+                >
+                  Approve all {notes.length}
+                </button>
+              )}
+            </>
           )}
         </div>
       )}
     </main>
+  );
+}
+
+function NotesAuthGate({ onAuth }: { onAuth: (pw: string) => void }) {
+  const [pw, setPw] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    try {
+      const res = await fetch('/api/podreview/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: pw }),
+      });
+      if (res.ok) {
+        onAuth(pw);
+      } else {
+        setError('Invalid password');
+      }
+    } catch {
+      setError('Connection error');
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <form
+      onSubmit={handleSubmit}
+      style={{ display: 'flex', flexDirection: 'column', gap: 8, maxWidth: 280, marginTop: 16 }}
+    >
+      <p style={{ margin: 0, fontSize: 14, color: '#6b7280' }}>
+        Notable Moments review requires the review password.
+      </p>
+      <input
+        type="password"
+        value={pw}
+        onChange={(e) => setPw(e.target.value)}
+        placeholder="Password"
+        autoFocus
+        style={{ padding: '6px 10px', border: '1px solid #d1d5db', borderRadius: 6 }}
+      />
+      {error && <span style={{ color: '#b91c1c', fontSize: 13 }}>{error}</span>}
+      <button type="submit" disabled={loading}>
+        {loading ? 'Checking…' : 'Unlock'}
+      </button>
+    </form>
   );
 }
 

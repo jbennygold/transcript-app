@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { checkAuth } from '@/lib/podreview-auth';
-import { loadNote, saveNote, type NoteStatus } from '@/lib/episode-notes';
+import { loadNote, saveNote, normaliseNoteText, type NoteStatus } from '@/lib/episode-notes';
 import { appendToCell } from '@/lib/pdc-sheet';
 
 interface Decision {
@@ -52,12 +52,24 @@ export async function POST(request: NextRequest) {
       continue;
     }
 
-    const text = typeof d.note === 'string' && d.note.trim() !== '' ? d.note.trim() : note.note;
-
     if (d.status === 'rejected') {
       await saveNote({ ...note, status: 'rejected', resolvedAt: new Date().toISOString() });
       results.push({ id: d.id, outcome: 'rejected' });
       continue;
+    }
+
+    // An admin-edited note comes from a <textarea>, so it can carry raw
+    // newlines and arbitrary length. Hold it to the same shape the submit
+    // path enforces before it ever reaches the sheet. An unedited note was
+    // already normalised at submit time, so it's used as-is.
+    let text = note.note;
+    if (typeof d.note === 'string' && d.note.trim() !== '') {
+      const normalised = normaliseNoteText(d.note);
+      if (!normalised.ok) {
+        results.push({ id: d.id, outcome: 'invalid_note' });
+        continue; // stays pending
+      }
+      text = normalised.value;
     }
 
     try {

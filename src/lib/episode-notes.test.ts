@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newNoteId, validateNoteInput, buildNote, isEpisodeNote } from './episode-notes';
+import { newNoteId, validateNoteInput, buildNote, isEpisodeNote, normaliseNoteText } from './episode-notes';
 
 test('newNoteId is stable for the same inputs and sortable by time', () => {
   const a = newNoteId(1000, 'abc');
@@ -124,4 +124,37 @@ test('isEpisodeNote rejects null and non-objects', () => {
   assert.equal(isEpisodeNote(null), false);
   assert.equal(isEpisodeNote('note'), false);
   assert.equal(isEpisodeNote(42), false);
+});
+
+// ── normaliseNoteText ──
+// Shared by validateNoteInput (submit path) and the resolve route's
+// admin-edit path, so an edited note is held to the same shape as a freshly
+// submitted one before it ever reaches appendToCell.
+
+test('normaliseNoteText collapses embedded newlines to spaces', () => {
+  const r = normaliseNoteText('line one\nline two\nline three');
+  assert.equal(r.ok, true);
+  if (r.ok) assert.equal(r.value, 'line one line two line three');
+});
+
+test('normaliseNoteText collapses a lone \\r with no \\n', () => {
+  const r = normaliseNoteText('line one\rline two');
+  assert.equal(r.ok, true);
+  if (r.ok) assert.equal(r.value, 'line one line two');
+});
+
+test('normaliseNoteText rejects text under the minimum length', () => {
+  const r = normaliseNoteText('ok');
+  assert.equal(r.ok, false);
+});
+
+test('normaliseNoteText rejects text over the maximum length', () => {
+  const r = normaliseNoteText('x'.repeat(1001));
+  assert.equal(r.ok, false);
+});
+
+test('normaliseNoteText passes a clean value through unchanged (besides trim)', () => {
+  const r = normaliseNoteText('  a perfectly normal note  ');
+  assert.equal(r.ok, true);
+  if (r.ok) assert.equal(r.value, 'a perfectly normal note');
 });

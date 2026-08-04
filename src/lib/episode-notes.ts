@@ -37,6 +37,28 @@ export function newNoteId(now: number, rand: string): string {
   return `note_${String(now).padStart(15, '0')}_${rand}`;
 }
 
+/**
+ * Collapse newlines and enforce the length bounds a Notable_Moments bullet
+ * must fit within. Shared by the submit-time validator (`validateNoteInput`)
+ * and the admin-edit path in the resolve route, so an edited note is held to
+ * the same shape as a freshly submitted one — no raw newlines can reach the
+ * sheet either way.
+ */
+export function normaliseNoteText(
+  raw: string
+): { ok: true; value: string } | { ok: false; reason: string } {
+  // One note is one bullet, so collapse any newlines the client sent
+  // (including a lone \r, which \n-only patterns miss).
+  const note = String(raw ?? '').replace(/\s*[\r\n]+\s*/g, ' ').trim();
+  if (note.length < MIN_NOTE_LENGTH) {
+    return { ok: false, reason: `note must be at least ${MIN_NOTE_LENGTH} characters` };
+  }
+  if (note.length > MAX_NOTE_LENGTH) {
+    return { ok: false, reason: `note must be at most ${MAX_NOTE_LENGTH} characters` };
+  }
+  return { ok: true, value: note };
+}
+
 export function validateNoteInput(
   input: unknown
 ):
@@ -53,17 +75,10 @@ export function validateNoteInput(
   const submittedBy = String(o.submittedBy ?? '').trim();
   if (submittedBy === '') return { ok: false, reason: 'submittedBy is required' };
 
-  // One note is one bullet, so collapse any newlines the client sent
-  // (including a lone \r, which \n-only patterns miss).
-  const note = String(o.note ?? '').replace(/\s*[\r\n]+\s*/g, ' ').trim();
-  if (note.length < MIN_NOTE_LENGTH) {
-    return { ok: false, reason: `note must be at least ${MIN_NOTE_LENGTH} characters` };
-  }
-  if (note.length > MAX_NOTE_LENGTH) {
-    return { ok: false, reason: `note must be at most ${MAX_NOTE_LENGTH} characters` };
-  }
+  const normalised = normaliseNoteText(String(o.note ?? ''));
+  if (!normalised.ok) return normalised;
 
-  return { ok: true, value: { episode, note, submittedBy } };
+  return { ok: true, value: { episode, note: normalised.value, submittedBy } };
 }
 
 /**
