@@ -610,7 +610,7 @@ Spotify, Patreon, and TMDB lookups currently only exist inside route handlers. C
   - `buildTmdbDetails(movie: Record<string, unknown>): TmdbDetails`
   - `fetchSpotifyMatch(query: string): Promise<SpotifyMatch | null>`
   - `fetchPatreonMatch(query: string): Promise<PatreonMatch | null>`
-  - `searchTmdb(query: string): Promise<TmdbSearchResult[]>`
+  - `searchTmdb(query: string): Promise<TmdbSearchResult[] | null>` — `null` means the upstream call failed, `[]` means no matches
   - `fetchTmdbDetails(tmdbId: number): Promise<TmdbDetails | null>`
 
 - [ ] **Step 1: Write the failing test**
@@ -937,13 +937,14 @@ export async function fetchPatreonMatch(query: string): Promise<PatreonMatch | n
 
 // ── TMDB ──
 
-export async function searchTmdb(query: string): Promise<TmdbSearchResult[]> {
+/** Returns null when the upstream call fails, [] when it succeeds with no matches. */
+export async function searchTmdb(query: string): Promise<TmdbSearchResult[] | null> {
   const apiKey = process.env.TMDB_API_KEY;
   if (!apiKey || query.trim().length < 2) return [];
 
   const params = new URLSearchParams({ api_key: apiKey, query: query.trim() });
   const res = await fetch(`${TMDB_BASE_URL}/search/movie?${params}`);
-  if (!res.ok) return [];
+  if (!res.ok) return null;
 
   const data = await res.json();
   return ((data.results || []) as Array<Record<string, unknown>>).slice(0, 8).map(r => ({
@@ -1025,6 +1026,9 @@ export async function GET(request: NextRequest) {
   }
 
   const results = await searchTmdb(query);
+  if (results === null) {
+    return NextResponse.json({ error: 'TMDB search failed' }, { status: 502 });
+  }
   return NextResponse.json({ results });
 }
 
@@ -1240,7 +1244,7 @@ export function buildTier1Row(
 async function resolveTmdb(film: string, tmdbId?: number): Promise<TmdbDetails | null> {
   if (tmdbId) return fetchTmdbDetails(tmdbId);
   const results = await searchTmdb(film);
-  return results.length > 0 ? fetchTmdbDetails(results[0].id) : null;
+  return results && results.length > 0 ? fetchTmdbDetails(results[0].id) : null;
 }
 
 function getArgValue(args: string[], flag: string): string | undefined {
@@ -1851,11 +1855,11 @@ In `package.json`, extend the notify test script:
 And add drive-match to the pdc script:
 
 ```json
-"test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts src/lib/drive-match.test.ts scripts/populate-tier1.test.ts"
+"test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts src/lib/episode-format.test.ts src/lib/drive-match.test.ts scripts/populate-tier1.test.ts"
 ```
 
 Run: `npx tsc --noEmit` — Expected: no errors
-Run: `npm run test:pdc` — Expected: 42 tests passing
+Run: `npm run test:pdc` — Expected: 47 tests passing
 Run: `npm run test:notify` — Expected: existing tests plus 3 new, all passing
 Run: `npm run download-audio -- --dry-run --verbose` — Expected: matching runs as before; any episode with no audio is listed with its closest folder names
 
@@ -1882,3 +1886,35 @@ git commit -m "feat(pdc): report unresolved Drive folders to Discord with sugges
 ## Secrets required
 
 `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `PATREON_CREATOR_TOKEN`, and `TMDB_API_KEY` must exist as repository secrets before Task 4's workflow change takes effect. All four are already configured in Vercel for the `/podreview` routes — copy the same values. If any is missing, the corresponding source returns `null` and its columns are left blank; the run still succeeds.
+
+---
+
+## Amendments during execution
+
+This plan's reference code contained defects found by review while executing it. Task 3's and Task 4's
+sections were corrected in place. **Task 1's were not** — its code blocks below still show the
+pre-fix route. Do not treat them as the record of what shipped. What actually shipped for Task 1:
+
+- `src/lib/pdc-sheet.ts` exports `PdcSheetValidationError`. The three pre-validation failures
+  (missing credentials, empty sheet, missing `Ep` column) throw it, and the route returns
+  `err.message` verbatim for that type, keeping the `Sheet update failed: ` prefix for genuine
+  Google API errors. The plan's version routed all three through the prefix, changing their text.
+- The route checks `hasSheetCredentials()` immediately after `checkAuth`, before `await
+  request.json()`, restoring the original check order. The plan's version checked credentials inside
+  `upsertEpisodeRow`, after field validation, which flipped a 500 to a 400 when both were missing.
+- The dead `const status = message.startsWith('Google Sheets credentials') ? 500 : 500;` ternary at
+  the end of the plan's route block does not exist in the shipped code.
+
+Also corrected after the final whole-branch review, in ways not reflected in the task sections above:
+
+- `resolveTmdb` takes `filmYear` and selects via a pure, exported `pickTmdbMatch(results, filmYear)`,
+  which requires the year to agree and returns `null` otherwise. The plan's `results[0]` took TMDB's
+  popularity-ranked top hit, which returns *Dune (2021)* for a `Dune (1984)` query — and because
+  Tier 1 is fill-empty, a wrong link would never be corrected. `sync-metadata.ts` never sets
+  `tmdbId`, so this search path is the primary one for new episodes, not a fallback.
+- `upsertEpisodeRow` refuses to insert in `fill-empty` mode, returning a new `'skipped_no_row'`
+  action. Tier 1 fills rows a human created; it must never create one.
+- `fetchSpotifyMatch` and `fetchPatreonMatch` take `requireExact`, which Tier 1 passes as `true`.
+  Interactive `/podreview` keeps the original lenient threshold unchanged.
+- `.github/workflows/new-episodes.yml` has a `concurrency` group, and the unresolved-folders Discord
+  post is gated to `workflow_dispatch` so it does not repeat on every cron pass.
