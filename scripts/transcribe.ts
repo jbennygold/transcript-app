@@ -8,7 +8,11 @@ dotenv.config({ path: '.env.local' });
 
 // Import lexicon functions for keyterms prompt
 import { getKeytermsPrompt } from '../src/lib/lexicon';
-import { SPEECH_MODELS } from '../src/lib/transcription-config';
+import {
+  SPEECH_MODELS,
+  MIN_SPEAKERS_EXPECTED,
+  MAX_SPEAKERS_EXPECTED,
+} from '../src/lib/transcription-config';
 
 const client = new AssemblyAI({
   apiKey: process.env.ASSEMBLYAI_API_KEY || '',
@@ -21,8 +25,14 @@ const OUTPUT_DIR = './transcripts';
 const args = process.argv.slice(2);
 const noBoost = args.includes('--no-boost');
 const maxBoostTerms = parseInt(args.find(a => a.startsWith('--max-boost='))?.split('=')[1] || '500', 10);
-const minSpeakers = parseInt(args.find(a => a.startsWith('--min-speakers='))?.split('=')[1] || '6', 10);
-const maxSpeakers = parseInt(args.find(a => a.startsWith('--max-speakers='))?.split('=')[1] || '10', 10);
+const minSpeakers = parseInt(
+  args.find(a => a.startsWith('--min-speakers='))?.split('=')[1] || String(MIN_SPEAKERS_EXPECTED),
+  10
+);
+const maxSpeakers = parseInt(
+  args.find(a => a.startsWith('--max-speakers='))?.split('=')[1] || String(MAX_SPEAKERS_EXPECTED),
+  10
+);
 
 interface DialogueEntry {
   name: string;

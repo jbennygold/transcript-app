@@ -23,7 +23,11 @@ dotenv.config({ path: '.env.local' });
 
 // Import lexicon for keyterms prompt
 import { getKeytermsPrompt } from '../src/lib/lexicon';
-import { SPEECH_MODELS } from '../src/lib/transcription-config';
+import {
+  SPEECH_MODELS,
+  MIN_SPEAKERS_EXPECTED,
+  MAX_SPEAKERS_EXPECTED,
+} from '../src/lib/transcription-config';
 
 const MP3_DIR = './mp3s';
 const PROGRESS_FILE = './batch-transcribe-progress.json';
@@ -48,8 +52,12 @@ const explicitEpisodes = episodesArg
   : undefined;
 const minSpeakersArg = args.find(a => a.startsWith('--min-speakers='));
 const maxSpeakersArg = args.find(a => a.startsWith('--max-speakers='));
-const minSpeakers = minSpeakersArg ? parseInt(minSpeakersArg.split('=')[1], 10) : 6;
-const maxSpeakers = maxSpeakersArg ? parseInt(maxSpeakersArg.split('=')[1], 10) : 10;
+const minSpeakers = minSpeakersArg
+  ? parseInt(minSpeakersArg.split('=')[1], 10)
+  : MIN_SPEAKERS_EXPECTED;
+const maxSpeakers = maxSpeakersArg
+  ? parseInt(maxSpeakersArg.split('=')[1], 10)
+  : MAX_SPEAKERS_EXPECTED;
 
 interface ProgressEntry {
   episodeNumber: EpisodeId;

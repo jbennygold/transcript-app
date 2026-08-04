@@ -2,7 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { AssemblyAI } from 'assemblyai';
 import { saveTranscriptionJob } from '@/lib/blob-storage';
 import { getKeytermsPrompt } from '@/lib/lexicon';
-import { SPEECH_MODELS } from '@/lib/transcription-config';
+import {
+  SPEECH_MODELS,
+  MIN_SPEAKERS_EXPECTED,
+  MAX_SPEAKERS_EXPECTED,
+} from '@/lib/transcription-config';
 
 const client = new AssemblyAI({
   apiKey: process.env.ASSEMBLYAI_API_KEY || '',
@@ -66,8 +70,8 @@ export async function POST(request: NextRequest) {
       speech_models: [...SPEECH_MODELS],
       speaker_labels: true,
       speaker_options: {
-        min_speakers_expected: 6,
-        max_speakers_expected: 10,
+        min_speakers_expected: MIN_SPEAKERS_EXPECTED,
+        max_speakers_expected: MAX_SPEAKERS_EXPECTED,
       },
       webhook_url: webhookUrl,
       keyterms_prompt: keytermsPrompt,
