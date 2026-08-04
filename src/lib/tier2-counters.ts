@@ -6,10 +6,15 @@
  * before anyone trusts it. See scripts/calibrate-counters.ts.
  *
  * Known ambiguity, deliberately not resolved in code:
- *  - ASR renders the tic as "mm", "mmm", "mmmm", and sometimes "hmm". We count
- *    only bare m-runs, because "hmm" is a different vocalisation and "mm-hmm"
- *    is assent rather than the bit. If calibration shows we undercount, widen
- *    the pattern here and re-measure — do not special-case at the call site.
+ *  - MMM_Count was MEASURED AND DROPPED from Tier 2's proposable columns.
+ *    Calibration over 312 episodes: 0.0% exact, mean absolute error and mean
+ *    signed error both 31.9 — identical magnitudes, so it undercounts on every
+ *    single episode. Ep 141: hand count 101, transcript contains 3 bare m-runs.
+ *    Only 23 of 327 transcripts contain any m-run. The ASR does not render this
+ *    non-lexical vocalization as text, so no regex over a transcript can count
+ *    it — widening the pattern to include "hmm" yields 8 against 101. countMmm
+ *    is retained ONLY so scripts/calibrate-counters.ts can re-measure if the
+ *    transcription setup changes. Do not wire it into proposals.
  *  - "that's great" has a literal sense as well as the catchphrase sense. We
  *    count both; calibration reveals the bias.
  */

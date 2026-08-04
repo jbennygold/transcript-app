@@ -19,7 +19,6 @@ export type ProposalConfidence = 'high' | 'low';
 /** The only columns Tier 2 is permitted to propose. */
 export const TIER2_COLUMNS = [
   'Film',
-  'MMM_Count',
   'Thats_Great_Count',
   'Kevs_Question',
   'TildaH',

@@ -15,9 +15,9 @@ const FIELDS = [
   { column: 'TildaH' as const, proposed: 'Audrey', current: 'N/A', confidence: 'low' as const },
 ];
 
-test('TIER2_COLUMNS contains exactly the eight proposable columns', () => {
+test('TIER2_COLUMNS contains exactly the seven proposable columns', () => {
   assert.deepEqual([...TIER2_COLUMNS].sort(), [
-    'Film', 'Kevs_Question', 'MMM_Count', 'Thats_Great_Count',
+    'Film', 'Kevs_Question', 'Thats_Great_Count',
     'TildaCorey', 'TildaGuest', 'TildaH', 'TildaJason',
   ]);
 });
@@ -28,6 +28,7 @@ test('isTier2Column rejects columns Tier 2 must never touch', () => {
   assert.equal(isTier2Column('H_Flex'), false);
   assert.equal(isTier2Column('Reviewer'), false);
   assert.equal(isTier2Column('Length'), false);
+  assert.equal(isTier2Column('MMM_Count'), false, 'dropped: not derivable from a transcript');
 });
 
 test('buildProposals stamps every field pending', () => {
@@ -74,7 +75,7 @@ test('acceptedRow includes only the accepted field among accepted/rejected/pendi
   const threeFields = [
     { column: 'Kevs_Question' as const, proposed: 'What is your favourite?', current: null, confidence: 'high' as const },
     { column: 'TildaH' as const, proposed: 'Audrey', current: 'N/A', confidence: 'low' as const },
-    { column: 'MMM_Count' as const, proposed: '3', current: '1', confidence: 'high' as const },
+    { column: 'Film' as const, proposed: 'Barton Fink (1991)', current: null, confidence: 'high' as const },
   ];
   const doc = buildProposals('317', 'Barton Fink (1991)', '2026-08-03T00:00:00.000Z', threeFields);
   const decided = applyDecisions(doc, { Kevs_Question: 'accepted', TildaH: 'rejected' });
