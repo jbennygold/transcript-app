@@ -169,13 +169,13 @@ async function main() {
     }
 
     const [spotify, patreon, tmdb] = await Promise.all([
-      // Unattended writes require an exact normalized-title match (1.0):
-      // interactive /podreview has a human reviewing the result, so its 0.5
-      // floor (the fetch* default) is fine; a cron job is not, and a 0.8
-      // containment near-miss (e.g. "Her" inside "the godfather") would get
-      // written into a blank cell permanently.
-      fetchSpotifyMatch(meta.film, 1.0).catch(() => null),
-      fetchPatreonMatch(meta.film, 1.0).catch(() => null),
+      // Unattended writes require an exact normalized-title match:
+      // interactive /podreview has a human reviewing the result, so its
+      // lenient floor (the fetch* default) is fine; a cron job is not, and a
+      // 0.8 containment near-miss (e.g. "Her" inside "the godfather") would
+      // get written into a blank cell permanently.
+      fetchSpotifyMatch(meta.film, true).catch(() => null),
+      fetchPatreonMatch(meta.film, true).catch(() => null),
       resolveTmdb(meta.film, meta.filmYear, meta.tmdbId).catch(() => null),
     ]);
 

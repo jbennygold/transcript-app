@@ -135,14 +135,13 @@ async function getShowArtworkUrl(token: string): Promise<string | null> {
 }
 
 /**
- * @param minScore Minimum scoreMatch value to accept a candidate, defaulting
- *   to the interactive /podreview floor (0.5). Unattended callers (Tier 1)
- *   pass 1.0 to require an exact normalized-title match — at 0.5 a short
- *   title like "Her" scores 0.8 against any candidate containing it as a
- *   substring (e.g. "The Godfather"), which a human reviewing /podreview
- *   would catch but a cron job would write permanently into a blank cell.
+ * @param requireExact When true, only an exact normalized-title match (score
+ *   1.0) is accepted. Used by the unattended Tier 1 writer, where a wrong
+ *   value lands permanently in a blank cell. The interactive /podreview path
+ *   leaves this false and keeps the original lenient threshold, because a
+ *   human reviews the matched title before saving.
  */
-export async function fetchSpotifyMatch(query: string, minScore = 0.5): Promise<SpotifyMatch | null> {
+export async function fetchSpotifyMatch(query: string, requireExact = false): Promise<SpotifyMatch | null> {
   const token = await getSpotifyToken();
   if (!token) return null;
 
@@ -166,16 +165,13 @@ export async function fetchSpotifyMatch(query: string, minScore = 0.5): Promise<
     external_urls?: { spotify?: string };
   }>;
 
-  // Compare against minScore with >=, not >, so a minScore of 1.0 (the
-  // unattended floor) can actually accept an exact match — a strict ">"
-  // floor comparison would reject a 1.0-scoring candidate against a 1.0
-  // floor and never match anything.
-  let bestScore = -Infinity;
+  let bestScore = 0.5;
   let bestEp: (typeof episodes)[number] | null = null;
   for (const ep of episodes) {
     if (isVideoOrUncut(ep.name)) continue;
     const score = scoreMatch(query, ep.name);
-    if (score >= minScore && score > bestScore) {
+    if (requireExact && score < 1.0) continue;
+    if (score > bestScore) {
       bestScore = score;
       bestEp = ep;
     }
@@ -202,18 +198,17 @@ export async function fetchSpotifyMatch(query: string, minScore = 0.5): Promise<
 // ── Patreon ──
 
 /**
- * @param minScore Minimum scoreMatch value to accept a candidate, defaulting
- *   to the interactive /podreview floor (0.5). Unattended callers (Tier 1)
- *   pass 1.0 to require an exact normalized-title match — see the identical
- *   comment on fetchSpotifyMatch for why.
+ * @param requireExact When true, only an exact normalized-title match (score
+ *   1.0) is accepted. Used by the unattended Tier 1 writer, where a wrong
+ *   value lands permanently in a blank cell. The interactive /podreview path
+ *   leaves this false and keeps the original lenient threshold, because a
+ *   human reviews the matched title before saving.
  */
-export async function fetchPatreonMatch(query: string, minScore = 0.5): Promise<PatreonMatch | null> {
+export async function fetchPatreonMatch(query: string, requireExact = false): Promise<PatreonMatch | null> {
   const token = process.env.PATREON_CREATOR_TOKEN;
   if (!token) return null;
 
-  // See fetchSpotifyMatch for why this compares with >= against minScore
-  // rather than treating minScore itself as the running "bestScore".
-  let bestScore = -Infinity;
+  let bestScore = 0.5;
   let best: PatreonMatch | null = null;
 
   let nextUrl: string | null =
@@ -233,7 +228,8 @@ export async function fetchPatreonMatch(query: string, minScore = 0.5): Promise<
       const title = post.attributes?.title || '';
       if (isVideoOrUncut(title)) continue;
       const score = scoreMatch(query, title);
-      if (score >= minScore && score > bestScore) {
+      if (requireExact && score < 1.0) continue;
+      if (score > bestScore) {
         bestScore = score;
         best = {
           title,
