@@ -21,6 +21,14 @@ interface SubmittedReport {
   note?: string;
 }
 
+interface EpisodeNoteView {
+  id: string;
+  episode: string;
+  note: string;
+  submittedBy: string;
+  createdAt: string;
+}
+
 const STALE_LABEL: Record<string, string> = {
   already_fixed: 'already fixed in the transcript',
   not_found: 'text no longer found',
@@ -31,6 +39,11 @@ export default function SubmissionsPage() {
   const [reports, setReports] = useState<SubmittedReport[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
+
+  const [tab, setTab] = useState<'reports' | 'notes'>('reports');
+  const [notes, setNotes] = useState<EpisodeNoteView[]>([]);
+  const [edited, setEdited] = useState<Record<string, string>>({});
+  const [notesError, setNotesError] = useState<string | null>(null);
 
   const load = useCallback(() => {
     setLoading(true);
@@ -48,6 +61,41 @@ export default function SubmissionsPage() {
     load();
   }, [load]);
 
+  const loadNotes = useCallback(() => {
+    fetch('/api/episode-notes?status=pending')
+      .then((r) => r.json())
+      .then((d) => {
+        setNotes(d.notes ?? []);
+        setNotesError(null);
+      })
+      .catch(() => setNotesError('Failed to load notes. Refresh to try again.'));
+  }, []);
+
+  useEffect(() => {
+    loadNotes();
+  }, [loadNotes]);
+
+  async function resolveNotes(decisions: Array<{ id: string; status: 'approved' | 'rejected' }>) {
+    const withEdits = decisions.map((d) =>
+      d.status === 'approved' && edited[d.id] ? { ...d, note: edited[d.id] } : d
+    );
+    const res = await fetch('/api/episode-notes/resolve', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ decisions: withEdits }),
+    });
+    const data = await res.json();
+    const failed = (data.results ?? []).filter(
+      (r: { outcome: string }) => r.outcome !== 'appended' && r.outcome !== 'rejected' && r.outcome !== 'duplicate'
+    );
+    if (failed.length > 0) {
+      setNotesError(
+        `${failed.length} note(s) could not be applied: ${failed.map((f: { outcome: string }) => f.outcome).join(', ')}. They remain pending.`
+      );
+    }
+    loadNotes();
+  }
+
   const byEpisode = reports.reduce<Record<number, SubmittedReport[]>>((acc, r) => {
     (acc[r.episodeNumber] ??= []).push(r);
     return acc;
@@ -64,21 +112,71 @@ export default function SubmissionsPage() {
         <strong>Apply</strong> on an episode.
       </p>
 
-      {loading ? (
-        <p style={{ marginTop: 24 }}>Loading…</p>
-      ) : loadError ? (
-        <p style={{ marginTop: 24, color: '#b91c1c', fontWeight: 600 }}>⚠ {loadError}</p>
-      ) : reports.length === 0 ? (
-        <p style={{ marginTop: 24 }}>No pending submissions. 🎉</p>
-      ) : (
-        episodes.map((ep) => (
-          <EpisodeSubmissions
-            key={ep}
-            episodeNumber={ep}
-            reports={byEpisode[ep]}
-            onDone={load}
-          />
-        ))
+      <div className="mb-4 flex gap-2" style={{ marginTop: 16, marginBottom: 16 }}>
+        <button
+          onClick={() => setTab('reports')}
+          style={{ fontWeight: tab === 'reports' ? 600 : 400 }}
+        >
+          Transcription reports
+        </button>
+        <button
+          onClick={() => setTab('notes')}
+          style={{ fontWeight: tab === 'notes' ? 600 : 400 }}
+        >
+          Notable Moments ({notes.length})
+        </button>
+      </div>
+
+      {tab === 'reports' && (
+        <>
+          {loading ? (
+            <p style={{ marginTop: 24 }}>Loading…</p>
+          ) : loadError ? (
+            <p style={{ marginTop: 24, color: '#b91c1c', fontWeight: 600 }}>⚠ {loadError}</p>
+          ) : reports.length === 0 ? (
+            <p style={{ marginTop: 24 }}>No pending submissions. 🎉</p>
+          ) : (
+            episodes.map((ep) => (
+              <EpisodeSubmissions
+                key={ep}
+                episodeNumber={ep}
+                reports={byEpisode[ep]}
+                onDone={load}
+              />
+            ))
+          )}
+        </>
+      )}
+
+      {tab === 'notes' && (
+        <div>
+          {notesError && <p style={{ color: '#b91c1c' }}>{notesError}</p>}
+          {notes.length === 0 && <p>No notes awaiting review.</p>}
+          {notes.map((n) => (
+            <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
+              <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
+                Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
+              </div>
+              <textarea
+                value={edited[n.id] ?? n.note}
+                onChange={(e) => setEdited((prev) => ({ ...prev, [n.id]: e.target.value }))}
+                rows={2}
+                style={{ width: '100%', marginBottom: 8 }}
+              />
+              <div style={{ display: 'flex', gap: 8 }}>
+                <button onClick={() => resolveNotes([{ id: n.id, status: 'approved' }])}>Approve</button>
+                <button onClick={() => resolveNotes([{ id: n.id, status: 'rejected' }])}>Reject</button>
+              </div>
+            </div>
+          ))}
+          {notes.length > 1 && (
+            <button
+              onClick={() => resolveNotes(notes.map((n) => ({ id: n.id, status: 'approved' as const })))}
+            >
+              Approve all {notes.length}
+            </button>
+          )}
+        </div>
       )}
     </main>
   );
