@@ -32,7 +32,8 @@
     "test:notify": "node --import tsx --test scripts/notify-discord.test.ts scripts/notify-drive-unresolved.test.ts scripts/notify-proposals-ready.test.ts",
     "test:reports": "node --import tsx --test src/lib/transcription-report.test.ts src/lib/resolve-report-anchor.test.ts src/lib/discord-notify.test.ts src/lib/apply-report.test.ts",
     "test:pdc": "node --import tsx --test src/lib/pdc-sheet.test.ts src/lib/episode-sources.test.ts src/lib/episode-format.test.ts src/lib/drive-match.test.ts scripts/populate-tier1.test.ts",
-    "test:tier2": "node --import tsx --test src/lib/pdc-proposals.test.ts src/lib/tier2-counters.test.ts src/lib/tier2-extract.test.ts scripts/calibrate-counters.test.ts scripts/generate-proposals.test.ts"
+    "test:tier2": "node --import tsx --test src/lib/pdc-proposals.test.ts src/lib/tier2-counters.test.ts src/lib/tier2-extract.test.ts scripts/calibrate-counters.test.ts scripts/generate-proposals.test.ts",
+    "test:notes": "node --import tsx --test src/lib/episode-notes.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
