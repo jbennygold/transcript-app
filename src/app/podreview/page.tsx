@@ -164,6 +164,11 @@ function ReviewForm({ auth }: { auth: string }) {
   const [tildaGuest, setTildaGuest] = useState(() => load('podreview_tildaguest'));
   const [tildaCorey, setTildaCorey] = useState(() => load('podreview_tildacorey'));
 
+  // ── Tier 2 proposals ──
+  const [proposals, setProposals] = useState<
+    Array<{ column: string; proposed: string; current: string | null; confidence: string; evidence?: string }>
+  >([]);
+
   // ── TMDB search ──
   const [tmdbQuery, setTmdbQuery] = useState('');
   const [tmdbResults, setTmdbResults] = useState<TMDBResult[]>([]);
@@ -437,6 +442,16 @@ function ReviewForm({ auth }: { auth: string }) {
 
           await Promise.all(promises);
         }
+
+        try {
+          const pr = await fetch(`/api/pdc-proposals?episode=${encodeURIComponent(epId)}`, { headers });
+          const pd = await pr.json();
+          setProposals(
+            (pd.proposals?.proposals ?? []).filter((p: { status: string }) => p.status === 'pending')
+          );
+        } catch {
+          setProposals([]);
+        }
       }
     } catch {
       showToast('Failed to load episode', 'error');
@@ -472,6 +487,36 @@ function ReviewForm({ auth }: { auth: string }) {
   const updateTildaJ = setAndStore(setTildaJ, 'podreview_tildaj');
   const updateTildaGuest = setAndStore(setTildaGuest, 'podreview_tildaguest');
   const updateTildaCorey = setAndStore(setTildaCorey, 'podreview_tildacorey');
+
+  // ── Tier 2 proposal decisions ──
+  const PROPOSAL_SETTERS: Record<string, (v: string) => void> = {
+    Film: updateFilm,
+    Kevs_Question: updateKevQ,
+    TildaH: updateTildaH,
+    TildaJason: updateTildaJ,
+    TildaGuest: updateTildaGuest,
+    TildaCorey: updateTildaCorey,
+  };
+
+  async function decideProposal(column: string, status: 'accepted' | 'rejected', value?: string) {
+    if (status === 'accepted' && value !== undefined) {
+      if (column === 'Thats_Great_Count') {
+        setTgCount(num(value)); store('podreview_tg', value);
+      } else {
+        PROPOSAL_SETTERS[column]?.(value);
+      }
+    }
+    setProposals(prev => prev.filter(p => p.column !== column));
+    try {
+      await fetch('/api/pdc-proposals', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ episode, decisions: { [column]: status } }),
+      });
+    } catch {
+      showToast('Could not record that decision', 'error');
+    }
+  }
 
   // Counter helpers
   function incCounter(getter: number, setter: (n: number) => void, key: string) {
@@ -723,6 +768,12 @@ function ReviewForm({ auth }: { auth: string }) {
           </div>
         </div>
 
+        <ProposalsBanner
+          proposals={proposals}
+          onAccept={(c, v) => decideProposal(c, 'accepted', v)}
+          onReject={(c) => decideProposal(c, 'rejected')}
+        />
+
         {/* Episode picker */}
         <div style={styles.sectionLabel}>Episode</div>
         <div style={styles.card}>
@@ -917,6 +968,71 @@ function ReviewForm({ auth }: { auth: string }) {
 }
 
 // ── Sub-components ──
+
+function ProposalsBanner({
+  proposals,
+  onAccept,
+  onReject,
+}: {
+  proposals: Array<{ column: string; proposed: string; current: string | null; confidence: string; evidence?: string }>;
+  onAccept: (column: string, value: string) => void;
+  onReject: (column: string) => void;
+}) {
+  if (proposals.length === 0) return null;
+  return (
+    <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4">
+      <h3 className="mb-1 text-sm font-semibold text-amber-900">
+        {proposals.length} proposal{proposals.length === 1 ? '' : 's'} from the transcript
+      </h3>
+      <p className="mb-3 text-xs text-amber-800">
+        Nothing is written to the sheet until you accept and save.
+      </p>
+      <div className="space-y-3">
+        {proposals.map((p) => (
+          <div key={p.column} className="rounded border border-amber-200 bg-white p-3">
+            <div className="mb-1 flex items-center gap-2">
+              <span className="font-mono text-xs font-semibold">{p.column}</span>
+              {p.confidence === 'low' && (
+                <span className="rounded bg-gray-200 px-1.5 py-0.5 text-[10px] uppercase text-gray-700">
+                  low confidence
+                </span>
+              )}
+            </div>
+            <div className="mb-1 text-sm">
+              <span className="text-gray-500">now: </span>
+              <span className="text-gray-700">{p.current ?? '(blank)'}</span>
+            </div>
+            <div className="mb-2 text-sm">
+              <span className="text-gray-500">proposed: </span>
+              <span className="font-medium text-gray-900">{p.proposed}</span>
+            </div>
+            {p.evidence && (
+              <div className="mb-2 border-l-2 border-gray-200 pl-2 text-xs italic text-gray-600">
+                {p.evidence}
+              </div>
+            )}
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => onAccept(p.column, p.proposed)}
+                className="rounded bg-green-600 px-2 py-1 text-xs font-medium text-white hover:bg-green-700"
+              >
+                Accept
+              </button>
+              <button
+                type="button"
+                onClick={() => onReject(p.column)}
+                className="rounded bg-gray-200 px-2 py-1 text-xs font-medium text-gray-700 hover:bg-gray-300"
+              >
+                Reject
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function Field({ label, value, onChange, placeholder, small }: {
   label: string; value: string; onChange: (v: string) => void;
