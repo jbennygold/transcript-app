@@ -89,13 +89,24 @@ export function acceptedRow(doc: EpisodeProposals): Partial<Record<Tier2Column, 
   return row;
 }
 
-function isEpisodeProposals(value: unknown): value is EpisodeProposals {
+export function isFieldProposal(value: unknown): value is FieldProposal {
+  if (typeof value !== 'object' || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.column === 'string' &&
+    typeof v.proposed === 'string' &&
+    typeof v.status === 'string'
+  );
+}
+
+export function isEpisodeProposals(value: unknown): value is EpisodeProposals {
   if (typeof value !== 'object' || value === null) return false;
   const v = value as Record<string, unknown>;
   return (
     typeof v.episode === 'string' &&
     typeof v.createdAt === 'string' &&
-    Array.isArray(v.proposals)
+    Array.isArray(v.proposals) &&
+    v.proposals.every(isFieldProposal)
   );
 }
 

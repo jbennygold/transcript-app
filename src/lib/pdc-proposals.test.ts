@@ -6,6 +6,8 @@ import {
   buildProposals,
   applyDecisions,
   acceptedRow,
+  isEpisodeProposals,
+  isFieldProposal,
 } from './pdc-proposals';
 
 const FIELDS = [
@@ -77,4 +79,63 @@ test('acceptedRow includes only the accepted field among accepted/rejected/pendi
   const doc = buildProposals('317', 'Barton Fink (1991)', '2026-08-03T00:00:00.000Z', threeFields);
   const decided = applyDecisions(doc, { Kevs_Question: 'accepted', TildaH: 'rejected' });
   assert.deepEqual(acceptedRow(decided), { Kevs_Question: 'What is your favourite?' });
+});
+
+test('isEpisodeProposals accepts a well-formed document', () => {
+  assert.equal(
+    isEpisodeProposals({
+      episode: '317',
+      film: 'Barton Fink (1991)',
+      createdAt: '2026-08-03T00:00:00.000Z',
+      proposals: [{ column: 'Kevs_Question', proposed: 'Q', current: null, confidence: 'high', status: 'pending' }],
+    }),
+    true
+  );
+});
+
+test('isEpisodeProposals accepts an empty proposals array', () => {
+  assert.equal(
+    isEpisodeProposals({ episode: '317', createdAt: '2026-08-03T00:00:00.000Z', proposals: [] }),
+    true
+  );
+});
+
+test('isEpisodeProposals rejects a null element that would crash the listing', () => {
+  // The exact shape that threw past the previous guard.
+  assert.equal(
+    isEpisodeProposals({ episode: '317', createdAt: '2026-08-03T00:00:00.000Z', proposals: [null] }),
+    false
+  );
+});
+
+test('isEpisodeProposals rejects an element missing status', () => {
+  assert.equal(
+    isEpisodeProposals({
+      episode: '317',
+      createdAt: '2026-08-03T00:00:00.000Z',
+      proposals: [{ column: 'Kevs_Question', proposed: 'Q' }],
+    }),
+    false
+  );
+});
+
+test('isEpisodeProposals rejects a missing or non-array proposals field', () => {
+  assert.equal(isEpisodeProposals({ episode: '317', createdAt: 'x' }), false);
+  assert.equal(isEpisodeProposals({ episode: '317', createdAt: 'x', proposals: 'nope' }), false);
+});
+
+test('isEpisodeProposals rejects a missing createdAt', () => {
+  assert.equal(isEpisodeProposals({ episode: '317', proposals: [] }), false);
+});
+
+test('isEpisodeProposals rejects non-objects', () => {
+  assert.equal(isEpisodeProposals(null), false);
+  assert.equal(isEpisodeProposals('doc'), false);
+  assert.equal(isEpisodeProposals(42), false);
+});
+
+test('isFieldProposal rejects null and non-objects', () => {
+  assert.equal(isFieldProposal(null), false);
+  assert.equal(isFieldProposal(undefined), false);
+  assert.equal(isFieldProposal('x'), false);
 });
