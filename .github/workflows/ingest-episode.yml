@@ -52,6 +52,16 @@ jobs:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: node --import tsx ./scripts/upload-search-data.ts
 
+      # Tier 2: derive metadata proposals from the now speaker-mapped transcript.
+      # Writes proposals to Blob only — never to the sheet. Non-fatal.
+      - name: Generate Tier 2 proposals
+        continue-on-error: true
+        env:
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EPISODE: ${{ inputs.episode }}
+        run: node --import tsx ./scripts/generate-proposals.ts --episode="$EPISODE"
+
       # Announce that the episode is now searchable (speaker mapping + cleanup
       # complete). Non-fatal — never blocks the deploy.
       - name: Notify Discord — episode ingested

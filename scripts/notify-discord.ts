@@ -103,6 +103,25 @@ export function buildDriveUnresolvedMessage(unresolved: UnresolvedEpisode[]): We
   };
 }
 
+export function buildProposalsReadyMessage(
+  episode: string,
+  film: string,
+  count: number,
+  baseUrl: string
+): WebhookPayload {
+  return {
+    content: `📝 ${count} metadata proposal${count === 1 ? '' : 's'} ready to review`,
+    embeds: [
+      {
+        title: `Ep ${episode} · ${film}`,
+        url: `${baseUrl}/podreview`,
+        description: 'Extracted from the transcript. Accept or reject each field in /podreview — nothing is written to the sheet until you do.',
+        color: AMBER,
+      },
+    ],
+  };
+}
+
 export function resolveEpisodes(
   numbers: number[],
   metadataPath: string
@@ -217,8 +236,17 @@ async function main(): Promise<void> {
       return;
     }
     payload = buildDriveUnresolvedMessage(unresolved);
+  } else if (event === 'proposals-ready') {
+    const episode = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
+    const film = getArg(args, 'film') ?? '';
+    const count = parseInt(getArg(args, 'count') ?? '0', 10);
+    if (!episode || count <= 0) {
+      console.warn('[notify-discord] proposals-ready needs --episode and a positive --count — skipping.');
+      return;
+    }
+    payload = buildProposalsReadyMessage(episode, film, count, baseUrl);
   } else {
-    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, no-new-episodes, or drive-unresolved.`);
+    console.warn(`[notify-discord] Unknown --event "${event}" — expected needs-mapping, ingested, no-new-episodes, drive-unresolved, or proposals-ready.`);
     return;
   }
 
