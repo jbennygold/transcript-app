@@ -12,9 +12,10 @@
 
 - **Tier 2 never writes to the sheet.** It writes proposals to Blob. The only sheet write is a human accepting a proposal in `/podreview`, which goes through the existing `POST /api/podreview/update-pdc` with mode `overwrite`.
 - Tier 2 runs **after** ingest, because `TildaH` vs `TildaJason` depends on correct speaker attribution and an unmapped transcript has placeholder speakers.
-- `MMM_Count` and `Thats_Great_Count` ship in **measure-only mode** behind `TIER2_COUNTERS_ENABLED` (default `false`). They record a derived count for comparison but produce no proposal until accuracy is measured against the ~300 hand-counted historical rows and accepted.
-- Fields Tier 2 may propose, and no others: `Film`, `MMM_Count`, `Thats_Great_Count`, `Kevs_Question`, `TildaH`, `TildaJason`, `TildaGuest`, `TildaCorey`.
-- `H_Flex`, `J_Flex`, `Chuckle_Hut_Favorites`, `Notable_Moments`, `Reviewer`, `Release_Date`, `Guest`, `Length*`, and the four link columns are **never** touched by Tier 2.
+- **`MMM_Count` is out of scope and must never be proposed.** Calibration (Task 3) measured it at 0.0% exact across 312 episodes with `MAE == |mean signed error| == 31.9`, meaning it undercounts on every single episode. Episode 141 has a hand count of 101 while its transcript contains 3 bare m-runs; only 23 of 327 transcripts contain any m-run at all. AssemblyAI does not render this non-lexical vocalization as text, so no rule over a transcript can count it. `countMmm` and the calibration script are retained as the evidence for that decision, not as a proposal source.
+- `Thats_Great_Count` proposes as **low confidence**. Calibration: 11.8% exact, 55.0% within ±2, mean signed error −1.31 — real signal that consistently undercounts, which is the safe direction for a value a human reviews before saving.
+- Fields Tier 2 may propose, and no others: `Film`, `Thats_Great_Count`, `Kevs_Question`, `TildaH`, `TildaJason`, `TildaGuest`, `TildaCorey`.
+- `MMM_Count`, `H_Flex`, `J_Flex`, `Chuckle_Hut_Favorites`, `Notable_Moments`, `Reviewer`, `Release_Date`, `Guest`, `Length*`, and the four link columns are **never** touched by Tier 2.
 - `TildaGuest` and `TildaCorey` are frequently absent and must be allowed to come back null. A null is not a failure.
 - Model id is `claude-haiku-4-5-20251001` — the id already used throughout this repo. Do not substitute another.
 - Tests are pure-function only. No network, no Blob, no Anthropic, no credentialed fixtures.
@@ -74,15 +75,16 @@ const FIELDS = [
   { column: 'TildaH' as const, proposed: 'Audrey', current: 'N/A', confidence: 'low' as const },
 ];
 
-test('TIER2_COLUMNS contains exactly the eight proposable columns', () => {
+test('TIER2_COLUMNS contains exactly the seven proposable columns', () => {
   assert.deepEqual([...TIER2_COLUMNS].sort(), [
-    'Film', 'Kevs_Question', 'MMM_Count', 'Thats_Great_Count',
+    'Film', 'Kevs_Question', 'Thats_Great_Count',
     'TildaCorey', 'TildaGuest', 'TildaH', 'TildaJason',
   ]);
 });
 
 test('isTier2Column rejects columns Tier 2 must never touch', () => {
   assert.equal(isTier2Column('Kevs_Question'), true);
+  assert.equal(isTier2Column('MMM_Count'), false, 'dropped: not derivable from a transcript');
   assert.equal(isTier2Column('Notable_Moments'), false);
   assert.equal(isTier2Column('H_Flex'), false);
   assert.equal(isTier2Column('Reviewer'), false);
@@ -159,7 +161,6 @@ export type ProposalConfidence = 'high' | 'low';
 /** The only columns Tier 2 is permitted to propose. */
 export const TIER2_COLUMNS = [
   'Film',
-  'MMM_Count',
   'Thats_Great_Count',
   'Kevs_Question',
   'TildaH',
@@ -575,7 +576,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as dotenv from 'dotenv';
-import { countMmm, countThatsGreat } from '../src/lib/tier2-counters';
+import { countThatsGreat } from '../src/lib/tier2-counters';
 import type { Transcript } from '../src/types/transcript';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -1103,7 +1104,6 @@ const CURRENT = {
   tildaJason: 'N/A',
   tildaGuest: null,
   tildaCorey: null,
-  mmmCount: 0,
   thatsGreatCount: 0,
 };
 
@@ -1114,7 +1114,6 @@ test('a Kev question becomes a high-confidence proposal carrying its evidence', 
     current: CURRENT,
     kev: { question: 'What is your favourite?', evidence: 'Kev at 12:45' },
     tilda: EMPTY_TILDA,
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: null,
   });
@@ -1130,7 +1129,6 @@ test('a null extraction produces no proposal for that column', () => {
     current: CURRENT,
     kev: { question: null, evidence: null },
     tilda: EMPTY_TILDA,
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: null,
   });
@@ -1142,7 +1140,6 @@ test('Tilda guest and Corey are low confidence; hosts are high', () => {
     current: CURRENT,
     kev: { question: null, evidence: null },
     tilda: { tildaH: 'Audrey', tildaJason: 'Barton', tildaGuest: 'Charlie', tildaCorey: null },
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: null,
   });
@@ -1152,30 +1149,27 @@ test('Tilda guest and Corey are low confidence; hosts are high', () => {
   assert.equal(f.find(p => p.column === 'TildaCorey'), undefined);
 });
 
-test('counters produce no proposal when null (measure-only mode)', () => {
+test('MMM_Count is never proposed — it is not derivable from a transcript', () => {
   const f = buildProposalFields({
     current: CURRENT,
-    kev: { question: null, evidence: null },
-    tilda: EMPTY_TILDA,
-    mmm: null,
-    thatsGreat: null,
-    canonicalFilm: null,
+    kev: { question: 'Q', evidence: null },
+    tilda: { tildaH: 'A', tildaJason: 'B', tildaGuest: 'C', tildaCorey: 'D' },
+    thatsGreat: 9,
+    canonicalFilm: 'Different (2000)',
   });
   assert.equal(f.find(p => p.column === 'MMM_Count'), undefined);
 });
 
-test('counters propose as low confidence when enabled', () => {
+test("That's Great proposes as low confidence", () => {
   const f = buildProposalFields({
     current: CURRENT,
     kev: { question: null, evidence: null },
     tilda: EMPTY_TILDA,
-    mmm: 7,
     thatsGreat: 3,
     canonicalFilm: null,
   });
-  assert.equal(f.find(p => p.column === 'MMM_Count')?.proposed, '7');
-  assert.equal(f.find(p => p.column === 'MMM_Count')?.confidence, 'low');
   assert.equal(f.find(p => p.column === 'Thats_Great_Count')?.proposed, '3');
+  assert.equal(f.find(p => p.column === 'Thats_Great_Count')?.confidence, 'low');
 });
 
 test('a canonical film title matching the sheet produces no proposal', () => {
@@ -1183,7 +1177,6 @@ test('a canonical film title matching the sheet produces no proposal', () => {
     current: CURRENT,
     kev: { question: null, evidence: null },
     tilda: EMPTY_TILDA,
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: 'Barton Fink (1991)',
   });
@@ -1195,7 +1188,6 @@ test('a differing canonical film title proposes the correction with the current 
     current: { ...CURRENT, film: 'Barton Fink' },
     kev: { question: null, evidence: null },
     tilda: EMPTY_TILDA,
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: 'Barton Fink (1991)',
   });
@@ -1209,7 +1201,6 @@ test('an extraction identical to the existing sheet value produces no proposal',
     current: { ...CURRENT, kevsQuestion: 'What is your favourite?' },
     kev: { question: 'What is your favourite?', evidence: null },
     tilda: EMPTY_TILDA,
-    mmm: null,
     thatsGreat: null,
     canonicalFilm: null,
   });
@@ -1221,11 +1212,10 @@ test('every proposed column is one Tier 2 is permitted to touch', () => {
     current: CURRENT,
     kev: { question: 'Q', evidence: null },
     tilda: { tildaH: 'A', tildaJason: 'B', tildaGuest: 'C', tildaCorey: 'D' },
-    mmm: 1,
     thatsGreat: 2,
     canonicalFilm: 'Different (2000)',
   });
-  const allowed = ['Film', 'MMM_Count', 'Thats_Great_Count', 'Kevs_Question', 'TildaH', 'TildaJason', 'TildaGuest', 'TildaCorey'];
+  const allowed = ['Film', 'Thats_Great_Count', 'Kevs_Question', 'TildaH', 'TildaJason', 'TildaGuest', 'TildaCorey'];
   for (const p of f) assert.ok(allowed.includes(p.column), `${p.column} is not a Tier 2 column`);
 });
 ```
@@ -1259,7 +1249,7 @@ import {
   saveProposals,
   type FieldProposal,
 } from '../src/lib/pdc-proposals';
-import { countMmm, countThatsGreat } from '../src/lib/tier2-counters';
+import { countThatsGreat } from '../src/lib/tier2-counters';
 import {
   extractKevQuestion,
   extractTildaPicks,
@@ -1275,9 +1265,6 @@ const __filename = fileURLToPath(import.meta.url);
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });
 
-/** Counters propose only once calibration has been run and accepted. */
-const COUNTERS_ENABLED = process.env.TIER2_COUNTERS_ENABLED === 'true';
-
 function log(msg: string) {
   console.log(`[generate-proposals] ${msg}`);
 }
@@ -1289,7 +1276,6 @@ export interface CurrentValues {
   tildaJason: string;
   tildaGuest: string | null;
   tildaCorey: string | null;
-  mmmCount: number;
   thatsGreatCount: number;
 }
 
@@ -1297,8 +1283,6 @@ export interface ProposalInput {
   current: CurrentValues;
   kev: KevExtraction;
   tilda: TildaExtraction;
-  /** null means measure-only mode: record but do not propose. */
-  mmm: number | null;
   thatsGreat: number | null;
   canonicalFilm: string | null;
 }
@@ -1345,9 +1329,6 @@ export function buildProposalFields(
   add('TildaGuest', input.tilda.tildaGuest, input.current.tildaGuest, 'low');
   add('TildaCorey', input.tilda.tildaCorey, input.current.tildaCorey, 'low');
 
-  if (input.mmm !== null) {
-    add('MMM_Count', String(input.mmm), String(input.current.mmmCount || ''), 'low');
-  }
   if (input.thatsGreat !== null) {
     add('Thats_Great_Count', String(input.thatsGreat), String(input.current.thatsGreatCount || ''), 'low');
   }
@@ -1410,9 +1391,8 @@ async function main() {
   }
 
   const dialogues = transcript.dialogues ?? [];
-  const mmmDerived = countMmm(dialogues).total;
   const tgDerived = countThatsGreat(dialogues).total;
-  log(`Derived counts (measure-only=${!COUNTERS_ENABLED}): MMM=${mmmDerived}, That's Great=${tgDerived}`);
+  log(`Derived That's Great count: ${tgDerived}`);
 
   // TMDB canonical title. Reuses Tier 1's year-verified selection, so a remake
   // cannot masquerade as the episode's film. A null year or no year-agreeing
@@ -1434,13 +1414,11 @@ async function main() {
       tildaJason: meta.tildaJason,
       tildaGuest: meta.tildaGuest,
       tildaCorey: meta.tildaCorey,
-      mmmCount: meta.mmmCount,
       thatsGreatCount: meta.thatsGreatCount,
     },
     kev,
     tilda,
-    mmm: COUNTERS_ENABLED ? mmmDerived : null,
-    thatsGreat: COUNTERS_ENABLED ? tgDerived : null,
+    thatsGreat: tgDerived,
     canonicalFilm,
   });
 
@@ -1571,12 +1549,9 @@ In `.github/workflows/ingest-episode.yml`, insert after the "Upload updated sear
         env:
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TIER2_COUNTERS_ENABLED: ${{ vars.TIER2_COUNTERS_ENABLED }}
           EPISODE: ${{ inputs.episode }}
         run: node --import tsx ./scripts/generate-proposals.ts --episode="$EPISODE"
 ```
-
-`TIER2_COUNTERS_ENABLED` is a repository **variable**, not a secret, and is absent until calibration is accepted — an absent value is not `'true'`, so counters stay measure-only by default.
 
 - [ ] **Step 8: Add the npm scripts and verify**
 
@@ -1874,7 +1849,7 @@ git commit -m "feat(tier2): review proposals in /podreview"
 - [ ] `npx tsc --noEmit` — no errors
 - [ ] `npm run test:tier2 && npm run test:notify && npm run test:pdc && npm run test:reports` — all passing
 - [ ] `npm run build:local` — succeeds
-- [ ] `npm run calibrate-counters` — output reviewed by a human; `TIER2_COUNTERS_ENABLED` stays unset until that review accepts the accuracy
+- [ ] `grep -n "MMM_Count" src/lib/pdc-proposals.ts scripts/generate-proposals.ts` returns nothing — MMM is out of scope and must not be proposable
 - [ ] `npm run generate-proposals -- --episode=<recent> --dry-run` — proposals look right for a known episode
 - [ ] `/podreview` shows the banner, Accept fills the field, save still writes through `update-pdc`
 - [ ] Confirmed that no Tier 2 code path calls `upsertEpisodeRow` — `grep -rn "upsertEpisodeRow" src scripts` should show only `update-pdc/route.ts` and `populate-tier1.ts`
@@ -1883,4 +1858,4 @@ git commit -m "feat(tier2): review proposals in /podreview"
 
 - `ANTHROPIC_API_KEY` — already a repo secret (used by `ingest-episode.yml`).
 - `BLOB_READ_WRITE_TOKEN` — already a repo secret.
-- `TIER2_COUNTERS_ENABLED` — a new repository **variable**, deliberately left unset. Set it to `true` only after `calibrate-counters` output has been reviewed and accepted.
+- No new secrets or variables. The `TIER2_COUNTERS_ENABLED` flag from the original plan was removed once calibration resolved the question it existed to defer.
