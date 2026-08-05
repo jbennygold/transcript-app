@@ -85,10 +85,13 @@ jobs:
         run: node --import tsx ./scripts/notify-discord.ts --event=proposals-ready --episode="$EPISODE" --count="${{ steps.tier2.outputs.proposal_count }}" --film="${{ steps.tier2.outputs.proposal_film }}"
 
       # Open the episode for Notable Moment nominations in #engineers.
-      # Needs its own webhook: the PDC webhook is scoped to #pod-data-central.
+      # The bot token is what makes a thread possible; the webhook is kept as a
+      # fallback so a half-configured bot still announces (threadless).
       - name: Notify Discord — notes open
         continue-on-error: true
         env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_ENGINEERS_CHANNEL_ID: ${{ secrets.DISCORD_ENGINEERS_CHANNEL_ID }}
           DISCORD_ENGINEERS_WEBHOOK_URL: ${{ secrets.DISCORD_ENGINEERS_WEBHOOK_URL }}
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
           EPISODE: ${{ inputs.episode }}

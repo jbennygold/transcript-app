@@ -130,13 +130,35 @@ export function buildNotesOpenMessage(episode: string, film: string): WebhookPay
       {
         title,
         description:
-          `This episode is now open for Notable Moments. Nominate one with:\n` +
-          '```\n/pdc-note note: Haitch\'s Roy Scheider tangent around 42:00\n```\n' +
-          'One moment per note. Add as many as you like — an admin reviews them before anything reaches the sheet.',
+          'This episode is now open for Notable Moments.\n\n' +
+          '**Reply in this thread** with any moment worth recording — one per message, as many as you like.\n' +
+          'An admin reacts ✅ to the ones that should go in the sheet, then runs `/pdc-sync-notes`.\n\n' +
+          'Thought of one later, outside the thread? `/pdc-note note: Haitch\'s Roy Scheider tangent around 42:00` still works.',
         color: AMBER,
       },
     ],
   };
+}
+
+export type NotesOpenTransport =
+  | { kind: 'bot'; token: string; channelId: string }
+  | { kind: 'webhook'; url: string }
+  | { kind: 'none' };
+
+/**
+ * The bot path is preferred because only a bot token can create the thread
+ * comments are collected in. The webhook is kept as a fallback so a
+ * half-configured bot degrades to a threadless announcement rather than
+ * silence — DISCORD_ENGINEERS_WEBHOOK_URL is no longer required, but is still
+ * honoured while the migration lands.
+ */
+export function notesOpenTransport(env: Record<string, string | undefined>): NotesOpenTransport {
+  const token = env.DISCORD_BOT_TOKEN;
+  const channelId = env.DISCORD_ENGINEERS_CHANNEL_ID;
+  if (token && channelId) return { kind: 'bot', token, channelId };
+  const url = env.DISCORD_ENGINEERS_WEBHOOK_URL;
+  if (url) return { kind: 'webhook', url };
+  return { kind: 'none' };
 }
 
 /**
@@ -241,12 +263,6 @@ async function main(): Promise<void> {
   ).replace(/\/+$/, '');
   const metadataPath = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
 
-  // notes-open writes the open-episode Blob pointer that /pdc-note relies on.
-  // That write needs only BLOB_READ_WRITE_TOKEN — it must not be gated behind
-  // the #engineers webhook, or a missing webhook secret silently breaks
-  // /pdc-note for every contributor. Handle it before the generic
-  // webhook-availability short-circuit below; the announcement itself still
-  // skips gracefully when the webhook isn't configured.
   if (event === 'notes-open') {
     const ep = getArg(args, 'episode')?.replace(/^episode_/, '').trim();
     if (!ep) {
@@ -255,27 +271,46 @@ async function main(): Promise<void> {
     }
     const film = resolveNotesOpenFilm(ep, getArg(args, 'film'), metadataPath);
 
+    // Announce first, because the thread id it produces goes on the pointer.
+    // Every failure below is non-fatal and leaves threadId null.
+    let threadId: string | null = null;
+    const transport = notesOpenTransport(process.env);
+
+    if (transport.kind === 'bot') {
+      const { announceWithThread, threadNameFor } = await import('../src/lib/discord-thread');
+      const result = await announceWithThread({
+        token: transport.token,
+        channelId: transport.channelId,
+        payload: buildNotesOpenMessage(ep, film),
+        threadName: threadNameFor(ep, film),
+      });
+      threadId = result?.threadId ?? null;
+      if (result && threadId) console.log(`[notify-discord] Posted announcement and opened thread ${threadId}.`);
+      else if (result) console.warn('[notify-discord] Announced, but the thread was not created.');
+    } else if (transport.kind === 'webhook') {
+      console.warn('[notify-discord] No bot token/channel id — posting via webhook, so no thread.');
+      try {
+        await postToDiscord(transport.url, buildNotesOpenMessage(ep, film));
+        console.log('[notify-discord] Posted notification.');
+      } catch (err) {
+        console.warn(
+          `[notify-discord] Failed to post (non-fatal): ${err instanceof Error ? err.message : String(err)}`
+        );
+      }
+    } else {
+      console.warn('[notify-discord] Neither DISCORD_BOT_TOKEN+DISCORD_ENGINEERS_CHANNEL_ID nor DISCORD_ENGINEERS_WEBHOOK_URL is set — skipping the announcement.');
+    }
+
+    // Unconditional, and deliberately AFTER the announcement but outside every
+    // early return: the pointer write needs only BLOB_READ_WRITE_TOKEN, and
+    // gating it behind a Discord secret silently broke /pdc-note for every
+    // contributor once already. A null threadId is a valid pointer.
     try {
       const { setOpenEpisode } = await import('../src/lib/episode-notes');
-      await setOpenEpisode({ episode: ep, film, openedAt: new Date().toISOString() });
-    } catch (err) {
-      // A failed pointer write means /pdc-note needs an explicit ep, which is
-      // recoverable. Announcing is still worthwhile, so this is not fatal.
-      console.warn(`[notify-discord] could not record open episode: ${err instanceof Error ? err.message : String(err)}`);
-    }
-
-    const webhookUrl = webhookForEvent(event, process.env);
-    if (!webhookUrl) {
-      console.warn('[notify-discord] DISCORD_ENGINEERS_WEBHOOK_URL not set — skipping announcement.');
-      return;
-    }
-
-    try {
-      await postToDiscord(webhookUrl, buildNotesOpenMessage(ep, film));
-      console.log('[notify-discord] Posted notification.');
+      await setOpenEpisode({ episode: ep, film, openedAt: new Date().toISOString(), threadId });
     } catch (err) {
       console.warn(
-        `[notify-discord] Failed to post (non-fatal): ${err instanceof Error ? err.message : String(err)}`
+        `[notify-discord] could not record open episode: ${err instanceof Error ? err.message : String(err)}`
       );
     }
     return;

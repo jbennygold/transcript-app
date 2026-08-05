@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildNotesOpenMessage, webhookForEvent, resolveNotesOpenFilm, AMBER } from './notify-discord.ts';
+import { buildNotesOpenMessage, webhookForEvent, resolveNotesOpenFilm, notesOpenTransport, AMBER } from './notify-discord.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const METADATA = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
@@ -64,4 +64,32 @@ test('resolveNotesOpenFilm falls back to empty string for an unknown episode', (
 
 test('resolveNotesOpenFilm falls back to empty string for a non-numeric episode id', () => {
   assert.equal(resolveNotesOpenFilm('147B1', undefined, METADATA), '');
+});
+
+test('notesOpenTransport prefers the bot when both a token and a channel id are set', () => {
+  assert.deepEqual(
+    notesOpenTransport({
+      DISCORD_BOT_TOKEN: 't',
+      DISCORD_ENGINEERS_CHANNEL_ID: 'c',
+      DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng',
+    }),
+    { kind: 'bot', token: 't', channelId: 'c' }
+  );
+});
+
+test('notesOpenTransport falls back to the webhook when the bot is half-configured', () => {
+  // A token with no channel id (or vice versa) cannot post; the webhook still
+  // can, so the announcement degrades to threadless rather than vanishing.
+  assert.deepEqual(
+    notesOpenTransport({ DISCORD_BOT_TOKEN: 't', DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng' }),
+    { kind: 'webhook', url: 'https://eng' }
+  );
+  assert.deepEqual(
+    notesOpenTransport({ DISCORD_ENGINEERS_CHANNEL_ID: 'c', DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng' }),
+    { kind: 'webhook', url: 'https://eng' }
+  );
+});
+
+test('notesOpenTransport reports none when nothing is configured', () => {
+  assert.deepEqual(notesOpenTransport({}), { kind: 'none' });
 });
