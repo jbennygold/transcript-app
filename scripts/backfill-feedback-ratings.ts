@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 import { list, put } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from '../src/lib/blob-storage';
 import type { QueryLogEntry } from '../src/lib/query-logger';
 
 interface FeedbackEntry {
@@ -46,9 +47,11 @@ async function main() {
       const batch = await Promise.all(
         result.blobs.map(async (blob) => {
           try {
-            const res = await fetch(blob.url);
-            const entry = (await res.json()) as QueryLogEntry;
-            return { entry, pathname: blob.pathname };
+            // Size-verified: these entries are read, modified and written back,
+            // so a stale copy would drop fields added since (e.g. useCaseLLM).
+            const loaded = await fetchBlobJson<QueryLogEntry>(blob.url, blob.size, 'fast');
+            if (!loaded) return null;
+            return { entry: loaded.data, pathname: blob.pathname };
           } catch {
             return null;
           }
@@ -116,6 +119,7 @@ async function main() {
           contentType: 'application/json',
           addRandomSuffix: false,
           allowOverwrite: true,
+          cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
           token: process.env.BLOB_READ_WRITE_TOKEN,
         });
         console.log(`  LINKED: "${fb.query.slice(0, 60)}" → ${best.entry.id} (${fb.rating})`);

@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 import { list, put } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from '../src/lib/blob-storage';
 import Anthropic from '@anthropic-ai/sdk';
 import { UC_LABELS } from '../src/lib/use-case-classifier';
 import type { QueryLogEntry } from '../src/lib/query-logger';
@@ -113,11 +114,14 @@ async function main() {
   for (let i = 0; i < blobs.length; i++) {
     const blob = blobs[i];
 
-    // Fetch entry
+    // Fetch entry. Size-verified: this is a read-modify-write, and a stale copy
+    // would be written back with useCaseLLM set but any rating added since
+    // dropped.
     let entry: QueryLogEntry;
     try {
-      const res = await fetch(blob.url);
-      entry = (await res.json()) as QueryLogEntry;
+      const loaded = await fetchBlobJson<QueryLogEntry>(blob.url, blob.size, 'fast');
+      if (!loaded) throw new Error('could not read a current copy');
+      entry = loaded.data;
     } catch (err) {
       console.warn(`  ⚠ Failed to fetch ${blob.pathname}: ${err}`);
       errors++;
@@ -168,6 +172,7 @@ async function main() {
           contentType: 'application/json',
           addRandomSuffix: false,
           allowOverwrite: true,
+          cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
           token: process.env.BLOB_READ_WRITE_TOKEN,
         });
       } catch (err) {

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { put, list } from '@vercel/blob';
 import { Resend } from 'resend';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from '@/lib/blob-storage';
 import type { QueryLogEntry } from '@/lib/query-logger';
 
 interface FeedbackEntry {
@@ -106,12 +107,16 @@ export async function POST(request: NextRequest) {
         const logMonth = `${logDate.getFullYear()}-${String(logDate.getMonth() + 1).padStart(2, '0')}`;
         const logPathname = `query-log/${logMonth}/${queryLogId}.json`;
 
-        // Fetch, merge, re-upload
+        // Fetch, merge, re-upload. The read must be size-verified: this is a
+        // read-modify-write, so a stale CDN copy would be merged and written
+        // back, dropping any field added since — classify-query-logs sets
+        // useCaseLLM on these same entries.
         const logBlobs = await list({ prefix: logPathname });
         if (logBlobs.blobs.length > 0) {
-          const logResp = await fetch(logBlobs.blobs[0].url, { cache: 'no-store' });
-          if (logResp.ok) {
-            const logEntry = (await logResp.json()) as QueryLogEntry;
+          const blob = logBlobs.blobs[0];
+          const loaded = await fetchBlobJson<QueryLogEntry>(blob.url, blob.size, 'fast');
+          if (loaded) {
+            const logEntry = loaded.data;
             logEntry.rating = rating;
             if (comment?.trim()) logEntry.comment = comment.trim();
             await put(logPathname, JSON.stringify(logEntry), {
@@ -119,6 +124,7 @@ export async function POST(request: NextRequest) {
               contentType: 'application/json',
               addRandomSuffix: false,
               allowOverwrite: true,
+              cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
             });
           }
         }

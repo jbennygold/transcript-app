@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { list } from '@vercel/blob';
+import { fetchBlobJson } from '@/lib/blob-storage';
 import { UC_LABELS } from '@/lib/use-case-classifier';
 import type { QueryLogEntry } from '@/lib/query-logger';
 
@@ -62,9 +63,11 @@ export async function GET(req: NextRequest) {
       const result = await list({ prefix, cursor });
       const fetches = result.blobs.map(async (blob) => {
         try {
-          const resp = await fetch(blob.url, { cache: 'no-store' });
-          if (!resp.ok) return null;
-          return (await resp.json()) as QueryLogEntry;
+          // Size-verified: these entries are overwritten in place when feedback
+          // adds a rating or classify-query-logs adds a use-case, so an
+          // unverified read can report a query as unrated after it was rated.
+          const loaded = await fetchBlobJson<QueryLogEntry>(blob.url, blob.size, 'fast');
+          return loaded?.data ?? null;
         } catch {
           return null;
         }

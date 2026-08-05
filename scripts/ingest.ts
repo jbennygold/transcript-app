@@ -4,6 +4,7 @@ import * as crypto from 'crypto';
 import OpenAI from 'openai';
 import * as dotenv from 'dotenv';
 import { list, put } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from '../src/lib/blob-storage';
 import Anthropic from '@anthropic-ai/sdk';
 import { CostTracker } from '../src/lib/llm-cost';
 
@@ -1126,11 +1127,17 @@ async function loadRemoteManifest(): Promise<{ hash: string } | null> {
     if (!match) {
       return null;
     }
-    const response = await fetch(match.url);
-    if (!response.ok) {
+    // Size-verified against list(): this manifest is overwritten on every
+    // ingest and its hash decides whether the build SKIPS re-ingesting. A stale
+    // copy means either skipping work that was needed, or redoing work that
+    // wasn't. Treat an unconfirmed read as "no manifest" so the caller
+    // re-ingests rather than trusting a hash that may not be current.
+    const loaded = await fetchBlobJson<{ hash: string }>(match.url, match.size, 'fast');
+    if (!loaded?.fresh) {
+      if (loaded) console.warn('Warning: ingest manifest looked stale — ignoring it.');
       return null;
     }
-    return await response.json();
+    return loaded.data;
   } catch (err) {
     console.warn('Warning: Could not load ingest manifest from Blob:', err);
     return null;
@@ -1153,6 +1160,7 @@ async function saveRemoteManifest(payload: {
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 }
 

@@ -1,4 +1,5 @@
 import { put } from '@vercel/blob';
+import { MUTABLE_BLOB_CACHE_MAX_AGE } from './blob-storage';
 
 const QUERY_LOG_PREFIX = 'query-log/';
 
@@ -71,10 +72,15 @@ export async function logQuery(data: Omit<QueryLogEntry, 'id' | 'timestamp'>, pr
   const pathname = `${QUERY_LOG_PREFIX}${month}/${id}.json`;
 
   try {
+    // Short TTL even though this write creates the entry: the id is stable and
+    // the entry is later overwritten in place — by the feedback route adding a
+    // rating, and by classify-query-logs adding a use-case. At Blob's one-month
+    // default those updates would stay invisible to /analytics for weeks.
     await put(pathname, JSON.stringify(entry), {
       access: 'public',
       contentType: 'application/json',
       addRandomSuffix: false,
+      cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
     });
     return id;
   } catch (err) {
