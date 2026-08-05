@@ -81,6 +81,25 @@ category**. Principal labels ran 0–7% contaminated.
 Absolute turn-count thresholds do not survive the range (399–1384 turns per
 episode). **Share of the episode's long turns does.**
 
+### Movie samples are universal and scattered
+
+Every one of the 19 episodes contains movie-sample turns — 1 to 26 per episode,
+median around 7. They do **not** pool in the fragment cluster. They are spread
+across raw labels, including principals:
+
+| episode | sample turns | raw labels they came from |
+|---|---|---|
+| 311 | 9 | `D:7` `G:1` `F:1` — D is a principal |
+| 312 | 5 | `D:4` `B:1` — both principals |
+| 309 | 13 | `E:4` `A:4` `D:3` `C:2` |
+| 317 | 4 | `C:3` `A:1` — C fragment, A is the guest |
+
+`Sounder/FX` turns appear in 18 of 19 episodes, 1–5 per episode, and are already
+handled by the existing `isSounderCandidate` auto-apply.
+
+This is the reason sample detection is a first-class step of the proposal flow
+rather than an optional button — see "Component 3".
+
 ### Naming accuracy
 
 72 caller labels: **59 named correctly, 11 declined, 2 mis-named.**
@@ -161,7 +180,11 @@ For each raw label, compute turn count and long-turn count (`≥ LONG_TURN_WORDS
 
 - `principal` — holds `≥ PRINCIPAL_LONG_SHARE` of the episode's long turns
 - `caller` — 1 to `CALLER_MAX_LONG` long turns, and not principal
-- `fragment` — everything else (the short-turn cluster that absorbs movie samples)
+- `fragment` — everything else (the leftover short-turn cluster)
+
+Note that the fragment cluster is *not* where movie samples live. Samples are
+scattered across principal and caller labels alike; classification does not and
+cannot separate them. That is Component 3's job.
 
 Share-based, not absolute counts. This is what separates the real voices from the
 leftover fragment cluster, and what stops a caller label being discarded as noise.
@@ -240,6 +263,8 @@ Proposed cast — 9 labels · 94 stray turns moved            [Undo proposal]
   G → kev voicemail      high    19→ 1 turn    96:57         "…it's Kev here…"
   E → birria             high    14→ 4 turns   93:33– 98:51  "The Summer of…"
   I → Animal Mother      high     9→ 3 turns   90:13– 92:05  "Hello, animal…"
+─────────────────────────────────────────────────────────────────────────
+  Movie samples          4 turns labeled (C:3 A:1)          [Re-detect]
 ```
 
 Each name is an editable field seeded from the proposal, with the existing roster
@@ -264,9 +289,9 @@ by hand. The proposal runs only when a majority of turns still carry placeholder
 labels (`isPlaceholderLabel`). Otherwise the panel does not appear and the
 component behaves exactly as today.
 
-**The fragment cluster gets a row, not a name.** It is where movie samples land.
-The panel names the problem and points at `/api/detect-samples`, which already
-handles it at ~5% false positives, rather than guessing.
+**The fragment cluster gets a row, not a name.** It is the leftover short-turn
+cluster that no naming signal resolves. The panel names the problem and leaves it
+to the human rather than guessing.
 
 ### Sanity checks are the panel
 
@@ -277,6 +302,52 @@ zero or more than `CALLER_MAX_LONG` long turns, is flagged inline via
 317's Animal-Mother-with-349-turns is caught before it ships rather than
 discovered later through segment-chunk counts. Segment-chunk count remains
 useful as the post-ingest check.
+
+## Component 3 — sample detection as a first-class step
+
+Movie samples occur in **19 of 19** episodes and land on principal and caller
+labels alike. Left as an optional button, this design would make them *more*
+likely to ship than the flow it replaces: a sample turn sitting on a principal
+label gets confidently renamed "Jason Goldman", the panel shows `high` confidence
+with no warning, and the human — now reading nine summary rows instead of paging
+through 900 turns — has lost the pass that would have caught it. Since mapping
+gates the metadata pipeline, that silently poisons everything downstream.
+
+So `/api/detect-samples` is promoted from a hint to a step of the flow.
+
+**It starts in the background on mount, immediately after the proposal is
+applied.** Ordering is not incidental: `detect-samples` builds its
+`knownSpeakers` list by filtering out placeholder labels, so on a raw transcript
+that list comes back empty and the model loses the context it uses to spot
+non-participant audio. Running it after the proposal has assigned real names
+gives it "Matt Haitch, Jason Goldman, Dave Mandel, Corey…" to work against.
+
+Because it runs concurrently with the human reading the cast panel, it adds no
+wall-clock. Results merge in as a **second history entry**, separately undoable
+from the proposal itself. The panel carries a dedicated line:
+
+```
+  Movie samples    detecting…  →  4 turns labeled  (C:3 A:1)
+```
+
+`Apply & Continue` warns when detection never ran or errored. Given 19/19
+prevalence, **"no samples found" is a suspicious result, not a clean one**, and
+the panel says so rather than presenting it as success.
+
+This is a deliberate exception to the "no LLM in the critical path" position
+taken for naming. That position holds for naming, where an LLM cannot know
+off-roster callers like "ctcher" and would add cost for no measured gain. It does
+not hold here: there is no deterministic alternative, and the need is universal.
+The call is off the critical path anyway — it is concurrent, and failure is
+non-blocking.
+
+### Interaction with the contamination pass
+
+A sample turn sitting on a caller label, outside that caller's run, is swept to
+`Overtalk/Interjection` by Pass 2 before detection returns. That is acceptable —
+the primary goal, getting it off the caller label so `extractSegmentChunks()` is
+not corrupted, is met. Detection results take precedence where they overlap, so
+such a turn ends up correctly labeled `Movie Sample`.
 
 ## Error handling — fail open
 
@@ -295,8 +366,12 @@ Narrower cases degrade rather than bail. **No voicemail block** (some episodes
 have none) yields zero callers and a principals-only proposal. **No guest** yields
 two principals; a third principal with no `guestName` to bind to is marked low
 confidence rather than guessed. **Movie-sample clusters that look like callers**
-(observed in eps 303 and 312) fail to match the roster, land as declines, and are
-handled by `/api/detect-samples`.
+(eps 303 and 312 were exactly this) fail to match the roster, land as declines,
+and are resolved by Component 3.
+
+Sample detection failing is non-blocking by construction: the proposal stands,
+the panel shows the error on its Movie samples line, and `Apply & Continue`
+warns. The human can retry it or proceed knowingly.
 
 ## Testing
 
@@ -315,6 +390,14 @@ Assertions:
   as a contaminant**
 - the degenerate guards fire on synthetic fixtures (duplicate-name, no-principal,
   guest-absent)
+- sample detection is dispatched after the proposal is applied, not before, so
+  `knownSpeakers` is non-empty when it runs
+- a sample-detection failure leaves the proposal intact and surfaces a warning,
+  rather than blocking or silently passing
+
+Component 3 is not unit-tested for detection *accuracy* — that is `/api/detect-
+samples`' own measured ~5% false-positive behaviour, unchanged by this work. What
+is tested is the wiring: ordering, non-blocking failure, and the warning path.
 
 **Explicitly not asserted:** unassigned-turn count, or label count. A test that
 rewards tidiness is the test that would have passed the `max_speakers_expected`
@@ -328,7 +411,9 @@ first, including the reverted proximity experiment.
 ## Out of scope
 
 - Backfill of existing transcripts (go-forward only, per decision)
-- LLM naming fallback — cannot name off-roster callers, adds latency for no gain
+- LLM **naming** fallback — cannot name off-roster callers, adds latency for no
+  measured gain. This is scoped to naming only; LLM sample detection is in scope
+  and is Component 3.
 - Any change to `max_speakers_expected` / `min_speakers_expected`. Narrowing the
   range was tried, shipped, and reverted in `7fd3350`: capping at 5 collapsed all
   five callers into hosts (0/5 distinct) while looking clean by turn-count
