@@ -27,6 +27,8 @@ interface EpisodeNoteView {
   note: string;
   submittedBy: string;
   createdAt: string;
+  /** Absent on notes stored before this field existed; render as /pdc-note. */
+  source?: 'command' | 'thread';
 }
 
 const STALE_LABEL: Record<string, string> = {
@@ -245,6 +247,18 @@ export default function SubmissionsPage() {
                 <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
                   <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
                     Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
+                    <span
+                      style={{
+                        marginLeft: 8,
+                        padding: '1px 6px',
+                        borderRadius: 4,
+                        fontSize: 11,
+                        background: n.source === 'thread' ? '#e8f0fe' : '#f1f1f1',
+                        color: '#444',
+                      }}
+                    >
+                      {n.source === 'thread' ? 'thread' : '/pdc-note'}
+                    </span>
                   </div>
                   <textarea
                     value={edited[n.id] ?? n.note}
