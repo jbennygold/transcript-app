@@ -67,8 +67,14 @@ export async function loadVectorStoreAsync(): Promise<StoredChunk[]> {
         return cachedVectorStore;
       }
 
-      // Fetch the data
-      const response = await fetch(match.url);
+      // Fetch the data. Not size-verified the way the ingest path is: `fetch`
+      // negotiates br/gzip, so content-length is the compressed size and can't be
+      // compared against the blob's, and verifying would mean either an extra
+      // HEAD or pulling ~250MB uncompressed. Runtime staleness is bounded by the
+      // 5-minute cache-control that upload-search-data.ts now writes, and a
+      // briefly-stale read here is harmless — unlike in ingest, nothing is
+      // written back. See download-search-data.ts for that case.
+      const response = await fetch(match.url, { cache: 'no-store' });
       if (!response.ok) {
         throw new Error(`Failed to fetch vector store: ${response.status}`);
       }
@@ -114,7 +120,7 @@ export async function loadTopicVectorsAsync(): Promise<TopicChunk[]> {
         return cachedTopicVectors;
       }
 
-      const response = await fetch(match.url);
+      const response = await fetch(match.url, { cache: 'no-store' });
       if (!response.ok) throw new Error(`Failed to fetch topic vectors: ${response.status}`);
 
       const data = await response.json();

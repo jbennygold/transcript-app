@@ -13,6 +13,20 @@ dotenv.config({ path: '.env.local' });
 
 const SEARCH_DATA_PREFIX = 'search-data/';
 
+/**
+ * Cache TTL for the index files. Blob's default is one month, which is far too
+ * long: these get overwritten by every incremental ingest and read straight back
+ * by the next one, and a stale read silently reverts the whole index (see the
+ * header of download-search-data.ts).
+ *
+ * Five minutes rather than the 60s floor used for transcripts, because the app
+ * pulls these at cold start — vector-store.json alone is ~250MB — and too short
+ * a TTL would push that to origin repeatedly. Correctness does not lean on this
+ * value: the download path size-checks against list() metadata and fails loudly.
+ * This just shrinks the window in which it has to retry.
+ */
+const SEARCH_DATA_CACHE_MAX_AGE = 300;
+
 async function uploadSearchData() {
   console.log('Uploading search data to Vercel Blob...\n');
 
@@ -30,6 +44,7 @@ async function uploadSearchData() {
       contentType: 'application/json',
       addRandomSuffix: false,
       allowOverwrite: true,
+      cacheControlMaxAge: SEARCH_DATA_CACHE_MAX_AGE,
     });
 
     console.log(`  ✓ Uploaded to: ${blob.url}`);
@@ -48,6 +63,7 @@ async function uploadSearchData() {
       contentType: 'application/json',
       addRandomSuffix: false,
       allowOverwrite: true,
+      cacheControlMaxAge: SEARCH_DATA_CACHE_MAX_AGE,
     });
 
     console.log(`  ✓ Uploaded to: ${blob.url}`);
@@ -67,6 +83,7 @@ async function uploadSearchData() {
       contentType: 'application/json',
       addRandomSuffix: false,
       allowOverwrite: true,
+      cacheControlMaxAge: SEARCH_DATA_CACHE_MAX_AGE,
     });
     console.log(`  ✓ Uploaded to: ${blob.url}`);
   } else {
@@ -85,6 +102,7 @@ async function uploadSearchData() {
       contentType: 'application/json',
       addRandomSuffix: false,
       allowOverwrite: true,
+      cacheControlMaxAge: SEARCH_DATA_CACHE_MAX_AGE,
     });
     console.log(`  ✓ Uploaded to: ${blob.url}`);
   } else {
@@ -106,6 +124,7 @@ async function uploadSearchData() {
         contentType: 'application/json',
         addRandomSuffix: false,
         allowOverwrite: true,
+        cacheControlMaxAge: SEARCH_DATA_CACHE_MAX_AGE,
       });
       console.log(`  ✓ Uploaded to: ${blob.url}`);
     } else {
