@@ -1,4 +1,5 @@
 import { put, list } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from './blob-storage';
 
 export type ReportStatus = 'pending' | 'applied' | 'dismissed' | 'stale';
 export type CorrectionType = 'sample' | 'spelling' | 'speaker' | 'voicemailer';
@@ -192,12 +193,16 @@ export async function saveTranscriptionReport(report: TranscriptionReport): Prom
 }
 
 // Overwrites the same Blob object in place (status transitions reuse the id).
+// That makes a short cache TTL mandatory: at Blob's one-month default the CDN
+// would keep serving the pre-transition status. Reads verify against `list()`
+// metadata — see fetchBlobJson().
 export async function writeReport(report: TranscriptionReport): Promise<void> {
   await put(`${PREFIX}${report.id}.json`, JSON.stringify(report, null, 2), {
     access: 'public',
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 }
 
@@ -209,11 +214,8 @@ export async function listTranscriptionReports(
   for (const blob of blobs) {
     if (!blob.pathname.endsWith('.json')) continue;
     try {
-      const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) {
-        const parsed: unknown = await resp.json();
-        if (isTranscriptionReport(parsed)) reports.push(parsed);
-      }
+      const result = await fetchBlobJson<unknown>(blob.url, blob.size, 'fast');
+      if (result && isTranscriptionReport(result.data)) reports.push(result.data);
     } catch {
       // skip corrupt entries
     }
@@ -227,10 +229,9 @@ export async function loadTranscriptionReport(id: string): Promise<Transcription
   const match = blobs.find((b) => b.pathname === `${PREFIX}${id}.json`);
   if (!match) return null;
   try {
-    const resp = await fetch(match.url, { cache: 'no-store' });
-    if (!resp.ok) return null;
-    const parsed: unknown = await resp.json();
-    return isTranscriptionReport(parsed) ? parsed : null;
+    const result = await fetchBlobJson<unknown>(match.url, match.size, 'fast');
+    if (!result) return null;
+    return isTranscriptionReport(result.data) ? result.data : null;
   } catch {
     return null;
   }

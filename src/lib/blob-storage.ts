@@ -22,7 +22,7 @@ export interface BlobTranscriptInfo {
  * and are read back almost immediately, so a long edge TTL is actively harmful.
  * Audio and the search-data files are write-once-ish and keep the default.
  */
-const MUTABLE_BLOB_CACHE_MAX_AGE = 60;
+export const MUTABLE_BLOB_CACHE_MAX_AGE = 60;
 
 /**
  * How hard to retry a read the CDN is answering with a stale body.
@@ -63,7 +63,7 @@ const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
  * hard failure. Callers that must not proceed on stale data should pass
  * `expectedSize` and check `fresh` on the result.
  */
-async function fetchBlobJson<T>(
+export async function fetchBlobJson<T>(
   url: string,
   expectedSize?: number,
   profile: BlobReadProfile = 'fast'

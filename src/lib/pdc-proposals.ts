@@ -9,6 +9,7 @@
  * without credentials, matching src/lib/transcription-report.ts.
  */
 import { put, list } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from './blob-storage';
 import type { PdcColumnKey } from './pdc-sheet';
 
 const PREFIX = 'pdc-proposals/';
@@ -123,12 +124,24 @@ function keyFor(episode: string): string {
   return `${PREFIX}ep${episode}.json`;
 }
 
+/**
+ * Overwriting this document leaves the previous version served at Vercel Blob's
+ * CDN edge, and `fetch(cache: 'no-store')` does not prevent that — it only
+ * bypasses the runtime's own cache. Without a short TTL these inherited Blob's
+ * one-month default, so a superseded proposal set could be served for weeks.
+ *
+ * That happened on ep 317: ingest first ran against an unmapped transcript and
+ * saved a single Thats_Great_Count proposal, then later runs saved the full six.
+ * /podreview kept showing the stale set. Reads below verify against `list()`
+ * metadata, which is not CDN-cached; see fetchBlobJson() for the mechanics.
+ */
 export async function saveProposals(doc: EpisodeProposals): Promise<void> {
   await put(keyFor(doc.episode), JSON.stringify(doc, null, 2), {
     access: 'public',
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 }
 
@@ -138,10 +151,11 @@ export async function loadProposals(episode: string): Promise<EpisodeProposals |
   const match = blobs.find(b => b.pathname === key);
   if (!match) return null;
   try {
-    const resp = await fetch(match.url, { cache: 'no-store' });
-    if (!resp.ok) return null;
-    const parsed: unknown = await resp.json();
-    return isEpisodeProposals(parsed) ? parsed : null;
+    // 'fast': this serves the /podreview UI, so correctness matters but a
+    // multi-second stall does not pay for itself — the next load retries.
+    const result = await fetchBlobJson<unknown>(match.url, match.size, 'fast');
+    if (!result) return null;
+    return isEpisodeProposals(result.data) ? result.data : null;
   } catch {
     return null;
   }
@@ -154,11 +168,8 @@ export async function listPendingProposals(): Promise<EpisodeProposals[]> {
   for (const blob of blobs) {
     if (!blob.pathname.endsWith('.json')) continue;
     try {
-      const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) {
-        const parsed: unknown = await resp.json();
-        if (isEpisodeProposals(parsed)) docs.push(parsed);
-      }
+      const result = await fetchBlobJson<unknown>(blob.url, blob.size, 'fast');
+      if (result && isEpisodeProposals(result.data)) docs.push(result.data);
     } catch {
       // skip corrupt entries
     }

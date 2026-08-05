@@ -6,6 +6,7 @@
  * Mirrors the lifecycle of src/lib/transcription-report.ts.
  */
 import { put, list } from '@vercel/blob';
+import { fetchBlobJson, MUTABLE_BLOB_CACHE_MAX_AGE } from './blob-storage';
 
 const PREFIX = 'episode-notes/';
 const OPEN_KEY = `${PREFIX}open.json`;
@@ -113,12 +114,18 @@ export function buildNote(
 
 // ── Blob I/O ──
 
+/**
+ * Status transitions overwrite the note in place, so without a short TTL the
+ * CDN can keep serving the pre-transition version — an approved note reading as
+ * pending. Reads verify against `list()` metadata; see fetchBlobJson().
+ */
 export async function saveNote(note: EpisodeNote): Promise<void> {
   await put(`${PREFIX}${note.id}.json`, JSON.stringify(note, null, 2), {
     access: 'public',
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 }
 
@@ -129,11 +136,8 @@ export async function listNotes(status: NoteStatus | 'all' = 'all'): Promise<Epi
     if (!blob.pathname.endsWith('.json')) continue;
     if (blob.pathname === OPEN_KEY) continue;
     try {
-      const resp = await fetch(blob.url, { cache: 'no-store' });
-      if (resp.ok) {
-        const parsed: unknown = await resp.json();
-        if (isEpisodeNote(parsed)) notes.push(parsed);
-      }
+      const result = await fetchBlobJson<unknown>(blob.url, blob.size, 'fast');
+      if (result && isEpisodeNote(result.data)) notes.push(result.data);
     } catch {
       // skip corrupt entries
     }
@@ -148,10 +152,9 @@ export async function loadNote(id: string): Promise<EpisodeNote | null> {
   const match = blobs.find(b => b.pathname === key);
   if (!match) return null;
   try {
-    const resp = await fetch(match.url, { cache: 'no-store' });
-    if (!resp.ok) return null;
-    const parsed: unknown = await resp.json();
-    return isEpisodeNote(parsed) ? parsed : null;
+    const result = await fetchBlobJson<unknown>(match.url, match.size, 'fast');
+    if (!result) return null;
+    return isEpisodeNote(result.data) ? result.data : null;
   } catch {
     return null;
   }
@@ -164,6 +167,7 @@ export async function setOpenEpisode(open: OpenEpisode): Promise<void> {
     contentType: 'application/json',
     addRandomSuffix: false,
     allowOverwrite: true,
+    cacheControlMaxAge: MUTABLE_BLOB_CACHE_MAX_AGE,
   });
 }
 
@@ -172,9 +176,8 @@ export async function getOpenEpisode(): Promise<OpenEpisode | null> {
   const match = blobs.find(b => b.pathname === OPEN_KEY);
   if (!match) return null;
   try {
-    const resp = await fetch(match.url, { cache: 'no-store' });
-    if (!resp.ok) return null;
-    return (await resp.json()) as OpenEpisode;
+    const result = await fetchBlobJson<OpenEpisode>(match.url, match.size, 'fast');
+    return result?.data ?? null;
   } catch {
     return null;
   }
