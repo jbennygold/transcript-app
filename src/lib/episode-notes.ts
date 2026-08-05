@@ -17,6 +17,13 @@ const MAX_NOTE_LENGTH = 1000;
 
 export type NoteStatus = 'pending' | 'approved' | 'rejected';
 
+/**
+ * Where a note came from. 'command' is /pdc-note (admin-approved in
+ * /review/submissions); 'thread' is a comment in the episode thread that an
+ * admin reacted to and /pdc-sync-notes collected.
+ */
+export type NoteSource = 'command' | 'thread';
+
 export interface EpisodeNote {
   id: string;
   episode: string;
@@ -26,12 +33,26 @@ export interface EpisodeNote {
   createdAt: string;
   status: NoteStatus;
   resolvedAt?: string;
+  /**
+   * Set for thread-sourced notes. This is the idempotency key: a comment whose
+   * id is already stored is skipped without touching the sheet, so re-running
+   * /pdc-sync-notes on the same thread is safe.
+   */
+  discordMessageId?: string;
+  /** Absent on notes stored before this field existed; treat as 'command'. */
+  source?: NoteSource;
 }
 
 export interface OpenEpisode {
   episode: string;
   film: string;
   openedAt: string;
+  /**
+   * The Discord thread comments are collected from. null when thread creation
+   * failed or the pointer predates the thread redesign — /pdc-note still works,
+   * only /pdc-sync-notes needs this.
+   */
+  threadId: string | null;
 }
 
 export function newNoteId(now: number, rand: string): string {
@@ -112,6 +133,60 @@ export function buildNote(
   return { id, ...value, createdAt, status: 'pending' };
 }
 
+/**
+ * Guards a parsed Blob document before it is trusted as an OpenEpisode.
+ *
+ * `threadId` is deliberately optional here: pointers written before the thread
+ * redesign have no such field, and rejecting them would break /pdc-note for
+ * every already-open episode. Callers normalise a missing value to null.
+ */
+export function isOpenEpisode(value: unknown): value is OpenEpisode {
+  if (typeof value !== 'object' || value === null) return false;
+  const v = value as Record<string, unknown>;
+  if (
+    typeof v.episode !== 'string' ||
+    typeof v.film !== 'string' ||
+    typeof v.openedAt !== 'string'
+  ) {
+    return false;
+  }
+  return v.threadId === undefined || v.threadId === null || typeof v.threadId === 'string';
+}
+
+/**
+ * A thread comment arrives already approved — the admin's reaction was the
+ * approval, and the caller appends to the sheet before this note is stored.
+ * There is no pending state for it to sit in.
+ */
+export function buildThreadNote(
+  value: { episode: string; note: string; submittedBy: string; discordMessageId: string },
+  id: string,
+  createdAt: string
+): EpisodeNote {
+  return {
+    id,
+    episode: value.episode,
+    note: value.note,
+    submittedBy: value.submittedBy,
+    discordMessageId: value.discordMessageId,
+    createdAt,
+    status: 'approved',
+    resolvedAt: createdAt,
+    source: 'thread',
+  };
+}
+
+/** The set of Discord message ids already synced, for skip-without-sheet-write. */
+export function listSyncedMessageIds(notes: EpisodeNote[]): Set<string> {
+  const ids = new Set<string>();
+  for (const n of notes) {
+    if (typeof n.discordMessageId === 'string' && n.discordMessageId !== '') {
+      ids.add(n.discordMessageId);
+    }
+  }
+  return ids;
+}
+
 // ── Blob I/O ──
 
 /**
@@ -176,9 +251,18 @@ export async function getOpenEpisode(): Promise<OpenEpisode | null> {
   const match = blobs.find(b => b.pathname === OPEN_KEY);
   if (!match) return null;
   try {
-    const result = await fetchBlobJson<OpenEpisode>(match.url, match.size, 'fast');
-    return result?.data ?? null;
-  } catch {
+    const result = await fetchBlobJson<unknown>(match.url, match.size, 'fast');
+    if (!result) return null;
+    if (!isOpenEpisode(result.data)) {
+      console.warn('[episode-notes] open.json failed the OpenEpisode guard — ignoring.');
+      return null;
+    }
+    // Legacy pointers have no threadId; normalise so callers never see undefined.
+    return { ...result.data, threadId: result.data.threadId ?? null };
+  } catch (err) {
+    console.warn(
+      `[episode-notes] could not read open.json: ${err instanceof Error ? err.message : String(err)}`
+    );
     return null;
   }
 }

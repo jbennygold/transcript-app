@@ -1,6 +1,16 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newNoteId, validateNoteInput, buildNote, isEpisodeNote, normaliseNoteText } from './episode-notes';
+import {
+  newNoteId,
+  validateNoteInput,
+  buildNote,
+  isEpisodeNote,
+  normaliseNoteText,
+  isOpenEpisode,
+  buildThreadNote,
+  listSyncedMessageIds,
+  type EpisodeNote,
+} from './episode-notes';
 
 test('newNoteId is stable for the same inputs and sortable by time', () => {
   const a = newNoteId(1000, 'abc');
@@ -157,4 +167,77 @@ test('normaliseNoteText passes a clean value through unchanged (besides trim)', 
   const r = normaliseNoteText('  a perfectly normal note  ');
   assert.equal(r.ok, true);
   if (r.ok) assert.equal(r.value, 'a perfectly normal note');
+});
+
+// ── isOpenEpisode / buildThreadNote / listSyncedMessageIds ──
+
+test('isOpenEpisode accepts a document with a threadId', () => {
+  assert.equal(
+    isOpenEpisode({ episode: '317', film: 'Barton Fink (1991)', openedAt: '2026-08-05T00:00:00.000Z', threadId: '123' }),
+    true
+  );
+});
+
+test('isOpenEpisode accepts a legacy document with no threadId at all', () => {
+  // Pointers written before this feature have no threadId. Rejecting them
+  // would break /pdc-note for every already-open episode.
+  assert.equal(
+    isOpenEpisode({ episode: '317', film: 'Barton Fink (1991)', openedAt: '2026-08-05T00:00:00.000Z' }),
+    true
+  );
+});
+
+test('isOpenEpisode accepts an explicit null threadId', () => {
+  assert.equal(
+    isOpenEpisode({ episode: '317', film: '', openedAt: '2026-08-05T00:00:00.000Z', threadId: null }),
+    true
+  );
+});
+
+test('isOpenEpisode rejects a wrongly typed threadId', () => {
+  assert.equal(
+    isOpenEpisode({ episode: '317', film: '', openedAt: '2026-08-05T00:00:00.000Z', threadId: 123 }),
+    false
+  );
+});
+
+test('isOpenEpisode rejects documents missing required fields', () => {
+  assert.equal(isOpenEpisode({}), false);
+  assert.equal(isOpenEpisode(null), false);
+  assert.equal(isOpenEpisode({ episode: '317', film: '' }), false);
+});
+
+test('buildThreadNote records the message id, the source, and lands approved', () => {
+  const note = buildThreadNote(
+    { episode: '317', note: 'The Roy Scheider tangent', submittedBy: 'jason#0', discordMessageId: 'm1' },
+    'note_1',
+    '2026-08-05T00:00:00.000Z'
+  );
+  assert.equal(note.status, 'approved');
+  assert.equal(note.source, 'thread');
+  assert.equal(note.discordMessageId, 'm1');
+  assert.equal(note.resolvedAt, '2026-08-05T00:00:00.000Z');
+});
+
+test('buildThreadNote output passes the isEpisodeNote guard', () => {
+  const note = buildThreadNote(
+    { episode: '317', note: 'A moment', submittedBy: 'jason#0', discordMessageId: 'm1' },
+    'note_1',
+    '2026-08-05T00:00:00.000Z'
+  );
+  assert.equal(isEpisodeNote(note), true);
+});
+
+test('listSyncedMessageIds collects ids and ignores notes without one', () => {
+  const notes = [
+    { discordMessageId: 'm1' },
+    { discordMessageId: 'm2' },
+    {},
+    { discordMessageId: '' },
+  ] as EpisodeNote[];
+  const ids = listSyncedMessageIds(notes);
+  assert.equal(ids.has('m1'), true);
+  assert.equal(ids.has('m2'), true);
+  assert.equal(ids.has(''), false);
+  assert.equal(ids.size, 2);
 });
