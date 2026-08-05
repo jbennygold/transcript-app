@@ -49,6 +49,7 @@ export default function SubmissionsPage() {
   const [notes, setNotes] = useState<EpisodeNoteView[]>([]);
   const [edited, setEdited] = useState<Record<string, string>>({});
   const [notesError, setNotesError] = useState<string | null>(null);
+  const [notesMessage, setNotesMessage] = useState<string | null>(null);
 
   // The notes tab hits Bearer-authed endpoints (GET /api/episode-notes,
   // POST /api/episode-notes/resolve) — same PODREVIEW_PASSWORD as
@@ -117,6 +118,7 @@ export default function SubmissionsPage() {
 
   async function resolveNotes(decisions: Array<{ id: string; status: 'approved' | 'rejected' }>) {
     if (!notesAuth) return;
+    setNotesMessage(null);
     const withEdits = decisions.map((d) =>
       d.status === 'approved' && edited[d.id] ? { ...d, note: edited[d.id] } : d
     );
@@ -127,6 +129,7 @@ export default function SubmissionsPage() {
         body: JSON.stringify({ decisions: withEdits }),
       });
       if (!res.ok) {
+        setNotesMessage(null);
         setNotesError('Request failed. Nothing was changed — notes remain pending.');
         return;
       }
@@ -137,15 +140,38 @@ export default function SubmissionsPage() {
       );
       const alreadyResolved = results.filter((r) => NOTES_INFO_OUTCOMES.has(r.outcome));
       if (failed.length > 0) {
+        setNotesMessage(null);
         setNotesError(
           `${failed.length} note(s) could not be applied: ${failed.map((f) => f.outcome).join(', ')}. They remain pending.`
         );
       } else if (alreadyResolved.length > 0) {
+        setNotesMessage(null);
         setNotesError(`${alreadyResolved.length} note(s) were already resolved by someone else.`);
       } else {
         setNotesError(null);
+        const appended = results.filter((r) => r.outcome === 'appended').length;
+        const duplicate = results.filter((r) => r.outcome === 'duplicate').length;
+        const rejected = results.filter((r) => r.outcome === 'rejected').length;
+        const approved = appended + duplicate;
+        const parts: string[] = [];
+        if (approved > 0) {
+          if (appended > 0 && duplicate > 0) {
+            parts.push(
+              `${approved} note(s) approved (${appended} appended to the sheet, ${duplicate} already present)`
+            );
+          } else if (duplicate > 0) {
+            parts.push(`${duplicate} note(s) approved (already present in the sheet)`);
+          } else {
+            parts.push(`${appended} note(s) approved and appended to the sheet`);
+          }
+        }
+        if (rejected > 0) {
+          parts.push(`${rejected} note(s) rejected`);
+        }
+        setNotesMessage(parts.length > 0 ? `${parts.join('; ')}.` : null);
       }
     } catch {
+      setNotesMessage(null);
       setNotesError('Request failed. Nothing was changed — notes remain pending.');
       return;
     }
@@ -213,6 +239,7 @@ export default function SubmissionsPage() {
           ) : (
             <>
               {notesError && <p style={{ color: '#b91c1c' }}>{notesError}</p>}
+              {notesMessage && <p style={{ color: '#15803d' }}>{notesMessage}</p>}
               {notes.length === 0 && <p>No notes awaiting review.</p>}
               {notes.map((n) => (
                 <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
