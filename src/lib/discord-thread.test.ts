@@ -17,9 +17,11 @@ test('threadNameFor truncates to the 100-character Discord limit', () => {
 
 test('announceWithThread returns the message id and the thread id', async () => {
   const calls: string[] = [];
-  const fetchImpl = (async (url: string) => {
+  let threadInit: { method?: string; body?: string } | undefined;
+  const fetchImpl = (async (url: string, init?: { method?: string; body?: string }) => {
     calls.push(String(url));
     if (String(url).endsWith('/threads')) {
+      threadInit = init;
       return { ok: true, json: async () => ({ id: 'thread-1' }) };
     }
     return { ok: true, json: async () => ({ id: 'msg-1' }) };
@@ -36,6 +38,11 @@ test('announceWithThread returns the message id and the thread id', async () => 
   assert.deepEqual(r, { messageId: 'msg-1', threadId: 'thread-1' });
   assert.equal(calls[0], 'https://discord.com/api/v10/channels/c1/messages');
   assert.equal(calls[1], 'https://discord.com/api/v10/channels/c1/messages/msg-1/threads');
+
+  assert.equal(threadInit?.method, 'POST');
+  const threadBody = JSON.parse(threadInit?.body ?? '{}');
+  assert.equal(threadBody.name, 'Ep 317');
+  assert.equal(threadBody.auto_archive_duration, 10080);
 });
 
 test('announceWithThread returns a null threadId when only thread creation fails', async () => {

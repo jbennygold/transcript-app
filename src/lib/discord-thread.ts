@@ -57,6 +57,7 @@ export async function announceWithThread(
       method: 'POST',
       headers,
       body: JSON.stringify(opts.payload),
+      signal: AbortSignal.timeout(10_000),
     });
     if (!res.ok) {
       console.warn(
@@ -87,6 +88,7 @@ export async function announceWithThread(
           name: opts.threadName,
           auto_archive_duration: AUTO_ARCHIVE_MINUTES,
         }),
+        signal: AbortSignal.timeout(10_000),
       }
     );
     if (!res.ok) {

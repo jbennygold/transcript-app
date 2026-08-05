@@ -277,16 +277,22 @@ async function main(): Promise<void> {
     const transport = notesOpenTransport(process.env);
 
     if (transport.kind === 'bot') {
-      const { announceWithThread, threadNameFor } = await import('../src/lib/discord-thread');
-      const result = await announceWithThread({
-        token: transport.token,
-        channelId: transport.channelId,
-        payload: buildNotesOpenMessage(ep, film),
-        threadName: threadNameFor(ep, film),
-      });
-      threadId = result?.threadId ?? null;
-      if (result && threadId) console.log(`[notify-discord] Posted announcement and opened thread ${threadId}.`);
-      else if (result) console.warn('[notify-discord] Announced, but the thread was not created.');
+      try {
+        const { announceWithThread, threadNameFor } = await import('../src/lib/discord-thread');
+        const result = await announceWithThread({
+          token: transport.token,
+          channelId: transport.channelId,
+          payload: buildNotesOpenMessage(ep, film),
+          threadName: threadNameFor(ep, film),
+        });
+        threadId = result?.threadId ?? null;
+        if (result && threadId) console.log(`[notify-discord] Posted announcement and opened thread ${threadId}.`);
+        else if (result) console.warn('[notify-discord] Announced, but the thread was not created.');
+      } catch (err) {
+        console.warn(
+          `[notify-discord] Failed to announce via bot (non-fatal): ${err instanceof Error ? err.message : String(err)}`
+        );
+      }
     } else if (transport.kind === 'webhook') {
       console.warn('[notify-discord] No bot token/channel id — posting via webhook, so no thread.');
       try {
