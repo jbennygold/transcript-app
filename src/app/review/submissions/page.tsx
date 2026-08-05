@@ -27,6 +27,7 @@ interface EpisodeNoteView {
   note: string;
   submittedBy: string;
   createdAt: string;
+  status: 'pending' | 'approved' | 'rejected';
   /** Absent on notes stored before this field existed; render as /pdc-note. */
   source?: 'command' | 'thread';
 }
@@ -49,6 +50,7 @@ export default function SubmissionsPage() {
 
   const [tab, setTab] = useState<'reports' | 'notes'>('reports');
   const [notes, setNotes] = useState<EpisodeNoteView[]>([]);
+  const [notesStatus, setNotesStatus] = useState<'pending' | 'approved' | 'all'>('pending');
   const [edited, setEdited] = useState<Record<string, string>>({});
   const [notesError, setNotesError] = useState<string | null>(null);
   const [notesMessage, setNotesMessage] = useState<string | null>(null);
@@ -97,7 +99,7 @@ export default function SubmissionsPage() {
   const loadNotes = useCallback(async () => {
     if (!notesAuth) return;
     try {
-      const res = await fetch('/api/episode-notes?status=pending', {
+      const res = await fetch(`/api/episode-notes?status=${notesStatus}`, {
         headers: { Authorization: `Bearer ${notesAuth}` },
       });
       if (!res.ok) throw new Error('request failed');
@@ -107,7 +109,7 @@ export default function SubmissionsPage() {
     } catch {
       setNotesError('Failed to load notes. Refresh to try again.');
     }
-  }, [notesAuth]);
+  }, [notesAuth, notesStatus]);
 
   useEffect(() => {
     loadNotes();
@@ -211,6 +213,24 @@ export default function SubmissionsPage() {
         </button>
       </div>
 
+      {tab === 'notes' && notesAuth && (
+        <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 8 }}>
+          <label htmlFor="notes-status-filter" style={{ fontSize: 13, color: '#6b7280' }}>
+            Status:
+          </label>
+          <select
+            id="notes-status-filter"
+            value={notesStatus}
+            onChange={(e) => setNotesStatus(e.target.value as 'pending' | 'approved' | 'all')}
+            style={{ padding: '4px 8px', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 13 }}
+          >
+            <option value="pending">Pending</option>
+            <option value="approved">Approved</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+      )}
+
       {tab === 'reports' && (
         <>
           {loading ? (
@@ -242,41 +262,75 @@ export default function SubmissionsPage() {
             <>
               {notesError && <p style={{ color: '#b91c1c' }}>{notesError}</p>}
               {notesMessage && <p style={{ color: '#15803d' }}>{notesMessage}</p>}
-              {notes.length === 0 && <p>No notes awaiting review.</p>}
-              {notes.map((n) => (
-                <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
-                  <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
-                    Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
-                    <span
-                      style={{
-                        marginLeft: 8,
-                        padding: '1px 6px',
-                        borderRadius: 4,
-                        fontSize: 11,
-                        background: n.source === 'thread' ? '#e8f0fe' : '#f1f1f1',
-                        color: '#444',
-                      }}
-                    >
-                      {n.source === 'thread' ? 'thread' : '/pdc-note'}
-                    </span>
+              {notes.length === 0 && (
+                <p>
+                  {notesStatus === 'pending'
+                    ? 'No notes awaiting review.'
+                    : notesStatus === 'approved'
+                      ? 'No approved notes.'
+                      : 'No notes.'}
+                </p>
+              )}
+              {notes.map((n) => {
+                const isPending = n.status === 'pending';
+                return (
+                  <div key={n.id} style={{ border: '1px solid #e5e7eb', borderRadius: 8, padding: 12, marginBottom: 12 }}>
+                    <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 6 }}>
+                      Ep {n.episode} · {n.submittedBy} · {new Date(n.createdAt).toLocaleString()}
+                      <span
+                        style={{
+                          marginLeft: 8,
+                          padding: '1px 6px',
+                          borderRadius: 4,
+                          fontSize: 11,
+                          background: n.source === 'thread' ? '#e8f0fe' : '#f1f1f1',
+                          color: '#444',
+                        }}
+                      >
+                        {n.source === 'thread' ? 'thread' : '/pdc-note'}
+                      </span>
+                      {!isPending && (
+                        <span
+                          style={{
+                            marginLeft: 8,
+                            padding: '1px 6px',
+                            borderRadius: 4,
+                            fontSize: 11,
+                            background: n.status === 'approved' ? '#dcfce7' : '#fee2e2',
+                            color: n.status === 'approved' ? '#166534' : '#991b1b',
+                          }}
+                        >
+                          {n.status}
+                        </span>
+                      )}
+                    </div>
+                    <textarea
+                      value={edited[n.id] ?? n.note}
+                      onChange={(e) => setEdited((prev) => ({ ...prev, [n.id]: e.target.value }))}
+                      rows={2}
+                      disabled={!isPending}
+                      style={{ width: '100%', marginBottom: 8 }}
+                    />
+                    {isPending && (
+                      <div style={{ display: 'flex', gap: 8 }}>
+                        <button onClick={() => resolveNotes([{ id: n.id, status: 'approved' }])}>Approve</button>
+                        <button onClick={() => resolveNotes([{ id: n.id, status: 'rejected' }])}>Reject</button>
+                      </div>
+                    )}
                   </div>
-                  <textarea
-                    value={edited[n.id] ?? n.note}
-                    onChange={(e) => setEdited((prev) => ({ ...prev, [n.id]: e.target.value }))}
-                    rows={2}
-                    style={{ width: '100%', marginBottom: 8 }}
-                  />
-                  <div style={{ display: 'flex', gap: 8 }}>
-                    <button onClick={() => resolveNotes([{ id: n.id, status: 'approved' }])}>Approve</button>
-                    <button onClick={() => resolveNotes([{ id: n.id, status: 'rejected' }])}>Reject</button>
-                  </div>
-                </div>
-              ))}
-              {notes.length > 1 && (
+                );
+              })}
+              {notes.filter((n) => n.status === 'pending').length > 1 && (
                 <button
-                  onClick={() => resolveNotes(notes.map((n) => ({ id: n.id, status: 'approved' as const })))}
+                  onClick={() =>
+                    resolveNotes(
+                      notes
+                        .filter((n) => n.status === 'pending')
+                        .map((n) => ({ id: n.id, status: 'approved' as const }))
+                    )
+                  }
                 >
-                  Approve all {notes.length}
+                  Approve all {notes.filter((n) => n.status === 'pending').length}
                 </button>
               )}
             </>

@@ -2,7 +2,14 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildNotesOpenMessage, webhookForEvent, resolveNotesOpenFilm, notesOpenTransport, AMBER } from './notify-discord.ts';
+import {
+  buildNotesOpenMessage,
+  webhookForEvent,
+  resolveNotesOpenFilm,
+  notesOpenTransport,
+  notesOpenFallbackUrl,
+  AMBER,
+} from './notify-discord.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const METADATA = path.resolve(__dirname, '..', 'data', 'episode-metadata.json');
@@ -92,4 +99,37 @@ test('notesOpenTransport falls back to the webhook when the bot is half-configur
 
 test('notesOpenTransport reports none when nothing is configured', () => {
   assert.deepEqual(notesOpenTransport({}), { kind: 'none' });
+});
+
+test('notesOpenFallbackUrl falls back to the engineers webhook when the bot post itself failed', () => {
+  // announceWithThread returns null specifically when posting the message
+  // failed (e.g. missing channel permissions) — distinct from a non-null
+  // result with threadId: null, which means only thread creation failed.
+  assert.equal(
+    notesOpenFallbackUrl(null, { DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng' }),
+    'https://eng'
+  );
+});
+
+test('notesOpenFallbackUrl has nothing to fall back to when no webhook is configured', () => {
+  assert.equal(notesOpenFallbackUrl(null, {}), undefined);
+});
+
+test('notesOpenFallbackUrl does not fall back when the bot already succeeded', () => {
+  assert.equal(
+    notesOpenFallbackUrl(
+      { messageId: 'm1', threadId: 't1' },
+      { DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng' }
+    ),
+    undefined
+  );
+  // Even a bot result with a null threadId (thread creation failed, but the
+  // message itself posted) counts as success — no fallback needed.
+  assert.equal(
+    notesOpenFallbackUrl(
+      { messageId: 'm1', threadId: null },
+      { DISCORD_ENGINEERS_WEBHOOK_URL: 'https://eng' }
+    ),
+    undefined
+  );
 });

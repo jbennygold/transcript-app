@@ -162,6 +162,21 @@ export function notesOpenTransport(env: Record<string, string | undefined>): Not
 }
 
 /**
+ * When the bot transport is selected but announceWithThread comes back null
+ * (the message post itself failed — e.g. missing channel permissions, not
+ * just a failed thread creation), decide whether to retry through the
+ * #engineers webhook rather than post nothing at all. Returns the webhook
+ * url to fall back to, or undefined if there is nothing to fall back to.
+ */
+export function notesOpenFallbackUrl(
+  botAnnounceResult: unknown,
+  env: Record<string, string | undefined>
+): string | undefined {
+  if (botAnnounceResult) return undefined;
+  return env.DISCORD_ENGINEERS_WEBHOOK_URL || undefined;
+}
+
+/**
  * Discord webhooks are channel-scoped, so each event posts through the webhook
  * for its channel. notes-open goes to #engineers; everything else to
  * #pod-data-central.
@@ -277,9 +292,10 @@ async function main(): Promise<void> {
     const transport = notesOpenTransport(process.env);
 
     if (transport.kind === 'bot') {
+      let result: { messageId: string; threadId: string | null } | null = null;
       try {
         const { announceWithThread, threadNameFor } = await import('../src/lib/discord-thread');
-        const result = await announceWithThread({
+        result = await announceWithThread({
           token: transport.token,
           channelId: transport.channelId,
           payload: buildNotesOpenMessage(ep, film),
@@ -292,6 +308,32 @@ async function main(): Promise<void> {
         console.warn(
           `[notify-discord] Failed to announce via bot (non-fatal): ${err instanceof Error ? err.message : String(err)}`
         );
+      }
+
+      // announceWithThread returns null specifically when the message post
+      // itself failed (e.g. the bot lacks channel permissions) — not just
+      // when thread creation failed. Without a fallback that means total
+      // silence in #engineers even though a working webhook may be sitting
+      // right there in the same env. Try it before giving up.
+      if (!result) {
+        const fallbackUrl = notesOpenFallbackUrl(result, process.env);
+        if (fallbackUrl) {
+          console.warn(
+            '[notify-discord] Bot announcement failed — falling back to the #engineers webhook. The announcement will be threadless.'
+          );
+          try {
+            await postToDiscord(fallbackUrl, buildNotesOpenMessage(ep, film));
+            console.log('[notify-discord] Posted fallback announcement via webhook.');
+          } catch (err) {
+            console.warn(
+              `[notify-discord] Fallback webhook post also failed (non-fatal): ${err instanceof Error ? err.message : String(err)}`
+            );
+          }
+        } else {
+          console.warn(
+            '[notify-discord] Bot announcement failed and DISCORD_ENGINEERS_WEBHOOK_URL is not set — nothing was posted to #engineers.'
+          );
+        }
       }
     } else if (transport.kind === 'webhook') {
       console.warn('[notify-discord] No bot token/channel id — posting via webhook, so no thread.');
