@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 328 episodes - updated 2026-08-04
+// Auto-generated - do not edit - 328 episodes - updated 2026-08-05
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15712,18 +15712,18 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "filmYear": 1991,
     "releaseDate": "8/2/2026",
     "length": "1:53:50",
-    "reviewer": "",
+    "reviewer": "jason",
     "guest": "Dave Mandel",
     "mmmCount": 0,
-    "thatsGreatCount": 0,
+    "thatsGreatCount": 5,
     "notableMoments": "",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "N/A",
-    "tildaH": "N/A",
-    "tildaJason": "N/A",
-    "tildaGuest": null,
-    "tildaCorey": null,
+    "kevsQuestion": "If you guys were to write a play, what would that play be about?",
+    "tildaH": "Audrey (the secretary)",
+    "tildaJason": "Geisler",
+    "tildaGuest": "W.B. Mayhew",
+    "tildaCorey": "Chet",
     "showLink": "https://www.patreon.com/EscapeHatch/posts/barton-fink-1991-165296551",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a238e58baefa5f707241fef29",
     "letterboxdLink": "https://letterboxd.com/film/barton-fink/",
