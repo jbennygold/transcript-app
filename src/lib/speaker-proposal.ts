@@ -101,14 +101,20 @@ function groupByTimeGap(dialogues: DialogueEntry[], indices: number[]): number[]
   return groups;
 }
 
-function totalWords(dialogues: DialogueEntry[], indices: number[]): number {
-  return indices.reduce((sum, i) => sum + countWords(dialogues[i].text), 0);
-}
-
 /**
  * Isolate a caller's genuine voicemail from the backchannel contaminating its
  * label. Seeds on the label's LONG turns only — seeding on all turns lets the
  * scattered one-word tail drag the run across the whole episode.
+ *
+ * A caller may have more than one long turn separated by more than
+ * RUN_GAP_SECONDS (up to CALLER_MAX_LONG of them) — e.g. the voicemail
+ * resumes after a long pause, or the label picks up an unrelated call later
+ * in the episode. Every long turn is by definition genuine speech (40+
+ * words is not backchannel), so none may ever be excluded: the window is
+ * the UNION of a margin around each long-turn group, not just the single
+ * heaviest one. Short turns are admitted only when they fall within
+ * RUN_MARGIN_SECONDS of some long-turn group — contamination far from every
+ * long turn stays excluded.
  *
  * Returns the turns to keep. Everything else on the label is contamination.
  */
@@ -116,15 +122,14 @@ export function isolateCallerRun(dialogues: DialogueEntry[], indices: number[]):
   const longIndices = indices.filter((i) => countWords(dialogues[i].text) >= LONG_TURN_WORDS);
   if (longIndices.length === 0) return [];
 
-  const seedGroups = groupByTimeGap(dialogues, longIndices);
-  seedGroups.sort((a, b) => totalWords(dialogues, b) - totalWords(dialogues, a));
-  const seed = seedGroups[0];
-
-  const start = timestampToSeconds(dialogues[seed[0]].timestamp) - RUN_MARGIN_SECONDS;
-  const end = timestampToSeconds(dialogues[seed[seed.length - 1]].timestamp) + RUN_MARGIN_SECONDS;
+  const groups = groupByTimeGap(dialogues, longIndices);
+  const windows = groups.map((group) => ({
+    start: timestampToSeconds(dialogues[group[0]].timestamp) - RUN_MARGIN_SECONDS,
+    end: timestampToSeconds(dialogues[group[group.length - 1]].timestamp) + RUN_MARGIN_SECONDS,
+  }));
 
   return indices.filter((i) => {
     const seconds = timestampToSeconds(dialogues[i].timestamp);
-    return seconds >= start && seconds <= end;
+    return windows.some((w) => seconds >= w.start && seconds <= w.end);
   });
 }

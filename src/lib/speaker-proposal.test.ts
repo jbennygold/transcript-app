@@ -60,7 +60,7 @@ test('isolateCallerRun keeps every genuine voicemail turn on ep 317', () => {
 test('isolateCallerRun drops the backchannel tail', () => {
   const { raw } = loadPair(317);
   const callers = classifyLabels(raw).filter((l) => l.kind === 'caller');
-  // Every ep 317 caller label shrinks: measured 37->5, 21->3, 19->1, 14->4, 9->3.
+  // Every ep 317 caller label shrinks: measured 37->3, 21->2, 19->1, 14->1, 9->2.
   for (const label of callers) {
     const run = isolateCallerRun(raw, label.indices);
     assert.ok(run.length < label.turnCount, `${label.label} did not shrink`);
@@ -83,4 +83,17 @@ test('isolateCallerRun returns empty when the label has no long turn', () => {
     { name: 'X', timestamp: '50:00', text: 'Right.' },
   ];
   assert.deepEqual(isolateCallerRun(dialogues, [0, 1]), []);
+});
+
+test('isolateCallerRun keeps every long turn even when they land in separate time-gap groups', () => {
+  // Two long turns 250s apart (> RUN_GAP_SECONDS = 240s) form two separate
+  // groups. Both are genuine speech and must survive; a short turn far from
+  // both (1800s away) is still contamination and must be dropped.
+  const longText = Array(45).fill('word').join(' ');
+  const dialogues = [
+    { name: 'X', timestamp: '10:00', text: longText }, // long, 600s
+    { name: 'X', timestamp: '30:00', text: 'nope' }, // short, 1800s — far from both groups
+    { name: 'X', timestamp: '14:10', text: longText }, // long, 850s — 250s after the first
+  ];
+  assert.deepEqual(isolateCallerRun(dialogues, [0, 1, 2]), [0, 2]);
 });
