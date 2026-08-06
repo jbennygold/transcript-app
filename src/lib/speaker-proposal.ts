@@ -28,6 +28,19 @@ export const RUN_MARGIN_SECONDS = 30;
 export const MAX_PLAUSIBLE_CALLERS = 8;
 export const CALLER_TURN_WARNING = 60;
 
+/**
+ * Turn-count elimination ("the guest talks least") for identifying Jason
+ * among the non-Haitch principals scored only 9/17 correct across paired
+ * episodes with a guest — a coin flip, and its failure mode was a two-name
+ * swap (Jason <-> guest) on the episode's two largest labels whenever the
+ * guest out-talked Jason. Replaced with a positive signal: among the
+ * non-Haitch principals, Jason is the one most often addressed by name by
+ * someone else. Measured 17/17 correct with a minimum margin of 1.43x; this
+ * constant is set below that observed minimum so it does not reject real
+ * cases.
+ */
+export const JASON_ADDRESS_MARGIN = 1.25;
+
 export type LabelKind = 'principal' | 'caller' | 'fragment';
 
 export interface ClassifiedLabel {
@@ -209,28 +222,74 @@ export function nameCaller(dialogues: DialogueEntry[], run: number[]): string | 
 
 const HOST_SELF_INTRO = /\bit'?s\s+haitch\b/i;
 const COLD_OPEN_TURNS = 25;
+const JASON_MENTION = /\bJason\b/i;
 
 /**
- * Name the host/guest labels.
+ * How often label L is addressed by name as "Jason" by someone else.
  *
- * Haitch self-names in the cold open ("Hey everybody, it's Haitch, and welcome
- * to..."), which identifies his label directly. The guest name arrives from
- * sheet metadata via guestName. Jason is then the remaining principal.
+ * Scans every turn belonging to L; a turn counts (at most once) if either of
+ * the 2 immediately preceding turns (a) belongs to a different label and (b)
+ * mentions "Jason". This is a positive identification signal, not
+ * elimination — it does not care how much L talks, only whether other
+ * speakers address L as Jason.
+ */
+function jasonAddressScore(dialogues: DialogueEntry[], label: string): number {
+  let score = 0;
+  for (let i = 0; i < dialogues.length; i++) {
+    if (dialogues[i].name !== label) continue;
+    const addressed = [i - 1, i - 2].some(
+      (j) => j >= 0 && dialogues[j].name !== label && JASON_MENTION.test(dialogues[j].text),
+    );
+    if (addressed) score++;
+  }
+  return score;
+}
+
+/**
+ * Identify Jason among candidate (non-Haitch) principals by "addressed as
+ * Jason" score. Requires a nonzero top score, and — when a runner-up exists —
+ * requires the top score to lead it by at least JASON_ADDRESS_MARGIN. Either
+ * failing means decline: do not fall through to elimination.
+ */
+function identifyJason(dialogues: DialogueEntry[], candidates: ClassifiedLabel[]): ClassifiedLabel | null {
+  if (candidates.length === 0) return null;
+
+  const scored = candidates
+    .map((c) => ({ candidate: c, score: jasonAddressScore(dialogues, c.label) }))
+    .sort((a, b) => b.score - a.score);
+
+  const top = scored[0];
+  if (top.score <= 0) return null;
+  if (scored.length > 1 && top.score < JASON_ADDRESS_MARGIN * scored[1].score) return null;
+
+  return top.candidate;
+}
+
+/**
+ * Name the host/Jason/guest labels.
+ *
+ * Resolution order, each step positively identifying a label rather than
+ * guessing from what's left:
+ *   1. Haitch self-names in the cold open ("Hey everybody, it's Haitch, and
+ *      welcome to...") — identifies his label directly.
+ *   2. Jason is identified by identifyJason() (see above) among the
+ *      non-Haitch principals — NOT by turn count. An earlier "guest talks
+ *      least" elimination heuristic scored only 9/17 correct across paired
+ *      episodes with a guest, with a two-name swap failure mode (Jason and
+ *      the guest trade names) whenever the guest out-talked Jason. See
+ *      JASON_ADDRESS_MARGIN's comment.
+ *   3. The guest name arrives from sheet metadata via guestName and is bound
+ *      only when exactly one principal remains after Haitch and Jason are
+ *      resolved — two or more remaining (e.g. episodes with two guests) or
+ *      none remaining means decline rather than guess which one.
  *
  * This is the weakest link in the chain and is exactly what the human confirms
  * in the cast panel. Labels that cannot be determined are omitted from the map
- * rather than guessed.
+ * rather than guessed — mirroring nameCaller's tie refusal.
  *
- * Elimination-based assignment (guest-by-fewest-long-turns, Jason-by-what's-
- * left) is only trustworthy once Haitch's self-intro has actually anchored a
+ * Steps 2 and 3 only run once Haitch's self-intro has actually anchored a
  * principal label — without that anchor there is no positively-identified
- * starting point, and guessing from turn counts alone can silently misname a
- * host or a guest (verified "guest talks least" only on n=2 episodes). Same
- * logic for a supplied guestName that couldn't be bound (e.g. only 2
- * principals, so the guest-binding branch never fires): that mismatch means
- * the principal set doesn't match expectations, so Jason-by-elimination is
- * skipped too rather than guessed. Declining (omitting the label from the
- * map) is always the safe fallback here, mirroring nameCaller's tie refusal.
+ * starting point to reason from.
  */
 export function namePrincipals(
   dialogues: DialogueEntry[],
@@ -248,30 +307,17 @@ export function namePrincipals(
   if (anchored) names.set(haitchLabel!, 'Matt Haitch');
 
   // No anchor means no positively-identified starting point: return only
-  // what was actually found (nothing) rather than guess from turn counts.
+  // what was actually found (nothing) rather than guess.
   if (!anchored) return names;
 
-  // The guest speaks least of the principals — hosts carry the episode.
-  const remaining = principals
-    .filter((p) => !names.has(p.label))
-    .sort((a, b) => b.longTurnCount - a.longTurnCount);
+  const nonHaitch = principals.filter((p) => p.label !== haitchLabel);
+  const jason = identifyJason(dialogues, nonHaitch);
+  if (jason) names.set(jason.label, 'Jason Goldman');
 
+  const remaining = nonHaitch.filter((p) => !names.has(p.label));
   const trimmedGuest = guestName?.trim();
-  let guestBound = false;
-  if (trimmedGuest && remaining.length >= 2) {
-    names.set(remaining[remaining.length - 1].label, trimmedGuest);
-    remaining.pop();
-    guestBound = true;
-  }
-
-  // A guest name was supplied but couldn't be bound (e.g. only 2 principals
-  // total) — the principal set doesn't match expectations, so decline rather
-  // than assign the leftover principal 'Jason Goldman' by elimination.
-  if (trimmedGuest && !guestBound) return names;
-
-  // Whoever is left, if exactly one, is Jason.
-  if (remaining.length === 1) {
-    names.set(remaining[0].label, 'Jason Goldman');
+  if (trimmedGuest && remaining.length === 1) {
+    names.set(remaining[0].label, trimmedGuest);
   }
 
   return names;

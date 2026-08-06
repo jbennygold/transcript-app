@@ -152,33 +152,66 @@ test('namePrincipals identifies Haitch from the cold open and binds the guest', 
   assert.ok(assigned.includes('Jason Goldman'), 'remaining principal is Jason');
 });
 
-test('namePrincipals names only Haitch when no guest name is available', () => {
-  // With 3 principals and no guestName there is no way to tell Jason from the
-  // guest, so neither is guessed — only the label that self-names is assigned.
+test('namePrincipals still identifies Jason positively when no guest name is available, but leaves the guest slot unassigned', () => {
+  // Jason is identified by the "addressed as Jason" signal, which is
+  // independent of guestName — so with 3 principals and no guestName, Haitch
+  // and Jason both resolve; only the true guest (no name supplied to bind to)
+  // stays unassigned. This supersedes the old turn-count-elimination
+  // behavior, where neither Jason nor the guest could be told apart without
+  // a guestName.
   const { raw } = loadPair(317);
   const principals = classifyLabels(raw).filter((l) => l.kind === 'principal');
   const names = namePrincipals(raw, principals, null);
-  assert.equal(names.size, 1);
-  assert.deepEqual([...names.values()], ['Matt Haitch']);
+  assert.equal(names.size, 2);
+  assert.equal([...names.values()].includes('Matt Haitch'), true);
+  assert.equal([...names.values()].includes('Jason Goldman'), true);
 });
 
-test('namePrincipals does not guess Jason by elimination when a supplied guest cannot be bound (2 principals)', () => {
-  // Only 2 principals total means the guest-binding branch (remaining.length
-  // >= 2) never fires, so the guestName is left unbound. That mismatch must
-  // NOT fall through to naming the other principal 'Jason Goldman' by
-  // elimination — a wrong name here silently corrupts segment sub-chunking.
+test('namePrincipals resolves ep 303 (Haitch, Jason, and the guest correctly) — one of the 8 episodes the old turn-count heuristic swapped Jason and the guest on', () => {
+  const { raw, mapped } = loadPair(303);
+  const principals = classifyLabels(raw).filter((l) => l.kind === 'principal');
+
+  // Derive the expected label -> name pairs from the mapped fixture, not
+  // hardcoded letters: dominant mapped name per label, weighted by words
+  // (same approach as the classifyLabels roster-exclusion test above).
+  const dominantName = (indices: number[]) => {
+    const byName = new Map<string, number>();
+    for (const i of indices) {
+      byName.set(mapped[i].name, (byName.get(mapped[i].name) ?? 0) + countWords(raw[i].text));
+    }
+    return [...byName.entries()].sort((a, b) => b[1] - a[1])[0][0];
+  };
+  const expected = new Map(principals.map((p) => [p.label, dominantName(p.indices)]));
+  assert.deepEqual(
+    new Set(expected.values()),
+    new Set(['Matt Haitch', 'Jason Goldman', 'Dave Itzkoff']),
+    'ep 303 ground truth should be exactly these 3 principals',
+  );
+
+  const names = namePrincipals(raw, principals, 'Dave Itzkoff');
+  for (const [label, truth] of expected) {
+    assert.equal(names.get(label), truth, `label ${label}: expected "${truth}", got "${names.get(label)}"`);
+  }
+});
+
+test('namePrincipals declines to bind the guest when two or more principals remain unidentified', () => {
+  // Neither non-Haitch principal is ever addressed as "Jason", so Jason is
+  // declined (score 0 for both) — that leaves 2 candidates for the guest
+  // slot (mirrors episodes with two guests, e.g. 300/313), which is
+  // ambiguous. Decline rather than guess which one is the supplied guestName.
   const longText = Array(45).fill('word').join(' ');
   const dialogues = [
     { name: 'A', timestamp: '0:00', text: "Hey everybody, it's Haitch, and welcome to the show." },
     { name: 'A', timestamp: '0:05', text: longText },
     { name: 'B', timestamp: '0:10', text: longText },
+    { name: 'C', timestamp: '0:15', text: longText },
   ];
   const principals = classifyLabels(dialogues).filter((l) => l.kind === 'principal');
-  assert.equal(principals.length, 2);
+  assert.equal(principals.length, 3);
   const names = namePrincipals(dialogues, principals, 'Some Guest');
   assert.equal(names.get('A'), 'Matt Haitch');
   assert.equal(names.has('B'), false);
-  assert.notEqual(names.get('B'), 'Jason Goldman');
+  assert.equal(names.has('C'), false);
 });
 
 test('namePrincipals declines every elimination-based assignment when Haitch never self-identifies', () => {
