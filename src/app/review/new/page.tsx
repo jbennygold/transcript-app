@@ -63,8 +63,10 @@ function NewEpisodeContent() {
     }
   }, [searchParams]);
 
-  // Fetch guest name for an episode from coverage API
-  const fetchGuestName = async (episodeNum: string) => {
+  // Fetch guest name for an episode from coverage API. Returns the resolved
+  // name (or null on a miss/error) so callers that need it before proceeding
+  // can await it, in addition to the side-effecting setGuestName call.
+  const fetchGuestName = async (episodeNum: string): Promise<string | null> => {
     try {
       const response = await fetch('/api/coverage');
       if (response.ok) {
@@ -72,18 +74,28 @@ function NewEpisodeContent() {
         const episode = data.episodes?.find((ep: { episode: number | string }) => String(ep.episode) === episodeNum);
         if (episode?.guest) {
           setGuestName(episode.guest);
+          return episode.guest;
         }
       }
+      return null;
     } catch {
       // Failed to fetch guest, continue without it
+      return null;
     }
   };
 
   // Load an existing transcript for re-mapping speakers
   const loadExistingTranscript = async (episodeNum: string) => {
     try {
-      // Fetch guest name for shortcuts
-      fetchGuestName(episodeNum);
+      // Kick off the guest-name fetch alongside the transcript fetch (they're
+      // independent requests), but await it before entering the mapping step.
+      // SpeakerMapper's auto-proposal effect runs once on mount and locks
+      // itself, so if guestName is still null at mount time, a guest name
+      // that arrives moments later is silently dropped — this was a real
+      // race when the transcript fetch (fast) beat the coverage fetch.
+      // A coverage-fetch failure must not block loading the transcript;
+      // fetchGuestName already fails open (catches internally, resolves null).
+      const guestNamePromise = fetchGuestName(episodeNum);
 
       // Fetch transcript
       const response = await fetch(`/api/transcripts/episode_${episodeNum}`);
@@ -91,6 +103,8 @@ function NewEpisodeContent() {
         throw new Error('Failed to load transcript');
       }
       const transcript = await response.json();
+
+      await guestNamePromise;
 
       setEpisodeNumber(String(transcript.episode_number));
       setEpisodeName(transcript.episode_name);
