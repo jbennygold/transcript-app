@@ -81,3 +81,50 @@ export function classifyLabels(dialogues: DialogueEntry[]): ClassifiedLabel[] {
 
   return out.sort((a, b) => b.longTurnCount - a.longTurnCount);
 }
+
+/** Group indices into runs separated by more than RUN_GAP_SECONDS of silence. */
+function groupByTimeGap(dialogues: DialogueEntry[], indices: number[]): number[][] {
+  const groups: number[][] = [];
+  let current: number[] | null = null;
+  let lastSeconds = Number.NEGATIVE_INFINITY;
+
+  for (const i of indices) {
+    const seconds = timestampToSeconds(dialogues[i].timestamp);
+    if (current && seconds - lastSeconds < RUN_GAP_SECONDS) {
+      current.push(i);
+    } else {
+      current = [i];
+      groups.push(current);
+    }
+    lastSeconds = seconds;
+  }
+  return groups;
+}
+
+function totalWords(dialogues: DialogueEntry[], indices: number[]): number {
+  return indices.reduce((sum, i) => sum + countWords(dialogues[i].text), 0);
+}
+
+/**
+ * Isolate a caller's genuine voicemail from the backchannel contaminating its
+ * label. Seeds on the label's LONG turns only — seeding on all turns lets the
+ * scattered one-word tail drag the run across the whole episode.
+ *
+ * Returns the turns to keep. Everything else on the label is contamination.
+ */
+export function isolateCallerRun(dialogues: DialogueEntry[], indices: number[]): number[] {
+  const longIndices = indices.filter((i) => countWords(dialogues[i].text) >= LONG_TURN_WORDS);
+  if (longIndices.length === 0) return [];
+
+  const seedGroups = groupByTimeGap(dialogues, longIndices);
+  seedGroups.sort((a, b) => totalWords(dialogues, b) - totalWords(dialogues, a));
+  const seed = seedGroups[0];
+
+  const start = timestampToSeconds(dialogues[seed[0]].timestamp) - RUN_MARGIN_SECONDS;
+  const end = timestampToSeconds(dialogues[seed[seed.length - 1]].timestamp) + RUN_MARGIN_SECONDS;
+
+  return indices.filter((i) => {
+    const seconds = timestampToSeconds(dialogues[i].timestamp);
+    return seconds >= start && seconds <= end;
+  });
+}

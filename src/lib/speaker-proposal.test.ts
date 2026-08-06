@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadPair } from './fixtures/load';
-import { classifyLabels } from './speaker-proposal';
+import { classifyLabels, isolateCallerRun, countWords, LONG_TURN_WORDS } from './speaker-proposal';
 
 test('classifyLabels finds 3 principals, 5 callers and 1 fragment on ep 317', () => {
   const { raw } = loadPair(317);
@@ -42,4 +42,45 @@ test('classifyLabels uses long-turn share, so it works on short and long episode
 
 test('classifyLabels returns an empty array for an empty transcript', () => {
   assert.deepEqual(classifyLabels([]), []);
+});
+
+test('isolateCallerRun keeps every genuine voicemail turn on ep 317', () => {
+  // No long turn may ever be stripped — that would delete the actual voicemail.
+  const { raw } = loadPair(317);
+  for (const label of classifyLabels(raw).filter((l) => l.kind === 'caller')) {
+    const run = new Set(isolateCallerRun(raw, label.indices));
+    for (const i of label.indices) {
+      if (countWords(raw[i].text) >= LONG_TURN_WORDS) {
+        assert.ok(run.has(i), `${label.label} long turn ${i} was stripped`);
+      }
+    }
+  }
+});
+
+test('isolateCallerRun drops the backchannel tail', () => {
+  const { raw } = loadPair(317);
+  const callers = classifyLabels(raw).filter((l) => l.kind === 'caller');
+  // Every ep 317 caller label shrinks: measured 37->5, 21->3, 19->1, 14->4, 9->3.
+  for (const label of callers) {
+    const run = isolateCallerRun(raw, label.indices);
+    assert.ok(run.length < label.turnCount, `${label.label} did not shrink`);
+    assert.ok(run.length > 0, `${label.label} lost its whole run`);
+  }
+});
+
+test('isolateCallerRun removes contamination that sits inside the voicemail block', () => {
+  // ep 317 turn 775 ("What did your dad do?") is host backchannel on caller
+  // label I, at 96:11 — inside the block, so a positional rule would miss it.
+  const { raw } = loadPair(317);
+  const labelI = classifyLabels(raw).find((l) => l.label === 'I');
+  assert.ok(labelI, 'label I should exist');
+  assert.ok(!isolateCallerRun(raw, labelI!.indices).includes(775));
+});
+
+test('isolateCallerRun returns empty when the label has no long turn', () => {
+  const dialogues = [
+    { name: 'X', timestamp: '1:00', text: 'Yeah.' },
+    { name: 'X', timestamp: '50:00', text: 'Right.' },
+  ];
+  assert.deepEqual(isolateCallerRun(dialogues, [0, 1]), []);
 });
