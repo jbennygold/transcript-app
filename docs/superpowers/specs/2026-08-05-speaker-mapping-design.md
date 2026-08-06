@@ -113,6 +113,40 @@ Two iterations behind that number:
    the body on chained handoffs ("thanks Kev, here is Corey") took mis-names
    2 → 3 and gained zero correct names. Do not re-attempt.
 
+### Identifying Jason: address frequency, not turn counts
+
+The first draft resolved the principals as Haitch (self-names in the cold open),
+guest (bound to `guestName`, assumed to be the principal with the fewest long
+turns), and Jason by elimination. **Measured against all 17 paired episodes that
+have a guest, "the guest talks least" held 9 times and failed 8.**
+
+The failure mode is the worst available: whenever a guest out-talks Jason — Ben
+Rhodes, Van Lathan, Rosie Knight, Bijani, Paul Dini, Soman Chainani, Devindra
+Hardawar, Dave Itzkoff — the two names *swap*, so Jason's label takes the guest's
+name and the guest's label takes "Jason Goldman". Two wrong names at high
+confidence on the two largest labels in the episode.
+
+The signal that does work is **who gets addressed by name**. For a principal
+label, count its turns that have, within the two immediately preceding turns, a
+turn by someone else matching `\bJason\b`. The highest scorer is Jason in
+**17 of 17** episodes, minimum margin 1.43×:
+
+| | 299 | 301 | 302 | 303 | 304 | 305 | 306 | 307 | 308 | 309 | 310 | 311 | 312 | 314 | 315 | 316 | 317 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Jason | 22 | 13 | 12 | 15 | 20 | 24 | 22 | 20 | 21 | 10 | 18 | 17 | 16 | 19 | 14 | 19 | 15 |
+| guest | 6 | 5 | 6 | 8 | 3 | 6 | 8 | 14 | 5 | 5 | 6 | 4 | 4 | 3 | 4 | 4 | 5 |
+
+The same signal keyed on the *guest's* name is much weaker (11/17) — guests are
+addressed by name less consistently than a co-host is. So the resolution order is
+Haitch by self-intro, **Jason positively by address frequency**, and only then the
+guest by elimination onto the single remaining principal.
+
+`JASON_ADDRESS_MARGIN = 1.25` sits below the observed 1.43 minimum: the top
+scorer must beat the runner-up by that factor and be non-zero, otherwise Jason is
+declined and nothing is assigned by elimination. Episodes with two guests (300,
+313) leave two principals after Haitch and Jason and decline the guest binding
+rather than guessing which is which.
+
 ### The roster is incomplete by design
 
 `DEFAULT_VOICEMAILERS` covers the recurring cast (episodes appeared in, of 19):
@@ -204,10 +238,14 @@ the turn itself (self-ID), and any short turns of the same label immediately
 preceding it ("This is your brother, Animal Mother"). Self-ID in the caller's own
 words is weighted 3× a host cue. **Refuse to name on a tie.**
 
-**Principals:** extract from the cold open — `"it's Haitch"` names its own label
-directly; the guest comes from `guestName`, already plumbed through from sheet
-metadata; the remaining principal is Jason. Principal naming is the weakest link
-in the chain and is exactly what the human confirms in the panel.
+**Principals:** resolve in a fixed order — `"it's Haitch"` in the cold open names
+its own label directly; **Jason positively, by address frequency** (measured
+above: 17/17, `JASON_ADDRESS_MARGIN = 1.25`); then the guest from `guestName`
+onto the single remaining principal. Decline at any step rather than falling
+through to elimination: no Haitch anchor means no elimination, a Jason score
+under the margin means no Jason, and two or more remaining principals means no
+guest binding. Principal naming is still the weakest link in the chain and is
+what the human confirms in the panel.
 
 ### Pass 4 — emit
 
