@@ -322,3 +322,133 @@ export function namePrincipals(
 
   return names;
 }
+
+/**
+ * Where contaminant turns go.
+ *
+ * NOT a guessed host: the nearest preceding and nearest following principal
+ * label disagree 45.7% of the time (51 of 94 turns on ep 317). Every
+ * disagreement is 1-4 word backchannel where host precision is worth nothing
+ * downstream, while getting the turn OFF the caller label is worth everything
+ * — it is what unblocks extractSegmentChunks().
+ */
+export const CONTAMINANT_SPEAKER = 'Overtalk/Interjection';
+
+export interface ProposedLabel {
+  label: string;
+  kind: LabelKind;
+  proposedName: string | null;
+  confidence: 'high' | 'low';
+  turnCount: number;
+  runTurnCount: number;
+  runStart?: string;
+  runEnd?: string;
+  sampleText: string;
+  warnings: string[];
+}
+
+export interface SpeakerProposal {
+  labels: ProposedLabel[];
+  contaminants: Array<{ index: number; fromLabel: string }>;
+  /** Non-null when the proposal was abandoned; the UI then changes nothing. */
+  degenerate: string | null;
+}
+
+const EMPTY: SpeakerProposal = { labels: [], contaminants: [], degenerate: null };
+
+function longestText(dialogues: DialogueEntry[], indices: number[]): string {
+  if (indices.length === 0) return '';
+  const best = indices.reduce((a, b) =>
+    countWords(dialogues[a].text) > countWords(dialogues[b].text) ? a : b);
+  return dialogues[best].text;
+}
+
+/**
+ * Build a proposed speaker mapping from raw diarization output.
+ *
+ * Never throws and never blocks. On a degenerate result it returns an empty
+ * proposal with `degenerate` set, and the caller leaves the transcript alone.
+ */
+export function proposeSpeakerMapping(
+  dialogues: DialogueEntry[],
+  opts: { guestName?: string | null } = {},
+): SpeakerProposal {
+  try {
+    if (!dialogues || dialogues.length === 0) {
+      return { ...EMPTY, degenerate: 'empty transcript' };
+    }
+
+    const classified = classifyLabels(dialogues);
+    const principals = classified.filter((l) => l.kind === 'principal');
+    const callers = classified.filter((l) => l.kind === 'caller');
+
+    if (principals.length === 0) {
+      return { ...EMPTY, degenerate: 'no principal labels found' };
+    }
+    if (callers.length > MAX_PLAUSIBLE_CALLERS) {
+      return { ...EMPTY, degenerate: `${callers.length} caller labels exceeds ${MAX_PLAUSIBLE_CALLERS}` };
+    }
+
+    const principalNames = namePrincipals(dialogues, principals, opts.guestName);
+
+    // Name callers first, then void any name claimed by more than one label.
+    const runs = new Map<string, number[]>();
+    const callerNames = new Map<string, string | null>();
+    for (const caller of callers) {
+      const run = isolateCallerRun(dialogues, caller.indices);
+      runs.set(caller.label, run);
+      callerNames.set(caller.label, nameCaller(dialogues, run));
+    }
+    const nameCounts = new Map<string, number>();
+    for (const name of callerNames.values()) {
+      if (name) nameCounts.set(name, (nameCounts.get(name) ?? 0) + 1);
+    }
+    for (const [label, name] of callerNames) {
+      if (name && nameCounts.get(name)! > 1) callerNames.set(label, null);
+    }
+
+    const labels: ProposedLabel[] = [];
+    const contaminants: Array<{ index: number; fromLabel: string }> = [];
+
+    for (const entry of classified) {
+      const warnings: string[] = [];
+      let proposedName: string | null = null;
+      let runIndices = entry.indices;
+
+      if (entry.kind === 'principal') {
+        proposedName = principalNames.get(entry.label) ?? null;
+        if (!proposedName) warnings.push('could not identify this speaker');
+      } else if (entry.kind === 'caller') {
+        runIndices = runs.get(entry.label) ?? [];
+        proposedName = callerNames.get(entry.label) ?? null;
+        if (!proposedName) warnings.push('not a known voicemailer — name this one');
+        if (entry.turnCount > CALLER_TURN_WARNING) {
+          warnings.push(`holds ${entry.turnCount} turns, far more than a voicemail`);
+        }
+        const runSet = new Set(runIndices);
+        for (const i of entry.indices) {
+          if (!runSet.has(i)) contaminants.push({ index: i, fromLabel: entry.label });
+        }
+      } else {
+        warnings.push('no clear voice — likely mixed speakers and movie samples');
+      }
+
+      labels.push({
+        label: entry.label,
+        kind: entry.kind,
+        proposedName,
+        confidence: proposedName ? 'high' : 'low',
+        turnCount: entry.turnCount,
+        runTurnCount: runIndices.length,
+        runStart: runIndices.length ? dialogues[runIndices[0]].timestamp : undefined,
+        runEnd: runIndices.length ? dialogues[runIndices[runIndices.length - 1]].timestamp : undefined,
+        sampleText: longestText(dialogues, runIndices.length ? runIndices : entry.indices),
+        warnings,
+      });
+    }
+
+    return { labels, contaminants, degenerate: null };
+  } catch (err) {
+    return { ...EMPTY, degenerate: err instanceof Error ? err.message : 'proposal failed' };
+  }
+}

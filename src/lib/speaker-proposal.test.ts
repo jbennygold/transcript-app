@@ -1,7 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadPair } from './fixtures/load';
-import { classifyLabels, isolateCallerRun, nameCaller, namePrincipals, countWords, LONG_TURN_WORDS } from './speaker-proposal';
+import type { DialogueEntry } from '@/types/transcript';
+import {
+  classifyLabels, isolateCallerRun, nameCaller, namePrincipals,
+  proposeSpeakerMapping, countWords, LONG_TURN_WORDS,
+} from './speaker-proposal';
 
 test('classifyLabels finds 3 principals, 5 callers and 1 fragment on ep 317', () => {
   const { raw } = loadPair(317);
@@ -229,4 +233,102 @@ test('namePrincipals declines every elimination-based assignment when Haitch nev
   assert.equal(principals.length, 3);
   const names = namePrincipals(dialogues, principals, 'Some Guest');
   assert.equal(names.size, 0);
+});
+
+test('proposeSpeakerMapping produces a full ep 317 proposal', () => {
+  const { raw } = loadPair(317);
+  const proposal = proposeSpeakerMapping(raw, { guestName: 'Dave Mandel' });
+  assert.equal(proposal.degenerate, null);
+  assert.equal(proposal.labels.length, 9);
+  const named = proposal.labels.filter((l) => l.proposedName !== null).map((l) => l.proposedName);
+  for (const expected of ['Matt Haitch', 'Jason Goldman', 'Dave Mandel', 'Corey', 'Ethan', 'kev voicemail', 'birria', 'Animal Mother']) {
+    assert.ok(named.includes(expected), `missing ${expected}`);
+  }
+  assert.ok(proposal.contaminants.length > 50, 'ep 317 has ~94 contaminant turns');
+});
+
+test('proposeSpeakerMapping never reports a long turn as a contaminant', () => {
+  for (const ep of [317, 315, 303]) {
+    const { raw } = loadPair(ep);
+    const proposal = proposeSpeakerMapping(raw, { guestName: null });
+    for (const c of proposal.contaminants) {
+      assert.ok(countWords(raw[c.index].text) < LONG_TURN_WORDS, `ep${ep} turn ${c.index} is substantive`);
+    }
+  }
+});
+
+test('proposeSpeakerMapping declines both labels when two would take the same name', () => {
+  // Two labels both scoring "Kev" would build Kev's segment chunks from a host
+  // cluster — the Animal-Mother-349-turns failure, reintroduced automatically.
+  // Neither may win.
+  //
+  // The host needs MANY long turns here: PRINCIPAL_LONG_SHARE is a share, so
+  // with only two long turns in the transcript each one is 50% and E/F would
+  // classify as principals instead of callers.
+  const long = (word: string) => `${word} `.repeat(60);
+  const dialogues: DialogueEntry[] = [];
+  for (let i = 0; i < 12; i++) {
+    dialogues.push({ name: 'B', timestamp: `${i}:00`, text: long('host') });
+  }
+  dialogues.push({ name: 'B', timestamp: '20:00', text: 'Here is Kev.' });
+  dialogues.push({ name: 'E', timestamp: '20:05', text: long('alpha') });
+  dialogues.push({ name: 'B', timestamp: '40:00', text: 'And here is Kev.' });
+  dialogues.push({ name: 'F', timestamp: '40:05', text: long('beta') });
+
+  const proposal = proposeSpeakerMapping(dialogues, { guestName: null });
+
+  const e = proposal.labels.find((l) => l.label === 'E');
+  const f = proposal.labels.find((l) => l.label === 'F');
+  assert.equal(e?.kind, 'caller', 'E should classify as a caller');
+  assert.equal(f?.kind, 'caller', 'F should classify as a caller');
+  assert.equal(e?.proposedName, null, 'duplicate name must not be assigned');
+  assert.equal(f?.proposedName, null, 'duplicate name must not be assigned');
+});
+
+test('proposeSpeakerMapping fails open on a transcript with no principals', () => {
+  const dialogues: DialogueEntry[] = [
+    { name: 'A', timestamp: '0:01', text: 'Yeah.' },
+    { name: 'B', timestamp: '0:05', text: 'Right.' },
+  ];
+  const proposal = proposeSpeakerMapping(dialogues, { guestName: null });
+  assert.equal(proposal.labels.length, 0);
+  assert.equal(proposal.contaminants.length, 0);
+  assert.ok(proposal.degenerate);
+});
+
+test('proposeSpeakerMapping flags the unresolvable fragment cluster', () => {
+  const { raw } = loadPair(317);
+  const proposal = proposeSpeakerMapping(raw, { guestName: 'Dave Mandel' });
+  const fragment = proposal.labels.find((l) => l.kind === 'fragment');
+  assert.ok(fragment, 'ep 317 has a fragment cluster');
+  assert.equal(fragment!.proposedName, null, 'fragment cluster must not be named');
+  assert.ok(fragment!.warnings.length > 0, 'fragment cluster should carry a warning');
+});
+
+test('proposeSpeakerMapping warns when a label holds implausibly many turns', () => {
+  // A voicemailer with more turns than CALLER_TURN_WARNING is the ep 317
+  // Animal-Mother-349-turns signature: a bulk mapping that swallowed a host.
+  const long = (word: string) => `${word} `.repeat(60);
+  const dialogues: DialogueEntry[] = [];
+  for (let i = 0; i < 12; i++) {
+    dialogues.push({ name: 'B', timestamp: `${i}:00`, text: long('host') });
+  }
+  dialogues.push({ name: 'B', timestamp: '20:00', text: 'Here is Kev.' });
+  dialogues.push({ name: 'E', timestamp: '20:05', text: long('alpha') });
+  for (let i = 0; i < 70; i++) {
+    dialogues.push({ name: 'E', timestamp: `${30 + i}:00`, text: 'Yeah.' });
+  }
+
+  const proposal = proposeSpeakerMapping(dialogues, { guestName: null });
+  const e = proposal.labels.find((l) => l.label === 'E');
+  assert.ok(e, 'label E should exist');
+  assert.ok(
+    e!.warnings.some((w) => w.includes('holds')),
+    `expected a turn-count warning, got ${JSON.stringify(e!.warnings)}`,
+  );
+});
+
+test('proposeSpeakerMapping never throws on empty or malformed input', () => {
+  assert.doesNotThrow(() => proposeSpeakerMapping([], {}));
+  assert.doesNotThrow(() => proposeSpeakerMapping([{ name: 'A', timestamp: 'nonsense', text: '' }], {}));
 });
