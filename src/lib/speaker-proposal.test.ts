@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadPair } from './fixtures/load';
-import { classifyLabels, isolateCallerRun, countWords, LONG_TURN_WORDS } from './speaker-proposal';
+import { classifyLabels, isolateCallerRun, nameCaller, namePrincipals, countWords, LONG_TURN_WORDS } from './speaker-proposal';
 
 test('classifyLabels finds 3 principals, 5 callers and 1 fragment on ep 317', () => {
   const { raw } = loadPair(317);
@@ -96,4 +96,68 @@ test('isolateCallerRun keeps every long turn even when they land in separate tim
     { name: 'X', timestamp: '14:10', text: longText }, // long, 850s — 250s after the first
   ];
   assert.deepEqual(isolateCallerRun(dialogues, [0, 1, 2]), [0, 2]);
+});
+
+test('nameCaller resolves all five ep 317 callers', () => {
+  const { raw, mapped } = loadPair(317);
+  const results = classifyLabels(raw)
+    .filter((l) => l.kind === 'caller')
+    .map((l) => {
+      const run = isolateCallerRun(raw, l.indices);
+      // ground truth: mapped name of the longest turn in the run
+      const longest = run.reduce((a, b) => (countWords(raw[a].text) > countWords(raw[b].text) ? a : b));
+      return { proposed: nameCaller(raw, run), truth: mapped[longest].name };
+    });
+  assert.equal(results.length, 5);
+  for (const r of results) assert.equal(r.proposed, r.truth);
+});
+
+test('nameCaller declines rather than guessing for off-roster callers', () => {
+  // ep 315 has Griffin and Rusty Surfer, neither in the roster. They must come
+  // back null — a wrong name silently corrupts segment chunks, a null just
+  // asks the human.
+  const { raw, mapped } = loadPair(315);
+  const ROSTER = ['Corey', 'kev voicemail', 'birria', 'Mr Java', 'Lizzen', 'Animal Mother', 'Ethan'];
+  for (const l of classifyLabels(raw).filter((c) => c.kind === 'caller')) {
+    const run = isolateCallerRun(raw, l.indices);
+    if (run.length === 0) continue;
+    const longest = run.reduce((a, b) => (countWords(raw[a].text) > countWords(raw[b].text) ? a : b));
+    const truth = mapped[longest].name;
+    const proposed = nameCaller(raw, run);
+    if (!ROSTER.includes(truth)) {
+      assert.equal(proposed, null, `off-roster "${truth}" should decline, got "${proposed}"`);
+    }
+  }
+});
+
+test('nameCaller refuses to name on a tie', () => {
+  const dialogues = [
+    { name: 'B', timestamp: '10:00', text: 'Here is Corey, and also here is Kev.' },
+    { name: 'E', timestamp: '10:10', text: 'x '.repeat(60) },
+  ];
+  assert.equal(nameCaller(dialogues, [1]), null);
+});
+
+test('nameCaller returns null for an empty run', () => {
+  assert.equal(nameCaller([], []), null);
+});
+
+test('namePrincipals identifies Haitch from the cold open and binds the guest', () => {
+  const { raw } = loadPair(317);
+  const principals = classifyLabels(raw).filter((l) => l.kind === 'principal');
+  const names = namePrincipals(raw, principals, 'Dave Mandel');
+  const assigned = [...names.values()];
+  assert.ok(assigned.includes('Matt Haitch'), 'Haitch self-names in the cold open');
+  assert.ok(assigned.includes('Dave Mandel'), 'guest name is bound');
+  assert.ok(assigned.includes('Jason Goldman'), 'remaining principal is Jason');
+});
+
+test('namePrincipals names only Haitch when no guest name is available', () => {
+  // With 3 principals and no guestName there is no way to tell Jason from the
+  // guest, so neither is guessed — only the label that self-names is assigned.
+  const { raw } = loadPair(317);
+  const principals = classifyLabels(raw).filter((l) => l.kind === 'principal');
+  const names = namePrincipals(raw, principals, null);
+  assert.equal(names.size, 1);
+  assert.deepEqual([...names.values()], ['Matt Haitch']);
 });

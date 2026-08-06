@@ -133,3 +133,123 @@ export function isolateCallerRun(dialogues: DialogueEntry[], indices: number[]):
     return windows.some((w) => seconds >= w.start && seconds <= w.end);
   });
 }
+
+/**
+ * Recurring voicemailers and the spellings they appear under. Keys are the
+ * canonical names used by SEGMENT_CONFIGS in scripts/ingest.ts — segment
+ * sub-chunking keys on these exact strings.
+ *
+ * This roster is deliberately incomplete. Across 19 episodes there is a long
+ * tail of one-off callers (Griffin, ctcher, Rusty Surfer, Buddha LeDread,
+ * Space monkey, Silly Oswald, Proto, Derek, Sam, Bijani). They come back null
+ * and the human names them. An LLM fallback would not know them either.
+ */
+export const VOICEMAILER_ALIASES: Record<string, string[]> = {
+  'Corey': ['corey'],
+  'kev voicemail': ['kev'],
+  'birria': ['birria', 'truthsayer'],
+  'Mr Java': ['mr\\.? ?java'],
+  'Lizzen': ['lizzen'],
+  'Animal Mother': ['animal mother'],
+  'Ethan': ['ethan'],
+};
+
+function countMatches(text: string, aliases: string[]): number {
+  return aliases.reduce((sum, alias) => {
+    const matches = text.match(new RegExp(`\\b${alias}\\b`, 'ig'));
+    return sum + (matches ? matches.length : 0);
+  }, 0);
+}
+
+/**
+ * Name a caller from the roster.
+ *
+ * The window anchors on the caller's FIRST long turn, not the whole run.
+ * Voicemails run back-to-back, so a full-run window bleeds into the next
+ * caller's intro cue: that fix took mis-names from 5 to 2 with no loss of
+ * correct names.
+ *
+ * Signals, in weight order:
+ *   - self-ID in the caller's own words ("it's Kev here") — weight 3
+ *   - self-ID in a short turn of theirs just before the body
+ *     ("This is your brother, Animal Mother") — weight 3
+ *   - the host's intro cue in the 3 turns before ("Lay it on us, Ethan") — weight 1
+ *
+ * REVERTED EXPERIMENT — do not re-attempt: proximity tie-breaking on chained
+ * handoffs ("thanks Kev, here is Corey" -> prefer the name nearest the body)
+ * took mis-names 2 -> 3 and gained zero correct names.
+ */
+export function nameCaller(dialogues: DialogueEntry[], run: number[]): string | null {
+  if (run.length === 0) return null;
+
+  const firstLong = run.find((i) => countWords(dialogues[i].text) >= LONG_TURN_WORDS) ?? run[0];
+  const intro = dialogues.slice(Math.max(0, firstLong - 3), firstLong).map((d) => d.text).join(' ');
+  const body = dialogues[firstLong].text;
+  const ownPreamble = run
+    .filter((i) => i < firstLong && i >= firstLong - 6)
+    .map((i) => dialogues[i].text)
+    .join(' ');
+
+  const scores = Object.entries(VOICEMAILER_ALIASES)
+    .map(([name, aliases]) => ({
+      name,
+      score:
+        countMatches(body, aliases) * 3 +
+        countMatches(ownPreamble, aliases) * 3 +
+        countMatches(intro, aliases),
+    }))
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  if (scores.length === 0) return null;
+  // Refuse on a tie: a wrong name silently corrupts segment chunks.
+  if (scores.length > 1 && scores[0].score === scores[1].score) return null;
+  return scores[0].name;
+}
+
+const HOST_SELF_INTRO = /\bit'?s\s+haitch\b/i;
+const COLD_OPEN_TURNS = 25;
+
+/**
+ * Name the host/guest labels.
+ *
+ * Haitch self-names in the cold open ("Hey everybody, it's Haitch, and welcome
+ * to..."), which identifies his label directly. The guest name arrives from
+ * sheet metadata via guestName. Jason is then the remaining principal.
+ *
+ * This is the weakest link in the chain and is exactly what the human confirms
+ * in the cast panel. Labels that cannot be determined are omitted from the map
+ * rather than guessed.
+ */
+export function namePrincipals(
+  dialogues: DialogueEntry[],
+  principals: ClassifiedLabel[],
+  guestName?: string | null,
+): Map<string, string> {
+  const names = new Map<string, string>();
+  if (principals.length === 0) return names;
+
+  const coldOpen = dialogues.slice(0, COLD_OPEN_TURNS);
+  const haitchLabel = coldOpen.find((d) => HOST_SELF_INTRO.test(d.text))?.name;
+  const isPrincipal = (label: string) => principals.some((p) => p.label === label);
+
+  if (haitchLabel && isPrincipal(haitchLabel)) names.set(haitchLabel, 'Matt Haitch');
+
+  // The guest speaks least of the principals — hosts carry the episode.
+  const remaining = principals
+    .filter((p) => !names.has(p.label))
+    .sort((a, b) => b.longTurnCount - a.longTurnCount);
+
+  const trimmedGuest = guestName?.trim();
+  if (trimmedGuest && remaining.length >= 2) {
+    names.set(remaining[remaining.length - 1].label, trimmedGuest);
+    remaining.pop();
+  }
+
+  // Whoever is left, if exactly one, is Jason.
+  if (remaining.length === 1 && names.size > 0) {
+    names.set(remaining[0].label, 'Jason Goldman');
+  }
+
+  return names;
+}
