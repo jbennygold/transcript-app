@@ -125,9 +125,18 @@ export default function SpeakerMapper({
   const [detectingSamples, setDetectingSamples] = useState(false);
   const [detectedSampleCount, setDetectedSampleCount] = useState<number | null>(null);
   const sampleAutoRunRef = useRef(false);
-  // Undo/redo history
-  const [history, setHistory] = useState<HistoryEntry[]>([]);
-  const [historyIndex, setHistoryIndex] = useState(-1);
+  // Undo/redo history. `entries` and `index` live in ONE state object so the
+  // truncate-then-push-then-cap sequence in `saveToHistory` reads and writes
+  // them atomically from `prev`, with no separately-captured `historyIndex`
+  // closure. Two effects that both call `saveToHistory` in the same React
+  // flush (mount-time sounder auto-apply + proposal auto-apply) each queue a
+  // functional update against this single state, so the second one sees the
+  // first one's entry via `prev` rather than a stale index from render 1 —
+  // which previously destroyed the first entry (see CRITICAL-1 in the branch
+  // review).
+  const [historyState, setHistoryState] = useState<{ entries: HistoryEntry[]; index: number }>(
+    { entries: [], index: -1 },
+  );
 
   // Refs
   const customInputRef = useRef<HTMLInputElement>(null);
@@ -375,22 +384,23 @@ export default function SpeakerMapper({
     writeStored(RECENT_SPEAKERS_KEY, recentSpeakers);
   }, [recentSpeakers]);
 
-  // Save to history before making changes
+  // Save to history before making changes. Single functional updater over
+  // `historyState` — truncate, push, cap, and index-advance all happen
+  // together from `prev`, so a second call queued in the same flush operates
+  // on the first call's result instead of a stale pre-flush snapshot.
   const saveToHistory = useCallback((description: string) => {
-    setHistory(prev => {
-      // Remove any future history if we're not at the end
-      const newHistory = prev.slice(0, historyIndex + 1);
-      // Add current state
-      newHistory.push({ dialogues: [...dialogues], description });
+    setHistoryState(prev => {
+      // Remove any future history if we're not at the end, then add current state.
+      const entries = [...prev.entries.slice(0, prev.index + 1), { dialogues: [...dialogues], description }];
+      let index = prev.index + 1;
       // Limit history size
-      if (newHistory.length > 20) {
-        newHistory.shift();
-        return newHistory;
+      if (entries.length > 20) {
+        entries.shift();
+        index = entries.length - 1;
       }
-      return newHistory;
+      return { entries, index };
     });
-    setHistoryIndex(prev => Math.min(prev + 1, 19));
-  }, [dialogues, historyIndex]);
+  }, [dialogues]);
 
   const trackRecentSpeaker = useCallback((name: string) => {
     const trimmed = name.trim();
@@ -420,13 +430,33 @@ export default function SpeakerMapper({
 
   // Re-assign every turn whose ORIGINAL diarization label matches, so a panel
   // row still bulk-renames after the proposal has already changed the names.
+  //
+  // EXCEPT contamination: for a `caller` row, the proposal already moved the
+  // label's backchannel turns to CONTAMINANT_SPEAKER (Overtalk/Interjection)
+  // because they aren't this caller's real voice. Re-applying the typed name
+  // to every originally-matching index — including those — would silently
+  // undo the contamination pass and put host backchannel back on the caller
+  // name, which is exactly the corruption extractSegmentChunks() depends on
+  // this feature to prevent. So we subtract the contaminant indices whose
+  // `fromLabel` is this label before renaming. Principal/fragment rows have
+  // no contaminants, so this is a no-op for them. Do not "simplify" this
+  // away — it looks redundant only if you forget contamination exists.
   const renameProposedLabel = useCallback(
     (originalLabel: string, newName: string) => {
       const trimmed = newName.trim();
       if (!trimmed) return;
+      const row = proposal?.labels.find((l) => l.label === originalLabel);
+      const excluded =
+        row?.kind === 'caller'
+          ? new Set(
+              (proposal?.contaminants ?? [])
+                .filter((c) => c.fromLabel === originalLabel)
+                .map((c) => c.index),
+            )
+          : null;
       const indices = originalLabelsRef.current
         .map((label, i) => (label === originalLabel ? i : -1))
-        .filter((i) => i >= 0);
+        .filter((i) => i >= 0 && (!excluded || !excluded.has(i)));
       if (indices.length === 0) return;
       applySpeakerToIndices(indices, trimmed, `Rename ${originalLabel} → ${trimmed}`);
       setProposal((prev) =>
@@ -442,7 +472,7 @@ export default function SpeakerMapper({
           : prev,
       );
     },
-    [applySpeakerToIndices],
+    [applySpeakerToIndices, proposal],
   );
 
   useEffect(() => {
@@ -492,24 +522,41 @@ export default function SpeakerMapper({
 
   // Undo
   const undo = useCallback(() => {
-    if (historyIndex >= 0) {
-      const entry = history[historyIndex];
+    if (historyState.index >= 0) {
+      const entry = historyState.entries[historyState.index];
       setDialogues(entry.dialogues);
-      setHistoryIndex(prev => prev - 1);
+      setHistoryState(prev => ({ ...prev, index: prev.index - 1 }));
     }
-  }, [history, historyIndex]);
+  }, [historyState]);
 
   // Redo
   const redo = useCallback(() => {
-    if (historyIndex < history.length - 1) {
-      const entry = history[historyIndex + 1];
+    if (historyState.index < historyState.entries.length - 1) {
+      const entry = historyState.entries[historyState.index + 1];
       setDialogues(entry.dialogues);
-      setHistoryIndex(prev => prev + 1);
+      setHistoryState(prev => ({ ...prev, index: prev.index + 1 }));
     }
-  }, [history, historyIndex]);
+  }, [historyState]);
 
-  const canUndo = historyIndex >= 0;
-  const canRedo = historyIndex < history.length - 1;
+  const canUndo = historyState.index >= 0;
+  const canRedo = historyState.index < historyState.entries.length - 1;
+
+  // The cast panel's "Undo proposal" button. Sample detection lands as a
+  // LATER history entry by design (it runs after the proposal, as its own
+  // undoable step), so once detection has completed, a plain `undo()` here
+  // pops the Movie Sample labels rather than the proposal — while
+  // `detectedSampleCount` keeps reporting the stale count and the
+  // Apply & Continue warning stays silently disarmed. Clear the
+  // sample-detection state alongside the undo so the panel and the submit
+  // warning both go back to "not detected yet". Also reset the once-only
+  // auto-run ref (not just `detectedSampleCount`) so a later re-detect —
+  // manual or auto, if `proposalHasNamedSpeaker` flips true again — isn't
+  // blocked by a ref latched from the run we just undid.
+  const undoProposal = useCallback(() => {
+    undo();
+    setDetectedSampleCount(null);
+    sampleAutoRunRef.current = false;
+  }, [undo]);
 
   // Detect movie samples via LLM
   const detectSamples = useCallback(async () => {
@@ -1145,7 +1192,7 @@ export default function SpeakerMapper({
             </span>
             <button
               type="button"
-              onClick={undo}
+              onClick={undoProposal}
               disabled={!canUndo}
               className="text-sm text-indigo-700 hover:text-indigo-900 disabled:text-indigo-300"
             >

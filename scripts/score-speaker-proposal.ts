@@ -10,7 +10,7 @@
 import { readdirSync, readFileSync } from 'fs';
 import path from 'path';
 import type { DialogueEntry } from '../src/types/transcript';
-import { classifyLabels, isolateCallerRun, nameCaller, countWords, VOICEMAILER_ALIASES } from '../src/lib/speaker-proposal';
+import { classifyLabels, isolateCallerRun, nameCaller, countWords } from '../src/lib/speaker-proposal';
 
 const DIR = '/tmp/speaker-mapping-fixtures';
 const MIN_CORRECT = 59;
