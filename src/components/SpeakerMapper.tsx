@@ -537,6 +537,22 @@ export default function SpeakerMapper({
     }
   }, [episodeName, detectingSamples, dialogues, applySpeakerToIndices]);
 
+  // A non-degenerate proposal can still leave `dialogues` on raw placeholder
+  // labels: Task 7's proposal effect sets `proposal` unconditionally but only
+  // calls `setDialogues` when it has something to rewrite. If every principal
+  // declines (no "Haitch" self-ID in the cold open, e.g. real on ep 299-301)
+  // and there are no nameable callers either, `dialogues` never changes — so
+  // gating on `proposal` alone would send /api/detect-samples a transcript of
+  // placeholder labels, and its knownSpeakers list (filtered from those
+  // labels) would come back empty, the exact failure this step exists to
+  // prevent. `proposedName !== null` on at least one label is true exactly
+  // when `dialogues` carries a genuine name — the same condition Task 7 uses
+  // to decide whether to call `setDialogues` at all.
+  const proposalHasNamedSpeaker = useMemo(
+    () => (proposal ? proposal.labels.some((l) => l.proposedName !== null) : false),
+    [proposal],
+  );
+
   // Movie samples appear in every episode and land on host labels as often as
   // caller labels, so detection is a step of the flow, not an optional button.
   //
@@ -546,13 +562,19 @@ export default function SpeakerMapper({
   //
   // Concurrent with the human reading the cast panel, so it costs no
   // wall-clock, and it lands as its own history entry — separately undoable.
+  //
+  // Does NOT set the once-only ref when skipped for lack of a named speaker:
+  // if the user later types a name into a panel row, `renameProposedLabel`
+  // updates `proposal` in place, `proposalHasNamedSpeaker` flips true, and
+  // this effect gets to try again on that re-render.
   useEffect(() => {
     if (sampleAutoRunRef.current) return;
     if (!proposal || proposal.degenerate) return;
     if (!episodeName) return;
+    if (!proposalHasNamedSpeaker) return;
     sampleAutoRunRef.current = true;
     void detectSamples();
-  }, [proposal, episodeName, detectSamples]);
+  }, [proposal, episodeName, proposalHasNamedSpeaker, detectSamples]);
 
   // Enter mapping mode for a label
   const enterMappingMode = useCallback((label: string) => {
@@ -1174,7 +1196,14 @@ export default function SpeakerMapper({
               {detectingSamples ? (
                 <span className="text-gray-500">detecting…</span>
               ) : detectedSampleCount === null ? (
-                <span className="text-gray-500">not started</span>
+                proposalHasNamedSpeaker ? (
+                  <span className="text-gray-500">not started</span>
+                ) : (
+                  <span className="text-gray-500">
+                    waiting for speaker names — name a row above, or use{' '}
+                    <span className="font-medium">Re-detect</span>
+                  </span>
+                )
               ) : detectedSampleCount === -1 ? (
                 <span className="text-red-700">⚠ detection failed — samples may be labeled as hosts</span>
               ) : detectedSampleCount === 0 ? (
