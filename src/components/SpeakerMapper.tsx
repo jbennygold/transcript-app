@@ -124,6 +124,7 @@ export default function SpeakerMapper({
   // Sample detection state
   const [detectingSamples, setDetectingSamples] = useState(false);
   const [detectedSampleCount, setDetectedSampleCount] = useState<number | null>(null);
+  const sampleAutoRunRef = useRef(false);
   // Undo/redo history
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [historyIndex, setHistoryIndex] = useState(-1);
@@ -536,6 +537,23 @@ export default function SpeakerMapper({
     }
   }, [episodeName, detectingSamples, dialogues, applySpeakerToIndices]);
 
+  // Movie samples appear in every episode and land on host labels as often as
+  // caller labels, so detection is a step of the flow, not an optional button.
+  //
+  // Runs AFTER the proposal so /api/detect-samples sees real speaker names —
+  // it derives knownSpeakers by filtering out placeholder labels, which on a
+  // raw transcript leaves that list empty.
+  //
+  // Concurrent with the human reading the cast panel, so it costs no
+  // wall-clock, and it lands as its own history entry — separately undoable.
+  useEffect(() => {
+    if (sampleAutoRunRef.current) return;
+    if (!proposal || proposal.degenerate) return;
+    if (!episodeName) return;
+    sampleAutoRunRef.current = true;
+    void detectSamples();
+  }, [proposal, episodeName, detectSamples]);
+
   // Enter mapping mode for a label
   const enterMappingMode = useCallback((label: string) => {
     setActiveMappingLabel(label);
@@ -792,8 +810,19 @@ export default function SpeakerMapper({
 
   // Submit handler
   const handleSubmit = useCallback(() => {
+    const sampleDetectionIncomplete =
+      proposal !== null && !proposal.degenerate && (detectedSampleCount === null || detectedSampleCount === -1);
+    if (sampleDetectionIncomplete) {
+      const proceed = window.confirm(
+        'Movie sample detection did not complete. Every episode measured contained ' +
+          'movie samples, and undetected ones stay attributed to a host — which ' +
+          'corrupts segment chunks and metadata extraction downstream.\n\n' +
+          'Continue anyway?',
+      );
+      if (!proceed) return;
+    }
     onMappingComplete(dialogues);
-  }, [dialogues, onMappingComplete]);
+  }, [dialogues, onMappingComplete, proposal, detectedSampleCount]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -1137,6 +1166,33 @@ export default function SpeakerMapper({
                 </span>
               </div>
             ))}
+          </div>
+          <div className="mt-3 pt-3 border-t border-indigo-200 flex items-center gap-3 text-sm">
+            <span className="font-mono text-gray-500 w-8">—</span>
+            <span className="w-44 text-gray-700">Movie samples</span>
+            <span className="flex-1">
+              {detectingSamples ? (
+                <span className="text-gray-500">detecting…</span>
+              ) : detectedSampleCount === null ? (
+                <span className="text-gray-500">not started</span>
+              ) : detectedSampleCount === -1 ? (
+                <span className="text-red-700">⚠ detection failed — samples may be labeled as hosts</span>
+              ) : detectedSampleCount === 0 ? (
+                <span className="text-orange-700">
+                  ⚠ none found — every episode measured had some, so check by hand
+                </span>
+              ) : (
+                <span className="text-gray-700">{detectedSampleCount} turns labeled</span>
+              )}
+            </span>
+            <button
+              type="button"
+              onClick={detectSamples}
+              disabled={detectingSamples}
+              className="text-sm text-indigo-700 hover:text-indigo-900 disabled:text-indigo-300"
+            >
+              Re-detect
+            </button>
           </div>
           <datalist id="known-speakers-panel">
             {speakerSuggestions.map((name) => (
