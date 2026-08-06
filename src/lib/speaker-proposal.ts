@@ -220,6 +220,17 @@ const COLD_OPEN_TURNS = 25;
  * This is the weakest link in the chain and is exactly what the human confirms
  * in the cast panel. Labels that cannot be determined are omitted from the map
  * rather than guessed.
+ *
+ * Elimination-based assignment (guest-by-fewest-long-turns, Jason-by-what's-
+ * left) is only trustworthy once Haitch's self-intro has actually anchored a
+ * principal label — without that anchor there is no positively-identified
+ * starting point, and guessing from turn counts alone can silently misname a
+ * host or a guest (verified "guest talks least" only on n=2 episodes). Same
+ * logic for a supplied guestName that couldn't be bound (e.g. only 2
+ * principals, so the guest-binding branch never fires): that mismatch means
+ * the principal set doesn't match expectations, so Jason-by-elimination is
+ * skipped too rather than guessed. Declining (omitting the label from the
+ * map) is always the safe fallback here, mirroring nameCaller's tie refusal.
  */
 export function namePrincipals(
   dialogues: DialogueEntry[],
@@ -232,8 +243,13 @@ export function namePrincipals(
   const coldOpen = dialogues.slice(0, COLD_OPEN_TURNS);
   const haitchLabel = coldOpen.find((d) => HOST_SELF_INTRO.test(d.text))?.name;
   const isPrincipal = (label: string) => principals.some((p) => p.label === label);
+  const anchored = !!haitchLabel && isPrincipal(haitchLabel);
 
-  if (haitchLabel && isPrincipal(haitchLabel)) names.set(haitchLabel, 'Matt Haitch');
+  if (anchored) names.set(haitchLabel!, 'Matt Haitch');
+
+  // No anchor means no positively-identified starting point: return only
+  // what was actually found (nothing) rather than guess from turn counts.
+  if (!anchored) return names;
 
   // The guest speaks least of the principals — hosts carry the episode.
   const remaining = principals
@@ -241,13 +257,20 @@ export function namePrincipals(
     .sort((a, b) => b.longTurnCount - a.longTurnCount);
 
   const trimmedGuest = guestName?.trim();
+  let guestBound = false;
   if (trimmedGuest && remaining.length >= 2) {
     names.set(remaining[remaining.length - 1].label, trimmedGuest);
     remaining.pop();
+    guestBound = true;
   }
 
+  // A guest name was supplied but couldn't be bound (e.g. only 2 principals
+  // total) — the principal set doesn't match expectations, so decline rather
+  // than assign the leftover principal 'Jason Goldman' by elimination.
+  if (trimmedGuest && !guestBound) return names;
+
   // Whoever is left, if exactly one, is Jason.
-  if (remaining.length === 1 && names.size > 0) {
+  if (remaining.length === 1) {
     names.set(remaining[0].label, 'Jason Goldman');
   }
 

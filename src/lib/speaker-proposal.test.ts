@@ -161,3 +161,39 @@ test('namePrincipals names only Haitch when no guest name is available', () => {
   assert.equal(names.size, 1);
   assert.deepEqual([...names.values()], ['Matt Haitch']);
 });
+
+test('namePrincipals does not guess Jason by elimination when a supplied guest cannot be bound (2 principals)', () => {
+  // Only 2 principals total means the guest-binding branch (remaining.length
+  // >= 2) never fires, so the guestName is left unbound. That mismatch must
+  // NOT fall through to naming the other principal 'Jason Goldman' by
+  // elimination — a wrong name here silently corrupts segment sub-chunking.
+  const longText = Array(45).fill('word').join(' ');
+  const dialogues = [
+    { name: 'A', timestamp: '0:00', text: "Hey everybody, it's Haitch, and welcome to the show." },
+    { name: 'A', timestamp: '0:05', text: longText },
+    { name: 'B', timestamp: '0:10', text: longText },
+  ];
+  const principals = classifyLabels(dialogues).filter((l) => l.kind === 'principal');
+  assert.equal(principals.length, 2);
+  const names = namePrincipals(dialogues, principals, 'Some Guest');
+  assert.equal(names.get('A'), 'Matt Haitch');
+  assert.equal(names.has('B'), false);
+  assert.notEqual(names.get('B'), 'Jason Goldman');
+});
+
+test('namePrincipals declines every elimination-based assignment when Haitch never self-identifies', () => {
+  // No self-intro anchor means no positively-identified starting point.
+  // Naming anyone by "whoever is left" turn-count elimination risks
+  // misnaming a host or the guest — verified "guest talks least" only on
+  // n=2 episodes, no defense for when it doesn't hold.
+  const longText = Array(45).fill('word').join(' ');
+  const dialogues = [
+    { name: 'A', timestamp: '0:00', text: longText },
+    { name: 'B', timestamp: '0:05', text: longText },
+    { name: 'C', timestamp: '0:10', text: longText },
+  ];
+  const principals = classifyLabels(dialogues).filter((l) => l.kind === 'principal');
+  assert.equal(principals.length, 3);
+  const names = namePrincipals(dialogues, principals, 'Some Guest');
+  assert.equal(names.size, 0);
+});
