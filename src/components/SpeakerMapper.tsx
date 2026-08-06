@@ -11,6 +11,11 @@ import {
   isSampleCandidate,
   isSounderCandidate,
 } from '@/lib/reviewHeuristics';
+import {
+  proposeSpeakerMapping,
+  CONTAMINANT_SPEAKER,
+  type SpeakerProposal,
+} from '@/lib/speaker-proposal';
 
 interface SpeakerMapperProps {
   dialogues: DialogueEntry[];
@@ -126,6 +131,13 @@ export default function SpeakerMapper({
   // Refs
   const customInputRef = useRef<HTMLInputElement>(null);
   const sounderAutoAppliedRef = useRef(false);
+
+  // Auto-proposal. `originalLabels` is the raw diarization label per turn,
+  // snapshotted before the proposal renames anything — panel rows re-apply
+  // against it so renaming stays a one-click bulk operation afterwards.
+  const [proposal, setProposal] = useState<SpeakerProposal | null>(null);
+  const originalLabelsRef = useRef<string[]>([]);
+  const proposalAppliedRef = useRef(false);
 
   // Audio sync
   const { state: audioState, controls, setAudioRef } = useAudioSync(dialogues);
@@ -405,12 +417,77 @@ export default function SpeakerMapper({
     [saveToHistory, trackRecentSpeaker]
   );
 
+  // Re-assign every turn whose ORIGINAL diarization label matches, so a panel
+  // row still bulk-renames after the proposal has already changed the names.
+  const renameProposedLabel = useCallback(
+    (originalLabel: string, newName: string) => {
+      const trimmed = newName.trim();
+      if (!trimmed) return;
+      const indices = originalLabelsRef.current
+        .map((label, i) => (label === originalLabel ? i : -1))
+        .filter((i) => i >= 0);
+      if (indices.length === 0) return;
+      applySpeakerToIndices(indices, trimmed, `Rename ${originalLabel} → ${trimmed}`);
+      setProposal((prev) =>
+        prev
+          ? {
+              ...prev,
+              labels: prev.labels.map((l) =>
+                l.label === originalLabel
+                  ? { ...l, proposedName: trimmed, confidence: 'high', warnings: [] }
+                  : l,
+              ),
+            }
+          : prev,
+      );
+    },
+    [applySpeakerToIndices],
+  );
+
   useEffect(() => {
     if (sounderAutoAppliedRef.current) return;
     if (sounderCandidates.length === 0) return;
     sounderAutoAppliedRef.current = true;
     applySpeakerToIndices(sounderCandidates, 'Sounder/FX', 'Auto-detect sounder');
   }, [sounderCandidates, applySpeakerToIndices]);
+
+  // Propose a mapping once, on mount, as a SINGLE history entry so Ctrl+Z
+  // reverts the whole proposal at once.
+  //
+  // Guarded on placeholder labels: /review/new?load= feeds this component an
+  // already-mapped transcript, and re-running the proposal there would be
+  // destructive — it would re-classify "birria" as a caller label and re-strip
+  // turns a human already corrected by hand.
+  useEffect(() => {
+    if (proposalAppliedRef.current) return;
+    if (initialDialogues.length === 0) return;
+
+    const placeholders = initialDialogues.filter((d) => isPlaceholderLabel(d.name)).length;
+    if (placeholders < initialDialogues.length / 2) return;
+
+    proposalAppliedRef.current = true;
+    originalLabelsRef.current = initialDialogues.map((d) => d.name);
+
+    const result = proposeSpeakerMapping(initialDialogues, { guestName });
+    setProposal(result);
+    if (result.degenerate) return;
+
+    const renames = new Map<string, string>();
+    for (const label of result.labels) {
+      if (label.proposedName) renames.set(label.label, label.proposedName);
+    }
+    const contaminated = new Set(result.contaminants.map((c) => c.index));
+    if (renames.size === 0 && contaminated.size === 0) return;
+
+    saveToHistory(`Auto-proposed mapping (${renames.size} speakers, ${contaminated.size} stray turns)`);
+    setDialogues((prev) =>
+      prev.map((d, i) => {
+        if (contaminated.has(i)) return { ...d, name: CONTAMINANT_SPEAKER };
+        const proposed = renames.get(d.name);
+        return proposed ? { ...d, name: proposed } : d;
+      }),
+    );
+  }, [initialDialogues, guestName, isPlaceholderLabel, saveToHistory]);
 
   // Undo
   const undo = useCallback(() => {
@@ -1006,6 +1083,68 @@ export default function SpeakerMapper({
           </span>
         </div>
       </div>
+
+      {/* Cast panel — confirm or correct the auto-proposal */}
+      {proposal && !proposal.degenerate && proposal.labels.length > 0 && (
+        <div className="p-4 border-b bg-indigo-50">
+          <div className="flex items-center justify-between mb-3">
+            <span className="font-medium text-indigo-900">
+              Proposed cast — {proposal.labels.length} labels ·{' '}
+              {proposal.contaminants.length} stray turns moved
+            </span>
+            <button
+              type="button"
+              onClick={undo}
+              disabled={!canUndo}
+              className="text-sm text-indigo-700 hover:text-indigo-900 disabled:text-indigo-300"
+            >
+              Undo proposal
+            </button>
+          </div>
+
+          <div className="space-y-1">
+            {proposal.labels.map((row) => (
+              <div key={row.label} className="flex items-center gap-2 text-sm">
+                <span className="font-mono text-gray-500 w-8">{row.label}</span>
+                <input
+                  type="text"
+                  defaultValue={row.proposedName ?? ''}
+                  placeholder="unassigned"
+                  onBlur={(e) => {
+                    if (e.target.value.trim() && e.target.value.trim() !== row.proposedName) {
+                      renameProposedLabel(row.label, e.target.value);
+                    }
+                  }}
+                  className={`px-2 py-1 border rounded w-44 ${
+                    row.confidence === 'low' ? 'border-orange-400 bg-orange-50' : 'border-gray-300'
+                  }`}
+                  list="known-speakers-panel"
+                />
+                <span className="text-gray-600 w-28">
+                  {row.kind === 'caller' && row.runTurnCount !== row.turnCount
+                    ? `${row.turnCount}→${row.runTurnCount} turns`
+                    : `${row.turnCount} turns`}
+                </span>
+                <span className="font-mono text-xs text-gray-500 w-28">
+                  {row.runStart && row.runEnd ? `${row.runStart}–${row.runEnd}` : ''}
+                </span>
+                <span className="text-gray-500 truncate flex-1">
+                  {row.warnings.length > 0 ? (
+                    <span className="text-orange-700">⚠ {row.warnings.join(' · ')}</span>
+                  ) : (
+                    `"${row.sampleText.slice(0, 60)}…"`
+                  )}
+                </span>
+              </div>
+            ))}
+          </div>
+          <datalist id="known-speakers-panel">
+            {speakerSuggestions.map((name) => (
+              <option key={name} value={name} />
+            ))}
+          </datalist>
+        </div>
+      )}
 
       {/* Audio Player */}
       {audioUrl && (
