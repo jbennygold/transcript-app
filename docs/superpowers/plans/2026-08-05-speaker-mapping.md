@@ -19,7 +19,7 @@
 - Contaminants go to the existing `Overtalk/Interjection` category, **never** to a guessed host (host guessing measured 45.7% accurate).
 - Low confidence leaves the **raw label** in place — never `Voicemail (Unknown)`, which would make an episode look finished while being wrong.
 - Do **not** modify `src/lib/transcription-config.ts`. Narrowing the speaker range was tried, shipped, and reverted in `7fd3350`.
-- Tests must never assert on unassigned-turn count or label count. Score correct naming and body preservation only.
+- Tests must never use **tidiness as a success metric** — no assertion that fewer labels, fewer unassigned turns, or fewer callers is better. That is the metric that would have passed the `7fd3350` regression, where collapsing all five callers into hosts looked clean by turn counts. Asserting an *exact* classification against the human's known mapping (3 principals / 5 callers / 1 fragment on ep 317) is ground truth, not tidiness, and is required.
 - Existing behaviour must be untouched when the transcript is already mapped (the `/review/new?load=` re-map path).
 - Test runner invocation: `node --import tsx --test <files>`. Test files are colocated as `src/lib/<name>.test.ts`.
 
