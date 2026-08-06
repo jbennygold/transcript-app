@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 328 episodes - updated 2026-08-05
+// Auto-generated - do not edit - 328 episodes - updated 2026-08-06
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15716,7 +15716,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "guest": "Dave Mandel",
     "mmmCount": 0,
     "thatsGreatCount": 5,
-    "notableMoments": "",
+    "notableMoments": "- jason accusing Haitch of antisemitism for not liking Barton Fink",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "If you guys were to write a play, what would that play be about?",
