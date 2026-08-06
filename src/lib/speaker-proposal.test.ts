@@ -296,6 +296,24 @@ test('proposeSpeakerMapping fails open on a transcript with no principals', () =
   assert.ok(proposal.degenerate);
 });
 
+test('proposeSpeakerMapping degenerate results do not share array identity across calls', () => {
+  // EMPTY was a module-level const; `{ ...EMPTY, degenerate }` shallow-copies
+  // labels/contaminants by reference, so every degenerate result would share
+  // the same two arrays for the module's lifetime — a mutation by one
+  // consumer (or one warm-serverless request) would corrupt every other
+  // degenerate result until the container recycles.
+  const a = proposeSpeakerMapping([], {});
+  const b = proposeSpeakerMapping([{ name: 'A', timestamp: '0:01', text: 'Yeah.' }], {});
+  assert.ok(a.degenerate, 'a should be degenerate (empty transcript)');
+  assert.ok(b.degenerate, 'b should be degenerate (no principal labels)');
+  assert.notEqual(a.labels, b.labels, 'labels arrays must not share identity');
+  assert.notEqual(a.contaminants, b.contaminants, 'contaminants arrays must not share identity');
+  a.labels.push({} as never);
+  a.contaminants.push({} as never);
+  assert.equal(b.labels.length, 0, 'mutating a.labels must not affect b.labels');
+  assert.equal(b.contaminants.length, 0, 'mutating a.contaminants must not affect b.contaminants');
+});
+
 test('proposeSpeakerMapping flags the unresolvable fragment cluster', () => {
   const { raw } = loadPair(317);
   const proposal = proposeSpeakerMapping(raw, { guestName: 'Dave Mandel' });

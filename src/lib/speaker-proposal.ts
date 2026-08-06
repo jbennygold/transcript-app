@@ -354,7 +354,19 @@ export interface SpeakerProposal {
   degenerate: string | null;
 }
 
-const EMPTY: SpeakerProposal = { labels: [], contaminants: [], degenerate: null };
+/**
+ * Build a fresh degenerate proposal.
+ *
+ * Must construct new arrays on every call — a module-level constant spread
+ * with `{ ...EMPTY, degenerate: reason }` copies `labels`/`contaminants` by
+ * REFERENCE (shallow spread), so every degenerate result would share the
+ * same two array objects for the module's lifetime. In a warm serverless
+ * runtime that means one consumer mutating `proposal.labels` silently
+ * corrupts every other degenerate result until the container recycles.
+ */
+function emptyProposal(reason: string): SpeakerProposal {
+  return { labels: [], contaminants: [], degenerate: reason };
+}
 
 function longestText(dialogues: DialogueEntry[], indices: number[]): string {
   if (indices.length === 0) return '';
@@ -375,7 +387,7 @@ export function proposeSpeakerMapping(
 ): SpeakerProposal {
   try {
     if (!dialogues || dialogues.length === 0) {
-      return { ...EMPTY, degenerate: 'empty transcript' };
+      return emptyProposal('empty transcript');
     }
 
     const classified = classifyLabels(dialogues);
@@ -383,10 +395,10 @@ export function proposeSpeakerMapping(
     const callers = classified.filter((l) => l.kind === 'caller');
 
     if (principals.length === 0) {
-      return { ...EMPTY, degenerate: 'no principal labels found' };
+      return emptyProposal('no principal labels found');
     }
     if (callers.length > MAX_PLAUSIBLE_CALLERS) {
-      return { ...EMPTY, degenerate: `${callers.length} caller labels exceeds ${MAX_PLAUSIBLE_CALLERS}` };
+      return emptyProposal(`${callers.length} caller labels exceeds ${MAX_PLAUSIBLE_CALLERS}`);
     }
 
     const principalNames = namePrincipals(dialogues, principals, opts.guestName);
@@ -449,6 +461,6 @@ export function proposeSpeakerMapping(
 
     return { labels, contaminants, degenerate: null };
   } catch (err) {
-    return { ...EMPTY, degenerate: err instanceof Error ? err.message : 'proposal failed' };
+    return emptyProposal(err instanceof Error ? err.message : 'proposal failed');
   }
 }
