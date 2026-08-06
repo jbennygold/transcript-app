@@ -547,15 +547,14 @@ export default function SpeakerMapper({
   // pops the Movie Sample labels rather than the proposal — while
   // `detectedSampleCount` keeps reporting the stale count and the
   // Apply & Continue warning stays silently disarmed. Clear the
-  // sample-detection state alongside the undo so the panel and the submit
-  // warning both go back to "not detected yet". Also reset the once-only
-  // auto-run ref (not just `detectedSampleCount`) so a later re-detect —
-  // manual or auto, if `proposalHasNamedSpeaker` flips true again — isn't
-  // blocked by a ref latched from the run we just undid.
+  // sample-detection state so the panel and the submit warning both go
+  // back to "not detected yet". The once-only ref is deliberately NOT
+  // reset, because resetting it would re-trigger the auto-run on the same
+  // commit; manual re-detect is unaffected since those buttons call
+  // `detectSamples` directly.
   const undoProposal = useCallback(() => {
     undo();
     setDetectedSampleCount(null);
-    sampleAutoRunRef.current = false;
   }, [undo]);
 
   // Detect movie samples via LLM
