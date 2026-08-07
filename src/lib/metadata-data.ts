@@ -15776,9 +15776,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/e-t-extra-1982-165998680",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a106a7bd5ffd0be5b68b83781",
+    "letterboxdLink": "https://letterboxd.com/film/et-the-extra-terrestrial/",
+    "imdbLink": "https://www.imdb.com/title/tt0083866/"
   }
 ];
