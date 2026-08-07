@@ -1,0 +1,3866 @@
+{
+  "episode_number": 318,
+  "episode_name": "E.T. the Extra-Terrestrial (1982)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:28",
+      "text": "He's like, Well, what was like so advanced in the '80s? Was it just like, were you impressed if you had flashing lights? Is that what you thought was cool?"
+    },
+    {
+      "name": "C",
+      "timestamp": "0:35",
+      "text": "And we're joined by film journalist and author Max Evry."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:39",
+      "text": "Around 2008, he just said, he just said that was a bad idea. I'm not going to release those versions anymore."
+    },
+    {
+      "name": "E",
+      "timestamp": "0:47",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:47",
+      "text": "The summer of Jason continues with Steven Spielberg's 1982 masterpiece, E.T. the Extra-Terrestrial. If you're enjoying the show, we need your help."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:58",
+      "text": "Take a minute to leave us a five-star rating and review wherever you listen to your podcast, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:14",
+      "text": "Links are in the show notes. And now, without further ado, E.T. the Extra Terrestrial. All right, Max, you are back after 2 and a half years."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:28",
+      "text": "The last time we saw you, you were just about to watch—"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:33",
+      "text": "or sorry, you had just seen Dune Part 2, but Jason and I hadn't seen it yet. So I want to start by just asking, how are you feeling for Dune Part 3?"
+    },
+    {
+      "name": "A",
+      "timestamp": "1:43",
+      "text": "Well, first of all, it's great to be back. And I just want you guys to know, right before the podcast, I took a Tylenol and a Claritin, which I call, which I call a sweet ball. And, uh, so I'm, I'm ready to go. Um, but yeah, Dune Part 3, uh, you know, it, it looks really cool. I mean, part of the problem is, is I've, you know, I, I'm one of the lucky few, along with my friend Matt Caron, who's apparently listening right now."
+    },
+    {
+      "name": "F",
+      "timestamp": "2:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:12",
+      "text": "Oh yeah. Um, I'm one of the lucky few who's read David Lynch's, um, half-finished screenplay for Dune Messiah."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:20",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:20",
+      "text": "So yeah, so like, so, so I'm coming, I'm coming from that. I'm coming from like, you know, people getting really tiny and going into the fibers of the carpet. Yeah, I'm coming from, uh, yeah, uh, uh, Alia doing, uh, naked, uh, sword training or whatever. Yeah, sure, all that fun stuff that we never got, that we're not going to get with Denis. Um, yeah, but, uh, no, but I mean, I'm looking forward to it from the Denis perspective, which is, you know, he's doing the politics version of Dune. You know, like, for me, Dune is like 3 spheres. It's like there's the spiritual, which David covered in his movie. There's the political, which Denis is covering. And then there's the environmental, which I think nobody has covered yet."
+    },
+    {
+      "name": "G",
+      "timestamp": "3:09",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:10",
+      "text": "No one's actually interested in the ecological story, which is the entire origin of the thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:14",
+      "text": "Yeah, yeah, exactly. Yeah, it started with him surveying real sand dunes and stuff. Yeah. So it's—"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:20",
+      "text": "Someday someone will make the movie that is like the ecologically centered Dune that's really about how Richard Nixon was the right president for America and not JFK. Like, that'll be like the true— the Herbert children will manage to get that one across the finish line."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:38",
+      "text": "They'll have a ghola of Nixon. Like, do you miss me now?"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:41",
+      "text": "One of our great climate presidents, Richard Nixon."
+    },
+    {
+      "name": "H",
+      "timestamp": "3:45",
+      "text": "It's true."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:45",
+      "text": "Turns out."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:47",
+      "text": "Yeah, yeah, yeah. I mean, that was one of the things that was like, you know, bugged me when, um, I saw Disclosure Day, you know, which was, uh, you know, the, the whole thesis of that movie is, oh, like, you know, when people find out there's really aliens, it's gonna fix everything. And it's like, no, like, we, we know for a fact that the climate is being destroyed right now, and like, people just don't care because they've been, you taught it's fake news, or like they just— it doesn't change the price of grapes or whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "4:20",
+      "text": "Yeah, I live up here. During the summer, I'm up here in Oregon where there's a lot of wildfires this summer, and there are these horrible wildfires in Spokane, Washington that basically burnt 700 homes. And it was very, very scary. And I was reading all the news about it. I've been following it really closely. And it was about 24 to 48 hours before the This was like space lasers so that the Jews could buy up school games. Tweets started coming out. Like, I mean, it was like the same stuff that you saw, the same stuff you saw when the, in the Maui fires, like any, like people will explain away, like, you know, well, it will explain away. It's not even like it's beyond motivated reasoning. It's like, you know, hallucinatory reasoning where it's like people will come up with these completely fantastic explanations for things that have very clear causes. Um, and you know, just because they can't accept the actual revealed reality that we have fuck the planet, uh, because there's nothing— there's nothing like really fun about— I mean, like, there's no— there's no fix for it. Like, we're— it's just gonna be hotter for the next 100 years. And like, we're not— even if we stopped everything today, it's still— we're still gonna be screwed. And there's not really a, uh, uh, there's not really a welcoming message on that. Anyway, great."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:31",
+      "text": "But just to play devil's advocate, yeah, we should think— we should think about Big Oil's feelings too."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:36",
+      "text": "Yes, exactly. Not all oil."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:39",
+      "text": "Yeah, no, but it's funny though, because like the one, you know, I feel like I'm an archivist for, you know, Dune as a movie series. And I think that the one script I've read honestly that did it perfectly was like the least true to the book, which was Rudy Wurlitzer's script for Ridley Scott. And that one is bananas."
+    },
+    {
+      "name": "G",
+      "timestamp": "6:03",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:05",
+      "text": "It's almost crazier than the Lynch one. And it would have been hard R-rated. It would have been, you know, like a heavy metal comic book, you know, like that kind of maximalism and that kind of, you know, tone. You know, it almost felt like something like Zack Snyder would have done."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:22",
+      "text": "And that was like '72 or something?"
+    },
+    {
+      "name": "A",
+      "timestamp": "6:25",
+      "text": "The Ruedi Wurlitzer one was after Alien."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:28",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:29",
+      "text": "So it would have been late '70s, early '80s. So just before Lynch. But yeah, but like, that's the one that had the— Paul and Jessica incest stuff."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:40",
+      "text": "Jesus."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:41",
+      "text": "Yeah, like, it was— they were definitely pushing buttons and, you know, being edgelords with it. Yeah, but I guess Denis has been pretty good about riding the knife's edge of commerciality with what he's doing."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:56",
+      "text": "Well, you seemed mixed on—"
+    },
+    {
+      "name": "B",
+      "timestamp": "6:58",
+      "text": "when you saw Dune 2, you came at it fairly mixed. And I really liked the notion of taking Chani and putting her in conflict as a way to kind of hammer in more of the Paul as this is a dangerous thing. And I thought that was quite effective how they were able to do it."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:14",
+      "text": "Although you— I at least still end up rooting for him through Part 2."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:18",
+      "text": "If it's like, either you do this or everybody you love is going to be killed. Um, even though there is a piece where he, you know, is very explicit that this is about revenge. Um, so I, I, they, they walk that knife's edge, I think, pretty well."
+    },
+    {
+      "name": "I",
+      "timestamp": "7:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:33",
+      "text": "I mean, yeah. And just to be clear, like, The one I was really mixed about was Dune Part One. I actually really loved Dune Part Two specifically because I thought he did— he made really smart choices with Chani. And, you know, Chani's basically Kay in The Godfather. And, you know, yeah, I just thought it was a really cool way to come at it. And of course, most of David Lynch's Dune is in Dune Part One. So, you know, most of this stuff I was seeing for the first time on screen. So—"
+    },
+    {
+      "name": "C",
+      "timestamp": "8:05",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "8:07",
+      "text": "Yeah, I was happy. I was very happy with Dune Part 2. And yeah, we'll, we'll, we'll wait and see if, uh, if they can stick the landing here. But, um, it would have been— I think it would have been nice to have like maybe a few more years gap just to let everybody grow a little bit. But, you know, it's fine."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:24",
+      "text": "We got to let Denis move on to other things, man. We got to, we got to release the genie from the bottle."
+    },
+    {
+      "name": "F",
+      "timestamp": "8:28",
+      "text": "He's got to—"
+    },
+    {
+      "name": "A",
+      "timestamp": "8:28",
+      "text": "Yeah, he's got to move on to more, uh, exciting original properties like James Bond."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:33",
+      "text": "James Bond."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:34",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:35",
+      "text": "Oh man."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:36",
+      "text": "Well, we'll see. We'll see how, we'll see how he does."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:39",
+      "text": "But, you know, Max, we're super stoked to have you back on the pod. As you alluded to earlier, you know, you've been very focused on Dune, and you wrote the book on it, A Masterpiece in Disarray: David Lynch's Dune: An Oral History, which is just a fantastic book. Thank you. I love reading it from the perspective of will they, won't they, in terms of get the interview with Lynch, to try and see how that was gonna happen, and kind of like the unfolding of that. And I All of the, just the, the obvious love that so many people who were involved had for that project. We're still waiting for the, the Dino documentary movie, limited series, whatever. Like, I can't believe that hasn't been done as an incredible story. It's just too wild. The life—"
+    },
+    {
+      "name": "A",
+      "timestamp": "9:29",
+      "text": "Yeah, yeah, yeah. It's funny, I've said this on a couple of other shows, but like, you know, for, you know, for anybody listening, Who wants to buy the rights to A Masterpiece in Disarray to turn into like a Netflix show or something like that. Like, I, I will tell you just from my experience with the story, like, the way to go in if you were to do the making of David Lynch's Dune, um, Raffaella is the main character, not Dave— not David Lynch. And because she, she was the one holding everything together. She was speaking 7 languages on set. You know, she was putting out all these crazy fires, and, you know, David is being, you know, quirky David the artist, and he'd be a great side character. But like, yeah, like, she's, you know, she's like a really young woman in her early 30s making this gargantuan science fiction epic in Mexico. I just think that's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:22",
+      "text": "This is great. Does Timothée play David? Like, how does that—"
+    },
+    {
+      "name": "A",
+      "timestamp": "10:28",
+      "text": "I think Paul Dano is who you get. For David."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:30",
+      "text": "Oh, wow."
+    },
+    {
+      "name": "G",
+      "timestamp": "10:32",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:32",
+      "text": "Yeah, I saw, I saw a picture of David on the set of Eraserhead, and I was like, oh God, he looks just like Paul Dano."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:37",
+      "text": "Amazing. Amazing. Well, uh, and so you have a new book that is coming up, and that immediately popped out, uh, when I, when I reached out to you to come back on the pod, and that drove the decision for what we are covering tonight as we finally phone home and cover E.T. the Extra-Terrestrial. This is very exciting for the podcast."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:03",
+      "text": "It's very exciting."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:03",
+      "text": "Yeah, you have the new book Stranded on Earth: How Night Skies Became E.T."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:08",
+      "text": "the Extra-Terrestrial coming up on October 27th. How are you feeling to get this one out there?"
+    },
+    {
+      "name": "A",
+      "timestamp": "11:13",
+      "text": "Oh my God, I'm so excited. Yeah, it was, it was, it was another 2-year odyssey, you know, trying to pull this thing together. Um, you know, it was one of those things where like, I got a, I got a pretty decent advance this time, and I was like, all right, if I, if, if I, you know, if I can get this out, if I can get it done by January, I'll be good. And we just finished it 2 years later. So it's like, yeah, it was, it was, it was, it was a, it was a mad thing. And, and one of the most crucial voices in the whole book I didn't get until right before we went to press."
+    },
+    {
+      "name": "G",
+      "timestamp": "11:48",
+      "text": "Oh, wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:49",
+      "text": "Yeah, it was a nail-biter. And, um, yeah, and I, yeah, I, I think, uh, People are going to really be fascinated with this story because it, you know, like David Lynch's Dune, E.T. is one of the few mega properties left from that era, that '80s era of, you know, golden era of science fiction, uh, that hasn't really been given a proper, um, you know, book. There have been a couple books."
+    },
+    {
+      "name": "E",
+      "timestamp": "12:22",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:23",
+      "text": "And a couple, and a couple documentaries and stuff. Um, but they're all official and they're all kind of soft pedal, you know. And it's like they got great access to like, you know, documentary footage and, you know, uh, and documents and things like that. But, you know, the trade-off is they can't go into a lot of the stuff that I can as, as an unofficial, unconnected, uh, you know, person. Yeah, like Amblin had Absolutely no involvement with this. They made that very clear to me. And, um, yeah, so it's, it's, it's fun. And that, that's what makes it fun. It's like the rogue E.T. book, you know. It's the dark side of E.T. or whatever."
+    },
+    {
+      "name": "E",
+      "timestamp": "13:03",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:04",
+      "text": "Um, but yeah, yeah, strung out on crack. Yeah, E.T. hitting on Drew Barrymore in the green room. Yeah, no, but it's, it's, uh, no, it's, it's— but, you know, it's just because it's unofficial doesn't mean that, like, I go to, like, you know, salacious places. It's just very honest about the business and the creative process and, you know, and, you know, some of the eggs that Spielberg had to break to make that omelet."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:30",
+      "text": "Well, we're gonna mine some of that."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:32",
+      "text": "We'll let you keep your secrets for when the book comes out."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:35",
+      "text": "Is it gonna have the same kind of filigree on the edges as Disarray?"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:40",
+      "text": "'Cause, like, the red and the blue both are gorgeous."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:43",
+      "text": "Oh, thank you. Yeah, no, we, we didn't do that because, uh, uh, the idea of sending a book to China and the kind of taxes we're gonna get on that right now, just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:52",
+      "text": "yeah, right, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:54",
+      "text": "Yeah, so yeah, I mean, last time the book got held up by a typhoon."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:58",
+      "text": "Um, oh geez."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:58",
+      "text": "But, uh, yeah, like, the— this one, we are doing something fun with the COVID And when you buy your copy of Stranded on Earth: How Night Skies Became E.T. the Extraterrestrial, out October 27th, you will find a special something with the COVID Great."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:12",
+      "text": "And are you reading the audiobook?"
+    },
+    {
+      "name": "A",
+      "timestamp": "14:14",
+      "text": "I hope to. Yeah, yeah, we're sort of figuring out the most economical way to do that because I just did an audio— I just put out an audiobook of A Masterpiece in Disarray, which is now available on Audible. You can get it. But yeah, and you know, every mistake we could have made, we did. It was, it was a long process. I mean, part of that was because we actually did, like, you know, we hired a cast, you know, because you can't just be me doing an oral history for 16 hours, you know."
+    },
+    {
+      "name": "G",
+      "timestamp": "14:48",
+      "text": "Right, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:49",
+      "text": "So yes, we have, like, you know, an actor doing all the male voices, an actress doing all the female voices, and, and it was just— and then I'm doing all the interstitial stuff. It's just a lot of editing and a lot of all that stuff. So yes, I think this one's going to be more streamlined. This one is not an oral history anyway, so it'll lend itself more to just being, you know, just one dude doing it. But, um, yeah, yeah, I mean, I think it'll be really fun. But I mean, um, I'm just excited for, you know, like, if you're listening to this and you're a Spielberg fan, uh, Stranded on Earth is like, uh, Easter, Christmas, and Hanukkah all rolled into one for you."
+    },
+    {
+      "name": "I",
+      "timestamp": "15:22",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:23",
+      "text": "So it's a, it's a, it's, uh, because we don't just—"
+    },
+    {
+      "name": "C",
+      "timestamp": "15:26",
+      "text": "we don't—"
+    },
+    {
+      "name": "A",
+      "timestamp": "15:26",
+      "text": "it's not just talking about You know, the evolution of Night Skies into E.T., you know, which if your readers— or sorry, if your listeners don't know, you know, Night Skies was a horror movie with aliens that, you know, it was aliens attacking a farm family."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:46",
+      "text": "It's like an assault. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:47",
+      "text": "Yeah, it was basically Straw Dogs with aliens. And yeah, it was gonna be really scary. It was gonna be really cool. But yeah, Spielberg got cold feet. And then they overhauled the project and it became the movie we're going to talk about today. And yeah, and it's, you know, that in and of itself is very cool and takes up a lot of the book. But then we also talk about, you know, what led into that. You know, we get into Close Encounters, we get into Spielberg's high school movie Firelight, which was another alien movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:19",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:19",
+      "text": "And then we get into all the stuff that sort of came downstream after, you know, we talk about Poltergeist and Gremlins and how night skies fed into that. And yeah, yeah. And then other more contemporary, you know, things like Signs and Nope. And, you know, yeah, yeah, yeah. If there was a, if there was a movie with a farm and some aliens, I'd talk about it. That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:42",
+      "text": "That's a wide net. It's a wide net."
+    },
+    {
+      "name": "H",
+      "timestamp": "16:44",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:45",
+      "text": "Well, well, we'll get to that in just a few minutes at the bottom of the hour."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:48",
+      "text": "We're going to get into E.T. the Extra-Terrestrial. Before we do, Jason, Next week. Yes, we're off, baby."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:58",
+      "text": "Oh, thank God. I'm in St. Louis, baby. I'm going."
+    },
+    {
+      "name": "E",
+      "timestamp": "17:00",
+      "text": "Are you ready?"
+    },
+    {
+      "name": "D",
+      "timestamp": "17:01",
+      "text": "Motherland. Yeah, yeah, I'm ready."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:03",
+      "text": "How is it?"
+    },
+    {
+      "name": "G",
+      "timestamp": "17:04",
+      "text": "Wet."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:04",
+      "text": "Yeah. What do you got going on over there when you're, when you're in the homeland?"
+    },
+    {
+      "name": "F",
+      "timestamp": "17:09",
+      "text": "I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:10",
+      "text": "It's been, it's been, um, 7 years or 6 years since I've been home, so it's, it's not like I have like— but I mean, you know, it'll be— so Juniper's first time ever there, Griffin's first time since he could remember, you know. And so we'll hit all the classics. We're gonna do A lot of eating to do. St. Louis-style pizza, toasted raviolis. Um, got to get like all the, all the, all the greatest hits, um, food-wise. Um, is there barbecue there? City Museum, which is really cool. We'll hit that up. Um, and yeah, you know, go to see my mom, her house, my brother, his wife. You know."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:45",
+      "text": "Is St. Louis where Skyline Chili is from?"
+    },
+    {
+      "name": "D",
+      "timestamp": "17:48",
+      "text": "I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:49",
+      "text": "That's Cincinnati."
+    },
+    {
+      "name": "G",
+      "timestamp": "17:50",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:51",
+      "text": "All right."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:52",
+      "text": "And my wires crossed."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:53",
+      "text": "Close. Yeah, yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:56",
+      "text": "Every Midwestern town has its own, uh, you know, like culinary staple that's horrible for you, um, and probably not that good, but like is revered. And I love St. Louis-style pizza. I make no apologies for it. I think it's great. Um, so I'm excited to have it when I get there."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:11",
+      "text": "I guess I'll be eating Pace hot sauce because I'm gonna be in New York City."
+    },
+    {
+      "name": "H",
+      "timestamp": "18:15",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:16",
+      "text": "So pretty excited about that. We have, uh, we go to Outside Lands for one day On Friday, uh, go see Sierra Feral and Geese."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:26",
+      "text": "You up to date on Geese, you guys?"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:28",
+      "text": "Like, uh, big indie band."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:30",
+      "text": "Yeah, I'm familiar. The children like it."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:32",
+      "text": "The children love it. Uh, and then flying out the next morning at like 4:30, and then we'll be running around in New York midweek next week, and then, and then back."
+    },
+    {
+      "name": "F",
+      "timestamp": "18:41",
+      "text": "That's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:42",
+      "text": "So very exciting."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:44",
+      "text": "But when we come back the following week, we have Sarah Baikpour is returning to the pod."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:51",
+      "text": "The goat."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:53",
+      "text": "I was like, what do you want to do?"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:54",
+      "text": "And she's like, listen, it's still hot Nolan summer. It is time to do The Dark Knight. The film bros can feel it in their bones. Someone else is talking about The Dark Knight finally. So—"
+    },
+    {
+      "name": "D",
+      "timestamp": "19:12",
+      "text": "I love it."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:13",
+      "text": "Very, very, very excited."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:16",
+      "text": "Can we do some quick Hatch news?"
+    },
+    {
+      "name": "A",
+      "timestamp": "19:17",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "E",
+      "timestamp": "19:18",
+      "text": "Hatch news from beyond."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:23",
+      "text": "Guys, the box office—is it back?"
+    },
+    {
+      "name": "D",
+      "timestamp": "19:26",
+      "text": "Yeah, the box office is back in a big way. We've solved it. We—the answer is Tom Holland. Yeah. Tom Holland and Zendaya—the the the—that is what is required to fix all of our woes. Pretty incredible. Four hundred and thirty million dollars."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:46",
+      "text": "Three sixty million for Spider-Man: Brand New Day."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:49",
+      "text": "Fifty million for The Odyssey in its fourth weekend. Yeah. But Brand New Day did $932 million worldwide opening weekend. Pretty good."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:00",
+      "text": "Without IMAX. I mean, they had premium formats, but they had, they had held over IMAX for Odyssey. They'll get IMAX this weekend and it will blow past $2 billion on its second weekend."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:09",
+      "text": "I love how, I love how, what a fair-weather friend IMAX was to The Odyssey."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:13",
+      "text": "Yeah. It was like, okay, we didn't know the other, we didn't know about the spider situation."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:17",
+      "text": "Yeah. Yeah. Yeah. Sorry, buddy. You're outta here."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:20",
+      "text": "Well, no, it's the same. It's the same deal that Denis got for Dune Part 3."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:24",
+      "text": "It's 3 weeks of exclusive, but that's it. And I think this is interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:30",
+      "text": "I am formally—"
+    },
+    {
+      "name": "B",
+      "timestamp": "20:31",
+      "text": "like, I already know that I've lost my Calshi bet because I had, I had bet $25 that Doomsday would move off of December 18th."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:38",
+      "text": "Oh, right. I didn't even know there was a market on that."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:41",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:41",
+      "text": "I am now officially here to say that I was wrong and Avengers: Doomsday is going to Do absolutely blockbuster numbers. They have just proven that they don't need IMAX. Dune's gonna do fine. Dune will do big numbers, but Avengers: Doomsday is gonna absolutely crush opening weekend."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:00",
+      "text": "It probably it it probably will. I do think like the like you know the special sauce that is Spider-Man that is the Tom Holland Spider-Man like is worth is is kind of worth dialing into because like. Tom Holland is now in 4 out of the top 5 top-grossing box office weekend movies of all time. And the reality is that there's just something— we went to go see it opening weekend. We brought the kids. We loved it. The kids particularly liked how much the Punisher swears in it."
+    },
+    {
+      "name": "G",
+      "timestamp": "21:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:38",
+      "text": "And they really pushed the PG-13 with a liberal Sprinkling of shits. They love that. And I think like you know for for I think the the the movie is great. It's really fun. The action's tremendous. It's like darker and grittier and like sadder and like a lot of heart. It's fucked up. A lot of heart. But like the like it is connected to like the meta narrative about it. Like you are aware that you're watching like Tom Holland and Zendaya who are married and like you know you there's like this there's there's something about that that makes it. Um, that like draws you in, at least for like a certain type of film watcher. And they're like, onscreen chemistry is phenomenal. And like, it's just, uh, it's really great. Like, he's, he's, he's, he's like, uh, he's the, he's the fucking ascendant GOAT right now. Like, like, it's all he needs to do is for this, this fucking dancing movie to open huge and be a huge hit and get like an Oscar nomination. Then he, it's all of a sudden he's like the return of the movie star. Like, it's, it'll be a whole other thing."
+    },
+    {
+      "name": "H",
+      "timestamp": "22:35",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:35",
+      "text": "I, I can actually chime in a little bit on this because I don't know if you guys know, I write for Box Office Pro. Um, oh, but, uh, yeah, so I cover the box office extensively. And, uh, like one of the sort of the, you know, the buried things, you know, um, besides, you know, after A Brand New Day became the biggest opening weekend of all time, was this was also the biggest weekend of all time, right, for the box office. You know, I think the, the previous was for Endgame, which was like $402 million, right? This was $400 and over $430 And, um, yeah, and, and now, you know, just talk, you know, bringing it back to, uh, Dunes Day. Um, you know, like, uh, you know, like, will Dunes Day break $500 million? Will it do $600 million? You know, like, who— like, are we gonna get 2 movies that just, um, Barbenheimer each other? Yeah. Um, yeah, and, uh, yeah, like, yeah, like some kind of a crazy blockbuster dyad or whatever. Yeah, it's gonna be, you know, is it gonna be like the craziest thing? Ever, which is like multiple—"
+    },
+    {
+      "name": "C",
+      "timestamp": "23:41",
+      "text": "yes, it is."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:41",
+      "text": "We have 10 screens and we're just showing 2 movies."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:44",
+      "text": "That's it. Yeah, I think it's gonna be completely crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:47",
+      "text": "It is interesting, like, from a solipsistic perspective, like, the period in which, like, the movies were over was the period in which I had, like, very young children, like newborns and, like, toddlers. And now movies are back in the age in which I can take my kids to the movies. And, like, you know, we're, you know, we took them to see Spider-Man: Brand New Day, and we will take them to see Dune 3. We've watched both of the Dune movies as a family. Together before, and so it's like it's like now like you know it's like all right like movies are back and like I'm helping like you know we're in it. I'm doing my part."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:17",
+      "text": "It feels exciting."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:18",
+      "text": "It feels exciting. Yeah, I took my four-year-old to Brand New Day because she loves Spider-Man, and yeah, like I gotta say you know I have issues with that movie. I think it's way too fucking long. It's way too long. Uh, she was in it. She was in it to win it. Like she's stayed in her seat the whole time, and she was following along."
+    },
+    {
+      "name": "G",
+      "timestamp": "24:38",
+      "text": "So there there must be they must be doing something right."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:40",
+      "text": "Right. If my 4-year-old can sit for that thing, then yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:44",
+      "text": "I completely agree. I was like, no one took a bathroom break during the movie. No. Um, and like, it was just like, it was, yeah, people were, people were committed to Spider-Man. Um, it was really fun. And we had watched, um, No Way Home the night before to sort of prep everyone."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:00",
+      "text": "We watched it a week before. Yeah, that was helpful."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:02",
+      "text": "And the kids, the kids rate Spider-Man 5, uh, A Brand New Day is like 5 out of 5. Favorite Spider-Man movie of all time. Better than Into the Spider-Verse, Across the Spider-Verse. Like it is. Whoa! I think little kids are very recency biased, but they it is a it was a huge family huge family hit in the Goldman home."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:22",
+      "text": "Sam Sam's favorite bit was small potatoes big potatoes. He just kept quoting that all weekend long."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:28",
+      "text": "The kids were really excited to see Princess Irulan and Shani. They were like, wait a minute, what is going on? Yeah. It's a thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:36",
+      "text": "That's really funny. That's really funny. All right, well, that's—"
+    },
+    {
+      "name": "C",
+      "timestamp": "25:39",
+      "text": "that was great."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:39",
+      "text": "It was really fun to go see that, um, at a nice— at my local theater, which added Atmos so that it could be called Infinity Vision. Um, so it was awesome to be able to see it."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:50",
+      "text": "We saw it in ScreenX, baby. We saw it with the shit on the side."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:53",
+      "text": "Whoa."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:54",
+      "text": "Which is fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:55",
+      "text": "Yeah, the one I don't like— the one I don't like is— I don't remember what it's called."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:59",
+      "text": "40X?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:00",
+      "text": "Is it 40X? The one where like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:02",
+      "text": "Where they punch you in the head?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:03",
+      "text": "They punch you in the back? Yeah, I don't like that one. Yeah, Francis."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:09",
+      "text": "Francis. Well, yeah, I'll, uh, Florence Pugh. Sorry, I don't know why I always call her Francis."
+    },
+    {
+      "name": "H",
+      "timestamp": "26:13",
+      "text": "That's a—"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:14",
+      "text": "no, thank you."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:15",
+      "text": "I'll see I Want Your Sex in 40x."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:17",
+      "text": "Yeah, how's that supposed to be? That people like that movie? Is that out?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:21",
+      "text": "It didn't do well. It did not do well. No, I think it's just really hard to sell an erotic thriller, even if it's erotic comedy thriller."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:29",
+      "text": "Is it Greg Araki?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:30",
+      "text": "Yeah, it's Greg Araki. And so he's not, he's not like big box office anyway."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:34",
+      "text": "He has never fucking done a thing for me, man. That guy, that there's something about the way that guy is wired. What's his biggest movie? Uh, the teenage one."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:44",
+      "text": "The Doom Generation."
+    },
+    {
+      "name": "I",
+      "timestamp": "26:45",
+      "text": "Doom Generation."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:46",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:47",
+      "text": "Never saw it."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:47",
+      "text": "Like, there's something about that guy, the way that like, like my brain reads him as a threat. I'm just like, it's not for like, whatever this is, it's not for me."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:57",
+      "text": "But Olivia Wilde is getting all the accolades for The Invite, for her."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:01",
+      "text": "Everyone loves The Invite, which I haven't seen."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:03",
+      "text": "Yeah, but they're saying her direction in particular is like completely next level, which is wild."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:09",
+      "text": "I'll be excited to see that."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:10",
+      "text": "Yeah, I mean, I liked her first movie, the one that was Don't Worry Darlings."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:14",
+      "text": "Huh? Oh, Booksmart. Booksmart."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:17",
+      "text": "Yeah, the one that's like super bad for girls. I loved it. Great movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:21",
+      "text": "Great. Absolutely fantastic. Yes, fantastic movie. All right, so 2 other quick pieces of Hatch news. Jason, Hot D is rounding the corner."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:26",
+      "text": "Are you up to I'm not up to date. I'm not up to date. Well, I ended up in— I ended up in a— I'm like, I'm— I don't think I've seen past episode 3. It was sort of a thing where I ended up ahead of— I watched it without Crystal, and then like, I was like, I can't— I want to be able to watch this together. Yeah, we never have. And so I'm just not watching it, and I'll get to it. I will. We will eventually get to it."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:50",
+      "text": "Okay, good shit is happening. Are you watching, Max? You watching the show?"
+    },
+    {
+      "name": "A",
+      "timestamp": "27:54",
+      "text": "I don't even know what you're talking about."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:56",
+      "text": "House of the Dragon."
+    },
+    {
+      "name": "G",
+      "timestamp": "27:57",
+      "text": "Sorry."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:58",
+      "text": "Oh, oh yeah, I was like, hockey, that could be a show. That could be a show with hockey, gay hockey players or whatever."
+    },
+    {
+      "name": "G",
+      "timestamp": "28:04",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:05",
+      "text": "Um, no, like, uh, no, I don't watch any of the, uh, the Thrones-iverse, uh, the Game of Thrones spin-offs or whatever. I mean, like, I made it through, all right? I think I, I was like, I'm done, I'm good. Like, I actually like— I'm like a last episode of Game of Thrones apologist. I liked it."
+    },
+    {
+      "name": "E",
+      "timestamp": "28:20",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:21",
+      "text": "You know, like, everybody, everybody was like, They rushed through it. I'm like, you wanted more? You wanted them to keep going?"
+    },
+    {
+      "name": "B",
+      "timestamp": "28:27",
+      "text": "You didn't get enough?"
+    },
+    {
+      "name": "E",
+      "timestamp": "28:28",
+      "text": "You want—"
+    },
+    {
+      "name": "A",
+      "timestamp": "28:28",
+      "text": "you wanted them to keep like, like, like one per— like 2 characters get on a boat and leave 2 other characters on the shore, you know? And that keeps happening over and over again. You're like, oh my God, we're on 57 plot threads now. Um, yeah, no, I'm like, wrap it up. Thank you. Goodbye."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:45",
+      "text": "Yeah, yeah, fair enough. Fair enough. It was ready to be wrapped up. Uh, just there were a couple decisions that didn't quite work for me."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:51",
+      "text": "Yeah, I feel bad for anybody who got a Daenerys tattoo."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:55",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:59",
+      "text": "But I also started, Jason, over the weekend, speaking of our friends, Lucky, which stars our dear Saint Alia of the Knife."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:11",
+      "text": "We have Anya Taylor-Joy in her action star mode."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:15",
+      "text": "That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:15",
+      "text": "And this is Jonathan Tropper, who like He even in the pilot on this podcast, he did Long Kiss Goodnight, and he has a Long Kiss Goodnight homage like right in the right in the pilot."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:26",
+      "text": "Yeah, I have to watch this one."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:28",
+      "text": "Yeah, I liked it. I'm only one episode in, so I would say check that out, folks. Great."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:35",
+      "text": "Boom! I will watch that. Good. Thank you."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:42",
+      "text": "All right. Are you guys ready to get into this movie? Let's do it. All right, here we go."
+    },
+    {
+      "name": "E",
+      "timestamp": "29:51",
+      "text": "E.T."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:51",
+      "text": "the Extra-Terrestrial is the story of how we find family in the unlikeliest of places."
+    },
+    {
+      "name": "I",
+      "timestamp": "29:58",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:59",
+      "text": "Way back in 1982, when a spaceship of gentle alien botanists is startled from a quiet California forest by government men, one of their members is accidentally left behind, frightened and alone in a world of backyards and cul-de-sacs. But his luck changes when he is found by Elliott, a 10-year-old aching from his parents' recent divorce, who sees in him a kindred spirit, coaxes him inside, and hides him from the grown-ups with the help of his older brother Michael and little sister Gertie."
+    },
+    {
+      "name": "G",
+      "timestamp": "30:28",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:29",
+      "text": "As Elliott and the creature grow closer and discover that they each experience what the other feels, they embark on a mission to allow him to phone home, And finally return there. But as he grows sick and shadowy agents close in, Elliott and his pack of neighborhood kids will make an impossible dash on their BMX bikes, risking family and freedom so they can at last say goodbye to E.T. the Extra-Terrestrial. Good, strong, good stuff. All right, Max, I was 12 in 1982, so I saw E.T. in the theaters and loved it, saw it many times, watched it on video, etc., etc. What was your first experience with E.T.?"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:34",
+      "text": "So, I mean, I feel like— I mean, I was less than 1 when it came out, so I, I probably did not see it in a movie theater. I might have seen it when it came out re-released in 1985. Okay. But I know for sure that we got that VHS tape in 1988 when it finally hit VHS. For those who don't know, they, they, uh, They kept that to themselves for a long time, you know, like, yeah, from 1982 to 1988, no home release. And then finally, um, they did it. And of course, we, you know, we wore that tape to the nub. Like, that movie was amazing. Um, but I, I— there is like this weird, like, kind of a cultural dissonance when it comes to E.T., I think, because like, I think There's the movie, and then there's sort of the collective consciousness of the movie, which sees it as something that I don't know if it actually is, which is, I think, more an impression of the marketing and the merchandising and the sort of the cutesiness of all that. It's actually not a cutesy movie. It's like a pretty, um, you know, honest depiction of, you know, the way children behave and emotions. And, you know, it's a story about—"
+    },
+    {
+      "name": "I",
+      "timestamp": "32:55",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:56",
+      "text": "You know, surviving a divorce and learning to let go. And yeah, like, it's, it's, it's, it's a, it's a much different movie than I think, you know, it's, it's perceived, you know, as this sort of kids Disney kind of thing about, you know, a cute alien. But it's like the alien isn't even that cute. He's kind of gross."
+    },
+    {
+      "name": "G",
+      "timestamp": "33:16",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:18",
+      "text": "Yeah, like, I think, I think I have a quote from Mr. Spielberg in the book where he said, he said, Um, it looks like a toad that's been sat upon."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:27",
+      "text": "Yeah, yeah, squashy."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:30",
+      "text": "Yeah, we're gonna get— yeah, we're gonna spend some time on, on the design for sure. I definitely want to get— yeah, I want to, I want to get into that, uh, in detail. But, uh, Jason, what about you? What was your first time, uh—"
+    },
+    {
+      "name": "D",
+      "timestamp": "33:41",
+      "text": "Saw it in the theater. I was 6 years old."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:43",
+      "text": "Nice."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:44",
+      "text": "Okay, saw it in the theater, was pretty emotionally affected by it, like the E.T. dying, Elliott dying. Um, despite that was Eager to show it to my kids because I think it was like, \"Yeah, let's just see what happens.\" And I think because it was like somewhat affecting to me as a kid, it wasn't. It's not a movie I've rewatched a ton. I we had it on VHS, I'm sure. And I've seen it like I've seen it enough. I've seen parts of it enough. Like when I was rewatching it last night, I was like, \"Yeah, okay.\" Like I know all things in there, but like. Um, I really haven't— I probably haven't seen it in like 40 years or something. Like, it's not one that I've really revisited a ton. Um, and so seeing it last night, I was kind of like approaching it with like, yeah, and the sort of the comment that you made about Max about like, you know, like there's a way in which it's remembered because of the marketing and the cultural phenomenon it became, the biggest movie of all time of it all. Um, that I think is distinct from the actual experience of watching it. Like, the actual experience of watching it is it's a different kind of movie than like, oh, it's this like story of like, you know, childhood wonder and love and, and cutesiness, or, you know, whatever. It's like, it's— it— there's, there's aspects of that that were emotionally— it really works. But there's, there's a, a whole other layer that's like, um, that's, that's none of that. That's like, you know, that's kind of like the classic Spielbergian stuff from this period that's about families in crisis, families having difficulty, like the nature of secrets in suburban life, like all of that stuff. Um, Mm-hmm. Yeah. So it was, it was really interesting revisiting it last night."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:19",
+      "text": "Yeah, and it's interesting too that the, you know, the last episode we did together was Eraserhead, and this is like Eraserhead. E.T. is a movie that hits you way different once you've had kids."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:30",
+      "text": "Right, totally. Yeah, it's like when I saw the movie when I was 6, my parents weren't yet divorced, so like, and like the whole aspect of it being about divorce, I don't think I was really conscious of. Um, no, like now you're sort of seeing the movie through the mom's eye a lot more as a parent. Yeah, it's, it's a very different experience watching it. I also, I should say, I saw it in like 4K Um, you know, last night and I hadn't seen it in like, um, you know, I, I like probably saw it in like pan and scan. Like I probably saw it like once in its original aspect ratio and since then have always seen it like chopped up or whatever. Um, and so yeah, it was interesting seeing it like in a really good version."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:02",
+      "text": "Yeah. Yeah. Yeah. I was like, I'm like, wow, Elliott really likes the Hulk. There's Hulk crap everywhere."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:08",
+      "text": "You get to see it. You can see all these details, all of this, like all of this stuff that's layered in the background. It's very interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:15",
+      "text": "But so much Star Wars. Like, Star Wars is so saturating, absolutely everything."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:20",
+      "text": "Yeah, there's something which felt like correct for like— I mean, it was 1982, it was like the, the absolute peak."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:27",
+      "text": "Yeah, yeah, yeah. And, and if we, if we get to talk at all about Night Skies later, um, you know, I definitely want to bring up an interesting Star Wars connection there. But like, um, but I do just in general, I do enjoy That, that, you know, that these guys are talking to each other through their movies, you know, like, yeah, yeah, Spielberg's putting Lucas's stuff in his, and then later the ETs show up in Phantom Menace. And, you know, it's like, it's fun."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:54",
+      "text": "It's really fun."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:56",
+      "text": "And the notion of like what all came out of USC and, you know, Milius, uh, you know, who people thought was going to be the best of all of them, you know, just that group of people that were kind of doing their thing then. And it was just really, really, really fascinating."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:11",
+      "text": "Well, so let's do some behind the scenes."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:13",
+      "text": "So Max, I usually run this portion, but I'm gonna kind of like have you give us— so, so, you know, walk us through kind of some of the initial parts here for how Night Skies was starting up. And then my one question I have is, was Sid Sheinberg involved? Was he part of this process at Universal?"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:34",
+      "text": "Oh, of course."
+    },
+    {
+      "name": "H",
+      "timestamp": "37:35",
+      "text": "Of course."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:36",
+      "text": "Yeah, still in the mix."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:37",
+      "text": "Can't do anything without somebody."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:38",
+      "text": "Still in the mix, yes. Another, another, yeah. And there are definitely some crossover with the Dune book, you know, in terms of, you know, some recurring characters that I got to talk to, you know, and some new ones too. Although I had a difficult time tracking down— I wanted more executives, but like a lot of them were dead."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:57",
+      "text": "Yeah, totally."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:59",
+      "text": "So I mostly talked to the ones who were kind of young at the time. But yeah, like, it was, it was very much an old man's, you know, kind of, you know, business running studios at that time. And, you know, you were just getting this influx of the younger executives, you know, like, you know, just like you were getting the influx of young filmmakers, um, like Spielberg and Lucas. Uh, but yeah, no, it's, um, it, it doesn't start at Universal, it starts at Columbia, you know."
+    },
+    {
+      "name": "J",
+      "timestamp": "38:26",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:26",
+      "text": "Because, yeah, it, it began life as a direct sequel to Close Encounters of the Third Kind. Um, and, uh, yeah, and it was meant, you know, Spielberg, for some, you know, he— I think he tinkered with the idea of bringing back Roy Neary and following all that up. But like, I think at the, at the end of the day, he didn't want to repeat himself and he didn't want to direct it. So what he, what he did was he, you know, the, the UFO advisor on Close Encounters was a guy named J. Allen Hynek."
+    },
+    {
+      "name": "G",
+      "timestamp": "38:59",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:59",
+      "text": "Um, who, you know, was one of the sort of at the forefront of popularizing experiencer stories and things like that. And one of the events he was involved with during his time, you know, with the government was, um, this real— you know, I'm using air quotes here— real event called the, called the Kelly-Hopkinsville, uh, Encounter, which is basically a farm family, you know, saw these alien creatures outside their house and they fired at them with shotguns and stuff and Yeah, it's a whole involved story and we get into it in the book. But, uh, yeah, and Spielberg heard that story and it stuck with him, and he said, I want that to be the sequel to Close Encounters."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:42",
+      "text": "Oh."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:42",
+      "text": "And so, yeah, so, so basically, and then for various reasons they had to fictionalize it heavily, and it, you know, it became like sort of a contemporary, you know, early 1980s contemporary story. You know, about a family, you know, who's, you know, basically attacked by a group of nefarious aliens. Um, and one of them, a character named Buddee, B-U-D-D-E-E, uh, he, uh, befriends the little boy in the family. And that element sort of became the kernel of what E.T. became. It's a lot of similar things, like with the, the psychic connections and—"
+    },
+    {
+      "name": "G",
+      "timestamp": "40:27",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:28",
+      "text": "All that stuff. It's there. And the phoning home, it's all there. And then most famously, the script was written by John Sayles. Fantastic. And yeah, the script ends with Buddy, the nice alien, being sort of ditched by the bad ones. They go away. He's left on Earth to sort of fend for himself."
+    },
+    {
+      "name": "J",
+      "timestamp": "40:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:55",
+      "text": "Spielberg reads that and he says, I don't want to do this movie, I want to do that movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:59",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:01",
+      "text": "Yeah, yeah, yeah. And, uh, you know, which is sort of a sales—"
+    },
+    {
+      "name": "B",
+      "timestamp": "41:05",
+      "text": "yeah, sales at that point did not— they didn't have him do another one. They went to Melissa to, to write it up."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:11",
+      "text": "Yeah, they, they approached John Sayles to write E.T., uh, but the problem was, you know, like, he was contracted by Columbia to, you know— yeah, by Columbia and Spielberg to develop this script. You know, which he did, you know, over several months. And and then like, you know, but he's lining up other things. So you know, yeah. So that that aspect wasn't particularly dramatic. It was just, you know, it was like, yeah, I'm too busy. I'm directing a film. I'm writing a film. And you know, so yeah. So and but he read Melissa's treatment. He's like, oh, it's pretty good. You know, like just just go with this. You know. So yeah. I mean, that's that's the simple version. It's a lot more complex. In the book. But like, yeah, basically. So, you know, but part of the problem too is, you know, Spielberg had hired a director, Ron Cobb, and he was the one who was developing this project."
+    },
+    {
+      "name": "C",
+      "timestamp": "42:01",
+      "text": "Ron Cobb?"
+    },
+    {
+      "name": "A",
+      "timestamp": "42:02",
+      "text": "Yeah, Ron Cobb, the designer. You know him from Alien?"
+    },
+    {
+      "name": "B",
+      "timestamp": "42:06",
+      "text": "Goated, of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:07",
+      "text": "Yeah, he was the best."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:08",
+      "text": "Dune. Yeah, yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:09",
+      "text": "He did, he did some ornithopters for Jodorowsky's Dune. He did basically the whole look of Alien."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:16",
+      "text": "He did, you know, all the Conan the Barbarian."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:18",
+      "text": "Conan the Barbarian. He was the production designer. Yeah, so he was gonna direct it, and he was working with John Sayles on the script. And yeah, and, and, and so he, he was doing that, and then he had to go off and do Conan. And then while he's off and doing Conan, Rick Baker, one of the greatest makeup artists of all time, was doing the aliens."
+    },
+    {
+      "name": "F",
+      "timestamp": "42:38",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:39",
+      "text": "And, you know, and, and they were very far along in that process. Like, they, they did tests, which I You know, saw. I actually archived them."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:49",
+      "text": "Was the design similar or very different or—"
+    },
+    {
+      "name": "A",
+      "timestamp": "42:53",
+      "text": "Very similar."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:55",
+      "text": "Oh, really?"
+    },
+    {
+      "name": "A",
+      "timestamp": "42:55",
+      "text": "Yes. Yeah, that's a sticky point, but we're very—"
+    },
+    {
+      "name": "D",
+      "timestamp": "43:01",
+      "text": "It's a sore point."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:02",
+      "text": "Oh, for sure. Yeah, but it's, it's, uh, you know, we're very blunt about it in the book. We're very, you know, I have many, many people who attest, you know, they basically have a Carlo Rambaldi, you know, Kind of just took a lot of those elements. Like, it's not, it's not one-to-one, but if you see the images of Rick Baker's Alien and then you do it back to back with E.T., it's sort of like, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:27",
+      "text": "You kind of, you kind of see what you did."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:30",
+      "text": "Yeah. Yeah. And so, yeah, so, but yeah, so this is, so like I said, many elements from Night Skies, you know, got get ported over to E.T., you know. But E.T. is unique unto itself, and it is a very different project, and, you know, totally different tone, totally different feel, you know. And, and of course, like, you know, the biggest aspect is, you know, Spielberg put more of himself into it, which is why he eventually decided to take it away from Ron Cobb and direct it himself, you know, because it's like Um, you know, it, it is him processing his parents' divorce. His childhood. Yeah, his childhood. His, you know, yeah, it's not, it's not wholly autobiographical, but it's pretty autobiographical."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:20",
+      "text": "He started it in Close Encounters, and he's still working on it in—"
+    },
+    {
+      "name": "F",
+      "timestamp": "44:23",
+      "text": "Through Fabelmans."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:24",
+      "text": "Yeah, yeah, yeah, yeah, yeah. Through Fabelmans, yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:27",
+      "text": "Yeah. Um, that's, that's, that's incredible."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:31",
+      "text": "And I want you to, you know, continue to spring production details, uh, you know, sprinkle them as we, as we go through, uh, this conversation. But, uh, That's an incredible start there. I guess the the thing that I will just lay out that is amazing: the budget on this film, $10.5 million. So it's two-thirds of a Star War. Worldwide box office, Jason. Yeah, $797 million. That's such a crazy number."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:57",
+      "text": "That was $1982. Yeah. Did you adjust it? No, no. It's it's $1.5 billion. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:04",
+      "text": "That's crazy. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:06",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:07",
+      "text": "So I referenced it last week, uh, the excellent book The Future Was Now. Um, but this movie came out in the summer of 1982, which was the greatest summer of all time for cinema, as we have in theaters Blade Runner, The Thing, Star Trek II: Wrath of Khan, Poltergeist, Tron, Conan the Barbarian, Officer and a Gentleman, and Tootsie, and many others."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:39",
+      "text": "Just like The Best Little Whorehouse in Texas."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:40",
+      "text": "Yeah, of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:42",
+      "text": "Which I did an audio commentary for, for Kino Lorber, by the way."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:44",
+      "text": "Oh, really? Oh, nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:47",
+      "text": "Just, this was my year, man."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:50",
+      "text": "I was 82— I was 12, and it was just perfect. Like, life, life was right."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:54",
+      "text": "There will never be another summer like that."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:57",
+      "text": "No."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:58",
+      "text": "It was, it was a perfect storm, you know, coming just a few years after Star Wars."
+    },
+    {
+      "name": "F",
+      "timestamp": "46:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:04",
+      "text": "But also still coming off the tail end of the '70s. So you're getting like a really interesting mix of movies that are both populist and also have that kind of '70s bleakness."
+    },
+    {
+      "name": "E",
+      "timestamp": "46:16",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:17",
+      "text": "Like Blade Runner and The Thing are '70s movies."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:20",
+      "text": "Yeah, totally. On the cusp. Yeah, for sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:23",
+      "text": "For sure. But they look so good and they're so different."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:26",
+      "text": "The technology is just advancing so fast. Yeah, um, it really, it really is amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:32",
+      "text": "All right, well, so Max, where do you want to start?"
+    },
+    {
+      "name": "B",
+      "timestamp": "46:36",
+      "text": "What is the first kind of major thread you want to pull on here for this film?"
+    },
+    {
+      "name": "A",
+      "timestamp": "46:41",
+      "text": "Well, we could, you know, we can talk about the very beginning of the movie, which is, um, you know, essentially the end of Night Skies, you know, where this alien has been left stranded on Earth, hence the title of my book. You know, like, I picked that title for a reason because that is the crossover between the 2 projects."
+    },
+    {
+      "name": "G",
+      "timestamp": "47:01",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:01",
+      "text": "And yeah, and yeah, there's even the shot of E.T., you know, in the forest, you know, with all the, you know, the huge trees looming over."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:12",
+      "text": "Like, yeah, that's very similar to a shot that John Sayles describes in Night Skies of Buddy, just sort of in the middle of this, you know, farmland, you know, by himself. Um, and, uh, yeah, but it's, it's, you know, even the description, the very first sentence of Melissa Mathison's, uh, script is, uh, I'm paraphrasing here, but it's something like, um, uh, uh, you know, we, we look up at the night skies, uh, as stars begin to poke through in the darkness."
+    },
+    {
+      "name": "H",
+      "timestamp": "47:48",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:49",
+      "text": "Something like, something like that. So yeah, it's like even the first It was in there. The first paragraph of the script is referencing the project that came before. Yeah, and it's a great place to start. I mean, it's interesting too, because I wish— I really, not to get too neg, but I really— I've heard this from so many other people too. It's not just me. I really wish Spielberg had kind of taken his own advice on Disclosure Day. Because it's like, I feel like the end of Disclosure Day is sort of where Disclosure Day should have started. I don't know if you guys have heard that from other people, but like, I— so many people I talked to were like, I wish it had just started there, and that would have been a more interesting place to go, you know? Huh. But it's, uh, yeah, like, I think, you know, the, the idea, um, you know, of loneliness, you know, which is something, you know, it's a big part of Spielberg's universal experience. Yeah, it's very universal. Like, the whole film is sort of tapping into a lot of, you know, big universal themes and relatable themes, you know. Um, yeah, another big one is, which we can get into, is, uh, you know, the story of Jesus. Yeah. Which, um, I don't know if you guys have ever broached that with this movie before, but it's like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "49:12",
+      "text": "Oh, it's strong. It's really strong. Yeah, the robes, the robes, the robe at the end was definitely—"
+    },
+    {
+      "name": "D",
+      "timestamp": "49:19",
+      "text": "you see his Sacred Heart."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:21",
+      "text": "Yeah, he's found in a shack. Yeah, the mother's name is Mary. It's—"
+    },
+    {
+      "name": "D",
+      "timestamp": "49:26",
+      "text": "What is Steven Spielberg's relationship with Jesus?"
+    },
+    {
+      "name": "A",
+      "timestamp": "49:32",
+      "text": "I don't know, but he like, like, you know, Indiana Jones and the Last Crusade, you know, and then, and then, um, even in Disclosure Day, you know, you've got a lot of Catholicism and stigmata and all that, all that stuff in, in play, you know, watching it last night, I watched it with my daughter, and it was interesting. But like the scene where they— where Elliot takes Gertie and Michael into like their closet or whatever, they got a window that looks like a church window. It's like, it's not subtle at all."
+    },
+    {
+      "name": "D",
+      "timestamp": "50:05",
+      "text": "No, definitely not. I mean, when he shows up with the robes, like resurrected, I mean, like, you're kind of— I mean, like, you know, There's a resurrection in the movie. I think that's like kind of yeah, yeah, and like there was a resurrection of a character who can heal."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:19",
+      "text": "Yeah, can I can I just ask so what what happened there?"
+    },
+    {
+      "name": "D",
+      "timestamp": "50:22",
+      "text": "So he kind of like did a fake out on the on the death or or my read of it this time was that and Max you can tell us the definitive answer I guess but like the my read of it this time was that one he had to die in order to save Elliot because like Elliot was Elliot was dying along with it, was too connected. So part of it was like, okay, I got— I can't let this kid die. I'm gonna, I'm gonna, I'm gonna disconnect from him and die instead. That— so that was thing one. And then thing two was like, his resurrection starts with the heart light going on, which is like the proximity alarm for the people being nearby. Ah, yeah, yeah. So I interpreted this time as like, oh, like he's back because like his folks are nearby and like that like has They're amping them up for the last one."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:11",
+      "text": "That's absolutely the correct reading, you know. And yeah, and then it's said in the film, too, like, Elliott's like, does that mean they're coming?"
+    },
+    {
+      "name": "D",
+      "timestamp": "51:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:20",
+      "text": "So, it's textual, but it, you know, it is also representative of a higher thing, which is actually a part of other Spielberg films, which is the idea of a hive mind. Or a collective consciousness, you know. Um, yeah, like you see it a little bit in Close Encounters with the mind implantation, you know. Um, and then in this movie, obviously, you know, you know, E.T. forms like a psychic bond with Elliott. And then you see, you really see it in, um, Minority Report with the 3 precogs. That's a huge component of that, you know, because like the whole thing is like once he takes Agatha out of the pool, it's like the, the Precrime can't function."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:03",
+      "text": "Yeah, right."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:05",
+      "text": "Yeah, totally."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:06",
+      "text": "Yeah, yeah. So I mean, I mean, like, you know, going right up to Disclosure Day, you know, that just the general theme of empathy is an enormous, enormously important part of the Spielberg oeuvre."
+    },
+    {
+      "name": "C",
+      "timestamp": "52:18",
+      "text": "Yeah, I had—"
+    },
+    {
+      "name": "B",
+      "timestamp": "52:20",
+      "text": "so I, I'd remembered elements of the frog breakout scene, which I thought was really funny, but I had completely forgotten the extent to which it goes to including the synchronization of what E.T. is watching on screen and Elliott, you know, dancing with and then kissing Erika Eleniak, who would go on to have a career later on. Like, it was just wild, that scene."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:47",
+      "text": "Yeah, he's watching The Quiet Man."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:50",
+      "text": "John Ford."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:51",
+      "text": "Directed by John Ford, played by David Lynch in The Fabelmans."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:58",
+      "text": "You shoot it from above, it's interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "53:02",
+      "text": "Yeah. If the horizon's in the middle, it's boring as shit. Yeah. So funny. Um, and just, just the hugest kudos to Spielberg for that casting and that moment. Like, that was really great."
+    },
+    {
+      "name": "D",
+      "timestamp": "53:19",
+      "text": "That's beautiful. So, so stoked that Lynch got to do that. Yeah, it was great."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:22",
+      "text": "Yeah, amazing. Yeah, amazing. Jason, what's your first— what's your first point, bud?"
+    },
+    {
+      "name": "D",
+      "timestamp": "53:28",
+      "text": "Well, I watched this— I watched this movie with my kids, as mentioned, um, and it was, you know, it was fun to see it through their eyes. They gave this movie a 3 out of 5, so 2 points lower than Spider-Man: A Brand New Day. Um, but they, they liked it. Um, and I think like the, the— they liked, uh, the swearing in it for sure. And Juniper in particular Love the penis breath. Juniper loves the penis breath. And it's funny because I remember seeing this movie, and for some reason I think I saw this with my grandmother, um, uh, when I saw it in the theater. And I remember she said afterwards, she's like, it was a great movie, but I don't know why they had to ruin it with that penis breath thing. Like, you know, she was like really offended by that for some reason."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:10",
+      "text": "Anyway, um, it's a wild line."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:13",
+      "text": "It is a funny line. It is a funny— it's a pretty good line."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:17",
+      "text": "If you want to know where it comes from, buy my book."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:20",
+      "text": "Oh, what a, what a great tease. I love that."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:24",
+      "text": "Penis breath came from."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:25",
+      "text": "I love that. That's a great tease. No, you should, you should definitely keep that for the book. Um, so I, I, I liked, um, I like sort of what they liked about it. They kept asking me, is this what the '80s was really like? Like that was they're like it was the '80s like this, and in particular, like the thing that they like were noticing was like sort of how like this wasn't their word, but how permissive and how like sort of like how little how little there were rules seemingly in the '80s. Like Griffin's favorite part of the movie is when the bikes go over the cop car or like the you know U.S. government car at the end. He he loved that. He loved the idea of being able to ride your BMX bike over a car. He loved the idea of like being able to Um, you know, sort of ride your bike through the backyards of your neighbors. Um, and like, you know, sort of like, you know, go, you know, go over, um, you know, go through the backyards and you wouldn't get in trouble for like riding through someone's garden or whatever."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:23",
+      "text": "Uh, how about just being left at home alone?"
+    },
+    {
+      "name": "D",
+      "timestamp": "55:26",
+      "text": "Like, yeah, that was the thing. Yeah, that was the thing that both Crystal and I looked at each other like, wow. Like, because she leaves like the 6-year-old, um, at home in this movie. I'll be back in 10 minutes. I was like, holy Holy shit, like that you would go to jail, I think, if you left your 6-year-old. Like, uh, you know, like seriously, it seems so extreme, the idea of leaving a 6-year-old there. Um, that like, I was, I was really quite stunned."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:50",
+      "text": "But it was true. Like, I was a latchkey kid from age 7."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:54",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:55",
+      "text": "That's really what it was like."
+    },
+    {
+      "name": "E",
+      "timestamp": "55:57",
+      "text": "I don't think we were—"
+    },
+    {
+      "name": "D",
+      "timestamp": "55:59",
+      "text": "I don't remember, I don't remember the first time I was left alone because I had a younger brother. I was definitely, you It was definitely younger than I would ever leave my kids alone. But yeah, like, they, you know, they go out on Halloween by themselves. Like, you know, they like, you know, and obviously it's a problem that he ends up sleeping in the woods by himself. Like, the cops end up showing up. But like, still, it seemed like, you know, it seemed like a remarkable thing that everyone was like excited about."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:21",
+      "text": "I was gonna say, Jason, if, if Junie and Griffin slept outside looking for an alien creature up in Bend, like, would they still be there in the morning? It does not seem like a good idea."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:32",
+      "text": "I mean, in Bend in particular, it would be fine. Um, because like, because like Bend is like, you know, there's no, there's no predators. And, um, you know, it's just like, we're stupid safe. And like, you know, I don't lock my car doors or anything here."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:47",
+      "text": "So there's like deer and whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:49",
+      "text": "So like, yeah, there's deer, there's deer. And like, we actually, the big, the big kind of animal infestation we're dealing with this week is I've got a paper wasp nest, um, that we have to get rid of. But like, you know, It's like, that's not the end of the world. And then we also have— we've also gotten some frogs. We had a frog hop in the house the other night. But aside from that, it's like bunnies and shit. Like, it's really not the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "57:12",
+      "text": "We've had lots of coyotes up here. Coyotes, as I would say. But then also apparently on one of our favorite trails very close by, we recently— my buddy said he was running and saw both a mountain cub, a mountain lion mother, Okay. Oh wow. And then, and then coming back, saw a mountain lion cub. Yeah. And was like, I need to get the fuck out of here immediately."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:36",
+      "text": "Yeah, that's very— that's, that's, that's legitimately scary. We've, we've had, um, I think ticks are the thing, like, are sort of the biggest parental concern out here, just because— okay, no, you don't want to have ticks."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:48",
+      "text": "Um, but yeah, I only noticed for the first time last night that there was a raccoon by E.T.'s corpse. I noticed that from—"
+    },
+    {
+      "name": "D",
+      "timestamp": "57:56",
+      "text": "I totally noticed that too. Juniper noticed it right away. She's like, she's like Like, oh, raccoonie. I was like, yeah, they're friends."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:01",
+      "text": "There's Rocket. There he is."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:03",
+      "text": "Yeah, yeah, exactly. He's not gonna— he's not like 2 minutes away from eating his eyeballs. That's definitely not what's happening here, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "58:09",
+      "text": "About to happen. Yeah, yeah, yeah, yeah. Face off. Well, the other thing, the other thing about that, that's, uh, uh, that was very '80s of it is apparently every, uh, uh, home kitchen looked like a Pizza Hut."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:25",
+      "text": "Yeah, they had that weird like fake Tiffany lamp and like it's all booth seating. I did like the booth seating. I thought that was kind of nice. Uh, so it's kind of a wild age gap on these kids. Like, you know, it's— it seems like maybe Gertie was unplanned. I don't know. But like, you know, it's like there's— I, I did really like the, um, I like the house. I noticed one note that like the most unrealistic thing about the house is that shared closet. Which is like totally just in there to like enable like film, like to enable like you know stuff they want to do for the film or whatever. It doesn't make any sense as like something anyone would ever have."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:00",
+      "text": "It's a huge walk-in shared closet."
+    },
+    {
+      "name": "D",
+      "timestamp": "59:01",
+      "text": "It's a huge walk-in Jack and Jill closet. Like it's a real wild choice. Yeah. Bunch of Annabelle dolls everywhere. Yeah. A bunch of really a lot of and a lot of a lot of stuffies at this house. What? They're really. What's the deal, Max?"
+    },
+    {
+      "name": "C",
+      "timestamp": "59:15",
+      "text": "So this was shot in Culver. City? Like, what was the deal with the studios where they, where they filmed this?"
+    },
+    {
+      "name": "A",
+      "timestamp": "59:19",
+      "text": "So a really interesting thing about E.T. is it came at this juncture of Spielberg's career where, you know, people were a little unsure about him. It's probably the last time, and yeah, you know, anybody was—"
+    },
+    {
+      "name": "D",
+      "timestamp": "59:36",
+      "text": "Because of 1941."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:37",
+      "text": "Yeah, because of 1941. Still lingering. It absolutely had an impact On his entire career. And yeah, and yeah, Universal had already turned down one project that he had submitted to be, uh, as a directorial project."
+    },
+    {
+      "name": "D",
+      "timestamp": "59:52",
+      "text": "Crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:53",
+      "text": "And he owed them a project, basically. So yeah, like, you know, that's why ultimately it went from— it's a whole convoluted thing that we get into with a lot of executives talking about, you know, all the ins and outs of the deal. But basically, like, he was con— he was obligated to do a movie for Universal, um, you know, going back to the beginning of his 7-year contract that he signed when he did Night Gallery in 1969."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:22",
+      "text": "So yeah, such a crazy contract."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:24",
+      "text": "Yeah, he owed them a movie, and he, you know, a lot of people contend that E.T. was kind of You know, tossed off. You know, it was like it was like it was like I'm gonna just like all right I'm gonna do this."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:39",
+      "text": "I'm just gonna get this one done. Yeah, some fucking kid shit in here."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:42",
+      "text": "Yeah, and it's like yeah, and the studio had so little faith in it that they didn't finance it. Spielberg financed it independently through a you know like like basically an insurance company."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:57",
+      "text": "Um uh and uh yeah like so they just distributed it. That was it."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:01",
+      "text": "Yeah, it was it was a negative pickup. It was like whatever Spielberg delivered. At that price, they were going to release. And so yeah, and there wasn't a lot of enthusiasm about it. You know, like they thought it was a movie that was only going to appeal to kids. Universal and Columbia both felt that. But I think for Universal, it was more important to foster the relationship with Spielberg. But like yeah, like and yeah, but it was a very complicated situation. You know, and obviously, you know, there was Night Skies. Fallout as well, you know, because like, you know, all the main players from Night Skies had to be jettisoned for one reason or another. And, and, uh, yeah, and, you know, I, I think, uh, it's just a really— it's really fascinating to look at it as an independent movie because it was shot in, like you said, Culver City. It was, it was shot at Laird Studios, which at the same time they were shooting E.T. This will tell you how— what level E.T. was at."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:58",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:59",
+      "text": "At the same time they were shooting E.T., they were also shooting at Laird The Sword and the Sorcerer. Wow. So that's the level E.T. was at. Shit level. Yeah, it was at the shit level."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:11",
+      "text": "And, and it's so interesting to imagine Steven Spielberg at like the, this guy might be, this guy might be cooked, right, phase of his career. Like, oh yeah, yeah, yeah. Like that persisted because he'd— but he'd already done Indiana Jones, right? Like that."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:25",
+      "text": "He had not done Indiana Jones."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:28",
+      "text": "He did Raiders '81."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:30",
+      "text": "Yeah, Raiders had not been released until E.T. was in like the very beginnings of pre-production. But even at that point, he couldn't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "62:42",
+      "text": "So still, yeah, 1941 was the last thing that he had released."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:45",
+      "text": "Right. At the time all the deals and stuff were made, yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:49",
+      "text": "Got it. That makes a lot more sense now. Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:51",
+      "text": "And 1941 was—"
+    },
+    {
+      "name": "D",
+      "timestamp": "62:53",
+      "text": "What a great time to buy Spielberg stock, man. The last good buy price."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:58",
+      "text": "So you can— yeah, yeah, no. And Spielberg was under a lot of pressure too because basically a lot of his payment for the movie for E.T. was tied into points. And if he had gone over budget on E.T. like he had on 1941, Close Encounters, Jaws— if he'd gone over budget on E.T., it would have come out of his points."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:18",
+      "text": "And so is this the movie that like basically made his money? Like, is this like where he like basically like made— like, this is like where he He made his fortune."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:28",
+      "text": "He was, he was a millionaire for sure, right, by the time, you know, probably by Jaws, right, you know, um, and, uh, you know, and certainly had participation in Close Encounters and certainly got paid a chunk of change for 1941. But yeah, no, I think, yeah, he didn't become like a multi-multi, like, you know, whatever, uh, 8-digit, yeah, um, millionaire until after E.T. because he was Because when E.T. came out, at one point he was making $500,000 a day off of it."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:59",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:59",
+      "text": "It's insane because nobody expected it. Nobody saw it coming. Nobody internally saw it coming. You know, Spielberg himself had a lot of doubts because you have to remember too, like, he couldn't even get— like, you know, he tried to hire William Fraker to shoot it, tried to hire Vittorio Storaro to shoot it. You know, he eventually got Alan Daviau. Who was the guy who shot Amblin, his like, you know—"
+    },
+    {
+      "name": "D",
+      "timestamp": "64:22",
+      "text": "Yeah, his first student, his first like short film."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:24",
+      "text": "His first like, you know, short film. And, and yeah, and most of the crew was very untried. Kathleen Kennedy was like 26 or something. She never produced a fucking movie in her life. You know, she had been a PA 3 years before this. Yeah, it's an unbelievable story. And it's crazy that to me, like, just in writing the book, Like nobody has really looked at it, you know, for real, for real. Like a lot of the stuff that's written about E.T. is almost— almost feels like it's written for children because it's a children's movie, right? But it's like, no, like my book— don't let your kids read my book. My book is hard R-rated."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:05",
+      "text": "Interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:07",
+      "text": "Oh, I'm sure people probably approach this topic as if it were inevitable, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:12",
+      "text": "Like, oh, of course this is E.T., this is the thing, and it came out and it would change the world. Um, but yeah, that, that makes sense that it, it, it really had a bunch of different, um, yeah, a bunch of different lives, uh, as it was getting there."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:23",
+      "text": "It's almost the opposite of, uh, Dune, you know, because Dune starts as an overdog story, like, oh my God, we got the biggest budget of any science fiction movie ever made, right? You know, like, we're get— we're making bedsheets, we're making, uh, party hats, coloring books. Yeah, coloring books. And, yeah, like, and E.T., yeah, like, nobody saw it coming. It was, like, truly, like, a rocky kind of story, you know. And, yeah, I think that's what made it wonderful for me. It's almost that the 2 books almost make good bookends, because—"
+    },
+    {
+      "name": "D",
+      "timestamp": "65:57",
+      "text": "That's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:58",
+      "text": "Yeah, they're, like, the opposite. But, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:01",
+      "text": "I want to get into the kids, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "66:04",
+      "text": "Just the cast."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:05",
+      "text": "Yeah, this is one of my points."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:08",
+      "text": "It's just absolutely unbelievable."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:11",
+      "text": "You know, the performances that we have are so good."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:15",
+      "text": "And Dee Wallace is amazing. I was just so struck by her this time watching it."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:23",
+      "text": "And the scene where you get to Mexico, and he hates Mexico, and how effectively and efficiently— and it sort of becomes a runner—"
+    },
+    {
+      "name": "D",
+      "timestamp": "66:34",
+      "text": "And you want a divorce. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:35",
+      "text": "That they roll through. But it works so well."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:37",
+      "text": "Poor Daddy's in Mexico."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:40",
+      "text": "Just really incredible to see these kids and her doing this performance, and it just makes the movie work. Yeah, it's interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "66:49",
+      "text": "There's another really cool parallel when you're talking about Dee Wallace's role as Mary. Right. I think there's a really interesting parallel with— do you guys show your kids Totoro? Yeah. Yeah. Love Totoro. If you watch Totoro, it's very similar because the dad in Totoro, is a mess. He's— yeah, he's an elite mess."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:10",
+      "text": "He forgets to make lunch."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:11",
+      "text": "Yeah, and he doesn't have— it's just, it's very similar to Dee Wallace's character. It's like he doesn't, he doesn't have like a big breakdown. He doesn't have, you know, he doesn't show it to— but it's like, yeah, like he's, yeah, he's forgetting, he's forgetting to make the lunches. He's falling asleep in the middle of the day."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:26",
+      "text": "Mae's gone, right? Like Mae's gone for 2 hours."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:29",
+      "text": "The kids are just doing whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:31",
+      "text": "Wandering the countryside."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:34",
+      "text": "Yeah. So yeah, but I mean, that, that's a cool component though of the movie too. Like, the movie is— I think what makes it subversive is that specific element, you know, of like, um, of children having autonomy and also kind of having the upper hand over the grown-ups, the parents. Yeah, yeah, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:55",
+      "text": "And also just the, the innocence of the kids, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "67:57",
+      "text": "Like, whether it's, it's you know, luring him in with the Reese's Pieces, or the idea of, like, they explaining first contact and how that works. There's always something really magical about trying to do that, but it can also become really trying to— where you're trying to get through that communication."
+    },
+    {
+      "name": "E",
+      "timestamp": "68:13",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:14",
+      "text": "We did Starman this year, and that had such a great job, right, of Jeff making the journey to awareness. But just that whole thing of him explaining action figures, and this is the pig, and you put the money inside the pig. And, you know, like, it's just— it's so funny how a kid's brain works."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:34",
+      "text": "I did what— that was the thing I wanted to bring up that you just mentioned with the action figures, because there's the scene where Elliott is showing E.T., you know, like, you know, this is Lando Calrissian and Hammerhead. And yeah, Hammerhead, Snaggletooth, Snaggletooth, Forrest Gump. It's like those Those 3 specifically, yeah, those 3 Star Wars characters were designed by Ron Cobb."
+    },
+    {
+      "name": "D",
+      "timestamp": "68:57",
+      "text": "Oh wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:58",
+      "text": "And I, and I didn't even— I didn't put that in my book either. Like, I just noticed it last night. I'm like, oh shit, that might be another nod from Steven to Ron. Because like, Ron is also in the movie. You probably don't know that."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:11",
+      "text": "Oh, I didn't know that."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:12",
+      "text": "No, who did he play?"
+    },
+    {
+      "name": "A",
+      "timestamp": "69:13",
+      "text": "He's one of the guys who wheels E.T. out when he actually dies. He's, he's got glasses and a beard Yeah. Big burly guy. Yeah, that's Ronan. So yeah, so that's, you know, it's a really— there's a lot of really cool connections between, you know, the finished movie and that project. And by the way, like, you know, for people listening, you know, Night Skies is one of the most available unproduced scripts, you know, in terms of, you know, I think it's been on the internet for like over 2 decades. Like, I downloaded it like at least 20 years ago. And yes, like, a lot of—"
+    },
+    {
+      "name": "C",
+      "timestamp": "69:53",
+      "text": "done it. Have they done it on Best Movies Never Made?"
+    },
+    {
+      "name": "A",
+      "timestamp": "69:55",
+      "text": "That was their first episode. Oh, I think their avatar is Buddy from Night Skies. Yeah, no, but it's, uh, yeah, like, they— and those guys are great."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:06",
+      "text": "Scarlatta's coming back. He's coming back in a couple of weeks for Jason, finally. Deeper, bluer. Oh, Deep Blue Sea."
+    },
+    {
+      "name": "D",
+      "timestamp": "70:16",
+      "text": "Deeper. My hat is like a shark's fin. Deepest, bluest."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:19",
+      "text": "Yeah, yeah, no, yeah, he's the guy to talk to for that. But like, no, but the, the, uh, yeah, like this, uh, yeah, like if, if you're listening to this and you're, you know, and you're curious and you want to like bone up before my book comes out, you know, or you want to do your own, like read the script. It is out there and you can— it's, it's great, you know. It even has— John Sayles did these like blueprints of these like, oh, like overhead views of the house and the farmstead So you can actually like kind of, you know, see what he had in mind in terms of, you know, the, the, the, the breakdown of, you know, the action that happens. Yeah, because like, because unlike the actual Kelly-Hopkinsville Encounter of 1955, the aliens never came into the house. But in Night Skies: The Movie, the aliens way, way come in the house and cause all kinds of problems."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:10",
+      "text": "So my notes on the kids stuff was like the, the performances that he gets out of these kids is amazing. And I guess they used a lot of improv in like the both like the auditions for it and then also in the process of shooting it. And like, and Spielberg—"
+    },
+    {
+      "name": "C",
+      "timestamp": "71:31",
+      "text": "Wasn't that like the Jaws scene at the dinner table? Wasn't that improv as well?"
+    },
+    {
+      "name": "D",
+      "timestamp": "71:35",
+      "text": "It must have been. And like the, the He used a lot of— he shot the movie chronologically, mostly movie in sequence, mostly. So that like when the kids would like say goodbye to E.T. at the end, like they'd already been through this like journey with him. And like, you know, they tried to make the puppet very real for the kids, which it was to like, you know, Drew Barrymore. And like, you know, I just— but I mean, like the performance he gets out of Drew Barrymore is fucking ridiculous. I mean, like—"
+    },
+    {
+      "name": "C",
+      "timestamp": "72:04",
+      "text": "It's insane."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:06",
+      "text": "She is so emotive. Like, it was, it was pretty crazy, like, watching this movie, you know, like, I don't know, like, Drew Barrymore was like 6, I think, when they made this movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:15",
+      "text": "Like something like that. Yeah. 5 or 6."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:17",
+      "text": "And like, yeah. And my daughter was like watching this movie on my lap and she was like, my daughter's 5 and a half. And so like, you know, like seeing like a kid like in this movie who like is very much like at the age that your own daughter is at was crazy. And they're just going through this whole like emotional experience of like, you know, meeting E.T. and screaming, you know, like just everything. But like, yeah, seeing the movie like primarily as a vehicle for Drew Barrymore was really, uh, amazing to me. And, and, you know, and, and, and Henry Thomas is amazing, you know, has a really tough job to do in this movie, um, and does a great job too. So I, um—"
+    },
+    {
+      "name": "A",
+      "timestamp": "72:51",
+      "text": "And Robert McNaughton also."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:53",
+      "text": "Yes, I was so impressed by the kids in this movie and like what— like just how they carried this thing."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:58",
+      "text": "Uh, Drew is so funny and also really Sad. And like, I just could not believe how good her performance was."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:08",
+      "text": "It really— it is lightning in a bottle for sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:11",
+      "text": "Yeah. Yeah. You can kind of understand why."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:13",
+      "text": "It was really smart casting too, because it was, um, in terms of the dynamic between the actors, because, you know, it's like Drew was not super experienced. Henry had just done his first movie just prior to this, um, called Raggedy Man. And, uh, uh, You know, but Robert McNaughton, he'd done Shakespeare and he was a really, really experienced young actor. And so he kind of, you know, pulled the team together. You know, he was the ringer, you know, and even though he has like kind of the least showy of the 3."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:46",
+      "text": "Yeah. And Tom Howell as well."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:49",
+      "text": "Yeah, yeah. I was really impressed."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:51",
+      "text": "C. Thomas."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:51",
+      "text": "Oh, C. Thomas. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:53",
+      "text": "Yeah, I forgot he was in it."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:54",
+      "text": "Yeah, this was before he was Ponyboy."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:57",
+      "text": "Yeah. Oh yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:59",
+      "text": "And, uh, yeah, and before he was Elmo, Marty McFly."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:02",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:03",
+      "text": "But like, yeah, like, yeah, he's, he's, he's— the whole gang is really cool."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:08",
+      "text": "And that shot, that shot of them putting their headphones on and pulling their hats on and stuff, I was like, okay, yep, we see you Stranger Things, we see you."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:17",
+      "text": "That's exactly— no, yeah, that's where the vibe comes from."
+    },
+    {
+      "name": "E",
+      "timestamp": "74:22",
+      "text": "Yeah, they created all of it."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:23",
+      "text": "Those— the, the Amblin vibes on this are obviously so classic."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:27",
+      "text": "There's something about the Southern California, you know, locations. But obviously, J.J. learned all of his lens flare stuff from, you know, Spielberg doing that here. There's just so many homages of everything. It's just been so lifted. It's kind of ridiculous."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:46",
+      "text": "Yeah. And they, you know, the two You know, like, they— you know, Henry is, is, is giving such an incredible performance. You know, like, he carries every scene of the movie."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:04",
+      "text": "Yeah, he's gonna be in the whole movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:06",
+      "text": "And he'd only done one movie before this. No training. Just like, you know, like, he was just extremely intuitive And, you know, like, and they never treat him like a little kid. They treat him as a little adult, you know, like, and yeah, and I think it was great. Even like, you know, when he's— when they're at the dinner table and, you know, he's like, they're probably just gonna dissect him and all this stuff. Like, that's a very intelligent thing for a little kid, you know, to say, you know."
+    },
+    {
+      "name": "G",
+      "timestamp": "75:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:37",
+      "text": "It's like, you know, because, you know, the whole idea is, you know, like that. And this was Melissa Mathison's You know, big contribution. You know, it's like, you know, she, she started as a babysitter. Um, yeah, she actually, she actually babysat for Francis Coppola."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:53",
+      "text": "And, um, she, she, uh, like Roman and Sofia or whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:57",
+      "text": "Yeah, yeah, yeah, yeah. And, uh, um, and they, uh, uh, you know, and she was also dating Harrison Ford at this time. And right, she based a lot of Elliot off of, uh, Off of Harrison Ford's kids. And Harrison had a part in the movie that was cut, um, but as the principal. But like, yeah, like it's, uh, um, yeah, like her whole thing was like, you know, don't talk down, don't treat them like children, like treat them as people with intelligence."
+    },
+    {
+      "name": "G",
+      "timestamp": "76:27",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:28",
+      "text": "You know, I think, I think that was, you know, the right way to go. And, and generally when people try to do this vibe In, in different movies and TV shows or whatever. If they're failing, that's what they're failing at, you know."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:41",
+      "text": "Totally."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:43",
+      "text": "It's sort of the, sort of the big, the big thing. When Tom Hanks is describing, you know, his character in Big, he's like, right, he's like, if a kid was in an office building, the kid wouldn't spin around in the chair. The kid would get on the computer and try to, you know, do some shit with the computer or whatever, you know."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:01",
+      "text": "Yeah, yeah, yeah, totally, totally. I love that. Jason, I just want to ask you, the storytelling motion of having cutting back and forth with keys and the feds kind of as a propulsive force, like, what was your take on, on that?"
+    },
+    {
+      "name": "D",
+      "timestamp": "77:18",
+      "text": "I never noticed the keys before. I never noticed the keys as like such. And my kids clocked it right away. They're like, what are these keys for? Like, they were immediately very anxious about the keys. Which I thought was interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:29",
+      "text": "It's Freudian."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:31",
+      "text": "And what do the keys stand for? What do we think it— like, what— in what ways? What do you mean?"
+    },
+    {
+      "name": "A",
+      "timestamp": "77:37",
+      "text": "It's like, you know, it's, you know, it's his dick. I don't know, like, he's like the big swinging dick. Yeah, and it's, you know, and then eventually he becomes, you know, in the framing of the shots with him and Dee, he becomes sort of the father The insinuated father figure at the end. Well, you know that—"
+    },
+    {
+      "name": "D",
+      "timestamp": "77:57",
+      "text": "I mean, on that point, this wasn't one of my points, but like, you know, when we talked about— we did Totoro on this podcast, didn't we? Or did we not? Have we not done it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "78:04",
+      "text": "We haven't done Totoro. No."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:05",
+      "text": "Okay. Well, like, the, the thing that I thought was interesting in this is like Totoro, E.T., there's no, there's no antagonist. There's like the ostensibly the feds are the antagonists and like they do actually serve that role structurally because Because, you know, they're a threat. Um, but in reality, like, the principal Fed ends up being an ally in the movie. And like, you know, like, yes, they're chased by like sort of like nameless Fed, you know, forces through— like, you know, that's the point. But it's not like it— like, it's a much softer antagonist than in, um, in a traditional structure. And so like, I really— I had forgotten that aspect of— I had forgotten that aspect of it as well. That like, I was like, oh, this guy actually ends up being, um, on their side. Um, which I thought was interesting. I do like— it's again on like something we talked about as long ago as Arrival. It's like the competent federal authorities, um, paradox, which is just like, you know, they figure out where this alien is and then like when they're ready to move in, like they move in. And my kids were super freaked out that like it was like astronauts that were coming. Um, to—"
+    },
+    {
+      "name": "B",
+      "timestamp": "79:11",
+      "text": "That was weird. That, that was, that was a weird choice."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:14",
+      "text": "Like they just come in, they're like, I was like, yeah, he's making like Darth Vader sound effects, you know? Yeah. And Ben Burtt, who mixed— who did the sound for Star Wars, also did the sound for this. And, and I was very impressed. I was very taken by that, you know, scene where, uh, Elliot and, um, what's the brother's name? Michael?"
+    },
+    {
+      "name": "C",
+      "timestamp": "79:36",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:37",
+      "text": "Yeah, Elliot and Michael are, uh, talk— you know, they're smelling their dad's shirt and they're talking about their dad. It's like it's— and the feds are listening. Yeah, and it's like, originally they're talking about E.T., but then they start talking about their father, and the Fed is listening, and they keep cutting back to the Fed to emphasize like what a violation."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:56",
+      "text": "Yeah, Jason, what was the—"
+    },
+    {
+      "name": "C",
+      "timestamp": "79:58",
+      "text": "what was the warrant on that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "79:59",
+      "text": "That was my question. What, what was the warrant those guys had for— we're gonna drive down the street and listen to every house, listen to everybody?"
+    },
+    {
+      "name": "D",
+      "timestamp": "80:05",
+      "text": "Listen, it was the Reagan era. Like, it was, you know, like, like Weinberger was just like, I don't fucking get that alien."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:14",
+      "text": "Casper, go get him. Yeah, go get him."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:19",
+      "text": "Let's see, what is your last point, Max?"
+    },
+    {
+      "name": "B",
+      "timestamp": "80:22",
+      "text": "Anything, anything you want to make sure that we hit? I know we've got, we've got a lot and there's more."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:26",
+      "text": "The big takeaway for me is just because a movie is a classic doesn't mean it couldn't have not been a classic. So basically, what, you know, what I mean by that is like, if you go back, Star Wars is a weird movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:45",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:46",
+      "text": "Forrest Gump is a weird movie. You know, like the, the, uh, the, the chances of those movies bombing is just as good as them becoming the biggest movies of all time. So, you know, it's, it's, you know, Titanic is a really, you know, crazy gamble. It's like, you know, and, and I mean, that's a little bit less weird But like, that's a little more mainstream. But I think like, you know, it's the same thing. It's like, you know, you, you don't— once a movie is as stratospherically successful as E.T., you tend to forget its idiosyncrasies, its quirks, and, and the personal touches that, um, you know, Steven brought to it, and Melissa, you know. And I think, um, yeah, hopefully when, you know, people read my book, um, it'll, uh, it, you know, it'll not only give them, you know, the story of Night Skies and what that could have been, because that could have also been a big hit, um, but like, uh, you know, uh, and, and then when Signs and Nope came out, like, those were big hits. So like, but let me— but, but, but, but, you know, but E.T., you know, like, I, I think it now does— now that we're so far away from 1982 It's like, it really does deserve a new reckoning and, and people looking at it with fresh eyes and not as, you know, part of a canon or, or part of, you know, as required viewing, or, oh, you're my kid, you have to love this. Just like, can you, you know, can you approach E.T., um, through virgin eyes? Through, you know, through— yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "82:23",
+      "text": "Sure. But let's—I do want to just—you talked about this from the cultural footprint of it. So like, let's talk about this for a minute. So even like just starting with the Reese's Pieces, right? Like that was a huge thing. And what was the deal? Like whoever Eminem turned her down."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:40",
+      "text": "They just said this: We don't think this movie is going to be a thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:43",
+      "text": "We don't want to be associated. We're not—we're not on—we're not into Steven Spielberg. We're not—we don't want to be in the Steven Spielberg business."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:50",
+      "text": "Yeah, Coors had no problem with a drunk, a drunk 10-year-old, a drunk kid."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:55",
+      "text": "Yeah, you couldn't do that. That's an— again, on that '80s list, that you could not do that."
+    },
+    {
+      "name": "A",
+      "timestamp": "82:59",
+      "text": "Uh, yeah, one of the things I talk about in the book is there was a, uh, there was actually a, a campaign in 1983, an anti-drunk driving campaign. Sure. With E.T. as a bartender. And this was— this was— this was— be good. This was— yeah, this was through Coors. Coors put these out and gave them to bars. And yeah, you can find it online. It's insane."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:23",
+      "text": "How about here?"
+    },
+    {
+      "name": "G",
+      "timestamp": "83:26",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:27",
+      "text": "Driving home."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:30",
+      "text": "Yeah. Oh my God."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:34",
+      "text": "Drive home."
+    },
+    {
+      "name": "H",
+      "timestamp": "83:35",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:37",
+      "text": "Very misguided."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:38",
+      "text": "Well, what about— I don't know. I don't know what's wrong with that."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:42",
+      "text": "Listen, well, we have to get— we can't leave the elephant in the room. Obviously, we have to talk about Heartlight."
+    },
+    {
+      "name": "E",
+      "timestamp": "83:48",
+      "text": "Turn on your heartlight, let it shine wherever you go. Let it make a happy glow for all the world to see."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:01",
+      "text": "Yes, heartlight. Yes. Okay, what, what, how did this happen? What is the deal?"
+    },
+    {
+      "name": "D",
+      "timestamp": "84:07",
+      "text": "Yeah, what's the whole story there?"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:09",
+      "text": "I mean, apparently Neil Diamond saw the movie and was really Taken by it and went home and, you know, jotted down a song with Burt Bacharach like you do, you know. Yeah. And, uh, yeah. And I believe it was actually Neil Diamond's last song to chart. Wow. How long?"
+    },
+    {
+      "name": "C",
+      "timestamp": "84:31",
+      "text": "But what was the turnaround time? Like, how soon did they— how soon did they turn the movie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:35",
+      "text": "I think it was really— it was really quick. Yeah, it was like— yeah, I think he saw it before it came out and Yeah, it was just like, this is gonna be a thing. But there were a lot of songs tied to E.T. There was— there were like Alvin and the Chipmunks did a song, you know. There were Mexican songs, they're like, ¿Dónde está la E.T.? or whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:55",
+      "text": "I love the sound of ¿Dónde está la E.T.?"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:58",
+      "text": "There's a lot of weird things associated with, you know, and again, you probably wouldn't read about them in an official book because they're all just like, this is a mainstream Dream King for Kids."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:10",
+      "text": "But he got sued. Neil got sued."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:12",
+      "text": "Yeah, he got sued. Um, I don't, I don't think it was a huge thing. I think it was like a $25,000 fine or something. But like, oh, that's it? Yeah, it wasn't a huge—"
+    },
+    {
+      "name": "D",
+      "timestamp": "85:21",
+      "text": "they didn't have to give up, like, they didn't— like, Universal didn't demand like royalties for this? I don't know."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:27",
+      "text": "I mean, it's, it's the song itself kind of vanished after, you know, into the ether."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:31",
+      "text": "Turn on your heart light. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:36",
+      "text": "Yeah, that's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:39",
+      "text": "Dang."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:42",
+      "text": "Well, then, then the last one, obviously we cannot forget the one that kind of broke a million hearts— E.T. the video game, right? Atari. There's a whole documentary on that, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "85:54",
+      "text": "Yeah, really bad idea. Um, yeah, and strangely, you know, for somebody who's known for, you know, having such great instincts. You know, Spielberg was the one who really torpedoed that project because it was him that demanded that it be out by Christmas of 1982."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:12",
+      "text": "Yeah, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:14",
+      "text": "So he made a, like, a full buttload of money from that game, but the game itself was a disaster."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:23",
+      "text": "That game itself is a real sore point. I had it too, because it's like when you were— when you're that age, the age of you know, 2600, like you just got whatever game there was and you were gonna play that fucking game. Like it wasn't like you could just switch to something else. Like my son nowadays, like, you know, downloads like free Minecraft mods and if it's not one he wants, it's like, all right, we're moving on to another one. Or, you know, it's like, um, so, you know, that, that's like always, um, that's always something. Uh, that's all."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:51",
+      "text": "I couldn't even make it work when I had my Atari."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:53",
+      "text": "It was, it was unplayable. It was unplayable."
+    },
+    {
+      "name": "J",
+      "timestamp": "86:57",
+      "text": "Yeah, truly."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:58",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:00",
+      "text": "That is crazy. That's crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:02",
+      "text": "My only other honorable mention—"
+    },
+    {
+      "name": "B",
+      "timestamp": "87:04",
+      "text": "I think we hit, uh, everything. Oh, I have to get 2. First one, I love the kids playing D&D. Jason, they were playing an— they were playing probably AD&D is my guess. But you know, there is a reference to THAC0. You know what THAC0 stands for?"
+    },
+    {
+      "name": "C",
+      "timestamp": "87:18",
+      "text": "Do you know what that means?"
+    },
+    {
+      "name": "D",
+      "timestamp": "87:19",
+      "text": "Yeah, to hit armor class 0."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:20",
+      "text": "Yeah. Okay, you pass, you pass, you can stay."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:23",
+      "text": "And they were really, they were really playing like that. Those, those kids were all like— that was part of the audition process, was there, there was another actor. I talk about this in the book. There was another DM. No, there was another kid actor who—"
+    },
+    {
+      "name": "D",
+      "timestamp": "87:36",
+      "text": "You thought I wasn't gonna know Thacka? That's interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:41",
+      "text": "There was another kid actor who was gonna be Elliot, who they had cast. And whoa, but they did it. Oh really? They did a chemistry thing with a bunch of other kids, and it was a D&D game. And apparently this kid was so obnoxious and everybody hated him during the D&D campaign that they're like, okay, we gotta get another kid."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:58",
+      "text": "Oh, this kid fucking sucks."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:59",
+      "text": "I saw this scene."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:00",
+      "text": "Oh my God."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:01",
+      "text": "There's on video, you can see the scene where, um, Elliott gets— where Henry Thomas gets the part."
+    },
+    {
+      "name": "J",
+      "timestamp": "88:06",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:07",
+      "text": "Um, and he does this like emotional recounting of something that happened to his dog or something like that, like it's like a way of making himself cry. And like, he's just a very evocative performance, and Spielberg's like, all right, kid. You got the part."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:18",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:19",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:21",
+      "text": "That was the first time, like, Spielberg had made, I think, what was it, 4 other— 4 or 5 other movies at this point? But that was the first time he ever cast somebody in the room."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:30",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:31",
+      "text": "So, like, you can't overstate how freaking good Henry Thomas was."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:38",
+      "text": "He's really great."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:39",
+      "text": "Yeah, yeah. Unbelievable."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:40",
+      "text": "I do want to talk about the filmmaking a little bit, like the cinematography. So, you know, like the— like one of the things I thought was really interesting You know, so there's this whole thing where it's like shot from a kid's perspective. It's shot low. And like, you know, you don't see any other adults in the movie except for the mom until late. Like the reveal of the, you know, the scientist guy is super late. And I think that's interesting. Like, that's a fun choice. But like, the thing that I really liked, the thing that I really liked about it the most was like the— there's like sort of a movie magic to how some of it's made, which is like trash cans get knocked over and there's like glowing soft light. Um, from like, you know, the, the, you know, the garden shed and things like that in a way that like feels, you know, unusual and surprising. Um, like magical. I, I really liked all of that stuff. I really liked all of that stuff. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:33",
+      "text": "Yeah, yeah. And, and by the way, that child's perspective shooting thing was done on another movie the year before called Time Bandits. Oh yeah. Oh, so yeah, so it wasn't, it wasn't a Spielberg invention, but it was, it, yeah, it definitely played a huge part. And, um, I believe that the idea of shooting it that way came from Melissa. Um, Melissa is a huge part of the process. Like, she was on set every day."
+    },
+    {
+      "name": "D",
+      "timestamp": "89:59",
+      "text": "That's crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:00",
+      "text": "She worked with the actors. Like, yeah, like, I mean, a lot of people talk about the whole Tobe and Spielberg Poltergeist thing. Yeah. You know, but it's like, this was like the positive version of that where like she was—"
+    },
+    {
+      "name": "F",
+      "timestamp": "90:11",
+      "text": "That's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:12",
+      "text": "You know, yeah, she, she was, she was almost like a co-director. She gets an associate producer credit. But like, yeah. And another thing that hit me that just— I just— you just guys just reminded me of was what's really interesting about the movie is it— when I'm a kid, this movie feels like it's taking place over— like it's a real epic. And I'm watching it now, I'm like, this movie takes place over like 4 days max."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:35",
+      "text": "Yeah, it cooks. Oh yeah, yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:38",
+      "text": "And, and, and once you— but once again, once you're a parent You understand that because I've seen my kids make intense emotional attachments to, you know, to other kids or other adults in like an hour, you know?"
+    },
+    {
+      "name": "C",
+      "timestamp": "90:50",
+      "text": "Right, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:51",
+      "text": "So the idea of Elliott becoming that attached to E.T., you know, who is this incredibly special being, you know? And yeah, like, that's, you know, that definitely rings true. And, and just his arc as well, you know, like the whole arc of the movie is Elliot, um, not, not just learning to let go, but learning to, um, realize, you know, other people have feelings, other people, you know, have different needs, you know. And so the place he starts from is, he's mine, I'm keeping him."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:22",
+      "text": "Yep."
+    },
+    {
+      "name": "A",
+      "timestamp": "91:23",
+      "text": "And then it ends with him being able to let go, you know. And that extends back, you know, to even like to losing his dad, you know, like, you know, and, you know, all the All the stuff that's going on in the undercurrent."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:38",
+      "text": "Yeah, yeah, yeah. I love that he did not entertain going to, uh, you know, whatever, Area B or whatever with Rocky, um, to go live on that planet. But that might have been another, another option."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:51",
+      "text": "But yeah, dang."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:54",
+      "text": "Uh, the, the other thing I'll call out, I was glad they undid the 20th anniversary changes where they changed all the guns to walkie-talkies or whatever. Um, so Spielberg thought better of it."
+    },
+    {
+      "name": "D",
+      "timestamp": "92:04",
+      "text": "I didn't even know that was a thing. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:06",
+      "text": "It was, it was. And so they got rid of all that. They CG'd that and then, and then de-CG'd it, um, which seems like a good— seems like a good thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "92:13",
+      "text": "He said, he said, he talked about that. I, for some reason, I didn't talk about that that much in my book. I think one other person, one other director mentions it. Um, but, uh, uh, yeah, like, it's, it's just such a— it's an interesting thing that he was like In the period he's making some of his darkest movies— A.I., Minority Report, uh, War of the Worlds— he makes that decision to take all the guns out of E.T., which is incredibly conservative, incredibly reactionary."
+    },
+    {
+      "name": "G",
+      "timestamp": "92:45",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "92:46",
+      "text": "You know, uh, uh, you know, kind of, yeah, like older man decision to make that does, you know, obviously did not, did not help the movie and made a lot of people mad."
+    },
+    {
+      "name": "D",
+      "timestamp": "92:58",
+      "text": "Right. And then it's just like, it was the— because it was the time, it was the same time George was doing the specials. Like, so maybe there was just like, like there was like some kind of, yeah, we're just gonna fucking, you know, we're just gonna do this."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:11",
+      "text": "Like, you know, you're a tinkerer."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:12",
+      "text": "Yeah. Yeah. It wasn't just removing the guns either. He made E.T. CGI in a lot of the scenes. He, I think he added in some deleted scenes that he couldn't do back in the '80s so that he could do with CGI. They look terrible, by the way, if you go back and you watch them. And then he very smartly and wisely, you know, just a few years later, I think, I think it was like around 2008."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:36",
+      "text": "That was fucking dumb."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:36",
+      "text": "Around 2008, he just said, he just said that was a bad idea. I'm, I'm never, I'm not even gonna release—"
+    },
+    {
+      "name": "B",
+      "timestamp": "93:42",
+      "text": "Scrub the internet."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:43",
+      "text": "I'm not even gonna release those versions anymore."
+    },
+    {
+      "name": "D",
+      "timestamp": "93:45",
+      "text": "Yeah, that's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:47",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "93:48",
+      "text": "The, the E.T. big CGI reminds me of— I told Griffin we were gonna watch this movie from when I was a kid. And he was like, oh man, is it an '80s movie? I was like, it is. He's like, are the graphics going to be really bad? I was like, you know, I was like, that's not going to be like Spider-Man: Brand New Day. But like, yeah, they were really, you know, cutting edge, like for the time. He's like, well, what was like so advanced in the '80s? Was it just like, were you impressed if you had flashing lights? Is that what you thought was cool? Oh, fire burn."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:16",
+      "text": "That's cool. Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "94:19",
+      "text": "He's like, and then he's like, he's like, when Grandma was a girl, did they even have flashing lights yet in movies? Or had that not been invented?"
+    },
+    {
+      "name": "A",
+      "timestamp": "94:28",
+      "text": "Yeah, well, but let me just put that into perspective, perspective for you for a moment. Yeah, when was the last time you guys sat down and watched Forbidden Planet?"
+    },
+    {
+      "name": "B",
+      "timestamp": "94:39",
+      "text": "I've never seen Forbidden Planet. I really want to see it. Yeah, it's a good point."
+    },
+    {
+      "name": "A",
+      "timestamp": "94:45",
+      "text": "You know, are there flashbacks? I watched it a week ago, but like, that's okay, that's neither here nor there. But like, yeah, you know, most People can't associate with the stuff from, you know, 3 or 4 decades prior, you know. Yeah. And it's like, you know, yeah, like, I mean, it really knocked me for a loop one day when I realized, like, I remember, I remember thinking like, okay, I am now farther from Back to the Future. Yeah. Yeah. Than Casablanca was when Back to the Future came out."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:17",
+      "text": "Right, right. No, no, it's weird. Time is doing some crazy shit. Yeah, it's, it's putting the whammy on us."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:24",
+      "text": "Yeah, it's putting the whammy on us, guys."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:26",
+      "text": "Who would Tilda Swinton play if you had to recast one role in this film? I'm gonna go with Keyes. Yeah, I'd like to see her. I'd like to see her there."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:39",
+      "text": "Interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:40",
+      "text": "Yeah, yeah, yeah, yeah. Her and Dee could get together for sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:44",
+      "text": "Yeah, I mean, obviously E.T., like, would be, you know, come on. Like, I mean, is it that much of a stretch? Like, the, the cheekbones and the big eyes. Like, I think it's like would need minimal cosmetic work. Not that, you know, like, you know. Yeah, yeah, the stature would have to be shortened."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:00",
+      "text": "Well, the, the dirty secret to E.T. is that E.T. is actually many, many people. He's not even just a puppet. Like, there's, there's a little person named Pat Billon who is in the suit for some shots. There was another actor, I forget his name, who, um, was, uh, uh, didn't have legs, who was in the— who was in some shots. Um, you know, there's a, a woman named Caprice who's doing a lot of the hand stuff, a lot, you know, because like, you know, uh, Carla Rambaldi was fucking incompetent. So like, yeah, like, like, like most of the hand stuff is actually just a mime with gloves on."
+    },
+    {
+      "name": "E",
+      "timestamp": "96:37",
+      "text": "Huh."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:38",
+      "text": "And like, you know, yeah. And then And the voice, you know, is partly, uh, that's Pat Welch. And, and it's also Debra Winger."
+    },
+    {
+      "name": "E",
+      "timestamp": "96:47",
+      "text": "Huh."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:48",
+      "text": "Yeah. So yeah, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:50",
+      "text": "And then Ben did the pro— Ben Burtt did the processing on it. I saw it said it's a, um—"
+    },
+    {
+      "name": "A",
+      "timestamp": "96:54",
+      "text": "Yeah, yeah, yeah, yeah. And there's a whole, like, modern, um, you know, converse— conversation about the fact that even though Elliot says in the film that, uh, E.T. is a boy. He's actually— he could be— he can be any sex, or he can be intersex. Like, yeah, of course he can be whatever you want him to be."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:15",
+      "text": "Whether or not E.T. was a boy was like a really big question."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:22",
+      "text": "Big question."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:22",
+      "text": "Yeah, for my kids, they were like, what is this thing? Is it a boy or a girl?"
+    },
+    {
+      "name": "A",
+      "timestamp": "97:26",
+      "text": "Actually, having said all that, maybe Tilda Swinton is E.T. I don't know, like, she could be in there somewhere. We don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:34",
+      "text": "It works."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:35",
+      "text": "Movie magic, baby. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:41",
+      "text": "Magic. All right, guys, can we do some quick voicemails?"
+    },
+    {
+      "name": "D",
+      "timestamp": "97:44",
+      "text": "Let's do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:45",
+      "text": "All right, here we go. First voicemail."
+    },
+    {
+      "name": "J",
+      "timestamp": "97:51",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:55",
+      "text": "All right, let's do this."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:58",
+      "text": "Larry, it's our new neighbors. I'm Bobby Farber."
+    },
+    {
+      "name": "H",
+      "timestamp": "98:03",
+      "text": "and this is my husband Larry."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:05",
+      "text": "Hi, how are ya?"
+    },
+    {
+      "name": "B",
+      "timestamp": "98:06",
+      "text": "I am Beldar, this is Primead and Connie."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:08",
+      "text": "The name is Conehead. We come from France."
+    },
+    {
+      "name": "H",
+      "timestamp": "98:11",
+      "text": "Well, that explains everything."
+    },
+    {
+      "name": "J",
+      "timestamp": "98:16",
+      "text": "Hello, animal friends and animal lovers. In what definitely had to be a more innocent time, America fell hopelessly in love with the original poop emoji. Okay, okay, sorry, he's Sure, sure, sure, sure. Granted, this is a benign, family-friendly Norman Rockwell-ish sci-fi take on cross-cultural communication, and I'm not claiming here to represent the entire immigrant community, but we generally look and sound better. Stevie Berger is a genius with a portfolio of unimpeccable Impeachably perfect cinematic jewels. But sometimes, not always, when he gets into Alien territory— all right, all right, I'll shut up now. It's fine, it's fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:06",
+      "text": "Sure, sure, sure."
+    },
+    {
+      "name": "J",
+      "timestamp": "99:09",
+      "text": "This is Reality Greg. Which of these 3 is the most endearing? E.T., Pikachu, or baby Drew Barrymore? Thank you. See you at the walkie-talkie armory. And keep the change, you filthy animals."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:27",
+      "text": "Mm-hmm. Drew Barrymore, obviously the cutest of all of them."
+    },
+    {
+      "name": "D",
+      "timestamp": "99:34",
+      "text": "Yeah, for sure. For sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:36",
+      "text": "What were the other choices? Pikachu and what?"
+    },
+    {
+      "name": "B",
+      "timestamp": "99:38",
+      "text": "Pikachu."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:39",
+      "text": "Just Pikachu or— oh, N-E-T. Yeah. Oh yeah, Drew. Yeah, yeah, yeah, yeah, yeah. I have, I have a little blonde girl, a little 4-year-old blonde girl, so yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:50",
+      "text": "Yeah, you have a real extra, extra connection."
+    },
+    {
+      "name": "E",
+      "timestamp": "99:53",
+      "text": "Yeah, amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "99:54",
+      "text": "Yeah, yeah, yeah. No, I mean, like, yeah, and she definitely connected. Like, she was just playing with the cat most of the movie, but like when Drew was on screen, she's like, oh, there's me."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:02",
+      "text": "I mean, the reveal of the tea party E.T., that's like such a classic."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:08",
+      "text": "So cute. Like, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:11",
+      "text": "And of course there's a whole thing of like Spielberg also dressed in drag on set I think that day."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:16",
+      "text": "Oh, sweet."
+    },
+    {
+      "name": "F",
+      "timestamp": "100:17",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "100:18",
+      "text": "Can I raise a question about E.T.? Um, about the, the creature E.T.? Despite their ability to master interstellar travel, uh, and possessing, you know, sort of telekinetic, telepathic, healing, amazing powers generally, uh, maybe just an idiot E.T.? Like, maybe kind of dumb? Or like, like, maybe like, like stoners of space? Like, I mean, like, there's All those mushrooms, all those mushrooms. Gathering herbs and mushrooms. Uh, they don't wear clothes. That's weird. And like, they, you know, like, and like, doesn't, like, doesn't seem like, just seems like kind of be bungling his way through like a being stranded on another planet situation. Like, it's like, yeah, I guess I'll fuck around with these kids and put on outfits. And like, you know, like, it like doesn't seem particularly smart."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:12",
+      "text": "Um, I mean, he does make an intergalactic communication device with a fucking saw and a fork."
+    },
+    {
+      "name": "D",
+      "timestamp": "101:19",
+      "text": "They're good at the engineering part. They're good. They're kind of the Packleds of the Steven Spielberg universe where they've somehow figured out like warp technology, but like are not smart."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:31",
+      "text": "Like, we are smart."
+    },
+    {
+      "name": "D",
+      "timestamp": "101:32",
+      "text": "They wish to be smart, but they are not smart. Yeah, that's my thesis."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:37",
+      "text": "No. Yeah, he's definitely like some kind of a space hippie."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:42",
+      "text": "Stoner."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:42",
+      "text": "Yeah, like, like he's like, he's like, they're, they're just there to like collect some herbs so they can go follow the dead on tour or something."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:51",
+      "text": "Yeah, exactly, exactly. Nice. Yeah, nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:55",
+      "text": "Yeah, thank you so much, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:58",
+      "text": "Here is our next voicemail. Mr. Java. All right, Java, lay it on us."
+    },
+    {
+      "name": "E",
+      "timestamp": "102:12",
+      "text": "Well, E.T.'s left behind. He was gardenin' a bed for funsies. And he'd found a friend and he fed him on his Reese's Pieces. Called his brother Penis Breath. It was not a lie. Men in black were around the town asking, have you seen this weird little guy? Well, the bullies piled on and shit-heeled sand from Uranus. Gertie taught him how to speak and then she dressed him up so fine. The science teacher said, whoa, this boy is drunk. Men in black were around the town asking all around, have you ever seen this weird little guy?"
+    },
+    {
+      "name": "C",
+      "timestamp": "103:06",
+      "text": "Hey, I'd like to know."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:07",
+      "text": "Did you have any wild bike antics as a kid? Some big adventures maybe you want to share? Did you ever do something that caused a federal agent to point a weapon at you when you were a child? Dangerous times, the '80s. Mm-hmm. Listen, listen, listen, listen. Nice. Great."
+    },
+    {
+      "name": "D",
+      "timestamp": "103:28",
+      "text": "That was great. Nice."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:30",
+      "text": "Very, very good."
+    },
+    {
+      "name": "D",
+      "timestamp": "103:31",
+      "text": "Yeah, I mean, like, I think I've told this story before, but I got lost in the woods on a winter's day with a bunch of other kids, just like going up the creek and like, yeah, like kids lost their shoes in the frozen pond and got separated. And it was like a real, like, what, just is someone gonna die of hypothermia on the journey? Uh, yikes. Uh, yeah, it was pretty crazy. It was just like, yeah, like let's let our kids just wander through the woods and like up a creek. And like, yeah, so everyone survived as far as I know. I mean, I did. Yeah. Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "104:03",
+      "text": "So that happened."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:04",
+      "text": "I definitely had the experience of just jumping on my bike or just walking to the beach. It was like a mile and a half away. We would just— my brothers and I, we would just walk down, cross A1A, 4 lanes of traffic, and just go to the beach and, you know, play in the waves for hours on end and then come back. at some point later in the afternoon and check in."
+    },
+    {
+      "name": "J",
+      "timestamp": "104:25",
+      "text": "So there was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "104:26",
+      "text": "it was very much free-range childhood, I would say. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "104:31",
+      "text": "And it was good."
+    },
+    {
+      "name": "G",
+      "timestamp": "104:31",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "104:33",
+      "text": "I got arrested for fireworks possession as a teen."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:35",
+      "text": "Oh, wow. Whoa. Living on the edge. What were they?"
+    },
+    {
+      "name": "B",
+      "timestamp": "104:40",
+      "text": "M-80s?"
+    },
+    {
+      "name": "D",
+      "timestamp": "104:41",
+      "text": "Uh, yeah, like just like candles. Nothing. Yeah, Roman— some— something in the Roman candle class. Wow, rebel, rebel."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:52",
+      "text": "Yeah, you got one, Max? You got a radical story?"
+    },
+    {
+      "name": "A",
+      "timestamp": "104:58",
+      "text": "Uh, nothing I can think of off the top of my head. I mean, I definitely—"
+    },
+    {
+      "name": "B",
+      "timestamp": "105:03",
+      "text": "you can take the fifth, it's okay. You can take—"
+    },
+    {
+      "name": "A",
+      "timestamp": "105:04",
+      "text": "I definitely— there was some kind of antics, I don't know, but not too terribly much. But yeah, but just— I think I mentioned earlier, it was just like latchkey kid from age 7, which that like You know, and it was like, you know, there was a key under a plant in the backyard, and it's like, like, uh, and I would just go grab the key, I would go in the house, and then I was just by my freaking self."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:29",
+      "text": "Will you get a snack and then watch, watch Star Trek, or like what?"
+    },
+    {
+      "name": "A",
+      "timestamp": "105:33",
+      "text": "Well, my— this is fun. Well, this is the, the, the dangerous part. I'm doing air quotes again. Uh, my dad worked for the cable company, so, um, We had access to all the pay-per-views for free. So I was like, so if there was a movie I liked, I would just watch it over and over on a loop because that's how they would do it. You would unlock a channel for 24 hours and the movie would just be playing on a loop. Excalibur, Excalibur on a loop, RoboCop, uh, you know, like all sorts of inappropriate stuff, you know. Yeah. Um, but it is interesting to me that I can go back and say Like, it's like, yeah, I watched RoboCop 20 times, but I still like, like Willy Wonka and the Chocolate Factory. And it's like, it didn't taint any of my childishness, you know? It was just, it was just a cool movie that I got to watch, you know? My dad took me to see Brazil when I was 5 years old."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:27",
+      "text": "That's crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:28",
+      "text": "It's just like, you know, as long as this stuff is put in context, it's fine, you know?"
+    },
+    {
+      "name": "D",
+      "timestamp": "106:34",
+      "text": "I don't know what the context your dad would have given you about Brazil, but But yeah, but it's one of my favorite movies now. So it's like, it's absolutely one of my favorite movies. I saw it when I was 20."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:45",
+      "text": "Whatever, whatever, whatever he did, it worked. It worked. That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:49",
+      "text": "It, it worked. All right, thank you so much, Java. Here's our next voicemail."
+    },
+    {
+      "name": "D",
+      "timestamp": "106:54",
+      "text": "The Truthsayer."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:00",
+      "text": "Give us the truth."
+    },
+    {
+      "name": "I",
+      "timestamp": "107:02",
+      "text": "Hey y'all, Birria here. Man, I love E.T., movie that gives us Dee Wallace as Mary, the warm, slightly overwhelmed suburban mom at the center of one of the greatest films ever made. What Spielberg knew and what the audience sensed was that Wallace brought genuine weight to that role. She earned it because in the years before E.T., Dee Wallace was surviving things considerably worse than a lost alien in the tool shed. For today's Truthsayer, 5 horror films from Dee Wallace's resume. 4 are for real, 1 is fiction. Find the film she wasn't in. Time for the Truthsayer. Number 1, The Hills Have Eyes from 1977. Lynn Wood, a vacationing mother whose family breaks down in the Nevada desert and finds something terrible waiting. Or is it number 2, Pumpkinhead from 1988? Ruth Highfield, a tight-lipped rural shopkeeper who warns a grieving father that summoning a demon will cost him everything. Or is it number 3, The Howling from 1981? Karen White, a television journalist sent to recover at a mountain retreat populated entirely by werewolves. Or is it number 4, Cujo? Donna Trenton, trapped in a broken-down car with her son while a rabid Saint Bernard circles outside. Or is it number 5, Critters from 1986? Helen Brown, a Kansas farm mother Whose quiet life is interrupted by carnivorous alien furballs. The Hills Have Eyes, Pumpkinhead, The Howling, Cujo, or Critters. Which of these 5 horror films did Dee Wallace not actually appear in?"
+    },
+    {
+      "name": "D",
+      "timestamp": "108:37",
+      "text": "Wow. Wow. What a, what a crazy, what a crazy category. I'm going with Pumpkinhead."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:44",
+      "text": "Yeah, I'm gonna go with Pumpkinhead."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:47",
+      "text": "Yeah, it's Pumpkinhead."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:49",
+      "text": "It is Pumpkinhead."
+    },
+    {
+      "name": "G",
+      "timestamp": "108:50",
+      "text": "Yeah, I wanted to be Critters though."
+    },
+    {
+      "name": "D",
+      "timestamp": "108:52",
+      "text": "Critters was a freaky one, man. Critters really like did a number on me as a kid."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:56",
+      "text": "Well, I never saw— I never saw Critters. Let's hear, let's hear, let's hear the answer and then you can give us more detail."
+    },
+    {
+      "name": "I",
+      "timestamp": "109:02",
+      "text": "Did you figure out the answer? It's number 2. Dee Wallace was not in Pumpkinhead, but she absolutely should have been. The woman survived cannibals and werewolves and a rabid Saint Bernard and alien furballs and then turned around and played the most comforting mom in science fiction history. Dee Wallace contains multitudes. Here ends The Truthsayer."
+    },
+    {
+      "name": "D",
+      "timestamp": "109:23",
+      "text": "Mm, great one. A great one from The Truthsayer."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:28",
+      "text": "Is The Howling—"
+    },
+    {
+      "name": "B",
+      "timestamp": "109:29",
+      "text": "is that Gregory Hines?"
+    },
+    {
+      "name": "A",
+      "timestamp": "109:31",
+      "text": "No, you're thinking of Wolfen."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:35",
+      "text": "Wolfen! Damn it."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:36",
+      "text": "There you go. No, The Howling is directed by Joe Dante, who later did Gremlins, and written by John Sayles."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:46",
+      "text": "Wow. But is it pretty—"
+    },
+    {
+      "name": "B",
+      "timestamp": "109:47",
+      "text": "it's like pretty sexy, The Howling, as I recall?"
+    },
+    {
+      "name": "E",
+      "timestamp": "109:50",
+      "text": "A little bit, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:52",
+      "text": "It's got some sexy stuff in it. I mean, it's basically— it's a, it's a really fun kind of postmodern take on werewolves because it's, it's, it, it, it, it's like a commune kind of, right? Like, yeah, like a new age cult commune of werewolves who are trying not to eat people, you know, by eating cattle or whatever. But like, yeah, and she's in the middle of this This, this group of werewolves. Um, yeah, and Critters also has fun connections because I think Critters, the script, is— it takes a ton of stuff from The Kelly Hopkinsville Encounter, and I believe personally from Night Skies. I think whoever wrote—"
+    },
+    {
+      "name": "B",
+      "timestamp": "110:34",
+      "text": "Read— yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:35",
+      "text": "Critters read Night Skies. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:38",
+      "text": "Interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "110:39",
+      "text": "Special shout out to Birria. Um, For having run Pod Data Central for us all these many years at this point, which was the inspiration for so much of our vibe-coded podcast engine. A real mensch and a servant to the community. We love you, Beria."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:00",
+      "text": "Thank you so much, Beria. Okay, here we go. We have two more real quick."
+    },
+    {
+      "name": "F",
+      "timestamp": "111:05",
+      "text": "Escape Hatch. Hey, it's Kevin."
+    },
+    {
+      "name": "G",
+      "timestamp": "111:07",
+      "text": "I'm here."
+    },
+    {
+      "name": "F",
+      "timestamp": "111:07",
+      "text": "Hard to believe we are finally here. Steven Spielberg's E.T., a movie about a kid really going through some stuff who finds solace in an imaginary friend who is all too real, and they fucking kill him. Even now, as an adult, it is hard for me to, A, not feel in the moment that E.T. is fucking dead. And it's also hard for me— impossible, in fact— to not immediately tear up even thinking about The John Williams cue, the da da da da da da da da da ba ba ba ba ba ba, when they're hitting the road. Wow! Even it's 8:21 a.m. on Tuesday, August 4th, and I am tearing up even singing it in the Kev's question. Wow! The kids are hitting the road, and they're defying the government, and they're gonna go bring E.T. home. It's hard not to well up and get emotional. Obviously, yeah. IMAX and 35 millimeter. And the shitty DVD version where they painted over the guns with walkie-talkies. And it never loses— even in that shitty 2002 version, it never loses its power."
+    },
+    {
+      "name": "H",
+      "timestamp": "112:14",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "F",
+      "timestamp": "112:14",
+      "text": "Kev's question: did you guys have like imaginary friends growing up? Did you ever have like friends only you could see that you grew out of? The imaginary friend, did you have it? If not, who was your confidant? Who was your best friend growing up? With peace and love, I'll talk to you all very soon."
+    },
+    {
+      "name": "C",
+      "timestamp": "112:32",
+      "text": "Soon. Once again, it's Kev's Questions."
+    },
+    {
+      "name": "D",
+      "timestamp": "112:38",
+      "text": "That's great. That's great. Really great. Great question. Uh, I do— I mean, like, the emotionality of the movie, I think, shouldn't be discounted in E.T. Like, like, when, you know, it still fucking works when they fly on those bikes. It's real— still, it's still pretty exciting. Um, and like, the I'll Be Right Here still, still crushes. Like, uh, um, they really do. They really do a good job. Um, I did not have an imaginary friend. One detail I like that's horrifying is that Mr. Snuffleupagus was Big Bird's imaginary friend on Sesame Street. Oh man. And they had to reveal Mr. Snuffleupagus at some point because it was bad child safety to continue to tell kids to like, that like they should keep things from their parents or that there would be like, you know, there's things that their parents wouldn't understand or whatever. It was like became like it became like a problem welfare advocates were against. So that's a bummer."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:35",
+      "text": "Wait, so Snuffleupagus was Tyler Durden?"
+    },
+    {
+      "name": "D",
+      "timestamp": "113:38",
+      "text": "Yeah, exactly. Mr. Snuffleupagus. Um, I did not have— I didn't have an imaginary friend, but shout out Aaron Fagerstrom, still in the Discord, my longest and oldest best friend. We met when we were in second grade. And He still listens to this podcast occasionally. So that's what that's what real friends are. People who you meet at eight will still listen to your podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "114:04",
+      "text": "That's amazing. I did not have an imaginary friend either, and my closest confidant was Glenn Shepard, who I went to the astronaut. No, starting starting with kindergarten and just a great kid. We would go to the beach. We would hang out, and then later, Jason, when in 1980. '84 or '85, he's the one who was like, okay, check out this band, they're called New Order."
+    },
+    {
+      "name": "D",
+      "timestamp": "114:28",
+      "text": "Oh, that's great. What a gift. You will like it. So an astronaut who loves New Order, it's the best."
+    },
+    {
+      "name": "B",
+      "timestamp": "114:35",
+      "text": "Yeah, perfect. Max, how about you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "114:37",
+      "text": "I don't remember having any imaginary friends, but I remember from a very young age seeing the Henry Thomas vehicle, uh, Cloak and Dagger."
+    },
+    {
+      "name": "B",
+      "timestamp": "114:49",
+      "text": "Where, um, Dabney Coleman?"
+    },
+    {
+      "name": "A",
+      "timestamp": "114:51",
+      "text": "Yes, where Dabney Coleman plays both his real dad and his sort of superhero spy imaginary friend Jack Black. Um, and, uh, yeah, uh, and, and I, I remember being kind of envious. I'm like, wow, he gets an imaginary friend. How do I get one of those? Um, you know, but, uh, yeah, I think I was just too— I don't know, too, uh, cerebral or whatever at that point to, to, to really believe in anything like that, um, or to make that leap of, uh, imagination. Um, but yeah, it was still a good movie. Um, oh yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "115:27",
+      "text": "And, uh, we're not, we're not doing Cloak and Dagger, but I, I do want Dabney on the pod, and I do want it to be Tootsie. So like, that's, that, that's probably what's gonna— what's gonna happen."
+    },
+    {
+      "name": "A",
+      "timestamp": "115:37",
+      "text": "Dabney still around?"
+    },
+    {
+      "name": "B",
+      "timestamp": "115:37",
+      "text": "Uh, I don't know. Oh no, no, no, no, no, I just cover his films. No, I, I don't. Oh, okay. I don't know if he's still around, but God, what a legend. All right, here is our final voicemail. Ah, love it."
+    },
+    {
+      "name": "G",
+      "timestamp": "116:00",
+      "text": "Hey, this is Corey calling from Austin, Texas about E.T. Holy moly, this came out in 1982? I was 10? I was the perfect age for this. I mean, it was really awesome. It was— I know, I know these days I'm a total John Carpenter Thing man, but as a kid, while I could appreciate John Carpenter's The Thing and think it was totally fucking rad, I still was like, you know, young enough to think that E.T. was totally awesome. And I still believe E.T. is totally awesome. It's a good movie. There's not probably a lot I'm going to be able to say about this that you guys aren't going to cover. So I do, uh, love Drew Barrymore in this. She is fucking adorable."
+    },
+    {
+      "name": "E",
+      "timestamp": "116:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "G",
+      "timestamp": "116:39",
+      "text": "Uh, um, Dee Wallace is in my top 3 '80s moms. Her, JoBeth Williams, and Diane Wiest. Well, those like the best moms of '80s."
+    },
+    {
+      "name": "D",
+      "timestamp": "116:49",
+      "text": "Those are— that's a great mom set, man."
+    },
+    {
+      "name": "G",
+      "timestamp": "116:51",
+      "text": "I love what Spielberg does with the homes in these '80s movies, you know, what their kitchen tables look like and all the fucking shit everywhere. And I mean, this was, this was really what you thought life was, whether you were living it or not. This was the family dynamics. This was the— this was everything that was happening, right? Okay. Um, I was gonna tell the story about how the lady who used to cut my stepdad's hair used to cut Henry Thomas's hair. Um, and had a long story about that, but it's too long to get into. I'm already at work, so. All right, maybe I'll put a share on Discord. Uh, who would kill the Flintstones? E.T. Duh. All right. Uh, love you guys. Thanks for doing this one. It'll be a blast to listen to. Bye."
+    },
+    {
+      "name": "B",
+      "timestamp": "117:33",
+      "text": "Bye. Amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "117:35",
+      "text": "Yeah, that's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "117:37",
+      "text": "He didn't really have a question, but I— No, no, I do like that he brought up The Thing. Yeah, because, you know, if people— people don't realize, like, those movies were both Universal movies. Yeah. And they both— I think they came out a week apart. Um, yeah, yeah. So they were really— they were really hedging their bets. They were like, if they want the bad alien, there's the bad alien. They want the good alien. Here's a good alien."
+    },
+    {
+      "name": "B",
+      "timestamp": "118:01",
+      "text": "Yeah, exactly. Well, I think, um, I'm pretty sure The Thing and Blade Runner came out against each other. Um, yeah, it was the same weekend."
+    },
+    {
+      "name": "A",
+      "timestamp": "118:12",
+      "text": "The Thing, Blade Runner, and Megaforce. Jesus. All launched on the same weekend. Yes. Uh, yeah, a trio of pleasures. Um, yeah, no, and but no, like, obviously The Thing and Blade Runner both like, uh, uh Out bummered each other. Yeah. Hello. There's a there's a there's a there's a cute adorable a cute adorable blonde girl, Alla Drew Barrymore, on the podcast."
+    },
+    {
+      "name": "D",
+      "timestamp": "118:39",
+      "text": "What do you want to say about your favorite part of E.T.? What was your favorite joke in it?"
+    },
+    {
+      "name": "H",
+      "timestamp": "118:45",
+      "text": "My favorite joke was when E.T. woke up and then. Um, the boy—"
+    },
+    {
+      "name": "D",
+      "timestamp": "118:53",
+      "text": "That was your favorite part?"
+    },
+    {
+      "name": "H",
+      "timestamp": "118:56",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "118:56",
+      "text": "Oh, okay. Anything else you want to tell people?"
+    },
+    {
+      "name": "H",
+      "timestamp": "118:59",
+      "text": "Maybe."
+    },
+    {
+      "name": "F",
+      "timestamp": "119:00",
+      "text": "What?"
+    },
+    {
+      "name": "H",
+      "timestamp": "119:01",
+      "text": "One day when he threw the baseball at the alien and he tossed it back."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:08",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "119:09",
+      "text": "Oh yeah. Under the shed. You like that?"
+    },
+    {
+      "name": "C",
+      "timestamp": "119:11",
+      "text": "What was your— what was your favorite part in Spider— oh, go ahead."
+    },
+    {
+      "name": "H",
+      "timestamp": "119:15",
+      "text": "He saw the alien for the first time."
+    },
+    {
+      "name": "D",
+      "timestamp": "119:18",
+      "text": "Oh yeah. What was your favorite part in the Spider-Man movie that we saw in the movie theater?"
+    },
+    {
+      "name": "H",
+      "timestamp": "119:21",
+      "text": "I should dish, should dish, everybody should dish."
+    },
+    {
+      "name": "D",
+      "timestamp": "119:25",
+      "text": "It was the Punisher using the S-word a lot was her favorite part in the Spider-Man movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "119:31",
+      "text": "Yeah. And Junie, what— Junie, what was your favorite part in Dune Part 2?"
+    },
+    {
+      "name": "B",
+      "timestamp": "119:35",
+      "text": "Oh yeah, what was your favorite part in Dune Part 2?"
+    },
+    {
+      "name": "H",
+      "timestamp": "119:37",
+      "text": "Uh, it, it was the baby sandworm."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:43",
+      "text": "Yeah, out of the mouths of babes."
+    },
+    {
+      "name": "H",
+      "timestamp": "119:46",
+      "text": "Yeah, yeah, yeah. Your phone. All right."
+    },
+    {
+      "name": "D",
+      "timestamp": "119:50",
+      "text": "Okay. That was our shout out for the week. Was Juniper was jealous that her brother got to be on the pod a couple times."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:55",
+      "text": "So okay. Nice job. I have a question for her. Spider Man Brand New Day. Too long, just right, or not long enough?"
+    },
+    {
+      "name": "D",
+      "timestamp": "120:06",
+      "text": "Did you think the movie was too long? No. You had to go pee really bad at the end though, huh? Yeah. You barely."
+    },
+    {
+      "name": "A",
+      "timestamp": "120:13",
+      "text": "That makes two of us."
+    },
+    {
+      "name": "D",
+      "timestamp": "120:15",
+      "text": "Yeah, it was tough to get through."
+    },
+    {
+      "name": "B",
+      "timestamp": "120:18",
+      "text": "And that's it for this episode of Escape Hatch. I want to thank Jason and Max for an amazing conversation. We're on vacation next week, but we'll be right back for Hot Nolan Summers continuation when we finally cover The Dark Knight. Good night."
+    },
+    {
+      "name": "C",
+      "timestamp": "120:39",
+      "text": "If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks."
+    },
+    {
+      "name": "B",
+      "timestamp": "120:58",
+      "text": "Links are in the show notes."
+    },
+    {
+      "name": "C",
+      "timestamp": "121:00",
+      "text": "Escape Hatch is a Tapedeck podcast, John, a production of H Industries."
+    },
+    {
+      "name": "B",
+      "timestamp": "121:05",
+      "text": "Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks for listening. We'll see everybody next week."
+    },
+    {
+      "name": "A",
+      "timestamp": "121:23",
+      "text": "Well, right, okay, so there are 5 cowboys, you know. No, no, no, no, no. No, where's the goddamn horizon? Um, it's there."
+    },
+    {
+      "name": "E",
+      "timestamp": "121:33",
+      "text": "Where? At the top of the painting. All right, get over here."
+    },
+    {
+      "name": "A",
+      "timestamp": "121:38",
+      "text": "Now remember this: when the horizon's at the bottom, it's interesting. When the horizon's at the top, it's interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "121:49",
+      "text": "When the horizon's in the middle, it's boring as shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "121:54",
+      "text": "Now Well, good luck to you. And get the fuck out of my office!"
+    },
+    {
+      "name": "E",
+      "timestamp": "121:59",
+      "text": "Okay."
+    },
+    {
+      "name": "F",
+      "timestamp": "122:06",
+      "text": "Thank you."
+    },
+    {
+      "name": "A",
+      "timestamp": "122:06",
+      "text": "My pleasure."
+    }
+  ]
+}

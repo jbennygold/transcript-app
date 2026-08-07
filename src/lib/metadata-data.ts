@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 328 episodes - updated 2026-08-06
+// Auto-generated - do not edit - 329 episodes - updated 2026-08-07
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15755,5 +15755,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Carter Burwell"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 318,
+    "film": "E.T. the Extra-Terrestrial (1982)",
+    "filmYear": 1982,
+    "releaseDate": "8/7/2026",
+    "length": "2:02:12",
+    "reviewer": "",
+    "guest": "Max Evry",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
