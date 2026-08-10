@@ -15779,6 +15779,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/e-t-extra-1982-165998680",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a106a7bd5ffd0be5b68b83781",
     "letterboxdLink": "https://letterboxd.com/film/et-the-extra-terrestrial/",
-    "imdbLink": "https://www.imdb.com/title/tt0083866/"
+    "imdbLink": "https://www.imdb.com/title/tt0083866/",
+    "tmdbId": 601,
+    "tmdbPosterPath": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Family"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "cinematographers": [
+      "Allen Daviau"
+    ],
+    "cast": [
+      "Henry Thomas",
+      "Drew Barrymore",
+      "Robert MacNaughton",
+      "Peter Coyote",
+      "Dee Wallace",
+      "Erika Eleniak",
+      "K.C. Martel",
+      "C. Thomas Howell"
+    ],
+    "composers": [
+      "John Williams"
+    ]
   }
 ];
