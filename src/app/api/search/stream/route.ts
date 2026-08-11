@@ -35,6 +35,7 @@ import {
   AGENT_SEARCH_MODEL,
 } from '@/lib/routing-policy';
 import { runAgentSearch } from '@/lib/agent-search';
+import { startSseHeartbeat } from '@/lib/sse-heartbeat';
 
 let loggedCacheStatus = false;
 
@@ -63,10 +64,19 @@ export async function POST(request: NextRequest) {
 
   const stream = new ReadableStream({
     async start(controller) {
+      // Agent search can run ~25s without emitting an event; mobile networks
+      // reap connections idle that long and the client sees "Load failed".
+      // Heartbeat frames are enqueued whole, so they can only ever land
+      // between complete SSE frames, never inside one.
+      const heartbeat = startSseHeartbeat({
+        write: (payload) => controller.enqueue(encoder.encode(payload)),
+      });
+
       const send = (event: string, data: unknown) => {
         controller.enqueue(
           encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`)
         );
+        heartbeat.markActivity();
       };
 
       try {
@@ -819,6 +829,8 @@ Answer based on the Tilda casting data above. Be specific, cite examples from th
         }
         send('error', { message: `Search failed: ${errorMessage}` });
         controller.close();
+      } finally {
+        heartbeat.stop();
       }
     },
   });

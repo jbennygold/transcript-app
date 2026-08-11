@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server';
 import { getAnthropic, HOST_IDENTITY_RULE } from '@/lib/claude';
 import { DEEP_SYNTHESIS_MODEL } from '@/lib/routing-policy';
+import { startSseHeartbeat } from '@/lib/sse-heartbeat';
 
 interface TranscriptSourceInput {
   episodeTitle: string;
@@ -52,10 +53,17 @@ export async function POST(request: NextRequest) {
 
   const stream = new ReadableStream({
     async start(controller) {
+      // See stream/route.ts — long silent stretches get the connection reaped
+      // on mobile networks, surfacing as "Load failed" on the client.
+      const heartbeat = startSseHeartbeat({
+        write: (payload) => controller.enqueue(encoder.encode(payload)),
+      });
+
       const send = (event: string, data: unknown) => {
         controller.enqueue(
           encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`)
         );
+        heartbeat.markActivity();
       };
 
       try {
@@ -156,6 +164,8 @@ FOLLOW-UP QUESTION: ${followUpQuery.trim()}`;
         }
         send('error', { message: `Follow-up failed: ${errorMessage}` });
         controller.close();
+      } finally {
+        heartbeat.stop();
       }
     },
   });
