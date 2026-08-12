@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 329 episodes - updated 2026-08-11
+// Auto-generated - do not edit - 329 episodes - updated 2026-08-12
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
