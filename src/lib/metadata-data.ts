@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 329 episodes - updated 2026-08-19
+// Auto-generated - do not edit - 330 episodes - updated 2026-08-19
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15806,5 +15806,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "John Williams"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 319,
+    "film": "The Dark Knight (2008)",
+    "filmYear": 2008,
+    "releaseDate": "8/20/2026",
+    "length": "2:02:33",
+    "reviewer": "",
+    "guest": "Sara Beykpour",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];

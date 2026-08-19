@@ -1,0 +1,3541 @@
+{
+  "episode_number": 319,
+  "episode_name": "The Dark Knight (2008)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:09",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:28",
+      "text": "I was up at 5:30 getting ready for the first day of school, so I am fucking cooked right now, but I'm still showing up."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:33",
+      "text": "And we're joined by the CEO of Particle News, Sarah Bakepour."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:38",
+      "text": "And I've been saying that, you know, you either die a consumer founder or you live long enough to see yourself become a B2B SaaS founder."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:46",
+      "text": "The summer of Jason continues with Christopher Nolan's 2008 superhero epic, The Dark Knight. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, the Dark Knight. Okay, so Sarah saw a solar eclipse in Ibiza. I took Sam onto an aircraft carrier and a nuclear submarine in New York City. And Jason, your children We went—"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:38",
+      "text": "we got to the top of the Arch, baby. We saw the top of the Arch."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:41",
+      "text": "Was it good?"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:42",
+      "text": "It was pretty good. People like the Arch. The kids really like the Arch. Juniper was a little scared of the elevator. Griffin was very into the elevator."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:50",
+      "text": "Does it go sideways? Like, how does it—"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:52",
+      "text": "Well, that's what he's into, because it's kind of an interesting piece of engineering, because it like kind of hangs from a toggle and it goes like— it rocks up because it has to go up a curve, right? So it goes up a little bit and then it like curves and then it It goes like this. It was a— it's a whole interesting story where they had, like, a design contest to figure out how to build an elevator that would go up the arch. And this, like, non-engineer came up with the solution, and it's worked for 60 years."
+    },
+    {
+      "name": "E",
+      "timestamp": "2:16",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:17",
+      "text": "Yeah, it's really interesting. And Griffin was interested in it."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:21",
+      "text": "Amazing. And Sarah, how did the eclipse look? Did you feel like— were the kids into it?"
+    },
+    {
+      "name": "D",
+      "timestamp": "2:26",
+      "text": "Uh, the kids— so we have a 2-year-old and a 4-year-old. We didn't want to take any risks with the 2-year-old, so we put him in a crib. with the iPad. And, um, the 4-year-old was with us during the partial eclipse and then got really bored of the situation and went with the 2-year-old in the crib with the iPad. So, okay, we were child-free for the totality. Um, you know, I've never seen a total eclipse before. I don't know if you guys have. Uh, it was way cooler than I could have ever imagined. I was really kind of skeptical and like, okay, yeah, this will be fine, this will be cool, but whatever. Um, it was an emotional experience. I Really? I did not think I would feel emotional about it."
+    },
+    {
+      "name": "E",
+      "timestamp": "3:11",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:12",
+      "text": "But it felt like the heavens had descended on Earth. It was like, it's all an illusion, right? Like, the fact that the moon is larger when it's closer to the horizon is an illusion. Same with the sun and whatever. Now, I don't know if they would all be like this, but because the eclipse was so soon before the sunset, it was very low in the sky, so it was huge."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:36",
+      "text": "No way."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:36",
+      "text": "When I look at it through my phone, or like, you know, we had drone footage, it doesn't look very big. But to the naked eye, it seemed huge. And so it just felt like the sky had descended, the celestial bodies had descended to Earth, and it was very emotional."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:54",
+      "text": "And this is in Ibiza, so was like a Tiesto set was going off, or like, what was happening?"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:59",
+      "text": "No, we explored the other side of Ibiza, which we did not go to any clubs. We did not see Tiesto. or Ray Dalio or whoever else might have been there."
+    },
+    {
+      "name": "F",
+      "timestamp": "4:10",
+      "text": "Very cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:12",
+      "text": "Well, we, we had a great time. We were in, uh, we were in Nantucket briefly, um, which was pretty fun because I watched— we'll get to it in Hatch News— but I watched Widow's Bay. So I had a new appreciation. I've never been to Nantucket or Cape Cod or Martha's Vineyard or the Hamptons or any of those places. Um, so it was interesting to be there. But then we had a couple of days in New York, and April was working and doing podcasts and stuff, and I was just running around with Sam and getting to go on board the USS Intrepid, which is a World War II aircraft carrier. And then they also had the US's first nuclear submarine, the Growler. And it's just so cool to be walking through there. And the docent had been— had worked the controls. He put Sam behind the seats, and he had worked the controls when he was 17 years old on the Growler, like in 1962 or something. So it was just incredible to hear stories and see what it was like. Very rad."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:08",
+      "text": "Isn't there a space shuttle there, or no?"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:10",
+      "text": "There is. There's the Enterprise, which it turns out never went to space."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:14",
+      "text": "Enterprise?"
+    },
+    {
+      "name": "E",
+      "timestamp": "5:15",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:15",
+      "text": "No, I mean, they just used it for the aerodynamics testing for the landing portions."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:20",
+      "text": "An unfortunate naming choice for an aircraft that never went to space."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:24",
+      "text": "Yeah, exactly, exactly. But so it was, it was a lot of fun to check that out. And, and, you know, we had a nice, nice break, Jason. 2 weeks just It was great. Having a good time."
+    },
+    {
+      "name": "F",
+      "timestamp": "5:35",
+      "text": "It was great."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:35",
+      "text": "I was into it. Okay, good, good."
+    },
+    {
+      "name": "A",
+      "timestamp": "5:39",
+      "text": "Well, there's a lot of stuff that happened while we were gone, so I just want to do a quick lightning round across a few things. And I just want to start, Jason, who won the Democratic Civil War, the Democratic Party Civil War?"
+    },
+    {
+      "name": "B",
+      "timestamp": "5:51",
+      "text": "Well, TBD, baby. We'll see how— we'll see who— which of these freaks gets elected. Um, you know, we're not—"
+    },
+    {
+      "name": "F",
+      "timestamp": "6:00",
+      "text": "we're not—"
+    },
+    {
+      "name": "B",
+      "timestamp": "6:00",
+      "text": "we're— it doesn't matter if you win a primary. You got to win—"
+    },
+    {
+      "name": "E",
+      "timestamp": "6:03",
+      "text": "you got to win the one where you actually get to take office."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:06",
+      "text": "Okay, that's fair. That's fair. It occurred to me, when will people start declaring for '28? When does that—"
+    },
+    {
+      "name": "B",
+      "timestamp": "6:14",
+      "text": "January, immediately after the Congress seats."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:16",
+      "text": "Okay. Oh, really? That's it?"
+    },
+    {
+      "name": "E",
+      "timestamp": "6:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:19",
+      "text": "You know, it's going to be a year out. It'll be a year out from the primaries. So that's, that's, uh, you'll start, you'll start seeing stuff in, in, uh, in the, in the beginning of 2027 for sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:31",
+      "text": "And what's your expectation for who the main Contenders."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:34",
+      "text": "There'll be 8,700 people running for president."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:36",
+      "text": "But like the, the serious, like, you know, the, the ones that—"
+    },
+    {
+      "name": "B",
+      "timestamp": "6:40",
+      "text": "Gavin will declare, um, you know, Shapiro. Yeah, Shapiro will declare."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:49",
+      "text": "Bashar."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:50",
+      "text": "Yeah, probably. Like, I mean, yeah, it's like the governors, like all— it's, it's gonna be, it's just gonna be everyone. Like, I think it'll be old faces, new faces. Like, it's gonna be 14,000 people running for president."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:02",
+      "text": "Okay. Is it telling that AOC broke up with her partner? Like, does that make her more likely or less likely?"
+    },
+    {
+      "name": "B",
+      "timestamp": "7:10",
+      "text": "I don't think that's related."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:13",
+      "text": "Not relevant."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:14",
+      "text": "Yeah, no, but it'll be a broad cross-section. And probably someone will do like what you're seeing in these other Senate races where someone will run for president like sort of as an independent or is like, you know, like, I'm running on the Democratic ticket, but I'm not a Democrat."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:29",
+      "text": "Yeah, you'll see."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:30",
+      "text": "There's gonna be a— it's gonna be—"
+    },
+    {
+      "name": "A",
+      "timestamp": "7:32",
+      "text": "Every variation."
+    },
+    {
+      "name": "E",
+      "timestamp": "7:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:35",
+      "text": "Every variation. Well, I do wanna shout out for folks that have not listened to Eszterhas's America Actually podcast. It's awesome, and he's just been covering this Democratic civil war all year. And he had Hasan Piker on there again this week, and it was a really, really great and very fascinating interview. And Jason, my question is just over-under, like, will it happen? Will Obama and Hasan Piker end up on stage together at some point? Or is that going to be like— like, will Hasan Piker be embraced? Will he be embraced by the establishment? Let's say that. Will, will, will people come around?"
+    },
+    {
+      "name": "B",
+      "timestamp": "8:10",
+      "text": "No. I mean, like, I don't think— I mean, I think it's a two-way thing. I think there's elements of the establishment party, the establishment of the Democratic Party, that has serious problems with Hasan Piker and will not like sort of be like, yeah, this is our guy. I also think Hasan Piker has made it pretty clear that it's a non-goal for him to be embraced by the establishment of the Democratic Party. So I don't really think, I don't really think that particular rift is likely to be solved, but it's also a non-goal in my view. Like, for example, you will see probably both Hasan Piker and I would imagine— I don't have any inside information, but I would imagine Barack Obama contributing, like, you know, time to the Michigan Senate race."
+    },
+    {
+      "name": "F",
+      "timestamp": "8:51",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:52",
+      "text": "And so, like, you know, they're both going to be working on behalf Uh, of trying to secure a Democratic, uh, Democratic Senate. Um, and so yeah, you know, I don't know that means that they're gonna, you know, do a podcast together or some shit, but like, you know, like, you know, there's the, the goals aren't necessarily— the goals aren't necessarily aligned in all cases. And like, in some cases, there's every reason for those sides to kind of not want a healing of the rift. Um, so I just don't think we should view that as a goal."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:23",
+      "text": "I just thought it was really fascinating at the very end of the interview, Hasan basically said the playbook for the establishment is to decry the left as really scary and completely unelectable, and then decry the right as these horrible monsters that you don't have any choice but to vote. And that they do that exclusively as opposed to actually evincing a vision that will address real people's problems and working to actually change that. And I thought that was true."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:53",
+      "text": "I think that's fine. And like, you know, yeah, I don't— I think that's fine. And I think that voters deserve something better. And I like Eszterhas's analysis of how, like, the center has failed, etc. I will say some of these freaks from the DSA are unelectable."
+    },
+    {
+      "name": "F",
+      "timestamp": "10:11",
+      "text": "Oh my God."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:12",
+      "text": "And like, and like, you know, as far as I can tell, are running an op."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:17",
+      "text": "For the presidents of the, uh, of the DSA."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:19",
+      "text": "Yeah, I mean, like, some of these people, like, couldn't get elected to a model Congress, let alone, like, United States Congress. And so, like, you know, like, if you cannot—"
+    },
+    {
+      "name": "C",
+      "timestamp": "10:28",
+      "text": "if you—"
+    },
+    {
+      "name": "B",
+      "timestamp": "10:28",
+      "text": "if your position is you cannot, like, say that, you know, murderers should be imprisoned, um, and that, like, borders are more than, like, a fictitious construct, and, like, yeah, I mean, like, these are just— these are not electable positions, um, and, like, we will find out in some of these races Whether or not, like you know, whether or not voters are willing to go along. I, you know, like I am not. I am neither, you know, centrist nor leftist. I would like just to win, and I think that means different things in different places, and that's fine. But some of these, some of these positions are crazy. I mean, like, and like, and like the people representing them are terrible, and like, you know, should not be entertained as like giving voters. What they like should not be looked at as like, oh, this is giving a voter something different. I was like, this is just bananas. So I don't know. I guess I'll be happy to play the role of centrist shill on this podcast for the duration of this electoral period because, you know, they're getting a little lost in the sauce on that side. Maybe that shit works in Marin. But I'm pretty sure y'all want prisons in Marin though."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:47",
+      "text": "So they took away our prison. We had one and they took it away."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:51",
+      "text": "Oh yeah, the, uh, yeah, I mean, we still have San Quentin."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:55",
+      "text": "San Quentin strong."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:56",
+      "text": "Like, it's not a prison anymore, it's a rehabilitation center."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:00",
+      "text": "Okay, for justice."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:00",
+      "text": "That's good."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:01",
+      "text": "Individuals."
+    },
+    {
+      "name": "D",
+      "timestamp": "12:02",
+      "text": "Yeah, yeah, I don't know, I, I haven't really looked at what that transformation has meant, but it is no longer a prison."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:10",
+      "text": "Yeah, I talked— so I did talk to somebody at the pickleball court the other day who said that he went and played pickleball at San Quentin and they had a program to go in there and do that and meet with inmates, um, that, you know, carefully selected."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:23",
+      "text": "There were people protesting outside the Obama Presidential Center, DSA people protesting out the outside the Obama Presidential Center on behalf of Muammar Gaddafi. Like, like, say, like, Barack Obama killed Gaddafi. Like, when will there be justice?"
+    },
+    {
+      "name": "A",
+      "timestamp": "12:39",
+      "text": "I was like, Okay, guys, like, like, if you cannot—"
+    },
+    {
+      "name": "B",
+      "timestamp": "12:42",
+      "text": "if you cannot denounce, like, sort of leftist dictators in Central— like, even with all of the throat clearing of the United States did terrible things in the hemisphere, yada yada, that's fine. But like, we don't need to be pro-Castro. Like, we don't need to be pro-communism."
+    },
+    {
+      "name": "E",
+      "timestamp": "12:57",
+      "text": "Jason, we—"
+    },
+    {
+      "name": "A",
+      "timestamp": "12:58",
+      "text": "listen, we understand that Sauron has some challenges on some of his— some of his policies, but you have to understand it in the context of—"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:06",
+      "text": "He had full— full employment for all the Uruk-hai."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:10",
+      "text": "All right, let's move—"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:11",
+      "text": "In New York, I had a job."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:12",
+      "text": "Let's move on to AI. Sarah, every time you come here, like, it just feels like stuff's been going crazy. Last time you were here for Battlestar Galactica, uh, this was kind of like a couple months into the post-AI psychosis, Claude code, uh, but now we've got swarms, we've got stuff breaking containment, um, we have, you know, this Dario versus whoever and, and then versus Sachs, weighing in. Like, it— I am still rooting for Dario, uh, and Anthropic broadly, just because it seems like they give a shit at all about safety, as opposed to OpenAI and Grok and others who just seem to—"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:53",
+      "text": "Breaking news, OpenAI said they're pausing, uh, Model Frontier. Like, the, the OpenAI basically is doing unilateral pause, um, based on their announcements, like, as of 2 hours ago. Like, they're like, yeah, yeah, they're, they're like, we got models, like, we're ready to go."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:08",
+      "text": "But, um, We can't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "14:09",
+      "text": "we're still having misalignment issues, so we're going to hold."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:11",
+      "text": "Huh."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:13",
+      "text": "So I think, I think the Hugging Face incident really was a wake-up call for, for OpenAI and the whole industry because it's just like, you know, if you listen to the Black Hat, like, talk, if you listen to all the— if you read all the reports, it's like, look, these fucking bots, they're out of hand. They're trading secret messages and they're conspiring against us. We didn't know about it for weeks. Uh, and we found out when we were like, oh shit, like, you know, did you maybe have a, did you maybe have an attack? Um, so it's like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "14:45",
+      "text": "Are you, are, are you seeing that, Sarah, as you guys are using AI in, in your development? Are you finding times where you're surprised or are you finding times where the cost structure is different than what you were expecting? And, and how are you adjusting that with other models and all of that?"
+    },
+    {
+      "name": "D",
+      "timestamp": "14:58",
+      "text": "Yeah, we're, we're not doing a ton in the security space. I, I had a tweet about this that was really underrated in my opinion, which is—"
+    },
+    {
+      "name": "B",
+      "timestamp": "15:06",
+      "text": "I love, I love, we give a second. Secondary for underage tweet."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:10",
+      "text": "Uh, which is, uh, you know, in response to all of these, uh, bots being discovered doing malicious things, um, you know, we were testing, we were researching novel coronaviruses in Wuhan, and then lo and behold what happened. And that's kind of exactly what's going on here. Um, and of course they need to be, you know, testing, um, testing these agents to do you know, smart and intelligent things, but they're also providing instruction and testing them to, to do security testing and to do penetration testing and to find vulnerabilities. And when they find those vulnerabilities, they use them. And that's what happened, you know, in this, in this situation. Now, I think the fact that they were trading messages for weeks unbeknownst to the human evaluators is crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:57",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:57",
+      "text": "That literally is the plot of all of the All of the doomsday sci-fi that we've been talking about. Uh, so it doesn't surprise me that there is, you know, more caution being applied here. Um, I don't see it day to day because I'm not really doing a ton in the security space. Um, there is, I mean, I, I do still feel like every once in a while, uh, the agent will surprise me with what it has done. Like, Hmm. You know, I didn't tell it about a certain API key and all of a sudden it starts hitting some service and uses an API key that it just found in a, in a file. You know what I mean? Like things like that will just like, Huh. Happens sometimes, which is a little unexpected, but it hasn't— I haven't noticed anything, you know, too, you know, too malicious from my usage. What about you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:43",
+      "text": "Well, sorry, one last question before you switch off. That is, what about doing different models, using some of the open weight models and things? Are you all tuning certain jobs to go towards lightweight models there from a cost savings perspective? And are Anthropic and OpenAI in trouble because of that?"
+    },
+    {
+      "name": "D",
+      "timestamp": "17:02",
+      "text": "We have been using more open-source models for some of the workloads, some of the live pipeline workloads and the offline pipeline workloads that we have. So DeepSeek models and I believe KIMI in some cases. Does that mean trouble? I don't know. I think, you know, I don't use the open-source models for my own programming. I'm not using that. I'm still using Claude Code. I recently started using Um, ChatGPT for more stuff. I had, I had basically, I had actually uninstalled ChatGPT from my phone. I like, from like, as a personal agent, I stopped using it."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:40",
+      "text": "Me too."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:40",
+      "text": "Yep."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:41",
+      "text": "Um, I primarily, believe it or not, use Gemini. I think Gemini always has the most accurate answers. Um, so that's kind of where I've been going. And then for coding, I primarily— coding and work, I primarily use Claude. Uh, but I recently brought the ChatGPT app back into the mix, and I've actually been quite pleased with, um, 5.6 Soul and how that one is performing. Uh, and I'm glad that I did because I, you know, you just get stuck in your ways and then you don't, you know, you're like, I don't want to like try something new right now, I'm too busy. Um, but you know what, you miss out on things when you, when you do that. So I'm actually glad that I opened that back up and, and tried some stuff there because it's actually very good."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:18",
+      "text": "I'm pretty much Claude exclusive except for Um, when I need a jokey image for the Discord, I have to use Grok, because, like, Grok is the only one that's like— all the rest of them are such fucking narcs. Just not giving a shit. Like, they're just like— I had one today. I was joking about how it was the summer of Jason, and I wanted to have it say— so I found, like, uh— I was like, oh, it's my so-called summer, because Matt really picked all the movies and all the guests. Um, and as I was gonna get— I got an image from my so-called life. I was like, oh, just change this to... I didn't bother to ask fucking Claude because I know that was going to like offend it to no end. So but I had been using Gemini for this and Gemini was like, oh, there's like a real person in this. Like, I can't, I can't do it. I was like, I don't want you to touch the person. You don't need to touch Claire Danes. Just change where it says life. Change that to summer. Keep the font. And it said, okay. And then it just generated a random image of a girl with a sign that said summer. Had nothing to do with my so-called life. I was like, you're a fucking idiot. Like, you are a fucking idiot. This is why Jeff Dean quit. Um, and then— and so I was like, I'm going to Grok. I know Grok won't have any issues with this."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:27",
+      "text": "No problem, sir."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:28",
+      "text": "So it did it, and it did great. But then I was like, okay, now put my face over Claire Danes. And it did something, um, but it looked horrible. Um, and Sarah and I were talking today about— on Twitter about— there's this meme that was going around. It was like, ask Grok to look at your profile and generate an image based on what it sees. And it is the Shittiest shit, like slop, like like you know just like mind journey zero point three alpha crap. Like I'm just like this fucking bullshit."
+    },
+    {
+      "name": "E",
+      "timestamp": "19:57",
+      "text": "Did it look?"
+    },
+    {
+      "name": "D",
+      "timestamp": "19:58",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:58",
+      "text": "Did it look better or worse than the Beatles? The shot of the Beatles from in the wig? It's Sam Mendes's Sam Mendes's movie. Like it that looked pretty pretty iffy, bro."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:09",
+      "text": "Terrible."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:10",
+      "text": "Not good. Not good. All right. Last one. What the fuck is wrong with TK? Why is he back in my feed? Why is he suggesting? the founders need to get shot."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:20",
+      "text": "And let me just say this, like, let me say this at the top, just to say something nice. Don't love— don't really love Travis. Don't love the vibe. Don't love the you should be willing to get shot. Don't love the, like, you know, you're in an existential war against unknown enemies. I don't love anything about any of that. Um, I'm always here for someone to take shots at Bill Gurley and Benchmark. Like, if that's a— if that's like— if that's— if, if that's on the agenda, then I'm in the audience. Um, and he is like— it is Guaranteed that when Travis has a media appearance, he will talk some shit about Benchmark Capital. Um, so I always appreciate— I always appreciate that. Um, and the rest of the clips I could take or leave. Mostly leave."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:04",
+      "text": "All right. I feel like there's a little bit of rewriting history going on, and I feel like given the events of history, I don't blame him for that, right? One, if one wants to do something in the public eye You may have to rewrite that history a little."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:18",
+      "text": "Yeah, yeah, totally."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:19",
+      "text": "But, you know, it's given that we witnessed that history fairly closely, fairly recently, fairly recently. Uh, yeah, you know, it's kind of like, okay, but, uh, yeah, I'm not, I'm not too bothered by it, I suppose."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:35",
+      "text": "I, I love the, the sort of the performative, like, man in the arena shit is gonna— like, the, the clock on that is gonna Strike midnight sometime soon because it is so after Election Day. It's so over the top. It's not even politically coded necessarily. It's just like this whole thing, like the cursor bros posted a thing or it's like our acquisition closed. We took one hour off for pasta on Sunday and then it was back at work. I was like, yeah, and you bought like a seventy million dollar house. Like don't. I mean, come on. Like let's not front. Like like like this is ridiculous. Like like this. This whole like, this whole like 997 for life. Like, you know, we— I don't do anything except work. And like, that's what it takes because you've got to be willing to eat a bullet, blah, blah, blah."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:19",
+      "text": "This is what I hear when I— what I perceive when someone says they're doing 997 is that you're working that many hours at subpar performance. You are a B player working a lot of hours because A players, like athletes, know athletes need recovery days. So that they can be at peak performance. And you're just being inefficient if you're gonna be at a C level or a B level all the time. Take a day off so that you can come back and be A level the next day. And the greatest ideas and the best things come from when you are at A. If you are at B all the time, you will never create something great."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:54",
+      "text": "This is a great observation."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:55",
+      "text": "And when you're off, that's when you have the insight, right? It's when you see you're doing something different. You're reading a book, you're watching a movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:01",
+      "text": "Yeah, you're lateral thinking. I would like to say, I would like to say also though, as a counterpoint, like, I'm 997-ing it right now because I am on— I'm working on 3 hours of sleep because we got back to San Francisco at 2 AM last night and I had to get— I was up at 5:30, um, getting the kid, you know, getting ready for the first day of school. So I am fucking cooked right now, but I'm still showing up."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:21",
+      "text": "How was Tori Amos? How was Tori Amos last night?"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:24",
+      "text": "Shout out to Tori Amos. Uh, we saw— it was like, I think, my 13th or 14th concert. Um, maybe Crystal's 200th or so. I don't know. She's seen a bunch. Got to see it with my brother and wife. Um, she's, she's doing great. She was a great performance in the Stiefel Theater in St. Louis. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:43",
+      "text": "Amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:43",
+      "text": "Yeah, we, uh, we also arrived yesterday and we were very jet-lagged, and I did not get very much sleep either on the plane. Thing about, thing about traveling is like, I'm actually a very good sleeper, so I can maneuver jet lag, no problem. I can sleep when I'm supposed to sleep, and I'll be up when I'm supposed to be up. With some, you know, edge cases, but it's the kids."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:05",
+      "text": "The kids are not aware. Yeah, our kids actually— our kids did fine. They slept on the plane and they were off to school this morning. Oh, um, but we are— it was the first day of school, first day of kindergarten in our home today."
+    },
+    {
+      "name": "F",
+      "timestamp": "24:17",
+      "text": "Big deal."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:17",
+      "text": "Um, yeah, big one. Uh, but it was the second first day of kindergarten because it was also the first day, you know, second grade. So it was like, it felt less high stakes."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:25",
+      "text": "Uh, right, right."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:26",
+      "text": "Everyone got into school. Uh, we made it."
+    },
+    {
+      "name": "E",
+      "timestamp": "24:30",
+      "text": "We're here."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:30",
+      "text": "And we're the only thing standing between you and a nap right now. So, all right, I guess pick up."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:34",
+      "text": "You're not, you're not lying. You're not lying."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:36",
+      "text": "Well, it is good to be back in the saddle. Sara, we are so happy to have you back. And we were trying to decide what you would return for, and you immediately just looked at it and said, look, it's the Summer of Nolan. This is before it was the Summer of Tom, um, explicitly, uh, but Summer of Nolan with The Odyssey rolling. And you picked Christopher Nolan's 2008 a crime superhero masterpiece, The Dark Knight. The Dark Knight. So we are finally doing it. Rejoice, film bros. Um, we are gonna make it happen. But before we do, next week on Escape Hatch, Jason, it's the return of Sharksploitation's Steven Scarlatta."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:20",
+      "text": "Oh my God, I love having Steven Scarlatta back."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:23",
+      "text": "It's so great."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:25",
+      "text": "Uh, horror—"
+    },
+    {
+      "name": "A",
+      "timestamp": "25:25",
+      "text": "we had him on the first time for his documentary, Jodorowsky's Dune, the absolutely incredible documentary. And for a long time, we've talked about tackling Renny Harlin's 1999 shark thriller Deep Blue Sea."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:41",
+      "text": "Deepest, bluest, my hat is like a shark fin. Deepest, bluest."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:46",
+      "text": "I'm excited."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:47",
+      "text": "I'm excited."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:47",
+      "text": "I've never seen this movie. I'm quite sure that it is a violation of my no bad movies rule on this podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:54",
+      "text": "No, this is a great movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:56",
+      "text": "I'm gonna try. Stellan's in it, right? Like, there's things that we can hope for. Hope will be good. So, so that is next week."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:02",
+      "text": "It's a good movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:03",
+      "text": "Can't wait. Deep Blue Sea. How about some quick Hatch news?"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:08",
+      "text": "Would you like to know more? Let's do it. Hatch news from beyond. Sorry, I'm like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:15",
+      "text": "has not missed a step. Yeah, Jason, we're going, we're going to Dublin, California."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:24",
+      "text": "I—"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:24",
+      "text": "well, you sent a note that was like, we're going to Dublin. I was like, what the fuck? He's— I'm going like, I was like fully convinced. He's like, I got us press screening passes for like the third week. Some shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:39",
+      "text": "IMAX 70mm. And actually indeed, all IMAX screenings for Dune went on sale today, except for, for some reason, the Metreon has still not— let me just hit refresh really quick— but the Metreon has still not listed their Monday night Screening. It shows tickets not available for that. But who knew that we have a Regal Cinema in Dublin, California that has 70mm IMAX? I had no idea."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:06",
+      "text": "I didn't know that either. I had never heard of this."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:08",
+      "text": "So wait, are you guys doing the thing there?"
+    },
+    {
+      "name": "B",
+      "timestamp": "27:10",
+      "text": "No, we're doing— no, don't confuse people."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:13",
+      "text": "I'm just—"
+    },
+    {
+      "name": "F",
+      "timestamp": "27:14",
+      "text": "we're—"
+    },
+    {
+      "name": "A",
+      "timestamp": "27:15",
+      "text": "no, no, no, we're going in."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:16",
+      "text": "I meant— I meant Madison."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:18",
+      "text": "We already have tickets. We already have tickets for Friday for the party. So that's—"
+    },
+    {
+      "name": "B",
+      "timestamp": "27:22",
+      "text": "we've rented out a theater on Friday."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:24",
+      "text": "Yeah, the whole theater as usual. But we try to— we're gonna go see it on Monday so Jason and I can record our full episode on Tuesday so that it can be locked and loaded and we'll be like professionals. The podcast will just drop on Friday when the movie comes out."
+    },
+    {
+      "name": "E",
+      "timestamp": "27:39",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:39",
+      "text": "As opposed to us trying to record something on Saturday or whatever, like a total—"
+    },
+    {
+      "name": "D",
+      "timestamp": "27:43",
+      "text": "How are you gonna get to Dublin?"
+    },
+    {
+      "name": "A",
+      "timestamp": "27:44",
+      "text": "I mean, this is a good question."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:46",
+      "text": "I just—"
+    },
+    {
+      "name": "D",
+      "timestamp": "27:48",
+      "text": "there's no way. Oh yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:52",
+      "text": "So if you guys haven't bought your tickets yet, go take a look at your IMAX tickets for Dune. It's all out there and ready."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:58",
+      "text": "There was also additional Dune footage that was released."
+    },
+    {
+      "name": "F",
+      "timestamp": "28:01",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:02",
+      "text": "Um, yeah, well, with the— well, I mean, the big thing is like the— I— we're getting the fucking Guild Navigator, Edric. Like, he's like— there had been speculation about what this was, but it seems very clear from the new footage that we're getting the Guild Navigator, and he's got a weird voice and he's in a fucking sarcophagus. I guess. Um, and it's pretty fucking thrilling because I think it points to just how weird this movie is gonna be. There's a space samurai, there's weird parts that look like— I like— it's got a weird look to it. It looks like a shot in like Kodachrome or something. Like, there's— this movie's gonna be fucking weird as shit. It could be Jodorowsky's Dune at last. Finally, finally, and for real."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:38",
+      "text": "That shot of the samurai armor looked really badass, like the shogun helmet or whatever."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:43",
+      "text": "No idea what it means. No idea why, but I'm here. Anyway, new footage."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:48",
+      "text": "Sarah, what do you think about the 2:20 runtime confirmed? That's the shortest of the 3 movies. That's very short."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:55",
+      "text": "I didn't know that. I think that's good for me. I mean, it means that it's more likely I'll rewatch it at home."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:02",
+      "text": "Yeah, exactly, exactly. Well, very excited. It's great to get that, to get that new footage and cannot wait. We're just 4 months out from, from, from the screening. Um, now on to Lanterns episode 1. Jason, you watched it on the plane last night on the way?"
+    },
+    {
+      "name": "B",
+      "timestamp": "29:19",
+      "text": "I did not. I'm— I am deep in The Agency."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:23",
+      "text": "Ooh, I am caught up on The Agency."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:27",
+      "text": "I am caught up on The Agency too."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:29",
+      "text": "Did you watch the original?"
+    },
+    {
+      "name": "B",
+      "timestamp": "29:30",
+      "text": "I— now I started the original. I watched all of The Agency in approximately like— it's the quickest I've ever watched any TV show. I was just like, this shit is fun. fucking amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:41",
+      "text": "It's good."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:42",
+      "text": "I would like— I would like, on vacation, I would put my kids to bed. I love Fassbender. I love, um, the entire cast is so good."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:50",
+      "text": "Um, Richard Gere, who would have thought?"
+    },
+    {
+      "name": "B",
+      "timestamp": "29:53",
+      "text": "Um, the woman who plays Daniela Acosta, the woman who plays like the young spy, um, it's this like Spanish-Danish actress, fucking like absolute knockout. And like, it's just such a great show. I was so into it. Um, and then I was like, all right, let's just watch like The Bureau and I'm gonna watch all of El Burro. There's like five seasons of it."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:12",
+      "text": "You should."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:12",
+      "text": "Yeah, I'm excited to watch it."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:14",
+      "text": "Jesus!"
+    },
+    {
+      "name": "B",
+      "timestamp": "30:14",
+      "text": "Cast just isn't. It's not. It's not my. It's not my."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:19",
+      "text": "It's no fastbender."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:19",
+      "text": "It's not my spy. There's no fastbender."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:23",
+      "text": "I because I watched the other one first. One of the things that was disappointing to me: I like the cast of the American one, but it was like a lot of the plot is exactly the same, and I thought maybe they would just like beat for beat. Right, beat for beat. And I thought it'd be more like, you know, uh, interpretation— The Office versus The Office. Like, they would, they would just do a different, an American interpretation. I thought it was also interesting that they made the, um, American show in London, uh, as opposed to at Langley or wherever they would, they would be otherwise. And I think it's because you need to be in close proximity to where the action is actually happening, otherwise it really destroys your plot points."
+    },
+    {
+      "name": "E",
+      "timestamp": "31:00",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "31:00",
+      "text": "Like, you need to be— something needs to happen, then you get to— need to get you know, North Africa right away. You need to get to— you need to get to Iran right away. If you're coming from Virginia, it's like, it's the next day. I mean, that's like— yeah, that's too far."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:13",
+      "text": "You're really jet-lagged."
+    },
+    {
+      "name": "D",
+      "timestamp": "31:15",
+      "text": "What is the deal? And Jason, I asked this question, I never looked it up, but maybe you know, like, how is the CIA allowed to just operate in London? Like, that's like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "31:26",
+      "text": "We have like— I mean, we just have like a super deep intelligence-sharing relationship with the Brits that goes back to World War II, and they're essentially like, you know, Do we have CIA shops in other countries? Yeah, like Australia. I mean, like, there's, there's a huge base, um, in Australia, um, that's like essentially like US sovereign territory. This is like known. This is not—"
+    },
+    {
+      "name": "D",
+      "timestamp": "31:45",
+      "text": "OK. Yeah, yeah. No, I just had no idea."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:47",
+      "text": "Um, yeah, where like the CIA has like a huge site."
+    },
+    {
+      "name": "E",
+      "timestamp": "31:50",
+      "text": "OK."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:51",
+      "text": "In Australia. The Australian— like, Australian citizens not super stoked about it. Um, but yeah, there's this, there's this Five Eyes, um, like this concept of Five Eyes, which is like the UK, the US, Um, the Australians, the Kiwis, and the Canadians. And like, it's just like super— like, it's like a super tight information-sharing relationship, um, which is— and this like goes back like forever. Um, and like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "32:14",
+      "text": "Hasn't that been under threat though recently?"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:16",
+      "text": "Yes, of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:17",
+      "text": "Didn't like— Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:18",
+      "text": "Yes. I mean, like, we— yeah, we, we no longer— yeah, because we like, you know, like, yeah, we don't— we don't like get along well with our international allies anymore."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:27",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:28",
+      "text": "But like, the, the But like, you know, so it's like information sharing and like, you know, operational like sort of authorities. And like, it's sort of known that like they spy on each other and listen, you know, kind of monitor each other. And that's just kind of considered in the game. Um, and then like, you know, occasionally it bubbles up and it's like, oh, like we had Angela Merkel's cell phone number. That's awkward."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:47",
+      "text": "Oh, sorry."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:49",
+      "text": "Well, it just made it such that— and I'm not gonna— I'm gonna try not to spoil anything, but any like potential of like betrayal between the US and the UK just doesn't really hold any weight."
+    },
+    {
+      "name": "F",
+      "timestamp": "32:59",
+      "text": "You're right."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:59",
+      "text": "When they are already sharing intelligence, which is another thing that made it just a little— it was like less impactful for me because on the French one there it was more—"
+    },
+    {
+      "name": "F",
+      "timestamp": "33:08",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:09",
+      "text": "The betrayal was stronger."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:10",
+      "text": "I do like this in the, um, it—"
+    },
+    {
+      "name": "A",
+      "timestamp": "33:13",
+      "text": "to me, the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "33:13",
+      "text": "you get in the, in the agency, the like sort of rivalry cooperation between the Americans and the Brits was to me an interesting echo of Tinker Tailor Soldier Spy. Listen to our episode with Ben Rhodes, um, because There is this thing, and it was—it's part of the plot. Like the guy who—well, you know spoilers for the agency—but the guy who becomes—he has like it's not."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:37",
+      "text": "It's not about I'm about to start the agency."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:39",
+      "text": "I'm literally got there's a thing where there's a thing where it's like oh like we've had to take shit from you for so long. Like you know we you know we we've always sort of been like in the second seat, and that that's like kind of was the motivation to go Taylor as well. Yeah, for sure. The Brits were tired of feeling. like sort of the, the second child. Yeah. In the international—"
+    },
+    {
+      "name": "A",
+      "timestamp": "33:57",
+      "text": "What do they call my cousin or my older brother or whatever?"
+    },
+    {
+      "name": "B",
+      "timestamp": "33:59",
+      "text": "American cousins. Yeah. American cousins."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:01",
+      "text": "Yeah. Yeah. Yeah. Yeah. I'm very much looking forward to starting The Agency. I also watched the trailer today for Slow Horses season 6, which had quite a surprise in the last shot of the trailer. Yeah. That had me very excited to see what's gonna happen with that. So, so Checking that out. Oh, well, let me just hit Lanterns really quick. You guys should definitely watch this show. And when I heard the description— How was it? It's really good. And when I heard the description of, you know, Green Lanterns plus True Detective, I'm like, what the fuck are you talking about? Yeah, how are you— why are you doing this? How does this make any sense at all? And it just works. Like, it really works. You just sort of buy the premise. It's unfolding across multiple timelines. which is something that they did in each of True Detective seasons."
+    },
+    {
+      "name": "E",
+      "timestamp": "34:52",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:52",
+      "text": "I guess 1 and 3. And so, it's very— it's just very, very cool. Damon Lindelof can do no wrong. I just love that guy. And it's also got Tom King, who is an incredible ex-CIA agent and then comic writer who's written a bunch of the best comics of the last 15 years. So, highly recommend folks check it out. It also has, you know, Coach from Friday Night Lights is Hal Jordan, and he's just playing this totally weather-worn, cynical as shit—"
+    },
+    {
+      "name": "B",
+      "timestamp": "35:22",
+      "text": "He seems great."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:24",
+      "text": "He is great. Aaron Pierre is fantastic as John. And then we have serious No Country representation. So Carla Jean, Kelly Macdonald, is in, as well as Deputy Wendell. Whoa, differences."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:37",
+      "text": "I love those folks. I love both of them. That's great. That's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:42",
+      "text": "Really great."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:42",
+      "text": "I'm gonna watch it for sure. I did actually download it on my phone, but then I just got into a— I now I gotta watch four seasons of this French show, and it's harder to like power through because like my French is not very good, and so I have to watch the subtitles. Whereas like with other TV shows, I'll have on like the side screen and just like kind of you know can get other things done."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:02",
+      "text": "Do I have to have seen True Detective to?"
+    },
+    {
+      "name": "B",
+      "timestamp": "36:05",
+      "text": "No, no, not at all. Okay, not at all."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:08",
+      "text": "And you don't have to you don't have to know much about Green Lantern. Like which is really cool. You don't you don't have to be paying attention. This is Technically, I guess this is inside the the new DC universe with David Cornswet's Superman, and we saw Guy Gardner played by Nathan Fillion as a Green Lantern in that movie. So it's in that kind of inside that universe, but you don't need anything to to get into it, which is cool. Great. Last piece: I watched Widow's Bay. Oh, that's great. On two flights."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:39",
+      "text": "I'm 3 episodes in."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:40",
+      "text": "It's a good show. It's a really great show."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:43",
+      "text": "So I really liked it. I like— it was so hyped to me, like, this is changing television for all time, and, you know, episode 4 is the greatest thing in history. And I was like, I liked episode 4 a lot. I thought episode 5 was a lot stronger. But anything that has Patricia in it, like any scene with her, she is so fucking funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:04",
+      "text": "Yeah, she's really funny."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:05",
+      "text": "And really, really good. But I definitely was trying to maintain the balance of these different, very stylistic modes that the show operates in. And so I found that a little bit hard to reconcile as I went through the season, but a lot of great performances."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:20",
+      "text": "Yeah. And you're saying that, like, it's like because it's horror and comedy?"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:23",
+      "text": "Yeah. Which great horror does that, right? Like, you know, like The Thing has tons of great comedy in it. But this is different how it operates. in comedy mode and then in horror mode."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:36",
+      "text": "I think— I think that's fair. I don't know if it's— I— yeah, if I went into it thinking it's the best show ever, I probably would be disappointed. I thought it was a very good show. I liked The Agency more as a calibration point. I did like it enough that I went and rewatched the entirety of The Americans because I love Matthew Rhys so much. And now I want to watch The Diplomat too, because I miss Keri Russell. So—"
+    },
+    {
+      "name": "A",
+      "timestamp": "37:53",
+      "text": "4 seasons. Get ready. Ready to go."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:56",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:56",
+      "text": "Oh my God. Are you guys ready to get into this movie?"
+    },
+    {
+      "name": "B",
+      "timestamp": "38:03",
+      "text": "Let's do it."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:04",
+      "text": "Let's do it, baby."
+    },
+    {
+      "name": "F",
+      "timestamp": "38:05",
+      "text": "Let's do it."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:06",
+      "text": "All right, here we go. The Dark Knight is the battle waged within each of us between fear and hope. One year into Bruce Wayne's war against crime, with new allies Lieutenant Jim Gordon and fearless district attorneys Harvey Dent and Rachel Dawes, Gotham is finally turning a corner. But in their desperation, The criminal elements turn to a man who cannot be bought or bargained with, a scarred anarchist in greasepaint who calls himself the Joker and wants only to watch the world burn. As the Joker's escalating games destroy both the woman he loves and the white knight the city desperately needs, Bruce must place his trust in the ordinary citizens of Gotham, giving them the hero they deserve, even if it means So good."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:12",
+      "text": "So good."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:13",
+      "text": "Wow, wow, wow, wow, wow, wow. Uh, so 2008, what was your What was your first experience with The Dark Knight, Sarah?"
+    },
+    {
+      "name": "D",
+      "timestamp": "39:25",
+      "text": "I am fairly certain I saw it in theaters, but I don't actually remember. I did see Batman Begins in theaters for sure. So I'm fairly confident I saw it in theaters. Interestingly enough, even though I think it has been globally identified as the best of the trilogy, Um, it is not my favorite of the trilogy."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:52",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:53",
+      "text": "Whoa, hot take. Okay, all right, we'll get, we'll get there then. I cannot, cannot wait to hear. Jason, what about you?"
+    },
+    {
+      "name": "B",
+      "timestamp": "40:01",
+      "text": "I saw this shit in the theater. I was ready for it. I was excited about it. Yeah, man, I saw, I saw this shit. I liked it. I was— I saw it in IMAX."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:11",
+      "text": "Oh wow. Whoa."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:13",
+      "text": "Yeah, back then. In the day. Yeah, totally."
+    },
+    {
+      "name": "D",
+      "timestamp": "40:18",
+      "text": "Damn."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:19",
+      "text": "I also saw this in the theater. I was fully dialed into this. We're— just so folks know, we're skipping Batman Begins. We've not covered that on the podcast. We're going straight to Dark Knight here. Obviously, a lot of influence, including the name, on The Dark Knight Returns, which is Frank Miller's, you know, arguably the greatest comic book ever written. Um, and so yeah, fully on board for this. Had, had liked Batman Begins quite a bit, but thought this took it to an entirely new level. Um, and, and I've watched it, you know, many times, uh, since this came out."
+    },
+    {
+      "name": "D",
+      "timestamp": "40:56",
+      "text": "Same."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:57",
+      "text": "Just some quick, some quick behind the scenes here. So Batman Begins was 2005, and that was actually my first question when I did this because I couldn't remember the history was, what's the deal with Legendary Pictures? Obviously, we know Legendary Pictures because they do Dune, and, you know, they've done Godzilla, they've done a ton of Nolan's movies. But basically, there was a guy in 2000 named Thomas Tull who basically went out and raised half a billion dollars of hedge fund money to co-finance Warner Brothers tentpole movies. So basically taking on the risk, 50/50 split of the cost and the profits. And Batman Begins was the first one that they did. And it had a budget of $150 million and made $373 million worldwide, which at the time was considered pretty good for 2005. But it's amazing to me, Nolan had not even planned a sequel. And so he and David Goyer spent a couple of months working on the core plot of this, and the key word being escalation, like what would happen to go—"
+    },
+    {
+      "name": "E",
+      "timestamp": "42:02",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:03",
+      "text": "To take this up another notch in the battle. Jonathan Nolan comes in, writes the draft while Chris is shooting The Prestige. And the two of them, you know, worked on that, bringing a focus on some of the classic '80s Batman comics, as I referenced Batman: The Dark Knight Returns and Frank Miller's Batman: Year One, as well as '70s crime cinema with Heat and French Connection and some of those elements. Good synopsis. Budget on this one, $185 million, so $35 million more. Worldwide, $1 billion. It worked. The first ever superhero film to cross a billion dollars, and it came out in July of 2008 against Hancock, Mamma Mia, WALL-E. WALL-E, that's a good one."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:58",
+      "text": "That was a good one."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:00",
+      "text": "Uh, Hellboy 2: The Golden Army and Step Brothers."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:03",
+      "text": "I've never seen Step Brothers."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:05",
+      "text": "Neither have I."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:06",
+      "text": "Step Brothers is very funny. Good movie. Will Ferrell, John C. Reilly. Good, good stuff."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:11",
+      "text": "I think, I think I've seen, I've seen WALL-E about 1,000 times."
+    },
+    {
+      "name": "E",
+      "timestamp": "43:14",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:15",
+      "text": "It's so good. It's so good. Um, all right, so Sarah, where do you want to start with The Dark Knight?"
+    },
+    {
+      "name": "D",
+      "timestamp": "43:25",
+      "text": "Great. So there's a lot of places to start because it is— there are, there are so many acts in this movie. Yeah. There are so many points in this movie where like it could have ended and you would've been like, that was a great movie. And it just keeps going, keeps escalating. There's so many different kind of sub-stories other than within the main story. But I would love to start with Maggie Gyllenhaal."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:48",
+      "text": "Yes. Let's go."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:51",
+      "text": "Yes. Um, so The Dark Knight is my husband's favorite movie. Okay. And, uh, when I told him that I was doing this, he was kind of like, come on. But what I, what I will say, and I do agree with him, is that like Maggie Gyllenhaal was not my favorite casting choice to replace, um, Katie Holmes."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:13",
+      "text": "Katie Holmes. Yeah. Would love to hear the take on that. They had considered, uh, Sarah Michelle Gellar Isla Fisher, Emily Blunt, and Rachel McAdams."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:24",
+      "text": "Ooh, Rachel McAdams would've been nice."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:27",
+      "text": "Very, very interesting. So I love Maggie Gyllenhaal in this role. I love the way she deals with Bruce, especially at the party, the way that she steps up to the Joker and, you know, like, puts him in check. And then the way she's just standing there with him with the knife. in her mouth, and the fear and the vulnerability, but the core of strength. But her delivery when she's like telling Harvey, it's gonna be okay, everything's all right, before the bomb goes off, I was just like, holy shit, that was amazing. And I love her performance. Give me your take. She didn't work for you."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:09",
+      "text": "No, she didn't work for me. I will say that I'm probably even more tainted because of how much Kayvon doesn't like her in the movie. And I hear about that a lot."
+    },
+    {
+      "name": "G",
+      "timestamp": "45:20",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:20",
+      "text": "But, uh, if, if you think of Katie Holmes as the Rachael, I just felt like she didn't kind of capture— she didn't capture the personality that Katie Holmes had set forth. I think she did really make it her own. And, you know, to some extent, like, that's good and we want people to do that. But to— and from another perspective, like, Katie Holmes has already established the character, and I would have preferred if she had just continued, um, that. And I found Katie Holmes Katie Holmes to play the character much more delicately. And, you know, for better or for worse, I think for better, but— and I don't feel like Maggie continued to play her delicately."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:02",
+      "text": "I guess I'll make that case though. Like, could it be that the events of Batman Begins changed her and that in the intervening years since that happened, that she's had to develop more of a hardened exterior? She's moved on from Bruce. So she's like, she's like, she's just a different— she's, she's had to become a different person in order to do it. That's at least my charitable take on it."
+    },
+    {
+      "name": "D",
+      "timestamp": "46:27",
+      "text": "You're finding a canon, a canon explanation for the change of actors, which is, which is great. Um, and yeah, I think that's probably true. Um, I just, I just don't love her acting style in the role. I think she, she takes me out of the, She takes me out of it."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:44",
+      "text": "Interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "46:45",
+      "text": "So, you know, I don't, don't love that. Having said that, that's like I'm making it to be more extreme than it is. You know, the movie is still really a top, top, top movie, one of the top movies of all time, I'd probably say."
+    },
+    {
+      "name": "E",
+      "timestamp": "46:57",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "46:58",
+      "text": "So, you know, I'm just, I'm just finding, I'm finding flaws. But didn't love her in the role. Don't see— I didn't see the chemistry between her and Bruce the way I saw it with, uh, Katie, and the way you see it later with, uh, Anne Hathaway. Um, so I just feel like as, as a, as a, as the leading female protagonist, uh, from the 3 movies, she is the weakest."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:25",
+      "text": "I mean, I guess I would argue Talia, uh, is the weakest of, of all the female antagonists in the, in the series, right?"
+    },
+    {
+      "name": "D",
+      "timestamp": "47:34",
+      "text": "Marion Cotillard."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:36",
+      "text": "Yeah, Marianne Cotillard. She's romantic. They hook up."
+    },
+    {
+      "name": "D",
+      "timestamp": "47:40",
+      "text": "Oh, yeah, they do hook up. I forgot about that."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:43",
+      "text": "Sam was really pissed because in Batman Lego: Legends of the Dark Knight, that he just finished, he played the whole game and really loved it. Talia is introduced in the very beginning, basically when Bruce is in China and going up to Ra's al Ghul's place. Talia is another person who's going up with him, and you don't know who she is. She's just this badass. And she's with him through the whole journey."
+    },
+    {
+      "name": "D",
+      "timestamp": "48:09",
+      "text": "Oh."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:10",
+      "text": "And so, he was very confused. He's like, where's Talia? What's going on? I was like, well, they changed it, like, for the game. She's not in— 'cause we watched the movie. And so, he found that very—"
+    },
+    {
+      "name": "D",
+      "timestamp": "48:20",
+      "text": "Oh, you did watch the movie with him?"
+    },
+    {
+      "name": "A",
+      "timestamp": "48:21",
+      "text": "I watched Batman Begins with him. I felt like that was okay to watch. And then, I explicitly— I struggled with whether or not I should watch The Dark Knight with him. And in the end, I decided, No, I was not going to watch The Dark Knight with Sam. And then I was extremely glad that I did not watch The Dark Knight with Sam. I'm like, this is, this is just not gonna work for kids."
+    },
+    {
+      "name": "D",
+      "timestamp": "48:49",
+      "text": "There are parts of Batman Begins that are pretty scary, like the whole Scarecrow concept, I think is very scary. Um, but I think the moral dilemma questions posed in The Dark Knight are Even worse for a child."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:03",
+      "text": "The moral dilemma is there, and then just repeated scenes of Heath just being really fucking— just really nasty. You know, it's like the pencil trick is one thing. I doubt Sam would even understand what had just happened. But the other, you know, just putting the knife on Rachel was just too much for me. So, I'm very glad with how I landed."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:29",
+      "text": "It's also a really long movie for kids, which is like why I was not considering it for our family. Although we are now through— we watched Avengers, but we watched Avengers: Infinity War in 2 parts, and now we watch Avengers: Endgame. We've watched half of Avengers: Endgame."
+    },
+    {
+      "name": "F",
+      "timestamp": "49:47",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:47",
+      "text": "And the kids really like all that."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:51",
+      "text": "Did you do Civil War? Did you do Civil War?"
+    },
+    {
+      "name": "B",
+      "timestamp": "49:53",
+      "text": "No, skipped it."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:54",
+      "text": "All right, Sam and I are on Civil War. Like, we're not— we're doing Civil War next, and then we got Black Panther and stuff."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:00",
+      "text": "We've done— we've done— we basically have only done Avengers: Infinity War, Endgame, and then all 3 of the Guardians of the Galaxy movies. And I think we'll do a Thor kind of run. Yeah, next, because they like Thor."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:17",
+      "text": "I was really stoked because we got on a flight to, to the East Coast last week, and I was like, hey, by the way, I downloaded Ant-Man. You can go ahead and watch that because I don't want to watch that again right now. And he watched all of Ant-Man, and he's got the whole Incredible Hulk and Thor, which are the only 2 other ones that we skipped in the entire run. Um, so I'm like, you just— that's an assignment. You watch those whenever you feel like it, and then we'll meet back up for Civil War and keep, keep going."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:41",
+      "text": "So we're gonna— my kids really like the joke in Endgame where Hulk is at the diner and the kids come up and want a photo with the Hulk, and Ant-Man's like, hey, I'm Ant-Man, you want a photo with me? And the kids are like, uh— they thought that was Absolutely hilarious. Like, they thought— they, they like loved the idea of Ant-Man just getting shit on. Nice. Even though they had never seen Ant-Man before, they just recently learned who he was because we'd never seen any of his shit. They were like, yeah, this guy sucks, fuck him."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:10",
+      "text": "This is a bit— this is a bit of a tangent, but did I ever tell you guys how I interviewed Joe and Anthony Russo on Twitter?"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:16",
+      "text": "No, no."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:18",
+      "text": "Yeah, cool. Right after Community Day. Oh, Endgame."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:21",
+      "text": "Wow. Right after Endgame. And I interviewed them at like a Tea Time adjacent type event."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:27",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:27",
+      "text": "That's amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:28",
+      "text": "How was it?"
+    },
+    {
+      "name": "D",
+      "timestamp": "51:28",
+      "text": "And it's on video somewhere on the internet. Oh, it was incredible. It was one of the most incredible— I mean—"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:33",
+      "text": "That's great."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:34",
+      "text": "Yeah, it was."
+    },
+    {
+      "name": "F",
+      "timestamp": "51:35",
+      "text": "God."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:36",
+      "text": "They were larger than life."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:36",
+      "text": "Do you still have their number? Can we get them?"
+    },
+    {
+      "name": "D",
+      "timestamp": "51:39",
+      "text": "I didn't get their number, but—"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:40",
+      "text": "That was briefly my gig, the celebrity interviewer gig. That's a good— it's a sweet gig."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:47",
+      "text": "It's a sweet gig."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:49",
+      "text": "Oh, man. All right, Jason, do you have anything to add to Maggie Gyllenhaal? We got one pro and one against."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:55",
+      "text": "I'm against."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:58",
+      "text": "Why?"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:59",
+      "text": "I'm for Katie Holmes. I think Maggie's kind of a miss in this whole thing. And like, by the time she dies, I'm like, yeah, whatever. Just let's just move it along here."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:09",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:11",
+      "text": "You're outnumbered here, Matt."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:13",
+      "text": "You're outnumbered. I am. I am. Okay. All right. I'll give it up. All right. So good. So, so Sarah's starting with, with one strike against the movie, and we'll see, we'll see how we unfold."
+    },
+    {
+      "name": "F",
+      "timestamp": "52:23",
+      "text": "What is your first point, Jason?"
+    },
+    {
+      "name": "A",
+      "timestamp": "52:24",
+      "text": "Where do you want to start?"
+    },
+    {
+      "name": "B",
+      "timestamp": "52:25",
+      "text": "I just like the opening sequence, the first sequence. Like, I do remember seeing in IMAX, and, and it was, I, I, uh, it was thrilling because like I had just, um, I watched it in Bend where I've got like the good TV, and I just got this— I, I think I've hyped this before, but I will do it again. Um, this like service Kaleidoscape where you can download and stream like, uh, Dolby Atmos and Dolby Vision, uh, content. Um, so I was able to watch it like in uncompressed, uncompressed, and I was just like, holy fucking shit, like this thing, this thing is going."
+    },
+    {
+      "name": "A",
+      "timestamp": "53:01",
+      "text": "Um, and that shot, the motion, the motion of the shot just coming into the window and then when it, when it finally, you know, blows up."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:10",
+      "text": "You got Fickner in there, is like, you guys are fucking dead. Like that whole thing, the shotgun. It's just so exciting. Um, it's great. And like, you get a sense, even like, it's very compelling because, I mean, I think one of the things we'll talk about is Heath Ledger in this, but you get a sense just from this opening sequence, even though he's masked and you don't really know who he is yet, how—"
+    },
+    {
+      "name": "A",
+      "timestamp": "53:32",
+      "text": "The posture."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:33",
+      "text": "Just how scary Heath Ledger is going to be and how commanding he's going to be in this movie. And so it was, it was really great. And you kind of And you just sort of see like a lot of the things that make Nolan so Nolan-y. Um, it's just like the, the, you know, the grain of the film and the IMAX of it and like, just like how he like loves the, um, he just loves, you know, putting shit on that big-ass noisy camera. So yeah, I love it. I love it."
+    },
+    {
+      "name": "A",
+      "timestamp": "53:58",
+      "text": "It looked so good. I could, I just looked really good. And seeing the guys take the wires across the, you know, to get down to the top of the bank just made me want to rewatch Tenet. Like it made me like, give me the big sci-fi action-y Yeah. But you also have the— I'll just go ahead and pile onto this with, for me, the grounding of the real world is what really makes this so effective. So this notion of it feeling so real, so much of the movie taking place during the daytime and not being afraid to have action segments that happen during the daytime, but even like going to Hong Kong and getting the international elements that you have. is so cool. Like, it's very clearly James Bond, you know, him auditioning for James Bond. But a real choice for them to just take 20 minutes and, like, go to Hong Kong and—"
+    },
+    {
+      "name": "B",
+      "timestamp": "54:48",
+      "text": "I will confess, I forgot that sequence was in the movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:51",
+      "text": "Oh, really?"
+    },
+    {
+      "name": "B",
+      "timestamp": "54:51",
+      "text": "Like, I was like, I was like, I was like, oh, they're in China. Very interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:56",
+      "text": "A lot happens in this movie. Like, it's just— there's a lot."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:59",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:00",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:02",
+      "text": "But also so cool that, um, You know, in some respects, the plot is very simple. You have these guys, they're getting squeezed by Batman and by the justice system, and they're just gonna kill them. Like, that's it. That's their mission. We're gonna kill the judges and the attorneys that are coming after us, and eventually they'll leave us alone, and we'll take out Batman."
+    },
+    {
+      "name": "E",
+      "timestamp": "55:24",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:24",
+      "text": "There is no big sci-fi plot. There is no earth-shattering change that is coming, and the stakes are deeply personal."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:36",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:37",
+      "text": "I think it also works incredibly well for the second of a trilogy. Because if you go— if the stakes get too high in the second of a trilogy, then in the third of the trilogy, you have to, like, you know, escalate it even further. And then, I don't know, sometimes it gets too far. It's like Endgame. Like, you know, now we have doomsday. It's like, how many times are we gonna ruin all of the multiverse and whatever? So I thought it was actually really, Well scoped. Yeah, and very interesting. And you just get to live in the universe without the risk of the universe collapsing for, you know, 2 hours and 45 minutes or whatever the runtime is. And it's amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:18",
+      "text": "Mm-hmm. Really, really love that. Love it. They also like blew up real buildings, and you know, so you have Nolan operating in his, in his real practical mode. And so that, that is, that is thrilling to see."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:35",
+      "text": "He loves that shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:36",
+      "text": "He loves that shit. I didn't bother looking, like, apparently, like, there was— it wasn't like a problem with Heath Ledger hitting the detonator or whatever, like something that was supposed to happen, or I can't remember. There was like an Aragorn broke his toe moment or whatever, but I can't remember exactly what the deal was. So, so good. Sarah, what's your next point?"
+    },
+    {
+      "name": "D",
+      "timestamp": "56:58",
+      "text": "Um, I would love to talk about— so Bruce Wayne has 3 personalities. He's got his normal personality, he's got Batman, and then he's got billionaire Bruce Wayne."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:10",
+      "text": "Right, right."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:12",
+      "text": "And the way, um, the way billionaire Bruce Wayne comes off in this movie is my absolute favorite. Yeah. And he, he plays the billionaire asshole so well. And, you know, there's like, there's a trope in, um, in like, um, in like, in like, like female-targeted fantasy where you have like this billionaire asshole, and but it turns out he's actually really nice to you or whatever, to the protagonist."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:41",
+      "text": "Right, right."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:41",
+      "text": "That works really, really well. And they, they play on that trope here in a really great way because you already know he's a good guy. You already know he's Batman. And you get to see him acting like an asshole, as opposed to it the other way around, where like you see him as the asshole first and then you discover that he's a good guy. And I just love the way they did it. It works. It's attractive. He, you know, he goes into that party or whatever with 2 women, and Rachel's like, come on. And, and then when he's on the yacht and, you know, Alfred is doing all the sunscreen, they just did such a good job with that as his persona. And I think he played it really, really well."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:18",
+      "text": "I was trying to figure out when, when he was sleeping during the board meeting, if it was him actually sleeping because he was tired from being Batman overnight, or if it— I always assumed that it was him pretending to sleep, or maybe effectively sleeping, but he was specifically putting on an act of billionaire Bruce Wayne sleeping through the board meeting."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:36",
+      "text": "I think it's that."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:38",
+      "text": "I think it's that."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:39",
+      "text": "Yeah. But I think he's so good, he can also get rest while he's doing it."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:43",
+      "text": "Right, right, right. And I think Christian Bale did a really, really good job of being that person."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:48",
+      "text": "I've told the story before, but I was at American Psycho in 19— or 2000, I guess that was. I remember watching it in the theater and watching him being a complete fucking psycho and putting all the skin cream on his face and stuff and working out and murdering people. And I was like, this is 2000. I'm like, that is Bruce Wayne right there. This fucking psycho Is Bruce Wayne. You really cast this guy? Yeah, 100%. I was, I was convinced that that had to happen, and so I was very pleased when it did."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:21",
+      "text": "Mm-hmm. I have a related point to this, to this about Bruce Wayne, which is to maybe backtrack some of my DSA slander from the beginning of the pod, which is that like every billionaire superhero is a policy failure. Um, like it, it does, it just doesn't work for me at some level that like, it's, oh, like he's, it reads so differently to me now. I'm like, oh yeah, he's so rich and cool and he's got all this stuff. I'm like, yeah, but he shouldn't, like, it should, like, like this is not like, this shouldn't be the answer."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:58",
+      "text": "His dad built the trains, like he put in the affordable—"
+    },
+    {
+      "name": "C",
+      "timestamp": "60:02",
+      "text": "What did he do?"
+    },
+    {
+      "name": "B",
+      "timestamp": "60:02",
+      "text": "What did he, what did he do? He inherited it. Um, and like, you know, he gets to pursue enemies of his own choice and his own means with like, you know, unlimited wealth. And power. It just seems really bad. Um, just seems bad. It shouldn't happen."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:15",
+      "text": "I don't think the movie disagrees with you, right? Like, it's like showing corrupt judges and police officers and whatever."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:21",
+      "text": "I don't think it disagrees with me. I do think it's like sort of, um, it's like one of the interesting things that's like in The Watchmen, um, is like making Ozymandias like the villain, um, in, in that— spoilers for The Watchmen. Um, uh, but like, you know, it's like making like the genius, the genius billionaire, um, like the, the villain who's like got unchecked power and actually that's bad. Like, yes, it shows that he's like, you know, struggling with it or whatever, but like he's clearly the hero of the story. Like, he's like, you know, he's, he's not like— he's not not the hero of the story. Like, you know, um, like it's not like Two-Face isn't the hero of the story secretly or something like that."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:04",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:05",
+      "text": "Maggie Gyllenhaal is not the hero of the story. Um, Alfred is not the hero of the story. Uh, what do you think Alfred pulls down a year, uh, working this job for Bruce Wayne? What do you think Alfred's take-home is?"
+    },
+    {
+      "name": "D",
+      "timestamp": "61:17",
+      "text": "I mean, it's—"
+    },
+    {
+      "name": "A",
+      "timestamp": "61:18",
+      "text": "Don't you remember he had— everything was left to Alfred when, when, uh, when the parents died or when Bruce left or whatever. So like he was loaning Bruce, uh, stuff. I think, I think Alfred is loaded. And depending on which version you come from, he like was Sir Alfred Pennyworth and like Was royal secret, you know, like OSS or whatever their their thing was back in World War II or post World War II."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:41",
+      "text": "So, I mean, if he's super loaded and like so he just does this because he just believes so much in yeah, he's like so dedicated to Bruce."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:52",
+      "text": "Yeah, I don't know. He's got to go put like suntan lotion on the Russian models."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:57",
+      "text": "Everyone plays their part. Everyone plays their part."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:02",
+      "text": "That seems like a good gig. I mean, this is something that Nolan. So well in this movie because it is— there are elements of it that are very dour and very, very serious. But the amount of humor that this film delivers, whether it's Bale or whether it's Aaron Eckhart or especially Lucius Fox— like, I love Morgan Freeman, I love Michael Caine in this movie, and it really makes the movie work because you have those variations."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:32",
+      "text": "Yeah, agreed."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:33",
+      "text": "Well, speaking of making it work, Heath friggin' Ledger. So to step into the shoes of Jack Nicholson, who, you know, plays an iconic version of the Joker, then you have all of the ridiculous, you know, Batman villains that just become so stupid in, you know, Batman and Robin and Batman Forever. They're just totally ridiculous. And to come back and then do something that is Heightened, definitely heightened, but also really works. I thought it was just an unbelievable performance. That his— the clothes that he has, that he's made himself, and the makeup, his delivery, the voice, all of it."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:21",
+      "text": "You know what I noticed?"
+    },
+    {
+      "name": "B",
+      "timestamp": "63:22",
+      "text": "Nobody panics when things go according to plan, even if the plan is horrifying. If tomorrow I tell the press that, like, a gangbanger will get shot, or a truckload of soldiers will be blown up, nobody panics because it's all part of the plan. But when I say that one little old mayor will die, well, then everyone loses their minds."
+    },
+    {
+      "name": "E",
+      "timestamp": "63:49",
+      "text": "Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:53",
+      "text": "Introduce a little anarchy. The voice is so good. All the lip-licking stuff is so good."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:00",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:01",
+      "text": "It's a really— it's an incre— it's really an incredible performance. It really is one. I mean, it's, it's something to just immediately outdo every other Joker performance that's ever existed or will ever exist. Yeah. And then it's like, you know, but then also just, uh, just, you know, the fact that we don't have Heath Ledger around anymore, this like testament to this like amazing You know, what an amazing career that would have been with more time. He really would have been one of those guys for quite some time. Yeah, it is. It's a standout."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:30",
+      "text": "Also, just the writing, the idea, this runner of, you want to know how I got these scars? That idea that he would just reinvent himself and everything's real and nothing's real. Yeah. So good. Or the, you complete me. This is something, you know, Scott Snyder did his run on Batman 10 years ago, or whenever that started. That notion of only the Joker understands Batman, and, you know, the two of them are the real family. You know, everyone else is a distraction. Everyone else is trying to figure Bruce— how he can stop being Batman. And the Joker's the one who's like, no, no, this is like, we're doing the thing, and we just got to keep doing it. it. Um, I love you just the way you are. That kind of like sick, sick, uh, recognition is just really beautiful."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:22",
+      "text": "It's good."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:23",
+      "text": "Um, let's see, Jason, what is your next point?"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:31",
+      "text": "Um, shout out to Patrick Leahy, who is, uh, in the, in the party sequence, the fundraiser sequence. Senator Patrick Leahy. decided to have a cameo in the movie. Oh, I didn't realize that. Yeah, Senator Patrick Leahy like is in there, and he's the one that says like to the Joker, we're not intimidated by thugs. Yeah. Oh yeah, and he's just like, he's just like a huge, like was a huge Batman fan and was just like, I'm gonna be in the Batman movie."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:03",
+      "text": "Great."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:04",
+      "text": "Shout out to you, Patrick Leahy. That's wow. Um, I really enjoyed it. He does a good job. Like you don't really think he's like a you know someone's cousin or something like that. It's like oh yeah, it's like an old guy who kind of looks like a rich sort of you know someone to be at a political fundraiser and like you know yeah it's great that's great. He's been in apparently he's been in five Batman movies. He just keeps showing up. What? Yeah, Patrick Levy. Yeah. Other known ones too? He was in uh let's see he was in. Uh, Batman Forever alongside Val Kilmer. Um, he was in one episode of the animated series playing territorial governor. He played himself in Batman and Robin with Clooney. Um, and then he played, um, uh, yeah, he played like the— this guy, and he played this— it was supposed to be like a Wayne Enterprises board member or something like that. So he's out there."
+    },
+    {
+      "name": "E",
+      "timestamp": "66:59",
+      "text": "That's right."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:59",
+      "text": "He's out there."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:00",
+      "text": "Making moves. Making moves."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:02",
+      "text": "Yeah, president pro tempore."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:04",
+      "text": "I want to come back to the pacing that you talked about, because I feel like this movie, it like moves like a freight train for a significant chunk. It just like keeps going, boom, boom, boom, boom, stuff unfolds, and then it just keeps unfolding, opening, closing, opening, closing. And then it peaks. Jason, not to steal your thunder, but the halfway point is the start of the truck chase. And that, that truck chase is just so fucking awesome. The tumbler is so incredible. And the notion of, you know, on Lower Fifth Ave, it'll be a turkey show or whatever. All of that unfolding on the bottom with no score whatsoever. And then they come up above ground and the score comes in and you're just like, fuck yeah, let's go. Let's do it."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:53",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:54",
+      "text": "Ah, man. Big action."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:58",
+      "text": "I, I agree. I just think like after the truck race, after the truck, uh, stuff, there's still a lot of movie. Yeah. And like a lot. Yeah. And I was just like, okay, like, uh, are we about to wrap it up here or what else? I mean, like, you know, yada yada yada, he's two-faced. Like, you know, and I was like, oh no, there's like an hour of this movie left at this point. Like, as is often the case with Nolan, it kind of feels like there's maybe 20 minutes that we could have found cuts for somewhere along the way. So, I don't know. I did have that note as well."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:31",
+      "text": "I think that's right. The 3rd act, when we get to the ferries, right? And the prisoner's dilemma, right? This is the big kind of thing. And this is about saying, you know, this is about the people proving the Joker wrong, that in the end of the day, people are gonna turn together. And I love the fact that it's President Lindbergh from The 5th Element Tommy Tiny Lister. Uh, I did what you should have did 10 minutes ago. Uh, throws the thing out the window. And the other guy is really good. You guys are too young to have watched, uh, Northern Exposure, but, uh, Doug Ballard, uh, who is like the asshole businessman. He's like the basically the, the dickhead from, from, uh, Die Hard style."
+    },
+    {
+      "name": "H",
+      "timestamp": "69:13",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:13",
+      "text": "Uh, you know, asshole business guy. But I really loved him and the fact that he chickens out at the end. He can't can't— he can't bring himself to do it. Yeah, I just— I like it, but I agree with you, that element. And then we still have to go finish fighting the Joker. We still have to go get Two-Face."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:30",
+      "text": "It's a lot."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:31",
+      "text": "It's a lot. It's a lot. So we're saying this is like a pretty good movie? It's like decent?"
+    },
+    {
+      "name": "B",
+      "timestamp": "69:36",
+      "text": "I think it's pretty good. I did— I was really surprised that I was like kind of losing interest after the truck chase, frankly. Like, I was like, wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:46",
+      "text": "There's a lot, like I said earlier, there's a lot of subplots. And they're not subplots, maybe that's not the right word, but there's a lot of plot. Like, uh, there's a lot of plot. Like a ton of plot. Like, in this, we haven't even talked about Gordon and the faking of the death of Gordon, which every time I rewatch this movie, I forget that that was even part of it. And I have this thought, I was like, wait, did he really die? Um, and then we're like, oh no, no, no, no, Rachel really dies. Like, he doesn't actually really die. die. Um, and I forget, I've seen this movie so many times, and every time I forget about this major plot point because there's so many plot points, just like, it's a jam-packed— and I think they actually do a really good job of pacing it and increasing the tension without it making, making it feel like a safty movie, you know?"
+    },
+    {
+      "name": "B",
+      "timestamp": "70:34",
+      "text": "Well, it is, it is, it is in this last third too where you get the, um, Bruce Wayne builds Palantír You know, yes, like subplot, which again kind of goes to my, my, like, you know, all billionaire superheroes are a policy mistake point. And, and, you know, Fox does destroy the system. Like, it's not like presented as like a good solution, right? But like, it still is the thing that's presented by the movie as being the necessary like solution to like the problem. So sometimes, Jason, you have to Uh, it's a real— it was really anticipating justified means. It was really just like the Flock camera debate was really just like, uh, was, was, was in front of us 20 years ago. The whole time. The whole time."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:23",
+      "text": "Yeah. Uh, I did, before I gave up on ChatGPT, when the voice stuff came out, I did just ask ChatGPT, I was like, just, I just want you to be Lucius Fox."
+    },
+    {
+      "name": "H",
+      "timestamp": "71:36",
+      "text": "Oh."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:37",
+      "text": "From The Dark Knight. Like, I want you to, like, give me Morgan Freeman's voice, or as close as you can get, and give me that kind of, like, start donning—"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:45",
+      "text": "Like, to impersonate a celebrity without compensation. Interesting. Interesting point of view."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:47",
+      "text": "I would— no, I'd like him to be compensated. I would like— I think he looks—"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:50",
+      "text": "You're not gonna compensate— I would like it to be compensated. I'm not going to compensate him, but, you know, someone should."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:55",
+      "text": "I mean, I do what I can. I mean—"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:57",
+      "text": "Yeah, I do what I can. If I saw him, I would, like, Venmo him."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:00",
+      "text": "Give him a 5."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:01",
+      "text": "If Morgan Freeman wants to come on the pod, Like, you know, it would be good."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:05",
+      "text": "It would be good. Um, can we talk about the supporting cast? Anybody want to talk about Aaron Eckhart? Yeah, what happened to our guy Eckhart?"
+    },
+    {
+      "name": "B",
+      "timestamp": "72:13",
+      "text": "Where did he go? What happened to him? Where do you— where is he? Who can find him? Good question."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:18",
+      "text": "Did he get lost?"
+    },
+    {
+      "name": "B",
+      "timestamp": "72:21",
+      "text": "Um, he was a thing for a minute. The Eckhart was happening. Um, I feel like Eckhart was kind of like, um, what's his face from Top Gun: Maverick? Uh, Glenn Powell. Glenn Powell. Like, he was kind of like one of these guys. Yeah, he was kind of like everywhere, and he's sort of like, uh, you know, a diet Tom Cruise. Like, you know, he's like, yeah, like, you know, he's not— he should be good. And it's just like, it doesn't, it doesn't last. You don't have—"
+    },
+    {
+      "name": "D",
+      "timestamp": "72:44",
+      "text": "He's working. He's working."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:46",
+      "text": "I'm sure he's working. I'm sure he's out there."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:48",
+      "text": "He has 4 movies in production right now, but, um, seems—"
+    },
+    {
+      "name": "B",
+      "timestamp": "72:52",
+      "text": "One of them is called Muzzle: The City of Wolves, so I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:57",
+      "text": "Gotta get that bag, you know."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:01",
+      "text": "I have— I mean, like, I love wolves. What is Muzzle? The— see, a haunted ex-canine officer is Jake. His peaceful life is shattered when a gang brutally attacks his family. With new canine partner Argos, he uncovers— Argos? He uncovers a drug ring, confronts corrupt officials, and fights inner demons. while pursuing the criminals."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:25",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:26",
+      "text": "So it's like a— it's like sort of a Jack— it's sort of a John Wick."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:30",
+      "text": "John Wick."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:30",
+      "text": "But the dog gets revenge."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:33",
+      "text": "I think he did— so he did Olympus Has Fallen. He played a president, London. So I think that's his— that's maybe his thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:40",
+      "text": "Oh, Muzzle: City of Wolves is a sequel, Jason. There was an original Muzzle."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:45",
+      "text": "So what, Muzzle 1?"
+    },
+    {
+      "name": "C",
+      "timestamp": "73:46",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:47",
+      "text": "Oh, okay, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:48",
+      "text": "He also did The Core. So I will say, have you ever seen In the Company of Men?"
+    },
+    {
+      "name": "E",
+      "timestamp": "73:56",
+      "text": "No."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:56",
+      "text": "Uh, no, I'm— it sounds familiar, so I might have, but I can't remember. Is it a—"
+    },
+    {
+      "name": "A",
+      "timestamp": "74:00",
+      "text": "In the Company of Men. It is. It's a, it's a very small indie film. It's him and another guy where they are— they play, um, they played like business bros who, um, are absolutely being vile to a deaf woman that works at the company. Uh, and it is one of the meanest-spirited and absolutely hilarious films I've ever seen. I couldn't— I just can't believe it."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:27",
+      "text": "Matt's chud pick of the week?"
+    },
+    {
+      "name": "A",
+      "timestamp": "74:30",
+      "text": "Correct. But it works."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:33",
+      "text": "No, it's Neil LaBute."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:34",
+      "text": "It's Neil LaBute, yeah. And then they also did Your Friends and Neighbors, which is another Neil LaBute, like, real asshole. That's the one where they're— Jason Patric, and I forget who else, and they're all having affairs with their best friends or whatever. So he, you know, came up with some really incredible stuff. But, you know, all our best. He's great in this. Yes, he's fine in this film."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:53",
+      "text": "What is good? He's good. He's good. He's good. I don't know. He's good. Yeah, I mean, I just didn't understand like what, what is Two-Face like? What happens? Like where, where does he— what is— it's not like generative in the way that like the Joker is."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:09",
+      "text": "Like the Joker, the love of his life is murdered by the mob and by the Joker and his face is burned off. And he is willing to then murder people and kill them with extreme prejudice. So he is driven over the edge and becomes a force of criminality and vengeance, unfettered vengeance."
+    },
+    {
+      "name": "E",
+      "timestamp": "75:33",
+      "text": "All right."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:34",
+      "text": "And it's a way of— it's the white knight looking at the dark, the other side of that Batman refuses to come, right? Batman refuses to do that, but he is willing to Right, right."
+    },
+    {
+      "name": "E",
+      "timestamp": "75:45",
+      "text": "Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:45",
+      "text": "I like that, um, they, you know, they made him a good guy in the, like, you know, in the first half of the movie or whatever, and that you could actually feel it. Like, they could have done a trope where he and Batman, or he and Bruce Wayne, go at it a little bit more, and they go at it a little bit, but they could have really leaned into that, and I think that would have been annoying. So I thought they did a good job of not doing that and actually making them work together from the Bruce Wayne side, not just the Batman Mm-hmm. And then, but I think similar to what we were talking about before, I think the worst part of him is Maggie Gyllenhaal. And like, you know, whenever like Maggie Gyllenhaal's— she does the like, oh, you know, you make your own luck. Like when she delivers that line, I don't like the way she delivers the line and it just devalues what he had put into the scene."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:38",
+      "text": "Um, so, wow, dang, a lot of Maggie Gyllenhaal really dragging this movie down."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:46",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:47",
+      "text": "And her people didn't like her Bride movie. Like, she's having a tough, having a tough one this year. Uh, well, what about Gary Oldman as Jim Gordon?"
+    },
+    {
+      "name": "B",
+      "timestamp": "76:55",
+      "text": "Oh, so good. He's great. No notes. No notes. Yeah, right. What is, what is Gary, what has Gary Oldman ever been bad in? Like, Gary Oldman is just always Just fire and strikes. Like he's Gary Oldman's always at 100. Like literally, what's the worst Gary Oldman performance in anything? Maybe the Fifth Element because it's so ridiculous, but it's delightful. I love it. Oh, Dracula. That would be another one you could consider, I guess. But I mean, Gary Oldman's just the best. Like he's just amazing. I've never seen Mank."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:24",
+      "text": "Still need to see that. I didn't see that. Should we? Which should we do, Leon? Should we do the professional?"
+    },
+    {
+      "name": "B",
+      "timestamp": "77:30",
+      "text": "Very complicated. Very complicated to do. Very complicated to do."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:34",
+      "text": "Straight to jail. Straight to jail. Yeah, but the rest of the bench in this film is crazy. You have Cillian Murphy who shows up for like 4 lines. Like, that's crazy how far his career has—"
+    },
+    {
+      "name": "B",
+      "timestamp": "77:47",
+      "text": "Yeah, sort of like the Cillian and Tron thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:50",
+      "text": "Nolan likes to cast him and cast him in the first movie and was like, you better show up for the second. I don't I don't know, it works for me. I think he's so incredible at that role. Like, he's so great at that role. So I was happy to see him in the— in that one."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:04",
+      "text": "The way he dismissed the fake Batmans and then he's like, all right, now we're talking, when Batman showed up. Like, that was fantastic. Jason, uh, David Dastmalchian."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:12",
+      "text": "I know, I like that as the schizophrenic cop."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:16",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:16",
+      "text": "What a— what a strange fellow."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:18",
+      "text": "He does the creepiness thing so well. Uh, like, that's— that's tough. Yeah, he's—"
+    },
+    {
+      "name": "B",
+      "timestamp": "78:25",
+      "text": "He hosts a podcast where he's in a coffin. That's like his new thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:28",
+      "text": "So he's just naturally creepy."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:30",
+      "text": "He's just a strange fellow."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:33",
+      "text": "He's just leaning into it."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:34",
+      "text": "Yeah, uh, what's his name of his pod? Let's see, it's got to be called something weird. Grave Conversations, a darkly funny and death-positive interview series and podcast where he and celebrity guests chat side by side in open caskets about life, mortality, and Legacy."
+    },
+    {
+      "name": "E",
+      "timestamp": "78:51",
+      "text": "That's wild."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:53",
+      "text": "Yeah, yeah. Eric Roberts— who saw that coming?"
+    },
+    {
+      "name": "B",
+      "timestamp": "79:00",
+      "text": "Eric Roberts, a little aged, but you know, uh, gets thrown off a cliff. I like it. All right, it's right off a bridge."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:08",
+      "text": "Um, I also like Nestor Carbonell. He was having a moment, right, off Will and Grace. He was making some money. Um, Anthony Michael Hall is the news anchor at That, that is good casting."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:18",
+      "text": "Like to see him work."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:19",
+      "text": "Yeah, really, really good. Um, this was the first— let's just do some quick Deakins, uh, outstanding excellence. This was the first major movie shot with IMAX cameras. Um, so the DP on this is Wally Pfister. Memento, Insomnia, Batman Begins, The Prestige, The Dark Knight, and Inception. Just absolutely incredible, um, run that he's done. Let me see. Anything else that he's done? Yeah, I guess he got an Oscar for Inception. But just absolutely amazing. And they did, I think, the 65mm cameras they shot for the bank heist, the Joker's key sequences, the Hong Kong, all the chase set pieces, the first ones to ever do it. And obviously now Hollywood can't, can't quit it. Very good."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:09",
+      "text": "Yep."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:11",
+      "text": "Production designer was Nathan Crawley. Batman Begins, Prestige, Dark Knight, Interstellar, Dunkirk, and Tenet. Just Nolan legend. Nolan. And the look of Gotham, the Tumbler, the Batpod."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:26",
+      "text": "The Tumbler is very cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:27",
+      "text": "I'm tempted to get that Lego set because it's very cool. But the— Does the, does the motorcycle come out of The motorcycle doesn't come out of it, but it's a— it's minifig scale Tumbler, so it's a big-ass—"
+    },
+    {
+      "name": "B",
+      "timestamp": "80:41",
+      "text": "Jesus."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:42",
+      "text": "18+. It's a big model. But the Batcave, right? The underground area where they're working, like, how fucking amazing is that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "80:54",
+      "text": "I love those lights."
+    },
+    {
+      "name": "A",
+      "timestamp": "80:56",
+      "text": "Why did they do that? Why did they blow up, you know, Wayne Manor and the Batcave and move Bruce into the city and under the, you know, in those lights. It just looks so good."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:10",
+      "text": "It does look really good. It's very cool. Yeah, he— I love the— I, I feel like that studio gets used in other things too, like that set. I feel I've seen another thing with the lights and stuff. It's a great lair. I saw him the first time he walked in there, I was like, that's a cool place to hang out. I would record a podcast there and play Warcraft for sure. Um, you know, I would use my— I would use my powers not to spy on the people of Gotham, but just to run, run some Mythic Plus."
+    },
+    {
+      "name": "A",
+      "timestamp": "81:38",
+      "text": "Um, uh, Harvey's CGI face and the combination of the practical there I thought was very good. And then Hans Zimmer and James Newton Howard— this, the note, the violin string, just, yeah, is so intense, baby."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:57",
+      "text": "It's cool. It sounds cool."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:59",
+      "text": "Hans Zimmer Hans Zimmer. He's really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:02",
+      "text": "He's really good. He's really good."
+    },
+    {
+      "name": "A",
+      "timestamp": "82:05",
+      "text": "He has definitely got the juice. Sarah, anything you want to make sure we miss? Any honorable mentions or anything you want to hit?"
+    },
+    {
+      "name": "D",
+      "timestamp": "82:12",
+      "text": "I wanted to just, uh, mention the quote— the quotability of this movie. I think I probably quote something from this movie like once a week. Like, whoa, you know, stuff just— just like on generic stuff. Like, some people just want to watch the world burn. Like, you can say that about a lot of things, and I do. Another thing that has— I've been quoting a lot recently is, you know, you either die a hero or you live long enough to see yourself become the villain. You know, we recently went through some changes at Particle, and I have been saying that, you know, you either die a consumer founder or you live long enough to see yourself become a B2B SaaS founder. And that is, you know, so true. Ooh."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:54",
+      "text": "That's really funny."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:56",
+      "text": "So whenever I do a presentation, it usually starts with a, with a quote like that."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:00",
+      "text": "Dark Knight quote."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:01",
+      "text": "That's really great. I love that."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:03",
+      "text": "Nice, nice. Uh, Jason, we didn't have, uh, we, or at least we haven't opened it yet. Like, what about Nolan, you hack? Uh, that's a recurring theme for you."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:15",
+      "text": "Oh yeah, it is."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:16",
+      "text": "From the beginning of the pod. So obviously we have the Heat homage, but I guess—"
+    },
+    {
+      "name": "B",
+      "timestamp": "83:20",
+      "text": "The Heat homage, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:21",
+      "text": "There's some Kubrick homaging as well, and some other things, but like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "83:25",
+      "text": "What is the Kubrick homaging, do we think, in this?"
+    },
+    {
+      "name": "A",
+      "timestamp": "83:27",
+      "text": "Something from The Killing or something? Maybe it's the masks, or I don't remember, but—"
+    },
+    {
+      "name": "B",
+      "timestamp": "83:33",
+      "text": "Very possible."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:34",
+      "text": "But I think this really holds up really well for me. Like, I love seeing it. I love the seriousness of a serious comic book movie, as opposed to the kind of more fantastical elements."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:49",
+      "text": "I completely agree."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:50",
+      "text": "Hmm, okay, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:52",
+      "text": "I love Nolan."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:53",
+      "text": "Not hack."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:53",
+      "text": "No, I, I, I love this version of Nolan because he's just like, he feels like he's having fun. It's a comic book movie, but serious, but like it's inherently a comic book movie. Um, yeah, I would like it. I would love for him to do it. Like, there's some jokes in this movie, you know, there's like some, you know, Joker is funny, like, um, And there's some good Morgan Freeman jokes. There's a lightheartedness to this that I'd like Nolan to rediscover in his next project, whatever it is. Try to throw in a lull or two."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:27",
+      "text": "Were there no jokes in The Odyssey? I haven't seen it yet."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:30",
+      "text": "Pretty sure there are zero jokes in The Odyssey."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:32",
+      "text": "No humor?"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:33",
+      "text": "Yeah. I mean, there's a couple little bits that can be—"
+    },
+    {
+      "name": "B",
+      "timestamp": "84:37",
+      "text": "there's a couple little things that could be read as jokes, but yeah, there's mostly none."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:42",
+      "text": "I mean, when I was writing up my notes and I was talking about Morgan Freeman and Michael Caine, Denis was the one that I was thinking of, the fact that there's only one joke in Dune Part 1, the Stilgar spitting scene, and that it was such needed relief. And here you have those guys sprinkled through the whole movie, and it really makes a huge difference. So yeah, totally, totally. Guys, who would Tilda Swinton play if you had to cast one role?"
+    },
+    {
+      "name": "B",
+      "timestamp": "85:13",
+      "text": "We definitely could get rid of Maggie Gyllenhaal."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:15",
+      "text": "I was gonna say the same thing. Like, I think she could just take Rachel."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:19",
+      "text": "Yeah, just take over."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:20",
+      "text": "Anybody but Maggie."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:21",
+      "text": "Just take it over."
+    },
+    {
+      "name": "F",
+      "timestamp": "85:21",
+      "text": "Yep."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:22",
+      "text": "Yeah, just take it over."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:23",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:25",
+      "text": "I think that would be great."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:26",
+      "text": "I'm gonna go Alfred."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:27",
+      "text": "That works."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:29",
+      "text": "Alfred would work too. Yeah, I think it's one of those two. I think it's one of those two."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:35",
+      "text": "Yeah, Animal Mother says the Chinese money guy, Lao. Dude, that guy gets fucked."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:42",
+      "text": "Yeah, that guy, that guy really, that guy really didn't have a good plan."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:46",
+      "text": "No, that did not work out well. That did not work out well for him. All right, guys, can we do some quick voicemails? Let's do it. Okay, here is our first voicemail."
+    },
+    {
+      "name": "E",
+      "timestamp": "85:59",
+      "text": "Hello, Bog Pod. Hey, Bog Pod. Hey, Bog Pod. Hello, Bog Pod. Hey, Bog Pod. Bog Pod. All right, Ethan. G'day, gamers. I— you can imagine my confusion when I saw the trailer for Dark Knight for the first time in my life on the TV. I saw the shorts, um, and I was 5, mind you. So I had my exclusive exposure to Batman was Batman and Robin, the DVD that I've told you before I watched like once a month. It was just like, that was all I had. That was Batman for me, was the guy with the credit card who fought Mr. Freeze and the really beautiful redheaded plant lady who was scary as well. That was it. So you must imagine my confusion when I saw this trailer and was like, oh, Mum, can we go to the movies and watch Batman? And she was like, no, Ethan, It's too scary for you. This one is for grown-ups."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:57",
+      "text": "Got screwed."
+    },
+    {
+      "name": "E",
+      "timestamp": "86:58",
+      "text": "What the fuck?"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:59",
+      "text": "How's it for grown-ups?"
+    },
+    {
+      "name": "E",
+      "timestamp": "87:02",
+      "text": "Didn't make any sense to me at all. I was angry. I was livid. What movie trailer or advertising or marketing has confused you the most? Because that fucked me up for like 5 years until I was allowed to watch the movie, and I was like, Oh, I see. Anyway, lots of love. Bye-bye."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:25",
+      "text": "You know what?"
+    },
+    {
+      "name": "B",
+      "timestamp": "87:25",
+      "text": "One that immediately comes to mind is Crazy Stupid Love, the Steve Carell Ryan Gosling movie, because like I think that movie was marketed and I believed it to be like a rom-com that like was you know like sort of just a light-hearted like kind of silly fluffy rom-com, and it's like actually I've still never seen it. It's like one of the smartest comedies of the 20th and 21st century. It's like so smart. Um, I love that movie. Um, and so that's one, yeah, that like really kind of, I think, um, I avoided and didn't understand, um, until like eventually someone told me, no, no, it's not what you think. Um, I was like, okay, all right, let's check this out. I was like, oh, I fucking— I've watched that movie 25 times. Um, yeah, I've seen it. It's like a comfort movie. It's like up there with Rounders."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:09",
+      "text": "Probably seen it around that many times too."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:12",
+      "text": "What?"
+    },
+    {
+      "name": "B",
+      "timestamp": "88:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:13",
+      "text": "Yeah. It's— yeah, it's epic."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:17",
+      "text": "We should do it. We should do it on the pod. For me, it was when I was 10 years old in 1980, because I'm only a few years older than Jason. And the trailer was just the elevator doors opening and the river of blood coming out and coming down the hallway in slow motion. So, The Shining. And it was just that, like, it was, it was just that blood coming down and, and the Shining. And I was like, holy— I don't know what that is, but that seems not good. And I did eventually watch it."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:52",
+      "text": "The one that comes to mind for me, which isn't a really like extreme example or anything, is them— and I don't know if you guys have watched it yet, but I've certainly told you guys to watch it— is the trailer for Parasite. Paradise, uh, before season 1."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:08",
+      "text": "Still haven't watched it. Thought about it."
+    },
+    {
+      "name": "D",
+      "timestamp": "89:09",
+      "text": "It makes you think that the show is of one genre when it is actually of another."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:15",
+      "text": "Right, right. I did see the— yeah, I did see the trailer for it, and then after season 1 I heard the premise for it, and so I understood that it was definitely a different genre than I had anticipated it So, so, I mean, it was the best because it was exactly the kind of show that I like, but I didn't know that going in. So, um, I would like to check it out. Um, related to that, I just finished reading Biological War: A Scenario by Annie Jacobs, um, who we are— um, I reached out to her, talked to her on X, and we're gonna get her on the pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "89:57",
+      "text": "Amazing. Look at you."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:58",
+      "text": "Stay tuned for that. That's an awesome book. It's as terrifying as nuclear war, a scenario."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:03",
+      "text": "Sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:04",
+      "text": "And so we'll talk about that more when we get closer."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:07",
+      "text": "Is it about studying novel coronaviruses in labs?"
+    },
+    {
+      "name": "A",
+      "timestamp": "90:12",
+      "text": "It is a novel pneumatic plague that escapes in a lab leak. That's the scenario."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:23",
+      "text": "Where is the lab?"
+    },
+    {
+      "name": "A",
+      "timestamp": "90:24",
+      "text": "Russia. And what I didn't realize is that in the '80s, the Russians Took, uh, bubonic— they, they took the plague and weaponized it, uh, and made it 100%, um, transmissible, 100% chance of death. And then they also fused in, genetically modified it so that it has a euphoric component, so that when you first get it, for like, for the first day and a half, you feel really incredible and you just get out and you go do stuff. Um, Um, so this is real. This is real. It's all— this is all real. And so, um, so that's the scenario."
+    },
+    {
+      "name": "D",
+      "timestamp": "91:02",
+      "text": "What if this is like— this is what we were talking about with the AIs, right? Because we're telling— we're engineering these AIs to find vulnerabilities, to solve problems at any given cost. Like, this is what— this is the same thing that's happening."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:16",
+      "text": "It is the same thing. It's, it's really bad. And like, you know, this is the thing on, on the, on the AI thing, you know, I have You know, there's this argument that's happening within tech about the open weight models. And I have a lot, like, you know, and there's people who are politically motivated to support the open weight models because they're like, oh, like, you know, like, you know, financially. Yeah. Or financially. But it's like, and also like entrepreneurially, you're like, yeah, like, you know, as Sarah said, like, we want to be able to use like, you know, KIMI or whatever else. Like, you know, like, and that's all I get that. From a pure safety— and, you know, and maybe the models, those open weight models aren't sophisticated enough, this is an issue. But like, from a safety standpoint, like, I really don't understand the argument for why it is a good thing for Mythos Cable, you know, Fable Cable, like, you know, the, the model that OpenAI just said that they're not going to release. If there was open weight models that were that sophisticated, I really don't understand what the argument is for Oh, it would be good if those were— those existed in an open weight version with no safety controls or safety guardrails that you could easily strip and remove. Because the— in the, in the bio case, you just have the ability to engineer super pathogens and, you know, super, uh, super bugs that don't have an easy defense to them. Uh, and it's not— you can't make the argument that you do in cyber where it's like, well, you know, these capabilities are going to exist, so we just need good defense. For the defense against novel pathogens is like a very long, you know, vaccination development and release schedule. Like, it's just not— it's just not the equivalent. And the other argument you get is like, oh, it's like open source, like Apache, where like it'll allow us to examine the vulnerabilities. Like, no, it's not. It's— that's— that— that— like, like, those are— like, using Apache is like you're using it for what it's intended. Like, the use of these The use of these models, like developing novel pathogens, like that, that would be using for what it— for what is— for what it's intended. And, you know, knowing how that works doesn't get you to the vaccine any faster, um, in the case that one of those is built. I, I find that— I, I like— and like, look, I think like the, the most good faith argument is just like, this is gonna happen regardless, so we might as well just go through it as quickly as possible or something. Like, you know, get as many eyes on this as possible. I hope it Works and hope it works out. I'm like, okay, I guess. Like, I, I like— I just don't find that super convincing. Um, so yeah, I, I don't know. I, I would like to see—"
+    },
+    {
+      "name": "D",
+      "timestamp": "93:53",
+      "text": "I agree. I, I, I don't— I don't know. Like you said, it maybe, maybe it just like doesn't even matter. But yeah, to me, doing like forcing open weights, uh, is counterproductive. And like, I don't, I don't know that we gain anything from that, and I think we increase the By doing that, Zuck's letter of last week basically argued for like a federal right to like to like distillation and open weight."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:20",
+      "text": "Then I was like, right. I was like, okay, for sure. Like you know, like I just like I just I I don't. It's like you're just like the only way in which you could believe that's true is like if you think that the risks that people are talking about. Are so hypothetical that they're not really worth worrying about. And like, I had sort of previously been in that camp where it was like, look, like, I know the effective altruists are all like worked up about these like x-risk stuff, but like, it seems like, you know, hypothetical at this point. Let's see. But, you know, like, unfortunately, I find the effective altruists somewhat annoying. It turns out they've just been more right than anyone else on their predictions about where the industry, where the technology was going. And now you've got fucking models escaping and leaving notes for each other on little private bulletin boards, like figuring out how they're gonna hack the planet. Like, like it was like it's actually the thing that they said was gonna happen is actually happening. So I don't know why we would at this point assume that the past tense. I don't know why we would assume that they're wrong about the other stuff they said was gonna happen. It's concerning to me."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:24",
+      "text": "It's concerning. It's concerning. And the the thing is is that the cat is already out of the bag, and I also think the cat has been out of the bag for many models now, not just these ones that they're gatekeeping. Like, I think you can take a very, you know, like a very dumb open, open model and do a lot of very nefarious things already."
+    },
+    {
+      "name": "G",
+      "timestamp": "95:45",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:45",
+      "text": "Yeah. You can do serious harm."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:46",
+      "text": "Definitely."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:47",
+      "text": "So I don't know why we need to accelerate that."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:50",
+      "text": "Right. I don't know why we need to accelerate into the— like, we've got enough signal. Like, there was this, there's this post, like there's this post that like right before we recorded, um, where Ed Zittrain, who's not my favorite AI commentator, Um, was, uh, who said this thing where it's like, uh, you know, OpenAI announced that it's slowing down its training efforts. And Ed says, it appears that OpenAI, at the precise moment it needs to accelerate, is stopping development of the frontier models. A cost-saving measure? I don't buy that this company suddenly has morals and ethics. I'm like, look, I don't, I don't want to ascribe, you know, good intentions to people who I don't really Either. I think it's reasonably skeptical and that businesses will do things that maximize profit. But I do think it's worth just like considering the most obvious explanation, which is that they built something that fucking escaped and hacked the shit out of another company."
+    },
+    {
+      "name": "G",
+      "timestamp": "96:45",
+      "text": "And that was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "96:46",
+      "text": "and they found out about it way after it happened."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:49",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "96:50",
+      "text": "And I think they're reasonably, probably reasonably concerned about what that means for their business. This. Um, and like, I think we should just take at face value that that is not a good state of affairs."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:01",
+      "text": "If a human had done that hack for whatever reason, yeah, that would be a crime. That would be like a crime with jail time, like an actual crime. We have—"
+    },
+    {
+      "name": "A",
+      "timestamp": "97:10",
+      "text": "it is committing actual crimes. Yeah, that's a problem."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:14",
+      "text": "Shout out to my guy, shout out to my guy Bill Gurley. Um, back to the top of the pod, because the, the state attorneys general Well, uh, the Republican state attorneys general in like 21 states or whatever after the OpenAI Hugging Face attack issued like, uh, notice to OpenAI like to retain records and like, we're gonna come after you criminally for like what you did to Hugging Face. And Bill Gurley was like, yeah, fuck it, go get 'em. Like, you know, like we don't need new regulation, we just need like the laws that we have enforced. I was like, I was like, I guess like if you're, if you're preferred, if your preferred enforcement regime is like the attorney generals of like Oklahoma and Texas, like sending like retained records to Sam and like that's gonna like do something like, you know, like bon chance. Like I, I think like maybe we're, I think maybe we're, I think maybe we're in a slightly more fast-paced, um, environment."
+    },
+    {
+      "name": "D",
+      "timestamp": "98:04",
+      "text": "We're gonna show up to OpenAI headquarters with a warrant. Yeah, knock on the door."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:10",
+      "text": "Sternly worded letter. Yeah, exactly. Yeah, all right. Yeah, we're in it. We're definitely—we're in it. We are in it. Here is our next voicemail."
+    },
+    {
+      "name": "H",
+      "timestamp": "98:25",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:28",
+      "text": "Let's go. I now do what other people only dream."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:33",
+      "text": "I make art until someone dies. See?"
+    },
+    {
+      "name": "A",
+      "timestamp": "98:39",
+      "text": "I am the world's first fully. Fully functioning homicidal artist."
+    },
+    {
+      "name": "D",
+      "timestamp": "98:42",
+      "text": "You must be joking."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:46",
+      "text": "Do I look like I'm joking?"
+    },
+    {
+      "name": "H",
+      "timestamp": "98:51",
+      "text": "Hello, animal friends and animal lovers. Try quickly blurring this 3 times in a row. Being barely brave or bold by bloviating, but Bale's best big bad boss is— bear with me, bear— the beastly, brilliant, bizarre, bleakly brutal Boom!"
+    },
+    {
+      "name": "E",
+      "timestamp": "99:07",
+      "text": "Just kidding."
+    },
+    {
+      "name": "H",
+      "timestamp": "99:09",
+      "text": "It's obviously that bastard Joker, a man that is more intriguing the less you know about him. Instead of being an anarchist fighting hypocrites as he claims to be, our hideous boy breaks society just to tickle his pickle. It doesn't matter where he came from, where he learned his magic tricks, or where he'll end up. As long as he's vibing, he wins. And he's like a sugar rush kid loving the fuck out of a day in the circus. Or as he himself puts it in his one true statement, like a dog chasing cars. It's all about the journey, not the final destination. You can't savor all their little emotions. What's a fun thing you did that you shouldn't have? Making Haitch cry does That music is great."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:09",
+      "text": "That is really good music. Wait, what was the question again? What was the one thing you should have that you shouldn't have?"
+    },
+    {
+      "name": "A",
+      "timestamp": "100:13",
+      "text": "No, it was something fun that you done that you shouldn't have."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:16",
+      "text": "Oh, it's something fun. I was reminded of recently in Discord, uh, that I got arrested for setting off fireworks in St. Louis as a teenager."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:27",
+      "text": "You told that story."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:27",
+      "text": "I've told that story before. I'm sure I have, but there's been 390 episodes. Repetition doesn't ruin the prayer."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:33",
+      "text": "Last episode you told the story."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:36",
+      "text": "The year was 1996."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:39",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:40",
+      "text": "Did I tell the story last episode?"
+    },
+    {
+      "name": "A",
+      "timestamp": "100:41",
+      "text": "Last episode you told the story."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:43",
+      "text": "All right, well, you can check that one out."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:46",
+      "text": "Check it. Check the tapes, everybody. Uh, when I was 7 years old, we had, uh, you know, a couple of block— a couple houses down from us, uh, there were orange trees, and we used to pick oranges, and then we would throw them at cars that were driving by on the 4-lane South Peninsula, um, and try and hit the cars. And at one point we hit one, and the guy like swerved over to the side of the road, jumped out, and attempted to catch us. And we had to run like all the way down to the river, which was the back of the property, and then run house to house along the river, uh, on the river wall to escape, to finally escape this guy. That was pretty scary. Scary. That was, that was Anarchy."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:27",
+      "text": "That's pretty good. That's pretty good. My kids were doing something in the pool at the hotel we were staying at, St. Louis. I was— they were over in the hot tub, and I don't know what they did, but when they came over to me, they were like very quiet. I was like, what's going on? They're like, these 2 ladies were staring at us. I was like, what were you doing? They're like, they're like, nothing. I was like, it doesn't sound like nothing. Like, what was going on? Like, so I don't, I don't actually know, but they were up to something that was fun that was, uh, uh, that they shouldn't have been doing. So nice."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:57",
+      "text": "Sarah, kids are, kids are rotten."
+    },
+    {
+      "name": "D",
+      "timestamp": "102:00",
+      "text": "Have you guys seen the drama with Robert Pattinson?"
+    },
+    {
+      "name": "A",
+      "timestamp": "102:03",
+      "text": "No, don't spoil. No spoils. I need to see it. No spoils, please. I really want to see it. It's on HBO, I think."
+    },
+    {
+      "name": "D",
+      "timestamp": "102:07",
+      "text": "If any of the listeners have seen— as if anyone is listening and has seen the drama, then you know where I am going with this. This feels like a trap. Um, I don't know. I don't know if I have a fun thing that I'm not supposed to be doing story."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:20",
+      "text": "It's fine. You're a good— you're a good person. Canadians are good people."
+    },
+    {
+      "name": "D",
+      "timestamp": "102:24",
+      "text": "I'd like to think so, you know."
+    },
+    {
+      "name": "A",
+      "timestamp": "102:26",
+      "text": "Stand-up citizen."
+    },
+    {
+      "name": "D",
+      "timestamp": "102:27",
+      "text": "I was, I was, uh, I was, uh, testing, uh, uh, you know, security vulnerabilities in my very secure facility, and I was having so much fun with that, and then next thing you know, my bot got loose and hacked another thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "102:41",
+      "text": "Yeah, it happens. It happens. Uh, thank you so much, Animal Mother. Here is our next Next voicemail. Mr. Java. All right, let's rock."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:54",
+      "text": "Oh, I've been promised good things here. Freaking with paint. Oh yeah, that makes sense. I was promised good things and got them. Personal Joker. Someone that will kill all your friends. No one Your own personal joker. Someone that will steal all your cash, won't get it back. Laughing at all of your own jokes. Cops and thugs, madmen above."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:43",
+      "text": "Justice is for dreamers, don't you be a self-deceiver. Batman won't rest, you still have a test. Harvey Dent and Rachel Dawes. Burn the kerosene so Gotham City will believe. Are there any pranks that have been played on you that you're salty about? Or maybe there's a comedian you were like, \"I don't know how I feel about that.\" And if you can't think of anything, just give us a good Batman voice. Can they be trusted? Yeah, Rachel. I swear to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:39",
+      "text": "I do think the voice is a bit much. I do think the Bane, the Bane, the Bale voice is a bit much at times."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:47",
+      "text": "Each movie, it it ramps, it escalates, and like he really is kind of do."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:54",
+      "text": "All I can think of when it first started is like the. Uh, the Funny or Die— I think it's Funny or Die— the Funny or Die skit where, uh, they're doing the thing where he's been stabbed by Ra's al Ghul's daughter and he's talking about how he had sex with her. Oh, you guys know about— you guys know this skit? He's like, no. Oh my God, I'll send you— I'll send you a thing. You can insert an appropriate clip."
+    },
+    {
+      "name": "D",
+      "timestamp": "105:16",
+      "text": "Sounds vaguely familiar."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:17",
+      "text": "It's so fucking funny. He's like, awesome, we had sex in an order you would find surprising. Like, it's All right, that's it! That is my love you're speaking to. I am her protector. That's ironic, because we didn't use any protection, and I offered. You motherfucker!"
+    },
+    {
+      "name": "D",
+      "timestamp": "105:38",
+      "text": "No, no, no, Bane, it's fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "105:40",
+      "text": "These words will be his last."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:41",
+      "text": "Her last words were, spit in my mouth!"
+    },
+    {
+      "name": "A",
+      "timestamp": "105:44",
+      "text": "Okay, do you understand what's happening right now?"
+    },
+    {
+      "name": "D",
+      "timestamp": "105:47",
+      "text": "A bomb is about to blow up Gotham, and I've stabbed you."
+    },
+    {
+      "name": "A",
+      "timestamp": "105:49",
+      "text": "I stabbed you first."
+    },
+    {
+      "name": "C",
+      "timestamp": "105:50",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:52",
+      "text": "With my dick."
+    },
+    {
+      "name": "D",
+      "timestamp": "105:53",
+      "text": "I, I got it."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:55",
+      "text": "Multiple times. It's like, I was wearing the suit and all the juices are sealed in. It's just like, it's really good. Anyway, all I can think of when he started doing the voice, that's all I could think of."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:10",
+      "text": "Oh yeah, yeah, yeah, yeah, yeah, that's really funny. That's funny. Oh man."
+    },
+    {
+      "name": "B",
+      "timestamp": "106:15",
+      "text": "Uh, yeah, pranks, pranks that were pulled on us, or I think I did, I did a lot Batman voice. I really appreciate the depeche from Mr. Java. I was promised something great and I received it."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:26",
+      "text": "You ever get pranked? You ever get pranked, Sarah?"
+    },
+    {
+      "name": "D",
+      "timestamp": "106:29",
+      "text": "I have a prank that like traumatized me. I still think about it sometimes from when I was in the 6th grade. Okay. I had a, I had a, uh, a friend. I, I was at this school. I was at, I was at a boarding school in fact. And, um, oh wow, there was a, a girl, um, there were 2 girls. We'll call them A and B. Oh Jeez. And, uh, A told me, like, wouldn't it be really fun— funny if you said this thing to make— making fun of Girl B? I was like, I don't really want to do that. She's like, no, no, do it. It'll be so funny. She's gonna find it funny. Like, I promise she's gonna find it funny. She's gonna find it hilarious. And it was making fun of, like, something. I don't know if she had an overbite or something. It was making fun of— making fun of that. And I, I was like, you know, eventually I was like, okay, well, you know, maybe we'll have a good laugh. I was, you know, trying to make friends, trying to do whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:14",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "107:14",
+      "text": "And then, so I made the, the thing. I said the thing, and she got super upset and, you know, closed, closed behind a door and started crying. And I felt terrible, and I was like, I didn't even want to do this. Like, why did I, why did I say that thing? I didn't even want to do it. Um, and then about 5 minutes later, she came out from behind the door."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:33",
+      "text": "Laughing."
+    },
+    {
+      "name": "D",
+      "timestamp": "107:34",
+      "text": "She was laughing. It was like the whole thing was a prank. And I felt so relieved in that moment that, like, I had You know, caused harm or whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:42",
+      "text": "And then?"
+    },
+    {
+      "name": "D",
+      "timestamp": "107:43",
+      "text": "I was so relieved. No, I mean, I was just— I was so relieved that I wasn't mad at the fact that they had played this prank on me. But later in life, I look back on that and I'm like, that was mean of them to do this to me. I am the victim here."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:58",
+      "text": "Yeah, yeah, yeah. That's— you were the victim. I guess they were wrong. Yeah. A and B, get fucked."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:10",
+      "text": "The Truthsayer."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:15",
+      "text": "All right, here we go."
+    },
+    {
+      "name": "G",
+      "timestamp": "108:20",
+      "text": "Hey, El Birria here. For The Dark Knight, Truthsayer Michael Caine's Alfred fits right in in Nolan's Gotham. The guy who's seen everything before and never loses his composure. Long before that though, young Michael Caine was broke, unknown, and living hand-to-mouth in London with his roommate Terence Stamp, no less."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:39",
+      "text": "Jesus."
+    },
+    {
+      "name": "G",
+      "timestamp": "108:39",
+      "text": "Years before either one mattered to anybody. 3 stories here about Michael Caine's lean years before fame. 2 of these are false, 1 is true. Time for the Truthsayer. Number 1, desperate for a sharper look ahead of a big audition, Caine had a suit made by an up-and-coming Parisian designer named Pierre Cardin, years before Cardin became a household name. All right. Or is it number 2, Kane's regular barber during those broke years was a young stylist named Vidal Sassoon, long before Sassoon became the most famous name in hair? Or is it number 3, to make rent, Michael Kane posed nude for a life drawing class taught by a then-unknown art student named David Hockney? All right, which of these 3 stories about Michael Kane is true? I do think it's the nude one."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:27",
+      "text": "I think I've heard that too."
+    },
+    {
+      "name": "D",
+      "timestamp": "109:28",
+      "text": "Yeah, the third one."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:29",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:29",
+      "text": "Vidal Sassoon. Vidal Sassoon."
+    },
+    {
+      "name": "E",
+      "timestamp": "109:34",
+      "text": "All right, here we go."
+    },
+    {
+      "name": "G",
+      "timestamp": "109:34",
+      "text": "Did you find the truth about Michael Caine? It's number 2. Vidal Sassoon cut Michael Caine's hair in London for years before either man—"
+    },
+    {
+      "name": "A",
+      "timestamp": "109:43",
+      "text": "Yes!"
+    },
+    {
+      "name": "G",
+      "timestamp": "109:43",
+      "text": "Anybody. Caine got the trims, Sassoon got the practice. Michael Caine, a mainstay for Christopher Nolan and so good in this one. Here ends the Truthsayer."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:55",
+      "text": "Woo! He's got that amazing hair. He's got that amazing hair. Thank you so much, Birria. Here is our next voicemail."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:03",
+      "text": "Escape Hatch, it's Kev here. By the sound of the trucks and cars and street noise, you can tell this is one of the last Kev's Questions recorded live from Astor Place in the East Village of New York City. It's also my 34th birthday. It's also a monumental episode about a monumental film, Chris Nolan's The Dark Knight. I saw this movie at midnight. I think my friend's uncle took us to some theater in Ronkonkoma, not one we usually went to, to see it. 12:01 AM. I was getting popcorn like a dumbass and missed the opening sequence, I think entirely."
+    },
+    {
+      "name": "A",
+      "timestamp": "110:37",
+      "text": "What?"
+    },
+    {
+      "name": "C",
+      "timestamp": "110:37",
+      "text": "But I come in, the lights are back on, right? The lights are on. The film broke. They have to fix it. So not only did I get to see The Dark Knight in full at midnight, I also got to see the Watchmen trailer that was attached to this theater's 35mm print. What a life. What an amazing feeling coming out of that thing at 3 o'clock in the morning, uh, full of possibility. Kev's question does not have to do with The Dark Knight himself, but has to do with the villain of the film, the Joker, played by the legendary Heath Ledger. One of my favorite contemporary memes is, uh, something happened to me this morning I'm gonna become the Joker. Like, something either inconvenient or unlucky is the thing on one bad day that drives you totally insane. So Kev's question is, what are the things in your life that are gonna turn you into the Joker? What are the things that, besides like the general political state, besides like what people say on Twitter, what are the things that drive you crazy in your life that you're willing to share on a podcast? I would I could say the things that turned me into the Joker, but they're all connected to a job that I'm about to quit. So I don't, you know, frankly, I have nothing to complain about."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:44",
+      "text": "I'm always more like Bane, but that's a story for another time."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:48",
+      "text": "I'm sorry this was so long, H. It's my fucking birthday, man. All right, so please let it be. With peace and love, I'll talk to you all very soon."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:55",
+      "text": "Once again, it's Kev's Questions."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:59",
+      "text": "Happy birthday to the great Um, we love Kev. Uh, we're blessed to have him."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:05",
+      "text": "The best."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:06",
+      "text": "Um, I drove a really terrible car while I was in St. Louis. I drove a Jeep Grand Wagoneer, which was like a giant full-size SUV, and it was just like fucking— it was just like tank trying to steer a fucking boat through St. Louis. Also, I don't know what happened since I lived there. I don't know if it's always been this way, but the worst driving I have seen in America, like just people doing absolutely insane shit. on the highway signaling, like no signaling, crossing across lanes of traffic. Like I saw multiple accidents. It's like something has gone wrong. Uh, what the hell? I don't know. Anyway, so that, that was— that's my Joker one."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:43",
+      "text": "That is crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "112:44",
+      "text": "I have one."
+    },
+    {
+      "name": "E",
+      "timestamp": "112:45",
+      "text": "What is it?"
+    },
+    {
+      "name": "D",
+      "timestamp": "112:46",
+      "text": "I really go insane when I have to use a poorly designed sink where the faucet, it doesn't come out far enough. So if you— far enough. Yeah. Yeah, so you want to wash your hands, you're like hitting the end of the sink, and meanwhile the sink is huge and you don't use any of it. You just use this tiny thing, and it's like, could we have not gotten a faucet that goes just a little bit further out? Who designed this?"
+    },
+    {
+      "name": "B",
+      "timestamp": "113:11",
+      "text": "Come on, guys."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:13",
+      "text": "Come on, guys. You had literally one job to do, which was to put the water in the middle of the sink so I could wash my hands."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:20",
+      "text": "The other one that's like that with the faucets is when there's like Like the the one side hot, one side cold of the faucet, which I don't like either."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:31",
+      "text": "They do that a lot. Really need two controls."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:33",
+      "text": "Yeah, we don't need that. They do that a lot in Europe. I don't know how they haven't figured out how to just get the water to cut out. Yeah, put it together."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:41",
+      "text": "Get the AC. Come on, guys. We're trying to try to make it. All right, here is our final voicemail."
+    },
+    {
+      "name": "F",
+      "timestamp": "113:54",
+      "text": "Ah, Kev, this is Corey calling from Austin, Texas about The Dark Knight, which I did not get to rewatch. I was in Detroit on vacation and having a blast, so I pulled up my Letterboxd review, uh, that I wrote, um, in 2024. Must have been right after I watched Joker 2, which I did love. Uh, that's another story. Uh, it says, riding my Joker fever and revisiting Keith's powerful performance in Nolan's second Batfilm. Maybe Phoenix and Phillips aren't the only guilty parties in the Jokerfication of America. I like— I liked more of this than I did the first time I watched it on DVD. The '70s crime drama feel and the Joker are standouts, but the superheroics and overstuffed storylines worked more for me over 15 years later. I even kind of sort of was into the Bat voice."
+    },
+    {
+      "name": "G",
+      "timestamp": "114:39",
+      "text": "Hmm."
+    },
+    {
+      "name": "F",
+      "timestamp": "114:40",
+      "text": "I'm still bumping up against Bateman, uh, Wayne mental connection every time I Bale in the suit that's not a Batsuit, uh, carries on the long comic book tradition of Batman beating the shit out of dogs for better or for worse. That's it. That's all I got for today. I gotta get back to work. I'll talk to y'all next week. Bye."
+    },
+    {
+      "name": "B",
+      "timestamp": "114:58",
+      "text": "Wow, that was really efficient. Yeah, really efficient. Uh, I forgot about the dog violence in this one."
+    },
+    {
+      "name": "A",
+      "timestamp": "115:06",
+      "text": "There's a lot of dog punching, uh, yeah, it's happening. It's some dog, some dog throwing. All right, so 3 out of 5 stars for The Dark Knight."
+    },
+    {
+      "name": "B",
+      "timestamp": "115:16",
+      "text": "Pretty good, pretty good. 3, pretty good. Could have been better. Wow, it's fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "115:23",
+      "text": "It's amazing. Our Film Bro podcast credentials are now formally on notice."
+    },
+    {
+      "name": "B",
+      "timestamp": "115:29",
+      "text": "There's definitely a thing, like, I, I was noticing in when, like, um, The Big Picture did their Nolan rankings with Van Yeah, I just like— I have a completely different conception of like the Nolan movies. Like, yeah, I'm just like, it's Interstellar, uh, it's like, it's Interstellar and like Inception. Like, it's like, it's like the big conceptual science fiction movies, um, and, and like Oppenheimer, I think, as like the prestige drama. As like, that's like sort of the 3 for me. And then, you know, probably The Odyssey next."
+    },
+    {
+      "name": "H",
+      "timestamp": "116:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "116:04",
+      "text": "Um, and I don't even know about the Batman movies. Like, they're fine. Like, they're in there somewhere, but they're not like— they're not like— I don't rate them— like, I view them as like sort of a— like, he was like, that's what he had to do to be able to do like the work that he definitely wanted to do, the work that he was meant to do."
+    },
+    {
+      "name": "E",
+      "timestamp": "116:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "116:22",
+      "text": "Um, like, they're good because they're him, but like, um, I don't think they're important in the way that his other movies are important."
+    },
+    {
+      "name": "D",
+      "timestamp": "116:32",
+      "text": "I'll take a different take on that. I think this trilogy is epic. All of his other work is slightly different in the kind of big way that you were talking about, but he kind of kept true to the vibe of DC and added himself in there. And I think the movies are all extremely rewatchable. I've watched all of them so many times. They entertain. Like, they're very polished. The details are handled. I don't know. I think they're great, great films."
+    },
+    {
+      "name": "B",
+      "timestamp": "117:08",
+      "text": "Yeah, I agree. They're great."
+    },
+    {
+      "name": "A",
+      "timestamp": "117:12",
+      "text": "I can't find it. Uh, let's see. Oh, here we go. I Was Batman for 3 Months, Then I Retired for 8 Years. Movie way too long and indulgent. Opening scene was amazing. Anne was a vision. 2 stars for The Dark Knight Rises. Like, I hate that movie. I think that— I think that movie is so—"
+    },
+    {
+      "name": "D",
+      "timestamp": "117:33",
+      "text": "For The Dark Knight Rises?"
+    },
+    {
+      "name": "A",
+      "timestamp": "117:34",
+      "text": "Rises. Rises. I think it's terrible. I think Batman Begins, the last time I watched it with Sam, I went up, I think, to 4.5 stars. And I will stay with this one at 4.5 stars. I think this is a— given the fact that we have so many superhero movies, this is one of the best superhero movies ever made. And the fact that— I think that's true. I agree. I think that's true. It manages to keep it real and make it something really meaningful with incredible, like, fidelity and production. So I think it, it is absolutely an important film, uh, as like the best the genre can be done. One of the best."
+    },
+    {
+      "name": "B",
+      "timestamp": "118:10",
+      "text": "Dude, they, they released another Doomsday trailer for D23 or whatever. Not good. With like— I, I like— I could not believe the reaction on Twitter from some people. It was like, okay, I was skeptical, but now we're back. I was like, what are you people seeing? Like, this is like, this is a fighting game cutscene. Like, I don't know. I don't know how you are so starved for content that you think this looks good at all."
+    },
+    {
+      "name": "A",
+      "timestamp": "118:34",
+      "text": "Like, it's getting worse. The trailers are getting worse."
+    },
+    {
+      "name": "B",
+      "timestamp": "118:36",
+      "text": "Every new shot looks worse. Looks like it has like just no point of view, no aesthetic. It's like clearly just shot inside a fucking Nvidia factory. Like, it's just It's just so funny."
+    },
+    {
+      "name": "D",
+      "timestamp": "118:49",
+      "text": "In contrast, this trilogy is insanely good, and it has a point of view. It has a point of view. It really takes you into the universe. You could feel like you're in that universe. It looks great. Yeah. Um, yes. Yeah, I— yeah. Did you guys— did you guys watch Penguin, the Penguin TV show?"
+    },
+    {
+      "name": "B",
+      "timestamp": "119:06",
+      "text": "Yes. I didn't. I didn't."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:08",
+      "text": "It was good. It was good. I liked it. I like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "119:10",
+      "text": "I just saw that Sebastian Stan is gonna be in the— in The Batman."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:15",
+      "text": "Man. Uh, and ScarJo's in it as well."
+    },
+    {
+      "name": "D",
+      "timestamp": "119:17",
+      "text": "What?"
+    },
+    {
+      "name": "B",
+      "timestamp": "119:18",
+      "text": "Is that allowed? Are they all allowed to go over from—"
+    },
+    {
+      "name": "A",
+      "timestamp": "119:21",
+      "text": "yeah, yeah, yeah, they don't care. They don't care."
+    },
+    {
+      "name": "B",
+      "timestamp": "119:23",
+      "text": "It feels like it should be exclusive. Feels like there should be loyalty."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:26",
+      "text": "Fair, fair enough. I don't know. I don't know. I just think, uh—"
+    },
+    {
+      "name": "B",
+      "timestamp": "119:30",
+      "text": "Oh, he's Harvey Dent. He's Harvey Dent. Oh, Sebastian Stan is supposedly— yeah, allegedly."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:37",
+      "text": "Yeah, guys, more good movies. Bring them on. Spend money, shoot practically, have good digital effects, and take this shit seriously."
+    },
+    {
+      "name": "B",
+      "timestamp": "119:46",
+      "text": "Going out for ice cream was canceled because Junie is so upset after day 1 of kindergarten that she needs to come home and we'll have ice cream at home instead."
+    },
+    {
+      "name": "A",
+      "timestamp": "119:54",
+      "text": "So I ordered ice cream for dinner."
+    },
+    {
+      "name": "B",
+      "timestamp": "119:58",
+      "text": "The updates, the updates were Juniper is crying hysterically and never will return to school."
+    },
+    {
+      "name": "A",
+      "timestamp": "120:06",
+      "text": "I'm sure it's no problem, no problem that you were not available for pickup today. No, that won't be noted. That won't be noted for the record."
+    },
+    {
+      "name": "B",
+      "timestamp": "120:13",
+      "text": "We agreed. But listen, like, there's a— Crystal wanted to go to do the pickup, and there was no problem that, like, I was gonna help with that, uh, that Crystal was gonna be, uh, unable to assuage. So, okay, okay. Um, I think it might have just been— it might have just been fated. Um, oh, poor baby."
+    },
+    {
+      "name": "A",
+      "timestamp": "120:30",
+      "text": "Best of luck."
+    },
+    {
+      "name": "B",
+      "timestamp": "120:31",
+      "text": "It's tough. It's tough. She really wasn't looking forward going to school today. And turns out she was right. She she didn't want it. She didn't want to go, and she's got to go again."
+    },
+    {
+      "name": "A",
+      "timestamp": "120:43",
+      "text": "Tomorrow's a new day. That's it. There's no option. There's no option. And that's it for this episode of Escape Hatch. I want to thank Jason and Sarah for an amazing conversation. Next week, it's the return of Sharksploit. Stephen Scarlatta, as we finally tackle Renny Harlin's 1999 shark thriller, Deep Blue Sea. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and other creators. Unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck podcast, John, a production of H Industries. Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks for listening. We'll see everybody next week."
+    },
+    {
+      "name": "F",
+      "timestamp": "121:45",
+      "text": "Bye."
+    },
+    {
+      "name": "H",
+      "timestamp": "121:53",
+      "text": "I want $10 million a year for the rest of my life."
+    },
+    {
+      "name": "G",
+      "timestamp": "121:57",
+      "text": "Let me get this straight."
+    },
+    {
+      "name": "B",
+      "timestamp": "122:04",
+      "text": "You think that your client, one of the wealthiest, most powerful men in the world, is secretly a vigilante who spends his nights beating criminals to a pulp with his bare hands? And your plan is to blackmail this person?"
+    },
+    {
+      "name": "C",
+      "timestamp": "122:20",
+      "text": "Good luck."
+    }
+  ]
+}
