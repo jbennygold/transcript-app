@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 330 episodes - updated 2026-08-19
+// Auto-generated - do not edit - 330 episodes - updated 2026-08-20
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15827,9 +15827,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/dark-knight-2008-167151464",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a9ab01fee24954fa6da19c17a",
+    "letterboxdLink": "https://letterboxd.com/film/the-dark-knight/",
+    "imdbLink": "https://www.imdb.com/title/tt0468569/"
   }
 ];
