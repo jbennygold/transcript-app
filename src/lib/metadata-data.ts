@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 330 episodes - updated 2026-08-20
+// Auto-generated - do not edit - 330 episodes - updated 2026-08-21
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15815,17 +15815,17 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "filmYear": 2008,
     "releaseDate": "8/20/2026",
     "length": "2:02:33",
-    "reviewer": "",
+    "reviewer": "jason",
     "guest": "Sara Beykpour",
     "mmmCount": 0,
-    "thatsGreatCount": 0,
+    "thatsGreatCount": 5,
     "notableMoments": "",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "N/A",
-    "tildaH": "N/A",
-    "tildaJason": "N/A",
-    "tildaGuest": null,
+    "kevsQuestion": "What are the things in your life that are gonna turn you into the Joker?",
+    "tildaH": "Alfred",
+    "tildaJason": "Rachel",
+    "tildaGuest": "Rachel",
     "tildaCorey": null,
     "showLink": "https://www.patreon.com/EscapeHatch/posts/dark-knight-2008-167151464",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a9ab01fee24954fa6da19c17a",
