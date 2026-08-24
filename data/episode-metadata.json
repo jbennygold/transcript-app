@@ -15828,6 +15828,33 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/dark-knight-2008-167151464",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a9ab01fee24954fa6da19c17a",
     "letterboxdLink": "https://letterboxd.com/film/the-dark-knight/",
-    "imdbLink": "https://www.imdb.com/title/tt0468569/"
+    "imdbLink": "https://www.imdb.com/title/tt0468569/",
+    "tmdbId": 155,
+    "tmdbPosterPath": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cinematographers": [
+      "Wally Pfister"
+    ],
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Maggie Gyllenhaal",
+      "Gary Oldman",
+      "Morgan Freeman",
+      "Monique Gabriela Curnen"
+    ],
+    "composers": [
+      "James Newton Howard",
+      "Hans Zimmer"
+    ]
   }
 ]
