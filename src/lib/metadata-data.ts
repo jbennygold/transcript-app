@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 330 episodes - updated 2026-08-25
+// Auto-generated - do not edit - 330 episodes - updated 2026-08-26
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -11535,7 +11535,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "episode": 229,
     "film": "The Warriors (1979)",
     "filmYear": 1979,
-    "releaseDate": "1/12/2024",
+    "releaseDate": "1/11/2025",
     "length": "2:07:42",
     "reviewer": "birria",
     "guest": "Dave Itzkoff",
@@ -11585,7 +11585,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "episode": 230,
     "film": "Burn After Reading",
     "filmYear": null,
-    "releaseDate": "1/19/2024",
+    "releaseDate": "1/17/2025",
     "length": "1:37:56",
     "reviewer": "birria",
     "guest": "Devindra Hardawar",
@@ -15819,7 +15819,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "guest": "Sara Beykpour",
     "mmmCount": 0,
     "thatsGreatCount": 5,
-    "notableMoments": "",
+    "notableMoments": "- Jason plays the role of centrist shill and shits on the DSA\n- Letters: Bog Pod, Animal Mother, Mr Java (Depeche Mode Personal Jesus cover), Truthsayer, Kev, Corey",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "What are the things in your life that are gonna turn you into the Joker?",
