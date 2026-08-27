@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 330 episodes - updated 2026-08-27
+// Auto-generated - do not edit - 331 episodes - updated 2026-08-27
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15858,5 +15858,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
       "James Newton Howard",
       "Hans Zimmer"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 320,
+    "film": "Deep Blue Sea (1999)",
+    "filmYear": 1999,
+    "releaseDate": "8/27/2026",
+    "length": "",
+    "reviewer": "",
+    "guest": null,
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
