@@ -15880,6 +15880,32 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/deep-blue-sea-167857347",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a15d92cd05b3c1e575d180d9a",
     "letterboxdLink": "https://letterboxd.com/film/deep-blue-sea/",
-    "imdbLink": "https://www.imdb.com/title/tt0149261/"
+    "imdbLink": "https://www.imdb.com/title/tt0149261/",
+    "tmdbId": 8914,
+    "tmdbPosterPath": "/fyn0zyCI4kIlbDoHH0Hzv09hDC5.jpg",
+    "genres": [
+      "Action",
+      "Horror",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Renny Harlin"
+    ],
+    "cinematographers": [
+      "Stephen F. Windon"
+    ],
+    "cast": [
+      "Saffron Burrows",
+      "Thomas Jane",
+      "LL Cool J",
+      "Samuel L. Jackson",
+      "Jacqueline McKenzie",
+      "Michael Rapaport",
+      "Stellan Skarsgård",
+      "Aida Turturro"
+    ],
+    "composers": [
+      "Trevor Rabin"
+    ]
   }
 ]
