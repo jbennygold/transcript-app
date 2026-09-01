@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 331 episodes - updated 2026-08-31
+// Auto-generated - do not edit - 331 episodes - updated 2026-09-01
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15871,7 +15871,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "guest": "Stephen Scarlata",
     "mmmCount": 0,
     "thatsGreatCount": 5,
-    "notableMoments": "",
+    "notableMoments": "- Matt introduces the \"is this better than the Matrix\" standard for film appreciation\n- Stephen tells his story of throwing up on a shark.\n- Letters - Animal Mother, Mr Java (Under The Sea Parody - Jason calls it one of his best), Truthsayer, Kev, Corey",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "Have you swam in a shark cage? Would you do something like that? Have you swam with dolphins?",
