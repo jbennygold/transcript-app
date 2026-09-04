@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 331 episodes - updated 2026-09-03
+// Auto-generated - do not edit - 332 episodes - updated 2026-09-04
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15909,5 +15909,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Trevor Rabin"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 321,
+    "film": "The Fly (1986)",
+    "filmYear": 1986,
+    "releaseDate": "9/3/2026",
+    "length": "1:46:59",
+    "reviewer": "",
+    "guest": "Meredith Borders",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
