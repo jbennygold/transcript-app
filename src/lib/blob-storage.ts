@@ -265,6 +265,24 @@ export async function audioExists(episodeNumber: number | string): Promise<boole
 }
 
 /**
+ * List every episode id that has an audio file, in one Blob call. Use this
+ * instead of calling audioExists() per episode when checking the whole corpus.
+ */
+export async function listBlobAudioEpisodes(): Promise<Set<string>> {
+  const ids = new Set<string>();
+  let cursor: string | undefined;
+  do {
+    const page = await list({ prefix: AUDIO_PREFIX, cursor });
+    for (const blob of page.blobs) {
+      const match = blob.pathname.match(/episode_([\w]+)\.mp3$/);
+      if (match) ids.add(match[1]);
+    }
+    cursor = page.hasMore ? page.cursor : undefined;
+  } while (cursor);
+  return ids;
+}
+
+/**
  * Get audio URL from Blob storage
  */
 export async function getAudioUrl(episodeNumber: number): Promise<string | null> {
