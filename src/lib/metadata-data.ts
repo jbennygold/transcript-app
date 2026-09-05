@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 332 episodes - updated 2026-09-04
+// Auto-generated - do not edit - 332 episodes - updated 2026-09-05
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15918,21 +15918,21 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "filmYear": 1986,
     "releaseDate": "9/3/2026",
     "length": "1:46:59",
-    "reviewer": "",
+    "reviewer": "jason",
     "guest": "Meredith Borders",
     "mmmCount": 0,
-    "thatsGreatCount": 0,
+    "thatsGreatCount": 5,
     "notableMoments": "",
     "hFlex": "N/A",
     "jFlex": "N/A",
-    "kevsQuestion": "N/A",
-    "tildaH": "N/A",
-    "tildaJason": "N/A",
-    "tildaGuest": null,
-    "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "kevsQuestion": "What Dune or Escape Hatch character would you want as an animatronic to greet kids on Halloween?",
+    "tildaH": "Brundlefly",
+    "tildaJason": "Stathis",
+    "tildaGuest": "the maggot",
+    "tildaCorey": "that fucking maggot",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/fly-1986-168541858",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a7cb30f0c4f7033b544e4762d",
+    "letterboxdLink": "https://letterboxd.com/film/the-fly/",
+    "imdbLink": "https://www.imdb.com/title/tt0091064/"
   }
 ];
