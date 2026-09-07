@@ -73,7 +73,7 @@ async function triviaFromTranscript(client: Anthropic, film: string, transcript:
 
   const prompt = `Below is a transcript of an episode of the Escape Hatch Podcast discussing the film "${film}". Each turn is numbered like [12] Speaker: text.
 
-Find up to 5 distinct trivia-worthy facts the hosts or guest state ABOUT THE FILM: its production, casting, budget, box office, awards, source material, director, behind-the-scenes stories, release history, or a specific claim about how it was made. Prefer surprising, concrete facts over opinions. Skip jokes, personal anecdotes unrelated to the film, and anything about the podcast itself.
+Find up to 5 distinct trivia-worthy facts the hosts or guest state ABOUT THE FILM. Haitch does most of the talking, so look hardest for facts stated by the guest, Jason, or Corey and include at least two from them if the transcript has any; facts from Haitch are fine as a fallback. Facts can cover: its production, casting, budget, box office, awards, source material, director, behind-the-scenes stories, release history, or a specific claim about how it was made. Prefer surprising, concrete facts over opinions. Skip jokes, personal anecdotes unrelated to the film, and anything about the podcast itself.
 
 For each fact return:
 - "fact": one or two sentences, written as a standalone trivia fact in your own words, naming the film. Attribute the claim to the speaker if it is an opinion-ish claim (e.g. "According to Jason, ...").

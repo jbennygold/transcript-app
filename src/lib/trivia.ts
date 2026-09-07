@@ -107,8 +107,12 @@ export function pickVerifiedTrivia(
     .map((c) => verifyCandidate(c, transcript))
     .filter((v): v is VerifiedTrivia => v !== null);
   if (verified.length === 0) return null;
-  const idx = Math.min(verified.length - 1, Math.floor(random() * verified.length));
-  return verified[idx];
+  // Haitch does most of the talking, so prefer facts from the guest, Jason or Corey
+  // whenever one verified; Haitch's facts are the fallback.
+  const nonHaitch = verified.filter((v) => displaySpeaker(v.speaker) !== 'Haitch');
+  const pool = nonHaitch.length > 0 ? nonHaitch : verified;
+  const idx = Math.min(pool.length - 1, Math.floor(random() * pool.length));
+  return pool[idx];
 }
 
 /**

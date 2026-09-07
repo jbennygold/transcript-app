@@ -95,8 +95,8 @@ test('verifyCandidate rejects an out-of-range turn, an empty quote, and an empty
 test('pickVerifiedTrivia picks among verified candidates using the supplied random source', () => {
   const candidates = [
     { fact: 'bogus', turn: 0, quote: 'not present anywhere' },
-    { fact: 'A', turn: 0, quote: 'Welcome back' },
-    { fact: 'B', turn: 1, quote: 'almost a decade' },
+    { fact: 'A', turn: 1, quote: 'almost a decade' },
+    { fact: 'B', turn: 2, quote: "That's great" },
   ];
   assert.equal(pickVerifiedTrivia(candidates, transcript, () => 0)?.fact, 'A');
   assert.equal(pickVerifiedTrivia(candidates, transcript, () => 0.99)?.fact, 'B');
@@ -158,4 +158,38 @@ test('stripMattFromHaitch rewrites "Matt Haitch" in fact text but not other Matt
     'According to Haitch, the shoot took 90 days. Haitch said so.'
   );
   assert.equal(stripMattFromHaitch('Matt Damon was cast late.'), 'Matt Damon was cast late.');
+});
+
+test('pickVerifiedTrivia prefers verified facts from speakers other than Haitch', () => {
+  const t: Transcript = {
+    episode_name: 'Heat',
+    dialogues: [
+      { name: 'Matt Haitch', timestamp: '00:01:00', text: 'It began as an NBC pilot called LA Takedown.' },
+      { name: 'Jason', timestamp: '00:02:00', text: 'De Niro and Pacino only share two scenes.' },
+      { name: 'HAITCH', timestamp: '00:03:00', text: 'Mann shot the diner scene with three cameras.' },
+    ],
+  } as Transcript;
+  const candidates = [
+    { fact: 'H1', turn: 0, quote: 'NBC pilot called LA Takedown' },
+    { fact: 'J', turn: 1, quote: 'only share two scenes' },
+    { fact: 'H2', turn: 2, quote: 'three cameras' },
+  ];
+  // Whatever the random draw, the non-Haitch fact wins when one exists.
+  assert.equal(pickVerifiedTrivia(candidates, t, () => 0)?.fact, 'J');
+  assert.equal(pickVerifiedTrivia(candidates, t, () => 0.99)?.fact, 'J');
+});
+
+test('pickVerifiedTrivia falls back to Haitch facts when nobody else has one', () => {
+  const t: Transcript = {
+    episode_name: 'Heat',
+    dialogues: [
+      { name: 'Matt Haitch', timestamp: '00:01:00', text: 'It began as an NBC pilot called LA Takedown.' },
+      { name: 'Jason', timestamp: '00:02:00', text: 'De Niro and Pacino only share two scenes.' },
+    ],
+  } as Transcript;
+  const candidates = [
+    { fact: 'H1', turn: 0, quote: 'NBC pilot called LA Takedown' },
+    { fact: 'bogus', turn: 1, quote: 'not in the transcript' },
+  ];
+  assert.equal(pickVerifiedTrivia(candidates, t, () => 0)?.fact, 'H1');
 });
