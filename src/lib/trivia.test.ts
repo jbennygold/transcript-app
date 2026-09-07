@@ -7,6 +7,8 @@ import {
   verifyCandidate,
   pickVerifiedTrivia,
   pickRandomFilm,
+  displaySpeaker,
+  stripMattFromHaitch,
 } from './trivia';
 
 const transcript: Transcript = {
@@ -138,4 +140,22 @@ test('verifyCandidate ignores punctuation and curly quotes but still requires th
     verifyCandidate({ fact: 'f', turn: 0, quote: 'the Wachowskis directed The Matrix first' }, t),
     null
   );
+});
+
+test('displaySpeaker renders every Haitch variant as plain "Haitch" and leaves others alone', () => {
+  assert.equal(displaySpeaker('Matt Haitch'), 'Haitch');
+  assert.equal(displaySpeaker('matt haitch'), 'Haitch');
+  assert.equal(displaySpeaker('Haitch Matt'), 'Haitch');
+  assert.equal(displaySpeaker('H'), 'Haitch');
+  assert.equal(displaySpeaker('Haitch'), 'Haitch');
+  assert.equal(displaySpeaker('Jason'), 'Jason');
+  assert.equal(displaySpeaker('McKenzie Wilkes'), 'McKenzie Wilkes');
+});
+
+test('stripMattFromHaitch rewrites "Matt Haitch" in fact text but not other Matts', () => {
+  assert.equal(
+    stripMattFromHaitch('According to Matt Haitch, the shoot took 90 days. matt haitch said so.'),
+    'According to Haitch, the shoot took 90 days. Haitch said so.'
+  );
+  assert.equal(stripMattFromHaitch('Matt Damon was cast late.'), 'Matt Damon was cast late.');
 });

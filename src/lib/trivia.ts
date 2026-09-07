@@ -127,3 +127,15 @@ export function pickRandomFilm(
   const idx = Math.min(eligible.length - 1, Math.floor(random() * eligible.length));
   return eligible[idx].film;
 }
+
+const HAITCH_LABELS = new Set(['matt haitch', 'haitch matt', 'haitch', 'h']);
+
+/** Transcript speaker labels for Matt Haitch vary; the pod just calls him "Haitch". */
+export function displaySpeaker(name: string): string {
+  return HAITCH_LABELS.has(name.trim().toLowerCase()) ? 'Haitch' : name.trim();
+}
+
+/** Safety net for model output: "Matt Haitch" is never used on the pod, only "Haitch". */
+export function stripMattFromHaitch(text: string): string {
+  return text.replace(/\bmatt\s+haitch\b/gi, 'Haitch');
+}

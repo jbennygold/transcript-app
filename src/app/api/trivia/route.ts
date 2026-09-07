@@ -8,6 +8,8 @@ import {
   parseTriviaCandidates,
   pickVerifiedTrivia,
   pickRandomFilm,
+  displaySpeaker,
+  stripMattFromHaitch,
 } from '@/lib/trivia';
 
 export type TriviaResponse = {
@@ -75,6 +77,7 @@ Find up to 5 distinct trivia-worthy facts the hosts or guest state ABOUT THE FIL
 
 For each fact return:
 - "fact": one or two sentences, written as a standalone trivia fact in your own words, naming the film. Attribute the claim to the speaker if it is an opinion-ish claim (e.g. "According to Jason, ...").
+- Naming rule: the host labelled "Matt Haitch" is always referred to as simply "Haitch" — never "Matt Haitch", never "Matt".
 - "turn": the integer turn number the fact comes from.
 - "quote": a short verbatim excerpt (5-20 words) copied EXACTLY from that turn's text that supports the fact.
 
@@ -149,10 +152,10 @@ export async function GET(request: NextRequest) {
           episodeNumber: epNum,
           episodeName: transcript.episode_name,
           pod: episode.pod,
-          speaker: trivia.speaker,
+          speaker: displaySpeaker(trivia.speaker),
           timestamp: trivia.timestamp,
           quote: trivia.quote,
-          fact: trivia.fact,
+          fact: stripMattFromHaitch(trivia.fact),
           source: 'transcript',
         } satisfies TriviaResponse);
       }
@@ -182,7 +185,7 @@ export async function GET(request: NextRequest) {
     speaker: null,
     timestamp: null,
     quote: null,
-    fact,
+    fact: stripMattFromHaitch(fact),
     source: 'generated',
   } satisfies TriviaResponse);
 }
