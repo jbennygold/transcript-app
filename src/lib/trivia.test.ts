@@ -193,3 +193,23 @@ test('pickVerifiedTrivia falls back to Haitch facts when nobody else has one', (
   ];
   assert.equal(pickVerifiedTrivia(candidates, t, () => 0)?.fact, 'H1');
 });
+
+test('pickVerifiedTrivia ranks guest facts above Jason, and Jason above Haitch', () => {
+  const t: Transcript = {
+    episode_name: 'Heat',
+    dialogues: [
+      { name: 'Matt Haitch', timestamp: '00:01:00', text: 'It began as an NBC pilot called LA Takedown.' },
+      { name: 'Jason', timestamp: '00:02:00', text: 'De Niro and Pacino only share two scenes.' },
+      { name: 'McKenzie Wilkes', timestamp: '00:03:00', text: 'Mann shot the diner scene with three cameras.' },
+    ],
+  } as Transcript;
+  const all = [
+    { fact: 'H', turn: 0, quote: 'NBC pilot called LA Takedown' },
+    { fact: 'J', turn: 1, quote: 'only share two scenes' },
+    { fact: 'G', turn: 2, quote: 'three cameras' },
+  ];
+  assert.equal(pickVerifiedTrivia(all, t, () => 0)?.fact, 'G');
+  assert.equal(pickVerifiedTrivia(all, t, () => 0.99)?.fact, 'G');
+  assert.equal(pickVerifiedTrivia(all.slice(0, 2), t, () => 0.99)?.fact, 'J');
+  assert.equal(pickVerifiedTrivia(all.slice(0, 1), t, () => 0)?.fact, 'H');
+});

@@ -107,12 +107,22 @@ export function pickVerifiedTrivia(
     .map((c) => verifyCandidate(c, transcript))
     .filter((v): v is VerifiedTrivia => v !== null);
   if (verified.length === 0) return null;
-  // Haitch does most of the talking, so prefer facts from the guest, Jason or Corey
-  // whenever one verified; Haitch's facts are the fallback.
-  const nonHaitch = verified.filter((v) => displaySpeaker(v.speaker) !== 'Haitch');
-  const pool = nonHaitch.length > 0 ? nonHaitch : verified;
+  // Haitch does most of the talking, so rank by who said it: the guest first,
+  // then the other hosts, then Haitch. Draw at random within the best tier.
+  const tier = (v: VerifiedTrivia) => speakerTier(v.speaker);
+  const best = Math.min(...verified.map(tier));
+  const pool = verified.filter((v) => tier(v) === best);
   const idx = Math.min(pool.length - 1, Math.floor(random() * pool.length));
   return pool[idx];
+}
+
+const HOST_LABELS = new Set(['jason', 'corey']);
+
+/** 0 = guest (anyone who is not a host), 1 = a non-Haitch host, 2 = Haitch. */
+export function speakerTier(name: string): 0 | 1 | 2 {
+  if (displaySpeaker(name) === 'Haitch') return 2;
+  const first = name.trim().toLowerCase().split(/\s+/)[0];
+  return HOST_LABELS.has(first) ? 1 : 0;
 }
 
 /**
