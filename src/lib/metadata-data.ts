@@ -15933,6 +15933,31 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/fly-1986-168541858",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a7cb30f0c4f7033b544e4762d",
     "letterboxdLink": "https://letterboxd.com/film/the-fly/",
-    "imdbLink": "https://www.imdb.com/title/tt0091064/"
+    "imdbLink": "https://www.imdb.com/title/tt0091064/",
+    "tmdbId": 9426,
+    "tmdbPosterPath": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "directors": [
+      "David Cronenberg"
+    ],
+    "cinematographers": [
+      "Mark Irwin"
+    ],
+    "cast": [
+      "Jeff Goldblum",
+      "Geena Davis",
+      "John Getz",
+      "Joy Boushel",
+      "Leslie Carlson",
+      "George Chuvalo",
+      "Michael Copeman",
+      "David Cronenberg"
+    ],
+    "composers": [
+      "Howard Shore"
+    ]
   }
 ];
