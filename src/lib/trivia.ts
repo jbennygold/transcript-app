@@ -64,8 +64,13 @@ export function parseTriviaCandidates(raw: string): TriviaCandidate[] {
   return out;
 }
 
+/** Lowercase, drop punctuation (incl. curly quotes), collapse whitespace. */
 function normalize(text: string): string {
-  return text.toLowerCase().replace(/\s+/g, ' ').trim();
+  return text
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 /**
@@ -104,4 +109,21 @@ export function pickVerifiedTrivia(
   if (verified.length === 0) return null;
   const idx = Math.min(verified.length - 1, Math.floor(random() * verified.length));
   return verified[idx];
+}
+
+/**
+ * Pick a random film from the episode list. Only numbered episodes with a
+ * non-empty film qualify; bonus episodes with ids like "49b1" are skipped
+ * because the transcript path keys off a numeric episode number.
+ */
+export function pickRandomFilm(
+  episodes: ReadonlyArray<{ episode: number | string; film: string }>,
+  random: () => number = Math.random
+): string | null {
+  const eligible = episodes.filter(
+    (e) => typeof e.episode === 'number' && e.film.trim().length > 0
+  );
+  if (eligible.length === 0) return null;
+  const idx = Math.min(eligible.length - 1, Math.floor(random() * eligible.length));
+  return eligible[idx].film;
 }

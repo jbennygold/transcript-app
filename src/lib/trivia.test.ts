@@ -6,6 +6,7 @@ import {
   parseTriviaCandidates,
   verifyCandidate,
   pickVerifiedTrivia,
+  pickRandomFilm,
 } from './trivia';
 
 const transcript: Transcript = {
@@ -102,6 +103,39 @@ test('pickVerifiedTrivia picks among verified candidates using the supplied rand
 test('pickVerifiedTrivia returns null when nothing verifies', () => {
   assert.equal(
     pickVerifiedTrivia([{ fact: 'x', turn: 0, quote: 'nope' }], transcript, () => 0),
+    null
+  );
+});
+
+test('pickRandomFilm chooses among numbered episodes with a film, using the random source', () => {
+  const episodes = [
+    { episode: 1, film: 'Dune' },
+    { episode: '49b1', film: 'Bonus Chat' },
+    { episode: 2, film: '' },
+    { episode: 3, film: 'Heat' },
+  ];
+  assert.equal(pickRandomFilm(episodes, () => 0), 'Dune');
+  assert.equal(pickRandomFilm(episodes, () => 0.99), 'Heat');
+});
+
+test('pickRandomFilm returns null when no eligible episode exists', () => {
+  assert.equal(pickRandomFilm([{ episode: '49b1', film: 'x' }], () => 0), null);
+  assert.equal(pickRandomFilm([], () => 0), null);
+});
+
+test('verifyCandidate ignores punctuation and curly quotes but still requires the words', () => {
+  const t: Transcript = {
+    episode_name: 'Bound',
+    dialogues: [
+      { name: 'Jason', timestamp: '00:05:00', text: "It was the Wachowskis' debut, right? Before The Matrix... yeah." },
+    ],
+  } as Transcript;
+  assert.equal(
+    verifyCandidate({ fact: 'f', turn: 0, quote: 'it was the Wachowskis’ debut right before the Matrix' }, t)?.speaker,
+    'Jason'
+  );
+  assert.equal(
+    verifyCandidate({ fact: 'f', turn: 0, quote: 'the Wachowskis directed The Matrix first' }, t),
     null
   );
 });

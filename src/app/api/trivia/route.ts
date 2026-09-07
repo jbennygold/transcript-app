@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import { Transcript } from '@/types/transcript';
-import { findEpisodesByFilm } from '@/lib/metadata-store';
+import { findEpisodesByFilm, loadEpisodeMetadata } from '@/lib/metadata-store';
 import { loadTranscript as loadBlobTranscript } from '@/lib/blob-storage';
 import {
   formatTranscriptForPrompt,
   parseTriviaCandidates,
   pickVerifiedTrivia,
+  pickRandomFilm,
 } from '@/lib/trivia';
 
 export type TriviaResponse = {
@@ -118,10 +119,11 @@ Output only the trivia text.`;
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const film = searchParams.get('film')?.trim() ?? '';
+  // No film given: surprise the caller with a random covered episode.
+  const film = searchParams.get('film')?.trim() || pickRandomFilm(loadEpisodeMetadata()) || '';
 
   if (!film) {
-    return NextResponse.json({ error: 'Missing required parameter: film' }, { status: 400 });
+    return NextResponse.json({ error: 'No film given and no episodes available' }, { status: 500 });
   }
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -136,7 +138,11 @@ export async function GET(request: NextRequest) {
     if (!transcript) continue;
 
     try {
-      const trivia = await triviaFromTranscript(client, episode.film, transcript);
+      // Haiku occasionally paraphrases every quote so nothing verifies; one retry
+      // (a fresh sample) recovers most of those before we fall back to general trivia.
+      const trivia =
+        (await triviaFromTranscript(client, episode.film, transcript)) ??
+        (await triviaFromTranscript(client, episode.film, transcript));
       if (trivia) {
         return NextResponse.json({
           film: episode.film,
