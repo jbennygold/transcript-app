@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 332 episodes - updated 2026-09-11
+// Auto-generated - do not edit - 333 episodes - updated 2026-09-12
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -15959,5 +15959,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Howard Shore"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 322,
+    "film": "Dungeons & Dragons: Honor Among Thieves (2023)",
+    "filmYear": 2023,
+    "releaseDate": "9/10/2026",
+    "length": "1:28:57",
+    "reviewer": "",
+    "guest": null,
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];

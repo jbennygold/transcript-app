@@ -1,0 +1,3761 @@
+{
+  "episode_number": 322,
+  "episode_name": "Dungeons & Dragons: Honor Among Thieves (2023)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:29",
+      "text": "It was giving Midsommar vibes to me. Like, it was like people— it was like giving people crying, like, on, like, you know, in just like an ecstatic revelry of, like, mushroom tea as they're inventing large language models."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:41",
+      "text": "The Summer of Jason rolls on as we cover the fantastically fun 2023 adventure Dungeons and Dragons: Honor Among Thieves. If you're enjoying the show, we need your help."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:54",
+      "text": "Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:10",
+      "text": "Links are in the show notes. And now, without further ado, D&D."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:20",
+      "text": "The Lucas Museum of Narrative—"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:25",
+      "text": "of Narrative Art."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:26",
+      "text": "You've seen it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:27",
+      "text": "In San Francisco."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:28",
+      "text": "I've been there. I have been to the promised land."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:31",
+      "text": "It was supposed to be in San Francisco, but the NIMBYs fucking killed it. So you went to LA."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:35",
+      "text": "It was supposed to be at Treasure Island originally."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:39",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:39",
+      "text": "I didn't know that."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "E",
+      "timestamp": "1:41",
+      "text": "Bummer."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:41",
+      "text": "They had it—"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:42",
+      "text": "they had part of the exhibit had photo renderings of all the previous locations where it was going to be. Treasure Island, Presidio, Chicago."
+    },
+    {
+      "name": "F",
+      "timestamp": "1:50",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:50",
+      "text": "That's some Max Petty shit. Oh, for real."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:52",
+      "text": "It's like, fuck all y'all."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:53",
+      "text": "Fuck all of you. I'm building it. Yeah, I mean, it was— it is really dumb."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:58",
+      "text": "George and Melody, right? Like, listen, let's not forget."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:02",
+      "text": "But it is interesting because the, the one I wanted the most, which was the one in the Presidio, was the worst design."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:08",
+      "text": "That was the one that looked—"
+    },
+    {
+      "name": "G",
+      "timestamp": "2:09",
+      "text": "was it?"
+    },
+    {
+      "name": "H",
+      "timestamp": "2:10",
+      "text": "It—"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:10",
+      "text": "that one, he was trying to make it look like the Palace of Fine Arts, right, which he used for Naboo. So it's the same kind of like domes and brown and stuff, but it's very kind of, kind of traditional. And so this is a lot more fun to have it as a spaceship, basically."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:24",
+      "text": "That's a giant-ass spaceship."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:25",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:25",
+      "text": "Yeah, it's cool."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:26",
+      "text": "It's super cool. $1.5 billion, 13 years, 300,000 square feet. Um, and it opens to the public on September 22nd. So I was able to get a founding membership a couple of months ago, which got me access to the VIP party on Saturday night. They had another one on Sunday night, um, as well as early access on Sunday."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:48",
+      "text": "And it was amazing, dude. I went down there, I met up with Mandel."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:52",
+      "text": "We got to, like, right as we were getting to the front of the line, He showed up, um, and we— so we popped him in with his Heritage Auction boys."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:58",
+      "text": "Oh, that's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:59",
+      "text": "And we went in there, and it was really cool to have Dave. He'd already been, of course, uh, of course spent a day there."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:04",
+      "text": "He was on the VVIP tour."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:07",
+      "text": "Exactly, exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:09",
+      "text": "But it, it's kind of amazing. So a lot of people think like, is this the Star Wars Museum? And it is—"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:13",
+      "text": "It's not."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:14",
+      "text": "He really went out of his way to not make it a Star Wars exam. There's an exhibit— there's only one area there And it's mostly prequel focused, right?"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:27",
+      "text": "There's like an R2 and a C-3PO. Yes. From the originals."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:32",
+      "text": "And those guys look great."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:34",
+      "text": "There's some other stuff, but I mean, I think it was in the prequels where he realized like, I'm holding on to all this fucking shit. I'm like, no, no one's getting— I'm keeping the fucking starfighter and the podracer and fuck all you people."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:43",
+      "text": "You think it's that? Or do you think it's— you think it was— he was like, no, you're going to look at this."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:47",
+      "text": "This is my— this is my vision. I think he has a pretty fond relationship with the, uh, with the originals. I think he'd probably— I, I— but I mean, it is just the case that like a lot of that stuff wasn't held on to in the same way as it was during the, during the prequel time."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:03",
+      "text": "I think that's true."
+    },
+    {
+      "name": "D",
+      "timestamp": "4:04",
+      "text": "Expert on this, but it will—"
+    },
+    {
+      "name": "B",
+      "timestamp": "4:06",
+      "text": "so this is unfortunately, we tried to get Dave for today and he is, he is in the minds of—"
+    },
+    {
+      "name": "D",
+      "timestamp": "4:12",
+      "text": "he's got his business."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:15",
+      "text": "He's doing some business."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:16",
+      "text": "But according to him, I didn't get all the details, but apparently a lot of these were replicas. Like, they have a Millennium Falcon that's just like a model kit."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:25",
+      "text": "So I don't think it's like the original screen-used Falcon, for instance."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:30",
+      "text": "And so that was kind of weird."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:33",
+      "text": "Or General Grievous's wheel bike, I think, was just like a model that they made to see how they would do it or whatever."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:39",
+      "text": "Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:41",
+      "text": "That, that was kind of weird. I'll tell you what was not weird was George's fucking artwork. Yeah, what's he got?"
+    },
+    {
+      "name": "D",
+      "timestamp": "4:51",
+      "text": "Give me the highlights."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:51",
+      "text": "Well, his whole thing is he's obsessed with like 1900 to 1950."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:56",
+      "text": "Like, that is his period, and especially the stuff in like the, in the early hundreds and, and in through like 1930. So Rockwell, he famously has like the greatest one collection in in the world."
+    },
+    {
+      "name": "C",
+      "timestamp": "5:10",
+      "text": "But then, dude, the Maxfield Parrish shit and the N.C."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:14",
+      "text": "Wyeth stuff was undefeated. Like, it, it was so incredible to see that stuff live. The Frazetta stuff, um, some John Berkey, um, like, that was incredible."
+    },
+    {
+      "name": "C",
+      "timestamp": "5:27",
+      "text": "And then he's got Banksy."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:28",
+      "text": "Oh yeah, he makes— and there's like a new Banksy that was put in like for the opening, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "5:33",
+      "text": "2 new Banksys."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:35",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:36",
+      "text": "Yeah, apparently Banksy was there, um, like 2 nights before painting the blood on the lion's mouths."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:43",
+      "text": "So right, is Dave Mandel Banksy?"
+    },
+    {
+      "name": "B",
+      "timestamp": "5:45",
+      "text": "Great question. It's a great question. Up on the scaffolding doing—"
+    },
+    {
+      "name": "D",
+      "timestamp": "5:50",
+      "text": "putting the work in."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:53",
+      "text": "They also did the one with the Trump with the flag on his face walking off the ledge. Okay, it's just from January. Like, that's brand new."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:00",
+      "text": "And he has it at the museum."
+    },
+    {
+      "name": "F",
+      "timestamp": "6:02",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "I",
+      "timestamp": "6:03",
+      "text": "Easy."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:04",
+      "text": "Thanks for checking out my IG page where I posted everything."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:07",
+      "text": "I don't look at Instagram anymore. I don't— you're not the only person in my life that This is an issue for. I just don't. I never open it. I never open Instagram."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:15",
+      "text": "Yeah, that's fair. I hardly. I like it's really weird because I stopped posting on Instagram, and then I'm like having my my pod boy weekend in in LA, and I was like I guess this is like literally why weekend flick it up for the gram."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:28",
+      "text": "Yeah, my problem with Instagram is less like it's not like ideological. It's it's more that like my algorithm is so cooked for unclear reasons that everything I get is. Just absolutely insane. Like, the stuff I get on there is literally people channeling ancient aliens and like, you know, telling them about like, you know, telling you, you know, they're gonna predict your future or whatever. And then like men entrepreneur retreats where like everyone is shirtless and eating like raw meat and like working out and working on business plans."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:57",
+      "text": "And I'm just like, no thank you."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:58",
+      "text": "None of this. None of this do I want."
+    },
+    {
+      "name": "E",
+      "timestamp": "7:00",
+      "text": "I—"
+    },
+    {
+      "name": "D",
+      "timestamp": "7:00",
+      "text": "none of this do I want. Um, so yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:02",
+      "text": "No, that is not— that's not gonna work. I, I noticed as I was just sort of like checking a little bit, because I, I check Instagram very infrequently now."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:10",
+      "text": "The ad load is almost one to one on stories."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:13",
+      "text": "Yeah, it's a lot of ads. You get a lot of ads."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:15",
+      "text": "It's insane."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:16",
+      "text": "You get a lot of ads."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:17",
+      "text": "I could not believe it. Yeah. I will shout out, I was able to finally meet face to face Peter Chang, who is the executive producer of Shut Up and Eat, who Rosie connected me with originally to produce and edit his podcast. And he put together a dinner for him and me and Rosie and Concepcion."
+    },
+    {
+      "name": "F",
+      "timestamp": "7:39",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:40",
+      "text": "You're really out there."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:41",
+      "text": "X-Ray Vision live, dude. It was, it was a crazy, like, just like being in the podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:47",
+      "text": "It was amazing."
+    },
+    {
+      "name": "I",
+      "timestamp": "7:48",
+      "text": "Yep."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:48",
+      "text": "I, I mean, I definitely noted that you went to LA and were hanging around with a lot of other podcasters and not me. Like, I definitely noted that you were out there just kind of in an open podcast marriage with a lot of other hosts, not with Jason One. With Jason one, no less."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:09",
+      "text": "With Jason one, yeah. How did you feel?"
+    },
+    {
+      "name": "D",
+      "timestamp": "8:10",
+      "text": "Were you okay? I I never really wanted a hot wife podcast co-host, and so this is not really the this is not really the dynamic that I thought we had."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:23",
+      "text": "But I got the vitamin O. I've been working out, like looking good."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:26",
+      "text": "You're ready to go out. You're ready to go out and strut. I noticed that April wasn't with you either. You really were just having like wild boy weekend in LA with the pod the pod guys. Like no, she didn't want to. She was she's like, oh U.S. Open."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:40",
+      "text": "She was hanging out with Carlito Alcaraz, so like she was having a good time with with her tennis boyfriend."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:45",
+      "text": "A lot of shirts off everywhere. A lot of shirts off in New York. That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:50",
+      "text": "But a great time. So Peter and Rosie are both coming up for the meetup, which is going to be amazing. And just like I we we we thought of you often, Jason, and spoke of you often."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:00",
+      "text": "Well, that's nice. I'm glad to be thought of."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:02",
+      "text": "A really, really great time. So, uh, that's it. That's the report. Um, I know you're going down to LA and I think you're taking the kids down."
+    },
+    {
+      "name": "F",
+      "timestamp": "9:10",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:10",
+      "text": "Do you think the kids will like this place? What do you think?"
+    },
+    {
+      "name": "C",
+      "timestamp": "9:13",
+      "text": "Um, I think so. I did the entire museum. I did like 85% of the museum in 3 and a half hours."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:20",
+      "text": "And so it, it depends on what the kids will tolerate. Um, there's definitely like, there's a comic section, there's an anime, there's a manga section."
+    },
+    {
+      "name": "H",
+      "timestamp": "9:29",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:29",
+      "text": "Um, and then the Star Wars stuff, I think they would enjoy, but definitely there's a lot of stuff that is just straight up, you know, fine art that is very good. And so it depends on how they would hang in for that."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:41",
+      "text": "Maybe be strategic and, and, and, and do a quick strike."
+    },
+    {
+      "name": "H",
+      "timestamp": "9:44",
+      "text": "All right."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:45",
+      "text": "We'll see how it goes."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:47",
+      "text": "Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:47",
+      "text": "Maybe it's like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "9:48",
+      "text": "Kids may be uninvited."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:49",
+      "text": "Well, I mean, I don't know. Maybe I need a different plan for my birthday just generally, as if like, it's kind of like, you know, taking them to like a Fine art museum. Maybe it's just not their vibe."
+    },
+    {
+      "name": "H",
+      "timestamp": "9:59",
+      "text": "I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:00",
+      "text": "Whatever. We'll give we can."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:01",
+      "text": "This is number fifty, by the way."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:03",
+      "text": "This is the big five oh. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:05",
+      "text": "This is a pretty big one."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:07",
+      "text": "It is a big one. It's surprisingly big. I feel very like kind of whatever about it though."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:12",
+      "text": "Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:12",
+      "text": "It's gonna be it's gonna be good."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:16",
+      "text": "But things are going pretty well right now."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:18",
+      "text": "Things are going good. I mean, you know, aside from the macro."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:22",
+      "text": "Aside for the aside for the world. But yeah, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:25",
+      "text": "Like, as I said, like, the end of— the end of all things, truly bad. Um, bad for democracy. Um, bad for potentially just humanity, depending on how we— how things break with this whole AI situation. But yeah, amazing movie content calendar coming out. Just really a lot of amazing movies. Um, it, it is coming out this fall."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:48",
+      "text": "It is absolutely crazy. Uh, probably the peak. We'll be talking about— we'll be talking about 2026 for a long time, for sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:55",
+      "text": "Um, and we'll get to that in just Just one second."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:57",
+      "text": "Before we do, Jason, we were supposed to do Iron Giant today."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:02",
+      "text": "We were supposed to again do Iron Giant."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:04",
+      "text": "Thwarted again."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:05",
+      "text": "You ran your car into some more children, and we cannot do Iron Giant again."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:10",
+      "text": "Uh, our guests were unavailable, unfortunately, uh, doing work again, doing the work."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:17",
+      "text": "Some people have real jobs."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:19",
+      "text": "Some people have real jobs, apparently."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:21",
+      "text": "So, uh, so we have postponed Iron Giant again."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:24",
+      "text": "We'll get to it. Don't worry."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:26",
+      "text": "You made the call."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:27",
+      "text": "I thought there was a reason."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:28",
+      "text": "a really good one. And I don't know how you got started on this, but you made the call that we would do 2023's Dungeons and Dragons: Honor Among Thieves."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:36",
+      "text": "I am so surprised that you, um, didn't both— because you agreed immediately, and I was like, oh, he agreed too fast. He's gonna like— we're gonna— we're gonna bail on this for sure. He's gonna come up with something else. The way this came up was there was a tweet, there was rumors that the movie was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "11:54",
+      "text": "Oh yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "11:55",
+      "text": "That there's gonna be a sequel, or that they— there's like the—"
+    },
+    {
+      "name": "H",
+      "timestamp": "11:58",
+      "text": "the—"
+    },
+    {
+      "name": "D",
+      "timestamp": "11:58",
+      "text": "that they would like to make a sequel."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:00",
+      "text": "And they have a script."
+    },
+    {
+      "name": "D",
+      "timestamp": "12:02",
+      "text": "Apparently they have a script and they need someone to— they basically just need someone to finance it is the idea. And I was like, I was like, man, this, this movie's great. Like, people should see this movie. I tweeted about it and the tweet went like crazy viral for me. Like, no, no, I'm shadowbanned. And so like the only things that go viral for me are like, you know, Kelly Clarkson tweets or like this thing. And I was like, okay, interesting. So maybe there's like some pent-up demand for this like Dungeons Dragons movie. And so then I was like, oh, it's been a while."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:30",
+      "text": "I only watched it the once."
+    },
+    {
+      "name": "E",
+      "timestamp": "12:30",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "12:32",
+      "text": "watch it again. And I watched— I just put it on while I was like doing other stuff in my office. I was like, this is a great movie. And I was like, I'm gonna watch it with Griffin because we had a boys' night, uh, last week, uh, girls were out of town. And he liked it. I was like, this is a great movie, we should just watch it for the pod. And so now we are, and I'm so happy about it. Um, so it's going great."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:49",
+      "text": "Like, while that was happening, while you were having that great moment over there, um, Sam came to me from school on like the first or second day and was like, We're gonna play D&D and Théoden is gonna— is the DM."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:04",
+      "text": "Oh, wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:04",
+      "text": "And we're gonna do D&D at school. And I was like, well, I'm gonna run D&D for you guys at home. And he's like, bet, sounds good. And then I gave Sam the PHB to take to school last week. So we're definitely like in the thick right now."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:18",
+      "text": "You're in the thick of it."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:19",
+      "text": "And then you recommended it. And then I was like, let's frigging go. Quick question. So if some of your tweets are going viral, What does that mean for the shadow banning? Is it possible that you're not shadow banned and some of your tweets are just not that good?"
+    },
+    {
+      "name": "D",
+      "timestamp": "13:33",
+      "text": "I, I, that, first of all, that's impossible. My tweets are fire. Um, they always have been. 21 years of just amazing tweets. Um, never question. Um, I like, I have wondered that. So first of all, 2 things."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:46",
+      "text": "Selective shadow ban."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:48",
+      "text": "They, they have this new feature called Under the Hood where they're supposed to reveal like how the algorithm sees you. And like, it's, it will, it basically is, is promised to reveal whether not you're shadowbanned. Now, this feature is still in limited release, and I am not in the A/B test, so I do not have access to it. So there is a simple answer, and I have my suspicions. I have my suspi— no, I do not pay for subscription. I have my suspicions that they do not, um, they do— they're not going to release this feature to people who are shadowbanned because that would give up the game. So that, that's one of my suspicions."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:21",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:21",
+      "text": "Thing 2, enjoy the waitlist forever."
+    },
+    {
+      "name": "D",
+      "timestamp": "14:25",
+      "text": "I, I just do think what it is is that like there are some tweets that like are some topic, 'cause all the stuff that gets banned, all the stuff that like literally no people see is like stuff about tech, AI, and Elon."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:37",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "14:38",
+      "text": "Like that is the stuff that like no one sees. And so there's 2 ways you look at it. One is there's like, oh, those are all bad takes. Like no one wants to see it. Or 2 is like, I'm, I am, I am blocked or banned by like so many people in the target audience that like they've, the algorithm has interpreted that as like negative signal For any time I tweet about those things. I don't know what the reality is, but my tweets are bangers. Always have been."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:05",
+      "text": "No further questions at this time."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:06",
+      "text": "The algorithm. The algorithm is definitely at fault."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:09",
+      "text": "Okay, good. I'm glad we have that on the record."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:12",
+      "text": "Yeah. So I sometimes send— I'm—"
+    },
+    {
+      "name": "E",
+      "timestamp": "15:15",
+      "text": "yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:15",
+      "text": "Anyway, I'm looking forward to when they— I'm looking forward to when they— when I will— I will get justice on this someday. Some way it will be shown. That I was wronged."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:27",
+      "text": "Okay, all right. I believe that's when we take back Twitter, break it out, and and make it and make it happen. Okay, good."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:35",
+      "text": "So we are in full agreement."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:37",
+      "text": "We are doing D and D. We are excited about that, and that is happening in just a few minutes."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:42",
+      "text": "But before we do, Jason, next week on the pod, we have the return of Lucasfilm homeboys and girls Lorelei David and Nico Anastasio."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:56",
+      "text": "Oh great! Great. What again?"
+    },
+    {
+      "name": "C",
+      "timestamp": "15:58",
+      "text": "Finally, finally coming back. Guess what, buddy?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:00",
+      "text": "Summer is turning to fall, and you know what that means."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:04",
+      "text": "What is that?"
+    },
+    {
+      "name": "C",
+      "timestamp": "16:08",
+      "text": "It is time for at last Lost Boys."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:13",
+      "text": "Oh great, I, I really didn't know what this was. That's great though, that's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:17",
+      "text": "Saxophone guy, you kidding me?"
+    },
+    {
+      "name": "D",
+      "timestamp": "16:18",
+      "text": "Saxophone solo. Yes, I, I, I all— I remember the saxophone solo but not the music that was being played by the saxophone."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:25",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:27",
+      "text": "Gotta dig it. Gotta dig it. So that is happening, uh, in, uh, in—"
+    },
+    {
+      "name": "D",
+      "timestamp": "16:31",
+      "text": "That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:31",
+      "text": "Just one week."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:32",
+      "text": "Crystal will watch that with me, I bet."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:34",
+      "text": "Yeah, I can't wait."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:36",
+      "text": "All right, let's see."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:37",
+      "text": "Hatch News?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:38",
+      "text": "Can we do some Hatch News?"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:39",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "F",
+      "timestamp": "16:41",
+      "text": "Hatch News from beyond!"
+    },
+    {
+      "name": "D",
+      "timestamp": "16:44",
+      "text": "A robust segment of Hatch News, I predict."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:47",
+      "text": "A robust segment."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:48",
+      "text": "Is about to unfurl."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:49",
+      "text": "Exactly. You talked about the end times and the movie calendar."
+    },
+    {
+      "name": "E",
+      "timestamp": "16:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:54",
+      "text": "We had 2 Bangers dropping last night and today, and just like the memes are immaculate."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:59",
+      "text": "The memes are great. The vibes are great."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:02",
+      "text": "You can see everything."
+    },
+    {
+      "name": "I",
+      "timestamp": "17:04",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:04",
+      "text": "Nathan Fielder's Elizabeth Holmes documentary."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:08",
+      "text": "I don't have anything to deceive you on. Of course, I'm not deceiving you. I'm engaging with you as a human being."
+    },
+    {
+      "name": "I",
+      "timestamp": "17:15",
+      "text": "Hmm?"
+    },
+    {
+      "name": "A",
+      "timestamp": "17:17",
+      "text": "Why would I deceive you? There's no. There's no reason for me to do that. Okay."
+    },
+    {
+      "name": "I",
+      "timestamp": "17:31",
+      "text": "All right."
+    },
+    {
+      "name": "F",
+      "timestamp": "17:33",
+      "text": "Okay, good shot."
+    },
+    {
+      "name": "D",
+      "timestamp": "17:34",
+      "text": "Like, it's hard to remember— I, I mean, I don't think you could. I think there's no equivalent for any documentary trailer that's ever dropped that has gotten this much, like, sort of memification. And I just don't think I just don't think that exists. You know, project done secret. Basically, no one knew about it."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:55",
+      "text": "Film rumors or something?"
+    },
+    {
+      "name": "D",
+      "timestamp": "17:57",
+      "text": "There was like this one angry guy knew about it, I guess."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:00",
+      "text": "Oh, fuck that guy!"
+    },
+    {
+      "name": "D",
+      "timestamp": "18:03",
+      "text": "Rumored, but like you know, people like lined up for secret a secret screening. One of my favorite details of that is a people in Telluride. The people who went to the secret screening once they realized it was a fielder documentary were worried that like their reactions in the theater were going to be. part of the documentary that this was like being filmed too."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:24",
+      "text": "Um, and it's like a Francis Ford Coppola type, uh, megalopolis deal."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:27",
+      "text": "Fielder is not my particular flavor. Like, he's a little too— it's a little too awkward, a little too intense for me. Like, I don't love it. I've seen a fair amount of his stuff, but I'm not like, oh my God, this is my guy. But I think this— there's, there's really just never been a better match for film— for filmmaker and subject. And I think it's gonna be— I think it's gonna be absolutely unhinged. Deranged. So I'm, I'm pretty, I'm pretty excited about this one. Uh, I think this one seems—"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:57",
+      "text": "It seems really crazy. So I mean, I read Bad Blood, right? Uh, Caro's, um, you know, basically breaking down the entire story, and it's completely insane. The fleecing that was, that was perpetrated, um, is a complete scam."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:12",
+      "text": "Um, and so I like— I don't know, it'll be interesting to watch the car crash and, and just see how it goes. But just the— his face and her face and Like, it's gonna be wild."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:25",
+      "text": "It's gonna be wild. Um, it's gonna be great. I'm excited for it. I think it's gonna be— I don't really know what to expect. It's 3 hours long. Um, it's gonna be weird. Uh, I don't think it will be— I assume it won't be like straightforward. It's not gonna just be like a straightforward documentary of her time before she goes to prison. There'll be some weird— there's like— it's already been like— it's one of those movies that people are talking about, like the drama or whatever, is like, know as little as possible before going into this. Or I'm like, all right."
+    },
+    {
+      "name": "H",
+      "timestamp": "19:52",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:56",
+      "text": "And so I just think it's gonna be— I think it'll be deranged. I'm ready for it."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:00",
+      "text": "Cannot wait. Cannot wait."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:02",
+      "text": "Well, speaking of deranged, I struggle somewhat. We have a couple of, you know, like our beloved filmmakers who just like won't stop making movies no matter what."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:13",
+      "text": "Ridley, we talked about last week."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:15",
+      "text": "Ridley, of course. But like Luca, you know, has this artificial—"
+    },
+    {
+      "name": "B",
+      "timestamp": "20:19",
+      "text": "like he's making like one movie a year."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:23",
+      "text": "It's like, dude, just calm down a little bit."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:26",
+      "text": "But we have Artificial, written and directed by Luca, starring Andrew Garfield as Sam Altman."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:32",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:33",
+      "text": "Amazon paid $50 million to make this movie and then spiked it when they did a $50 billion deal with OpenAI. So Neon had to pick it up. So your thoughts on Artificial?"
+    },
+    {
+      "name": "D",
+      "timestamp": "20:46",
+      "text": "This trailer looks so fucking hot. Like, I mean, like, look, like, I think this I do not expect this movie to be a faithful retelling of historical events, which is like which is like sort of you know the same thing with like the social network at the time. It's like there's a lot of creative liberties taken, and people get you know including like when we had Alex Stamos on the pod, like people will bring this up as like well it's just not what happened. I'm like that's not my concern. That is not my concern. My concern is whether or not like they they. capture something true about the moment. And this moment— this movie seems interested in a hallucinatory exploration of, like, you know, the AI era. Like, it's— it's, you know, people are basic. It looks like it was giving Midsommar vibes to me. Like, it was like people— it was like giving people crying, like, on, like, you know, in just like an ecstatic revelry of, like, mushroom tea as they're inventing large language models."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:47",
+      "text": "Right, right."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:48",
+      "text": "Um, and, like, you know, it's— it obviously You know, the whole trailer is like Sam Altman going into his like secret bunker with a bunch of weapons and stuff, which like, you know, I don't know how real that is."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:57",
+      "text": "How about the blue light in there with the?"
+    },
+    {
+      "name": "D",
+      "timestamp": "21:59",
+      "text": "It just looks. It looks like it's gonna be. It looks like it's gonna be incredible. I I just really think it's gonna be something great. Um, and yeah, I don't know. Uh, I'm gonna see that one for sure. I will be seated."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:10",
+      "text": "Um, Garfield, one of our greats as well."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:13",
+      "text": "Yeah, like people pointed out, like he really has got like Sam Altman's walk. Like he's somehow like really good walk acting in the movie, which I think is funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:25",
+      "text": "Underappreciated part of the artistic expression of an actor."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:27",
+      "text": "He can walk."
+    },
+    {
+      "name": "I",
+      "timestamp": "22:29",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:29",
+      "text": "So I don't know. I think it's going to be great. I think it's going to be great. It might be crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:33",
+      "text": "Yes. I think it's going to be quite fun."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:38",
+      "text": "Yeah. And not accurate, I think, as you were saying."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:41",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:43",
+      "text": "So as we move into the fall, Jason, 2026 summer, biggest box office Movies are back, baby."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:51",
+      "text": "We did it."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:52",
+      "text": "$4.76 billion, the biggest all-time record. Um, so pretty huge."
+    },
+    {
+      "name": "F",
+      "timestamp": "22:58",
+      "text": "The only thing I—"
+    },
+    {
+      "name": "D",
+      "timestamp": "23:00",
+      "text": "the thing I think about first and foremost is that Dune Part 3 is gonna fucking crush. Like, Dune Part 3 is gonna make a billion dollars. It's gonna be Denis's most successful movie of all time. Um, it's gonna be a hugely successful, giant, weird movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:12",
+      "text": "A billy?"
+    },
+    {
+      "name": "D",
+      "timestamp": "23:13",
+      "text": "It's— yeah, I, I think it's gonna— I think this one's just gonna work. Um, wow. And, and I'm very excited for what that means for us. Um, I think that's great. It's our time."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:23",
+      "text": "We did it down here."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:26",
+      "text": "Holy shit."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:27",
+      "text": "Yeah, that'll be, that'll be incredible. I haven't thought about it. So, so part 2 did $700 million, part 1 did $400 million."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:34",
+      "text": "Yeah, uh, this one's gonna make over a billion. I don't even think it's gonna be— I don't— I think it will be. I think we'll know on Thursday night that this movie is gonna make a billion dollars."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:41",
+      "text": "I'm gonna say $950 million."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:45",
+      "text": "I think the guidance— I think the guidance will be more. I think it's gonna guide to more than a billion dollars. I think it's just gonna be clear that this movie is gonna crush."
+    },
+    {
+      "name": "H",
+      "timestamp": "23:51",
+      "text": "Goddamn."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:52",
+      "text": "Um, just like, partly this is like, you know, inflation in the premium formats and the stranglehold that it owns over IMAX, but it's just going to be another movie like, you know, like, like, like Spider-Man and like all, you know, and Odyssey, where it's like, no, no, this is a fucking great large screen cinematic experience and you should go fucking see it on as big a screen as possible. And, and people will, and it's going to be weird and like there'll be all kinds of like, this is a fucking weird-ass movie, but like It'll be, it'll be right, and we will be vindicated for having known from the beginning this was going to be— and never having any doubts whatsoever, believing in the process."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:27",
+      "text": "We never had any doubts."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:30",
+      "text": "No doubt."
+    },
+    {
+      "name": "E",
+      "timestamp": "24:31",
+      "text": "Definitely."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:31",
+      "text": "We never were anxious. Go listen, check the tapes. We knew that this is, this is what we were due."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:36",
+      "text": "Slam dunk, quote unquote."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:37",
+      "text": "Slam dunk. Easiest, easiest money we've ever made."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:41",
+      "text": "That's right. Oh boy. Oh boy. Well, I, I hope you're, I hope you're right. I would love to."
+    },
+    {
+      "name": "H",
+      "timestamp": "24:46",
+      "text": "I'm right."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:46",
+      "text": "I would love to go over there."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:46",
+      "text": "I'm feeling it."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:48",
+      "text": "I did go look."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:50",
+      "text": "I went for— I was talking to a friend at dinner last night who has not seen The Odyssey yet. And so I went and looked for 70mm IMAX tickets thinking like, obviously, you know, 10 AM at this point should be fine. Sold out except for the front row. Like they're still doing business every single screening every day."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:09",
+      "text": "It's crazy. I haven't even tried to— I even tried to get back in. Yeah, no, I guess I should have."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:15",
+      "text": "We have to share."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:17",
+      "text": "We have to share with, with others. Um, speaking of being stressed about trying to get into 70mm IMAX, announced today both Star Wars and Starfighter are coming out in 70mm IMAX."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:27",
+      "text": "I saw that. Big year. Big year for Star Wars."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:31",
+      "text": "Dude, stressful."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:32",
+      "text": "That's another—"
+    },
+    {
+      "name": "D",
+      "timestamp": "25:33",
+      "text": "because we're gonna have to— we're gonna have to line up the Star Wars— the Star Wars movies are the Star Wars '77 I in IMAX 70, that's gonna be a hard ticket to get. That's gonna really be a situation where people are sending their fucking inside agents out to like flood the site and like we're not gonna get any. That'll be a damn it. That'll be a difficult ticket. That'll be difficult. We'll we'll need a strategy for that."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:56",
+      "text": "Begun the 70 millimeter wars have."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:58",
+      "text": "Yeah, that'll be a tough one. I don't know. Now I'm I don't know. You'll have to solve it. You'll do it. You'll just reload this. You'll reload the site a bunch."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:06",
+      "text": "Perfect. I will let you know when we have a spot."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:08",
+      "text": "Hey, let the record— let the record show that I invited you to something finally and you were not free."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:12",
+      "text": "Oh, yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:13",
+      "text": "So, you know, it's a two-way street."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:17",
+      "text": "It is my 10-year wedding anniversary, and that would be a violation of our don't get divorced podcasting rules."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:24",
+      "text": "We consider that an excuse."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:25",
+      "text": "Whatever it takes."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:28",
+      "text": "All right. Are you ready to get into this movie?"
+    },
+    {
+      "name": "D",
+      "timestamp": "26:35",
+      "text": "I am. I'm very excited."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:37",
+      "text": "All right, here we go. Dungeons& Dragons: Honor Among Thieves is the lesson that the refusal to accept failure is the only path that leads to redemption. Edgin Darvis was once a Harper, a sworn protector of the Forgotten Realms, until a Red Wizard's blade took his wife and his faith with her. Now he's a lute-strumming thief rotting in a frozen prison beside his barbarian best friend, Holga, locked up for a heist gone wrong, a raid on a vault holding the one relic that could bring his wife back. When the two break out and go to reclaim Edgin's daughter, Kira, they find their silver-tongued former rogue partner, Forge, has conned his way into the lordship of Neverwinter with Kira on his arm, a Red Wizard whispering at his ear, and the tablet sealed in his vault. So Edgin assembles a ragtag crew of adventurers— a sorcerer who can't commit, a shape-shifting druid who hates humans, and a paladin so noble it's exhausting— to brave dungeons, outwit dragons, interrogate corpses, and crash the High Sun Games themselves."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:43",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:44",
+      "text": "When they realize that they must give up their clean getaway with all the treasure in order to save the innocents of Neverwinter, they Will prove once and for all that there truly is honor among thieves."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:02",
+      "text": "Among thieves. It's great."
+    },
+    {
+      "name": "G",
+      "timestamp": "28:05",
+      "text": "Well done."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:06",
+      "text": "Well done."
+    },
+    {
+      "name": "G",
+      "timestamp": "28:06",
+      "text": "Really good."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:07",
+      "text": "Really good."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:08",
+      "text": "I saw this movie at the world premiere at South by Southwest in 2023."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:15",
+      "text": "Oh, I remember that. You could go listen to the, uh, you can listen to the podcast."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:19",
+      "text": "Yeah, I think maybe Katcher was on for that one."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:21",
+      "text": "I think Katcher was on."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:22",
+      "text": "And so, yeah, so, so I went to that one. We had, um, like the whole cast and crew were there, and it was just— it was amazing. It was really fun, and it felt like a big deal."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:34",
+      "text": "Um, it felt like a big premiere happening on a Friday night because the year before, uh, they had opened with Everything Everywhere All at Once, which was amazing to see there, but it felt like a quirky little, you know, indie movie. This felt like a really big thing, and it was just electric in that theater. People had so much fun."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:51",
+      "text": "You liked it. I remember saying you really liked it."
+    },
+    {
+      "name": "I",
+      "timestamp": "28:54",
+      "text": "I did."
+    },
+    {
+      "name": "D",
+      "timestamp": "28:54",
+      "text": "We played a sample from the episode. You were— you knew from day one that you— that this was a hit."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:59",
+      "text": "Yeah, I was—"
+    },
+    {
+      "name": "D",
+      "timestamp": "29:00",
+      "text": "Again, our vision has been— our vision has never been clouded. We've only seen with perfect sight from the beginning."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:07",
+      "text": "There is a way through."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:08",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:09",
+      "text": "So, yeah. So we got it. We definitely got it on lock. And it was—"
+    },
+    {
+      "name": "C",
+      "timestamp": "29:13",
+      "text": "this is the first time I've revisited it as well."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:15",
+      "text": "And it was really fun to go back and check it out for the pod."
+    },
+    {
+      "name": "H",
+      "timestamp": "29:17",
+      "text": "That's great."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:19",
+      "text": "That's great. Um, I saw this movie like on Netflix or whatever. Like, I, I'd heard good things, probably from you, I guess. Um, and then I was like, oh yeah, I should watch this eventually. I watched it once on Netflix and really enjoyed it. And then yeah, revisited because it was getting the talk around town. Um, I'm so glad that I did because it's excellent."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:40",
+      "text": "Yep, and we'll get into the specifics of that in just a second. But some quick behind the scenes before we do."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:46",
+      "text": "So this is the Game Night guys. So this is Jonathan Goldstein. Yeah, you got to see it. And John Francis Daley."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:54",
+      "text": "So they wrote Horrible Bosses, Spider-Man: Homecoming, and then they also directed the Vacation remake, Game Night, and then this. And then I guess they have a new Netflix movie that just dropped."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:06",
+      "text": "What is that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "30:07",
+      "text": "That nobody— that nobody knows about."
+    },
+    {
+      "name": "G",
+      "timestamp": "30:09",
+      "text": "Nobody likes? No one likes?"
+    },
+    {
+      "name": "B",
+      "timestamp": "30:10",
+      "text": "I don't know. I haven't— like, I saw a trailer and saw that it was on Netflix, and so I immediately ignored it."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:15",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:16",
+      "text": "So, I'm gonna need to check that out and see what's going on."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:19",
+      "text": "But originally, you know, those guys go all the way back."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:24",
+      "text": "Jonathan Daley was on Freaks and Geeks. He was Sam Weir."
+    },
+    {
+      "name": "F",
+      "timestamp": "30:29",
+      "text": "Oh, right."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:29",
+      "text": "So, he's been playing D&D all the way back to whatever that was, 2000-something. And so, there was an earlier version of the movie that was Chris McKay and Michael Giglio. And they came in and they kept all of that structural bone, but then they just rewrote it for their comedy. And you can definitely feel like they're— like, the script is, like, 100% them. I kept thinking, in Game Night, you have Jason Bateman is in the role that Chris Pine is doing. And you can just feel that kind of, like, through line carrying in, in a way, though, that really worked."
+    },
+    {
+      "name": "D",
+      "timestamp": "31:07",
+      "text": "I love Bateman too. He would be great in a fantasy setting. He should get to do some— he hasn't gotten to do genre since Teen Wolf Too, I guess. That killed it. He should get to come back."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:20",
+      "text": "We've got to go back."
+    },
+    {
+      "name": "C",
+      "timestamp": "31:23",
+      "text": "They did have—"
+    },
+    {
+      "name": "B",
+      "timestamp": "31:24",
+      "text": "speaking of curses, they did have To Break the Curse of 2000's Dungeons and Dragons. This is the one with Jeremy Irons that I recently wrote. Give me the rod!"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:32",
+      "text": "Don't hurt her! Then give me the rod!"
+    },
+    {
+      "name": "D",
+      "timestamp": "31:34",
+      "text": "I've still never seen that one."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:36",
+      "text": "It's awful. It's absolutely, uh, absolutely horrible. Like, I, I can't— I've like actively purged it from my brain, uh, to not try and remember it. Um, so this was a big bet for them to do. You know, Paramount, you know, got behind them to do it. As part of getting the cast ready, they actually ran a D&D session. They had Wizards Zoom, uh, you know, a DM, and they got the, the party together and played as a way to kind of help them get a sense of it while they were in Northern Ireland."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:05",
+      "text": "And And the special effects—"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:07",
+      "text": "Todd worked on this."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:08",
+      "text": "Uh, this was ILM."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:09",
+      "text": "He did. Viziri worked on this."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:11",
+      "text": "Oh wow."
+    },
+    {
+      "name": "F",
+      "timestamp": "32:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:12",
+      "text": "And that's why the, the, the CGI actually looks really good."
+    },
+    {
+      "name": "G",
+      "timestamp": "32:15",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:15",
+      "text": "Uh, I definitely dug that. And there's a lot of practical effects, uh, by Legacy Effects, uh, for practical monster work. That was cool. Good budget."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:25",
+      "text": "$150 million worldwide."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:27",
+      "text": "That's a lot. It's almost a Dune. It's, you know, $10 million less."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:31",
+      "text": "I didn't know they went that— I didn't know they went that big on it. I didn't know it was $150 million."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:37",
+      "text": "A lot. Well, I mean, He-Man was— I think He-Man was $250 million maybe."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:42",
+      "text": "Or $225 million."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:44",
+      "text": "That is the problem. That is the problem with genre is that if you're gonna do it well, it's just gonna be like super expensive because of all the effects stuff. And like, uh, and you just can't miss. You can't miss at all. And they, and they missed."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:56",
+      "text": "I mean, I think it's also true that it was 2 hours and 14 minutes long."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:01",
+      "text": "So it's, I mean, it's a long movie."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:03",
+      "text": "It doesn't feel long to me. I mean, I'm sure they could cut some stuff. It doesn't really feel like a 2-hour and 14- 13-minute movie. I was surprised. I didn't know that until you just said it. I didn't look. Um, Griffin did get a little like antsy during this, whereas like maybe, um, he doesn't in other things. Um, but I don't know."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:24",
+      "text": "It's a bit like, uh, it feels a bit like, um, Casino Royale."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:29",
+      "text": "Like there's a lot of finales. Like they— it's just like there's like multiple big kind of showstopper battles and stuff that are happening. Um, true."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:37",
+      "text": "But it was expensive, $150 million. Ultimately it made $208 million at the box office. It's not enough. Now, obviously it's been successful on Paramount Plus."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:48",
+      "text": "Um, so I think it, I think it's gotten a lot of, uh, a lot of stuff. And as you mentioned, you know, it's sort of like floating around now. Could they, could they make something happen?"
+    },
+    {
+      "name": "D",
+      "timestamp": "33:55",
+      "text": "The, the thing that— well, because I, like I, as mentioned, um, like I, I tweeted about it, and the thing that like people said in response to me saying like, oh, this movie just didn't find its audience for some reason And it just feels like it was a, like, some kind of mistake in the space-time continuum. I think there were 2 things. Like, one was it was just in that COVID window of just things like, of it just being challenging. And then 2, it was, uh, like a week before Super Mario."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:21",
+      "text": "Um, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "34:22",
+      "text": "And like that, and like that, it just got crushed. It just didn't have a good window in the box office to like try to get— because this is a movie that needs some word of mouth because it's not a franchise that a mainstream audience, the audience size that you'll need for like to make $300, $500 million, like it's just not that big. And so they, they got crushed by the, the plumbers."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:45",
+      "text": "Um, I think that's, I think that's right. And it's also, it's not like, it's like Super Mario is 4 quadrant, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "34:52",
+      "text": "Like they can go all the way down as young as they need to go. D&D is not like a young kid movie."
+    },
+    {
+      "name": "E",
+      "timestamp": "34:58",
+      "text": "No."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:58",
+      "text": "Um, it's definitely, it's, you know, PG-13 for real. Um, and so, but man, fuck that Super Mario Brothers movie."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:05",
+      "text": "I mean, it's such a worse movie than, than this movie. Like, this is clearly—"
+    },
+    {
+      "name": "B",
+      "timestamp": "35:09",
+      "text": "the first one was better."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:11",
+      "text": "It was better. It's just like, it's just not, it's not good. Like, it's not— I've seen it 200 times because my kids love it. It's not good."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:20",
+      "text": "Fair enough. Yeah, fair, fair enough. Um, also at the box office in spring of 2023, Super Mario Brothers, as we said, John Wick Chapter 4, Scream 6, who cares, and Creed Creed 3. Why, why are we refusing to cover Creed? Yeah, like, what?"
+    },
+    {
+      "name": "D",
+      "timestamp": "35:39",
+      "text": "We should. I, I've actually only seen Creed 1, I think. Um, so I'd love to cover—"
+    },
+    {
+      "name": "B",
+      "timestamp": "35:44",
+      "text": "I've never seen Creed."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:45",
+      "text": "Oh, I'd love to see some Creeds. Um, I'd love to see more."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:48",
+      "text": "Probably get some Coogler on this podcast."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:51",
+      "text": "Yeah, I feel like we're blowing it. We're— that'd be great."
+    },
+    {
+      "name": "H",
+      "timestamp": "35:54",
+      "text": "Blowing it."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:56",
+      "text": "All right, dude, where do you want to start on this movie?"
+    },
+    {
+      "name": "D",
+      "timestamp": "36:00",
+      "text": "I mean, I think it's like, like the thing— so I, as you know, loyal listeners will know, I am not a huge tabletop RPG person. I have played Dungeons and Dragons for real, I think, 3 times in my life."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:15",
+      "text": "You described a once-a-year game or something."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:18",
+      "text": "There's now like a once-a-year— I think that one might be done because the parent who runs it is no longer a parent at my kid's school. Uh, but like, yeah, we do that. We do that once, once a year. Uh, twice. Um, and that's pretty much it. So, but as you know, you tried to stump me on what does THAC0 stand for. Like, I know, I fucking know D&D. Like, I, I know, I know some fucking D&D because it's been adapted into real video games like a billion times. I've played D&D, like, you know, Baldur's Gate or whatever and all the fun shit, right? You know, like going back years. And so—"
+    },
+    {
+      "name": "E",
+      "timestamp": "36:50",
+      "text": "Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:50",
+      "text": "The thing, my first point is that this is like a faithful Dungeons and Dragons adaptation that like has a lot of Easter eggs for people who know Dungeons and Dragons. both in setting and like objects and like mechanics."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:04",
+      "text": "Let's get into it."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:05",
+      "text": "It's not fussy about it. It's like you can take or leave those things. It's not self-serious about those things. It's lighthearted about those things. And I like— I appreciate that about the movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:17",
+      "text": "You don't need to know that Wild Shape is what the druid is using in order to do all of those changes. But that CGI segment of her getting away, turning into a mouse, turning from a fly— It's exciting."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:31",
+      "text": "It's really, it's really, really dynamic. And, and it shows part of what is so much fun. Like, Lord of the Rings is the ultimate fantasy world that's ever been created."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:43",
+      "text": "But it's one that has a fairly dry magic system."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:46",
+      "text": "Yeah, there's not a lot of magic."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:49",
+      "text": "Well, there's big magic."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:50",
+      "text": "There's one spell. There's one spell. It ends the world."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:53",
+      "text": "Right, exactly. So this is the idea of, in, in D&D, that is so much fun, is there's so much creativity, and there are so many ways that you can do different things. And so showing Firebolt and, you know, Fireball and Evard's Black Tentacles and Otoluke's Resilient Sphere, the Helmet of Disjunction, Reverse Gravity, Counterspell, Misty Step, like all of that shit."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:20",
+      "text": "But, and like also like Mimic Chests and like, you know, Gelatinous Cube, and like there's, there's so much like stuff in there that's very, very fun. Um, and like Griffin, it was funny when the Mimic Cube comes up. Griffin like— or the Mimic's, uh, chest. Griffin like knew what that was. He had seen like— So did Sam. Yeah, I don't know where they're getting it from."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:40",
+      "text": "I've seen that. I don't know."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:41",
+      "text": "Yeah, maybe it's something— maybe there's like— maybe put in Minecraft or something at some point. I don't know."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:46",
+      "text": "Maybe. Uh, but that, that was really cool. The, the owlbear, displacer beast."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:50",
+      "text": "Yeah, all the intellect devourers."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:53",
+      "text": "Yeah, those, those were freaking awesome."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:56",
+      "text": "But I think the thing that is so important about D&D is people forget that D&D is really fun. Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "39:04",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:04",
+      "text": "And a lot of times you are playing, there are serious things that happen in the game, but it's about you sitting around the table with your friends, and you're constantly making jokes and getting into stuff. And that, I think, is what they did here that makes this work. I don't think they could have done this without Ragnarok having come before."
+    },
+    {
+      "name": "F",
+      "timestamp": "39:24",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "39:25",
+      "text": "Right. That's fair."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:26",
+      "text": "And I do think this owes a big debt to Ragnarok And probably Guardians as well. Um, but I think this absolutely nails that tone in a really good way."
+    },
+    {
+      "name": "D",
+      "timestamp": "39:36",
+      "text": "Yeah, I, I think, I think it does owe a debt to those. But like, as you say, like Dungeons and Dragons, like there is an aspect of Dungeons and Dragons that has like a knowing sort of like quality to it where it's like, it, you, you know, there is a self-aware aspect to Dungeons and Dragons that allows it to be fun, um, and not too self-serious. Like there's serious moments, but But you could take it lightly as well. And I think it does that tonally very well with all of the stuff that they're doing that is, is clearly making reference to, you know, great lore, um, in the, in Faerûn and like in the, in the setting of, uh, in the setting of the story. Like it was, it was funny because like actually in seeing the movie the first time I see it was before Baldur's Gate 3 came out."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:19",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "40:20",
+      "text": "Um, and I had played the 2 previous Baldur's But like, those games were less immersive than Baldur's Gate 3. And Baldur's Gate 3 is so immersive in the setting of Faerûn and the setting of like, you know, the Sword Coast. And, and like, you really do get to know like the geography and history of this world that it, it made the movie more fun for me on the second time around. 'Cause I was like, oh yeah, like I know about, you know, all of these fucking things. And like, you know, and Baldur's Gate is name-checked at one point. Like, you know, people from Baldur's Gate show up and like, you know, Elminster shows up and like, there's just like, you know, there, there's like, it It made it really fun having been more familiar with the world, but again, in a way that didn't feel like it was required reading. Like, the movie works even if you don't know any of that stuff."
+    },
+    {
+      "name": "F",
+      "timestamp": "41:05",
+      "text": "Totally."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:07",
+      "text": "Totally. So then the other question they very—"
+    },
+    {
+      "name": "D",
+      "timestamp": "41:11",
+      "text": "They both got on this pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:11",
+      "text": "Yeah, exactly. One thing that they said very specifically was that they did not want to do the framing of people in the real world getting transported."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:22",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:22",
+      "text": "Which is fine. So what do we think?"
+    },
+    {
+      "name": "C",
+      "timestamp": "41:25",
+      "text": "Yeah, I mean, it's definitely a simplification, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "41:28",
+      "text": "And He-Man— He-Man obviously went all the way in on that, right? Sending He-Man to Earth so that he could then go back, but bringing the bridging of the worlds being a really critical part. I love the idea of not having any of it like a threat to the Earth, but I still could have done with a reveal at the end of having the players sitting there making up the story together, um, even if it wasn't a literal thing, I, I could have taken that as a kind of like post-credits scene or something."
+    },
+    {
+      "name": "D",
+      "timestamp": "41:58",
+      "text": "I don't know, like, I, I like that, um, you know, you, you made the point about like how like Lord of the Rings is like the, the ultimate fantasy setting, which I do agree with. And I— but I like that this movie sort of sets out to just say like, yeah, but like there could be other ones, and like we don't need to like do it winkingly or like, you know, sort of, you know, like there's other— like we could do other world building in a fantasy setting and like that has its own rich lore-based history. Um, and, uh, it doesn't need to be grimdark. Um, and it doesn't need to be like, you know, one that you're familiar with and it will still work. Um, I, I enjoyed that aspect of it. So I, I, I wouldn't have done the— I wouldn't have done the post-credit reveal myself."
+    },
+    {
+      "name": "C",
+      "timestamp": "42:41",
+      "text": "It's fair."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:43",
+      "text": "It, it 100% works as is. I do I think in general, I think, I think D&D absolutely deserves to be an ongoing, you know, prestige series."
+    },
+    {
+      "name": "D",
+      "timestamp": "42:55",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:55",
+      "text": "That could run for 5 seasons of 10 episodes a season. You just have adventures. Like, there's so many different stories that they could mine."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:03",
+      "text": "Well, there's news on that front."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:06",
+      "text": "There's—"
+    },
+    {
+      "name": "D",
+      "timestamp": "43:06",
+      "text": "I think they're doing Strahd."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:08",
+      "text": "I think they're doing Ravenloft."
+    },
+    {
+      "name": "D",
+      "timestamp": "43:09",
+      "text": "Yeah, Ravenloft as a, as a TV show. Um, which will be great. I will confess that that is not my fa— like, I think I got somewhat— one of my many failed attempts to fall in love with D&D was Ravenloft Strahd related. And it's just like, I'm not, I'm not that gothic. Like, um, um, but like, I do, I do appreciate that, um, they're trying it again. Speaking of vampires, I had—"
+    },
+    {
+      "name": "C",
+      "timestamp": "43:35",
+      "text": "well, hold on."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:36",
+      "text": "I had a Strahd phase that I, that I got into about 5 years ago."
+    },
+    {
+      "name": "C",
+      "timestamp": "43:41",
+      "text": "I'm sure you did. I'm sure you did."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:42",
+      "text": "In the Paper Keg Discord, I ran a Strahd DM campaign."
+    },
+    {
+      "name": "C",
+      "timestamp": "43:47",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:48",
+      "text": "And that was at the end of my time at Amazon."
+    },
+    {
+      "name": "H",
+      "timestamp": "43:51",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "C",
+      "timestamp": "43:51",
+      "text": "And it was really fun to play."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:54",
+      "text": "Maybe, I guess that's 7 years ago now. Jesus. But that was a really cool campaign setting. And it does, like, it's a little more, it's a little less gothic than it was, I think."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:05",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:06",
+      "text": "And it still kind of felt like a D&D game, as opposed to, I think some of the older ones were slightly less that. But anyways, it was, it's just kind of cool they're doing it. Alphonse Cuarón is an executive producer."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:16",
+      "text": "Oh wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:17",
+      "text": "Which is crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:19",
+      "text": "So we'll see how that goes. Yeah, I mean, what does executive producer mean? He may not, you know, he might just be, he might have just had an option on this at some point."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:25",
+      "text": "Okay, speaking of vampires."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:27",
+      "text": "Oh, there's a new video game that everyone loves. Oh yeah. Which involves vampires. What's it, Dawn? What's it called? Hold on. Blood of the Dawnwalker."
+    },
+    {
+      "name": "H",
+      "timestamp": "44:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:38",
+      "text": "Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:38",
+      "text": "Really good action adventure, action RPG, similar to like kind of Ghosts of Yotei or whatever, like, you know, You're a character, you're fighting people, you're leveling up your shit. Um, set in a medieval setting in which you are a vampire. Really, really fun. The combat is pretty unforgiving at first, like not Elden Ring-like, but like it's, it's definitely a steep learning curve. Um, and, um, but like I'm, I'm pretty into it. Um, I think it's pretty good. Um, very bloody."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:10",
+      "text": "Uh, Sanctuary."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:12",
+      "text": "Not sexual appetites."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:14",
+      "text": "No, no sexual appetites so far. There's, there's some, there's some wounds being salved at one point. Okay. Which maybe if that's your thing. But yeah, otherwise, but I do recommend it to people who play video games."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:28",
+      "text": "Okay, that's cool. That's cool. I have to check that, have to check that out."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:34",
+      "text": "I guess I will just start with this."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:37",
+      "text": "This script is so freaking good. Yeah, um, yeah, just the opening of this in the prison and that, that quick introduction to the two of them, but then jumping straight to the parole hearing as the mechanism for giving you the exposition. Yeah, and how perfectly that is done. And then the framework of Jarnathan as—"
+    },
+    {
+      "name": "D",
+      "timestamp": "46:02",
+      "text": "The Jarnathan joke is very, very good."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:04",
+      "text": "Good."
+    },
+    {
+      "name": "D",
+      "timestamp": "46:05",
+      "text": "Like, I mean, like, that's one of those where, you know, it's one of the— like, you, you must have been high-fiving like the day that you came up with the Jarnathan concept. It's just, it's so funny."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:16",
+      "text": "Um, and when they cut, right, when they cut in the middle of story and he's like, I'm sorry, it's just hard to relive this without Jarnathan here. Again with this? But he missed the most important part of my backstory. How can he judge me without without knowing my, my motivation."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:31",
+      "text": "We are entirely capable of deciding your case without Jarnathan."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:35",
+      "text": "Get on with it. Fine. Where was I? Uh, by night I come home to my loving wife and daughter Kira. You went back too far. Stop stalling. Right, sorry. Uh, yeah, broad strokes. The next few months—"
+    },
+    {
+      "name": "D",
+      "timestamp": "46:47",
+      "text": "It's so fun. And like, it works on— it worked on Griffin. Like, Griffin thought that was hilarious. Like, the repeat repetition of Jarnathan was like funny. And like, it's just— it is funny. It's like a legitimately good funny joke. And it does, it gets you through the whole exposition, which is pretty intense. I mean, it's like a whole flashback of, you know, why these people are here, what they did, and blah blah blah, and a bunch of characters, and yadda yadda yadda, and effects, and like the whole thing. And it really works. It's great. It's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:15",
+      "text": "Also, the shot of him looking at the money, the item, as he's walking through, yeah, to give you that as the foreshadowing, the payoff of that was so strong at the end. of the movie. And that's the part that really, to me, is so powerful about the script. It is constantly funny, but it also has these very deep moments and these emotional moments where you realize the fuck-ups that have happened."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:43",
+      "text": "Um, specifically, like, Edgin's failure speech, I thought was just amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "47:48",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:48",
+      "text": "Aren't you sick of failing? No, that's the whole point. We must never stop failing, because the minute we do, We failed. Hey, you're quick to call us failures. What about you, Ed?"
+    },
+    {
+      "name": "F",
+      "timestamp": "47:59",
+      "text": "Me?"
+    },
+    {
+      "name": "A",
+      "timestamp": "48:01",
+      "text": "I'm the champion of failures. I lost everything that ever mattered to me, and it was all my fault."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:07",
+      "text": "And his desire to keep going no matter what—that that worked. Yeah, that yeah, that worked. But dude, Holga and Marlamon—that that was great, right? Bradley Cooper."
+    },
+    {
+      "name": "D",
+      "timestamp": "48:21",
+      "text": "Yeah, that— I mean, very, very funny. Like, that part's very, very funny. Um, like, in general, the dead people— the part— the interviewing the dead is just an amazing fantasy sequence. Um, that's very funny. Again, like, worked on Griffin. Um, the one where they use the spell, um, to send in the bard illusion, um, to try to fool the guards, and he like falls apart in the middle because the wizard gets his foot stuck in the, uh, rock or whatever. Yeah, yeah, yeah. Like, very, very funny. Um, like, the whole thing's great. Like, it's really, it's really great. And that's why it doesn't feel like a 2-hour and 25-minute movie to me. I— it is like, I guess, like, there is some extent to which you have to kind of enjoy fantasy tropes. Like, you're not gonna like this movie if, like, fan— like, fantasy is not—"
+    },
+    {
+      "name": "B",
+      "timestamp": "49:05",
+      "text": "For sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "49:06",
+      "text": "That holds any interest to you. Um, and I guess fantasy just really is a hard genre to get people to care about. Like, it's, it's just one that, like, you know, kind of ebbs and wanes, and like there'll be like a generational hit and then like that's it, you know, we're just not getting any more of that for a while. But I don't know, it worked on me. I thought it was great."
+    },
+    {
+      "name": "C",
+      "timestamp": "49:23",
+      "text": "It worked."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:25",
+      "text": "The last piece that I thought on the script that was so smart was the end of the, of the film cutting to Forge doing his parole hearing. Yes, it's just, again, it's just like a plant and payoff, plant and payoff, and it really works."
+    },
+    {
+      "name": "D",
+      "timestamp": "49:38",
+      "text": "Yeah, it's really great. And he's like, Jonathan, in the window, Jonathan. Like, she does the whole thing. I mean, it's like, it's funny that they knew that, like, they had a good bit there. Yes. Um, it's great. Um, hell yeah. Yeah, the, the— I like the whole scene where they go into the, uh, the Underdark and then the bridge falls apart, like, as he's giving the instructions about how to do it. Like, the movie, the movie is like— there is like a level of irony to it, but like, it is also true again to Dungeons and Dragons where like, you know, the player characters just fuck something up that's like the great riddle that like you had planned or whatever. Um, and like, you know, I was like, all right, yeah, like, you know, I guess, you know, you're gonna use this, you know, hither thither."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:20",
+      "text": "Goddamn it."
+    },
+    {
+      "name": "D",
+      "timestamp": "50:21",
+      "text": "Of solving this big— solving this whole thing. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:24",
+      "text": "That is, that is definitely the fate of a DM. Uh, I, I had, I had run a, uh, Dark Sun campaign, which was basically like, uh, it's almost like a Dune ripoff. It's— this was in— this was in 1995, uh, end of '94, '95. I was running it for my ex-wife and my best friend and, and some friends at work. This is when I was at Whole Earth. And I took them from 1st level to 9th level over a period of like 4 months of running all these different modules."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:51",
+      "text": "And these were the crazy modules where Wizards was doing them."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:54",
+      "text": "They were flip books. So you would like flip the page and you could turn it and show the picture to the players."
+    },
+    {
+      "name": "F",
+      "timestamp": "50:59",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:01",
+      "text": "really cool but impossibly expensive to print. That's part of why they went broke. This was like the last gasp. But I got to the end of the campaign, and I had given the Staff of the Magi, which is famously like the most powerful, you know, artifact in the game."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:18",
+      "text": "Right."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:19",
+      "text": "And I gave it to my ex-wife, and she got it. And my best friend, who was playing a half-giant, got mad and took it and broke it over his staff. staff and did like 100d10 damage to everyone within, you know, 10 feet. Just like total party kill instantly."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:36",
+      "text": "And that was the end?"
+    },
+    {
+      "name": "C",
+      "timestamp": "51:38",
+      "text": "That was the end. I'm like, fuck you, that's it, that's it."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:42",
+      "text": "Wow. Did he intend to kill everyone?"
+    },
+    {
+      "name": "C",
+      "timestamp": "51:44",
+      "text": "No, I don't think so."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:46",
+      "text": "He just didn't know that that's what would happen?"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:48",
+      "text": "He didn't know that was what was gonna happen. And as a DM, you just kind of— you have to like— that's what it says."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:54",
+      "text": "In the player's hand, or so was that it? Like you guys just got up and like walked away? Yeah. Oh yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:59",
+      "text": "Oh, I got up and walked away for sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:01",
+      "text": "I was like, \"Fuck you.\" Like, did you guys never play it again? Like seriously, that was just the end."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:07",
+      "text": "No, I moved to Minnesota. That was it. Wow!"
+    },
+    {
+      "name": "D",
+      "timestamp": "52:10",
+      "text": "And you got divorced like that, like from this whole event. Like this was like the end of it. Wasn't really. It was a total marriage kill."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:15",
+      "text": "Those were the seeds. Yeah, exactly. Jesus, tough one. Tough one. Tough one. Tough one."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:22",
+      "text": "Definitely tough one."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:24",
+      "text": "Tough. You know, sometimes it's hard to be a DM. I swear, it's like being superheroes. I like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "52:29",
+      "text": "I will say, like, Dungeons and Dragons is like— real Dungeons and Dragons is not a great fit for me personality-wise because I am so left-brained that like, I don't— I, I don't like improv. Like, I don't like theater games. Like, I don't like sort of— I don't like— I just want to be like, okay, what's the most efficient thing to do? Let's just kill everyone. Like, yeah, I'm just like, yeah, just kill. Like, let's just start fighting. Like, you know, these people are gonna have to— so like, I— all these— all these two like dad games that I've played with, there'll be like someone there who like immediately— really? Yeah, like, like they're not acting per se, but they're trying to find like the most creative sort of solution to whatever. Um, and it's just like, you know, it's like, well, maybe I can like, you know, put a barrel inside of another barrel. And like, so I'm like, no, no, no, these are goblins. We're just gonna to hit them with the swords. Like, you know, um, and, uh, you know, and like, I'm like, so, so I just have like a hard time. I have a hard time playing a lot. But on the other hand, the, the challenge is, is that like, I will— like in that same game, like I found like an artifact that like would make you twice the size that you were supposed to be. And like, it was clear that you're supposed to use it at some point in the— like, I, and I just refused to use it because I was like, no, like I'm holding on to this until like, you know, I really—"
+    },
+    {
+      "name": "B",
+      "timestamp": "53:47",
+      "text": "This is a good one."
+    },
+    {
+      "name": "D",
+      "timestamp": "53:48",
+      "text": "need it. Like, yeah, like, we're never playing this again. I was like, well, you never know. I'm keeping it. The DM literally had to be like, you feel something heavy in your pocket that might be useful here. I was like, yeah, I know. Uh, no, I'm good right now."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:05",
+      "text": "I have a sword."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:06",
+      "text": "I have a sword. You need me to kill somebody?"
+    },
+    {
+      "name": "D",
+      "timestamp": "54:07",
+      "text": "I was playing a druid. I got to use Wild Shape. It was awesome."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:10",
+      "text": "Oh wow. Apparently in—"
+    },
+    {
+      "name": "B",
+      "timestamp": "54:12",
+      "text": "apparently in 5th Ed, you are no longer allowed to Wild Shape into an Um, that was one thing. Yes, yes, you—"
+    },
+    {
+      "name": "D",
+      "timestamp": "54:19",
+      "text": "I could only be like a wolf or a crow or something. I was like only 2nd level or something. So you could definitely be an owlbear in Baldur's Gate 3. Yes, you could definitely be an owlbear. Owlbear, by the way, awesome, awesome creature. Great idea. Griffin was really excited about the owlbear."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:33",
+      "text": "Owlbear was probably my favorite creature in AD&D, you know, like when I, when I saw the game, it was one of the things that definitely stuck out in my mind. It's a very evocative creature, and certainly an evolution from orcs, right? Which is what they had going into this. And so that's another example of them taking a basic template from Lord of the Rings and then kind of really blowing it up and doing a lot of really interesting things with it. What is your next point?"
+    },
+    {
+      "name": "D",
+      "timestamp": "55:00",
+      "text": "Well, I did, I did have like sort of the one about the, the script being like funny and well-written. So I think we covered most of the Comedy ones. Oh, I mean, except I would say I think Hugh Grant does a really great job in this movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:14",
+      "text": "That's where I want to go next. Yeah, let's do it."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:16",
+      "text": "Yeah, I, I think he— I just think like, you know, really fun. So good. And like, is charming and also odious. Like, he's just— it's like, it felt really, really great. Um, it felt really, really fun. Uh, it felt like— it felt— he felt completely believable as like a charming fraud. Um, so I, I loved, I loved him in this, in this. And I also think for Chris Pine, it's like one of the things I've loved him, uh, the most in, you know? Like, he gets to be funny, he gets to be brave. He gets like— he was completely— he, he felt like a Gosling type in this. I was like, oh yeah, like, I believe it. Like, I, I, I sort of believe him. So, uh, I thought both of those performances were really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:58",
+      "text": "Yeah, I think Hugh's been on a heater since, uh, Yeah, since Paddington 2, right? Like, that was— yeah, that, that was when the gears really clicked for his second phase of his career."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:09",
+      "text": "Um, and I didn't see—"
+    },
+    {
+      "name": "B",
+      "timestamp": "56:10",
+      "text": "he just did like a, like an A24 horror movie. I forget what it was called."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:14",
+      "text": "It was so good."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:15",
+      "text": "He's great in it. Oh yeah, the one where the 2 girls show up to his house. I have no idea. Yeah, he was great. He's great. I forget what it's called, but it's great. I saw that with Crystal. I really liked it. Very interesting. It's like a movie about— it kind of goes off the rails, but like, it's this whole movie about Like religion and what it means and stuff. Yeah, really enjoyed that one. Hmm."
+    },
+    {
+      "name": "H",
+      "timestamp": "56:36",
+      "text": "Yep."
+    },
+    {
+      "name": "F",
+      "timestamp": "56:36",
+      "text": "Yep."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:37",
+      "text": "I agree. Pine, you know, I— he is so good in Star Trek. I mean, he is, he is great as Kirk, especially the first one."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:48",
+      "text": "Yeah, he is great. He is great."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:49",
+      "text": "That's the only really great one. But he is so good in that role, and it's so impossible, the idea that you would step into frickin' William Shatner Yeah, no, it's true. And do a good job with it. It's a complete miracle that he was able to pull that off."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:02",
+      "text": "I agree. I just don't like— like, and I think the first one is good. I just, I don't— I, I guess I, I think it's probably my JJ issues like spilling over into present time, or it's just like I, I can't— I, I won't allow myself to like it that much, I think."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:20",
+      "text": "Okay, when's the last time you rewatched it?"
+    },
+    {
+      "name": "D",
+      "timestamp": "57:22",
+      "text": "It's probably been a while. It's probably been a while."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:25",
+      "text": "Um, okay, but it's good. It's, it's freaking good. I mean, I remember watching that movie for the first time and the opening scene with Hemsworth, right? This is before Hemsworth played Thor. And, you know, Kirk is being born and he's, you know, going, going out in that, in the opening. And I'm like crying, you know, 2 and a half minutes into this movie. I was like, JJ, you've done it."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:46",
+      "text": "Yeah, I mean, like, I don't know what audience percentage of the audience cried cried in the first 10 minutes of Star Trek, the J.J. Abrams movie, but I'm glad it worked for you."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:59",
+      "text": "All right, we'll put that as a poll in the live chat if anyone wants to cry."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:02",
+      "text": "Did this make you cry? I don't even— I didn't remember that any of this happened."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:05",
+      "text": "You don't remember the opening scene?"
+    },
+    {
+      "name": "B",
+      "timestamp": "58:06",
+      "text": "No. Okay. All right. Well, oh well. Um, oh, let's keep going on the cast. Michelle Rodriguez as Holga."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:13",
+      "text": "Really good. Really good. Fun part. Um, great character. Great, like, sort of— you could, like, like, in all the, like, the fun— again, like, sort of from a Dungeons and Dragons perspective, like, all the characters felt very true to their character sheets, you know? Like, you could like sort of see— you could sort of understand like what they were doing with all of these characters and why, you know, why they were what they were."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:36",
+      "text": "I really— I really— she is a barbarian, you know? Like, she really— she really does such a great job."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:41",
+      "text": "I guess they didn't really make—"
+    },
+    {
+      "name": "B",
+      "timestamp": "58:43",
+      "text": "they didn't really have her rage per se. She like just goes—"
+    },
+    {
+      "name": "C",
+      "timestamp": "58:47",
+      "text": "yeah, there's like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "58:48",
+      "text": "there's like one of the scenes where she's in the fight using a bunch of like improvised weapons and stuff, and I kind of felt that was Like, you know, okay, truthful."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:55",
+      "text": "All right, uh, I, I just— I— that I thought was an example maybe of them showing restraint and just like doing it. Like, the fact that she doesn't wear armor, that she's, you know, she is— she's got the big axe and, and then the improvised weapons just made, made so much sense. Um, well, what about, uh, Regé-Jean Page as Zsank, the Paladin?"
+    },
+    {
+      "name": "D",
+      "timestamp": "59:14",
+      "text": "I think the Zsank character is so good. Um, and it's It's like, it's so funny because it's like, again, it's like true to the character. It's like he's such a fucking paladin. Um, and like, you know, they're like, they're like, paladins are just like very difficult. Um, because they've got their fucking oaths and they're so serious about them. And like, he's, yeah, he's just like, he's, he's, and he's great. He's a great fighter. He's very capable. Um, the whole scene where he leaves and he does, he walks at a straight line and doesn't even deviate when he walks over the rock. He goes over the rock. Funny. Um, I, I am, um, as, uh, I'm— I usually main, uh, my main in Warcraft for 20 years is a Druid. Um, and I usually will, when the new season comes out, always start with my Druid. But Resto Druids, which is the healer spec of, of Druids, are very bad this season in, uh, in, in World of Warcraft."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:11",
+      "text": "Hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:11",
+      "text": "And like, I, I did a lot last season. I don't need to— it's fine. Um, and they were great last season, so I can't be too bitter. So I'm playing, um, for the first time ever, a Holy Paladin, which is the healing spec of Paladins. Um, and it's super fun. Uh, and there is like just a degree to which like the game, particularly at this point, like narratively is like Paladins kind of are the main character of World of Warcraft. Like consistently Paladins like sort of show up as like the main characters and like they are like always fucking, you know, talking about harnessing the light and like their obligations the light and fucking shit like that. Um, and so it— but it is fun, like, sort of being like the, the main character class of the story. Uh, yeah, this time around I like that."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:57",
+      "text": "Would it surprise you to learn that I routinely in my youth played a what was described as a lawful good head Paladin?"
+    },
+    {
+      "name": "D",
+      "timestamp": "61:04",
+      "text": "No, I was— I 100% knew you played a Paladin. Like, it was—"
+    },
+    {
+      "name": "C",
+      "timestamp": "61:08",
+      "text": "I had no question in my, in my mind that you ever Part of it was because for Paladin you had to have high stats in 3 different—"
+    },
+    {
+      "name": "B",
+      "timestamp": "61:17",
+      "text": "you had to have 3 different of your attributes over 16. And so, like, I used to, you know, you roll 4, drop 1, and then you do a set of 6. And then if you didn't like that, do that again. And I would do it again and again and again and again until I finally had one that would work."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:33",
+      "text": "Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:35",
+      "text": "But I did once have a—"
+    },
+    {
+      "name": "C",
+      "timestamp": "61:38",
+      "text": "I was the only lawful good character."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:40",
+      "text": "All the rest of the party members were chaotic neutral. And I got a sword that— I found a sword that was intelligent and told me that, you know, it really needed to belong to me and not to those chaotic people because they were very suspect."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:53",
+      "text": "They were too— yeah, yeah. Did that make you feel understood?"
+    },
+    {
+      "name": "B",
+      "timestamp": "61:57",
+      "text": "I ended up being, I think, banished. I think I got banished from the party."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:01",
+      "text": "Banished from the party?"
+    },
+    {
+      "name": "B",
+      "timestamp": "62:02",
+      "text": "I mean, or I got like restrained or something because they thought I was— they were taking— the sword was taking control of me or whatever. You know, you do what you— you can do what you do."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:11",
+      "text": "That's amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:12",
+      "text": "Uh, but yeah, I thought, I thought he was, uh, a ton of fun. I thought Justice Smith as Simon— Sophia Lillis, uh, Doric, um, I thought was okay as the Druid. She's like, um, she was in It."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:25",
+      "text": "Uh, I don't know if you saw those movies."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:27",
+      "text": "Oh yeah, I saw— I looked up her credits because I really liked her, but I never saw that movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:30",
+      "text": "Yeah, I, I thought she—"
+    },
+    {
+      "name": "B",
+      "timestamp": "62:33",
+      "text": "I thought she was okay. I, I definitely, you know, would be happy to see this crew get back together. And it would be interesting too for them to like have new characters and, uh, and do something really different."
+    },
+    {
+      "name": "D",
+      "timestamp": "62:43",
+      "text": "Yeah, I really liked— I would like Zank to return. I thought Zank was a great character. Um, for sure, I'd like to see more of him. I thought he was really fun."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:52",
+      "text": "Um, I'll just call out quickly for Deakins Award."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:57",
+      "text": "Uh, so the DP here is Barry Peterson, who did 21 and 22 Jump Street. Um, that's with Miller and Lord. Did Game Night. The cinematography in Game Night is really awesome. And did Central Intelligence as well. Ray Chan, who was the production designer— Guardians of the Galaxy, Doctor Strange, Infinity War, and Endgame."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:20",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:21",
+      "text": "Like, this guy was very good. And I thought the production design—"
+    },
+    {
+      "name": "C",
+      "timestamp": "63:24",
+      "text": "I love the castles."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:26",
+      "text": "I love, like, the detail, like, when they back up the prison wagon to the gate, and then, like, they have the chains or like go through a route on the floor. Um, it's like just little details like that I thought really brought the game— or brought the— brought it to life. Um, and then the last shout out here is Lorne Balfe, who did the score, uh, as well as the score for Fallout and Top Gun: Maverick."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:51",
+      "text": "Mm."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:53",
+      "text": "Great job."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:53",
+      "text": "Good score. Good score. Really liked it. Yeah, yeah, it's got the kind of like high fantasy It was a good glow-up having worked on this movie that failed to go to that."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:02",
+      "text": "Yeah, I think Hans was on that one as well, but it was pretty, pretty solid."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:09",
+      "text": "Honorable mentions for you?"
+    },
+    {
+      "name": "D",
+      "timestamp": "64:10",
+      "text": "Um, I'd like there to be a sequel. If you could add one, if you were gonna like, if you were gonna add a character to the party in the movie, what would you, what class would you add? What do you think the party needs?"
+    },
+    {
+      "name": "B",
+      "timestamp": "64:28",
+      "text": "I mean, obviously there's no, there's no cleric, which—"
+    },
+    {
+      "name": "D",
+      "timestamp": "64:32",
+      "text": "They have a bard but not a cleric."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:34",
+      "text": "They have a bard but not a cleric."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:37",
+      "text": "So you got no healing there. So that, that could be helpful. And maybe if you're getting into some undead, so maybe we'll get that in the, in the Ravenloft one."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:45",
+      "text": "Yeah. Also, I never play a sorcerer. I always play wizard."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:50",
+      "text": "To me, I like the notion of like the bigger spellbook and, you know, you're studying your stuff as opposed to innate power coming as a sorcerer or a warlock."
+    },
+    {
+      "name": "D",
+      "timestamp": "64:58",
+      "text": "I'm the same."
+    },
+    {
+      "name": "B",
+      "timestamp": "64:59",
+      "text": "Yeah, so, so I wouldn't have been opposed to Simon being a true wizard."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:04",
+      "text": "True wizard as opposed to sorcerer."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:05",
+      "text": "That's the only change I would make, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:07",
+      "text": "Because I usually play—"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:08",
+      "text": "now I usually play either a straight fighter or a wizard, and that's what I did in Baldur's Gate."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:13",
+      "text": "I pretty much— I almost always play support class. I like healers in particular, but otherwise we'll play wizard. Um, I do— the one that I— the, the archetype that I never play, but I started messing around with on some Baldur's Gate, uh, with an Astarion build, is like the Gloom Stalker, uh, assassin build, which is pretty fucking tight."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:38",
+      "text": "Um, what is that?"
+    },
+    {
+      "name": "D",
+      "timestamp": "65:39",
+      "text": "Like, I mean, it's just you get to basically— you, you, you attack, you get to attack like 7 times, like on— like out of— like you, you get like a surprise attack, you get to attack with initiative, like you You get like your attacks have advantage. So like you like start flat-footed. Yeah. You start the game like with, you start each, you start each encounter with like, okay, you get like 7 attacks, um, before anyone else gets to go. So it's like, all right, everyone else gets to go and now everyone's dead. Um, so I enjoy, I enjoy that aspect of it."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:10",
+      "text": "They didn't have a straight rogue."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:12",
+      "text": "So that would be the other thing from a character perspective, from a character perspective and a class perspective."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:16",
+      "text": "Yeah, if you have someone who's got a snake and like someone who's got like— yeah, that's what I'm saying."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:21",
+      "text": "Okay, I think that, I think that makes sense."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:24",
+      "text": "Uh, for me, honorable mentions, I'll just say I, I like the pudgy dragon."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:28",
+      "text": "I thought that was really fun. Very funny. Um, apparently Thembishod is a, is a real dragon in canon, and apparently he's kept fed and chained by dwarves so that he's like a living forge. Um, that's the idea, which I think is— I think is very cool. It's interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:45",
+      "text": "That's fun."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:47",
+      "text": "Jason, who would Tilda Swinton play?"
+    },
+    {
+      "name": "D",
+      "timestamp": "66:50",
+      "text": "Uh, a lot of choices. I think she'd be great in the, um, Hugh Grant part. Um, I think that would be— I think that would be pretty strong. Um, maybe, um, what's his face, Shazam, the, the, the bad— oh yeah, yeah, yeah. Be good."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:11",
+      "text": "I like that when he's just like the, like the eyes in the darkness at first."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:15",
+      "text": "Yeah, um, that looked, that looked hot. Uh, very hot."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:19",
+      "text": "Looked pretty— Griffin got a little freaked out at that part. I was like, no, it's gonna be okay. Like, they're not— it's not gonna be that scary. But yeah, it's a little, it's a little serious at that point."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:28",
+      "text": "Um, Animal Mother says Jarnathan."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:31",
+      "text": "Jarnathan. That's so funny. That's just so funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:37",
+      "text": "So funny. All right, can we do some quick voicemails?"
+    },
+    {
+      "name": "D",
+      "timestamp": "67:46",
+      "text": "Let's do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:47",
+      "text": "All right, here is our first voicemail."
+    },
+    {
+      "name": "I",
+      "timestamp": "67:50",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:55",
+      "text": "Lay it on us."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:58",
+      "text": "What even is Jumanji to you, lady? Because it sounds like you think Jumanji is going into Jumanji, but in Jumanji, Jumanji comes out of Jumanji. Jumanji is a series of jungle emergencies. That, sir, is Jumanji, and we are not prepared for that. We have no medicines. We have no rope. I am the man of this house. We are playing this damn game. Okay, just because fog is coming out of the box does not mean that we're getting Jumanji."
+    },
+    {
+      "name": "I",
+      "timestamp": "68:27",
+      "text": "Hello, animal friends and animal lovers. This. Yeah, it's crazy to feel so seen by the depiction of one certain character here. And if I were human getting into the game, I'd pray to the DM so I could embody this true champ here forever. I'm talking of course of Marlamyn, the Shore King, that deliciously brutal Michelle Rodriguez."
+    },
+    {
+      "name": "E",
+      "timestamp": "68:47",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "I",
+      "timestamp": "68:48",
+      "text": "If I'm asked what's best in life, my answer be a barbarian muscle mommy with a thirst for children as partners that do gardening, cooking, and writing as my only hobbies. That is literally Pursuit. And if she's accented and frowny, oh boy. D&D is a milestone of '80s Americana, Satanic Panic included, and it's a treat to see it so lovingly translated into this medium. It was sadly not a thing in my native land, and I haven't played the game just yet, but its cultural significance is beyond obvious, even to the uninitiated. Michelle, please don't let that be a deterrent to ask for my phone number. I will not be complicit in the illicit use of ill-gotten booty. What's the next board game you personally need to see successfully adapted? Thank you all. See you at the orifice, and keep the change, you filthy animals."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:46",
+      "text": "Ah, that was great. What a what a great Freudian insight into nuzzling mommy was. Muscle, muscle mommy."
+    },
+    {
+      "name": "B",
+      "timestamp": "69:55",
+      "text": "Muscle mommy. Okay."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:56",
+      "text": "Muscle, not muzzle. That's a different fetish. Um, anyway, uh, Matt, your board game question seems more up your alley to answer, so you could, you could start."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:08",
+      "text": "I mean, it's pretty crazy right now."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:10",
+      "text": "We're playing Ticket to Ride, and so—"
+    },
+    {
+      "name": "D",
+      "timestamp": "70:12",
+      "text": "Which is what that sketch is about, which is what that SNL sketch is about, is there's—"
+    },
+    {
+      "name": "E",
+      "timestamp": "70:17",
+      "text": "It is."
+    },
+    {
+      "name": "D",
+      "timestamp": "70:17",
+      "text": "Yeah, that sketch is hilarious, by the way, that Jumanji, uh, sketch. They're supposed to be playing Ticket to Ride and someone freaks out because they don't want to be Jumanji'd into Ticket to Ride. And they're like, oh, you can't be Jumanji'd. Only Jumanji means Jumanji. It's, it's really, really quite funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:31",
+      "text": "That's really funny. I did not know. I gotta send that to April."
+    },
+    {
+      "name": "D",
+      "timestamp": "70:33",
+      "text": "Yeah, look at that one."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:34",
+      "text": "So yeah, I will say Ticket to Ride because you could have, you could have a good time with that. Frankly, I will say I'm having this cognitive dissonance. I'm in the portion of The Power Broker where he has gone from like, I'm gonna fucking like cut all of these barons' like estates in half and just run my freeways through them to like, no, no, I'll go around the barons' houses and I'm gonna drive through the farms."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:59",
+      "text": "And the Black people that they could— I'm not even onto the Black people yet."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:02",
+      "text": "That's coming. That's coming soon."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:05",
+      "text": "But his whole thing, like, he just works 80 hours a week."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:09",
+      "text": "Everyone that he has on his team works 80 hours a week. And the day they have access to stuff, they just raze buildings and they fucking build shit. And so the idea of like actually building infrastructure doing it fast in months instead of decades is really inspiring. And it just makes me want to think about how the hell can we start building stuff? Um, I'm not fucking talking about Mark. I'm just saying like, we need to build infrastructure."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:38",
+      "text": "It's time to build data centers. How can we build more data centers?"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:43",
+      "text": "Exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:43",
+      "text": "Is that exactly what this podcast is?"
+    },
+    {
+      "name": "C",
+      "timestamp": "71:45",
+      "text": "Otherwise, otherwise China's gonna get us. What can we do?"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:49",
+      "text": "It's inevitable. Cool. What can we do?"
+    },
+    {
+      "name": "D",
+      "timestamp": "71:52",
+      "text": "We at the Center for Shared AI Prosperity did some polling on data centers recently, last couple days. And data centers, which would you rather have built near your house? Data center below nuclear power plants is a great finding. But then even if you say, okay, the data center, but you're going to get cheaper power bills and All the you know, all the offsets will be taken care of, etc. It still pulls around the margins of like having a methadone clinic in your neighborhood. Jesus! People do not want them. Mm, not good. People do not want them. Let's win this issue."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:36",
+      "text": "Let's win this issue. Thank you so much, Animal Mother. Here comes our next voicemail."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:43",
+      "text": "Mr. Java."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:46",
+      "text": "All right, let's do it."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:47",
+      "text": "Ah, Dolly tribute."
+    },
+    {
+      "name": "F",
+      "timestamp": "72:52",
+      "text": "Tumble down the hill and I stumble to the dungeon. I can smell the adventure, it's coming, and who knows what treasures will lie ahead."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:01",
+      "text": "This guy has got a loot and his plans are pumping."
+    },
+    {
+      "name": "F",
+      "timestamp": "73:04",
+      "text": "Simon's not the best, and yet it's spellcasting. With folks like these, we'll all be rolling dice. Rolling all these dice. How will Basil not forgive him? Really? Questing by. Don't trust Forge even a little. By the jelly trap. Oh, it will melt you. Don't you fall in. D&D will drive you crazy if you let it. When the 12s are dying. Oh, Red Wizard is a problem. We will try to find. That weirdo, hell of this dungeon. Got to stop on in. You know they're trying to raise him. That's where the dungeon messed up. He just wants to kill me."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:49",
+      "text": "What a great movie. Listen, Dolly Parton, obviously one of the greatest humans ever."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:53",
+      "text": "We love her. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:54",
+      "text": "Where do you rate yourselves, and maybe some of us Discord folks, on the moral ethical alignment chart? Oh, awful, neutral, chaotic, Good Excelsior!"
+    },
+    {
+      "name": "D",
+      "timestamp": "74:05",
+      "text": "Wow, wow, that's great. Listen, listen, listen, listen. Uh, uh, that's great. I, I love the voice layering that he does, like just really a lot of, lot of production. Multi-part harmony. Yeah, multi-part harmony. The, the Mr. Java needs to release all the songs as like a physical disc, cuz if he puts it on Spotify or something, they'll get taken down. But like if he like burns a disc. We could hand them out at the meetup or something like that. Um, because, you know, it's just like, it's, uh— all right, you've given him ideas. I like it. I'm throwing it out there. I'm throwing out the universe that I'd like to see. Um, I am definitely— I definitely consider myself lawful good. Um, yes, like, I am definitely the lawful part. I know for sure. Like, I am a rule abider. Um, I do not break rules. Um, so that, that part I know for sure. Uh, whether or not I'm good, I guess, depends on, you know, sort of your perspective on morality or whatever. Um, but I, I like to think of myself as good. I like to think of myself as, you know— so yeah, that's what I got."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:17",
+      "text": "You're definitely a good—"
+    },
+    {
+      "name": "B",
+      "timestamp": "75:18",
+      "text": "you're definitely a good person. And I am also, again, shocking no one, lawful Good."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:23",
+      "text": "In general."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:24",
+      "text": "In general. My nickname when I— in playing D&D, from all my friends that I played with when I was the lawful good head, was Hicks."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:32",
+      "text": "And Hicks, I think, you know, is mostly lawful good."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:36",
+      "text": "He, like, when push comes to shove and you had to do a little, you know, coup, a little couping in order to make it work, that happened. But in general, the commitment was to doing things by the book and being good. So, but you know, don't we all kind of want to be a Han Solo if we can? Yeah, which is like the ultimate chaotic— he's the ultimate chaotic good."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:58",
+      "text": "Yeah, but yeah, you like to believe that. It's just, it's tough to pull off. That's just not gonna be true for me. Like, there's no way."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:06",
+      "text": "All right, well, as we don't have time to do everybody, but on his birthday, what, what, what do you think Corey's alignment is?"
+    },
+    {
+      "name": "D",
+      "timestamp": "76:16",
+      "text": "Uh, Corey is definitely chaotic neutral. Chaotic neutral."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:21",
+      "text": "Yeah, chaotic neutral to chaotic good. So, so, I mean, I definitely—"
+    },
+    {
+      "name": "D",
+      "timestamp": "76:25",
+      "text": "I mean, he's definitely— I consider him good, but like, I think, I think he's— yeah, I'll say chaotic good. Corey's chaotic good."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:33",
+      "text": "I like it. I like it. Chaotic good with, with kink. It's okay. It works. Yeah, it works. All right. Thank you, Java. That was a great one. Great one. Here is our next voicemail."
+    },
+    {
+      "name": "D",
+      "timestamp": "76:45",
+      "text": "The Truthsayer!"
+    },
+    {
+      "name": "B",
+      "timestamp": "76:49",
+      "text": "Shock us."
+    },
+    {
+      "name": "G",
+      "timestamp": "76:53",
+      "text": "Hey, Al Birria here. Dungeons and Dragons: Honor Among Thieves. How many of us nerds play Dungeons and Dragons? Well, this movie works because the filmmakers actually cared about the source material too. Yeah, the monsters aren't just CGI filler, they're pulled straight from the original Monster Creatures Gary Gygax invented in the '70s out of pure scrappy imagination, right? Turns out a lot of that imagination came from some unusual places. 3 stories here about specific D&D monsters and how they were created. 2 of these are fabricated, one is true. Time for the Truthsayer. Number 1."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:30",
+      "text": "This is great."
+    },
+    {
+      "name": "G",
+      "timestamp": "77:30",
+      "text": "Gary Gygax and Dave Arneson ran a private competition to design the most punishing player-killing monster either of them could Arneson won with a creature he called the Vrothak."
+    },
+    {
+      "name": "H",
+      "timestamp": "77:41",
+      "text": "Hmm."
+    },
+    {
+      "name": "G",
+      "timestamp": "77:42",
+      "text": "Gygax conceded the bet, then published his own losing entry in the Monster Manual anyway and quietly shelved the Vrothrak forever. Or is it number 2? Gygax found a bag of cheap plastic toys, dime store knockoffs from Hong Kong import shops, and dumped them on his desk for inspiration. One was a bootleg figure, half owl, half bear, made by some guy named Someone with 2 animal molds and no plan. He gave it a stat block, canon ever since. The owlbear. Or is it number 3? One of Gygax's kids asked why dungeon floors weren't covered with bones and filth if nobody lived there. He couldn't answer, so he invented something that moved through the corridors silently consuming everything in its path."
+    },
+    {
+      "name": "F",
+      "timestamp": "78:26",
+      "text": "Cube."
+    },
+    {
+      "name": "G",
+      "timestamp": "78:26",
+      "text": "And was invisible to the naked eye, a 10-foot ball of living acid. Acid. All right, which of those monster origin stories is true?"
+    },
+    {
+      "name": "D",
+      "timestamp": "78:34",
+      "text": "Those are good."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:35",
+      "text": "I'm going with number 3."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:37",
+      "text": "It's really good. Uh, I mean, number 3 sounds— I mean, they're all good. They're all good. I'm— I was gonna go with number 1 because, because I want to know what it was, the creature that he created that wasn't the Varthax. Like, what was the player-killing creature that wasn't the Varthax that got—"
+    },
+    {
+      "name": "B",
+      "timestamp": "78:54",
+      "text": "I don't know. He, he didn't tell. He didn't tell. Let's out."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:57",
+      "text": "Let's find out. Let's find out."
+    },
+    {
+      "name": "G",
+      "timestamp": "79:00",
+      "text": "Did you pick out the correct monster origin story? You probably did. Number 2, Gygax really did find a cheap bag of plastic figures, bootleg knockoff toys from Hong Kong, and turned one manufacturing accident into 50 years of canon. Wow. And you know how much I love owls. Here ends the Truthsayer."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:19",
+      "text": "Oh yeah, that should have been a big hint."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:21",
+      "text": "That should have been a hint. Shout out to Birria, who's doing a little vibe coding and working on a little— working on a little game, Truthsayer game, where you can listen to past Truthsayers, guess the right answer, you play Truthsayer yourself. See how you do. See how you do. It's not as easy as it looks. Yeah, we've had years of training."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:42",
+      "text": "Yeah, cameras trained on you to see if you're sweating. See the truth. It's exactly right."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:47",
+      "text": "Thank you so much, Birria. Here is our Next voicemail."
+    },
+    {
+      "name": "E",
+      "timestamp": "79:51",
+      "text": "Hello, Escape Hatch, it's Kev here. Wow, what a day. We are here to talk about Brad Bird's 1999 all-timer classic, The Iron Giant. Oh, hang on, I'm getting word here that things have changed and we are actually talking about the extremely fun 2020—"
+    },
+    {
+      "name": "A",
+      "timestamp": "80:13",
+      "text": "oh boy."
+    },
+    {
+      "name": "E",
+      "timestamp": "80:16",
+      "text": "Did this, did this movie come out 2023? 2023. Dungeons and Dragons: Honor Among Thieves, an extremely fun, somehow underrated movie back when like people were pretending like they were better than going to a movie theater. Parents, relax. Everybody be cool. Kev's question. My favorite scene in this film, which should come as no surprise, is the hilarious Bradley Cooper cameo."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "E",
+      "timestamp": "80:41",
+      "text": "Deep in the Second act. Totally didn't see it coming. Totally hit me in the face. Absolutely hysterical."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:45",
+      "text": "Really funny. Really funny."
+    },
+    {
+      "name": "E",
+      "timestamp": "80:46",
+      "text": "If Bradley Cooper could play any character from the latter 3 Frank Herbert Dune novels, that's Children of Dune."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:54",
+      "text": "Oh, that's amazing."
+    },
+    {
+      "name": "E",
+      "timestamp": "80:55",
+      "text": "What's the other? God Emperor of Dune and Chapterhouse: Dune. It's early. Who would he play and why? With peace and love, I will talk to you all next week."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:04",
+      "text": "It's great."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:06",
+      "text": "Once again, it's Kev's Questions."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:15",
+      "text": "Uh, great question. Uh, Maneo? Maneo? No, I mean, maybe just because he was short. Maybe just because he was short, I would like to see him as like a, you know, Scytale or something like that. Uh, yeah, which would be fun. Um, I guess Scytale— okay, I won't say anything."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:33",
+      "text": "No spoilers. No spoilers."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:36",
+      "text": "Spoilers. Who would Bradley Cooper play? It's got to be something good. I kind of want to. I mean, what about what about the Bashar? You know the oh yeah yeah tag tag yeah Bashar tag Miles tag Miles tag and then he can move really fast. Yeah yeah yeah yeah that's my choice."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:56",
+      "text": "I mean, he's the God Emperor. Why not why not make him the God Emperor?"
+    },
+    {
+      "name": "D",
+      "timestamp": "81:59",
+      "text": "Put him make him a worm. He gets to go and if he's Miles tag, he gets to go out and. You know, he gets to go eat soup. He gets to go out to the one meal that's ever happened in the Dune universe."
+    },
+    {
+      "name": "I",
+      "timestamp": "82:09",
+      "text": "So good for him."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:10",
+      "text": "Jesus Christ. Oh man. Those are like, most of that is purged from my memory. It was fun to revisit the anime, H's anime stylings last week. I enjoyed getting to drop that sample back into the pod."
+    },
+    {
+      "name": "F",
+      "timestamp": "82:24",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:25",
+      "text": "Yeah. An all-time moment. Thank you so much, Kev. Thank you much, Kev. Here is our final voicemail. The birthday boy."
+    },
+    {
+      "name": "H",
+      "timestamp": "82:37",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:41",
+      "text": "Happy birthday, Corey. We love you."
+    },
+    {
+      "name": "H",
+      "timestamp": "82:43",
+      "text": "Hey, this is Corey calling from Austin, Texas on September 8th, which is my birthday. Yeah. 54 years old today. I'm almost catching up to H. Give me another couple hundred years and we'll be there. Just kidding. Anyway, uh, I have not watched the movie. I don't even know what the movie is. I've just been so out of sorts. Uh, I'm negligent in my duties as a friend of the pod. I apologize."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:12",
+      "text": "False. Um, you're doing great."
+    },
+    {
+      "name": "H",
+      "timestamp": "83:14",
+      "text": "I think I looked at the calendar at the beginning of last week. It's a D&D movie, maybe. That's right."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:23",
+      "text": "See, you nailed it."
+    },
+    {
+      "name": "H",
+      "timestamp": "83:25",
+      "text": "All right, well, I'm gonna go back to, um, enjoy my birthday. And, um, I apologize for my, for my, um, fuck-up, but I still love you guys. Okay, we love you. Back to y'all next week, maybe. All right, I'm kidding. All right, bye, man."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:43",
+      "text": "Feliz cumpleaños a ti."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:45",
+      "text": "I hope Corey has a great birthday. He deserves it. Another little Virgo out Out there."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:53",
+      "text": "Yes. Good for him, Corey. Corey, you don't have to watch the movie."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:57",
+      "text": "It's you don't have to watch it. Yeah, you get special dispensation."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:00",
+      "text": "That's right. He is in the clear. Jason, we did it."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:04",
+      "text": "We did it, baby. That was great."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:08",
+      "text": "Summer of Jason still kicking."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:10",
+      "text": "Yeah, we got one last one last. You picked it, and I and I and I agreed."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:14",
+      "text": "There you go. Yep. It was as easy as that. That was a great movie. Did Sam watch it or no? Did we cover that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "84:21",
+      "text": "Yeah, Sam watched it. Oh, Sam watched it. Okay, great. Yeah, yeah, we had a great— we woke up at 9 AM, or we woke up at 7:30, and I texted his buddy Theoden, who is the DM of their group. Yeah. I texted his parents and I'm like, hey, we're doing D&D. If you guys want to come over, and they came over. And his dad is like, okay. They came over? Yeah, they came over to watch it at the house."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:41",
+      "text": "And his dad's like, it's like, I'm gonna drop off Theoden and go do some errands."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:45",
+      "text": "errands. And then I started the movie, and he's like, well, I'm just gonna stay for a little bit. He's like, because I love this movie. And like, he ended up staying for like half an hour, uh, then left for a little bit, then came back to catch the end of the movie. The dad, uh, was amazing, was so into it."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:57",
+      "text": "Bajani's husband."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:58",
+      "text": "I know, I know. I'm familiar with your friends now."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:01",
+      "text": "It was, it was great."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:04",
+      "text": "Jason, what do you have to plug, my friend?"
+    },
+    {
+      "name": "D",
+      "timestamp": "85:07",
+      "text": "I already plugged that Dawnwalker game, which I think is pretty good. I also started reading a book. Um, yeah, uh, the, um, what's it called? Oh, Whistler by Ann Patchett is a Barack Obama summer reading list. It's like a family drama story, and it's like, okay, just so fucking readable. It's just like, uh, it's just like effortless. Like, people who can write really— they really figured something out with that when they figured out, like, just— it's just like, just so, just so effortlessly able to of just move you right along. You get to know these people. It's great. Reading's great. I forgot that I knew how. So I'm excited to be doing that."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:48",
+      "text": "Are you on the Kindle? What are you doing here?"
+    },
+    {
+      "name": "C",
+      "timestamp": "85:50",
+      "text": "What are you doing here?"
+    },
+    {
+      "name": "D",
+      "timestamp": "85:50",
+      "text": "Physical book, baby. Physical book. Physical book."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:53",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:53",
+      "text": "Yeah. Physical book."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:55",
+      "text": "I am also reading physical book."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:56",
+      "text": "I'm reading Dune Messiah right now at bedtime."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:59",
+      "text": "Oh, just to get ready? Just to prepare your body?"
+    },
+    {
+      "name": "A",
+      "timestamp": "86:02",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:02",
+      "text": "It's fun going back in."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:04",
+      "text": "I love that one."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:05",
+      "text": "Let's do it. Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:06",
+      "text": "Get back to sleep. Yeah, I haven't read that one in a while. But I do feel I was talking to someone today, and I was telling them like the only like I've done a lot of weird things in my life, and the only things like I and most of them I've larped as, and the only things I actually know how know something about where I would consider myself not just know something about I would consider myself expert on are like one like product management in the pre-AI era, like which is now an extinct LinkedArt, but right, I feel like I knew something about how websites were built, um, back when that was a thing that people did, uh, and then the works of Frank Herbert as it relates to Dune, like just, just Dune, Frank Herbert's works of Dune, um, and like I feel, I feel those 2 things I would put as my like specialty subjects up against, uh, up against anyone, um, everything else, we'll see what happens, we'll see what happens when we have super producer of X-Ray Vision Abu on the pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:05",
+      "text": "He is the Oh, he's a big he's a big dog. Jabbar."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:08",
+      "text": "Yeah, he's a big dog. Yeah, the real Dune podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:12",
+      "text": "Yeah, so so we'll see what happens."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:13",
+      "text": "They didn't give up after just doing like twenty episodes. No, they're like we're good."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:17",
+      "text": "We're gonna keep going. Oh man! And that's it for this episode of Escape Patch."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:25",
+      "text": "I want to thank Jason for another amazing conversation."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:28",
+      "text": "Next week, the summer of Jason continues with Joel. Schumacher's 1987 Santa Cruz vampire classic, The Lost Boys."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:38",
+      "text": "If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive of perks."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:57",
+      "text": "Links are in the show notes."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:59",
+      "text": "Escape Hatch is a Tapedeck Podcast, John, a production of H Industries."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:04",
+      "text": "Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:13",
+      "text": "Thanks for listening."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:14",
+      "text": "We'll see everybody next week."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:15",
+      "text": "Here we go. Were you killed in the Battle of the Evermoors?"
+    },
+    {
+      "name": "I",
+      "timestamp": "88:28",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:30",
+      "text": "Great. I mean, not for you. Sorry for your loss. 4 more questions, right?"
+    },
+    {
+      "name": "F",
+      "timestamp": "88:37",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:38",
+      "text": "No, no, no, that wasn't for you. Did that count as a question? Yes."
+    },
+    {
+      "name": "H",
+      "timestamp": "88:42",
+      "text": "Damn it."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:44",
+      "text": "Only answer when I talk to you, okay? Why did you say okay at the end of that?"
+    },
+    {
+      "name": "H",
+      "timestamp": "88:50",
+      "text": "I didn't."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:51",
+      "text": "Fantastic. Where's the shovel?"
+    }
+  ]
+}
