@@ -15981,6 +15981,33 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/dungeons-dragons-169116024",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a8baa5498d37c020979fa7c28",
     "letterboxdLink": "https://letterboxd.com/film/dungeons-dragons-honor-among-thieves/",
-    "imdbLink": "https://www.imdb.com/title/tt2906216/"
+    "imdbLink": "https://www.imdb.com/title/tt2906216/",
+    "tmdbId": 493529,
+    "tmdbPosterPath": "/v7UF7ypAqjsFZFdjksjQ7IUpXdn.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Comedy"
+    ],
+    "directors": [
+      "John Francis Daley",
+      "Jonathan Goldstein"
+    ],
+    "cinematographers": [
+      "Barry Peterson"
+    ],
+    "cast": [
+      "Chris Pine",
+      "Michelle Rodriguez",
+      "Justice Smith",
+      "Sophia Lillis",
+      "Hugh Grant",
+      "Regé-Jean Page",
+      "Chloe Coleman",
+      "Daisy Head"
+    ],
+    "composers": [
+      "Lorne Balfe"
+    ]
   }
 ]
