@@ -18,6 +18,8 @@
     "transcribe": "node --import tsx ./scripts/transcribe.ts",
     "enrich-tmdb": "node --import tsx ./scripts/enrich-tmdb.ts",
     "sync-metadata": "node --import tsx ./scripts/sync-metadata.ts",
+    "snapshot-sheet": "node --import tsx ./scripts/snapshot-sheet.ts",
+    "restore-sheet": "node --import tsx ./scripts/restore-sheet.ts",
     "download-audio": "node --import tsx ./scripts/download-drive-audio.ts",
     "batch-transcribe": "node --import tsx ./scripts/batch-transcribe.ts",
     "ab:queries": "node --import tsx ./scripts/ab-queries.ts",

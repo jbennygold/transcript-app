@@ -1,0 +1,25 @@
+General
+Episode Count,=COUNTA('Pod Data Detail'!E:E) - 1
+Bonus Ep Count,"=COUNTIF('Pod Data Detail'!C:C, ""BONUS"")"
+Regular Ep Count,=B2-B3 - 1
+Claimed,=COUNTA('Pod Data Detail'!I:I) - 1
+Not yet claimed,=B2-B5
+Review count,=COUNTA('Pod Data Detail'!K:K)
+Not yet reviewed,=B2-B7
+Reviewed percentage,=B7/B2
+
+Episode Length
+Average Length,=AVERAGE('Pod Data Detail'!G:G)
+Median Length,=MEDIAN('Pod Data Detail'!G:G)
+Longest Ep,=MAX('Pod Data Detail'!G:G)
+Shortest Ep,=MIN('Pod Data Detail'!G:G)
+
+MMMs
+Average MMM,=AVERAGE('Pod Data Detail'!K:K)
+Median MMM,=MEDIAN('Pod Data Detail'!K:K)
+Max MMM,=max('Pod Data Detail'!K:K)
+Min MMM,=min('Pod Data Detail'!K:K)
+Total MMM,=sum('Pod Data Detail'!K:K)
+Total Minutes,=SUM('Pod Data Detail'!H:H)
+MMM/Minute,=B22/B23
+MMM/Hour,=(B22/B23) *60

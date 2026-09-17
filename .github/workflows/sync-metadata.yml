@@ -2,6 +2,8 @@ name: Sync Metadata
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * *" # Daily at 10 AM UTC (3 AM PT): refresh metadata + sheet backup
 
 permissions:
   contents: write
@@ -41,16 +43,22 @@ jobs:
       - name: Regenerate legacy data/episode-metadata.json
         run: node --import tsx ./scripts/sync-legacy-metadata-json.ts
 
+      - name: Snapshot every sheet tab to data/sheet-backup
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY_FILE: /tmp/gcp-sa-key.json
+        run: npm run snapshot-sheet
+
       - name: Commit and push metadata changes
         run: |
-          if git diff --quiet -- src/lib/metadata-data.ts data/episode-metadata.json; then
+          git add -N data/sheet-backup
+          if git diff --quiet -- src/lib/metadata-data.ts data/episode-metadata.json data/sheet-backup; then
             echo "No metadata changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/lib/metadata-data.ts data/episode-metadata.json
-          git commit -m "chore(metadata): sync sheet metadata"
+          git add src/lib/metadata-data.ts data/episode-metadata.json data/sheet-backup
+          git commit -m "chore(metadata): sync sheet metadata and snapshot"
           git pull --rebase origin master
           git push origin HEAD:master

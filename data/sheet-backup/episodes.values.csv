@@ -1,0 +1,330 @@
+episode_id,pod,season,title,release_date
+1,DP,1,Dune (1965) Part 1,6/5/2020
+2,DP,1,Dune (1965) Part 2,6/10/2020
+3,DP,1,Blade Runner 2049 (2017),6/17/2020
+4,DP,1,Arrival (2016),6/23/2020
+5,DP,1,Call Me By Your Name (2017),6/30/2020
+6,DP,1,No Country for Old Men (2007),7/6/2020
+7,DP,1,Ex Machina (2014),7/13/2020
+8,DP,1,Dune Messiah (1969) Part One,7/21/2020
+9,DP,1,Dune Messiah (1969) Part Two,7/28/2020
+10,DP,1,Sicario (2015),8/4/2020
+11,DP,1,Jodorowsky's Dune (2013),8/10/2020
+12,DP,1,Dune (1984),8/24/2020
+13,DP,2,Little Women (2019),9/1/2020
+14,DP,2,Euphoria (2019),9/7/2020
+15,DP,2,Dune Official Trailer Reaction Episode (2020),9/9/2020
+16,DP,2,Enemy (2013),9/15/2020
+17,DP,2,Rogue One (2016),9/22/2020
+18,DP,2,Children of Dune (1976) Part One,9/28/2020
+19,DP,2,Children of Dune (1976) Part Two,10/6/2020
+20,DP,2,Zardoz (1974),10/12/2020
+21,DP,2,Mission Impossible: Fallout (2018),10/19/2020
+22,DP,2,Prisoners (2013),10/26/2020
+23,DP,2,Lady Bird (2017),11/2/2020
+24,DP,2,Drive (2011),11/9/2020
+25,DP,2,Tim O'Reilly's Frank Herbert (1981),11/17/2020
+26,DP,3,Frank Herbert's Dune (2000),1/18/2021
+27,DP,3,The Greatest Showman (2017),1/25/2021
+28,DP,3,The King (2019),2/1/2021
+29,DP,3,Polytechnique (2009),2/8/2021
+30,DP,3,God Emperor of Dune (1981),2/14/2021
+31,DP,3,Inside Llewyn Davis (2013),2/23/2021
+32,DP,3,Ladyhawke (1985),3/1/2021
+33,DP,3,Ronin (1998),3/8/2021
+34,DP,3,David Lynch's Lost Highway (1997),3/14/2021
+35,DP,3,Skyfall (2012),3/21/2021
+36,DP,3,TENET (2020),3/28/2021
+37,DP,3,The Big Lebowski (1998),4/4/2021
+38,DP,3,True Grit (2010),4/11/2021
+39,DP,3,Malcolm and Marie (2021),4/18/2021
+40,DP,3,Interstellar (2014),4/25/2021
+41,DP,3,Excalibur (1981),5/2/2021
+42,DP,3,Blue Velvet (1986),5/9/2021
+43,DP,3,Edge of Tomorrow (2014),5/16/2021
+44,DP,3,The Transformers: The Movie (1986),5/23/2021
+45,DP,3,I Love You to Death (1990),5/30/2021
+46,DP,3,Nausicaä of the Valley of the Wind (1984),6/6/2021
+47,DP,3,Inherent Vice (2014),6/13/2021
+48,DP,3,Heretics of Dune (1981),6/20/2021
+49,DP,3,Incendies (2010),6/27/2021
+49b1,DP,3,WarGames (1983),7/4/2021
+49b2,DP,3,Good Will Hunting (1997),7/11/2021
+50,DP,4,Time Bandits (1981),7/18/2021
+51,DP,4,IMAX Dune Premiere Reaction (2021),7/22/2021
+52,DP,4,Labyrinth (1986),7/25/2021
+53,DP,4,Source Code (2011),8/1/2021
+54,DP,4,Batman (1989),8/8/2021
+55,DP,4,Alien (1979),8/15/2021
+56,DP,4,Blade Runner (1982),8/22/2021
+57,DP,4,Star Trek IV: The Voyage Home (1986),8/30/2021
+58,DP,4,Mulholland Drive (2001),9/5/2021
+59,DP,4,Chapterhouse Dune (1985),9/12/2021
+60,DP,4,Face/Off (1997),9/19/2021
+61,DP,4,Prince of Darkness (1987),9/26/2021
+62,DP,4,Escape from New York (1981),10/4/2021
+63,DP,4,The Thing (1982),10/10/2021
+64,DP,4,Denis Villeneuve Interview - Dune (2021) Spoiler Free Reactions,10/14/2021
+65,DP,4,Donnie Darko (2001),10/17/2021
+66,DP,4,Dune (2021),10/23/2021
+67,DP,4,Dune (2021) Production Designer Patrice Vermette,10/30/2021
+68,DP,4,12 Monkeys (1995),11/2/2021
+69,DP,4,Aliens (1986),11/7/2021
+70,DP,4,2001: A Space Odyssey (1968),11/14/2021
+71,DP,4,Children of Men (2006),11/22/2021
+72,DP,4,Contact (1997),11/28/2021
+73,DP,4,Lawrence of Arabia (1962),12/5/2021
+74,DP,4,Cloud Atlas (2012),12/12/2021
+75,DP,4,Die Hard (1988),12/19/2021
+76,DP,4,TRON (1982),12/24/2021
+77,DP,4,TRON: Legacy (2010),12/31/2021
+78,DP,5,The French Dispatch (2021),1/9/2022
+79,DP,5,Ghostbusters (1984),1/17/2022
+79b1,DP,5,ON DECK - STATION ELEVEN (2021),1/20/2022
+80,DP,5,Starship Troopers (1997),1/23/2022
+81,DP,5,The Thin Red Line (1998),1/30/2022
+82,DP,5,Bound (1996),2/6/2022
+83,DP,5,Kill Bill: Vol. 1 (2003),2/13/2022
+84,DP,5,Kill Bill: Vol. 2 (2004),2/20/2022
+85,DP,5,Michael Clayton (2007),3/6/2022
+86,DP,5,The Adventures of Buckaroo Banzai Across the 8th Dimension (1984),3/13/2022
+87,DP,5,Glengarry Glen Ross (1992),3/21/2022
+88,DP,5,Krull (1983),3/27/2022
+89,DP,5,Dark City (1998),4/3/2022
+90,DP,5,1917 (2019),4/10/2022
+91,DP,5,Dune Scholar Interview (2022),4/17/2022
+92,DP,5,Tombstone (1993),4/24/2022
+93,DP,5,Poltergeist (1982),5/1/2022
+94,DP,5,Raising Arizona (1987),5/8/2022
+95,DP,5,The Hidden (1987),5/15/2022
+96,DP,5,Sneakers (1992),5/22/2022
+97,DP,5,The Fifth Element (1997),5/29/2022
+98,DP,5,Logan's Run (1976),6/5/2022
+99,DP,5,Highlander (1986),6/12/2022
+100,DP,5,The Black Hole (1979),6/19/2022
+100b1,DP,5,Dune (1965) EPISODE 1: SPECIAL EDITION,6/26/2022
+101,DP,6,Heat (1995),7/3/2022
+102,DP,6,Showgirls (1995),7/10/2022
+103,DP,6,Southland Tales (2006),7/18/2022
+103b1,DP,6,1 Year Anniversary of the Dune IMAX Sneak Preview Event,7/21/2022
+104,DP,6,Rango (2011),7/24/2022
+105,DP,6,Johnny Mnemonic (1995),7/31/2022
+106,DP,6,Enemy Mine (1985),8/7/2022
+107,DP,6,The Dead Zone (1983),8/14/2022
+108,DP,6,Outland (1981),8/21/2022
+109,DP,6,Conan the Barbarian (1982),8/28/2022
+110,DP,6,Climax (2018),9/4/2022
+111,DP,6,Red Dawn,9/11/2022
+112,DP,6,The Terminator (1984),9/18/2022
+113,DP,6,Superman III (1983),9/25/2022
+114,DP,6,Network (1976),10/2/2022
+115,DP,6,Children of Dune (2003),10/9/2022
+116,DP,6,Legend (1985),10/16/2022
+117,DP,6,Memento (2001),10/23/2022
+118,DP,6,Big Trouble in Little China (1986),10/31/2022
+119,DP,6,Galaxy Quest (1999),11/7/2022
+120,DP,6,Elvis (2022),11/13/2022
+121,DP,6,Out of Sight (1998),11/21/2022
+122,DP,6,Episode originallly released 11/28/2022 (Episode 122 of Dune Pod) - Gyus talk about their Summer Break - Disney talk -,11/28/2022
+123,DP,6,Bones and All (2022),12/5/2022
+124,DP,6,Rounders (1998),12/12/2022
+125,DP,6,Three Days of the Condor (1975),12/19/2022
+126,DP,6,Terminator 2 - Judgment Day (1991),12/24/2022
+127,DP,6,Real Genius (1985),12/31/2022
+128,DP,6,A League of Their Own (1992),1/8/2023
+129,DP,6,EMERGENCY EP - Watch Talk (2023),1/15/2023
+130,DP,6,Spectre (2015),1/22/2023
+131,DP,6,Crouching Tiger Hidden Dragon (2000),1/30/2023
+132,DP,6,Hackers (1995),2/5/2023
+133,DP,6,Election (1999),2/12/2023
+134,DP,6,GATTACA (1997),2/19/2023
+135,DP,6,The Long Kiss Goodnight (1996),2/26/2023
+136,DP,6,The Running Man (1987),3/5/2023
+137,DP,6,Aquaman (2018),3/12/2023
+138,DP,6,Arrival (2016) and Shadow & Bone (2023) Behind the Scenes with Eric Heisserer,3/16/2023
+139,DP,6,Train to Busan (2016),3/19/2023
+140,DP,6,Close Encounters of the Third Kind (1977),3/26/2023
+141,DP,6,The Matrix (1999),4/2/2023
+142,DP,6,Rollerball (1975),4/9/2023
+143,DP,6,Demolition Man (1993),4/16/2023
+144,DP,6,Game Night (2018),4/23/2023
+145,DP,6,Invasion of the Body Snatchers (1978),4/30/2023
+145b1,DP,6,BONUS: Emergency Dune Part Two Trailer Reactions (2023),5/3/2023
+146,DP,6,The Harder They Come (1972),5/7/2023
+146b1,DP,6,BONUS: Silo Episodes 1 & 2 (2023),5/9/2023
+147,DP,6,Popeye (1980),5/14/2023
+147b1,DP,6,BONUS: Silo Hugh Howey Interview & Episode 3 (2023),5/16/2023
+148,DP,6,The Hudsucker Proxy (1994),5/21/2023
+149,DP,6,Boyz n the Hood (1991),5/28/2023
+150,DP,6,Brazil (1985),6/4/2023
+151,EH,7,Back to the Future (1985),6/23/2023
+152,EH,7,The Fugitive (1993),7/2/2023
+153,EH,7,Heavy Metal (1981),7/9/2023
+154,EH,7,Star Trek II: The Wrath of Khan (1982),7/16/2023
+155,EH,7,The Princess Bride (1987),7/23/2023
+156,EH,7,Flight of the Navigator (1986),7/30/2023
+157,EH,7,The Bourne Identity (2002),8/6/2023
+158,EH,7,The NeverEnding Story (1984),8/13/2023
+159,EH,7,Her (2013),8/20/2023
+160,EH,7,Broken Arrow (1996),8/27/2023
+160b1,EH,7,WGA - SAG-AFTRA Discussion with Patrick Somerville & Hoon Lee (2023),9/1/2023
+161,EH,7,Pulp Fiction (1994),9/3/2023
+162,EH,7,The Last of the Mohicans (1992),9/10/2023
+163,EH,7,The Rocketeer (1991),9/17/2023
+164,EH,7,The Devil's Advocate (1997),9/24/2023
+165,EH,7,Solarbabies (1986),10/1/2023
+166,EH,7,Speed (1994),10/8/2023
+167,EH,7,Star Wars: Episode VIII - The Last Jedi (2017),10/15/2023
+168,EH,7,To Live and Die in L.A. (1985),10/22/2023
+169,EH,7,Mad Max: Fury Road (2015),10/29/2023
+170,EH,7,Inside Man (2006),11/5/2023
+171,EH,7,Across the Spider Verse (2023) and Aspen Extreme (1993),11/12/2023
+172,EH,7,Flash Gordon (1980),11/19/2023
+173,EH,7,The Andromeda Strain (1971),11/26/2023
+174,EH,7,X-Men (2000),12/3/2023
+175,EH,7,The Last Boy Scout (1991),12/10/2023
+175b1,EH,7,BONUS: Emergency Dune Part Two Trailer 3 Reactions (2024),12/13/2023
+176,EH,7,Ghost in the Shell (1995),12/17/2023
+177,EH,7,Trading Places (1983),12/24/2023
+178,EH,7,The Dark Crystal (1982),12/31/2023
+179,EH,7,Jurassic Park (1993),1/14/2024
+180,EH,7,Event Horizon (1997),01/28/2024
+181,EH,7,Altered States (1980),2/4/2024
+182,EH,7,Eraserhead (1977),2/11/2024
+183,EH,7,Warrior (2019 - 2023),2/16/2024
+184,EH,7,Sunshine (2007),2/25/2024
+185,EH,7,Dune: Part Two (2024),3/2/2024
+186,EH,7,Escape Hatch Live Dune: Part Two IMAX Premiere Celebration (2024),3/4/2024
+187,EH,7,Inception (2010),3/10/2024
+188,EH,7,SXSW (2024) and The Fountain (2006),3/18/2024
+189,EH,7,Total Recall (1990) and House of the Dragon S2 (2024),3/24/2024
+190,EH,7,Miller's Crossing (1990),3/31/2024
+191,EH,7,Alita Battle Angel,4/7/2024
+192,EH,7,Crimson Tide,4/14/2024
+192b1,EH,7,BONUS: Civil War (2024),4/17/2024
+193,EH,7,The Hunt for Red October (1990),4/21/2024
+194,EH,7,Speed Racer (2008),4/28/2024
+195,EH,7,The Matrix Reloaded (2003),5/5/2024
+196,EH,7,Seven Samurai (1954),5/12/2024
+197,EH,7,Gladiator (2000),5/19/2024
+198,EH,7,Noah (2014),5/26/2024
+199,EH,7,Spider-Man 2 (2004),6/2/2024
+200,EH,7,Raiders of the Lost Ark (1981),6/9/2024
+201,EH,8,Tremors (1990),6/16/2024
+202,EH,8,They Live (1988),6/23/2024
+203,EH,8,The Taking of Pelham One Two Three (1974),6/30/2024
+204,EH,8,Being John Malkovich (1999),7/14/2024
+205,EH,8,Master and Commander: The Far Side of the World (2003),7/21/2024
+206,EH,8,The Goonies (1985),7/28/2024
+207,EH,8,Natural Born Killers (1994),8/4/2024
+208,EH,8,The King of Comedy (1982),8/11/2024
+209,EH,8,Annihilation (2018),8/18/2024
+210,EH,8,The Social Network (2010),8/25/2024
+211,EH,8,Clerks (1994),9/1/2024
+212,EH,8,Jaws (1975),9/8/2024
+213,EH,8,Marathon Man (1976),9/15/2024
+214,EH,8,The Chronicles of Riddick (2004),9/22/2024
+215,EH,8,Manhunter (1986),9/29/2024
+216,EH,8,Spider-Man: Into the Spider-Verse (2018),10/7/2024
+217,EH,8,Bullitt (1968),10/13/2024
+218,EH,8,Halloween (1978),10/20/2024
+219,EH,8,Predator (1987),10/27/2024
+220,EH,8,Twilight (2008),11/3/2024
+221,EH,8,American Movie (1999),11/10/2024
+222,EH,8,Dr. Strangelove: Or How I Learned to Stop Worrying and Start Loving the Bomb (1964),11/17/2024
+223,EH,8,Star Trek: The Motion Picture (1979),11/24/2024
+224,EH,8,Colossus: The Forbin Project (1970),12/8/2024
+225,EH,8,The Lord of the Rings: The Fellowship of the Ring (2001),12/15/2024
+226,EH,8,Kiss Kiss Bang Bang (2005),12/22/2024
+227,EH,8,Mailbag Episode!,12/29/2024
+228,EH,8,Best of Escape Hatch: The Matrix (1999),1/5/2025
+229,EH,8,The Warriors (1979),1/12/2024
+230,EH,8,Burn After Reading,1/19/2024
+231,EH,8,Constantine (2005),1/26/2025
+232,EH,8,Tinker Tailor Soldier Spy (2011),2/2/2025
+233,EH,8,The Godfather (1972),2/9/2025
+234,EH,8,2 Fast 2 Furious (2003),2/16/2025
+235,EH,8,Best of Escape Hatch: Galaxy Quest (1999),2/21/2025
+236,EH,8,King of New York (1990),3/2/2025
+237,EH,8,Dragonslayer (1981),3/9/2025
+238,EH,8,The French Connection (1971),3/16/2025
+239,EH,8,BONUS: Andor Season 1 Rewatch Episodes 1-3 - Ferrix Hammers (2022),3/18/2025
+240,EH,8,Repo Man (1984),3/23/2025
+241,EH,8,BONUS: Andor Season 1 Rewatch Episodes 4-6: The Eye (2022),3/25/2025
+242,EH,8,Gravity (2013),3/30/2025
+243,EH,8,BONUS: Andor Season 1 Rewatch Episodes 7-10: One Way Out (2022),4/2/2025
+244,EH,8,District 9 (2009),4/6/2025
+245,EH,8,BONUS: Andor Season 1 Rewatch Episodes 11-12: Rix Road (2022),4/8/2025
+246,EH,8,The Three Musketeers (1973),4/20/2025
+247,EH,8,BONUS: Andor Season 2 Ep1-Ep3: Harvest,4/23/2025
+248,EH,8,The Last Unicorn (1982),4/27/2025
+249,EH,8,BONUS: Andor Season 2 Episodes 4-6: Ever Been to Ghorman? (2025),5/2/2025
+250,EH,8,Episode 250: The Empire Strikes Back (1980),5/4/2025
+251,EH,8,BONUS: Andor Season 2 Ep7-Ep9 Welcome to the Rebellion (2025),5/8/2025
+252,EH,8,Rear Window (1954),5/11/2025
+253,EH,8,BONUS: Andor Season 2 Ep10-Ep12 Make It Stop (2025),5/17/2025
+254,EH,8,BONUS: Andor: Rogue One (2016),5/21/2025
+255,EH,8,High and Low (1963),5/25/2025
+256,EH,8,All That Jazz (1979),6/1/2025
+257,EH,8,Superman (1978),6/8/2025
+258,EH,8,Videodrome (1983),6/15/2025
+259,EH,8,Harakiri (1962),6/22/2025
+260,EH,8,The Godfather Part II (1974),6/29/2025
+261,EH,8,Grease (1978),7/6/2025
+262,EH,8,Best of Escape Hatch: Jaws (1975),7/11/2025
+263,EH,8,Best of Escape Hatch: Midsommar (2019),7/18/2025
+264,EH,8,Do the Right Thing (1989),7/27/2025
+265,EH,8,Goldeneye (1995),8/3/25
+266,EH,8,The Bourne Supremacy (2004),8/10/2025
+267,EH,8,Gone Girl (2014),8/17/2025
+268,EH,8,Jesus Christ Superstar (1973),8/24/2025
+269,EH,8,Sorcerer (1977),8/31/2025
+270,EH,8,The Creator (2023),9/7/2025
+271,EH,8,Mortal Kombat (1995),9/14/2025
+272,EH,8,Casablanca (1942),9/21/2025
+273,EH,8,Sunset Boulevard (1950),9/28/2025
+274,EH,8,BONUS: Emergency - One Battle After Another (2025),10/1/2025
+275,EH,8,RoboCop (1987),10/3/2025
+276,EH,8,Best of Escape Hatch: TRON: Legacy (2010),10/7/2025
+277,EH,8,The Birdcage (1996),10/12/2025
+278,EH,8,The Twilight Saga: New Moon (2009),10/19/2025
+279,EH,8,Margin Call (2011),10/26/2025
+280,EH,8,The Maltese Falcon (1941),11/2/2025
+281,EH,8,Rushmore (1998),11/7/2025
+282,EH,8,Hellraiser (1987),11/14/2025
+283,EH,8,The Running Man (2025) - LIVE,11/23/2025
+284,EH,8,Best of Escape Hatch: The Lord of the Rings: The Fellowship of the Ring (2001),11/30/2025
+285,EH,8,The Lord of the Rings - The Two Towers (2002),12/7/2025
+286,EH,8,Rambo: First Blood Part II (1985),12/14/2025
+287,EH,8,The Nice Guys (2016),12/21/2025
+288,EH,8,Best of Escape Hatch: Die Hard (1986),12/28/2025
+289,EH,8,Mailbag (2025),1/4/2026
+290,EH,8,The Prophecy (1995),1/11/2026
+291,EH,8,Adaptation (2002),1/18/2026
+292,EH,8,Starman (1984),1/25/2026
+293,EH,0,Panic Room (2002),2/1/2026
+294,EH,8,Point Blank (1967),2/8/2026
+295,EH,8,Fast Times at Ridgemont High (1982),2/15/2026
+296,EH,8,Best of Escape Hatch: No Country for Old Men (2007),2/22/2026
+297,EH,8,The Cable Guy (1996),3/1/2026
+298,EH,8,High Fidelity (2000),3/8/2026
+299,EH,8,Argo (2012),3/15/2026
+300,EH,8,The Shining (1980),3/17/2026
+301,EH,9,Project Hail Mary (2026),3/26/2026
+302,EH,9,Hard Boiled (1992),4/5/2026
+303,EH,9,Midnight Run (1988),4/19/2026
+304,EH,9,Battlestar Galactica,4/26/2026
+305,EH,9,The Prestige (2006),5/3/2026
+306,EH,9,The Last Starfighter (1984),5/10/2026
+307,EH,9,Batman & Robin (1997),5/14/2026
+308,EH,9,Almost Famous (2000),5/24/2026
+309,EH,9,Eyes Wide Shut (1999),5/28/2026
+310,EH,9,The Secret of NIMH (1982),6/5/2026
+311,EH,9,Minority Report (2002),6/14/2026
+312,EH,9,Fargo (1996),6/24/2026
+313,EH,9,Eternal Sunshine of the Spotless Mind (2004),7/5/2026
+314,EH,9,Star Trek VI: The Undiscovered Country (1991),7/12/2026
+315,EH,9,O Brother Where Art Thou? (2000),7/17/2026
+316,EH,9,The Odyssey (2026),7/22/2026
+317,EH,9,Barton Fink (1991),8/2/2026
+318,EH,9,E.T. the Extra-Terrestrial (1982),8/7/2026
