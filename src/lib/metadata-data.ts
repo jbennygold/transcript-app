@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 333 episodes - updated 2026-09-17
+// Auto-generated - do not edit - 334 episodes - updated 2026-09-18
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16011,5 +16011,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Lorne Balfe"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 323,
+    "film": "The Lost Boys (1987)",
+    "filmYear": 1987,
+    "releaseDate": "9/17/2026",
+    "length": "1:46:47",
+    "reviewer": "",
+    "guest": "Lorelei David / Nicolas Anastassiou",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
