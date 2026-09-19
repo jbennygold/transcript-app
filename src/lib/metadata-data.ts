@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 334 episodes - updated 2026-09-18
+// Auto-generated - do not edit - 334 episodes - updated 2026-09-19
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16032,9 +16032,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/lost-boys-1987-169854070",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a15cc9941f6f8e34d4f9fce1f",
+    "letterboxdLink": "https://letterboxd.com/film/the-lost-boys/",
+    "imdbLink": "https://www.imdb.com/title/tt0093437/"
   }
 ];
