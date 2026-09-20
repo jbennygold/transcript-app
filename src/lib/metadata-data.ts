@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 334 episodes - updated 2026-09-19
+// Auto-generated - do not edit - 334 episodes - updated 2026-09-20
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16020,18 +16020,18 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "filmYear": 1987,
     "releaseDate": "9/17/2026",
     "length": "1:46:47",
-    "reviewer": "",
+    "reviewer": "jason",
     "guest": "Lorelei David / Nicolas Anastassiou",
     "mmmCount": 0,
-    "thatsGreatCount": 0,
+    "thatsGreatCount": 7,
     "notableMoments": "",
     "hFlex": "N/A",
     "jFlex": "N/A",
     "kevsQuestion": "N/A",
-    "tildaH": "N/A",
-    "tildaJason": "N/A",
-    "tildaGuest": null,
-    "tildaCorey": null,
+    "tildaH": "David",
+    "tildaJason": "Diane Wiest",
+    "tildaGuest": "David",
+    "tildaCorey": "David",
     "showLink": "https://www.patreon.com/EscapeHatch/posts/lost-boys-1987-169854070",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a15cc9941f6f8e34d4f9fce1f",
     "letterboxdLink": "https://letterboxd.com/film/the-lost-boys/",
