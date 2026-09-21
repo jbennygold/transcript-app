@@ -16033,6 +16033,32 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/lost-boys-1987-169854070",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a15cc9941f6f8e34d4f9fce1f",
     "letterboxdLink": "https://letterboxd.com/film/the-lost-boys/",
-    "imdbLink": "https://www.imdb.com/title/tt0093437/"
+    "imdbLink": "https://www.imdb.com/title/tt0093437/",
+    "tmdbId": 1547,
+    "tmdbPosterPath": "/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Thriller"
+    ],
+    "directors": [
+      "Joel Schumacher"
+    ],
+    "cinematographers": [
+      "Michael Chapman"
+    ],
+    "cast": [
+      "Jason Patric",
+      "Corey Haim",
+      "Dianne Wiest",
+      "Barnard Hughes",
+      "Edward Herrmann",
+      "Kiefer Sutherland",
+      "Jami Gertz",
+      "Corey Feldman"
+    ],
+    "composers": [
+      "Thomas Newman"
+    ]
   }
 ]
