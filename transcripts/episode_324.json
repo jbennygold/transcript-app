@@ -1,0 +1,3956 @@
+{
+  "episode_number": 324,
+  "episode_name": "The Twilight Saga: Eclipse (2010)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:28",
+      "text": "I think we gotta talk about the tent. Oh my God, the tent! I think we— I just think we gotta talk about the tent."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:35",
+      "text": "And it's the return of the co-host of X-Ray Vision, Rosie Knight."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:40",
+      "text": "Follow the man. They picked him to be in charge of the AIs. He's gonna stop Skynet. He promised it right here, legally."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:47",
+      "text": "Hoahoa season resumes as we cover our Pat's and K-Stew's 3rd outing together. The Twilight Saga: Eclipse. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, Twilight Eclipse. All right, so listen, first of all, I'm very excited because we have some big AI, uh, things to talk about. And right off the gate, you know, Jason, I, I figured we would start with this one. I met a couple this weekend who recently had an anniversary night 3-way with Grok."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:41",
+      "text": "Oh my God, this is like the most Marin horror story I've ever heard. Go ahead."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:47",
+      "text": "Why are you testing me?"
+    },
+    {
+      "name": "C",
+      "timestamp": "1:49",
+      "text": "Continue."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:49",
+      "text": "Say more."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:50",
+      "text": "They were going into the city and they were going to have like a fun evening. And I guess Eve is maybe the name of the, of like the sexy bot or whatever Elon has built."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:01",
+      "text": "Yeah, the waifu."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:02",
+      "text": "And they said that it was actually really fun. And she was like, you know, tell him what you would like or tell her what you would like."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:08",
+      "text": "Like during sex?"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:10",
+      "text": "Or like flirting. And then maybe, I mean, I didn't ask a lot of follow-up questions, honestly. I just, I was like, I would save it for the pod. But apparently it was somewhat like spicy, but also like tasteful."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:24",
+      "text": "Just absolutely no. Like absolutely, absolutely, absolutely no."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:28",
+      "text": "I still call this thing ChatGPT. Like you ain't gonna get me talking to the sex bot. Don't talk about— you want me to give Elon Musk that information?"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:36",
+      "text": "Absolutely not."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:38",
+      "text": "Just send your— just DM your kinks directly to Elon. That's what I'm saying. Let him know what subreddits you frequent."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:46",
+      "text": "Guys, How many times, right, recently have you gotten— and this is not me starting a law firm, but it could be— how many times recently have you gotten like something like, oh, this company lost all your data, join the class action lawsuit, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "3:01",
+      "text": "Yeah, $100."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:01",
+      "text": "Always $35 you're getting. You're not getting anything special."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:05",
+      "text": "If you're lucky."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:06",
+      "text": "If you're lucky, $5 maybe. Can I say something? Like, is it worth— like, the check you are gonna get when that inevitably gets leaked is not worth it. Read each other erotic literature if you have to use the ChatGPT. GPT. Use it to write the things and say them to each other afterwards."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:23",
+      "text": "Oh, that's good."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:23",
+      "text": "I like that, Elon."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:25",
+      "text": "That's a good— that's a good friendly edit, guys."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:27",
+      "text": "I'm trying to kill the cop in my head around AI, okay?"
+    },
+    {
+      "name": "B",
+      "timestamp": "3:30",
+      "text": "I'm trying to not judge people."
+    },
+    {
+      "name": "A",
+      "timestamp": "3:33",
+      "text": "I understand it helps them, and you know what, everyone's using it. So like, there are ways to do it where you don't give it— don't like give the most vulnerable sides of yourself to a corporation. This guy— I guess what I'm saying I hear you."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:47",
+      "text": "I hear you. That's, that, that seems, that seems relevant. Well, what we really need is a little more thoughtful approach to AI and how we are working, uh, with it in our society. Jason, tell the people the news that dropped today, 'cause it seems pretty exciting."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:01",
+      "text": "Yeah, I'm excited about this. Like, so last Friday, uh, Gavin Newsom announced there'd be an executive order on AI safety in California, specifically to look at things like how a kill switch could be implemented and how this idea of embedded evaluators could work, which is something that Uh, Dario Amadei's letter, uh, on pacing the frontier calls for. Um, and then even just updating the definition of, like, what are critical incidents that happen at the labs? Because since the Hugging Face incident, there's, like, a real need to kind of revisit what even is possible."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:31",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "4:31",
+      "text": "And there have been a bunch, right? Like, there have been more, like, OpenAI had a bunch of—"
+    },
+    {
+      "name": "A",
+      "timestamp": "4:34",
+      "text": "every single day, if you go on Reddit, you will learn about a horrific incident or a wonderful incident, depending on which side you land on."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:43",
+      "text": "There is, um, there— yeah, there's like all these charts about like, you know, the number of felonies like committed by each guy, you know. Like, it's like when Google finally had one, they're like, we're so back, we're in the— we're on the frontier, our model's creating— our model is committing felonies."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:56",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "4:56",
+      "text": "Um, so, but then today Newsom announced one of the things this EO— one of those things this EO requires is a report, um, that like assesses these with a team of, uh, experts. And I was very gratified and honored to be named as one of the experts that will be consulting on this report, um, along with, um, well, Alondra Nelson, who's, uh, was, uh, Biden's, um, uh, worked on, uh, the AI blueprint, uh, for, uh, human rights, uh, under Biden, which I was a document I thought was really smart back in 2022-23. Um, Robert Reich from Stanford and Gillian Hadfield from, uh, Canada. And so we're gonna work on this on a 40-day sprint. Um, and, uh, and hopefully, um, I think, like, kind of foreruns some of the questions that eventual federal legislation will have to deal with as well in terms of evaluators and how these systems can be monitored and controlled. And yeah, I think it's a really smart effort and I'm excited to be a part of it."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:54",
+      "text": "That's awesome. I didn't realize it was for an executive order and that he was able to actually just sort of move on this right now."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:01",
+      "text": "So the report is for the executive order and then like one of the questions will be is like, is new legislation needed and whether or not that will be handled by this session of the California Legislature."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:11",
+      "text": "That's a rhetorical question."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:12",
+      "text": "Well, yeah, but yeah, I mean, like, it's a question of like what new legislation would call for, and then, um, and whether that will be handled by this session of the California legislature or a subsequent one. And then, like, as mentioned, I don't think either this obviates the need for action at the federal level. The challenge is at the federal level that like even after we take the House and potentially the Senate in 2027, you know, in January 2027, any regulation will still need to be signed. And not just signed, but you know, executed by the Trump administration. And so believing that like that will happen with the best interests of sort of consumer safety and, you know, sort of, you know, human safety at heart is difficult to believe. But we, you know, it's my belief that these are not questions that we can just kind of yada, yada, yada and delay until there's—"
+    },
+    {
+      "name": "B",
+      "timestamp": "7:04",
+      "text": "For another 3 years."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:05",
+      "text": "Yeah, for another— yeah, for another 2 years. So I think this is a— I think what Newsom came up with here is actually a really smart way to forerun some of the action that will be needed at the federal level. And, um, yeah, it's good. And it's like one of the nice things about being in California too is that like, yes, like all these industries are here and like it's like, all right, we get a say on this. Um, it's, you know, it's, you know, has echoes of what California did with emissions standards for cars. Um, and, um, I think it's smart. I think it's a smart set of business."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:34",
+      "text": "We do need to figure out how to Parallelize the federal track as well, because you're right, like, we just saw this year Trump completely dismantled the California emissions standards."
+    },
+    {
+      "name": "F",
+      "timestamp": "7:47",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:47",
+      "text": "So like, this is great, and it's a great example of us doing something, and other states will tend to follow California oftentimes. So we have a huge outsized impact, but it'll be great to figure out how we also push this as a template to be reused."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:01",
+      "text": "It's definitely no— it's definitely a no excuse. Like, there's gonna have to be stuff at the federal level. And like, the good news is, is like, you know, since like, you know, sort of the past couple of weeks, a lot of which is due because of the Coxon whistleblower thing, but also like the, the incidence of these, um, of these serious events being more common, like everyone's kind of like, all right, all right, like we're gonna have to do something."
+    },
+    {
+      "name": "A",
+      "timestamp": "8:23",
+      "text": "Like, you know, and so it's like, we gotta put in the basest of guardrails at this point."
+    },
+    {
+      "name": "G",
+      "timestamp": "8:28",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "8:29",
+      "text": "And except for Jensen and fucking the All In guys who are Like, you know, irredeemable."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:34",
+      "text": "It's interesting, like Jensen— so there's a new interview with Jensen Huang, CEO of Nvidia, out with Ezra Klein this morning. And like his general approach is exceptionally laissez-faire. It is. Ezra really pushes him on like the, you know, are you, are you sure that liability— like it doesn't seem that liability will constrain here. And they have a bunch of back and forth about that. And like in the end, even Jensen agrees that there needs to be Evaluators, independent evaluators making assessments of these models. So it's like once you kind of push people down the logic chain, you do tend to get like sort of a, all right, like, and the reason is, is because like this is not novel to like the technology is novel and the risk pose are novel. And there's a lot of reasons to be concerned and interested and aware of that. But, you know, the banking industry exists and like regulation exists within the context of the banking industry."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:30",
+      "text": "Like the medical industry."
+    },
+    {
+      "name": "C",
+      "timestamp": "9:31",
+      "text": "We don't need to invent whole cloth the idea of of what oversight looks like at different levels of authority. And once you sort of say it's like, well, like, you know, what if there was just some industry-led standards, but then also a regulator who could bring down, like, you know, more serious enforcement if that were needed? And what if there was just forced disclosures about what was being seen? Like, it kind of just becomes like opposing that makes you sound like you think there should be no regulations on anything."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:58",
+      "text": "Can I ask a question? 'Cause I'm realistically gonna plead the Fifth about, like, most of my opinions about Gavin Newsom after this week. But, like—"
+    },
+    {
+      "name": "C",
+      "timestamp": "10:04",
+      "text": "Of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:05",
+      "text": "Of course. But I am interested I'm interested, do you feel like from an outside perspective, I do feel like people who were previously pro the kind of like, it's raw, it's transgressive, it's organic, we don't need regulations. I feel like once Trump said they didn't need regulations, people are like kind of wanting to separate themselves from that. Have you felt like that is noticeable in the industry? Because from the outside, it does feel like that."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:34",
+      "text": "I think the industry, which has taken a very— like, has taken advantage of the Trump years to both, like, suck up to Trump and, like, you know, sort of be like, we can do it, it's, you know, it's all gas, no brake, and, like, you know, there's no one, you know, no one's awake at the switch to sort of, like, deal with these questions at the federal level. They've definitely sort of pushed their advantage during this time. I think that many of the players, although not all in the space, realize that The clock is going to strike midnight on that particular philosophy, and they're going to have to modulate. There's a couple reasons for that to be true. One is, is just that you know there's going to be a Democratic Congress in you know in January of 2027. Like maybe it's just the House, maybe it's the Senate and the House, but even with just the House, like we are going to call for hearings, and so there's going to be a level of scrutiny on this that hasn't happened."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:23",
+      "text": "The administration can refuse hearings; they can refuse subpoenas, but like industry cannot just be like we're not we're not coming."
+    },
+    {
+      "name": "H",
+      "timestamp": "11:30",
+      "text": "Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:30",
+      "text": "I think."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:32",
+      "text": "I think that's why it feels like to a lot of people, the swing of industry to the right is to proactively protect themselves. But if that Democratic swing happens, they can't do that, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "11:42",
+      "text": "'Cause they're not gonna allow it."
+    },
+    {
+      "name": "E",
+      "timestamp": "11:44",
+      "text": "It's already happening."
+    },
+    {
+      "name": "H",
+      "timestamp": "11:44",
+      "text": "Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:44",
+      "text": "It's already swinging back. Exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:45",
+      "text": "They're gonna have to modulate. Now, the other reason it's happening for Republicans, for ours, is that this is not a partisan issue. Like, it is not the case that only Democrats are concerned about AI for a variety— it's not the case that Democrats are the only ones who are concerned about data centers. It's not the face that Democrats are the only one concerned about AI. Like, you know, this is something over at the Center for Shared AI Prosperity that I work on. Like, we have a lot of longitudinal data on public opinion, and it is a bipartisan issue. It's like when you ask people on the data center question, it's like when you ask people like, do they want to have a data center next to them? It polls worse than having a nuclear power plant next to them. And again, this is like a— you see this on a bipartisan basis. If you include sweeteners like all data centers, you know, all costs will be paid for, And, you know, like, you won't bear any of the externalities. The opinion about that improves, but it brings it online with, I would like to have a methadone clinic in my neighborhood. Like, it is incredibly unpopular. And now you're seeing, like, the salience of the safety questions start to pop to the top of the chart again on a bipartisan basis. And some, depending on the question's phrase, maybe more Ds than Rs, but Rs also. And you're seeing folks on the right, you know, like Ron DeSantis has actually had a fair amount of, like, highly critical of the—"
+    },
+    {
+      "name": "H",
+      "timestamp": "13:01",
+      "text": "Wow."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:03",
+      "text": "The tweets about— yeah, it's just like Greg Abbott's— Greg Abbott's data center plan, if enacted, would make it actually impossible for a data center to be built in the state of Texas because it would extend vicarious liability to the data center manufacturers for any misuse of AI. So which is just like not a standard that the, that the hyperscalers would take on. Like, it's just like it is, it is a wild—"
+    },
+    {
+      "name": "A",
+      "timestamp": "13:29",
+      "text": "Possible standard, which is the point."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:31",
+      "text": "Right, right."
+    },
+    {
+      "name": "J",
+      "timestamp": "13:32",
+      "text": "Ruling."
+    },
+    {
+      "name": "H",
+      "timestamp": "13:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:34",
+      "text": "But, and so it's like, and so it's like, you know, like it's— I think the politics, like it is inconceivable to me that the person who runs for the Republican nomination for president in 2028 will be to the right of Donald Trump on the question of, uh, of AI. They will almost by definition have to be more restrictive. And I think like that is why you're going to see the tech companies as well start to modulate their tone on this."
+    },
+    {
+      "name": "F",
+      "timestamp": "13:59",
+      "text": "Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:00",
+      "text": "All right, sounds like we got it in hand."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:02",
+      "text": "Um, so they got the good guy on it."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:05",
+      "text": "Jason, just take care of it, all right? Don't fuck it up."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:08",
+      "text": "Jason, well, the good news is my, my part's just 40 days, so it'll be done. It'll be done."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:12",
+      "text": "Uh, that is a biblical number, so let's not play it down, okay? I'm expecting big things from you all."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:18",
+      "text": "Okay, I can see Tilda's— Tilda the Wing's coming out already."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:21",
+      "text": "No sex for 40 days, okay?"
+    },
+    {
+      "name": "C",
+      "timestamp": "14:22",
+      "text": "While you do this, it's like a boxer preparing for a championship."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:27",
+      "text": "Don't do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:29",
+      "text": "No Nut November. Exactly. All right. Okay. Oh Jesus. Listen, so that was really that is a really great a really great thing, Jason. We're very proud and and very excited."
+    },
+    {
+      "name": "H",
+      "timestamp": "14:40",
+      "text": "Thank you."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:41",
+      "text": "And we thank you. Thank you for your service, guys. We are back because it is Hoa Hoa season."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:48",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:48",
+      "text": "Once again."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:49",
+      "text": "Oh, thank God."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:50",
+      "text": "And tonight on the pod, it is the return of our beloved. Co-host of X-Ray Vision, Rosie Knight. Rosie, welcome back."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:01",
+      "text": "Oh, thank you for having me. I'm so excited to be here. Ho'ohoa season, it's officially fall. It's time to return."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:08",
+      "text": "Barely."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:09",
+      "text": "We never thought we'd do— I mean, yeah, it's like 80 degrees in LA, so, you know, I'm ho'ohoaring the best I can."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:16",
+      "text": "That's right, from inside. Uh, well, we— yeah, we are continuing our journey. I agree with you, everyone knows I don't don't do bad movies on this podcast, and I've really only made a very, very small handful exceptions."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:29",
+      "text": "And this is not an exception. Almost all of this—"
+    },
+    {
+      "name": "A",
+      "timestamp": "15:32",
+      "text": "I'm so proud. I would say that is a subjective opinion in most cases. Yes, but sometimes objective. I'm not going to argue on some of them."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:40",
+      "text": "Batman and Robin, we'll just—"
+    },
+    {
+      "name": "C",
+      "timestamp": "15:42",
+      "text": "let's not even—"
+    },
+    {
+      "name": "B",
+      "timestamp": "15:42",
+      "text": "don't make another clip."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:44",
+      "text": "Let's not relitigate. Let's not relitigate that. Yeah, let's move forward."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:47",
+      "text": "Moving forward. So tonight we are doing 2010's 3rd in the entry, 3rd entry in the series, Twilight Eclipse."
+    },
+    {
+      "name": "J",
+      "timestamp": "15:57",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:57",
+      "text": "Boom, boom. And we will be doing that in just a few minutes at the bottom of the hour. Before we do, Jason, next week we keep the X-ray vision love going."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:12",
+      "text": "Whoa!"
+    },
+    {
+      "name": "E",
+      "timestamp": "16:12",
+      "text": "We do?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:13",
+      "text": "As we welcome onto the podcast for his very first time."
+    },
+    {
+      "name": "I",
+      "timestamp": "16:17",
+      "text": "Oh my gosh."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:18",
+      "text": "Super producer Abu."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:19",
+      "text": "No way!"
+    },
+    {
+      "name": "C",
+      "timestamp": "16:20",
+      "text": "Oh my gosh."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:21",
+      "text": "Joining us, he is also, Jason, the co-host of the Gom Jabbar podcast."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:26",
+      "text": "I know, I know."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:28",
+      "text": "The real Dune podcast."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:30",
+      "text": "The real Dune podcast. We love— Abu is the best. This is making me so happy. I had no idea. He's very busy."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:36",
+      "text": "Can't wait."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:37",
+      "text": "That's gonna fucking bang. Perfect guy."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:39",
+      "text": "Cannot wait. And I offered him, you know, pretty much a pretty wide pick there in the Summer of Jason mode. And he chose Nolan's, which he apparently had never seen. But we're going to keep the hot Nolan summer going. We're doing Dunkirk."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:55",
+      "text": "Oh, amazing. I'm very excited."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:57",
+      "text": "I remember the lads."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:59",
+      "text": "Do you remember the lads? Remember the lads?"
+    },
+    {
+      "name": "A",
+      "timestamp": "17:03",
+      "text": "Don't forget the lads. Never forget the lads."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:06",
+      "text": "Never forget the lads."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:07",
+      "text": "Now, you may be wondering, what about the famous British Navy?"
+    },
+    {
+      "name": "A",
+      "timestamp": "17:11",
+      "text": "Don't get me started on them."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:13",
+      "text": "Started on the fucking Navy."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:15",
+      "text": "All right, so that is next week. Abu for Dunkirk."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:19",
+      "text": "That's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:19",
+      "text": "Love that. Love to hear it."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:21",
+      "text": "Haitch news."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:23",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "C",
+      "timestamp": "17:24",
+      "text": "Haitch news from beyond."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:30",
+      "text": "Let's just start also dropping today. Like, I walked out this morning, I was going to make my first cup of coffee, and April was like on the couch and she was listening to something and it was like menacing music and people talking."
+    },
+    {
+      "name": "H",
+      "timestamp": "17:43",
+      "text": "Yeah, baby."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:43",
+      "text": "And of course, it was the Everything You Can See trailer."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:47",
+      "text": "Oh my God, dude, the new one, guys, are you ready? So crazy. It's so exciting. I love— have you seen this, Rosie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "17:53",
+      "text": "Oh my God, I've watched it like 500 times."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:56",
+      "text": "Like, but the new one, the one that dropped— no, no, no, the one that dropped like 2 hours ago."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:59",
+      "text": "Trust me, people know to send me the Nathan Fielder shit. And also, like, I like stuff about weird women. Like, I, I like weird, complicated women."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:08",
+      "text": "Well, you're getting it."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:09",
+      "text": "Women's, women's wrongs, women's rights. What do we say?"
+    },
+    {
+      "name": "A",
+      "timestamp": "18:11",
+      "text": "Yeah, we like— we support women's rights and wrongs. Sometimes it's a complicated example of that. But I will say, the thing I think that has been speaking to all of us since they first surprise dropped the teaser after the first group of people got to see it is like, has Nathan met his match? Right."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:30",
+      "text": "It's the fake psychopath meeting the real sociopath. The real psychopath."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:34",
+      "text": "Or antisocial behavioral disorder. Totally. Like, there are moments in these trailers where you start to realize there is like a— he is starting to realize he's being outthought. He's being like outplayed."
+    },
+    {
+      "name": "H",
+      "timestamp": "18:45",
+      "text": "And the way that they do it with The like Blade Runner style, like, cut."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:51",
+      "text": "It's just so good."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:52",
+      "text": "Yeah, the, the thing that it reminded me of, uh, was I was like, oh, this— it looks like and has the vibe of like the minutes before Daniel Day-Lewis gets fed the poison mushroom omelet in Phantom Thread. Like, it's just like, it's very— it's like, it is— it's intimate. It is intimate and menacing. Like, that is the— that is the vibe of this—"
+    },
+    {
+      "name": "J",
+      "timestamp": "19:16",
+      "text": "of this thing."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:17",
+      "text": "Yeah, the movie is like so interesting to me on so many levels because, as many people have pointed out, it's not an original take. But like, to even understand the mind of someone who is about to go into jail and invite someone else into their home when they've just had a baby specifically, and like this is the last chance to spend with their family. That in itself is such an unbelievable mind to even have someone like really simple, like an Alex Cox or whatever, like an old school."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:48",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:48",
+      "text": "Um, and his stuff's being relooked at now with like the way people think about Eileen Wuornos. But like the— even a simple documentary about that mindset is interesting. But to have Nathan go in and think he's gonna be able to do something, but the whole time be like, oh fuck. And the fact it's been 3 years And he obviously played into her own sensibilities and ego enough that she's cool with him releasing it."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:13",
+      "text": "Yeah."
+    },
+    {
+      "name": "H",
+      "timestamp": "20:14",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:14",
+      "text": "And she's now like tweeting and stuff, and like she's in the conversation."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:18",
+      "text": "Well, her and her ex, I believe— or not ex, her and her new partner, I believe, are relaunching a version of Theranos, but different name."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:26",
+      "text": "So why not?"
+    },
+    {
+      "name": "A",
+      "timestamp": "20:28",
+      "text": "The posters are all over LA. It's crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:30",
+      "text": "Yeah. Apparently he's like the sleeper element of the movie because everyone's thinking about Nathan and her, And he is apparently quite an interesting character."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:39",
+      "text": "Well, also, can I— may I put something that people are theorizing about that may be a spoiler? Apparently, the buzz in LA is there is a lot of Amanda Seyfried talk."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:50",
+      "text": "I know."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:52",
+      "text": "Oh, wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "20:52",
+      "text": "And she's in the documentary. And when people ask about it, she's just like, I'm so excited to see it. It looks so crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:58",
+      "text": "You never know what Nathan— yeah, it's so crazy. You never know what Nathan will do or where her turn will be."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:02",
+      "text": "I mean, imagine that he did some kind of rehearsal-esque thing. Situation where he had them in a room, both like imagining what it would be like to be in prison or some shit."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:12",
+      "text": "Like, okay, I can so see it."
+    },
+    {
+      "name": "C",
+      "timestamp": "21:14",
+      "text": "I can just—I could definitely see it. I 100% could see it. I—I am very excited for you to see this in particular, Rosie, because I am excited to see sort of the tension for you on the we celebrate women's rights and women's wrongs. That—that idea meet like sort of like you know the Elizabeth Holmes like crimes of capitalism critique."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:36",
+      "text": "Like, the thing is, look, I'm not."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:38",
+      "text": "I'm not gonna lie, this is not a pro-Elizabeth Holmes take."
+    },
+    {
+      "name": "J",
+      "timestamp": "21:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:41",
+      "text": "But as many people have pointed out, she was just worse at doing crimes that a lot of men get away with, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "21:48",
+      "text": "It is true. It is true."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:49",
+      "text": "And that's the thing is like, but what is interesting is the legacy that she's built and the personality she's decided to take on, which is one of no accountability, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "21:58",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:59",
+      "text": "And complete denial. That is, I think, what makes her so unusual to people and why it makes it hard to support her, you know. No one's—"
+    },
+    {
+      "name": "C",
+      "timestamp": "22:07",
+      "text": "It's hard to root for her."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:08",
+      "text": "No one's out here being like, she did the right thing. Like, no, she scammed loads of people based on the faith and hope. But that's also what a lot of tech is, and especially in the medical industry. But like, it— I think it makes her intriguing because she keeps pushing herself into the spotlight, and that feels like it's, it's, it's the energy of somebody who wants to get caught, you know. It's the returning to the crime scene, and that is—"
+    },
+    {
+      "name": "B",
+      "timestamp": "22:29",
+      "text": "I'll just say, it's in the public consciousness."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:32",
+      "text": "Yeah, it's definitely intriguing."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:34",
+      "text": "It's also the first time April has ever texted me and said, \"Get tickets for that.\" Wow! I was like, okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:40",
+      "text": "It finally paid. It finally paid off for April."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:43",
+      "text": "We'll go have a date in the city."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:44",
+      "text": "I gotta say, it'll just be the two of us. I know Nathan has obviously been and Grokbot blazing his own trail for this. We got to give him the credit. He is Nathan. He did Nathan for you. He did Vessel and everything. But I want to say, I think Tim Robinson needs a little bit of credit here. Yeah, because I do think that Tim Robinson. Introduced, while it could have become a Rick and Morty-esque meme, and there wasn't moments where women were like, oh, my boyfriend won't stop quoting this, or whatever, the actual success of I Think You Should Leave Now, and the 3rd season, and when it went on Netflix, and the cultural impact of it, and like how huge it was, has established and allowed people to like weirder shit. That's why I think you have people who couldn't— who would say, I don't watch The Office, it's cringe comedy. And now they're like, that's the movie I need to see."
+    },
+    {
+      "name": "H",
+      "timestamp": "23:28",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:29",
+      "text": "Because it's a different thing, right? And it's also been opened up to their mind of absurdist comedy. So I'm really glad we're in this era. And like, this and Prime Time are probably my 2 most excited to see movies coming up really soon."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:43",
+      "text": "Dude, Prime Time looks phenomenal. Like, it just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:47",
+      "text": "it just— it will have dropped by the time this episode is out. The reviews are already out on Friday from, I believe, TIFF, I think."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:54",
+      "text": "Um, but yeah, I, I haven't seen it yet. It's definitely a hot ticket in LA. I'm hearing crazy Oscar buzz for Skyla. Robert is a go. Robert's a go-to. It's gonna be interesting to see if, just like what happened with the Emmys and the guy from The Americans who won the 2, he got the 2."
+    },
+    {
+      "name": "G",
+      "timestamp": "24:13",
+      "text": "Matthew Rhys."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:13",
+      "text": "Yeah, both."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:14",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:15",
+      "text": "I'm interested to see if they do that with Rob. I believe this is gonna be the first year that they're eligible. And I do think that the odyssey for the Oscars and potentially primetime could both, it sounds like, be going."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:26",
+      "text": "I don't think there's enough. Certainly, if they had an Oscar for best meme, I think Get These Beggars Out of Here, I think would would be there. But I don't I don't think Antenna has had enough."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:35",
+      "text": "I will tell you, I've I'm also hearing about Zendaya Rob drama norms. So basically, they got juice, right? There's a conversation at least going on. Listen, prime time is everyone says this is biggest chance to win. But I will tell you, the heat is on that Skyler kid, the kid who plays Decoy Dan. Everyone is saying. Yeah yeah. The relationship between him and Pattinson is so unbelievable, and that this could be his supporting year, which I also think would be really funny, because if he wins an Oscar or even gets nommed, then by the time that Gorilla Grodd show comes out, that's gonna be taken really seriously as a prestige to watch."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:11",
+      "text": "Yeah, for sure. For sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:13",
+      "text": "There's a really good Robert Pattinson quote that came out from one of these press rounds recently when they're asking him, like, oh, how did you select these projects? Like, how do you, like, sort of, you know, you did this, you were in a Nolan, thing, you know, you're in a Nolan thing and you're in a Denis movie in like one year. How does that come about? He's like, yeah, it's like, you know, Christopher Nolan called up and he said, um, I'm doing The Odyssey and I'd like you to be in it. And I said, okay, that sounds good. And then Denis called up and he said, uh, do you want to be in Dune? And I said, okay, yeah, sure. I was just like, okay, like, that must be nice, I guess. Like, it sounds like it's pretty easy."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:47",
+      "text": "I know, that's like that really funny press tour he did with with— for the, um, the Lynch movie, the one he did with Jennifer, and they were doing that great press tour, and he was like, yeah, you know, Denis just asked me to be in it. And she's like— yeah, it's like— and Jennifer's like, well, I would like Chris Van Aller to ask me to be in something. And he's like—"
+    },
+    {
+      "name": "C",
+      "timestamp": "26:03",
+      "text": "and he's like, it's pretty— he's pretty good."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:05",
+      "text": "I mean, it's pretty good. Yeah, I mean, I, I was at the Dune, Dune 3 trailer launch, right? And that was where he told that really funny story about how he just called Zendaya. He was like, yeah, hey, we're in the drama, like, can Just be in Dune. And then he called him and was like, yeah, you want to be in Dune, bro? Like, okay, cool. So fucking crazy. Yeah, so I, I like that a lot."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:27",
+      "text": "Like, I love— he's got the juice."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:29",
+      "text": "He's got the juice. And you know what, I want to jump on a conversation you guys were having. I'll do my 20 seconds. I've teased this to Jason already. I think Elordi needs to take— I was gonna bring this up."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:39",
+      "text": "Yes, that's why I was gonna bring this up."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:41",
+      "text": "Frankenstein, impeccable, unbelievable creature work. Go be Doug Jones for 5 years. Do weird— and look, Pattinson didn't jump out the gate and do this. He was in Water for Elephants, he was in some romantic-y stuff, right? But like, for example, that he's in a movie called Belle Amie, which is like a weird social climber Victorian erotic thriller. You think it's just a period piece? No, it's weird. So that's what he was able to do. Elordi doing Frankenstein, getting the Oscar nom straight out of like freaking Euphoria era, is so crazy."
+    },
+    {
+      "name": "G",
+      "timestamp": "27:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:11",
+      "text": "And that's what he needs to pursue. It's not Dog Stars. Like, I'm sure that was an old script, and it's Ridley Scott, and he's done a good job. But like the good time himself, but he needs the good time route."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:23",
+      "text": "Exactly. I I totally agree. I mean, I think yeah yeah and and I want to hit that when we get into you know K Pat you know R Pats and K Stu in the midst of it. So all right. So that is that's everything you can see. That's prime time. Those are both very exciting. I just want to keep. The excitement train going. Jason, my first time ever Monday night, I went with a couple of dads from Marin. We came into the city and we saw Peter Hook."
+    },
+    {
+      "name": "C",
+      "timestamp": "27:52",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:53",
+      "text": "And the light."
+    },
+    {
+      "name": "C",
+      "timestamp": "27:53",
+      "text": "Cookie. What was the situation? Tell me about this."
+    },
+    {
+      "name": "B",
+      "timestamp": "27:57",
+      "text": "So, so I've never seen New Order or any, any version of New Order or obviously Joy Division live. No one in America saw Joy Division, uh, ever."
+    },
+    {
+      "name": "A",
+      "timestamp": "28:07",
+      "text": "It's just my mom in England. Like, she rubs it into me every day still."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:10",
+      "text": "It's amazing. Jesus Christ."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:12",
+      "text": "Uh, so, so I had absolutely no idea what to expect, and I'm sort of like, I started with New Order, um, with I think Lowlife, whatever the album is that starts with Love Vigilantes. And I was through Substance and maybe whatever, like through '88. So like that, like mid-'80s was my, my vibe, and then I didn't listen to anything else after that. And I've never followed the band and how they splintered and all that kind of stuff. So apparently Peter Hook, when he tours, he chooses a New Order album and he plays it it start to finish."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:41",
+      "text": "Interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:41",
+      "text": "Um, and then he does— then he goes and moves through. So he did Get Ready, which is, I guess, from 2001. So the first 45 minutes, like, I've never heard a single one of these songs ever. Never, never heard a single song. Um, and there's some bangers on there. It was, it was pretty cool. That was his last New Order album that he was involved in. Then they go back and they basically did like a full— first of all, Keanu Reeves came on stage to introduce them for the second set."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:10",
+      "text": "Amazing."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:10",
+      "text": "And then they came out and they did a full Joy Division set. Apparently they did like a bunch, like half of Closer and like all this other stuff. And it's like seriously rocking music. Like, who sang?"
+    },
+    {
+      "name": "C",
+      "timestamp": "29:24",
+      "text": "Who sang?"
+    },
+    {
+      "name": "B",
+      "timestamp": "29:25",
+      "text": "He has a guitarist I think he's been working with for like 20 years. So like that guy's, I guess, doing all the Bernard parts or whatever. Or who— it's— Ian was the vocalist, right? Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:35",
+      "text": "Ian Curtis, epileptic legend."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:37",
+      "text": "Yeah, but Hooky, Hooky sang a bunch and then the guitarist sang some."
+    },
+    {
+      "name": "C",
+      "timestamp": "29:41",
+      "text": "So the good thing about Joy Division songs is that like sort of, I mean, like, look, like, you know, Bernard Sumner like sings like the Ian Curtis part when they play the, you know, the Joy Division. I mean, there's Joy Division songs on Substance that he sings. And like the good thing about Joy Division is that like while Ian Curtis's voice is like very distinct and, and like kind of, uh, difficult to like kind of match, like sort of also anyone can kind of do like an Ian Curtis—"
+    },
+    {
+      "name": "A",
+      "timestamp": "30:04",
+      "text": "Like speaking, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "30:05",
+      "text": "Right. Yeah, that's why it's so brilliant."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:07",
+      "text": "You feel like you're in your bedroom."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:09",
+      "text": "You can sing to it."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:10",
+      "text": "Yeah, it's sort of like when you're it's sort of like when Johnny Marr for sure, like Johnny Marr like sings like the Morrissey vocals when he plays."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:18",
+      "text": "I would rather hear him sing it for sure. Yes. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:21",
+      "text": "And like and he's like it's you know it's completely believable. Like it's you know it's completely believable. Yeah, it totally works."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:29",
+      "text": "Yeah. So it was really cool. And then and then they got into the into the New Order era, and it was super fun. You know, like so you know love vigilantes. and, um, you know, bizarre love triangle and stuff. Blue Monday. It was really, it was really, really fun."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:45",
+      "text": "Wow, Blue Monday live must be so cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:46",
+      "text": "Yeah, Blue Monday live is such a fucking treat. That's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:49",
+      "text": "Yeah, it was. It was— I had to miss the end, uh, ceremony and stuff because the parking garage closed at 11."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:55",
+      "text": "Okay. Real dad experiences."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:58",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:00",
+      "text": "When my buddy Brian, who's seen Hook multiple times before, he's like, this show's gonna be over 3 hours. I'm like, there's no way it's gonna go 3 hours. It went 3 hours. Oh my God. So anyways, you should, you should definitely—"
+    },
+    {
+      "name": "J",
+      "timestamp": "31:12",
+      "text": "Was it like an affordable, like small show?"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:14",
+      "text": "Was it like a stadium show?"
+    },
+    {
+      "name": "B",
+      "timestamp": "31:15",
+      "text": "No, it was a big—"
+    },
+    {
+      "name": "C",
+      "timestamp": "31:16",
+      "text": "well, it was at the Warfield, which is a small— it's not a stadium."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:21",
+      "text": "Kind of like a Wilton, like a 2,000 people venue?"
+    },
+    {
+      "name": "C",
+      "timestamp": "31:24",
+      "text": "I think it's less than that. I think it's less than that."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:27",
+      "text": "Because that's where I saw Hayley Williams and I spent so much money on that show. Wow. And it was 100% worth it. Like the best live experience. And I've seen hundreds of bands live, but that was like, It was transcendent. I'm so glad I did it."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:40",
+      "text": "I'm seeing Beck on Saturday night at the Masonic, so I'm pretty excited. Okay, British doing it, doing it. Uh, let's see. Okay, Jason, we haven't talked about you enough. Your shadow ban on X has been lifted, or was it ever— was it ever really there? It's hard to say. Free tweeting!"
+    },
+    {
+      "name": "C",
+      "timestamp": "32:00",
+      "text": "Free tweeting! Shout out to the Hobie Keys. Keith, who, uh, who did like— yeah, so they rolled out the under the hood and my report for the last month is clean for both my posts and my account. And I definitely had some viral tweets this week, um, because, um, I was tweeting Barack Obama, uh, but like, yeah, uh, Gavin Newsom was tweeting you, um, but, um, I will say I have my suspicions about what happened before August. Uh, I'm like, I'm like, all right, maybe I've, maybe I've only been, maybe I've been freshly unshadowbanned. I don't know. Um, but yeah, I'm, I would appear, at least if the report is to be believed, that, um, I am in the clear. I'm free. Yeah. Okay, nice. Thank you for that. Thank you for that opportunity to update the people on my account."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:49",
+      "text": "Let the straight fire continue."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:50",
+      "text": "Follow the man. He's the— they picked him to be in charge of the AIs. He's gonna stop Skynet. He promised it right here legally. Yes, that's what we voted for. I can't vote."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:02",
+      "text": "Well, the last, the last, uh, thing that we'll check on your record, uh, tomorrow you turn 50, Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:08",
+      "text": "That is true. Also happy. This is—"
+    },
+    {
+      "name": "A",
+      "timestamp": "33:10",
+      "text": "I join you. I join you. Happy. Super beautiful. Young. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:14",
+      "text": "No wrinkles. Moisturized. Yeah. I join you on the last day of my 40s today. Wow. Um, how's it feel? I feel old. I feel some sort of way about it."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:26",
+      "text": "Like, you know, I'm like, all right. It's a lot. Are you playing Joy Division all day, or what are you doing?"
+    },
+    {
+      "name": "C",
+      "timestamp": "33:30",
+      "text": "I have been playing a lot more than— I've actually been playing The Smiths a lot more, to be honest."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:35",
+      "text": "Oh yeah?"
+    },
+    {
+      "name": "H",
+      "timestamp": "33:35",
+      "text": "Um, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:36",
+      "text": "Very Californian of you."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:37",
+      "text": "Yeah, it just feels like— I'm like, yeah, like, you know, it's like girlfriend in a coma time out here."
+    },
+    {
+      "name": "A",
+      "timestamp": "33:42",
+      "text": "Um, I listened to The Smiths as soon as it hit September 1st. The Whimsigoth Podcast playlists are back on. There is no— I don't care what Morrissey said. I don't know about that."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:52",
+      "text": "No, I don't know."
+    },
+    {
+      "name": "F",
+      "timestamp": "33:53",
+      "text": "Yeah, I don't know."
+    },
+    {
+      "name": "H",
+      "timestamp": "33:53",
+      "text": "That's fine."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:54",
+      "text": "Partly that is because of Johnny Marr Um, TikTok account, which I, I started getting account. And like, he's just like, he's like, you posted that How Soon Is Now thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:04",
+      "text": "Yeah, I was just like shaking in my chair. I was like, it's crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:07",
+      "text": "And he's like, there's like some— he's like, yeah, so I had this weekend where I was by myself, the band had gone home, and, um, he wrote like 3 of the most iconic pop songs of all time basically by himself in a flat in Manchester or whatever. It's like, all right, well, must be fucking nice to be a genius. Um, yeah, so Yeah, a lot of respect for him."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:25",
+      "text": "I'm gonna just put out here, like, I would love to do 24 Hour Party People on this podcast."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:30",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:31",
+      "text": "Which I have never seen."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:33",
+      "text": "Seriously, that's a classic."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:35",
+      "text": "Can we get a voice memo from your mom?"
+    },
+    {
+      "name": "C",
+      "timestamp": "34:39",
+      "text": "Can we get a voice memo from Rosie's mom for the joy of, like, the noise?"
+    },
+    {
+      "name": "A",
+      "timestamp": "34:42",
+      "text": "Definitely. My mom was, uh, she dated this guy from the band called the Notsensibles, and they were The Clash's support band. So my mom went on tour with The Clash. My mom was from up north, so she went raving. Like, her and my dad were ravers. Um, so yeah, she lived through the whole punk rave thing. Like, she, she lived quite a life when she was young. But yeah, I definitely think about anything to do with music. Yeah, she loves to tell those stories."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:07",
+      "text": "Yes, yes. Also, 24 Hour Party People, just—"
+    },
+    {
+      "name": "A",
+      "timestamp": "35:11",
+      "text": "we'll see. Not necessarily trying to pitch another series because we've already started many here, but, but with Twilight, we are coming to the last 2 movies. I know that means technically 2 years, but like, let's think of some movies. I, I— now you say 24 Hour Party People, I have seen a resurgence in interest in like British culture right now, and with people reaching out to me about grime music, drill music, people getting into garage, um, Jon Stewart's hilarious English accents, right? So like, we could—"
+    },
+    {
+      "name": "C",
+      "timestamp": "35:40",
+      "text": "Speak up!"
+    },
+    {
+      "name": "A",
+      "timestamp": "35:41",
+      "text": "Speak up! We, we could potentially next year or whenever, we could do like a little British movie series. That'd be great. 'Cause you could do like a 24 Hour Party People, we could do Trainspotting, Even Trainspotting 2 is actually really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:54",
+      "text": "Trainspotting is like, it's a crime that we haven't done."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:57",
+      "text": "And also, I will say, I have plenty of funny stories because my dad used to dress like fucking Renton, so I hated that movie as a kid."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:04",
+      "text": "So, oh my God. Oh wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:05",
+      "text": "Yeah, but like, as an, you know, as you watch it when you get older, you're like, this is obviously a masterpiece."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:08",
+      "text": "That's great. All right, we will take it under advisement."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:11",
+      "text": "Um, I for sure, 24 Hour Party People, also Benny Gesserit."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:15",
+      "text": "Those are slam dunks. Uh, those are slam dunks in my head. But, uh, yes, we shall, we shall Guys, I don't think I can put it off any longer. Are you ready to talk about this movie? Let's do it. It was only—"
+    },
+    {
+      "name": "A",
+      "timestamp": "36:30",
+      "text": "honestly, that is not the— we've, we've gotten the whole 30 minutes after the end of the hour when we were meant to start, so this is actually kind of brief. I think you did a good job, and I'm proud of you because this does— this arguably does break the rule of the show, and I'm not gonna try and argue otherwise, but we are gonna have— okay, we're gonna have fun talking about it."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:49",
+      "text": "Very good."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:49",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:52",
+      "text": "Twilight Eclipse is The Price We Pay for Love and Independence. Bella Swan has her high school graduation in 3 weeks, a marriage proposal from Edward Cullen, and is preparing to leave her friends and family, her own future behind her forever, in her unrelenting desire for Edward to turn her into a vampire. But her dreams are derailed when a string of murders in Seattle points to a newborn army of freshly made vampires built for one purpose by Victoria, who still wants Bella dead for the death of her mate. To survive this new threat, the Cullens will have to do the unthinkable and stand beside the wolves of the Quileute pack, thrusting Jacob Black back into Bella's life."
+    },
+    {
+      "name": "I",
+      "timestamp": "37:37",
+      "text": "Thrusting."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:38",
+      "text": "Refusing to accept her rejection of him."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:41",
+      "text": "I, I heard it."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:41",
+      "text": "And even if Jacob and Edward's mutual love for Bella can keep this alliance together long enough to stop Victoria and the evil indifferent forces standing in the shadows, Bella still must choose her own path and whether to let the sun fade from her life forever, walking in an endless Twilight eclipse."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:09",
+      "text": "Oh my God, oh my God, oh my God, guys, I have got so many good facts for you about the timeline."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:15",
+      "text": "I'm so excited, I'm so excited. What a synopsis!"
+    },
+    {
+      "name": "A",
+      "timestamp": "38:20",
+      "text": "The description was better than the movie, I want to say."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:22",
+      "text": "I agree with that."
+    },
+    {
+      "name": "A",
+      "timestamp": "38:23",
+      "text": "I was emotionally moved. I felt romance. I felt like I was not watching— this is the kind of thing, right, where a kid posts it on the internet and they go AI wasn't used to make this. And I go, oh my God, is this a discourse? So many times I looked up on my screen and was like, this shit looked like slop. I was like, they, they got to the slop point with the CG at this point. Like, it—"
+    },
+    {
+      "name": "C",
+      "timestamp": "38:44",
+      "text": "they, they did get to this. It did presage slop. It's true, it's true."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:50",
+      "text": "I, I think, I think that is, uh, undoubtable. So let's see, I'll just say I think I saw this in theaters. Uh, me too. I think You know, Cayman, 2010, Cayman was 13."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:01",
+      "text": "Oh my God, she was ready."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:03",
+      "text": "I think we were— I think we probably saw this in Fairfax at the Fairfax Theatre on opening night."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:08",
+      "text": "How did that feel, like having a— like a teenage daughter, like, just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "39:12",
+      "text": "It was fine. We've talked— we've talked about it. Like, she, she, you know, was so deep into Harry Potter, and then she just switched over to Twilight and was obsessively reading the books over and over again, and, and then into the movies. Um, so I saw it in theaters. I thought it was terrible then. Um, it was, uh, it was interesting to revisit it this week. Um, and I'll save my comments until we get into it. Rosie, your history with Twilight Eclipse— were you still— where were you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "39:41",
+      "text": "When did this movie come out? 2010."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:44",
+      "text": "2010."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:45",
+      "text": "I would have been 22, so I probably did go and see this movie in the cinema. I was in a very chaotic part of my life, and I had got into reading the books. I was working in a lot of bars, and me and my friends would go see them. And it's like half ironic, half not. I said on our first Twilight episode, my mum loved the first one, so we saw it like 5 times in a week."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:04",
+      "text": "Many times, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "40:04",
+      "text": "Um, but this was more of like, I was probably a little bit more zoned out, but me and my sister and my mum would still always go and see them. And I do remember the big thing for this one was like Jacob, like he got muscly. And I was like, this is a child. Even as like a 22-year-old, I was like, this is weird. Um, so I think like—"
+    },
+    {
+      "name": "B",
+      "timestamp": "40:23",
+      "text": "Were you smoking at that point? Were you like smoking like Silk Cuts like John Constantine?"
+    },
+    {
+      "name": "A",
+      "timestamp": "40:28",
+      "text": "A lot of cigarettes. And as you can tell, I have— I, I'm not smoking cigarettes, but I have become very, uh, indulgent within the California lifestyle in 2026. So I feel like the raspy voice is coming back. Um, okay. But yeah, no, I used to smoke a lot of cigarettes, you know. I was like watching a lot of movies at the cinema. I was really into indie cinema. So I probably saw this as It's like a guilty pleasure, but I was enjoying it. I would say this is the one where even when I knew we were recording it, I was like, what the fuck is this one about? And I've read these books many times. I've read these books many times, but I'm like, Jacob's already turned, right? She saved Edward, they've met, and then when the baby happened. So what's in between?"
+    },
+    {
+      "name": "C",
+      "timestamp": "41:12",
+      "text": "What needs to happen?"
+    },
+    {
+      "name": "A",
+      "timestamp": "41:14",
+      "text": "And so it's really interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:15",
+      "text": "It's almost like it's a whole movie where absolutely nothing happens."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:18",
+      "text": "It's a filler movie, and what they probably should have done if I was Lionsgate, was I would have made 3 and the beginning of 4 one movie, right? And then make 5 its own movie or whatever, right? Even though that was a stretch to separate them, they need the money. I'm glad there's 4 movies. But it is really interesting because what I think does really come through in here, because there's not a lot of story, is like a lot of Stephenie Meyer, the author's weird Mormon shit comes through in this one."
+    },
+    {
+      "name": "G",
+      "timestamp": "41:45",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:46",
+      "text": "Where it's like, you gotta get married."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:47",
+      "text": "Like, make space for the Mormon shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:48",
+      "text": "Yeah, yeah, yeah. And it's like, it's like You have to get married, and if you don't, if you're just making newborns all over the place, people will die. If you're having babies, they're evil. You know, it's so over the top, and it is—"
+    },
+    {
+      "name": "B",
+      "timestamp": "42:01",
+      "text": "This is 2 weeks in a row, Jason. This is a lot. We had it with Lost Boys last week."
+    },
+    {
+      "name": "C",
+      "timestamp": "42:04",
+      "text": "It's true."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:05",
+      "text": "If your mom gets divorced and gets a job, then, you know, vampires will ensue."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:10",
+      "text": "Exactly right. And oh, Matt, I love, love, I love Lost Boys."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:13",
+      "text": "No, no."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:13",
+      "text": "One of the most perennial vampire movies of all time, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "42:17",
+      "text": "Oh yeah, endlessly."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:18",
+      "text": "Incredible."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:18",
+      "text": "And also a lot of the rules from all vampire lore as we know it come from Lost Boys, actually. So, uh, I love that you guys were talking about that. But yeah, that political aspect is really here because not a lot happens. We know that they're gonna get married. Like, he talks about it a lot. So it's like, okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:36",
+      "text": "Yeah, yeah, yeah, yeah. I definitely— I was impatiently, uh, kind of tapping, uh, waiting for something to happen. Jason, what about you? What was your—"
+    },
+    {
+      "name": "C",
+      "timestamp": "42:44",
+      "text": "You know, look, as, as covered, like, I'm— I was a book reader, was, was, was a big fan, saw it with Crystal, saw it with my future wife. I'm sure opening weekend we were in the bag for it. I will confess again, when I went in to watch this one, I was like, I have no idea what happens in this movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:01",
+      "text": "I'm telling you, the eclipse on our memories."
+    },
+    {
+      "name": "C",
+      "timestamp": "43:03",
+      "text": "Yeah, exactly. I had memory holed it a bit. But yeah, so I was watching it afresh."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:13",
+      "text": "All right, very good. Well, let's do a quick behind the scenes here. I mean, this was— we talked about this, how this was such a big deal for Lionsgate and how they literally realized they were just absolutely printing money. And they basically, they're just like, we're doing one every year. We don't give a fuck. And Chris Weitz was still in post-production on New Moon when they had to start shooting Eclipse in order to hit the target the next year. So they basically hired David Slade, who came in. He had done 30 Days of Night, which I loved. I was a big Steve Niles, uh, Criminal McCall mob and 30 Days."
+    },
+    {
+      "name": "I",
+      "timestamp": "43:49",
+      "text": "Yes, same."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:50",
+      "text": "Very, very cool. Like, Criminal Macabre in particular felt like modern Alan Moore, like, inheritance for Swamp Thing. So I was very into that. But he'd done that and Hard Candy, and, you know, has gone on to do Black Mirror and stuff."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:05",
+      "text": "Hard Candy's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:06",
+      "text": "Yeah, but he, you know, he came in very quickly, you know, got up and running. They shot this thing from August to October. So very, very fast. Um, and I will just— we'll cover all the rest of it when we're in the midst of it. But the budget of this movie, $68 million."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:24",
+      "text": "God."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:25",
+      "text": "Worldwide, $699 million. Opening day, $68.5 million, including a record-setting $30 million. They're not cheating with 6 o'clock shows the way Hollywood cheats now. $30 million in midnight shows only."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:45",
+      "text": "People wanted to see it, man."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:47",
+      "text": "It was phenomenal."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:48",
+      "text": "People wanted to see us. That is the first— It was also the first one released in IMAX. Oh, wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "44:54",
+      "text": "That's huge. Well, we talked about it a lot, so I won't reiterate it too much, but like, you can go back and listen to the first and second episodes. Like, this changed fandom culture. A lot of what we think of superhero culture, of midnight screenings in the modern age, began with these huge success of Twilight. Because even people who weren't into them, who wanted to see them ironically or didn't like them, There's still B-movie horror fans who want to go to a midnight screening. They want to eat the popcorn bucket. They want to know what people are talking about. It becomes a water cooler thing, whether or not it's cool or uncool, which is how, until the MCU, they were really the biggest franchise in the world."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:29",
+      "text": "Man, I want popcorn right now."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:31",
+      "text": "I'd love some popcorn."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:34",
+      "text": "Yeah. Also at the box office in summer of 2023, Toy Story 3."
+    },
+    {
+      "name": "F",
+      "timestamp": "45:41",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:41",
+      "text": "Despicable Me. Wow, Christopher Nolan's Inception."
+    },
+    {
+      "name": "A",
+      "timestamp": "45:46",
+      "text": "Hello, watch Pat Brickell."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:48",
+      "text": "M. Night Shyamalan's The Last Airbender. Hey, yeah, yeah, that one hurts."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:56",
+      "text": "That one, that was, that one left a mark."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:59",
+      "text": "Yeah, uh, okay, uh, Rosie, where do you want to start with this movie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "46:08",
+      "text": "I do think I'm gonna start with something that I like, which is like quite rare in like the movie. I don't have a lot of things to argue big plotline because of Victoria, but she's seen as evil. We're not supposed to want her to get Bella, blah blah blah. We don't know much about her apart from she's Bryce Dallas Howard, we love her. Um, but there is this great like 2-minute backstory for Rosalie that has put this movie in at least the outer sphere Venn diagram conversation on film talk of good for her, where—"
+    },
+    {
+      "name": "B",
+      "timestamp": "47:10",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:10",
+      "text": "Uh, you see Rosalie's origin And even though Rosalie's very reserved and she's very stuck up, in this origin you learn that she fell for this young guy. He was kind of a scammer, and him and her friends gang raped her to death."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:22",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:22",
+      "text": "And so she dresses up— when Carlisle brings her back to life, she dresses up as a—"
+    },
+    {
+      "name": "C",
+      "timestamp": "47:28",
+      "text": "As a bride."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:28",
+      "text": "Bride and goes back as a vampire and kills them. Like, that's a movie I would watch 90 minutes of, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "47:35",
+      "text": "It was great."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:36",
+      "text": "And so many people talk about that with this movie. They're like, Give us that story. So I think that is always like, when I get to that moment, I'm like, ah, sustenance. I'm like, something that, you know, uh, the original director would have absolutely gone ham with. Like, that— her getting to see her take on that would have been so much fun."
+    },
+    {
+      "name": "F",
+      "timestamp": "47:54",
+      "text": "Hmm."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:55",
+      "text": "I had forgotten this whole— I'd forgotten that this was in here until we got into it. And as soon as it went to flashback, I was like, oh right, like, that guy's bad. Like, he's gonna be, uh, like, he's gonna be bad for her."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:07",
+      "text": "It's interesting because, you know, the central conceit of this entire movie is Bella just— she doesn't care about anything. She's gonna become a vampire because she loves Edward. And this moment where Rosalie is— Rosalie's like really mad at her and is like, you get to have all these things that I don't. I can never have. I can't grow up. I can't have a child. I can't be with my friends and be carefree. I have to be a murderer."
+    },
+    {
+      "name": "A",
+      "timestamp": "48:33",
+      "text": "Literally."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:34",
+      "text": "And that was really cool to see, like, that aspect. There were multiple moments here that I thought were really good and really effective. So I'm glad you started with that. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "48:46",
+      "text": "I think 2 things about it. One is it does give great context to why Rosalie is such a frosty biznatch, like, during, like, the first 2 movies. 'Cause you're just like, damn, like, this girl really does not like anyone. Also, the men."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:03",
+      "text": "Remember, she was created with the intention of being married off to Edward, this ultimate romantic Edwardian nice guy who then didn't want her. So it's like the layers are really unfolding, right? Double betrayal."
+    },
+    {
+      "name": "C",
+      "timestamp": "49:15",
+      "text": "I, I will say, like, given how cool her revenge is, I don't know if it really set— if it really sort of like convinces me that like being a vampire isn't a good idea."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:28",
+      "text": "I know Bella is like, fuck yeah, I'm gonna get Phil's dumb face. Like, you pick baseball over me, Mom? Phil's getting chomped. I'm in the baseball uniform eating Phil. Like, she's— Bella, you're not convincing her. This girl is so horny, she wants to turn into a vampire. That is what this whole franchise is about. It doesn't matter."
+    },
+    {
+      "name": "C",
+      "timestamp": "49:48",
+      "text": "You're just giving her additional reasons."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:51",
+      "text": "Literally, this sounds cool. Okay, thanks."
+    },
+    {
+      "name": "G",
+      "timestamp": "49:58",
+      "text": "It's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:59",
+      "text": "It was good. Very, very—"
+    },
+    {
+      "name": "C",
+      "timestamp": "50:01",
+      "text": "Well, look, in Rosie's spirit of like, let's start with something nice. Um, I think this was my favorite soundtrack of the, of like the, of the movie so far. I was really vibing with the musical interludes of this one. I thought like it had a lot of that like, to like, you know, early 2010s, like, you know, sort of, uh, indie rock shit that I was— I, I was maybe like the last time I was like listening to like kind of contemporary music. So So maybe that's like part of it. But like, I was like, oh yeah, I like all this sort of like, you know, like, I don't remember all the artists that were on it, but the stuff that like sounds like, you know, the Alt-J and the XX or whatever. Uh, I was like, yeah, this is good. Like, this is— this feels like a vibe. This feels like a vibe to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:43",
+      "text": "Uh, my, my absolute favorite band at the time was Metric. And so—"
+    },
+    {
+      "name": "C",
+      "timestamp": "50:48",
+      "text": "Yeah, Metric's on it. Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:50",
+      "text": "Well, Metric is the song. The I'm All Yours is the credit music, which they co-wrote with Howard Shore, who did the score. Um, and so like, they literally, like, in the opening scene when they're in back in the and Edward is making his proposal, it's the song playing on piano. And so it was so cool to have that. It's similar to in Lord of the Rings when they take Into the West, and when Frodo and Sam are on the shores of Mount Doom and you're remembering the strawberries. That's woven in there, and it just gets right into your bones."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:24",
+      "text": "I love a recurring theme. That will always get me. I've interviewed a lot of composers. I've been lucky enough to do that. And it's like the funniest thing is talking to them and being like, you know, I know Rings of Power, very controversial show, but if you are into soundtracks, if you're into scores, and if you're into how they tell stories, they weave so much fun stuff in early on that pays off later in villain reveals."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:51",
+      "text": "Totally for sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:52",
+      "text": "And the way scores are inverted. It's the same. Yeah, yeah, yeah. I interviewed, um, the WandaVision composer, Christophe. He's amazing. He's done so much stuff. Vaped the whole time, vaping weed. He was so cool. And, and that was like— I did— I was asking him about the way that he was using themes and, and what he was doing with Wonder and, and the kind of negative themes and using Quicksilver's theme. And it was like so insightful and cool. And those pieces really popped because I think people do like storytelling in all forms."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:22",
+      "text": "And I think ironically, like, you know, maybe these movies aren't so great, but the overall The aural sounds and soundscape they've created have become so iconic. People wear jewelry with onomatopoeia that says, hoah hoah hoah, you know, on it or whatever. Like, it's very interesting to see how much the aural soundtrack elements, the Paramore of it all, the Muse of it all, the Metric of it all, kind of has made the movie have more credibility as it's gone along."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:49",
+      "text": "This is wild. Okay, yeah. So Metric, Muse, Florence and the Machine."
+    },
+    {
+      "name": "A",
+      "timestamp": "52:54",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "52:55",
+      "text": "The Black Keys, Vampire Weekend."
+    },
+    {
+      "name": "C",
+      "timestamp": "52:57",
+      "text": "And yeah, I love, I love, I love Sea Level Green."
+    },
+    {
+      "name": "F",
+      "timestamp": "53:01",
+      "text": "I could have done— let's cancel that one."
+    },
+    {
+      "name": "B",
+      "timestamp": "53:03",
+      "text": "I, I could have done without that. Florence and the Machine though, like truly great."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:07",
+      "text": "Like all of this stuff, like, like I really like sort of Metric, Florence and the Machine, like that, Bombay Bicycle Club, like those guys, like I do like more than Muse. And so I liked sort of the, like, I, I felt it found like a gear. Yeah, it, it found like a gear that like really— I like it was There's nothing ironic about my appreciation of Florence and the Machine. I'm just like, this is a fucking—"
+    },
+    {
+      "name": "J",
+      "timestamp": "53:30",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "53:30",
+      "text": "And I would say as well, this is one of my— this is kind of the tail end of one of my favorite tropes. I wrote an article about, like, audio tropes and soundtrack tropes, which is kind of the zero— then late '90s, early zeros, like, nu metal soundtrack that really started with, like, Spawn, and then it kind of transitioned into your Blade, Mission: Impossible III, Queen of the Damned, obviously one of the most famous nu metal soundtracks So Twilight's coming off the end of that, trying to lean into this kind of emo era. But because of the choices on the first album, which are a little bit more limited choices like Paramore and stuff, you do get that chance to transition and grow because there is like these huge indie artists. And obviously you go on to get like these bigger banger kind of more popular hits as the franchise goes along."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:15",
+      "text": "Mm-hmm. Nice. We're really positive on this movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:20",
+      "text": "This movie is actually a great movie. 100%."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:24",
+      "text": "I have something positive to say. Like, so, so I liked, I liked some of the vampire worldbuilding in this movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:30",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:31",
+      "text": "I thought I, I did really ultimately like the idea of having to make the choice. Typically, you don't get the choice, right? Usually you are bitten, and then you are struggling with the consequences of you've been bitten, and now you're, you know, you've been seduced, but now you're forced into this world. And this idea of, you know, not saying goodbye to people and trying to accept the fact that you're gonna lose that. And then when Edward is just like, don't worry about it. After a few decades, everyone you love will be dead."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:00",
+      "text": "Gone. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:01",
+      "text": "And it's like, Jesus Christ."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:04",
+      "text": "This fucking 117-year-old bitch."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:06",
+      "text": "Yeah. Like, peace out. So, I thought that was an interesting piece to kind of have that idea. I like, you know, getting Rosalie's backstory, I thought was cool. Jasper's backstory, backstory I thought was a little weird."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:23",
+      "text": "You know, you know what, Jasper Hale is the infinitely don't need him character. There was no need for him to be a Confederate soldier."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:31",
+      "text": "There was no need for that."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:33",
+      "text": "There was no need for the— this weird, like, he was seduced by the 3 Brides of Dracula into a newborn army, or whatever that kind of thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:41",
+      "text": "Why don't you leave? Like, why, why wouldn't you leave when, when these 3 hot ladies are standing there? You can't figure out something's wrong?"
+    },
+    {
+      "name": "A",
+      "timestamp": "55:47",
+      "text": "I mean, he is dumb, Like, that's like part of his canon because, you know, look at his history of choices. But also, I would say that I think you're onto something there where it's like they, they kind of saw what worked, right? The Rosalie moment, it works. Maybe it's testing really well. The, the world building, the newborn army, which, by the way, I think part of the reason that is kind of interesting and we learn more about the choice of Bella and everything is like that— a lot of that is from a novella. Bella. It's like— and the little girl in the movie is the character."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:18",
+      "text": "Oh, right, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:19",
+      "text": "Maid, right? Bree, I think her name is. So like, I think that adds an interesting aspect, that John Wickiest aspect to it. And then they were like, okay, who else's backstory? Like, and it's like, nobody cares about Jasper, babe. Like, he tried to kill Bella in the last movie. He is uninteresting. Alice and him, no one knows why that's happening. We don't need to know it."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:38",
+      "text": "Like, all those— like, but like the Volturi, it's like, it made no sense, them kind of like just like standing around for a really long time."
+    },
+    {
+      "name": "C",
+      "timestamp": "56:47",
+      "text": "That part doesn't make any sense. That part doesn't make any sense."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:50",
+      "text": "And then them killing Bree, I thought was like very, very cold. Um, that, that part I thought was kind of interesting. But I also did like, um, I did like the whole final battle when we fucking finally got to it. Um, you know, just like chopping arms off and ripping heads off and stuff like that. That I thought was actually pretty fun."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:10",
+      "text": "Each one has at least one moment like Yeah, and it sort of presages like the, the stuff, the action that will happen in the last 2 parts where it really does become very, very kinetic. Um, uh, I do love the idea that the vampires are like stone and like when they die or whatever, it's like, you know, marble being ripped apart. I just, I think that's like a really cool like sort of conceit, uh, throughout the series."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:35",
+      "text": "I think that it was like one of those decisions that was forced by her choice to make him go to high school and she wanted him to be sparkly, right? And then To logicalize that, she's like, okay, he's made of marble, it's like a stone. But it does— the stone aspect in the fandom, in the critiques, is one of the most interesting aspects. One, you know, phallic. Let's not even get started about how many times Edward was always talking about how he's so hard. He's so hard."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:59",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:59",
+      "text": "Bella touched me, I'm so hard. Don't you understand? I'm not soft, I'm hard. But also like, he's cold, right? He's all the things she doesn't want, but she's gonna do it anyway."
+    },
+    {
+      "name": "J",
+      "timestamp": "58:08",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:08",
+      "text": "It is— it actually brings up so much interesting stuff. And it's also in the like real hardcore like fun fandoms where they're talking about like the— how does the anatomy of the vampire work? It also raises a lot of really funny questions. Like, we know nothing about vampires."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:24",
+      "text": "I'm assuming Lizzen has written up like a whole thing about how this works."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:27",
+      "text": "Lizzen, where's the Excel spreadsheet? Tell us the facts, baby. I will read them."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:32",
+      "text": "Like, like, like how various like sort of like body systems work."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:37",
+      "text": "Like the heart. Is the heart pumping? Like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "58:39",
+      "text": "Exactly. And also stuff like, so the heart doesn't pump, is my understanding, and they don't need to sleep. They don't need to eat. The blood is essentially like an infection that lives— that keeps them alive, I think, is like how most vampire stuff like this works. But also, it's like, so they never like poop? Like, there's no waste? They, you know, or— and they never sleep?"
+    },
+    {
+      "name": "B",
+      "timestamp": "59:01",
+      "text": "Interesting."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:01",
+      "text": "And also, like, they can have sex and it would be like breaking a house. But like, what if there's just all these like really weird details she put in because so much of the stuff is about repression? So there is. They've never heard about tantric sex, like the vamp that like you can't like could you stand still ever imagine like vampire tantric sex in this universe is like you could just sit still for 100 years and be awake. So I'm sure there's some freaky vampires somewhere who are into that shit. Somebody's done it. Somebody's Edward's great granddad or some shit for the decades."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:34",
+      "text": "For the decades. Nice. All right, Jason. Ethan, uh, where do you want to go next?"
+    },
+    {
+      "name": "C",
+      "timestamp": "59:41",
+      "text": "I think we gotta talk about the tent."
+    },
+    {
+      "name": "G",
+      "timestamp": "59:43",
+      "text": "Uh, okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "59:45",
+      "text": "I think we— I just think— I just think we gotta talk about the tent."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:49",
+      "text": "Can I just say, before— before we get to the tent, like, the— the whole, like, 45 minutes of, like, he has to carry her with her shirt off to take her from one place to another place and then carry her again—"
+    },
+    {
+      "name": "A",
+      "timestamp": "60:01",
+      "text": "It's so gratuitous. They write into the script Edward saying, does this guy own a shirt?"
+    },
+    {
+      "name": "C",
+      "timestamp": "60:06",
+      "text": "Yeah, does this guy own a shirt? And then, like, in the tent, he's like, could you try to keep your shirt on? Keep your thoughts to yourself. Like the whole, the whole love triangle is just like, like again, like the movie has flaws, but like they, the love triangle sort of like crescendos in a pretty entertaining way in, in this movie and in the tent in particular."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:28",
+      "text": "But is this where cuck videos came from? Like it was this."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:31",
+      "text": "I don't think this invented the genre, Matt, but I will tell you that there is a long centuries and decades long history. of cucking and cuck."
+    },
+    {
+      "name": "H",
+      "timestamp": "60:40",
+      "text": "Yeah, okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:40",
+      "text": "But I will say, look, did this mainstream this concept to a younger audience? Absolutely. And it is still doing it because this is the scene on the internet that, out of context, I see young people sharing the most and being like, wow, you know, that pussy's so good that she had— like, he was allowing her to snuggle next to another man or whatever. And obviously, famously, in the next movie, he pitches to Jacob, would you like to have a baby with her so that she doesn't have my vampire baby. So there is a lot of weird cucking shit going on here that, again, I think it comes from oppression. I think it comes from Mormonism. I think it comes from her trying to do sexual tension but making it PG-13 and not realizing it— that makes it so much more weird and sexy and intense."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:26",
+      "text": "Totally weird."
+    },
+    {
+      "name": "B",
+      "timestamp": "61:27",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:28",
+      "text": "It is just like— it is just like the, the constant sort of like delayed gratification of the Twilight series because of the Mormonism or whatever else, of just like, you know, like, oh, we can never really have this."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:41",
+      "text": "The PG-13 nature of the movies, the audience that they knew they were attracting, which even though it was the, you know, 16 to 22 YA or whatever, really it was 8 to 12 middle grade onwards. Like, these were in children's sections of bookshops I shopped in. Like, it was, you know, it was, it was a fantasy book."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:00",
+      "text": "But look, like, if you, if you manage to like set up from, you know, 3 books ago, that's like, okay, the vampires are really cold and the werewolves are really hot, and we're gonna put her in a cold place so that she has to be kept warm by the warm vampire. I mean, just at some point you just got to—"
+    },
+    {
+      "name": "A",
+      "timestamp": "62:17",
+      "text": "Okay, wait, wait, wait, wait. Can I just say, I'm living through a historical moment here that I fear may become a clip, right? I am sitting here where Jason, who tomorrow will turn 50 years old, who was just announced in a very important position, just actually argued for why it is logical that Twilight did the only one bed fanfic and how it canonically makes sense. And Jason, I love you so much. This is why we are friends. You are correct. They did seed it. It doesn't come out of nowhere. But that was one of the funniest things I have ever fucking seen, was you defending that."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:56",
+      "text": "What will we do? There's only one bed. We're trapped. It's so cold. We're trapped at this inn."
+    },
+    {
+      "name": "I",
+      "timestamp": "63:07",
+      "text": "Oh no!"
+    },
+    {
+      "name": "B",
+      "timestamp": "63:07",
+      "text": "Holy shit."
+    },
+    {
+      "name": "J",
+      "timestamp": "63:09",
+      "text": "Oh no!"
+    },
+    {
+      "name": "I",
+      "timestamp": "63:11",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:11",
+      "text": "It's pretty great."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:12",
+      "text": "Yep."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:13",
+      "text": "Pretty great."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:14",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:14",
+      "text": "So yeah, I, I just thought that— I, I thought it was wild how they continued to thrust that in our faces, uh, over, over and over again. Uh, I, I was like— I was— I literally, like, I paused for a second because I was like, I remember that he'd carried her off the battlefield so that they wouldn't get her And then literally in the next scene, she was back at her house, and then she was going to the Cullens, and then she was going back again to the field and putting her blood on stuff. I'm like, what are you— like, what are you guys doing? That's obviously just like a continuity—"
+    },
+    {
+      "name": "A",
+      "timestamp": "63:47",
+      "text": "so it's a continuity problem. I'm gonna tell you what I think the big thing is here, because you're right, and I want to— once again, we started this podcast praising him. I'm gonna keep praising him. Robert Pattinson. He recently, like, really offhandedly, very funnily in his way, said no one was Team Jacob. That was a marketing trope, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "64:09",
+      "text": "He did say that. It was funny."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:11",
+      "text": "But to a point, I think he is right with how much they lean into it in this 3rd movie. Because A, as we said, a lot of filler content, right? B, this movie's in 2010. Hunger Games comes out in 2008, and the most popular thing about it, no question, question. The fucking love triangle."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:29",
+      "text": "Yeah, of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:30",
+      "text": "Gale or Peeta, the friend you've always known. It was so universal. It was so much more grounded than Edward and Jacob. And I think here we see them really lean in and make it more— less about the love triangle and more about essentially like— it's— I would— how I would generously call this, if we, you know, cucking is hilarious and we're all mature enough to say it, I would also call this like— this is kind of a reverse harem entry point."
+    },
+    {
+      "name": "G",
+      "timestamp": "64:54",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:55",
+      "text": "So it's Like, what would you do if the 2 hottest guys in your town who are both magical love you? Wouldn't that be so hard? And like, it's— I don't know how much you guys know about like Wattpad fanfic history, but here is a little lore drop. There are some very famous tropes within that where it was an open platform, still is. I think it's owned by Webtoon now, a space where you can share your own fiction, right? And a lot of the fiction that girls would write would be like, um, my mom sold me to One Direction and now I have to be their wives, right? And it's like, And there's 5 of them. And that's also where the, like, Harry Styles, like, oh, I, you know, I'm in love with Harry Styles and I have to have a heart transplant. He's by my bed. In the morning, he's dead. Who gave you the heart? Who do you think gave you the heart? It was Harry Styles, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:40",
+      "text": "Wow."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:40",
+      "text": "There are these kind of tropes that have become— and now you will recognize them culturally within memes, right? And I do think that to a point, to pander towards the audience that they knew was there, which also was a lot of older women, and we've talked about that in The Problem Agni. But there is this element, especially within this movie, in this scene, of like fan fulfillment, fan service. Your boyfriend loves you so much that he's not gonna kill you, which first of all is Edward's biggest appeal. That's what she wrote him based on. He wants to kill you so much, but he'd never do it 'cause you're so special, right? Which is very toxic in itself."
+    },
+    {
+      "name": "H",
+      "timestamp": "66:13",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "66:15",
+      "text": "Then you got your best friend who has always had a crush on you, and guess what? He's so hunky now, and he's also like chemically in love with you. And your boyfriend who loves you is fine with you trying to like sleep next to him, and even if you kiss him, like it's so fanfic. It's so like insert character here, and that's why I think Bella is so inert in this movie, which is very different from Bella in the book. Bella in the book is sassy. She's rude. She's funny. That's something they never really translated. Kestrel brings a bit of attitude, but here she is. He's like nothing burger in every scene."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:50",
+      "text": "So, so, but I, I do want to just call out, for me, I found this, I found this, um, you know, obviously I get it, them trying to lean in to make Team Jacob a thing, which I was not Team Jacob in the second film, and I was much less Team Jacob here. He's like a toxic piece of shit."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:08",
+      "text": "He's, you know, that's a little strong."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:10",
+      "text": "He's like, um, there's such a thing as— You don't kiss someone without their consent. And you don't like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "67:21",
+      "text": "Dad, Matt's coming out."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:22",
+      "text": "I'm glad you finally agreed with me that you love me. I made you say it or whatever."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:26",
+      "text": "That's true. That's true."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:28",
+      "text": "There was way too much toxic messaging."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:31",
+      "text": "It was harder to be Team Jacob in this one than in the second one."
+    },
+    {
+      "name": "H",
+      "timestamp": "67:35",
+      "text": "Definitely."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:36",
+      "text": "With that."
+    },
+    {
+      "name": "H",
+      "timestamp": "67:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:38",
+      "text": "Jason defending Team Jacob."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:40",
+      "text": "I mean, look, I am Team Jacob. I've clearly— I've already said— I mean, I'm on the record as being Team Jacob. I mean, like, and also, like, you know, Just like because of the, you know, Edward is just the worst boyfriend. Like, if you had to choose, I mean, if you were Charlie, who would you rather— who would you rather your kid be with, your daughter be with? I don't think you would choose Edward ever. Like, especially after the, you know, 6 months of catatonia because of breakup in the second."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:06",
+      "text": "Charlie does keep the gun around."
+    },
+    {
+      "name": "C",
+      "timestamp": "68:09",
+      "text": "This is what I'm saying. It's not a good relationship. And he rushes the whole marriage thing. Like, if honestly, like, even with— before anything else, before—"
+    },
+    {
+      "name": "A",
+      "timestamp": "68:17",
+      "text": "Edward."
+    },
+    {
+      "name": "C",
+      "timestamp": "68:17",
+      "text": "Like, but before, before you even get to like the catatonia, like you're on like the, you know, the, the marriage proposal, I would be like, are you fucking kidding me? You're getting married? You haven't even like, you barely graduated high school. Like, what do you like? Just like, can we take a, like the fact that you feel you're being rushed into it, it should be such a red flag."
+    },
+    {
+      "name": "H",
+      "timestamp": "68:36",
+      "text": "Uh-huh."
+    },
+    {
+      "name": "C",
+      "timestamp": "68:36",
+      "text": "And, and I think Jacob, Jacob has a point when he says like, being with me was be— would be as easy as breathing. Like that, I found that a very compelling Yeah, that in itself—"
+    },
+    {
+      "name": "A",
+      "timestamp": "68:45",
+      "text": "hey, Matt, I like that you rolled your eyes because like the, the danger of like familiar shit, you know, is like you— it's still shit. It's like even if you know it and you feel comfortable, right? But, but I will say, if— look, and this is the argument we make all the time. I love Lost Boys. I had— when I was a kid, I wanted to date Spike from Buffy. Like, there are many age-old vampires who are historically problematic with the age difference."
+    },
+    {
+      "name": "F",
+      "timestamp": "69:10",
+      "text": "Of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "69:10",
+      "text": "parents, right? But in Edward Cullen's case, sir, 117 years old and you are going to school? That is called predator behavior. Get Chris Hansen, Robert Pattinson in here and say, you see how this looks, right? Like, come on, my guy, come on. Like, this is— This is bad behavior. And from there on, you're manipulating her. Which 17-year-old doesn't want to fuck a vampire? The way he's telling it to her, he's giving her the yard, he's giving bars. This is, this is poison to a 17-year-old girl. You say, you're my own personal brand of heroin, she's gonna be pregnant. Yeah, of course she's pregnant within a year. Like, you know, so in that way I understand Jason's point, but I do— I'm a, I'm a Bella-Alice stan. I think I'm not even really a big shipper on like the gay level, which usually I just like to ship random people I like. I've read a lot of compelling evidence Alice loves Bella. Alice is usually the one who saves Bella. Alice and Bella get along. Alice picks Bella lingerie for her wedding, by the way."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:07",
+      "text": "True."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:08",
+      "text": "And, um, I just think like there are more inter— or Bella just like go to fucking college and don't date anyone. I know that's such an auntie old lady thing to say, but like, come on, my girl. When you watch it back, you're like, neither of these guys are up to much in a club."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:21",
+      "text": "You just need to get out of Forks. Please leave Forks."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:24",
+      "text": "Well, that's for sure. But I did like her final speech, uh, where she was like, I'm going to make my own choice and it's going to be for I like that piece. And it was— I mean, honestly, yeah, the right answer would be for her to walk away from both of them and do her own thing. But certainly, that is not going to happen. I just want to spend a little bit of time on the cast. And—"
+    },
+    {
+      "name": "C",
+      "timestamp": "70:49",
+      "text": "Anna Kendrick, still in these movies somehow."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:51",
+      "text": "And she still forgets every single time."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:53",
+      "text": "Yeah, it's so funny."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:54",
+      "text": "She does not look like she is, like, enjoying being there. Like, I couldn't quite figure out what— I mean, I think she might have had an Oscar by this point."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:01",
+      "text": "Well, I would also say, I think—"
+    },
+    {
+      "name": "B",
+      "timestamp": "71:02",
+      "text": "For Up in the Air."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:03",
+      "text": "This is very much like, um, up in the air is good. This is like, as much as we're talking about them now, and the fact that you guys are even talking about them shows this, right? Like, and Jason, I know you're a hardcore OG fan, so I'm not talking about you, but, but generally it was very looked down upon to be in these movies, be involved in these movies."
+    },
+    {
+      "name": "F",
+      "timestamp": "71:21",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "71:21",
+      "text": "Kendrick was not part of that main cast. I think that the solidarity between the 3 of them throughout the movies probably Like, you know, Jacob, Edward, and Bella, like the real actors. I think that that really probably held them together. I don't necessarily know that she had that. So like, I think it probably would suck to be in this movie and also be getting an Oscar and have all your friends be like, lol, how's Twilight? You know, 'cause now she gets to tell it as a funny anecdote, and I'm sure loads of girls love her for it, and they probably dress up as her and shit, 'cause they dress up as every character. And— but at the time, I could totally understand why she would just be not enthusiastic."
+    },
+    {
+      "name": "I",
+      "timestamp": "71:58",
+      "text": "Totally."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:59",
+      "text": "Totally. Yeah, yeah, yeah. Well, I tell you who was not enthusiastic was that total zilch of a new vampire lord, this guy Riley."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:09",
+      "text": "Oh gosh, Riley sucks."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:10",
+      "text": "Play— played by Xavier Samuel."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:12",
+      "text": "Like, Riley was a dud. Riley was— that casting sucked. That, that I think is a—"
+    },
+    {
+      "name": "B",
+      "timestamp": "72:17",
+      "text": "and the storyline, the storyline was, was like nothing, honestly."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:22",
+      "text": "Like, if the movie had handled sort of that Part of like the actual antagonist part of the movie better, this would not be a bad movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:31",
+      "text": "No."
+    },
+    {
+      "name": "C",
+      "timestamp": "72:31",
+      "text": "Like, that is the— that is the big miss."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:33",
+      "text": "Conceptually, if you'd have gotten like a really interesting, ironically, in a Laudy or a Pattinson right now, or whoever the equivalent of that back was in 2010, you could have maybe had something really interesting with Riley. Like, I do think thematically, I'm sure there's great essays about this already, That I would love to read. But you know thematically this whole notion of Bella doesn't want to get pre, Bella doesn't want to get married. Edward doesn't want to fuck Bella till he's turned her. He won't marry her because he doesn't. He won't. He wants to marry her because he doesn't believe in sex before marriage. So the compromise is she gets turned and it's all to avoid having a baby or having a baby before marriage, right? And at the same time you have this plot line of these newborns that should be good chewy shit like chunky chunk and it is not. And Xavier is giving Having at all times— and I must say, not to drag the B director, I'm not saying it was your fault, but it does feel like the B unit or whoever was filming that stuff did not have the same budget as the rest of the movie. Like, it looks like they were trying to launch a spin-off TV show or something."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:36",
+      "text": "CW."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:37",
+      "text": "I watched the Blu-ray and I was like, okay, this still has some really beautiful scenes despite the CG kind of stuff. There's still the beautiful, like, Washington and landscapes. And, you know, she goes to Florida and that stuff's really interestingly shot. Fuck her fucking mom, Renee. I hate that bitch."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:54",
+      "text": "Um, but yeah, no, they basically sent like someone to a warehouse."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:58",
+      "text": "It looks like they're just shooting Batwoman season 1, you know? It doesn't— there's no lighting. Vancouver. The makeup is really bad. Yes, definitely Vancouver or Toronto. The, the filters don't look good. Like, Carlisle's wig doctor is not there. Like, so it doesn't sell it. And every time you cut back to it, you're like, oh, maybe I just want to see Bella bite her lip again, actually. Like, at least she's got— she's got the star factor."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:22",
+      "text": "Yeah, it's interesting. The DP Javier, um, also shot The Road. Wow. Which I thought was a really beautiful— a really beautiful—"
+    },
+    {
+      "name": "A",
+      "timestamp": "74:32",
+      "text": "Well, there's beautiful things. That's the thing. Like, there is some sequences where I looked up in this movie and was like, oh, I forgot. Like, Kathryn Hardwicke did set a precedent of show the nature, show the nature. They're part of nature."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:42",
+      "text": "great."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:43",
+      "text": "And, and when you get that in these very far-flung, very heavy makeup, very heavy CG ones, it can snap you back a little bit. So it makes sense."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:51",
+      "text": "Yeah, I, I do. But I do want to say I did not like the swap of, uh, Rachelle Lefevre for Bryce— for Bryce Howard. I love— I, I love Bryce. She's great, and I'm glad she's had a career. I'm glad she's directing all over the place. All of that is, is wonderful. But I, I really really liked the other Victoria, um, a lot more. And I, I felt like that, that completely fell flat. Like her faux love for Riley and like all of that, just— well, there was no— there was no convincing acting happening there, in my opinion."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:28",
+      "text": "I'm not gonna lie."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:28",
+      "text": "Hashtag not my Victoria."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:30",
+      "text": "I'm glad you— I'm glad you brought it up, but just simply because I will say I think this is one of the best things about the fandom and the way that people are talking about it, the way we're talking about it, is that, you know, it was even back then, it was very controversial and a lot of us did not like it. And it wasn't because we didn't like Bryce. And when I watch it now, right, I feel like lucky. I'm like, I'm glad I got 2 Victorias and they're both chill together. They do photos together now, you know."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:54",
+      "text": "Oh, that's fun."
+    },
+    {
+      "name": "A",
+      "timestamp": "75:55",
+      "text": "Yeah, yeah, yeah. They recently just took a photo together and kind of wink wink, nudge nudge that they might be working on something."
+    },
+    {
+      "name": "F",
+      "timestamp": "76:01",
+      "text": "Oh, crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:02",
+      "text": "So we love that. I mean, we know the Twilight animated series is coming out allegedly, so there is stuff in the works. But what I think sucks, and I think I'm, I'm glad it falls flat for you, Matt, because I do think this is the risk that they take when you do this, is it was just done for success. It was literally, let's put a more famous actress, right? Which is so ridiculous because Victoria is fucking amazing. So I think that's the issue, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "76:27",
+      "text": "What did you mean?"
+    },
+    {
+      "name": "A",
+      "timestamp": "76:28",
+      "text": "Exactly. It's like she already established a character. I've got a Victoria Barbie that's her. I've got a Victoria Barbie It's, uh, you know, Bryce— sadly not as curvy as Bryce in real life. This is pre when they let Bryce be fat. Then now they acknowledge that she's fat and curvy and beautiful and we love her. And, um, yeah, it's like, it's a shame because I do— it does still kind of kick me in the gut a little bit of like, man, she was in the biggest— it's another woman who kind of got kicked off the biggest franchise in the world that's for women, you know?"
+    },
+    {
+      "name": "H",
+      "timestamp": "76:56",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:56",
+      "text": "So I think it does lighten my enjoyment a little bit, even though by, you know, that 4 or whatever. I love to see Bryce in her crazy fur coat as Victoria."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:05",
+      "text": "Yeah, yeah, it's a cool coat."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:08",
+      "text": "Fair enough. Um, Jason, anything we missed? Any honorable mentions you want to make sure we hit?"
+    },
+    {
+      "name": "C",
+      "timestamp": "77:13",
+      "text": "Oh, it's a good question. I'm sure there's a bunch more I could say about this, to be perfectly honest."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:17",
+      "text": "I know, we could do it all day."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:18",
+      "text": "I love the tent."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:20",
+      "text": "We have a robust letter section."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:21",
+      "text": "Did we talk about the tent?"
+    },
+    {
+      "name": "E",
+      "timestamp": "77:23",
+      "text": "Um, we did."
+    },
+    {
+      "name": "H",
+      "timestamp": "77:24",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:27",
+      "text": "Uh, okay, wait, wait, I will tell you something that I— that did stick out to me this time, and it's just once again one of my favorite complaints, which is just Bella's mom. Like, what are you doing? Like, can you—"
+    },
+    {
+      "name": "B",
+      "timestamp": "77:39",
+      "text": "She didn't come to graduation. She didn't show up for graduation."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:43",
+      "text": "She's just chilling at her giant pool house."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:44",
+      "text": "She's not a great mom. She's not a great mom."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:47",
+      "text": "And then like the one time she ever gives her good advice, which is like, maybe don't get married and move to Alaska. Like, what do you want? Yeah, she then just immediately goes, \"Oh, here's a present.\" Fuck it, I can't have the tough conversation. Like I hate Renee. She never should have gotten the baby named after her. Terrible, Charlie. The baby should be called Charlie."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:07",
+      "text": "Who raised you better? Yeah, Charlene something something. I only have two pieces, two honorable mentions. The first one is the the speaking of the the the B roll of the of the newborn arm. army. It looked like a Portland Antifa video. It looked like a MAGA, you know, like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "78:27",
+      "text": "It did look like this is what's happening in New York."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:30",
+      "text": "The future liberal swamp. It might be."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:31",
+      "text": "It might be."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:31",
+      "text": "Mom Donny's New York."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:33",
+      "text": "Yeah, exactly, exactly. There's vampires in Mom Donny's New York."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:37",
+      "text": "It was so crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:38",
+      "text": "They're all socialists."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:39",
+      "text": "Uh, the other honorable mention was I was literally— I was— it— I was making notes during the credits and I was like, shit, we were supposed to be watching Scott Pilgrim right now."
+    },
+    {
+      "name": "A",
+      "timestamp": "78:49",
+      "text": "Okay, look, I am gonna say this is partially on me because when you messaged me and was like, Eclipse on this day, I was like, okay, we're switching back. And I did not check in with you. I was just like, I guess we did kind of miss it, the anniversary's gone. Like, so I was just like, yeah, sure, Eclipse, it's fall. But hilariously, that does mean I will be back hopefully before the end of the year to do Scott Pilgrim."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:10",
+      "text": "Rosie, I will be back."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:12",
+      "text": "Also, there's a new Scott Pilgrim video game that just came out that I'm loving. Uh, I'm a huge fan of the TV show, which was incredible on Netflix, which I think just came out on Blu-ray. So I think there's loads of fun timely ways. And I just did a Q&A with Edgar Wright, so I can like tell some fun stories from there."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:27",
+      "text": "Beautiful, beautiful. I'm, I'm very excited, guys. Who would Tilda Swinton play? Let's just get Riley out of here. I was gonna say it's Riley. It's Riley."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:40",
+      "text": "It's gotta be Riley. That'd be the— that would— I think that would save the movie, frankly. Uh, might be a unanimous pick for Tilda because honestly that would just make it into Entirely better movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:49",
+      "text": "I guess she could have been Victoria too."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:50",
+      "text": "I was gonna say, if you're good at playing double part, double part."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:01",
+      "text": "All right, are you guys ready for a very robust letter segment? Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:07",
+      "text": "Oh my God, let's hear who we got, who we got on tap, who's coming."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:10",
+      "text": "All right, here, listen, we're gonna start with— we're gonna start Baby, this is Lizzen. All right, here we go, Lizzen."
+    },
+    {
+      "name": "J",
+      "timestamp": "80:20",
+      "text": "Our queen. Hi friends, this is Lizzen. Love you, and big, big time love to Rosie. Kiss, kiss, kiss. I also love what I'm about to say about Eclipse. It's not my favorite in the series, but this is so unhinged that I just can't help but love it. So before Stephenie Meyer even knew or understood who Jasper Hale was, She was perusing through roll calls for the Confederate Army here in Texas, the Lone Star State, looking for a name. And both Jasper and Whitlock, uh, his original last name, uh, were on those lists, though not together. In Eclipse, we learned that not only did he fight for the Confederacy, uh, but he lied about his age because he was so eager to join."
+    },
+    {
+      "name": "I",
+      "timestamp": "80:59",
+      "text": "Wow."
+    },
+    {
+      "name": "J",
+      "timestamp": "80:59",
+      "text": "And there he became the youngest major in the Texas Cavalry. Now, there's 2 things going on here. Number 1, I do appreciate the charismatic and ruthless Maria, a vampire from Mexico, seeing this strange white boy and claiming him and his gifts for her army. I have to say, good for her."
+    },
+    {
+      "name": "H",
+      "timestamp": "81:20",
+      "text": "Uh-huh."
+    },
+    {
+      "name": "J",
+      "timestamp": "81:20",
+      "text": "Number 2, Jasper has had over 160 years to reflect on the war of Yankee aggression and the institution of chattel slavery, and he does not appear to have any doubts. doubts or a reconsideration of his life choices. Very strange, strange book, Stephenie Meyer. Um, anyway, I do remain as ever Team Bella. XOXO, Lizzen."
+    },
+    {
+      "name": "A",
+      "timestamp": "81:41",
+      "text": "It's true, she raises a great point. The fans always talk about it. No one knows what was going on with Jasper. I think he's also named after her brother, if I'm not mistaken. There's many characters named after her family members, right? Um, or at least like inspired by. So yeah, Yeah, no thank you."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:57",
+      "text": "The War of Northern Aggression. Uh, tough one, tough one for our guy Jasper. It's like Jasper's whole—"
+    },
+    {
+      "name": "B",
+      "timestamp": "82:08",
+      "text": "they're like, they're like, he's a strategic master, and he's like, okay, stand in the middle of the field, and then when they come running, we'll just run at them as fast as we can. I, I— he's not—"
+    },
+    {
+      "name": "C",
+      "timestamp": "82:18",
+      "text": "he's a strategic master. He's using—"
+    },
+    {
+      "name": "A",
+      "timestamp": "82:20",
+      "text": "Forever teenager who fought for slavery. Come on, like, get this man out of Also, could I say bad emotional regulation for someone whose power is emotional regulation? Because like, the entire thing is he can't control himself. But spoiler alert for the next movie, which you will surely hear us talk about here in a year, he, he is like, oh, no one can do it, it's so hard to be a newborn. Bella is just like, I'm not gonna eat humans. Yeah, so it's like, my guy is like useless."
+    },
+    {
+      "name": "C",
+      "timestamp": "82:50",
+      "text": "She's special."
+    },
+    {
+      "name": "A",
+      "timestamp": "82:51",
+      "text": "Yeah, yeah, but he's extra useless."
+    },
+    {
+      "name": "H",
+      "timestamp": "82:53",
+      "text": "Okay, here we go."
+    },
+    {
+      "name": "J",
+      "timestamp": "82:53",
+      "text": "Especially—"
+    },
+    {
+      "name": "A",
+      "timestamp": "82:54",
+      "text": "I do like, I do like that his power is like emotional regulation."
+    },
+    {
+      "name": "C",
+      "timestamp": "82:57",
+      "text": "Emotional regulation. It makes me wonder if like he was using his power to like get people riled up about like, you know, the Confederate soldiers' statues that were getting torn down. Be like, actually, actually, you should be really mad about this."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:09",
+      "text": "He's the reason for all the problems. Yeah. Oh my God, thank you so much, Lizzen. Great accent. We love hearing Lizzen's accent. Fatten for work. All right, uh, here is our next voice Hello, Bog Pod."
+    },
+    {
+      "name": "I",
+      "timestamp": "83:25",
+      "text": "Hey, Bog Pod."
+    },
+    {
+      "name": "H",
+      "timestamp": "83:26",
+      "text": "Hello, Bog Pod."
+    },
+    {
+      "name": "I",
+      "timestamp": "83:27",
+      "text": "Hey, Bog Pod. Hello, Bog Pod. Hey, Bog Pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:29",
+      "text": "Bog Pod."
+    },
+    {
+      "name": "I",
+      "timestamp": "83:31",
+      "text": "G'day, Bog Hatch. I watched the Twilight films when I was quite young, so like naturally they're sort of baked into my subconscious. It means that I've had a few dreams about them in my, in my time. Um, one like really classic dream that I had when I was probably like 7 years old was one where I It was, it was told in like the form of like a flashback with no sound. It's a very important detail. A flashback with like no audio, with the exception of like dramatic music. It was like sepia, sepia tones, slow motion flashback of like presumably when I became a vampire. And it's like I've fallen off a cliff or something, and then like—"
+    },
+    {
+      "name": "F",
+      "timestamp": "84:08",
+      "text": "Huh."
+    },
+    {
+      "name": "I",
+      "timestamp": "84:09",
+      "text": "Jasper or Carlisle or something leans over and bites my arm, and I'm like screaming and writhing around in Agony. Importantly, like screaming and writhing around silently because it's like there's no audio. It's just music. Only about halfway through this screaming, I like come to the realization that I'm the only person for whom there is no audio and everyone else can like talk to each other and like speak and shit. So they're just awkwardly looking at each other going like, why is this guy pretending to be screaming and like not making any sound?"
+    },
+    {
+      "name": "B",
+      "timestamp": "84:42",
+      "text": "Huh."
+    },
+    {
+      "name": "I",
+      "timestamp": "84:44",
+      "text": "And they all thought I was weird, and now I'm a vampire forever, and they all think I'm weird because my first impression was just screaming silently, looking stupid. Wow. Anyway, I was really embarrassed when I woke up and was 7 years old. What dreams have you had that involve movies or movie characters? Lots of love."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:01",
+      "text": "Huh."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:02",
+      "text": "That's good."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:03",
+      "text": "That is a wild dream."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:05",
+      "text": "I do have a really good one because I do remember dreams in that sense. So when I was about 7, I heard one of my favorite movies to watch at Christmas is the classic Mickey's Christmas Carol. It's like not as good as the Muppets Christmas Carol, but it's a hand-animated from the '80s classic."
+    },
+    {
+      "name": "F",
+      "timestamp": "85:24",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:24",
+      "text": "Mickey is Cratchit, you know?"
+    },
+    {
+      "name": "D",
+      "timestamp": "85:26",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:26",
+      "text": "So I love that movie, and I have— I've always suffered from really bad nightmares, like night— like medical night terrors. Like, it's, it's rough times when I'm sick. And I go to sleep, and I had insomnia as a kid, so it didn't help. So I had a recurring dream that at the end of that movie, Scrooge McDuck falls in a grave towards hell, and then he's like falling and through— like he falls down his own grave and he's like, ah! And I used to dream I was falling in, but he was like a vampire, like, and he was pulling me down. Yeah, and I had that dream so many times as a kid, and I still watch that movie every Christmas. It's good as shit, but like— Vampire Scrooge McDuck."
+    },
+    {
+      "name": "F",
+      "timestamp": "86:06",
+      "text": "Scrooge McDuck."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:08",
+      "text": "That is a very specific Dracula. Scrooge McDuck."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:10",
+      "text": "Give me that job, guys. Give me that job. Ha!"
+    },
+    {
+      "name": "C",
+      "timestamp": "86:15",
+      "text": "I'm sure I had. I've had some kind of dream. I actually had a terrible. I've been sleeping terribly lately, which I think is just getting old. But like the I had a nightmare last night that was like we have to like pack for this trip and like everything's gone wrong with the packing. We're gonna miss. I had like it was like a big travel stress dream."
+    },
+    {
+      "name": "I",
+      "timestamp": "86:32",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:32",
+      "text": "Oh my God. But there wasn't like any, um, there wasn't any movie. It would have been better with like Tom Cruise in it or something."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:39",
+      "text": "Um, your mission, if you choose to accept it, get your plane on time."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:42",
+      "text": "Oh my God, it was so stressful."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:45",
+      "text": "Sam was calling at 4 AM, uh, for calling for Mom, and April sleeps in earplugs because I snore some. So I jumped up as I do and I ran upstairs and he was, he was scared and he said, Dad, I had a nightmare and it was really scary. And you were the bad guy. Oh my God. That— he's like, it was extra scary. Uh, and I'm like, okay, bro, lay down and relax."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:10",
+      "text": "Or I'll kill you."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:11",
+      "text": "So he laid down and I scratched his back a little bit and then, and then cuddled him and then, and then woke up at 6:30 this morning in bed. And I was like, oh God, gotta get back up and go downstairs and start the day. Um, but so yeah, that's— it's tough. Dreams, dreams are tough, man."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:27",
+      "text": "are tough. We're still in a very, uh, interventionist stage of child rearing with respect to sleep. Like, uh, there's a lot of— there's a lot of kids that need to be, uh, nuzzled, nuzzled, like, to sleep, or, you know, cuddled to sleep."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:41",
+      "text": "I'm pro. I'm pro sleep cuddling. I go that way. I'm very pro on the cuddling, but it has to happen there. It doesn't happen— like, there's no coming into our bed. Like, that's not—"
+    },
+    {
+      "name": "C",
+      "timestamp": "87:50",
+      "text": "No, but the result of that is that I just fall asleep in their bed. Correct. That's probably— like, I'll 100% of the time."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:56",
+      "text": "That's absolutely— can relate as an auntie. Yeah, yeah, there you go. All right, here is our next voicemail."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:07",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:11",
+      "text": "Let's go break it down. I was working late for my haftarah when I heard a knock on my bedroom door."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:19",
+      "text": "I opened the And to my surprise, there was a werewolf standing there with glowing gold eyes. Werewolf from the mid-'50s."
+    },
+    {
+      "name": "J",
+      "timestamp": "88:27",
+      "text": "Spooky scary."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:28",
+      "text": "Wolves becoming men, men becoming wolves."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:32",
+      "text": "That's a classic reference to Animal Mother."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:34",
+      "text": "Love that one."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:35",
+      "text": "I'm aware that as the father of young girls, I should just go ahead and stare into the void, but for now, let me tell you something about werewolves. If vampires are looks-maxing hot dogs, Clerks. Werewolves are feral meth and bath salts-powered cashiers in middle-of-nowhere rundown gas stations. Out of the two, you want to tread lightly with the latter. Your average vampire encounter leads to a really nasty hickey. Best case scenario, they make you join their Bauhaus tribute band. Worst case, you end up a gross little groupie."
+    },
+    {
+      "name": "H",
+      "timestamp": "89:09",
+      "text": "Mm."
+    },
+    {
+      "name": "E",
+      "timestamp": "89:09",
+      "text": "Actually, even worse, they start simping on you. Ugh. Werewolves, like honey badgers, don't give a shit. They're all killer instinct, hunger, and hate. They'll eat babies, not imprint on them. And if they like you, they won't bother with a love triangle. They'll rip your fucking banana split, highballs with an ice cream scoop, and fuck the stump. In conclusion, werewolves rule, vampires drool. Thanks for listening to my TED Talk."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:37",
+      "text": "It's great."
+    },
+    {
+      "name": "E",
+      "timestamp": "89:38",
+      "text": "Does he own a shirt? If they cared about such things, what would an all-werewolf tribute band cover? Thank you. See you at the werewolf bar mitzvah."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:51",
+      "text": "And mazel tov. So good. So good. Wait, if they cared about— if they cared about such thing, what would the band cover?"
+    },
+    {
+      "name": "B",
+      "timestamp": "90:03",
+      "text": "What would a werewolf tribute band Band, yeah. Oh, I mean Warren Zevon obviously you know would be in there. Werewolves in London."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:12",
+      "text": "I will say I went to see this really cute movie last night called Forgotten Island, which is the new DreamWorks movie. It's an animated movie based on Filipino culture, and they have a really Did you go Peter?"
+    },
+    {
+      "name": "B",
+      "timestamp": "90:25",
+      "text": "No, no."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:26",
+      "text": "Peter actually went the day before me, but I took some of my friends who are Filipino and who have a kid. And it was really cute. The movie's great. The villain's really scary."
+    },
+    {
+      "name": "H",
+      "timestamp": "90:33",
+      "text": "Cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:34",
+      "text": "But one of the main characters is like a werewolf, and he's like a— he loves to sing karaoke to Don't Stop Believin' by Journey, which is a recurring theme. The soundtrack is unreal in this movie if you like kind of classic karaoke bangers. But yeah, so I'm gonna say, I'm gonna say a little Journey. Like, I don't have any puns on me, but that's just factual from the definitely real movie I watched last night."
+    },
+    {
+      "name": "C",
+      "timestamp": "90:57",
+      "text": "I feel it's like maybe just because of the beards, but like ZZ Top as like a werewolf band would be pretty chill, right?"
+    },
+    {
+      "name": "A",
+      "timestamp": "91:04",
+      "text": "Yeah, I could see that. Any kind of motorbike, Motörhead type bands, I feel like there's—"
+    },
+    {
+      "name": "C",
+      "timestamp": "91:08",
+      "text": "yeah, yeah, yeah, yeah, crossover. Yeah, werewolf biker crossover, I'm here for."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:15",
+      "text": "Yeah, that makes sense. That makes sense. I would like to do Teen Wolf on here at some point."
+    },
+    {
+      "name": "A",
+      "timestamp": "91:19",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:19",
+      "text": "I love Teen Wolf. I'd love to— I'd like to do Teen Wolf too. I think Teen Wolf—"
+    },
+    {
+      "name": "A",
+      "timestamp": "91:23",
+      "text": "We love a franchise."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:24",
+      "text": "Come on. Yeah. All right, thank you so much, Animal Mother. Here is our next voicemail. Mr. Java. All right, we missed him last week. We're excited he's back. Nice. Watch that creep. She wants vampires. Runs with Jake Black, breaks the dumbass hands. When a baby comes along, he'll imprint it. When she runs ahead but stumbles, she must ring it. For she acts like Jake reverse, she will tease him."
+    },
+    {
+      "name": "A",
+      "timestamp": "92:08",
+      "text": "Imprint it! Now go fetch! Wow, evil!"
+    },
+    {
+      "name": "B",
+      "timestamp": "92:12",
+      "text": "Throw in a moat! Play dead! Roll over! Shake a paw. Should rub your head now. Don't be too lame. Imprint it. Imprint it good. Welcome back to One of the Greats. Hello, Rosie. Wow, crazy. We love it. What's a relationship, fictional or real, that seems pretty inappropriate when you look at it, but that you're okay with? Maybe you're a Celine Dion fan."
+    },
+    {
+      "name": "J",
+      "timestamp": "92:39",
+      "text": "But anyway, let us know."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:43",
+      "text": "Spooky scary."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:49",
+      "text": "Listen, listen, listen, listen. Oh man, that was good."
+    },
+    {
+      "name": "A",
+      "timestamp": "92:56",
+      "text": "That was like one every time better than the last."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:01",
+      "text": "The imprinting thing is just really—that's where Stephanie goes crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:05",
+      "text": "Like we didn't even talk about that. We didn't need. it, babe. We just try to erase it from our memory. We don't want to hear about it. We don't want to know. We don't know about Jacob and Renesmee. Don't tell me that you wrote that fucking book. Nobody wants that. Stop. And I love these books."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:18",
+      "text": "It's really tough. It's really tough because as soon as he said it, I was like, oh yeah, he's gonna fuck and marry your daughter who might never grow older than 17. I'm like, that's not good."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:33",
+      "text": "It's bad. And also she grows in like a year. So like, it's— the whole thing is so fucked up. Like, I think this was a case of Stephenie trying to set up a sequel, because for a long time that was the promise of the new book, was that she wanted to do the Jacob-Renesmee romance. And thank God we have moved past the time when that would ever be publishable."
+    },
+    {
+      "name": "C",
+      "timestamp": "93:57",
+      "text": "Oh my God."
+    },
+    {
+      "name": "A",
+      "timestamp": "93:58",
+      "text": "But yeah, I will say, I think that that was like— I don't think she even ethically and morally thought about it. And also Mormon So not gonna say anything else, but the imprinting is like so horrific, and it is the thing that really makes it hard, understandably, for a lot of people to get through these movies. Because even if you can sell them on these two, when he starts talking about that shit, they're like, \"He got imprinted on a baby.\" Oh my God! Everybody knows they know the meme, or they can sense it in their gut. Yeah. And then you have to wait for this excruciating. Oh, he loves Bella, but he doesn't. She's not interested. interested. And then you have to start thinking about like, okay, so is— should he also be attracted to Edward because it's the sperm and the egg? Or is he just attracted to Renesmee's egg? Or like, it doesn't make any sense."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:50",
+      "text": "No, no. Like, we might stop. We might stop just on the imprinting."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:53",
+      "text": "As soon as like Jacob like brought it— because it comes up, it's like introduced in this movie as a concept. I was just like, oh, that's is so upsetting."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:01",
+      "text": "He had to leave his girlfriend he liked because he imprinted on this other random woman. Calm down."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:06",
+      "text": "It's just—"
+    },
+    {
+      "name": "A",
+      "timestamp": "95:06",
+      "text": "Shush."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:06",
+      "text": "It's just real talk."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:07",
+      "text": "Madness."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:07",
+      "text": "Real talk. Real talk."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:09",
+      "text": "Boo."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:10",
+      "text": "Thank you so much. Here is our next voicemail."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:14",
+      "text": "The Truthsayer."
+    },
+    {
+      "name": "A",
+      "timestamp": "95:18",
+      "text": "Oh, oh no. I've got to get my facts on."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:20",
+      "text": "Here we go, birria."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:22",
+      "text": "Hey, y'all. Birria here for the Twilight Eclipse Truthsayer. Today we're going to keep it simple. Kristen Stewart and Robert Pattinson are the faces of the biggest vampire Movie franchise this side of Blade, but when Kristen Stewart was asked what her favorite vampire movie is, she didn't mention any of the Twilight films. For today's Truthsayer, a simple question: Which one of these three classic vampire films did Kristen say was her favorite? One true answer here. Two bloodsucking lies. Time for the Truthsayer. Number one, *The Lost Boys*, the 1987 beachy vampire classic we covered last week on the podcast. Or is it number 2, Let the Right One In, the beautiful and terrifying 2008 Swedish horror film? Or is it number 3, What We Do in the Shadows, the 2014 Taika Waititi and Jemaine Clement classic mockumentary on the lives of vampires? Which one of those did Kristen Stewart claim was her favorite vampire movie?"
+    },
+    {
+      "name": "C",
+      "timestamp": "96:18",
+      "text": "I think it's— I think it's Let the Right One In."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:21",
+      "text": "I think it is too. Like, I would love it to be Lost Boys because I feel like that's like the lesbian icon status. statement. But Let the Right One In is so horror, it's so incredible, it's so weird, it's scary, it's grotesque, it's indie cinema. I mean, the original film is still one of the best vampire movies ever made, and the book is incredible too."
+    },
+    {
+      "name": "C",
+      "timestamp": "96:41",
+      "text": "Lost Boys, as we covered last week, is gay but not lesbianic."
+    },
+    {
+      "name": "A",
+      "timestamp": "96:46",
+      "text": "No."
+    },
+    {
+      "name": "C",
+      "timestamp": "96:46",
+      "text": "Like, so it is—"
+    },
+    {
+      "name": "A",
+      "timestamp": "96:47",
+      "text": "so I will say it does hold a special place in the generalized queer fandom just because he was out when he made it, and it's so obviously gay, and it was still so successful. And I think that kind of— and also like the Victorian kind of effeminate-influenced hairstyles, it's easy to gender bend it. There was actually— I know you guys talked about this because it was in the Discord, um, the sequel they were gonna do, right? Lost Girls, like you say, Matt."
+    },
+    {
+      "name": "I",
+      "timestamp": "97:15",
+      "text": "Lost Girls, right."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:16",
+      "text": "But me and my friend Bianca Eunice, we have a dream to try and make like a Lost Girls graphic novel, like a spiritual sequel to it, 'cause, uh, dreams never die. Yeah, dreams never die, babe. I love, I love Lost Boys, but I, I'm right. I agree with you, Jason. I think it's got to be, I think it's got to be Let the Right One In."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:32",
+      "text": "Yeah. All right, I'm gonna go with Lost Boys, uh, for all the reasons that you just laid out, uh, but I agree. I think, I think Let the Right One In is definitely a strong candidate."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:40",
+      "text": "This was the best announcement. All right, did you find the right answer?"
+    },
+    {
+      "name": "D",
+      "timestamp": "97:42",
+      "text": "It's number 1, The Lost Boys."
+    },
+    {
+      "name": "H",
+      "timestamp": "97:45",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:45",
+      "text": "She would have said that it's the movie that made her want to play a vampire. That's why. The boardwalk, Kiefer Sutherland, and vampire eye contact. She walked right into the Twilight auditions with that in her head, and the rest is glittery history. Here ends the Truthsayer. Bless."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:02",
+      "text": "Amazing."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:02",
+      "text": "It just means we're more likely to be friends. I didn't want to put it out there, it was too much wish fulfillment, but the fact that that was her answer, I mean, it's just meant to be."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:09",
+      "text": "Yeah, very good, very good. All right, here is the next voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:15",
+      "text": "Hello, Escape Hatch, it's Kev here."
+    },
+    {
+      "name": "C",
+      "timestamp": "98:17",
+      "text": "Yeah."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:18",
+      "text": "This week we are talking about Twilight Eclipse, a movie whose synopsis I just read on Wikipedia. And let me tell you, this shit's weird. I'm sorry."
+    },
+    {
+      "name": "A",
+      "timestamp": "98:27",
+      "text": "Correct."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:27",
+      "text": "And I know that there's weirdness to come, right? And I know that this is a podcast that used to be about the story about the desert where people pee into their clothes and the clothes drink the pee and then the people drink the pee. But like, even by those standards, the series is weird. So Kev's question is actually going to be about a widely anticipated movie based on another fantasy franchise, Greta Gerwig's Narnia, which appears to be on its surface a freakbeat classic."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:56",
+      "text": "Yeah. Yes."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:57",
+      "text": "Kev's question: do you think that Greta's glam rock, rock and roll '70s vision of Narnia will resonate with people, or will the world subconsciously remember it's a Netflix original and steer clear of the IMAX? How are we feeling about Greta Gerwig's Narnia. I'm sorry, this question isn't about Twilight. Twilight was never my bag, baby. But I also don't, you know, what am I going to do, ask you about the Pacific Northwest? I know how you feel about that. Yeah. So with peace and love, I will talk to you all."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:27",
+      "text": "Great question, Kev. Great job."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:30",
+      "text": "Once again, it's Kev's Questions."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:33",
+      "text": "Well, a couple of things on this, because first of all, it brings to mind Mr. Java's question of like, what's your, like your problematic fandom or the thing that like, you know, You know, you're— you think my— you like that is problematic. And, and I think Dune, particularly books 5 and 6, are, are certainly in that category because it gets real— it gets hard to defend. And you, you, you're gonna have to— you're gonna have to like sort of caution people about what they're getting into, um, with the sex ninjas and whatnot. Um, so that's one thing. Um, Greta Gerwig's— I'm glad Kev brought this up because I am— look, I'm a Narnia obsessive. Narnia is my most favored first love in all of genre fiction."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:12",
+      "text": "And like, how far did you get in the series with, with G?"
+    },
+    {
+      "name": "C",
+      "timestamp": "100:15",
+      "text": "We got to book 3. We're in the middle of— we, we bailed in the middle of book 3. Uh, he'll go back to it. Uh, he'll get back to it. He'll get back to it. Where he's very into Dog Man right now."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:25",
+      "text": "Oh, everyone is. That's why it's the biggest-selling comic book in the world."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:29",
+      "text": "Dog Man is great."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:30",
+      "text": "5 million pre-orders every time, baby. No one does it like Jack Pilkey."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:33",
+      "text": "He will, he will read like a whole one of those like in one sitting. He just absolutely absolutely loves it. Um, anyway, uh, so Narnia, very important to me. I— when like it was revealed that, um, Meryl Streep—"
+    },
+    {
+      "name": "F",
+      "timestamp": "100:48",
+      "text": "Meryl, yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:49",
+      "text": "Was going to be the voice of Aslan, like, I will say I did have a bit of a reactionary response, which was just like, I understand it's fantasy and that like, you know, whatever, anyone could be anything in a fantasy world, doesn't matter. I was like, but come on. I was like, it— I don't— I think, I think, I think it will be great. I really believe in Greta's vision, but there was an aspect where I was just like, it's that— this is the kind of choice you make when you're just fucking with people."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:14",
+      "text": "Like, I'm not gonna lie, people hated that choice, but I'm not— I, I actually have to say, I'm like, Meryl, it's Meryl Streep, bro. Like, she can do a male voice, she can do a more masculine voice. Oh, it's supposed to be like Jesus? Yeah, Jesus wasn't a lion, he wasn't a white guy. Like, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:33",
+      "text": "But I also love Narnia."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:33",
+      "text": "Oh, fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:34",
+      "text": "And, and not just like in England, those books are so easily available. I'd read all of them by the time I was 10. Like, I had read them so many times. There's a specific box set they would really easily like have at libraries. Yeah, you know it."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:47",
+      "text": "I had it. Yeah, of course."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:48",
+      "text": "And like the BBC TV adaptations of these are so cool. I own them on VHS and DVD. And, and recently—"
+    },
+    {
+      "name": "C",
+      "timestamp": "101:55",
+      "text": "Those I've actually never seen."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:56",
+      "text": "The Lion, the Witch and the Wardrobe specifically is astonishing. Like the production value The way it establishes the lore, the haunting kind of creepiness they allow with it. Like, it's really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:06",
+      "text": "What year was that? It's like '70, '80s?"
+    },
+    {
+      "name": "A",
+      "timestamp": "102:08",
+      "text": "Yeah, maybe early '80s. But it is— you can find it. They just did a remaster and released it on Blu-ray, which hasn't— it hasn't been released for a long time. And they're actually doing all of them, which I had only ever seen as a kid. The— we had the Narnia, the first one that— well, what I thought was the first one, The Lion, the Witch and the Wardrobe, at the time, right? on VHS, so that was the one I'd seen. But it turns out, you know, they made at least 3 of them, I think. And, uh, so anyway, I have a lot of deep feelings about it. Meryl Streep of it all did not actually worry me because like Aslan is Jesus, is Meryl Streep is Jesus. Okay, it's— we've done it. I'm not gonna lie, she got us. I gotta see the— I gotta see the glam rock shit moving. I gotta see how it looks. It currently has the rainbow sheen of a Netflix original. I, I believe it will not have that."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:54",
+      "text": "What?"
+    },
+    {
+      "name": "A",
+      "timestamp": "102:55",
+      "text": "If you look at the Empire images, It does have that kind of feel to it."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:59",
+      "text": "It looks glossy. Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:00",
+      "text": "I need to see it in real life. I need to see it moving. I need to see a trailer."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:05",
+      "text": "Did you watch Electric State? Yeah. Was it good? No. Because I love Simon Stålenhag. Like his— No, no, no, no. It's nothing."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:14",
+      "text": "It's not realistic to his— It's not allowed to be his work. You know what I mean? Like it's not. It's just not. It's Netflix. It's Netflix, but not just that. It's like, and I'm somebody who didn't really care about, say, like the branding in Camp Miasma, which a lot of people found very over the top, right? I loved the candy product placement. It felt in the world. I love candy. I'm fine with it. So like, I do have a high tolerance, but there is like a high level of like brand, brand, brand, brand, brand that you're just like, oh my God."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:47",
+      "text": "Okay. I thought the image of Aslan looks so fucking cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:53",
+      "text": "That part did look cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:54",
+      "text": "Exactly, the mosaic, like rainbow. I wanna see that shit."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:57",
+      "text": "Yeah, fish scales and whatever."
+    },
+    {
+      "name": "A",
+      "timestamp": "103:59",
+      "text": "I will say, if you look further than just the set images, the Empire subscriber cover, which is always a legendary place to look 'cause they get the really incredible artists, the subscriber cover was concept art of Aslan creating Narnia, and it looked fucking unbelievable. It was some Jodorowsky-level, like, sand swirling shit."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:19",
+      "text": "Oh, shit."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:20",
+      "text": "That I was like, yes, like, that's— but I need to see it on screen. I also, look, I can't— I'm gonna not surprise anyone here with my takes that have been getting me dragged recently because I guess we're regressing back to 2012 discourse. But look, you gotta also promise me, and I do like— I like that she cast the Rag and Bone Man and that he's a Black actor, but a lot of times in England, in America, making a movie set in the past is a reason to make it less diverse. And I also need to see that that is not not the case. Because I think that there is a danger right now of allowing ourselves sliding back into these false narratives of the past. Whereas, you know, Tudor England was diverse, but post-World War II England was so diverse."
+    },
+    {
+      "name": "C",
+      "timestamp": "104:57",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:58",
+      "text": "Because you're in a situation where they need to replace the workforce, so they go out to the colonies, right? So like, I just wanna make sure that the, the book still has the radical mindset that the book had. Because look, the guy had religion, he had all these things that maybe I don't agree with, but there were radical aspects aspects to Narnia that have always been there. That's why it's been such an ongoing kind of lion-hearted story among kids, among academics."
+    },
+    {
+      "name": "C",
+      "timestamp": "105:23",
+      "text": "Yeah, I think that's good. I think it's well said. I'm worried about the glam of it, which is just like—"
+    },
+    {
+      "name": "A",
+      "timestamp": "105:29",
+      "text": "I need to see Jadis move in that fucking dress and know it doesn't look like it's from Primark."
+    },
+    {
+      "name": "C",
+      "timestamp": "105:34",
+      "text": "Yeah, like, it's just aesthetically, it's not my first choice. Among, uh, like, you know, rock and roll movements. But, you know, we'll see. I would— I, I— someday someone will make the new wave Narnia, I guess, and it'll be fine."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:51",
+      "text": "Dude, in Greta we trust."
+    },
+    {
+      "name": "C",
+      "timestamp": "105:54",
+      "text": "Yeah, I mean, she is great. That's the thing, is Greta is great. It could—"
+    },
+    {
+      "name": "B",
+      "timestamp": "105:57",
+      "text": "it's gotta be great."
+    },
+    {
+      "name": "A",
+      "timestamp": "105:58",
+      "text": "It could be. Guys, she literally made like Little Women is one of my favorite movies of all time, and I went into that so good, zero No interest, zero knowledge of the book because it's not popular in the UK. I now own like 5 different editions of the book. I've watched every version of the movie. Hers is still my favorite. I've even watched like all the TV specials. I went into that shit onto like, I don't know, whatever studio it was. Sorry to Sony, probably like Columbia or something. But like, I walked into that lot to review it for IGN expecting to just not like it. I'm not a Lady Bird— it rubbed me up in the wrong way. Very triggering for me. Not my experience, but too much like my experience. Just like didn't work."
+    },
+    {
+      "name": "C",
+      "timestamp": "106:34",
+      "text": "Right."
+    },
+    {
+      "name": "A",
+      "timestamp": "106:34",
+      "text": "for me. But I walked out of that movie, I'm giving that shit 8 out of 10. I'm crying when she's binding the book. So Barbie, again, like, the power of her filmmaking and her vision, it might not be as clear right now as we usually see in pre-production, but I'm interested to see where it goes when we get more of a sense of it. I need to hear the needle drops. I need them to be not too obvious. I need them to be fun. I need them to not take away from it. I need to hear the score, you know, all All of those things."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:00",
+      "text": "All right, well, yeah, I, I'm, I'm very optimistic. I'm not even cautiously optimistic, I'm just wildly optimistic."
+    },
+    {
+      "name": "A",
+      "timestamp": "107:06",
+      "text": "We love optimism."
+    },
+    {
+      "name": "B",
+      "timestamp": "107:07",
+      "text": "All right, here is our final voicemail."
+    },
+    {
+      "name": "H",
+      "timestamp": "107:10",
+      "text": "Yeah, Escape Hatch, hey, this is Corey calling from Austin, Texas about— well, not really about Twilight Eclipse. of the heart, or— but I don't know. You guys know I'm not into Twilight, so, uh, I am excited to listen to everybody that is into Twilight talk about it though. Uh, I am very interested in the fact that there's a lot of Civil War talk happening on the Discord in reference to this movie. I didn't— I don't know what that's about, so that'll be really interesting to find out."
+    },
+    {
+      "name": "I",
+      "timestamp": "107:47",
+      "text": "Walking Alone."
+    },
+    {
+      "name": "H",
+      "timestamp": "107:48",
+      "text": "Um, yeah, what the hell's going on with that? I am excited about Robert Pattinson's new movie about Chris Hansen called Prime Time. That looks fucking great. Oh, I'm excited about that, especially since Chris Hansen's not happy about Pattinson's portrayal of him. So that should be fun. Anyway, speaking of fun, you guys have fun doing Twilight. And yeah, I'll listen along, but I actually don't need to watch it. But that's just for me."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:16",
+      "text": "He does."
+    },
+    {
+      "name": "H",
+      "timestamp": "108:16",
+      "text": "That's cool. Everything's cool. Everything's fine. We all love what we love."
+    },
+    {
+      "name": "D",
+      "timestamp": "108:19",
+      "text": "Exactly."
+    },
+    {
+      "name": "H",
+      "timestamp": "108:21",
+      "text": "And then, you know, if you don't love something, then whatever. No big deal."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:24",
+      "text": "Set it free."
+    },
+    {
+      "name": "H",
+      "timestamp": "108:24",
+      "text": "Exactly. Um, who would Tilda Swinton play? I don't know. Um, probably a vampire because she usually does. Maybe we should mix it up and she should play a werewolf. Is there a werewolf lady in this?"
+    },
+    {
+      "name": "C",
+      "timestamp": "108:35",
+      "text": "There sure is."
+    },
+    {
+      "name": "H",
+      "timestamp": "108:36",
+      "text": "Maybe a clear wolf. Maybe she could be a werewolf lady."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:38",
+      "text": "Have you ever heard of her?"
+    },
+    {
+      "name": "H",
+      "timestamp": "108:40",
+      "text": "I've heard of her."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:42",
+      "text": "Corey, I love you. Thank you for that. Thank you for that."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:44",
+      "text": "I like that Corey's gotten more like sort of, hey, it's okay if you like this, like from Like, from like where he started."
+    },
+    {
+      "name": "A",
+      "timestamp": "108:49",
+      "text": "Twilight has changed us all. The real Twilight is the friends we made on the way."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:55",
+      "text": "And now we're all like, okay, this movie's bad actually."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:58",
+      "text": "Guys, we did it! Uh, we are 3 out of 5 through the Twilight journey."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:07",
+      "text": "It's amazing how many there are."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:09",
+      "text": "Will we continue? Will we continue? We'll see whether we have—"
+    },
+    {
+      "name": "C",
+      "timestamp": "109:12",
+      "text": "We will. We're not gonna stop now that we've gone through 3."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:15",
+      "text": "Come I was gonna say, will we be back? Like, probably unless the world ends, 'cause the Discord loves it and I love these movies and I love doing the pod with you guys."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:24",
+      "text": "Maybe we do 4 and 5 together."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:26",
+      "text": "I think that's totally doable and realistic."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:29",
+      "text": "Breaking Dawn, part 1 and 2."
+    },
+    {
+      "name": "E",
+      "timestamp": "109:31",
+      "text": "That's good."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:31",
+      "text": "I think that's completely fine."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:32",
+      "text": "That's fine."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:33",
+      "text": "Okay. All right. Very good. All right. We'll put that—"
+    },
+    {
+      "name": "A",
+      "timestamp": "109:36",
+      "text": "Little supersized treat maybe on a holiday weekend or sometime when we have more time."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:41",
+      "text": "Yeah. There we go. There we go. That is perfect. All right, Rosie, tell the people what you have going on. I was just listening to Impending Doomsday over on X-Ray Vision."
+    },
+    {
+      "name": "A",
+      "timestamp": "109:53",
+      "text": "Yes, we are doing Impending Doomsday. That is our series we've been doing all year, but we're amping it up right now in the lead-in to Doomsday. So now it is currently weekly. We are dropping a new episode that covers one of the 15 properties Marvel says you have to watch before Doomsday, so you don't have to, or if you want to, so you can listen to us talk about it. Those have been really fun. We've been getting into our research bag. Jason's recaps have been Great. I've definitely been getting more hyped up for the movie, which as we know is a controversial thing in general about how any of us feel about it. But watch rewatching them and trying to work out like how it's been going has been great. I have coming out very soon. I believe maybe next week, if not yesterday. No, there's no way it was yesterday. It must be next week. I have a new DC comic coming out. Wow! It's called Doth the Raven Whatever, and it's like— Quoth the Raven Whatever. And it's— I'm doing the Raven story. I'm very lucky to be doing it in the Halloween anthology. My friend Noah Dow is doing the art. They're an incredible Australian artist. They come from the fan art scene, and it's Raven and John Constantine, and they have to solve like a gothic murder mystery."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:01",
+      "text": "So cool."
+    },
+    {
+      "name": "H",
+      "timestamp": "111:02",
+      "text": "Whoa."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:02",
+      "text": "Yeah, and Teenie Howard and Isaac Goodhart have an incredible story in there about Zatanna and John Constantine, and I think there's a Swamp Thing story by my friend Patrick. So I'm really stoked for that. And I am working on a new Adventure Time story. It hasn't been fully announced yet, so I'm just mainlining Adventure Time songs, trying to write more bangers. That's kind of what I'm doing most."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:22",
+      "text": "This, uh, like the, uh, we went through a big Adventure Time phase with the kids a little while back, and the Adventure Time's Distant Lands episode 1, uh, BMO episode, like that song, uh, that like starts off the episode."
+    },
+    {
+      "name": "A",
+      "timestamp": "111:39",
+      "text": "My potatoes, more exciting than tornadoes."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:43",
+      "text": "Potatoes, potatoes, buy my fresh potatoes. Terraforming Martian soil."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:51",
+      "text": "Like the potatoes, potatoes song. Like, is it just like— I think my kid's favorite song. Like, it is an absolute— it is an absolute favorite."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:00",
+      "text": "It's absolutely crazy how many of those songs, like, I just know off by heart inherently. Yeah, because I watched this show so much. Like, my nephew, when he was born, you know, 10 years ago, I used to sing— there's an episode called The Jiggler, and it's like they, they find this thing that jiggles and sings songs, and it's really a haunting episode. Yeah, yeah, yeah. But they sing a song."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:20",
+      "text": "It's weird."
+    },
+    {
+      "name": "A",
+      "timestamp": "112:20",
+      "text": "Yeah, it's a really creepy, weird episode. It's very early on, and they sing a song to it about it being like, you know, it's like Baby, baby. And I used to sing that shit to my nephew. Like, I still sing like the Ice King song with Marceline. Yeah, I do think they're so catchy. And also like there's a lot of cartoons I feel like Steven Universe also. Yeah, for sure. Obviously it's coming to the Over the Garden Wall season. That is the time those songs— Potatoes and Molasses— like there's a lot of catchy weird songs from that Rebecca Sugar era."
+    },
+    {
+      "name": "B",
+      "timestamp": "112:58",
+      "text": "Mm, we fell off Adventure Time, and right now we are working our way through Monty Python season 1."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:07",
+      "text": "Wow."
+    },
+    {
+      "name": "C",
+      "timestamp": "113:08",
+      "text": "Oh, crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:09",
+      "text": "We just had the episode with the dead parrot, which the episode is called Full Frontal Nudity, and I had to explain to Sam why, you know, when they kept showing the— there's a scene where the guy goes to the dirty picture show and they have like, you know, like the statue there and naked, and then, you know, like the, the, the thing comes over the side or someone stands in front. And Sam— I was like, Sam, explain it to Mom. And he's like, oh yeah, they were, they were showing them naked, but like they— you could never see the private parts because somebody was always getting in the way. And it was really funny. And I was like, yeah, he's getting it."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:39",
+      "text": "So cute."
+    },
+    {
+      "name": "C",
+      "timestamp": "113:41",
+      "text": "That's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "113:42",
+      "text": "Critical thinking, literacy, media literacy, guys."
+    },
+    {
+      "name": "C",
+      "timestamp": "113:45",
+      "text": "It teaches so much."
+    },
+    {
+      "name": "B",
+      "timestamp": "113:47",
+      "text": "That is it. Jason, what do you have to plug? Anything else going on?"
+    },
+    {
+      "name": "C",
+      "timestamp": "113:52",
+      "text": "Uh, Goldman world. I do have some more news tomorrow. Um, but, uh, it's still under embargo. It's still under embargo, so we'll save that. Um, and what else? I don't know. It's, uh, it's a busy time. There's a lot going on. Um, I do think, uh, I will plug, in case you haven't seen it, Barack Obama gave very extensive remarks on artificial intelligence at Colgate University, uh, last Friday. The full, uh, some clips. I've tweeted a bunch of the clips, but, uh, the full transcripts are available online, and as well as the, uh, as well as like the whole, the whole 60-minute answer in which he talks about the passing away of his dog, which is very sad, and a whole bunch of other stuff. Um, so I, I recommend it. I think that's pretty good. I think that's worth a, worth a listen. Um, and—"
+    },
+    {
+      "name": "F",
+      "timestamp": "114:38",
+      "text": "Nice."
+    },
+    {
+      "name": "C",
+      "timestamp": "114:39",
+      "text": "Something people might, people might enjoy. Um, yeah, so I'll plug that. Colgate University, Nice."
+    },
+    {
+      "name": "B",
+      "timestamp": "114:46",
+      "text": "I am, I am going to plug— I get an email every time someone requests tickets for the Escape Hatch 70mm IMAX Dune 3, and I got one today because Rosie Knight requested her ticket."
+    },
+    {
+      "name": "C",
+      "timestamp": "114:58",
+      "text": "Oh baby, I did it!"
+    },
+    {
+      "name": "A",
+      "timestamp": "115:00",
+      "text": "Hello! I'm coming, it's gonna be great."
+    },
+    {
+      "name": "B",
+      "timestamp": "115:02",
+      "text": "Yeah, we're gonna have a good, good old time. So stay tuned. Like, some big people are coming, some guests that, that have, have come, people have been on many times, and people who've only been on one time, but some of our favorite creators will be rejoining us. So very, very excited. It's great. Let's do it. Hey guys, have a good one."
+    },
+    {
+      "name": "A",
+      "timestamp": "115:22",
+      "text": "Peace, peace, peace. We did it!"
+    },
+    {
+      "name": "B",
+      "timestamp": "115:27",
+      "text": "And that's it for this episode of Escape Hatch. I want to thank Jason and Rosie for an amazing conversation. Next week we welcome X-Ray Vision producer Abu Zafar for Christopher Christopher Nolan's 2017 war epic Dunkirk. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck Tech Podcast, John, a production of H Industries. Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks for listening. We'll see everybody next week."
+    },
+    {
+      "name": "F",
+      "timestamp": "116:28",
+      "text": "My favorite bit of British history is Dunkirk. Here is what fucking whips about Dunkirk. What was on paper at the time the greatest empire history had ever known fucked it so badly they had to go cap in hand to the working people of their own country and go, Listen up, chaps, spot of bother. Do you remember the lads? Now, as you may You may recall, we recently borrowed the lads and took them on a little trip to give Jerry a bit of a thrashing. There have been some teething problems with that. Jerry, not quite as compliant as we had hoped. The upshot of it is, the lads are on a beach. Now, I know that sounds good, but it's not a good beach. You see, you're picturing pebbly, cold. It's more bomby, if I had to put it— Bomby? And so, of course, we need to get the lads off of the beach forthwith, as I'm sure you'll agree. And in order to do that, we're going to need a lot of boats. And you're probably thinking, what about the famous British Navy? And I will level with you, don't get me started on the fucking Navy! The Navy is not in play. So we were just wondering if you chaps wouldn't mind stopping what you're doing And, um, popping over and getting the lads. And they went and got the lads. Not because it was their job, but because no other fucker was gonna do it. And that is dad shit."
+    }
+  ]
+}
