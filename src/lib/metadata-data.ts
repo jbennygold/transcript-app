@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 334 episodes - updated 2026-09-25
+// Auto-generated - do not edit - 335 episodes - updated 2026-09-26
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16062,5 +16062,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Thomas Newman"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 324,
+    "film": "The Twilight Saga: Eclipse (2010)",
+    "filmYear": 2010,
+    "releaseDate": "9/25/2026",
+    "length": "1:58:05",
+    "reviewer": "",
+    "guest": "Rosie Knight",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
