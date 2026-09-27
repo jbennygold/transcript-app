@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 335 episodes - updated 2026-09-26
+// Auto-generated - do not edit - 335 episodes - updated 2026-09-27
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16083,9 +16083,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/twilight-saga-170576368",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a0881bc1faba3ba90c7ec98ca",
+    "letterboxdLink": "https://letterboxd.com/film/the-twilight-saga-eclipse/",
+    "imdbLink": "https://www.imdb.com/title/tt1325004/"
   }
 ];
