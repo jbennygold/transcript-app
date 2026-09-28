@@ -16086,6 +16086,33 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/twilight-saga-170576368",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a0881bc1faba3ba90c7ec98ca",
     "letterboxdLink": "https://letterboxd.com/film/the-twilight-saga-eclipse/",
-    "imdbLink": "https://www.imdb.com/title/tt1325004/"
+    "imdbLink": "https://www.imdb.com/title/tt1325004/",
+    "tmdbId": 24021,
+    "tmdbPosterPath": "/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ],
+    "directors": [
+      "David Slade"
+    ],
+    "cinematographers": [
+      "Javier Aguirresarobe"
+    ],
+    "cast": [
+      "Kristen Stewart",
+      "Robert Pattinson",
+      "Taylor Lautner",
+      "Bryce Dallas Howard",
+      "Dakota Fanning",
+      "Billy Burke",
+      "Peter Facinelli",
+      "Elizabeth Reaser"
+    ],
+    "composers": [
+      "Howard Shore"
+    ]
   }
 ];
