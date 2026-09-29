@@ -30,6 +30,7 @@ import {
   shouldSkipMetadataAggregate,
   shouldForceHybridClassification,
   shouldUseQuickSynthesis,
+  shouldUseFastInterpretiveTuning,
   resolveSearchStrategy,
   recordAgentResult,
   AGENT_SEARCH_MODEL,
@@ -420,7 +421,7 @@ Answer based on the Tilda casting data above. Be specific, cite examples from th
           console.log('Low-confidence classification, forcing hybrid', { original: classification.type, confidence: classification.confidence });
           classification.type = 'hybrid';
         }
-        if (classification.type === 'interpretive' && !tuning && depth !== 'deep') {
+        if (!tuning && shouldUseFastInterpretiveTuning(query, depth, classification)) {
           tuning = getSearchTuning('fast');
         }
         console.log('Classification result:', JSON.stringify(classification));

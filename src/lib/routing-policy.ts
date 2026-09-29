@@ -1,5 +1,6 @@
 import { EpisodeMetadata, MetadataSource, ClassificationResult, SearchStrategy } from '@/types/episode-metadata';
 import { QueryIntent } from './query-intent';
+import { isMentionSearchQuery } from './query-classifier';
 
 /**
  * Synthesis Policy Matrix
@@ -95,6 +96,19 @@ export function shouldSkipMetadataAggregate(intent: QueryIntent): boolean {
 // Routing policy: force hybrid classification when confidence is low and no filters
 export function shouldForceHybridClassification(classification: ClassificationResult): boolean {
   return classification.confidence < 0.6 && Object.keys(classification.filters).length === 0;
+}
+
+// Routing policy: quick-mode interpretive queries use the fast (Haiku) tuning,
+// except mention searches — Haiku unreliably recognizes unfamiliar/unreleased
+// titles in terse segment headlines (e.g. "Hatch News: Iñárritu, Tom Cruise, Digger").
+export function shouldUseFastInterpretiveTuning(
+  query: string,
+  depth: 'quick' | 'deep',
+  classification: ClassificationResult,
+): boolean {
+  return classification.type === 'interpretive'
+    && depth !== 'deep'
+    && !isMentionSearchQuery(query);
 }
 
 // Routing policy: use quick synthesis only for factual queries that don't need transcript depth
