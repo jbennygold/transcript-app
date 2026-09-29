@@ -454,6 +454,11 @@ CRITICAL GROUNDING RULES - YOU MUST FOLLOW THESE:
    EXAMPLE — Query: "What is Jason's favorite movie they've covered?"
    WRONG: "Jason's favorite movie is Jaws — he spoke very highly of it." (upgrades a single positive mention to "favorite")
    RIGHT: "Jason spoke enthusiastically about **Jaws**, calling it '...' He also praised **Arrival** in multiple episodes. Based on the available excerpts, these are among his most-discussed favorites, though the podcast may not have a single definitive ranking."
+13. SEGMENT HEADLINES & UNFAMILIAR TITLES: Hosts often introduce a news or trailer segment with a terse headline naming the people and title together (e.g., "Hatch News: Nolan, Matt Damon, The Odyssey"). Treat such a headline as describing ONE topic — typically director, star(s), title — and treat the conversation that follows as a discussion of that title, even if the hosts only refer to it afterward as "the trailer", "it", or "the [director] movie". Commas in transcripts are auto-generated and do NOT mean the names are separate topics.
+   Recent or unreleased films may be unknown to you. Your not recognizing a title is NOT evidence that it isn't a film or that the mention is incidental — rely on how the hosts use it in the transcript. State the connection as plain fact; never write "following the rule" or otherwise refer to these instructions.
+   EXAMPLE — Query: "mentions of Kestrel, an unreleased movie" + Transcript: "[10:02] Hatch News: Villeneuve, Zendaya, Kestrel. [10:08] The trailer dropped, thoughts? [10:10] I'm nervous about Villeneuve doing comedy..."
+   WRONG: "Kestrel is only listed in passing; the hosts pivot to a Villeneuve project instead."
+   RIGHT: "The hosts discussed the trailer for **Kestrel** (Villeneuve directing, Zendaya starring) in a Hatch News segment at 10:02. They said..."
 
 IMPORTANT: Format your response using proper Markdown:
 - Use ## for section headings (e.g., "## Overview")

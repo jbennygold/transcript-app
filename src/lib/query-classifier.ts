@@ -162,6 +162,7 @@ Examples:
 - "Did Haitch have a band" → true (biographical detail in transcripts)
 - "who says yeah more" → true (frequency analysis of transcripts)
 - "what did they think about Alien" → true (opinions from transcripts)
+- "look for mentions of Digger" → true (searching for where something was said)
 
 For persona, aggregation, or cross-episode pattern queries, generate 1-3 supplemental
 search queries that rephrase the question to target the underlying content rather than
@@ -288,8 +289,10 @@ Respond with ONLY valid JSON:
     }
   }
 
-  // Default true (safe): if LLM omits the field, assume transcript depth needed
-  const requiresTranscriptDepth = parsed.transcriptDepth !== false;
+  // Default true (safe): if LLM omits the field, assume transcript depth needed.
+  // Mention-search phrasing always needs transcripts: the LLM tends to read
+  // "mentions of X" as a film filter and mark it metadata-only.
+  const requiresTranscriptDepth = parsed.transcriptDepth !== false || isMentionSearchQuery(query);
 
   // Parse supplemental queries (for persona/aggregation/cross-episode patterns)
   const supplementalQueries: string[] = [];
@@ -313,6 +316,14 @@ Respond with ONLY valid JSON:
     type, confidence, filters, requiresTranscriptDepth,
     ...(supplementalQueries.length > 0 ? { supplementalQueries: supplementalQueries.slice(0, 3) } : {}),
   };
+}
+
+/**
+ * Detect queries asking where something was said/mentioned in episodes
+ * (e.g. "Look for mentions of Digger", "did they ever bring up Heat").
+ */
+export function isMentionSearchQuery(query: string): boolean {
+  return /\b(mention(s|ed)?|brought up|bring up|reference[sd]?|talk(ed)? about|look for|search for)\b/i.test(query);
 }
 
 /**
@@ -398,7 +409,7 @@ export function classifyQuerySync(query: string): ClassificationResult {
 
   // Factual queries with filters can likely be answered from metadata alone;
   // factual queries without filters (or non-factual) need transcript depth.
-  const requiresTranscriptDepth = type !== 'factual' || Object.keys(filters).length === 0;
+  const requiresTranscriptDepth = type !== 'factual' || Object.keys(filters).length === 0 || isMentionSearchQuery(query);
 
   return { type, confidence, filters, requiresTranscriptDepth };
 }
