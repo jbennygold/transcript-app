@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 335 episodes - updated 2026-10-01
+// Auto-generated - do not edit - 336 episodes - updated 2026-10-02
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16114,5 +16114,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Howard Shore"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 325,
+    "film": "Dunkirk (2017)",
+    "filmYear": 2017,
+    "releaseDate": "10/1/2026",
+    "length": "1:32:57",
+    "reviewer": "",
+    "guest": "Abu Zafar",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
