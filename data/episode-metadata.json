@@ -16136,6 +16136,32 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/dunkirk-2017-171184671",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a3562d501c846f6dd69e6ae05",
     "letterboxdLink": "https://letterboxd.com/film/dunkirk/",
-    "imdbLink": "https://www.imdb.com/title/tt5013056/"
+    "imdbLink": "https://www.imdb.com/title/tt5013056/",
+    "tmdbId": 374720,
+    "tmdbPosterPath": "/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+    "genres": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "cinematographers": [
+      "Hoyte van Hoytema"
+    ],
+    "cast": [
+      "Fionn Whitehead",
+      "Tom Hardy",
+      "Mark Rylance",
+      "Kenneth Branagh",
+      "Cillian Murphy",
+      "Barry Keoghan",
+      "Harry Styles",
+      "Aneurin Barnard"
+    ],
+    "composers": [
+      "Hans Zimmer"
+    ]
   }
 ]
