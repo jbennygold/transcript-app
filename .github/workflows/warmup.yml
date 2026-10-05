@@ -9,6 +9,7 @@ on:
 jobs:
   warmup:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Warm search cache
         env:
@@ -25,7 +26,13 @@ jobs:
             URL="$WARMUP_URL"
           fi
           # Send 3 concurrent requests to warm multiple Vercel instances
-          curl -fsS "$URL" &
-          curl -fsS "$URL" &
-          curl -fsS "$URL" &
-          wait
+          pids=()
+          for i in 1 2 3; do
+            curl -fsS --max-time 60 "$URL" &
+            pids+=($!)
+          done
+          status=0
+          for pid in "${pids[@]}"; do
+            wait "$pid" || status=1
+          done
+          exit $status
