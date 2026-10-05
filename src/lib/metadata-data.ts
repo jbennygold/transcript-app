@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 336 episodes - updated 2026-10-04
+// Auto-generated - do not edit - 336 episodes - updated 2026-10-05
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16136,7 +16136,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": null,
     "tildaCorey": null,
     "showLink": "https://www.patreon.com/EscapeHatch/posts/dunkirk-2017-171184671",
-    "artworkLink": "",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a3562d501c846f6dd69e6ae05",
     "letterboxdLink": "https://letterboxd.com/film/dunkirk/",
     "imdbLink": "https://www.imdb.com/title/tt5013056/"
   }
