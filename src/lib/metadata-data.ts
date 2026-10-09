@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 336 episodes - updated 2026-10-08
+// Auto-generated - do not edit - 337 episodes - updated 2026-10-09
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16165,5 +16165,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Hans Zimmer"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 326,
+    "film": "Barry Lyndon (1975)",
+    "filmYear": 1975,
+    "releaseDate": "10/8/2026",
+    "length": "1:44:24",
+    "reviewer": "",
+    "guest": "Dave Itzkoff",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
