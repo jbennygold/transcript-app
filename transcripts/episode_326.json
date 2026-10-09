@@ -1,0 +1,4571 @@
+{
+  "episode_number": 326,
+  "episode_name": "Barry Lyndon (1975)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "A",
+      "timestamp": "0:28",
+      "text": "Let's go through it, let's go 3 hours on this podcast. We're gonna I'm gonna go scene by scene, not skipping a fucking thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:34",
+      "text": "And it's the return of New York Times bestseller Dave Itzkoff."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:39",
+      "text": "Yeah, it's a no from me, dog."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:44",
+      "text": "The fall of Jason continues as we turn down the lights to just the candles for Stanley Kubrick's 1975 masterpiece, Barry Lyndon. If you're enjoying the show, we need your help."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:58",
+      "text": "Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:03",
+      "text": "because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, Barry Lyndon."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:20",
+      "text": "Guys, as Barry Lyndon loaded up on my screen and that beautiful Saul Bass logo for Warner Brothers from 1975, I was like, This is great."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:34",
+      "text": "Warner Brothers will be together forever."
+    },
+    {
+      "name": "C",
+      "timestamp": "1:39",
+      "text": "And now immortalized as of this morning as just another brand under Skydance."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:45",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "1:46",
+      "text": "The scales are dancing."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:48",
+      "text": "They are all equal now, as Larry Lyndon teaches us."
+    },
+    {
+      "name": "B",
+      "timestamp": "1:57",
+      "text": "Good studio, bad studio."
+    },
+    {
+      "name": "D",
+      "timestamp": "1:58",
+      "text": "Yes. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:01",
+      "text": "So I didn't realize that apparently Skydance was originally formed so that David Ellison could act in a movie with James Franco. Is this true?"
+    },
+    {
+      "name": "A",
+      "timestamp": "2:09",
+      "text": "Yeah, I saw stills from it. I'd forgotten this movie. There's like Nazis involved."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:13",
+      "text": "Yes, it's called Flyboys."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:16",
+      "text": "Flyboys."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:17",
+      "text": "$60 million movie that made, I think, $12 million or $14 million or something."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:20",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:21",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:21",
+      "text": "David's been busy."
+    },
+    {
+      "name": "A",
+      "timestamp": "2:23",
+      "text": "Look, we're in our fail son era as a whole. As a civilization."
+    },
+    {
+      "name": "B",
+      "timestamp": "2:29",
+      "text": "Does that bode well for our sons?"
+    },
+    {
+      "name": "C",
+      "timestamp": "2:31",
+      "text": "How does that—"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:32",
+      "text": "Yeah, is that good?"
+    },
+    {
+      "name": "A",
+      "timestamp": "2:33",
+      "text": "I mean, we'll see."
+    },
+    {
+      "name": "E",
+      "timestamp": "2:36",
+      "text": "TBD."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:37",
+      "text": "As long as they do not follow in our career paths whatsoever, they're free to do what they wish. There we go."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:45",
+      "text": "Well, no, seriously, Dave, how do you think about it?"
+    },
+    {
+      "name": "B",
+      "timestamp": "2:47",
+      "text": "I mean, you cover culture and, and, and, you know, film and all that stuff. How do you know? What's your, what's your take on how bad it's gonna be?"
+    },
+    {
+      "name": "D",
+      "timestamp": "2:55",
+      "text": "I mean, I just find it tremendously dismaying. I don't know what else, what other reaction one, one could have. I don't see how it possibly benefits the industry. It'll, it'll line their pockets nicely. And, uh, you know, I'm sure we'll get some, uh, you know, really kind of like grotesque Frankenstein type of, uh, you know, uh, crossovers among the various, uh, IPs."
+    },
+    {
+      "name": "F",
+      "timestamp": "3:20",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:21",
+      "text": "But yeah, just think about the fact that a movie like Barry Lyndon could be made by a major studio 50 years ago, and we're just never gonna see the likes of that again. It's, it's bittersweet that the Warner Brothers era is kind of going out on something like Digger, which, you know, like, that's as, you know, as much of a dud as that is proving to be financially. I mean, that's, that's what studios used to do. It was, you know, it wasn't about, uh, the sure things. It was about doing things that were, uh, you know, a little unconventional or a little risky, or at least weren't intended to be You know, multi-film cookie-cutter franchises and IP farming. Yes. And that's— it's just going to be— it's going to be 99% that now, sadly."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:13",
+      "text": "Mm-hmm. Well, now I'm sad."
+    },
+    {
+      "name": "D",
+      "timestamp": "4:16",
+      "text": "Were you happy? Were you thinking this means more Lord of the Rings spinoffs?"
+    },
+    {
+      "name": "A",
+      "timestamp": "4:21",
+      "text": "No, I didn't think it was going to be— I didn't think it was going to be good at any point. It's just like, it is disappointing. It's like the creative industry as a whole is just like facing so many challenges, like, both from, you know, just the concentration of capital, the whole— all the questions raised in the AI era. Like, it's just like a— it's a, it's a fraught moment for so many, uh, for so many things."
+    },
+    {
+      "name": "D",
+      "timestamp": "4:44",
+      "text": "So I was sort of weirdly looking forward to the idea of Netflix, you know, acquiring Warner Brothers."
+    },
+    {
+      "name": "A",
+      "timestamp": "4:51",
+      "text": "Right, exactly. It seemed good. It was like, oh yeah, excited."
+    },
+    {
+      "name": "D",
+      "timestamp": "4:55",
+      "text": "Yeah, I thought maybe this is like a good kind of merger of you know, traditional studio plus streaming, and it would keep them out of the hands of, uh, you know, Paramount and Skydance. Uh, yeah, of course the complete opposite happened."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:10",
+      "text": "I guess, Jason, is there any hope that, uh, you know, as things shift back towards the left, uh, and with Congress and whatnot, that that will lessen some of the threat of the media consolidation— CNN, CBS all in the same house?"
+    },
+    {
+      "name": "A",
+      "timestamp": "5:25",
+      "text": "I mean, certainly, like, if you had, like, you know, a different regulator, like some of these, like some of these, you know, consolidations will be less likely to happen. But I mean, at the same time, the other thing that's going to happen is I think the financial reality for a lot of people in entertainment is going to continue to be pretty dodgy. And so as a result, M&A is like a natural thing to happen where it's like, well, yeah, like this just didn't work out. We made some bets that didn't work out and they're going to need to get bought up. So yeah, I don't, I don't know if like there's really a— I don't know if there's a regulatory solution here. It feels like something more deeply structural than that."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:59",
+      "text": "Is there any chance of like, you know, antitrust laws actually being, you know, enforced to break up, you know, some of these, you know, essentially monopolies?"
+    },
+    {
+      "name": "A",
+      "timestamp": "6:10",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:11",
+      "text": "Lina Khan 2.0."
+    },
+    {
+      "name": "D",
+      "timestamp": "6:12",
+      "text": "Exactly."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:14",
+      "text": "Yeah. I don't know. We'll see. I mean, I think regardless, antitrust is going to be a big conversation in the, in the coming political cycle. So, and, you know, like no one really likes it when these companies, like, you know, it's like conservatives sort of like it for a minute because like, okay, like our guys on top, but then it's, you know, the vibes shift and you're like, oh shit, like, oh, now, now like someone we don't like is in charge and it's all, it's all, all the guns are pointed at us. So I don't know."
+    },
+    {
+      "name": "E",
+      "timestamp": "6:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:40",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:41",
+      "text": "We're really off. We're really taking off on a, on an upbeat note here."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:45",
+      "text": "On an upbeat note. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "6:47",
+      "text": "I'm going to Hawaii tomorrow. Like, I don't care."
+    },
+    {
+      "name": "C",
+      "timestamp": "6:49",
+      "text": "Like, you guys, you can't stop me."
+    },
+    {
+      "name": "A",
+      "timestamp": "6:51",
+      "text": "The most optimistic thing in there was like, was the, uh, you know, the studios used to make Digger and that was, that was the most optimistic thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:01",
+      "text": "Yeah, that's a tough beat right there."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:02",
+      "text": "Well, if you want, you know, Mission: Impossible meets Scooby-Doo, you've got, you've got a chance at that."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:10",
+      "text": "Oh my God."
+    },
+    {
+      "name": "C",
+      "timestamp": "7:13",
+      "text": "Dave Itzkoff, you are finally back. How are you? What's going on? How was the rest of your summer? It's been a minute."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:19",
+      "text": "Yeah, it was great. I, I can't complain. We took our son to, uh, Cedar Point in, uh, fabulous Sandusky, Ohio, and rode, I think, probably the most intense roller coaster I have ever been on in my life, which is called—"
+    },
+    {
+      "name": "G",
+      "timestamp": "7:36",
+      "text": "Interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:36",
+      "text": "Wow. Top Thrill 2."
+    },
+    {
+      "name": "B",
+      "timestamp": "7:39",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:40",
+      "text": "Which peaks at about 410, 420 feet and goes top speed of, I believe, 120 miles an hour."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:47",
+      "text": "Oh, I'm looking at—"
+    },
+    {
+      "name": "H",
+      "timestamp": "7:47",
+      "text": "Jesus."
+    },
+    {
+      "name": "A",
+      "timestamp": "7:47",
+      "text": "I'm looking at the picture of this again. Fuck that."
+    },
+    {
+      "name": "E",
+      "timestamp": "7:51",
+      "text": "Like, that—"
+    },
+    {
+      "name": "D",
+      "timestamp": "7:52",
+      "text": "See, that's what I thought too. And then I rode it 6 times over the course of 3 days."
+    },
+    {
+      "name": "H",
+      "timestamp": "7:58",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "7:59",
+      "text": "Holy shit. My son did it 9 times. Yeah, it's—"
+    },
+    {
+      "name": "F",
+      "timestamp": "8:02",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:02",
+      "text": "Yeah, there was— I mean, I won't bore you with the whole history of it. There was a previous ride they had called Top Thrill Dragster, and it, it, it ran for a bit and then had some problems and they redesigned it. So this thing goes—"
+    },
+    {
+      "name": "I",
+      "timestamp": "8:15",
+      "text": "Oh."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:15",
+      "text": "Goes forward at, I believe, 70 miles an hour, and you get about halfway up that peak, uh, maybe a little less. You go up maybe 150, 200 feet, then you go backwards and you accelerate to about 100 miles an hour, and you go up, uh, a ramp that's like all the way in reverse. And you come back down that ramp and you accelerate a third time, and then you get— you hit the full 120 miles an hour. You go all the way up and around and come back down. And the whole experience is like, I don't know, not probably not even 2 minutes, but those are the most intense 2 minutes of your life while you're experiencing it."
+    },
+    {
+      "name": "A",
+      "timestamp": "8:49",
+      "text": "That's great."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:51",
+      "text": "Damn. Yeah, I don't think I could—"
+    },
+    {
+      "name": "B",
+      "timestamp": "8:52",
+      "text": "I don't think I can do those anymore. I think— I think my roller coaster days are behind me at this point."
+    },
+    {
+      "name": "D",
+      "timestamp": "8:56",
+      "text": "I thought— I thought so too. And then, you know, this is like my son's, uh, lifeblood. And so You know, he can probably do most of these rides on his own now, but, you know, we've had a long period of, you know, he was of that height where you had to have, you know, a full-grown guardian accompany him. And so I just got into the habit of it. And yeah, now I don't mind being his sidekick sometimes."
+    },
+    {
+      "name": "E",
+      "timestamp": "9:24",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "9:25",
+      "text": "And after Barry Lyndon, you're like, I am not letting you out of my fucking sight."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:28",
+      "text": "You are—"
+    },
+    {
+      "name": "C",
+      "timestamp": "9:29",
+      "text": "no horses."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:30",
+      "text": "And just stay right here."
+    },
+    {
+      "name": "F",
+      "timestamp": "9:32",
+      "text": "Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:32",
+      "text": "Although I'm gonna make sure that he never learns had a duel because I might have to best him someday."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:38",
+      "text": "Exactly."
+    },
+    {
+      "name": "F",
+      "timestamp": "9:39",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:39",
+      "text": "Oh, that's smart. That's, that's really smart."
+    },
+    {
+      "name": "A",
+      "timestamp": "9:41",
+      "text": "This thing, like this thrill, Top Thrill 2 does look like the design for like the euthanasia roller coaster that someone designed once where it's like designed to like, you know, make you lose consciousness and just kind of fade away. So I'm glad you experienced that."
+    },
+    {
+      "name": "D",
+      "timestamp": "9:55",
+      "text": "I feel like that's the, the, yeah, the science of roller coasters is fascinating because they are trying to basically, I think, creep up to that line of like, yeah, how close can we come to actually killing you without doing it. Like, how intense of an experience can we provide that you will still, you know, survive? And there's— it's like some kind of asymptote that it's approaching but hasn't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "10:16",
+      "text": "Yeah, been crossed."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:17",
+      "text": "Yes, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:18",
+      "text": "Well, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:20",
+      "text": "Also, Soylent Green when on the podcast?"
+    },
+    {
+      "name": "B",
+      "timestamp": "10:22",
+      "text": "We should probably bust that out."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:24",
+      "text": "Yeah, keep me in mind, please."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:25",
+      "text": "Okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "10:27",
+      "text": "Well, so we are so thrilled to have you back, Dave. And we are doing for this episode— it's been the summer of Jason, it's now the fall of Jason."
+    },
+    {
+      "name": "A",
+      "timestamp": "10:36",
+      "text": "And this one, this definitely counts. Like, I've made a lot of, like, jokes about how, like, the Summer of Jason wasn't really my, my choices in either guests or in shows. But this is the perfect— this is the perfect one. This is the one, the culmination of all my hopes and dreams. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "10:53",
+      "text": "Let the record reflect. Yes. So we are finally getting our Kubrick on for my first ever viewing of his 1975 masterpiece, Barry Lyndon. And we will be getting to that in just a few minutes. at the bottom of the hour."
+    },
+    {
+      "name": "C",
+      "timestamp": "11:10",
+      "text": "Before we do, Jason, next week we're on vacation. Where are you going?"
+    },
+    {
+      "name": "A",
+      "timestamp": "11:14",
+      "text": "Oh gosh, I'm gonna be in Europe, taking the kids to Europe. Um, dang, I'm gonna see some—"
+    },
+    {
+      "name": "G",
+      "timestamp": "11:20",
+      "text": "gonna—"
+    },
+    {
+      "name": "A",
+      "timestamp": "11:21",
+      "text": "we'll end up in Rome at the end and see the Colosseum, see how that goes, see how they do looking at old shit. Um, hopefully they like it."
+    },
+    {
+      "name": "B",
+      "timestamp": "11:29",
+      "text": "Um, hopefully better than the Lucas Museum."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:31",
+      "text": "I may drop by the Vatican and Uh, hand in, you know, drop off a few resumes, see if maybe the Pope needs some, some social media help, because—"
+    },
+    {
+      "name": "B",
+      "timestamp": "11:42",
+      "text": "Great. Oh, not Swiss Guard. You're not—"
+    },
+    {
+      "name": "G",
+      "timestamp": "11:45",
+      "text": "yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "11:45",
+      "text": "No, I think my fantasy, my fantasy, which I don't know if it will ever be achievable, but like my fantasy would be to be in the tweet approval chains for a president, a pope, and a king. Like those are— that's like kind of what I'd like to—"
+    },
+    {
+      "name": "B",
+      "timestamp": "11:59",
+      "text": "That's a hat trick."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:00",
+      "text": "That's the hat trick. Not— I don't think anyone's done it. I don't know if anyone's done 2."
+    },
+    {
+      "name": "E",
+      "timestamp": "12:03",
+      "text": "The Pope's got a pretty Pretty good social media game right now."
+    },
+    {
+      "name": "D",
+      "timestamp": "12:08",
+      "text": "That post I know earlier this week, I think they said was the most viewed or whatever it had. I mean, it's some metric biggest, you know, papal tweet ever. He crushed."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:19",
+      "text": "He's crushing on AI. The Pope is phenomenal. It's not really clear. Yeah, he doesn't really need my help on the Pope needs knows ball. There was the represent. Did you see the thing where the Montenegro?"
+    },
+    {
+      "name": "D",
+      "timestamp": "12:31",
+      "text": "The Montenegro?"
+    },
+    {
+      "name": "A",
+      "timestamp": "12:33",
+      "text": "And they're like, oh yeah, this is this is. Wait, who's who's the tennis?"
+    },
+    {
+      "name": "C",
+      "timestamp": "12:39",
+      "text": "Davojic or something?"
+    },
+    {
+      "name": "E",
+      "timestamp": "12:40",
+      "text": "I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:40",
+      "text": "Yeah, whoever whoever was."
+    },
+    {
+      "name": "D",
+      "timestamp": "12:41",
+      "text": "Yeah, Djokovic."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:43",
+      "text": "Yeah, Djokovic. No, no, no, because that's the basketball player, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "12:46",
+      "text": "No, no, tennis, tennis."
+    },
+    {
+      "name": "A",
+      "timestamp": "12:47",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:48",
+      "text": "Anyways, the guy and he's like he's from Montenegro and he's like no, he's no, he's not Serbian."
+    },
+    {
+      "name": "E",
+      "timestamp": "12:54",
+      "text": "That was great."
+    },
+    {
+      "name": "B",
+      "timestamp": "12:57",
+      "text": "Who could have predicted that we would end up with an American Pope at this moment, at this key moment? It's kind of exciting."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:02",
+      "text": "Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "13:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:04",
+      "text": "Well, I feel like the College of Cardinals, they kind of wanted that. I don't think it's— I don't think it's just a coincidence. So just, you know, I don't have any specific insight into their thinking other than, you know, like one viewing of Conclave."
+    },
+    {
+      "name": "G",
+      "timestamp": "13:17",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:18",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:19",
+      "text": "But yeah, I don't feel like it was accidental."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:21",
+      "text": "God, I love Conclave. What a great movie. Yeah. Holy shit."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:24",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:24",
+      "text": "Never seen it. Maybe I'll watch it on the— maybe I'll watch it on the way to Rome."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:28",
+      "text": "If you're going to Vatican City."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:29",
+      "text": "Yeah, that'd be a great flight video for sure."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:32",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:32",
+      "text": "That one, download it. So, so that's Next week, I'll be in Hawaii playing pickleball and taking, taking a little bit of time and enjoying that with the family. And then we will be back, Jason, on October 20th. It is the return of the co-host of Pod Save the World, Ben Rhodes."
+    },
+    {
+      "name": "A",
+      "timestamp": "13:53",
+      "text": "That's great. I'm glad to be back with Ben."
+    },
+    {
+      "name": "B",
+      "timestamp": "13:55",
+      "text": "I can't wait because I literally just want to press him on like, okay, please explain to me now how the world has irrevocably changed. Like all political global strategy is now scrambled for all time. What does that— what does that look like?"
+    },
+    {
+      "name": "A",
+      "timestamp": "14:08",
+      "text": "He'll be ready. He'll be ready to answer us."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:11",
+      "text": "I know, I know. But we are doing back-to-back Kubrick, never been done on a podcast before, as we go into the '80s and we finally do Full Metal Jacket."
+    },
+    {
+      "name": "D",
+      "timestamp": "14:28",
+      "text": "Mmm, that's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:30",
+      "text": "Wow, really good. Really, really exciting."
+    },
+    {
+      "name": "A",
+      "timestamp": "14:33",
+      "text": "It's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "14:34",
+      "text": "Can we do some quick Hatch news?"
+    },
+    {
+      "name": "D",
+      "timestamp": "14:36",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "C",
+      "timestamp": "14:37",
+      "text": "Hatch news from beyond!"
+    },
+    {
+      "name": "B",
+      "timestamp": "14:42",
+      "text": "Jason, I finished The Agency season 1 last night."
+    },
+    {
+      "name": "G",
+      "timestamp": "14:46",
+      "text": "Did you—"
+    },
+    {
+      "name": "A",
+      "timestamp": "14:46",
+      "text": "were you able to follow it? Did you keep all the threads— keep all the threads straight? I know you're really stressed about it."
+    },
+    {
+      "name": "C",
+      "timestamp": "14:51",
+      "text": "The reveal of who was conducting the polygraph and what was going on—"
+    },
+    {
+      "name": "A",
+      "timestamp": "14:56",
+      "text": "It's good, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "14:57",
+      "text": "You know, why Martian was all beat up and stuff. My only question about this show is operational security does not seem to be very strict. Like, when you're in the skiff and you're in the meeting, you've given up your cell phones and stuff. Are you in the middle of, like, the raid? Are you allowed to be like, um, I'll be right back, you guys, and then you just walk out in the hallway, get your cell phone, and then, like, explain the details and then walk back in?"
+    },
+    {
+      "name": "D",
+      "timestamp": "15:20",
+      "text": "And, like, that seems a little questionable."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:22",
+      "text": "That part seems bad. That part seems bad. Yeah, I mean, maybe you should— maybe you can help them. Maybe you can give them some notes on how they could tighten things up. That could be good."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:30",
+      "text": "I'll talk to Ben."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:32",
+      "text": "Talk to Ben. Yeah, send your notes to Ben and Ben will— Ben will send it in."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:35",
+      "text": "All right, very good."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:36",
+      "text": "I am looking forward to season 2."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:37",
+      "text": "Apparently is all out on Paramount Plus, so Skydance Plus, whatever. So I'll be looking forward to checking that out."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:46",
+      "text": "Skydance Max."
+    },
+    {
+      "name": "B",
+      "timestamp": "15:48",
+      "text": "Exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "15:50",
+      "text": "Opening soon, next month, tickets on sale this morning. for Dune: The Experience in Los Angeles."
+    },
+    {
+      "name": "F",
+      "timestamp": "15:58",
+      "text": "Oh, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "15:59",
+      "text": "What does this involve?"
+    },
+    {
+      "name": "C",
+      "timestamp": "16:00",
+      "text": "It's a 60-minute walkthrough of Arrakis with costumes, props, weapons, vehicles, story-driven games, a themed dining lounge, and sets that recreate the posters, a Gom Jabbar, literally a Gom Jabbar that you can—"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:19",
+      "text": "Stab someone with?"
+    },
+    {
+      "name": "D",
+      "timestamp": "16:20",
+      "text": "We will stab you in the neck, yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:21",
+      "text": "There's a pain box?"
+    },
+    {
+      "name": "B",
+      "timestamp": "16:24",
+      "text": "There is a pain box."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:25",
+      "text": "Interactive pain box experience?"
+    },
+    {
+      "name": "D",
+      "timestamp": "16:27",
+      "text": "I just like the idea of them like throwing you on the beach and saying, okay, now you're on Arrakis."
+    },
+    {
+      "name": "B",
+      "timestamp": "16:31",
+      "text": "Yeah, exactly. Go for it."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:34",
+      "text": "Yeah, you're just in Long Beach."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:35",
+      "text": "So should we go?"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:40",
+      "text": "Well, I, I'm questioning whether I could drag my entire family to Los Angeles for yet another thing that I am only interested in."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:48",
+      "text": "No, you and me. Just you and me. This could be like a work trip."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:51",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "16:52",
+      "text": "Brother."
+    },
+    {
+      "name": "D",
+      "timestamp": "16:52",
+      "text": "Taxi spending."
+    },
+    {
+      "name": "C",
+      "timestamp": "16:54",
+      "text": "I—"
+    },
+    {
+      "name": "A",
+      "timestamp": "16:54",
+      "text": "the, the Bank of Goldman for work trips where I leave the family behind is looking like Silicon Valley Bank, and, uh, the, the credit is low. Uh, okay, so we are not— we, we— T-bills are at an all-time high from the Bank of Goldman. Like, we're, we're trying to find any buyers for this debt."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:19",
+      "text": "Don't rock the boat before we, uh, before the meetup, I guess, is the lesson."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:23",
+      "text": "Yeah, I mean, don't. Well, just don't. Yeah, there's. I've. I mean, in fairness, like you know, it's really just a self-inflicted debt. Like it's just the case that like I've had a crazy amount of like work-related events lately. So I'm."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:42",
+      "text": "Yeah, put it on Gavin and Obama."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:44",
+      "text": "It's their fault."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:45",
+      "text": "It's not. Not their fault."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:47",
+      "text": "Oh, okay."
+    },
+    {
+      "name": "G",
+      "timestamp": "17:48",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:49",
+      "text": "Okay, all right."
+    },
+    {
+      "name": "C",
+      "timestamp": "17:50",
+      "text": "Well, good job."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:51",
+      "text": "Good job. I guess I guess we won't go then."
+    },
+    {
+      "name": "E",
+      "timestamp": "17:54",
+      "text": "Fine."
+    },
+    {
+      "name": "F",
+      "timestamp": "17:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "17:54",
+      "text": "I mean, feel free. Report back. Maybe you can take Corey."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:59",
+      "text": "Ooh, good idea."
+    },
+    {
+      "name": "A",
+      "timestamp": "18:00",
+      "text": "Good idea."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:01",
+      "text": "Stay tuned, everybody. I'll let you know if I if I pull the trigger on that."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:04",
+      "text": "Dave, New York Comic Con opens Thursday for its 20th anniversary. How many days are you going?"
+    },
+    {
+      "name": "B",
+      "timestamp": "18:09",
+      "text": "What are you thinking?"
+    },
+    {
+      "name": "D",
+      "timestamp": "18:11",
+      "text": "I regret I'm not I'm not going to this one, but I've gone in the past. It's actually quite good."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:15",
+      "text": "Really?"
+    },
+    {
+      "name": "D",
+      "timestamp": "18:16",
+      "text": "Yeah, yeah. I mean, many many years ago, I I hosted or, you know, emceed a panel with the voice cast of Adventure Time."
+    },
+    {
+      "name": "E",
+      "timestamp": "18:27",
+      "text": "And it was—"
+    },
+    {
+      "name": "C",
+      "timestamp": "18:27",
+      "text": "Oh, holy shit."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:29",
+      "text": "Yeah, I just got invited to do it when I was still working at the New York Times and they were really delightful. It was—"
+    },
+    {
+      "name": "A",
+      "timestamp": "18:37",
+      "text": "That's great. That's so cool."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:38",
+      "text": "Jeremy Shada, who is the voice of Finn at the time."
+    },
+    {
+      "name": "F",
+      "timestamp": "18:42",
+      "text": "Finn."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:42",
+      "text": "And John DiMaggio, who—"
+    },
+    {
+      "name": "A",
+      "timestamp": "18:47",
+      "text": "Yeah, Bender."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:47",
+      "text": "He's Jake the Dog, but, you know, he's also Bender from Futurama and a million other things."
+    },
+    {
+      "name": "F",
+      "timestamp": "18:51",
+      "text": "Legend."
+    },
+    {
+      "name": "D",
+      "timestamp": "18:52",
+      "text": "Voices. And, uh, you know, Rebecca Sugar, who does all the, the music for the show and was, you know, essentially like one of its showrunners for a while. Yeah, just a really delightful, uh, group of people. And then I got to just like kind of walk the floor for a day. And this was a few years ago and it was already like, you know, really just really tight, tightly run. And, you know, it like, uh, nothing will ever like, you know, really rival, uh, you know, San Diego. San Diego. But, but, you know, there it's, it, it's like Definitely, like, an experience worth devoting multiple days to if that's your bag. And, you know, lots more, uh, you know, studios and the— you know, if Skydance decides to have a presence there, uh, next year, then, you know, that'll give it even more legitimacy."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:35",
+      "text": "There we go."
+    },
+    {
+      "name": "F",
+      "timestamp": "19:37",
+      "text": "There we go."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:37",
+      "text": "That'll be big. I'm sure Skydance now is going to have to have their own sub, you know, event type thing to match D23."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:44",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:45",
+      "text": "I'll see you at SkydanceCon 2029."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:47",
+      "text": "Exactly. Exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:49",
+      "text": "And we launched Digger 2."
+    },
+    {
+      "name": "A",
+      "timestamp": "19:55",
+      "text": "Diggers."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:57",
+      "text": "Yes, this time the money."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:01",
+      "text": "Uh, all right, I want to just take one second and tell everyone, every episode, uh, I take the time to build chapters so you can skip from one segment to the other: introduction, Hatch News, and the synopsis."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:15",
+      "text": "And I'm telling this now Because we're about to have a discussion on Lanterns, the finale."
+    },
+    {
+      "name": "B",
+      "timestamp": "20:19",
+      "text": "Oh, great. And we'll go as light spoilers as we can, but if you want to skip that, you can use your, your skip feature in your podcast listener to jump straight to the synopsis and miss this conversation. So feel free to do that if you would like right now."
+    },
+    {
+      "name": "H",
+      "timestamp": "20:37",
+      "text": "Boom!"
+    },
+    {
+      "name": "B",
+      "timestamp": "20:38",
+      "text": "Dave, what did you think? Dirt and Stars, the finale, the payoff. What was your take?"
+    },
+    {
+      "name": "D",
+      "timestamp": "20:45",
+      "text": "Yeah, it's a no for me, dog. You know, I was feeling so tentative. Like, I watched it and I kind of, you know, stroked my chin. And then I went on Reddit, which I know is not sort of a representative sample of like the general viewing public, but just the cascade of negativity and like just the baffled responses was kind of like a— it was like very comforting to me, actually."
+    },
+    {
+      "name": "I",
+      "timestamp": "21:10",
+      "text": "Very—"
+    },
+    {
+      "name": "D",
+      "timestamp": "21:10",
+      "text": "I was like, okay, I'm not like— because I watched the show totally alone. My wife does not watch And then I, you know, I can't really say I've found like a community for it in the same way as like shows of yore. It's a very specific thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:23",
+      "text": "Knights of the Seven Kingdom or whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:25",
+      "text": "Yeah. Yeah, exactly. I mean, like, as best as I can tell, there is like a pretty healthy viewership for it. Not like Game of Thrones."
+    },
+    {
+      "name": "C",
+      "timestamp": "21:32",
+      "text": "19 million an episode."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:34",
+      "text": "It's huge."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:35",
+      "text": "Wow, it's huge."
+    },
+    {
+      "name": "G",
+      "timestamp": "21:36",
+      "text": "That's crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:36",
+      "text": "I'm sure that's like cumulative, you know, over all the various—"
+    },
+    {
+      "name": "A",
+      "timestamp": "21:40",
+      "text": "Over various—"
+    },
+    {
+      "name": "C",
+      "timestamp": "21:41",
+      "text": "no, no, it's 7 days, 19 million per episode."
+    },
+    {
+      "name": "A",
+      "timestamp": "21:45",
+      "text": "That's huge though."
+    },
+    {
+      "name": "B",
+      "timestamp": "21:46",
+      "text": "They're crushing it."
+    },
+    {
+      "name": "I",
+      "timestamp": "21:46",
+      "text": "They're crushing it."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:47",
+      "text": "But, and, and you know what, I, I was, I was mostly along for the ride. And it's really just all on like the charisma and the, like, the compatibility and the charm of Kyle Chandler and Aaron Pierre together. And they, you know, they really—"
+    },
+    {
+      "name": "A",
+      "timestamp": "22:02",
+      "text": "Who are great."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:03",
+      "text": "Yes. It seemed like they kind of found this like melding of, you know, True Detective with like, like superhero, like almost authentic superhero And I know that like the real hardcore Green Lantern comic fans are not like really on board from the outset, but I was willing to put that out of my mind for like 90% of the way. And then to me, the payoff was partly like just deflating. It just didn't like— like as with like, you know, other types of these shows, like all the real denouements like came in the previous episode and this is just kind of like, oh, okay. like, you know, a little bit of light housekeeping and, you know—"
+    },
+    {
+      "name": "A",
+      "timestamp": "22:44",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:44",
+      "text": "But also, you know, all the big, you know, twists, such as they were, I think everybody had essentially guessed correctly. That everybody kind of knew who the identity of, you know—"
+    },
+    {
+      "name": "B",
+      "timestamp": "22:56",
+      "text": "The Manhunter."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:57",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "22:57",
+      "text": "I don't know, Jules."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:57",
+      "text": "Who killed Hal."
+    },
+    {
+      "name": "H",
+      "timestamp": "22:58",
+      "text": "Yes."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:59",
+      "text": "Like, there's a moment in the BTS where Tom King is like, we just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:02",
+      "text": "we have to make sure we can never let the audience get ahead of us."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:05",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:05",
+      "text": "Brother, the audience is ahead."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:09",
+      "text": "There are— I remember Lindelof said this in an interview like 5 years ago."
+    },
+    {
+      "name": "A",
+      "timestamp": "23:12",
+      "text": "You'll never get ahead of the audience."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:14",
+      "text": "You'll never— there's too many. And all you need is one Redditor to get it right, and it's over. And this is like the classic thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:22",
+      "text": "And I always go back to the watch, Andy and Chris, when the Aldhani heist episode of Andor, and they were like, Hollywood overindexes on surprise."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:33",
+      "text": "Just tell a great story. Make it compelling. You don't have to surprise us."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:37",
+      "text": "It's thrilling if it's done right. And I think that was the thing here, that hiding the ball and trying to get us to freak out or whatever, Did not work. Um, but everything with Hal and John, uh, I thought was great. I really loved the scene, the final scene with John and Guy. Um, I'm kind of like over Fillion in general. Like, he's become kind of like a caricature of geek culture to me, so it's hard for me to enjoy him as much as I used to. Um, but I thought that was so great, and especially John, where he landed. I really enjoyed that. But I thought it was crazy that there wasn't a button at the end for Sinestro to show that like everything is going according to plan, because that, that's the only thing for me that, that works to hold it together at the end."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:20",
+      "text": "Yeah, that's, you know, that— I mean, that would have been nice to, to have now that you mention it. I mean, something like that. And I, I think in the back of the audience's mind, you know, he's, he's there, he's out there in-universe somewhere. I, I, I, you know, I feel like so much of this was just kind of born out of some kind of, you know, since we're on the subject, it's like a kind of, you know, corporate necessity that there's obviously never going to be another true Green Lantern movie again, at least for a long, long time post-Ryan Reynolds. This was a great kind of stopgap or halfway. They'll clearly use Aaron Pierre in some way in the film."
+    },
+    {
+      "name": "A",
+      "timestamp": "24:58",
+      "text": "He's going to be in the Superman movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:00",
+      "text": "He's in Superman."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:01",
+      "text": "Yeah. In Man of Tomorrow, that one. Yeah."
+    },
+    {
+      "name": "I",
+      "timestamp": "25:05",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:05",
+      "text": "And so this sets him up. You've got your kind of IP tie-in and now viewers can come in with a little bit of track record on But the, you know, if, if, like this, if Kyle Chandler is completely off of the game board, like what a loss. Why, like, shoot yourself in the foot like that?"
+    },
+    {
+      "name": "B",
+      "timestamp": "25:24",
+      "text": "So Kyle Chandler, Kyle Chandler will be back."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:26",
+      "text": "Kyle Chandler will return. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:28",
+      "text": "There's no doubt."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:30",
+      "text": "There's just no doubt."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:30",
+      "text": "There's no doubt in my mind."
+    },
+    {
+      "name": "A",
+      "timestamp": "25:31",
+      "text": "He's too good."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:33",
+      "text": "That was like the discovery of the whole series. Like, I mean, you know, dare I say it, I mean, like, as good as, you know, like, as improbable and as down he was as Iron Man and as Tony Stark and he just like completely took ownership of the role. Like, that's what I think Chandler did here. And like, and he was just so, like, you know, endearing and likable. And you just wanted to see, like, every— like, just squeeze all the juice out of that."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:02",
+      "text": "The juice. Every bit of it. Every bit of it."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:04",
+      "text": "That's really good. I like that Downey comparison a lot. I hope Warner Brothers Skydance, like, thinks something similar because he— it was a treat to see. Kyle Chandler back on on TV, like back on a football field, right? Back on a football field."
+    },
+    {
+      "name": "E",
+      "timestamp": "26:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "26:19",
+      "text": "Well, we all we all fall."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:29",
+      "text": "All right, you guys, are you ready to get into this movie?"
+    },
+    {
+      "name": "A",
+      "timestamp": "26:32",
+      "text": "Let's do it, brother. I'm excited."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:34",
+      "text": "All right, here we go. Barry Lyndon is. The improbable ascent and inevitable decline of a man who never looked deeper than the empty pit of his own ambition. Redmond Barry is a fatherless Irish boy of modest birth who, after risking his family's fortune in a duel with an English officer, is forced to run away into the British Army and then out of it as a deserter, into the Prussian Army as a captive, and out of it as a double operating in Europe's gilded gaming salons. But when he seizes the opportunity to marry the widowed, fabulously wealthy Countess of Lyndon, it appears that he will finally have everything he has dreamed of: a fortune, a peerage within reach, and a son he adores. But the debts he racks up, a stepson who despises him, a wife he neglects, and a society full of enablers only too happy to bleed him dry of his wealth will soon be called for repayment. He will learn that as high as he has climbed on charm and nerve, he only has that much farther to fall, and such a brief time until the world has forgotten the name of Barry Lyndon."
+    },
+    {
+      "name": "A",
+      "timestamp": "27:49",
+      "text": "That's great. That's great. So dramatic."
+    },
+    {
+      "name": "D",
+      "timestamp": "27:58",
+      "text": "Yeah, that's great. I wish the movie was—"
+    },
+    {
+      "name": "C",
+      "timestamp": "28:02",
+      "text": "what a movie! Yeah, what a, what a movie. Uh, so Dave, start us off. What is your history?"
+    },
+    {
+      "name": "B",
+      "timestamp": "28:09",
+      "text": "When did you first see Barry Lyndon?"
+    },
+    {
+      "name": "D",
+      "timestamp": "28:11",
+      "text": "You know, I, I— it's a good question. I wish I could pinpoint it exactly. So I, I— because I have to assume it was probably like sometime post-college and maybe still in like the era of like, you know, Netflix DVDs in the mail. I don't think this was something I could easily kind of, you know, get access to. And I just know I was probably going through like, let's, let's just watch all the Kubrick movies in sequence. I'd seen, you know, Clockwork Orange a zillion times and, and Dr. Strangelove and 2001 and all the real, like the really, really monolithic Kubrick. But this had somehow like escaped, uh, my attention. And I know I, like, I saw it talked a lot about. Talked about a lot. And, you know, you always would see like great still images from it in, in books. Uh, right. I just, I felt like I just had to, uh, investigate it. So yeah, I probably was in like my early to mid-20s, you know, watching it on the DVD player on my PS2 in a, in a non-Criterion edition. Uh, yes, you know, SD disc."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:21",
+      "text": "480p or whatever."
+    },
+    {
+      "name": "D",
+      "timestamp": "29:22",
+      "text": "Yes. Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:24",
+      "text": "All right, very good. Jason, what about you?"
+    },
+    {
+      "name": "A",
+      "timestamp": "29:27",
+      "text": "Yeah, very similar story to Dave. Like, you know, when I sort of went through my first flush of Kubrick obsessiveness and like saw, like, you know, it was like, oh, Clockwork Orange, 2001, Full Metal Jacket, like these are the best movies ever. Who is this guy? And was like, I was like, oh, like, you know, turns out he's made this other movie and I saw it on VHS with like a friend of mine in high school, like the double VHS."
+    },
+    {
+      "name": "B",
+      "timestamp": "29:50",
+      "text": "Double VHS."
+    },
+    {
+      "name": "A",
+      "timestamp": "29:52",
+      "text": "Yeah. And yeah, I was just like, what the fuck is this? And I think I, I think it, I think it, I think I definitely did not love it the first time and was like, this is a slow-ass fucking movie. And, and yet over time, like, it's, it's definitely become like a, I don't know if like a favorite is the right way. It's not like I would put on Barry Lyndon instead of like, you know, Dr. Strangelove or something, but like, I just do think it is such an achievement, uh, on so many different axes that, um, yeah, I love it and I've, I've wanted us to talk about it for a long time. I'm glad we're talking about it today. And, you know, finally, it's not a, it's not a perfect movie, but it's a super— I feel it's like a very important movie."
+    },
+    {
+      "name": "G",
+      "timestamp": "30:35",
+      "text": "So yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:36",
+      "text": "Do you recall if the VHS, did it like split at the intermission or did it—"
+    },
+    {
+      "name": "A",
+      "timestamp": "30:41",
+      "text": "Yeah, it was, it split at intermission."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:43",
+      "text": "Which is 1:49, right? That's like an hour and 40 minutes."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:46",
+      "text": "Yeah, it's like 1:40 something."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:47",
+      "text": "Yeah. So it's almost the halfway That was always such an amazing thing, right? Those double VHS."
+    },
+    {
+      "name": "A",
+      "timestamp": "30:52",
+      "text": "You knew you were in for some shit."
+    },
+    {
+      "name": "D",
+      "timestamp": "30:53",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:54",
+      "text": "Something real special. Something real special was going on. So, for me, I've talked about it a million times, but 2001, Clockwork Orange, The Shining, like, those were all, like, really, really key for me and growing up. But I had never— I never liked Full Metal Jacket and just never kind of connected with it, other than the opening, which is so good."
+    },
+    {
+      "name": "C",
+      "timestamp": "31:20",
+      "text": "But I just really felt, for whatever reason, this one has been hanging out. I've never seen Spartacus."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:26",
+      "text": "I haven't seen The Killing. I haven't seen Paths of Glory."
+    },
+    {
+      "name": "A",
+      "timestamp": "31:29",
+      "text": "Oh, Jesus."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:30",
+      "text": "So, I like— I've got work— I thought, Jason, I thought you would pick some more Kubrick movies, honestly, you know, this summer. So, I don't know what happened, but—"
+    },
+    {
+      "name": "A",
+      "timestamp": "31:39",
+      "text": "I don't know what happened either, brother."
+    },
+    {
+      "name": "D",
+      "timestamp": "31:41",
+      "text": "I'm not sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "31:42",
+      "text": "So, it was really fun to finally get around it. And, you know, I've just seen so many—"
+    },
+    {
+      "name": "B",
+      "timestamp": "31:47",
+      "text": "same thing as you said, the images that you see, right? Like the guys marching across the desert, the field, or some of the ballroom scenes, uh, you know, with the candlelight and whatnot. So like, this one has always been hanging out there."
+    },
+    {
+      "name": "G",
+      "timestamp": "31:58",
+      "text": "I've always—"
+    },
+    {
+      "name": "B",
+      "timestamp": "31:59",
+      "text": "I had a space reserved in my brain and in my heart for this, and it was really wonderful to finally get the chance to sit down and to sit down and check it out."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:06",
+      "text": "It is very like— I mean, would you agree? It—"
+    },
+    {
+      "name": "E",
+      "timestamp": "32:10",
+      "text": "I like—"
+    },
+    {
+      "name": "D",
+      "timestamp": "32:11",
+      "text": "for, for whatever its like flaws may be, I think it's very like accessible and very Understandable. Like, the story is told well, and you know what's going on."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:22",
+      "text": "Yeah, I actually—"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:24",
+      "text": "as soon as we do the BTS, I want to get into that when you're ready."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:28",
+      "text": "Because I think there are some very interesting storytelling choices that I wanted to—"
+    },
+    {
+      "name": "B",
+      "timestamp": "32:32",
+      "text": "it was much more spoon-fed than I expected from a Kubrick film. I will say that."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:36",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:37",
+      "text": "And so that was interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:38",
+      "text": "So just quickly, some quick behind the scenes."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:41",
+      "text": "This is our 5th Kubrick Mm-hmm. 2001: A Space Odyssey, The Shining, and Eyes Wide Shut, and then Full Metal Jacket in 2 weeks. So—"
+    },
+    {
+      "name": "A",
+      "timestamp": "32:51",
+      "text": "Amazing."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:51",
+      "text": "Clockwork Orange, obviously, we've put it off as long as we can. We've got to do it at some point, um, and, and see where we go."
+    },
+    {
+      "name": "A",
+      "timestamp": "32:58",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "32:59",
+      "text": "Uh, Dave, do you have details on this? So he wanted to do a Napoleon movie for years and years?"
+    },
+    {
+      "name": "D",
+      "timestamp": "33:05",
+      "text": "Yeah, that's absolutely true to the point. I mean, I, I don't know how Spielberg was gonna actually revive Kubrick's Napoleon movie at some point. That obviously did not come to fruition, but—"
+    },
+    {
+      "name": "C",
+      "timestamp": "33:18",
+      "text": "Fortunately, Ridley delivered something."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:22",
+      "text": "Right, a category killer, so to speak. But yeah, that was one of his ambitions. And also wanted to do Thackeray's Vanity Fair. And I think was kind of dissuaded or did not do it because there was also like a famous TV adaptation in that same era that was starting to play. Like, it was made in the '60s but didn't come to the States until the '70s. And, you know, won Emmys here. And so, like, he— but still wanted to do, like, the big kind of, like, historical costume drama."
+    },
+    {
+      "name": "E",
+      "timestamp": "33:57",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:58",
+      "text": "And by the time he got around to it, or by the time it kind of, like, reemerged for him, you know, he's made 2001 and also made Clockwork Orange. And Clockwork Orange is kind of, at least for him, is a somewhat misbegotten experience because of— You know, like all the, you know, the acts of violence that happen and that are, you know, considered copycat incidents or get blamed on him in, you know, unfair ways. And he goes a little bit, you know, starts to go into, you know, seclusion and retreat. And, and, you know, I think he's looking for something just totally different and, you know, completely different kind of, uh, you know, flavor or note to, to play."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:36",
+      "text": "He's like, I'd like to see you motherfuckers recreate this."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:39",
+      "text": "Get 800 people out on the battlefield."
+    },
+    {
+      "name": "E",
+      "timestamp": "34:42",
+      "text": "Good luck."
+    },
+    {
+      "name": "A",
+      "timestamp": "34:43",
+      "text": "Get these fucking Moon lenses. See if you can do it."
+    },
+    {
+      "name": "D",
+      "timestamp": "34:46",
+      "text": "Yeah, let's see you all get, you know, get up, round up your muskets."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:51",
+      "text": "Yeah, yeah, exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:54",
+      "text": "This was a 300-day shoot that spanned 2 years, starting in December of '73 in England, Ireland, Germany."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:04",
+      "text": "They had all sorts of problems, whether it was the weather, logistics, politics. Kubrick was worried that he would be an IRA hostage target, and ended up pulling production out of Ireland."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:16",
+      "text": "Interesting."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:16",
+      "text": "It is interesting."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:17",
+      "text": "You know, we kind of forget the fact that for much of our lives, like, the IRA was like a very live and real, you know, terrorist organization that, you know, there were bombings and things that were happening. We're very fortunate to see that that's at least, you know, proof that some areas can find peace ultimately. So I'm looking for some positives."
+    },
+    {
+      "name": "A",
+      "timestamp": "35:39",
+      "text": "I'm like very nervous as we sort of like navigate the discussion of The Troubles. Let's just keep it moving."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:45",
+      "text": "Let's just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "35:46",
+      "text": "Fair enough."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:48",
+      "text": "Budget on this, $12 million worldwide, $20 million. So considered a flop at home, although they did get 4 Oscars for cinematography, art direction, costumes, and score adaptation."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:04",
+      "text": "They also got nominated for picture and director, but Cuckoo's Nest is pretty strong."
+    },
+    {
+      "name": "A",
+      "timestamp": "36:10",
+      "text": "Yeah, Cuckoo's Nest is pretty strong. Yeah, that's true. But I mean, hard to argue. It's hard to argue. It's just like, but this is— it's just like such an achievement in filmmaking, this movie. Yeah, it's just like from the pure craft of filmmaking."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:22",
+      "text": "It's like, yeah, yeah, we'll get all into that."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:24",
+      "text": "The, the, uh, box office that year: Jaws, One Flew Over the Cuckoo's Nest, Dog Day Afternoon, Three Days of Condor, The Man Who Would Be King."
+    },
+    {
+      "name": "B",
+      "timestamp": "36:33",
+      "text": "Like, it's just—"
+    },
+    {
+      "name": "E",
+      "timestamp": "36:34",
+      "text": "it's a—"
+    },
+    {
+      "name": "A",
+      "timestamp": "36:34",
+      "text": "that is a— it is an unbelievable Unbelievably stacked year. Like, that is crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "36:39",
+      "text": "And what, was Network in production in '75?"
+    },
+    {
+      "name": "H",
+      "timestamp": "36:43",
+      "text": "Or—"
+    },
+    {
+      "name": "D",
+      "timestamp": "36:43",
+      "text": "Yeah, I mean, it was probably not quite because, I mean, they— I mean, yeah, there's probably some filming happening late that year. I mean, they did it like, you know, they did not take 300 days to shoot Network. I think they were already filming in like '76 and had it out by the end of that year."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:01",
+      "text": "Crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:02",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "37:02",
+      "text": "Crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:03",
+      "text": "I mean, it's bonkers to think that like you could still do that in the '70s. And at the time, like a movie out by like within a year, like shot and edited in a year."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:14",
+      "text": "Yeah, crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "37:15",
+      "text": "All right. So Dave, where do you want to start for Barry Lyndon?"
+    },
+    {
+      "name": "D",
+      "timestamp": "37:20",
+      "text": "Opening titles? I mean, we, I guess we kind of covered that."
+    },
+    {
+      "name": "A",
+      "timestamp": "37:25",
+      "text": "Let's go through it. Go 3 hours on this podcast. We're gonna go scene by scene. We're not skipping a fucking thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:31",
+      "text": "Yeah. No, you know, It's— I mean, I guess it's— I don't think it's that, like, sort of insightful to say now. But like, and I think it's interesting that, like, you know, one thing that, like, Kubrick was kind of looking at, or, you know, was influenced by or moved away by was the idea of, like, the TV miniseries, because this probably would have worked perfectly."
+    },
+    {
+      "name": "E",
+      "timestamp": "37:54",
+      "text": "Perfectly."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:54",
+      "text": "As a TV miniseries. And I think in the streaming era, you know, you can have these more kind of Like, you know, you could— if you can even experience Barry Lyndon in that way, you can watch it in like 3 hours, you know, single hours if you choose to. And I still think get like a perfectly satisfactory experience. And maybe that doesn't quite seem as burdensome as like one, you know, kind of 3-hour sit-down, but it is."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:19",
+      "text": "It passes the Surf Dracula test though."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:21",
+      "text": "He makes it—"
+    },
+    {
+      "name": "B",
+      "timestamp": "38:22",
+      "text": "he gets to Barry Lyndon by the halfway point at least."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:28",
+      "text": "That's very much on my mind, but it's a great, great invocation here."
+    },
+    {
+      "name": "B",
+      "timestamp": "38:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:33",
+      "text": "And it's so episodic, and it always, you know, I feel like this is one of the rare movies, like, you know, the sort of— the rule of thumb is, like, you know, don't tell things in voiceover. And, you know, if you're using voiceover, it shows you're, you know, kind of, you know, you're feeling inadequate about your own storytelling. But I think the voiceover here works perfectly."
+    },
+    {
+      "name": "E",
+      "timestamp": "38:54",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "D",
+      "timestamp": "38:55",
+      "text": "I think it's very— it's, like, sort of very wry, tongue-in-cheek, And it kind of plays like— it gives you like perfect context and lets you know exactly what you're about to see."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:04",
+      "text": "Well, and did that narrator— was that in the book?"
+    },
+    {
+      "name": "A",
+      "timestamp": "39:06",
+      "text": "No, the book is first person. The book is, is POV."
+    },
+    {
+      "name": "D",
+      "timestamp": "39:09",
+      "text": "I don't think I ever realized that."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:11",
+      "text": "Because that's my first question, and to you, Jason, specifically, because I know you oftentimes have pushed back."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:16",
+      "text": "You asked Koppelman when we had on, like, is it allowed to do voiceover? And he said when it's good and it works, it's great."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:23",
+      "text": "Well, and I sort of take up to the point that you were making about, um, the over— the over-indexing on surprise and like why you don't need To do that. Like, this is a movie that tells you the kid is gonna die, like, a good, good 20 to 30 minutes before the kid dies. Like, it's, it's, it's very— and, and it tells you that this is a story of downfall. Like, you, you know that it's not going to end up well for Barry from, like, the midpoint of the movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "39:46",
+      "text": "The second title card is like that. Now he loses everything."
+    },
+    {
+      "name": "A",
+      "timestamp": "39:50",
+      "text": "Exactly, exactly. Like, so, you know, and you know, you know, like, the role that the wife is gonna play in everything. Like, it just tells you, it signposts Incredibly well. And I think to the point Dave's making about could it work as a miniseries, like, absolutely. Like, there's something about it that in essence is very kind of soap operatic, like almost like it's very, it's very clear narratively what's going on. The pleasure in the movie is the execution of it. And so I think like, I think it really does prove Koppelman's point. I think it proves like our, you know, the Boys on the Watch point. Like, you can do anything if you're a fucking genius. And like, you know, like, and like you are meticulous about your craft. Like, if you just know what you're trying to accomplish and when to bend and break the rules, Like, there's no rule that you have to obey completely. And so, like, this, this is a great example of that."
+    },
+    {
+      "name": "B",
+      "timestamp": "40:36",
+      "text": "I certainly would have been fine if it didn't have, especially the title cards, like, literally telling me that it, that it's all about to completely crumble. There's a part of me— I, I mean, I guess at the end of the day, what it, what it does do is cause you to shift your, your allegiances, right? If you know how bad he is and you get to the point where you're like, this guy just really needs to get his comeuppance, Although he was such a fuckboy from the jump. I'll come to that. That's my first point."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:07",
+      "text": "But I don't know, I just thought it was interesting, this idea that second title card did play out like a horror movie where I was waiting to see what was gonna happen to this kid."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:17",
+      "text": "Yeah, of course, highlighted from— did Stanley really make a horse crash onto a kid? Did that happen?"
+    },
+    {
+      "name": "A",
+      "timestamp": "41:23",
+      "text": "I don't know how they did the horse thing. But, you know, listen, great art requires sacrifice, and sometimes that's the little kids."
+    },
+    {
+      "name": "D",
+      "timestamp": "41:34",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:35",
+      "text": "I was like, how many takes did that baby have to eat that baby food? I bet it was like 114 takes. Oh man. Okay, Jason, your first point."
+    },
+    {
+      "name": "A",
+      "timestamp": "41:48",
+      "text": "I guess I will start with maybe we could just talk about the The, the nature of the filmmaking itself, like, because it is delicious. Yeah, it is delicious. Um, obviously a big part of the intention here was to create this painterly, um, uh, look to the movie where so many individual scenes of the movie, even though the camera is in motion, look like an old master painting. And to that end, he, like, you know, copied the costumes out of the painting. He lit with daylight, he lit with candles using these, like, you know, these very specific low f-stop lenses that he got from NASA. Like, you know, it, it, it, it is, uh, I think it builds on the point where, you know, we were just talking about, about the lack of surprise."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:37",
+      "text": "We've—"
+    },
+    {
+      "name": "A",
+      "timestamp": "42:37",
+      "text": "for it forecasts all the major plot points. The point is like sort of for you to, um, appreciate and notice and like sort of revel in like the style of the storytelling here."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:47",
+      "text": "Language, the language, visual language of it."
+    },
+    {
+      "name": "A",
+      "timestamp": "42:50",
+      "text": "Yeah. And it's just, it's just so, um, it's just so sumptuous, um, and beautiful. There's so many scenes, there's so many individual stills of the movie that just feel like just nothing. Even still, like, even today, like, you're just like, you look at it and you're just like, who could, who could do this? Like, who— if you tried to do this now, it wouldn't look— there's no way it would look as good. There's just no— like, I feel like this has been lost somehow, like the skill of the old masters. Like, we just don't even have Um, we don't even have the ability to do it. Um, I do think there's like sort of a kind of a fun meta level to that, which is, you know, Barry— there's a scene in which Barry is like acquiring art, um, in order to like sort of land himself. Yeah, I love the use of blue. It's like, ah yes, very, very perceptive."
+    },
+    {
+      "name": "B",
+      "timestamp": "43:38",
+      "text": "That dude was stoked. He was about to make a great sale. Yeah, he's like, this dumb motherfucker Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "43:47",
+      "text": "So it allows, in some way, it calls attention to the fact that this style of painting and this style of art was meant to be an object of virtue. It was meant to be sort of a desirable class object as well, which I think is fun because a lot of the movie is about what it means to try to ascend beyond your class, which is another point of mine I'll get to later."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:17",
+      "text": "So what about like all of the outdoor shots and like the castles in the background?"
+    },
+    {
+      "name": "A",
+      "timestamp": "44:23",
+      "text": "It's crazy."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:24",
+      "text": "Or the garden, you know, just these huge English gardens or French or wherever. Like, it's so amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:31",
+      "text": "These buildings. I really like the, um, like when, you know, like, I mean, all, all, all exactly all of what you say. I also like the, the The battle sequences, the sort of, you know, when they're doing the Seven Years' War and like—"
+    },
+    {
+      "name": "G",
+      "timestamp": "44:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "44:43",
+      "text": "You know, on the one hand, I think you totally appreciate like how this would never get made in the same way now. And of course there would be, you know, CG and they would fill in the crowds and you would have, you know, only 5, you know, live actors and everything else would just be, you know, digital later. But also just, you kind of see without anybody having to tell you, like just how like chaotic Yeah. ...in that era. And how, like, it was almost arbitrary who was going to win."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:11",
+      "text": "How about they're just walking straight ahead? Just walking straight into fire."
+    },
+    {
+      "name": "E",
+      "timestamp": "45:14",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:15",
+      "text": "That was crazy shit."
+    },
+    {
+      "name": "F",
+      "timestamp": "45:18",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:19",
+      "text": "Or just, like, lying down in a bunch of ruins and, like, you know, loading up your musket and firing off one shot. Maybe it hits somebody. And then another 5 minutes loading up the musket and, like, You know, it just like—"
+    },
+    {
+      "name": "C",
+      "timestamp": "45:32",
+      "text": "it doesn't—"
+    },
+    {
+      "name": "D",
+      "timestamp": "45:32",
+      "text": "you don't even need to be told like how almost kind of like, like the, the, the preposterousness of sacrifice that's happening there."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:40",
+      "text": "Yes. How about the, uh, the Prussian captain when he's walking through and everything's blowing up all around him? Yeah, I was like, Nolan, you hack! I saw the Odyssey."
+    },
+    {
+      "name": "F",
+      "timestamp": "45:50",
+      "text": "I saw that."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:50",
+      "text": "I saw that scene. Yeah, but there was also like that beautiful, um, the handheld camerawork following as Barry is carrying the captain down the stairs or whatever, like following him out through all of that chaos. You know, Stanley was just like, just blow it up, it's fine."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:08",
+      "text": "There's a couple places where it goes handheld, and it's always very like sort of— you feel it when it goes handheld. Like when he beats up Bullington in the concert, it becomes completely kinetic. Um, and this, like, it's a very, like, sort of Clockwork Orange style filmmaking, and you just feel like the vulgarity and the violence of that scene."
+    },
+    {
+      "name": "D",
+      "timestamp": "46:31",
+      "text": "All those fops just kind of standing around with their hand to their mouth. They don't even know what to do."
+    },
+    {
+      "name": "A",
+      "timestamp": "46:36",
+      "text": "Yeah, yeah, they've never seen any shit like this before. Like, no, you, you thought you were coming for a concert, you're getting an ass whooping."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:43",
+      "text": "I mean, the Countess was good on that, on that harpsichord."
+    },
+    {
+      "name": "C",
+      "timestamp": "46:47",
+      "text": "How about, um, Also, some of the POV— there's a handful of POV shots that felt really weird."
+    },
+    {
+      "name": "B",
+      "timestamp": "46:53",
+      "text": "Like when, when the banker guy or whoever comes in to tell Barry that, you know, he's gonna get his writ of $500 or whatever, and it's like a Barry POV looking at this guy. I was just like kind of thrown off that there had not been consistently POV used through the film, but it was—"
+    },
+    {
+      "name": "A",
+      "timestamp": "47:08",
+      "text": "Totally. Yeah, there's not a lot of subjective— there's not a lot of subjective filmmaking in it. Most of it is shown— is meant to be objective. And then like that in stuff, Both with the banker telling Barry, and then also the the sort of the Lady Lyndon realizing she's signing the check for Barry. Like it becomes this more internal subjective subjective view."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:30",
+      "text": "I mean, I was surprised that wasn't the final shot of the movie, by the way. Like I thought as she was signing it, I thought that would be credits right there."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:37",
+      "text": "That there's well there's another interesting filmmaking thing there, which is like when Barry gets on the when he's got the lady there's a freeze frame. There's like a real seventies freeze frame there."
+    },
+    {
+      "name": "B",
+      "timestamp": "47:47",
+      "text": "Real deal."
+    },
+    {
+      "name": "A",
+      "timestamp": "47:48",
+      "text": "I mean, look, like this is why. Why I think you know so many people, myself included, are Stanley Kubrick obsessives is just because it's just like look, like if you enjoy sort of the language, like what's going on with the language of cinema, like it's just like this dude is gonna play with all the fucking pencils in the box. Like he is go he's just going to avail himself of all of the things because like that is a dominant part of his interest. He has such a you know, photographer's mindset about the camera that like, you're just gonna get some shit you're not gonna get otherwise. And I don't know, man. Like, I love that. I love it. It works on me. I'm into it."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:27",
+      "text": "And the DP here is John Alcott, who was his partner for Clockwork Orange, Barry Lyndon, and The Shining. Now, obviously I think, you know, he's mainly like lighting, right? And Stanley is operating. and driving that process. But just an unbelievable, you know, work that he did here. And then also shout out for Ken Adam, who was the production designer. Dr. No, Goldfinger, Dr. Strangelove, You Only Live Twice, The Spy Who Loved Me, Barry Lyndon, and The Madness of King George."
+    },
+    {
+      "name": "E",
+      "timestamp": "49:03",
+      "text": "Jesus Christ."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:03",
+      "text": "Like, unbelievable to do like these huge commercial, glitzy sci-fi spy movies and then also do this film. Just incredible."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:14",
+      "text": "Yeah, agreed."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:17",
+      "text": "Yeah, Malena Canonero and Ulla-Britt Söderlund on the costumes. Again, Academy Award-winning. The costumes, the sumptuousness of that. I mean, I think the reveal of whatever, the Barry Barry guy, yeah, when you finally see his look, I was like Holy shit, man! Check this guy out."
+    },
+    {
+      "name": "A",
+      "timestamp": "49:37",
+      "text": "Such a great scene. It's the the old man from Clockwork, the guy who gets the shit beat out of him in Clockwork."
+    },
+    {
+      "name": "B",
+      "timestamp": "49:43",
+      "text": "Oh really?"
+    },
+    {
+      "name": "A",
+      "timestamp": "49:44",
+      "text": "Oh, that's right. Yeah, same actor. There's a lot of Kubrick. This is this is like sort of the nexus of a lot of like Kubrick that guys because it's like you know the Chevalier de Berryberry is the guy from Clockwork Orange. The banker is the guy is you know Mr. Grady from The Shining. Um, Lord Bullington. Lord Bullington as an adult is like, you know, is Leon, who's like, you know, both important on screen and off screen. We talked about him for Eyes Wide Shut. Um, like, if this is like sort of the— this is like the, the— you get a lot of, you get a lot of Kubrick in this one."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:21",
+      "text": "Um, the second I saw the prince who is like betting and just like getting completely fleeced at the table, like, my brain just absolutely lit on fire. I'm like, I know that guy. He's He is a fucking Nazi. Um, and yes, he is one of the colonels from Raiders."
+    },
+    {
+      "name": "D",
+      "timestamp": "50:36",
+      "text": "Uh, oh, is that right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "50:37",
+      "text": "Yeah, yeah, yeah, yeah. He dies at the— he dies."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:40",
+      "text": "He gets his face melted, right?"
+    },
+    {
+      "name": "B",
+      "timestamp": "50:42",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "50:43",
+      "text": "By Jehovah."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:44",
+      "text": "Yeah, great to see that guy. Oh man."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:48",
+      "text": "All right, uh, let's see. Okay, so I'll do my first point, which was let's talk about Barry."
+    },
+    {
+      "name": "B",
+      "timestamp": "50:54",
+      "text": "Um, Barry—"
+    },
+    {
+      "name": "A",
+      "timestamp": "50:55",
+      "text": "Barry Lyndon fuckboy."
+    },
+    {
+      "name": "E",
+      "timestamp": "50:56",
+      "text": "Wait."
+    },
+    {
+      "name": "D",
+      "timestamp": "50:59",
+      "text": "Barry Supreme."
+    },
+    {
+      "name": "F",
+      "timestamp": "51:00",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:00",
+      "text": "Were there no Irish lead actors available?"
+    },
+    {
+      "name": "B",
+      "timestamp": "51:04",
+      "text": "Uh, were there no good actors available? So—"
+    },
+    {
+      "name": "E",
+      "timestamp": "51:07",
+      "text": "Oh, wow. Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:09",
+      "text": "That's cold."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:10",
+      "text": "But, you know, apparently Robert Redford was approached first, and actually I could see that working. It's probably too late by '75, right? He's like way too big. But yeah, so Ryan O'Neal was the biggest star that they could could get for the financing that they had."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:26",
+      "text": "And apparently they realized the accent was a problem while they were filming and at the time of the release and whatever. It's just, I— he does have something. He did grow on me as it went through."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:38",
+      "text": "There was something about him, this ineffable— just the determination, I guess."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "51:43",
+      "text": "And the ability to react and to be able to hold his own in difficult situations. I did have a grudging level of respect, but I thought he was hit or miss for me, particularly."
+    },
+    {
+      "name": "A",
+      "timestamp": "51:54",
+      "text": "I think this is— I mean, like, I would— I'm just gonna go grandiose and say that Kubrick knew that Ryan O'Neal had limitations as an actor, but that because he was like sort of the heartthrob of the moment, knew that he could also get an audience to root for him in the same way that you do end up rooting for Barry Lyndon, even though that, you know, He is, you know, a fuckboy and not like a and not a good person. Just like fundamentally not a good person. So I I think there was like I think there was some intentionality to the casting here is is going to be my thing. But I I mean and I guess to go further, it like sort of works on me. Like yeah, I like the accent is obviously bad and like I don't think Ryan O'Neill is like the most capable actor. But like there are scenes like the scene where he plays with the Chevalier where he like sort of crumples because of like you know the feeling like not you. You know, of like hearing someone from his homeland and whatever and all that stuff. I was like, I was like, I buy it. Like, he feels like— I, I felt the tenderness and like the feelings he has towards his son. And like, you know, I, like, I, I really— I bought it. Like, I didn't really have a lot of notes for Ryan in, in those moments, um, because I think he's, he's a good face. Like, he's a good-looking— he's a good-looking guy."
+    },
+    {
+      "name": "D",
+      "timestamp": "53:15",
+      "text": "Yeah, I mean, he really was— this was like peak, you know, Ryan O'Neal. And I mean, you know, yeah, they're Paper Moon around here."
+    },
+    {
+      "name": "C",
+      "timestamp": "53:21",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "53:22",
+      "text": "Well, he had done, you know, Love Story, What's Up, Doc, Paper Moon. Those were the, I think, the 3 movies of his that— and like, no question, this is like, you know, a momentum killer for his career."
+    },
+    {
+      "name": "F",
+      "timestamp": "53:33",
+      "text": "For—"
+    },
+    {
+      "name": "E",
+      "timestamp": "53:33",
+      "text": "yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "53:33",
+      "text": "And it is. And, and you, you, I mean, you see the limitations kind of writ large. And, but I, I, you know, like, on paper, I think it, you know, it was still a choice that probably made sense at the time. And, you know, I, like, as you were saying, in, in sort of like a, a best-case scenario, you can see this guy Like, the character that he's playing, there is, there is like an overlap there of like a guy who is a little bit out of water in these situations."
+    },
+    {
+      "name": "I",
+      "timestamp": "54:00",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:00",
+      "text": "And like, can't really fake his way through being, you know, a double agent or, you know, a fake, you know, high-level officer. He's not really able to do it in the same way that like Ryan O'Neal's not quite able to be like the leading man that this movie wants to be. And by the time he arrives in like this high society that he's wanted to be part of for so long, like, he can't hack it there either. And, like, you know, that, like, you're feeling towards him, I think, the way the movie wants you to. Like, sometimes you're sympathetic, and sometimes you see him for the piece of shit that he is."
+    },
+    {
+      "name": "A",
+      "timestamp": "54:39",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:40",
+      "text": "I mean, I thought it was really funny, even just the opening scene."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:42",
+      "text": "It was very effective in how kind of pathetic Stanley makes him. Like, when she tells him to turn around, his body language when he turns, he looks like a little boy standing there."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:52",
+      "text": "And then when he is not willing to play find the ribbon, I'm like, bro, come on, man."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:59",
+      "text": "What is your problem?"
+    },
+    {
+      "name": "C",
+      "timestamp": "55:01",
+      "text": "Get to work."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:03",
+      "text": "This is happening."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:05",
+      "text": "But then, like, he sucks at chopping wood."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:07",
+      "text": "Like, he doesn't know how to chop wood."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:09",
+      "text": "He doesn't know that when you throw a drink in someone's face, you don't literally throw the glass and hit them in the face with the glass."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:14",
+      "text": "You just throw the drink."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:15",
+      "text": "He's really good at fighting, though."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:17",
+      "text": "Yeah, he's really good."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:19",
+      "text": "Yeah, hell of a boxer."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:22",
+      "text": "He cooked that guy."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:24",
+      "text": "Uh, but, but I thought, you know, you do get this— you, you know, I, I like transitioning from him just to Barry."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:30",
+      "text": "I do like seeing the journey and seeing the capability that he has and how he does establish that he has this bravery. Um, and then you just see once he makes it, this mo' money, mo' problems, right? You know, he's like at the Eyes Wide Shut party, he's making out with his girlfriend in front of everybody. Um, and then, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:48",
+      "text": "He blows it."
+    },
+    {
+      "name": "A",
+      "timestamp": "55:49",
+      "text": "He blows it quickly."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:51",
+      "text": "That sequence— forgive me if I'm getting like too far ahead of things, but like, you know, when, you know, when, when, when the, the wife, you know, like catches him in flagrante. Yeah, like, I mean, like, in some ways it's like, it's, it's so on the nose, but like, you just like, you can like, he's so like, you, you can basically see his face as it's happening. You can just see Yeah. Like, you know, like his demeanor collapsed. Like he's just been—"
+    },
+    {
+      "name": "B",
+      "timestamp": "56:19",
+      "text": "And it's the maid. It's the maid that he's with."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:21",
+      "text": "Like what a— yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "56:22",
+      "text": "And right. And like everybody else is just like watching him do this. And, you know, like you, you, I feel like, you know, like, and these are the moments like them. I mean, the movie is like basically like just kind of telling you, you know, what's going on, what to think, but it's still pretty effective. It still kind of like gets you in the gut."
+    },
+    {
+      "name": "A",
+      "timestamp": "56:41",
+      "text": "Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "56:41",
+      "text": "Hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:43",
+      "text": "Hmm. Yeah, I dig it. Dig it. All right, Dave, what is your next point?"
+    },
+    {
+      "name": "F",
+      "timestamp": "56:48",
+      "text": "Hmm."
+    },
+    {
+      "name": "G",
+      "timestamp": "56:49",
+      "text": "Hmm."
+    },
+    {
+      "name": "F",
+      "timestamp": "56:50",
+      "text": "What could I?"
+    },
+    {
+      "name": "D",
+      "timestamp": "56:51",
+      "text": "What could we? Well, we've I mean I guess we've done we've done kind of the the Ryan O'Neill of it. I mean, should we talk about the sons, the son and the stepson?"
+    },
+    {
+      "name": "A",
+      "timestamp": "57:00",
+      "text": "Sure. Yeah, let's talk about it."
+    },
+    {
+      "name": "G",
+      "timestamp": "57:01",
+      "text": "Let's see."
+    },
+    {
+      "name": "D",
+      "timestamp": "57:02",
+      "text": "Sure. That's that's the kind of that's the third act story, and in some ways I think you know it's one of the like, engrossing ones about, you know, obviously marrying into a family, having the stepson that he never, you know, quite cottons to, and then having a son of his own who he's like, you know, endlessly, you know, like faithfully devoted to, like one of his like real kind of virtues. And that's all his, you know, becomes his undoing too."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:27",
+      "text": "Mm-hmm."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:28",
+      "text": "Yeah, it was like a jump scare when little Lord Bullingdon first shows up."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:33",
+      "text": "I'm like, that is a fucking scary kid."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:37",
+      "text": "And then him in the room Reverend."
+    },
+    {
+      "name": "B",
+      "timestamp": "57:39",
+      "text": "The Reverend, oh my God, I thought was amazing in this movie. Like, what a total creepo hanging out around all the time."
+    },
+    {
+      "name": "A",
+      "timestamp": "57:46",
+      "text": "I love the scene. I love the scene with the Reverend. Not to get off the kids' points, but I love the scene with the Reverend where he's doing the wedding vows and he's doing the like, yeah, not to be entered into wantonly or carnally, but soberly in the fear of Almighty God. He's really butter in the biscuit."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:08",
+      "text": "It's just like, it's like a real kind of like handoff from like Monty Python to The Princess Bride. Yeah, yeah, yeah, in the middle there."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:17",
+      "text": "Yeah, nice."
+    },
+    {
+      "name": "E",
+      "timestamp": "58:18",
+      "text": "It's great though."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:19",
+      "text": "It like, it doesn't— it does it, but what it doesn't go too broad. Yeah, like it never goes too big, which I love."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:25",
+      "text": "No, you can, and you can— I mean, like obviously there are like, you know, like full-scale Kubrick comedies like Dr. Strangelove, but this is a movie that that you're, like, allowed to laugh at and invited to at times. Yes."
+    },
+    {
+      "name": "E",
+      "timestamp": "58:36",
+      "text": "Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "58:36",
+      "text": "Which he doesn't always do."
+    },
+    {
+      "name": "E",
+      "timestamp": "58:38",
+      "text": "No."
+    },
+    {
+      "name": "A",
+      "timestamp": "58:39",
+      "text": "He doesn't always offer that opportunity."
+    },
+    {
+      "name": "F",
+      "timestamp": "58:40",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "58:43",
+      "text": "But I thought it was really effective."
+    },
+    {
+      "name": "B",
+      "timestamp": "58:46",
+      "text": "The notion of the petulance and the fact that this kid kind of preternaturally knew exactly what was going on. Like, he saw from day one what was happening. And, I mean, I guess we can sort of pivot this as we get to him as an adult, which is dueling the future conservatives want."
+    },
+    {
+      "name": "C",
+      "timestamp": "59:08",
+      "text": "This idea of settling shit with dueling."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:12",
+      "text": "And when he goes in and you have the duel by gunfire this time, the second gunfire duel. So, first of all, the rules changed between the first set and the second one?"
+    },
+    {
+      "name": "D",
+      "timestamp": "59:23",
+      "text": "Definitely know the rules of the duel before you go in."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:26",
+      "text": "Yeah, you gotta know the rules."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:27",
+      "text": "Know them inside and out. The 10 side commandments."
+    },
+    {
+      "name": "D",
+      "timestamp": "59:29",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:30",
+      "text": "Exactly. But the scene, like, Lord Bullingdon accidentally firing his pistol on the count of 2 into the ground. Oh my God, that was so funny."
+    },
+    {
+      "name": "A",
+      "timestamp": "59:39",
+      "text": "It's great. It's just great."
+    },
+    {
+      "name": "D",
+      "timestamp": "59:42",
+      "text": "But crazy that— I mean, forgive me for like getting too far ahead or jumping around too much."
+    },
+    {
+      "name": "C",
+      "timestamp": "59:46",
+      "text": "No, no, no, you can go. You can go anywhere."
+    },
+    {
+      "name": "D",
+      "timestamp": "59:48",
+      "text": "Well, just that that becomes, you know, like the— I guess in a sense, like, Larry's kind of final folly. Like, the one moment when he finally shows kind of Honor. Yes. And that that is his undoing."
+    },
+    {
+      "name": "A",
+      "timestamp": "60:01",
+      "text": "Yeah, this is a really good point."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:03",
+      "text": "Yeah. It would've been completely justifiable and within character too, to, you know, just to take his shot, to say, sorry, kid, you blew it."
+    },
+    {
+      "name": "E",
+      "timestamp": "60:11",
+      "text": "And—"
+    },
+    {
+      "name": "C",
+      "timestamp": "60:11",
+      "text": "I was terrified he was gonna kill that kid. Like, I assumed that was—"
+    },
+    {
+      "name": "B",
+      "timestamp": "60:15",
+      "text": "I assumed that that was how his downfall would be, you know, secured for all time, by murdering his, you know, his stepson."
+    },
+    {
+      "name": "F",
+      "timestamp": "60:23",
+      "text": "Interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:24",
+      "text": "Yeah, because there's so much buildup up and you see him like, you know, like vomiting, like he kind of, you know. And so like, yeah, it's almost like, like everything, like, you know, you almost see like the light bulb like going off over Brian O'Neill's head. Like, oh, now I can show some mercy. Now I can like impart a lesson. Now I can transcend all of my like previous awfulness. And like, of course it's gonna bite him in the ass. Of course it's not going like This is the reality of the world. Like, no good deed goes unpunished."
+    },
+    {
+      "name": "C",
+      "timestamp": "60:54",
+      "text": "And in that moment, Bullingdon is being like Barry."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:58",
+      "text": "He's being like his stepfather in refusing to accept satisfaction."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "61:03",
+      "text": "This is— this was like one of my points, so I'll build on this here, which is like— it's kind of become a recurring segment on the pod, which is like, is this secretly a reactionary movie? Because like, there's a read of this movie which is like— which is like in defense of like the notion of the British aristocracy aristocracy, which is like there are poorly born people who, like, if they are allowed to jump above their station, will not fare well in this— in polite society and will act like brutes, as Barry does, like when, you know, he beats the shit out of Lord Bullington at the concert. Um, and that, like, you know, and there's the— like, Kubrick gave an interview about this movie once where, you know, he didn't often talk at all to anyone, but he gave an interview once where he said, uh, this is Uh, to Michel Ciment. I don't know, I haven't read the full interview, but he basically described Barry as someone who had clawed his way into a gilded cage and proved badly suited to that role. Um, so like, you know, it was like there is an element where it's like, oh, like none of this would have happened if Barry had not like sort of routinely had, um, visions above his station or delusions above his station. But I think like cutting against that read is the fact that like everyone else is a son of a bitch."
+    },
+    {
+      "name": "E",
+      "timestamp": "62:12",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:12",
+      "text": "In this, this is in this society too. And You know, like, you know, and the final duel where Barry does act honorably and is punished for it. And like, you know, um, like Lady Lyndon's marriage to Sir Charles is really one of convenience and like one that he benefited from. And, you know, the, uh, like the, the, the prince, like, you know, welches on his, on his gambling debts. Like, you know, this is not a society of people who are honorable. Um, even they're just better at like sort of, um, dressing it up, of dressing up their honor and conspicuous privilege."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:45",
+      "text": "Even the highwayman is quite polite."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:47",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:48",
+      "text": "And lets him keep his boots."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:50",
+      "text": "I love that scene."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:51",
+      "text": "We come now to the more unpleasant part of our brief encounter."
+    },
+    {
+      "name": "C",
+      "timestamp": "62:56",
+      "text": "We have to be able to move faster than our clients."
+    },
+    {
+      "name": "A",
+      "timestamp": "62:59",
+      "text": "I thought was a great line."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:00",
+      "text": "If that was the thesis— if there was a thesis of the film, I thought that that was, you know, just that there really is no true meritocracy, and none of it— you know, you can imagine there are, you know, hundreds or thousands of Barry Lyndons occupying all the different stations of this world, and everyone got there through some kind of dishonest or duplicitous means. And yes, they're all wastrels, they're all gamblers, they're all adulterers. And yeah, there's nobody that, in any way, kind of has— is virtuous in the way we're supposed to think of high society."
+    },
+    {
+      "name": "C",
+      "timestamp": "63:37",
+      "text": "Of course, of course. It was just some number of generations ago that their parents got there first."
+    },
+    {
+      "name": "E",
+      "timestamp": "63:42",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "63:42",
+      "text": "Uh, you know, and got, and got their peerage. And I actually, I did like that, that final bullet point, you know, that, that final card of like, good or bad, ugly, beautiful, whatever, like they're all equal now."
+    },
+    {
+      "name": "A",
+      "timestamp": "63:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:55",
+      "text": "I mean, isn't it amazing how like, just, I feel like even that title card like makes the whole movie kind of worthwhile and completely just kind of puts it in context, but also It's such a, like, kind of profound statement in its own right that, like, if that's all you take away from the film, I think it's, like, worth the 3 hours."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:15",
+      "text": "Mm. I did not think the film was slow at all."
+    },
+    {
+      "name": "F",
+      "timestamp": "64:19",
+      "text": "Yeah, okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:19",
+      "text": "Like, I absolutely—"
+    },
+    {
+      "name": "B",
+      "timestamp": "64:21",
+      "text": "I enjoyed every moment of it. I thought it was really fun. I thought it— that you're 100% right. The episodic nature as it sort of went through, everything hung together really well, and it was just a real joy watching it."
+    },
+    {
+      "name": "A",
+      "timestamp": "64:34",
+      "text": "I really forgot about, like, some parts of the movie Like, rewatching, I think I remember much more clearly, like, the second half than the first half. And like, the whole thing where he's like pretending to be the British officer and having like sort of like the Inglourious Basterds scene with the Russian general, you know, like, I was like, I was like, oh, this is like pretty saucy. Like, I'm into this. Like, it's very fun. Um, and yeah, it's like the movie, the movie really does move you along."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:01",
+      "text": "The British Ambassador O'Grady."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:04",
+      "text": "With the ridiculous name of O'Grady. He's like, come on, bro."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:12",
+      "text": "Yeah, please."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:13",
+      "text": "It's great because you really— it's so economical in a 3-hour movie. You realize like, oh yeah, like there's all kinds of scenes in which he's been undone on the course of like the travel for Bremen. This guy's never believed it for a second. What's going on here? Yeah, it's pretty great."
+    },
+    {
+      "name": "G",
+      "timestamp": "65:27",
+      "text": "It's—"
+    },
+    {
+      "name": "C",
+      "timestamp": "65:27",
+      "text": "can we just say there were some—"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:28",
+      "text": "there were some extremely attractive you know, influences on his life, whether it was the farm—"
+    },
+    {
+      "name": "C",
+      "timestamp": "65:38",
+      "text": "the farm wife."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:39",
+      "text": "The Fräulein really was— he should have stayed with the Fräulein."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:43",
+      "text": "That was like almost like a Benny Hill sketch, you know?"
+    },
+    {
+      "name": "B",
+      "timestamp": "65:46",
+      "text": "Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:47",
+      "text": "It was just like everything is just like on the table for you, you know? Life is never like that."
+    },
+    {
+      "name": "A",
+      "timestamp": "65:52",
+      "text": "Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:54",
+      "text": "And the final line of like the, you know, like the multiple armies had stormed and pursued or whatever, you know, or possessed that beach or whatever. I thought was really funny."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:05",
+      "text": "But the Countess, my God. There's this scene of her at the salon table."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:12",
+      "text": "The sexual tension intensifies. I was like, oh my God, she is amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:18",
+      "text": "And really, like, she was giving Sean Young vibes."
+    },
+    {
+      "name": "A",
+      "timestamp": "66:21",
+      "text": "Yes, very Sean Young. Very Sean Young. Yeah, 100%."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:25",
+      "text": "I also love, like, you know, when, like, right after they're married, like, that first scene of them, like, riding in the coach together. He blows the smoke in her face."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:32",
+      "text": "Yeah, and she keeps kind of, like, trying to wipe it off."
+    },
+    {
+      "name": "D",
+      "timestamp": "66:35",
+      "text": "wave it off."
+    },
+    {
+      "name": "I",
+      "timestamp": "66:35",
+      "text": "And he—"
+    },
+    {
+      "name": "B",
+      "timestamp": "66:36",
+      "text": "you—"
+    },
+    {
+      "name": "D",
+      "timestamp": "66:36",
+      "text": "it's like almost like that closing scene of The Graduate, of the two of them like sitting on the bus and like, what the hell do we do?"
+    },
+    {
+      "name": "A",
+      "timestamp": "66:42",
+      "text": "What do we do? Yeah, no, he immediately turns out to be a dick, basically. Like, they're coming home from the wedding essentially, and he's just like, nah, fuck you, I'mma blow smoke right in your face. It's, it's not great."
+    },
+    {
+      "name": "C",
+      "timestamp": "66:58",
+      "text": "It was so hard. The saddest poker salon, just her and her ladies. Yeah, you know, she was in those gilded salons in the middle having so much fun. Um, yeah, and, and then she looked like— she looked like a, like a Roman statue in the, in the tub."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:15",
+      "text": "Like, I, I couldn't believe—"
+    },
+    {
+      "name": "A",
+      "timestamp": "67:16",
+      "text": "The tubs— the tub scene is crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:18",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:18",
+      "text": "Uh, absolutely crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "67:19",
+      "text": "So good."
+    },
+    {
+      "name": "A",
+      "timestamp": "67:21",
+      "text": "While we're on Lady Lyndon, um, I, uh, my last point was like, we talked about the filmmaking already, but like, and this is not a unique observation About Barry Lyndon, but the exact midpoint of this movie is the introduction of Barry of of Lady Lyndon. Like like literally almost to the second, the exact midpoint is they're at the castle and spa, and the Schubert piano trio starts up, and there's the this truly like amazing camera like sequence where it starts. Off with this, uh, it starts off with the camera tracking beside, uh, tracking beside the folks in the foreground, and then it zooms in on the Linden— it picks up the Lindens and then zooms in on them."
+    },
+    {
+      "name": "G",
+      "timestamp": "68:07",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "68:07",
+      "text": "Um, it—"
+    },
+    {
+      "name": "A",
+      "timestamp": "68:08",
+      "text": "this whole, this whole sequence is so tightly, precisely, ridiculously composed."
+    },
+    {
+      "name": "B",
+      "timestamp": "68:16",
+      "text": "That pushing the guy in the wheelchair. Yeah, pushing the husband in the wheelchair."
+    },
+    {
+      "name": "A",
+      "timestamp": "68:19",
+      "text": "Yeah, you, you just— you don't even really— it doesn't even really call attention to itself in the way that, like, you know, like the Copa scene in, uh, in Goodfellas does or whatever. It is just like— but like, is, is so technically complicated, the move that he is doing to keep all these background and foreground actors in the right place doing the right thing, moving at the right time to catch the camera in the right place so that it can zoom in. It's just incredible. And it's structurally in the middle of the movie, um, and it's like it perfectly hinges sort of when everything irrevocably gets wrecked for him. Um, so it's great, it's great. Really love this movie, really love. And, and, you know, it hinges on the introduction of, of Lady Lyndon, who is a, a great character, um, very interesting character."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:03",
+      "text": "Yeah, it's funny because I—"
+    },
+    {
+      "name": "B",
+      "timestamp": "69:05",
+      "text": "you see those things on, um, on Instagram or whatever where they show you how Spielberg lays out his shots and like there's so much stuff that's happening that you're not even picking up on, that you just look at it, it looks so good, and then you realize, oh shit, there were 10 cuts and, you know, all these cameras moving and just—"
+    },
+    {
+      "name": "A",
+      "timestamp": "69:24",
+      "text": "Yeah, I think Spielberg really is like the master of this. Like, as we talked about, when we talk about Spielberg, Spielberg is like, you know, the boat scene, the scene with the mayor on the boat in Jaws, like, is unreal in how complicated it is. But like, it never gets talked about as one of the most complicated shots in the history of moviemaking. And even in Jaws, I don't think it's talked about one of the shots that gets talked about, but it is stupid complicated what he's doing. Like, um, and, and yet Spielberg just has this sort of savant-like ability, um, to like put the camera in interesting places and do interesting things. Um, and I think, I think, I think Kubrick is another one of these kind of weird brains."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:01",
+      "text": "Master."
+    },
+    {
+      "name": "E",
+      "timestamp": "70:03",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:04",
+      "text": "Um, I love the notion of him collecting mentors. I thought Captain Grogu was so awesome."
+    },
+    {
+      "name": "B",
+      "timestamp": "70:12",
+      "text": "Like, the instant this guy is in this movie, I'm like, I will follow this guy wherever he wants to go."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:18",
+      "text": "For the next 40 minutes and no further."
+    },
+    {
+      "name": "D",
+      "timestamp": "70:20",
+      "text": "Yeah, exactly. Don't get too attached. Yeah, yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:24",
+      "text": "I was trying to figure out, I'm like, why the fuck is he like— why does he like Barry? Why is he helping him?"
+    },
+    {
+      "name": "B",
+      "timestamp": "70:30",
+      "text": "And of course, the revelation later that it's all a setup, I thought was just absolutely brilliant."
+    },
+    {
+      "name": "A",
+      "timestamp": "70:35",
+      "text": "But damn, I was sad when on that point when the Chevalier basically drops off after that shot. I think he's— that's the last time he's in the movie is essentially that shot, um, uh, that I just talked about. Or maybe there's one more in the gaming— in the gaming room. But like, he basically drops off without a goodbye. Um, and like, I was like, oh, I miss the Chevalier. Why doesn't he get to come hang out at Castle Hackton?"
+    },
+    {
+      "name": "B",
+      "timestamp": "70:59",
+      "text": "This is, uh, this is referenced over and over again in The Power Broker, the notion that Moses— Robert Moses would collect people when they were useful to him, but the moment they were no longer useful, he would immediately drop them like a stone."
+    },
+    {
+      "name": "G",
+      "timestamp": "71:13",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:14",
+      "text": "And so, like, this is like a perfect example of Barry just completely eliminating someone now that he's gotten what he's needed out of them. You know, he's made his next jump, and that's just a risk of somebody holding them back for what he was doing."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:27",
+      "text": "Do you think he's that calculated, though? You know what I mean? Like, is he— is, you know, like, obviously there are certain people in, you know, that are like means to an end for Barry. But, you know, I think sometimes he just, like, has to flee a country and get somewhere else. And like, yes, of course, he's got to kind of like cut ties or start over. But I don't know if he— I don't know if I ever— like, other than his just his own like selfish self-interest, I don't— you know, he didn't seem to have a mind for kind of like, you know, long-term, large-scale calculation. And that's kind of why he ends up where he does."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:08",
+      "text": "I think the Chevalier is like in one or two scenes, he's in the background. Like, he might have been at the concert. I think he was definitely at the— he's definitely at the wedding. So he is there, but you don't have any notion of like Barry cares about anyone enough to have a conversation or like to turn to him for advice or, or any doubts. I think he just is—"
+    },
+    {
+      "name": "C",
+      "timestamp": "72:30",
+      "text": "he's like a shark."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:31",
+      "text": "He's just always moving. And if you're not in front of him, then you just don't matter."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:36",
+      "text": "I think this is— it is interesting. Like, One thing that I took away from my time in politics is the importance of retail politics, like people who are good in a room, people who are good with other people, people who make them feel like they're sort of important and well-loved."
+    },
+    {
+      "name": "D",
+      "timestamp": "72:54",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "72:54",
+      "text": "And it's interesting the degree to which there's a lot of staff work that kind of powers this. Particularly in national politics, people do end up sort of having to like have a vast apparatus that kind of manages whispering into the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "73:09",
+      "text": "but this is Jason Goldman podcast."
+    },
+    {
+      "name": "A",
+      "timestamp": "73:11",
+      "text": "Exactly, exactly. But like you do, but like there are also just people who are, who are better at it. Like there's just like, it is a, it is a skill that is distinct from being a good debater or a good policymaker or good on TV or anything else, um, where it's just like, no, no, like some people just actually are good at the, um, uh, you know, at the kind of like, uh, at just like sort of making people feel like— at the personal charisma. Like Bill Clinton famously is like, you know, just like next level supernatural GOAT at this. Um, and so, um, yeah, you know, I, I think like— I think Barry is— Barry has a different kind of charisma where he has like the fuckboy charisma, which obviously Bill Clinton also. Um, but like— But like it doesn't— like he doesn't know how to translate it into like sort of lasting, uh, influence. It's, it's just too— he's too transactional."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:04",
+      "text": "Yeah, too transactional. I can't remember who told me the story, but for famously for Bill Clinton, um, the, the, the amount of juice you had with Bill was reflected in the handshake. So the regular handshake is basically nothing. If you get the hand, his left hand gripping your forearm, yeah, versus your shoulder versus around, that's, that's like how you would know, uh, you know, how much, how, how you're doing. But Jason, you and I famously are face blind, have very difficult remembering people's faces."
+    },
+    {
+      "name": "E",
+      "timestamp": "74:32",
+      "text": "Exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:32",
+      "text": "We're bad at this."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:34",
+      "text": "We're never gonna get it."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:34",
+      "text": "We just are fucked. No, it's true. Uh, it's true. Like, my, my, like, mild face blindness, undiagnosed face blindness, is like a huge limiting factor for me in these, like, sort of more, um, yeah, more like DC-based confines."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:48",
+      "text": "So yeah, I work on the legislative side."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:50",
+      "text": "Exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "74:52",
+      "text": "Um, all right guys, anything we missed? Anything you want to make sure we hit?"
+    },
+    {
+      "name": "B",
+      "timestamp": "74:56",
+      "text": "I think we got it."
+    },
+    {
+      "name": "A",
+      "timestamp": "74:57",
+      "text": "This is a very good discussion. I just want to thank Dave because I think we managed— we each kind of like brought our own, uh, perspectives to it, but still managed to kind of work ourselves around the full horn. I had a lot of notes from Claude on like exchange rates and how much like 20 guineas was and stuff like that."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:15",
+      "text": "Yeah, how much—"
+    },
+    {
+      "name": "D",
+      "timestamp": "75:17",
+      "text": "so yeah, do you have a sense of like how much he was like paying for the whores and stuff like that?"
+    },
+    {
+      "name": "A",
+      "timestamp": "75:21",
+      "text": "Well, please let me, let me tell you. Um, so he gets 20 guineas from his mom on leaving home, uh, a guinea is a, is, uh, a pound and a shilling. So again, so like 20— so he would have had, he would have had, um, he would have had 21, he would have had £21, um, leaving home, which it depends on how you sort of, uh, convert because there's like purchasing power and then there's just like the inflation adjustment. But it's somewhere between, it's somewhere between like, it's somewhere around $8,000."
+    },
+    {
+      "name": "B",
+      "timestamp": "75:55",
+      "text": "Wow."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:55",
+      "text": "Like, wow. I thought you were gonna say like $50. So that's substantial."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:00",
+      "text": "No, it's a really— it's a huge number he was given. It's more than a laborer's wages at the time."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:04",
+      "text": "Jesus."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:05",
+      "text": "Um, and so it would have been a huge amount. So then you compare that to like the 15,500 Frederick d'or that was won from the Prince of Turbingen. Um, and so that would have been around, uh, the same— like there was a rough conversion between Frederick d'or and pounds. It would have been around 13 pounds."
+    },
+    {
+      "name": "D",
+      "timestamp": "76:23",
+      "text": "By the way, that's, that's way too long a name for a currency."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:26",
+      "text": "It's too—"
+    },
+    {
+      "name": "D",
+      "timestamp": "76:27",
+      "text": "the Frederick d'or, it's too cumbersome."
+    },
+    {
+      "name": "F",
+      "timestamp": "76:28",
+      "text": "It's not— yeah, yeah, you call it Bitcoin."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:31",
+      "text": "Coins."
+    },
+    {
+      "name": "A",
+      "timestamp": "76:31",
+      "text": "So, but like, so that, so, so that amount was like 600 times the purse that Billy, that, um, that Barry had when he left home. And like, is maybe, it's maybe in the millions of dollars. Like, Jesus. And like, at least the gold, the weight of the gold, if it was just like the gold was, would have been around $13 million in gold, in gold prices today. This is a huge amount of And then, so then the 500 guineas a year, which is what he's given, Barry's given, is like £525, which is around £150,000 a year, um, that he's given as like the money to, to live on in, in his, um, in his, in his money today."
+    },
+    {
+      "name": "C",
+      "timestamp": "77:14",
+      "text": "So I'll take that. Those scenes are—"
+    },
+    {
+      "name": "D",
+      "timestamp": "77:15",
+      "text": "I would take that to walk away from anybody."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:17",
+      "text": "Oh yeah, exactly. Let's go. Yeah, yeah, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:20",
+      "text": "Who wants to get rid of me? Sign me up."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:22",
+      "text": "But those scenes of the accounting, of just sitting there passing the checks over to be signed, like, those were tough, man."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:28",
+      "text": "Very tough. They're really not good. They're really— they— I think they say twice in the movie, have almost ruined a fine family fortune. It's a line that shows that they— that 2 different characters say."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "A",
+      "timestamp": "77:38",
+      "text": "Um, so twice. Oh, I guess a couple other honorable mentions. Um, the music. I mentioned the Schubert piano, uh, uh, trio, which is the Lady— is basically the Lady Lyndon theme. This broke one of Kubrick's rules because it is not contemporary. That's a 19th century piano piece. And so he was trying to use— he was trying to use contemporary ones, but he just thought there wasn't any good, like, sort of tragic love themes in the, you know, mid-18th century. And then I also really like the use of the British Grenadiers' Fife and Drum theme, which they— at one point in the scene when he's, like, sort of hooking up with the topless ladies, like, characters in the background are singing the lyrics of. The lyrics to that song are actually very Very fun, and is about like sort of how, like all throughout antiquity, there are these great heroes like Lysander and Alexander and whatever. But it's like you know, but like the British grenadiers have gunpowder, so get fucked. Is essentially the point of the song. It's a pretty, it's a banger. It's a banger. Yeah, I don't know. That's about it. I don't know. Handle Sarabandes and the main titles another another good. Cooper's got a great ear for classical music. And, you know, we talked about that in Eyes Wide Shut as well."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:53",
+      "text": "He does."
+    },
+    {
+      "name": "B",
+      "timestamp": "78:53",
+      "text": "And we would obviously get there in Clockwork Orange as well."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:57",
+      "text": "But the notion of winning an Academy Award for arranging previously written music—"
+    },
+    {
+      "name": "D",
+      "timestamp": "79:03",
+      "text": "Yeah, there would be enough adapted scores in a film season that they would specifically give out an Oscar for it. Yeah, kind of crazy."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:11",
+      "text": "Yeah, kind of."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:12",
+      "text": "And this has now obviously been permanently blocked by—"
+    },
+    {
+      "name": "C",
+      "timestamp": "79:16",
+      "text": "as a matter of fact, I think Hans did not even get nominated He was nominated for Dune Part 2 because they said it was too—"
+    },
+    {
+      "name": "B",
+      "timestamp": "79:23",
+      "text": "too much of it was based in Dune Part 1. So he was not allowed to do that, which is kind of crazy. But guys, who would Tilda Swinton play?"
+    },
+    {
+      "name": "A",
+      "timestamp": "79:33",
+      "text": "Oh yeah, good question."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:36",
+      "text": "It's got to be the Reverend for me. It's got to be the Reverend."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:39",
+      "text": "The Reverend's a good choice. I was going to say the Chevalier du Barry."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:43",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "79:45",
+      "text": "Yes, I think would be a great part for. I think she would really crush that part."
+    },
+    {
+      "name": "B",
+      "timestamp": "79:49",
+      "text": "Very good."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:49",
+      "text": "Who's the guy who like go like basically goes into like a heart attack at the gambling?"
+    },
+    {
+      "name": "B",
+      "timestamp": "79:55",
+      "text": "That's the husband of that's that's Countess Sir Richard."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:59",
+      "text": "Sir Sir Sir Yes Sir Who I mean I just I love how like he sort of like he he overplays that so beautifully and like oh yeah and it's kind of like you know if if you spend any time on social media it's like a Poster's dream come true, that just with the right sequence of words, you could cause somebody to have a heart attack."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:16",
+      "text": "Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "80:18",
+      "text": "So I like her for that character. That would be my small part, but I think she could really play the hell out of it. I love it."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:27",
+      "text": "I love it. You guys, we did it."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:33",
+      "text": "Barry Lyndon, are you ready for some quick voicemails?"
+    },
+    {
+      "name": "A",
+      "timestamp": "80:37",
+      "text": "Let's do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:38",
+      "text": "Okay, here is our first voicemail."
+    },
+    {
+      "name": "I",
+      "timestamp": "80:43",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:46",
+      "text": "All right, let's go, Animal Mother."
+    },
+    {
+      "name": "E",
+      "timestamp": "80:50",
+      "text": "He's not to be underestimated. He's a funny looking fucker, I know, but you've got to look past the hair and the Cape Cod leafing. It's all a deceptive facade."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:59",
+      "text": "But just let me tell you one thing, if the milk turns out to be sour, I ain't the kind of pussy to drink it."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:05",
+      "text": "Do you know what I mean?"
+    },
+    {
+      "name": "I",
+      "timestamp": "81:07",
+      "text": "Hello, animal friends and animal lovers. A satire that's beautiful but toothless is like buying a Richard Pryor set and getting a Maya Angelou performance instead. Sure, there's plenty to admire, but you paid for filthy jokes. Picaresque novels were the Guy Ritchie crime comedies of the pre-industrial era. You follow the adventures of wily, morally bankrupt corrupt schemers who would lie, fuck, kill, and steal their way into riches. These tales weren't meant to uplift but to amuse. They had no lessons to teach and, at least by the standards of the time, weren't too preciously written. And there's the rub. This is a feast for the eyes centered around a trivial hustler played by a bowl of oatmeal. Maybe Kubrick was playing 5D chess here. Barry's blandness being a hidden punchline behind all the neoclassical Painting camera work. But come on now, the guy gets homesick talking to a powder puff with an eye patch. Shit's funny, but if you didn't chuckle, that's not necessarily on you. You left the army on account of weakness in the loins. Do you have a favorite tale where everyone in it is a bad person? Thank you all. See you at the mall in the middle of that guy's forehead. And keep the change, you filthy animals."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:22",
+      "text": "I mean, if we're gonna go with all bad guys, it's gotta be Reservoir Dogs."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:26",
+      "text": "Yes, absolutely."
+    },
+    {
+      "name": "A",
+      "timestamp": "82:28",
+      "text": "That's really good."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:29",
+      "text": "Yeah. And, you know, hand in hand with that, I think I'd have to say Glengarry Glen Ross, which I think is kind of like the ur-Reservoir Dogs. Like, nobody is totally without blame in that."
+    },
+    {
+      "name": "E",
+      "timestamp": "82:44",
+      "text": "God."
+    },
+    {
+      "name": "A",
+      "timestamp": "82:45",
+      "text": "That's really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:46",
+      "text": "That's a really great episode of Dune Pod back in the day with—"
+    },
+    {
+      "name": "E",
+      "timestamp": "82:51",
+      "text": "that was the compliment episode."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:51",
+      "text": "That was the Yeah, I'll go back to that."
+    },
+    {
+      "name": "B",
+      "timestamp": "82:55",
+      "text": "Was Glengarry. It's, I mean, amazing to have like one of the most gifted writers, you know, analyzing one of the most best-written things ever."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:03",
+      "text": "Yeah, immaculate."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:04",
+      "text": "Immaculate."
+    },
+    {
+      "name": "C",
+      "timestamp": "83:06",
+      "text": "Thank you so much, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:09",
+      "text": "And here is our next voicemail."
+    },
+    {
+      "name": "C",
+      "timestamp": "83:12",
+      "text": "Mr. Java."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:16",
+      "text": "Here we go, Java."
+    },
+    {
+      "name": "E",
+      "timestamp": "83:18",
+      "text": "Now here's a little story I've got to tell about one Irish daddy we know kind of well. All the way back in history with a duel."
+    },
+    {
+      "name": "A",
+      "timestamp": "83:27",
+      "text": "A widow."
+    },
+    {
+      "name": "E",
+      "timestamp": "83:28",
+      "text": "Sean Connery, hot for his pussy, he got shot and killed. Bear was hot for his cousin and he had no chill. Spying on this man, British Army on his tail, 'cause he lying real bad. One shifty gunshot, he beat 2 con artists cheating everybody. Eyeball a baddie married to an old bat. A noise hit the desk and takes over his flat. Move on on this girl! Walandushi guy! Name's Barry Lyndon and he's down for orgy time! Oh, hello, chaps. I was wondering if perhaps you could tell me about a time some dandy fops like yourself participated in a rousing bout of fisticuffs. The manly art of pugilism. Maybe you just witnessed it, or maybe you just want to tell us Why you are such dandy fops. Cheerio!"
+    },
+    {
+      "name": "D",
+      "timestamp": "84:25",
+      "text": "That was incredible."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:26",
+      "text": "Mr. Java is a fucking legend."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:30",
+      "text": "That is—"
+    },
+    {
+      "name": "D",
+      "timestamp": "84:30",
+      "text": "I mean, are you gonna put that out as like its own like video?"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:34",
+      "text": "We are. The challenge with the Mr. Java things is that we think it is a shortcut to, uh, DMCA takedown notices. We're very It's definitely fair use."
+    },
+    {
+      "name": "G",
+      "timestamp": "84:45",
+      "text": "It's fair use."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:46",
+      "text": "Yes."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:46",
+      "text": "It's fair use according to us."
+    },
+    {
+      "name": "E",
+      "timestamp": "84:48",
+      "text": "We're not sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:48",
+      "text": "That was extraordinary."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:51",
+      "text": "I know."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:52",
+      "text": "I mean, like, the movie heads would just go crazy for that. That's really—"
+    },
+    {
+      "name": "A",
+      "timestamp": "84:57",
+      "text": "I know."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:58",
+      "text": "That was just extraordinary."
+    },
+    {
+      "name": "A",
+      "timestamp": "84:58",
+      "text": "It's really good."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:59",
+      "text": "We'll put it out. We'll put that one out there for sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:02",
+      "text": "We'll put that out there."
+    },
+    {
+      "name": "A",
+      "timestamp": "85:02",
+      "text": "You should hear some of the other ones too, man. Like, he's so good."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:06",
+      "text": "That's—"
+    },
+    {
+      "name": "G",
+      "timestamp": "85:07",
+      "text": "yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:07",
+      "text": "Really. Really good. So, so my only fisticuff story was when I was in college."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:15",
+      "text": "I went to a party with a bunch of friends."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:18",
+      "text": "This was like my sophomore year, and I was walking into the party, and as I was walking in, these guys were getting thrown out."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:27",
+      "text": "And my bass player in Henrietta's Lovers, my band, was walking right in front of me, and the guy threw a punch at Kev's face, and I just saw Kev just just kind of like moved to the side and the punch went by."
+    },
+    {
+      "name": "C",
+      "timestamp": "85:39",
+      "text": "And I was like, that was really weird. He just tried to punch Kev."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:43",
+      "text": "That's what I was thinking as he punched me in the face. And I did not move my head to the side and just got cold clocked. And I just like, I literally, my face didn't move. So like his hand kind of smashed into it and then came off. So I at least took the punch very well and was okay."
+    },
+    {
+      "name": "E",
+      "timestamp": "86:03",
+      "text": "Oh, good."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:03",
+      "text": "But that was, that That was quite a shock."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:04",
+      "text": "Did he apologize?"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:06",
+      "text": "A moment of revelation."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:07",
+      "text": "Was there, was there any kind of like apology or—"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:11",
+      "text": "Nope, that was it. They just kept moving."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:12",
+      "text": "They didn't even slow—"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:12",
+      "text": "he didn't even slow down. They just kept, they just kept cruising."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:15",
+      "text": "Did you demand satisfaction later?"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:16",
+      "text": "I did not demand that. I was— the transaction was complete."
+    },
+    {
+      "name": "A",
+      "timestamp": "86:20",
+      "text": "I've never been in a real fight. Like in grade school, like was in like some shoving and like, you know, rolling on the ground fights or whatever. Like, it's— which I just don't think are the same kind of thing. Um, so I've never, I've never been in a real fight. Um, I have worn a tuxedo though, so I've been a fop. I've been a fop, I guess. Um, I'm definitely more of the, like, I'm definitely more of the Prince Turgon side of things. I'm like, he's like, hmm, I feel I have been cheated."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:49",
+      "text": "Yeah, I, I'm not a fighter either, and I don't think I've ever really been in one. And I think I would just end up looking like Lord Bullington getting wailed on by Barry. I would just be at this point just—"
+    },
+    {
+      "name": "B",
+      "timestamp": "87:05",
+      "text": "Throwing up over on the side."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:06",
+      "text": "But just the scene at the concert when he gets the pounding of a lifetime. I think that would be my fate as well. So yeah, I would prefer to avoid physicality."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:18",
+      "text": "I will say it did feel like rooting for—"
+    },
+    {
+      "name": "B",
+      "timestamp": "87:24",
+      "text": "like, I wanted Barry to lose for sure from that moment beyond, obviously."
+    },
+    {
+      "name": "F",
+      "timestamp": "87:28",
+      "text": "Oh, really?"
+    },
+    {
+      "name": "C",
+      "timestamp": "87:28",
+      "text": "There was a moment where I was like, man, I hope, you know, these poor Lindens are gonna be able to pull it out and save the estate."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:34",
+      "text": "And it's like, turns out they'll be fine. They're gonna be fine. Thank you, Mr. Java. Thank you so much."
+    },
+    {
+      "name": "E",
+      "timestamp": "87:43",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:44",
+      "text": "All right. Now, this has never been done before."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:46",
+      "text": "Oh, this is the visual Daily Double?"
+    },
+    {
+      "name": "C",
+      "timestamp": "87:48",
+      "text": "Oh, right."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:49",
+      "text": "For the first time ever, we are going to have a visual component opponent to the Truthsayer. So let me see."
+    },
+    {
+      "name": "A",
+      "timestamp": "87:56",
+      "text": "Okay, I'm ready."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:57",
+      "text": "Let me share screen."
+    },
+    {
+      "name": "A",
+      "timestamp": "88:00",
+      "text": "I'm so nervous."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:00",
+      "text": "What will be—"
+    },
+    {
+      "name": "A",
+      "timestamp": "88:03",
+      "text": "Oh, is this gonna work?"
+    },
+    {
+      "name": "B",
+      "timestamp": "88:06",
+      "text": "Uh, let's see here."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:07",
+      "text": "Hold on. Is this going to—"
+    },
+    {
+      "name": "A",
+      "timestamp": "88:09",
+      "text": "Hold on, I clicked away. How do I get back? Oh, here it is."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:11",
+      "text": "Okay."
+    },
+    {
+      "name": "I",
+      "timestamp": "88:11",
+      "text": "Window."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:12",
+      "text": "I'm ready."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:13",
+      "text": "Barry Lyndon Truthsayer. Share."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:15",
+      "text": "Yep."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:16",
+      "text": "Okay."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:17",
+      "text": "Okay."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:18",
+      "text": "Can you see that?"
+    },
+    {
+      "name": "A",
+      "timestamp": "88:19",
+      "text": "Yes, I see it."
+    },
+    {
+      "name": "G",
+      "timestamp": "88:20",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:21",
+      "text": "Okay."
+    },
+    {
+      "name": "E",
+      "timestamp": "88:21",
+      "text": "All right."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:21",
+      "text": "Here we go."
+    },
+    {
+      "name": "H",
+      "timestamp": "88:22",
+      "text": "I have taken the truth from around my neck and hidden it somewhere around my person. If you find it, you can have it. You're free to look for it anywhere you will, and I will think very little of you if you do not find it. Barry Lyndon is Kubrick's 3-hour portrait of an Irish rogue who charms, duels, and seduces his way up the 18th century social ladder. To play the man who collects lovers like titles, Kubrick Ryan O'Neal, who had some real-life experience in the role. Away from his off-and-on decades relationship with Farrah Fawcett, O'Neal's dance card in the '70s was legendary. For today's Truthsayer, I'm going to give you 3 groups of 5 famous women."
+    },
+    {
+      "name": "C",
+      "timestamp": "89:07",
+      "text": "Wow."
+    },
+    {
+      "name": "H",
+      "timestamp": "89:07",
+      "text": "2 of these groups were reportedly linked to dating Ryan O'Neal. One group never got the candlelight treatment. Your job is to find the 5 who got away. And yes, I did this Same format for John Cusack for gross Point Blank. Sue me. Time for the Truthsayer. And H, you can move on to page 2 of the visual aid right now."
+    },
+    {
+      "name": "A",
+      "timestamp": "89:26",
+      "text": "Look at this."
+    },
+    {
+      "name": "E",
+      "timestamp": "89:27",
+      "text": "Wow."
+    },
+    {
+      "name": "H",
+      "timestamp": "89:27",
+      "text": "Group number 1, Raquel Welch, Faye Dunaway, Goldie Hawn, Jessica Lange, and Christie Brinkley."
+    },
+    {
+      "name": "D",
+      "timestamp": "89:34",
+      "text": "Whoa."
+    },
+    {
+      "name": "H",
+      "timestamp": "89:35",
+      "text": "Or is it group number 2, Ursula Andress, Jacqueline Bisset, Julie Christie, Joan Collins, and Melanie Griffith? Or is it group number 3, Anjelica Huston, Lauren Hutton, Diana Ross, Cybill Shepherd, and Barbra Streisand. Now we will see if the Truthsayer shall receive satisfaction."
+    },
+    {
+      "name": "D",
+      "timestamp": "89:57",
+      "text": "So we have to pick—"
+    },
+    {
+      "name": "E",
+      "timestamp": "90:00",
+      "text": "wow—"
+    },
+    {
+      "name": "D",
+      "timestamp": "90:00",
+      "text": "the group of 5 that he did."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:02",
+      "text": "Yes."
+    },
+    {
+      "name": "F",
+      "timestamp": "90:02",
+      "text": "Okay."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:03",
+      "text": "Which, which, which—"
+    },
+    {
+      "name": "C",
+      "timestamp": "90:05",
+      "text": "That he did."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:05",
+      "text": "That he did."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:06",
+      "text": "That he did, right?"
+    },
+    {
+      "name": "F",
+      "timestamp": "90:07",
+      "text": "That he did."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:08",
+      "text": "Okay, okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:08",
+      "text": "He did, yes."
+    },
+    {
+      "name": "F",
+      "timestamp": "90:09",
+      "text": "Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:10",
+      "text": "Wow, wow, wow, wow, wow."
+    },
+    {
+      "name": "C",
+      "timestamp": "90:12",
+      "text": "Are there different time frames here?"
+    },
+    {
+      "name": "B",
+      "timestamp": "90:14",
+      "text": "I feel like, I guess this is all peak '70s going into the '80s."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:21",
+      "text": "Yeah, a couple of them seem more sort of '80s focused than '70s. But Melanie Griffith is a little bit late."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:29",
+      "text": "And Christie."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:30",
+      "text": "Yeah, and even Jessica Lange as a movie actress."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:34",
+      "text": "I mean, I just had it in my head for sure that he had dated Barbra Streisand."
+    },
+    {
+      "name": "D",
+      "timestamp": "90:39",
+      "text": "I was gonna say the same. I feel like Like, group 3 feels like the safest. Yeah, that's—"
+    },
+    {
+      "name": "B",
+      "timestamp": "90:44",
+      "text": "that looks good. Yeah, I'm gonna go with group 1, but I, I don't disagree."
+    },
+    {
+      "name": "A",
+      "timestamp": "90:48",
+      "text": "I feel he could have dated any of these ladies, that's for sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "90:51",
+      "text": "All right, here we go."
+    },
+    {
+      "name": "H",
+      "timestamp": "90:52",
+      "text": "Yeah, Ryan O'Neal's IMDb page lists 25 women he dated in the '70s alone. I listed only 10 of them here. Yes, among the real 25, and the women are group 2: Ursula Andress, Jacqueline Bisset, Julie Christie, Joan Collins, and Melanie Griffith. And Group 3: Anjelica Huston, Lauren Hutton, Diana Ross, Cybill Shepherd, and Barbra Streisand. That leaves Group 1: Raquel Welch, Faye Dunaway, Goldie Hawn, Jessica Lange, and Christie Brinkley as the ones who did not date Ryan O'Neal."
+    },
+    {
+      "name": "A",
+      "timestamp": "91:26",
+      "text": "I mean, amazing."
+    },
+    {
+      "name": "H",
+      "timestamp": "91:27",
+      "text": "Just wow. Here is the Truthsayer."
+    },
+    {
+      "name": "E",
+      "timestamp": "91:31",
+      "text": "Dang."
+    },
+    {
+      "name": "D",
+      "timestamp": "91:33",
+      "text": "Well, you know, some of them maybe he just only took out Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:40",
+      "text": "Exactly. Wow. Uh, birria. Holy cow. Nicely done."
+    },
+    {
+      "name": "A",
+      "timestamp": "91:44",
+      "text": "Well, very well done, sir."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:45",
+      "text": "Dang. Let's do it."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:49",
+      "text": "All right. Thank you so much."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:51",
+      "text": "Here is our next voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "91:52",
+      "text": "Hello, Escape Hatch. It's Kev here. This week we're talking about Stanley Kubrick's Barry Lyndon, easily one of the most beautiful films ever made. Kids on YouTube these days like to say, ooh, every frame a painting, but I'm not quite sure if those kids have seen the lush, naturally lit tapestries John Alcott captures with his camera here. And what a tapestry you're building this week with the mighty Dave Itzkoff back on the mic, one of my favorite writers turned one of my favorite Escape Hatch guests. What a treat."
+    },
+    {
+      "name": "F",
+      "timestamp": "92:22",
+      "text": "Thank you."
+    },
+    {
+      "name": "G",
+      "timestamp": "92:22",
+      "text": "Speaking of lighting, that brings us to Kev's question. This is a kind of a dark admission from me, but I live in a pretty small room and sometimes I'm weak and use what New Yorkers and TikTokers call The big light. Big light is unattractive, garish, and looks like shit on Zoom, where I spend most of my days these days. So Kev's question, what is your lighting situation like?"
+    },
+    {
+      "name": "D",
+      "timestamp": "92:43",
+      "text": "What do you recommend?"
+    },
+    {
+      "name": "G",
+      "timestamp": "92:46",
+      "text": "I'm in the market for new bulbs. Smart LEDs, maybe? Thoughts? Yeah, let me know. With peace and love, I'll talk to you all next week."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:53",
+      "text": "Once again, it's Kev's questions."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:59",
+      "text": "Is this lighting for the podcast recording, or is this, uh, what are we talking about here?"
+    },
+    {
+      "name": "A",
+      "timestamp": "93:03",
+      "text": "I think either way you want the same thing, which is like the programmable LEDs. You can adjust the warmth, um, and not, you know, you can have like really bright when you want it, like, you know, if you have to do some kind of detail work, but you can have some nice like warm light just for, you know, just for feeling chill. So those are my, uh, those are my thoughts there."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:22",
+      "text": "April just bought a couple of new lights because, uh, to put around the house because she is now really thinking she wants lamps. She light going up instead of light coming down. And she bought this really cool light for the family room, um, but it's too white. It's too—"
+    },
+    {
+      "name": "C",
+      "timestamp": "93:42",
+      "text": "like, the color temperature is different from all the other lamps."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:46",
+      "text": "So is it okay to secretly go buy a bulb and swap it out and put a warm one in there?"
+    },
+    {
+      "name": "D",
+      "timestamp": "93:51",
+      "text": "Yes, I think— yeah, I think yes, unambiguously. Okay."
+    },
+    {
+      "name": "B",
+      "timestamp": "93:57",
+      "text": "Okay, good. I love you, honey. Okay, Dave, any suggestions on your side?"
+    },
+    {
+      "name": "D",
+      "timestamp": "94:05",
+      "text": "No, you know what, I'm doing it Barry Lyndon style here. I'm just doing it all natural light."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:10",
+      "text": "Candlelight?"
+    },
+    {
+      "name": "D",
+      "timestamp": "94:10",
+      "text": "Yeah, sunlight. And I mean, there is— I guess there are a couple of bulbs in my track lighting up above, but yeah, I'm not like self-conscious at all about these things. And I don't even really want to make the effort. My wife uses like a proper ring light when she's, you know, like recording herself for auditions and such. And like, but just like a kind of standard one you can buy on Amazon. Nothing, nothing fancy. But I won't even make that much effort."
+    },
+    {
+      "name": "E",
+      "timestamp": "94:39",
+      "text": "No."
+    },
+    {
+      "name": "D",
+      "timestamp": "94:39",
+      "text": "Nothing personal against you guys. I don't do it for any like Zoom situations. No, no, it's not."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:45",
+      "text": "You're authentic."
+    },
+    {
+      "name": "D",
+      "timestamp": "94:46",
+      "text": "Thank you."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:46",
+      "text": "You're authentic."
+    },
+    {
+      "name": "F",
+      "timestamp": "94:49",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:50",
+      "text": "Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "94:50",
+      "text": "I like it. You keep it real."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:51",
+      "text": "Yeah, that's really funny."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:53",
+      "text": "All right, thank you so much, Kev. Here is our final voicemail."
+    },
+    {
+      "name": "E",
+      "timestamp": "95:05",
+      "text": "Raw."
+    },
+    {
+      "name": "F",
+      "timestamp": "95:06",
+      "text": "Hey, this is Corey calling from Austin, Texas about Barry Lyndon. Oh, I can't believe we finally got here. Stanley Kubrick directed this movie. I think it came out in 1975."
+    },
+    {
+      "name": "E",
+      "timestamp": "95:19",
+      "text": "Wow."
+    },
+    {
+      "name": "F",
+      "timestamp": "95:20",
+      "text": "I just watched Barry Lyndon for the first time, like in 2024. So that was a long time coming. I don't know why I put it off. Maybe because I'm not a big Ryan O'Neal fan. He's kind of a piece of shit, which makes me think he was probably like perfectly cast to be Redmond Barry, you know?"
+    },
+    {
+      "name": "A",
+      "timestamp": "95:42",
+      "text": "See?"
+    },
+    {
+      "name": "F",
+      "timestamp": "95:43",
+      "text": "I wonder if Ryan's like even more despicable than the fictional rogue he plays in the movie. I don't know. That being said, he was fucking great in this."
+    },
+    {
+      "name": "G",
+      "timestamp": "95:53",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "95:53",
+      "text": "He's really good."
+    },
+    {
+      "name": "F",
+      "timestamp": "95:55",
+      "text": "I got super sucked into this. I just recently rewatched it and I was just as engrossed as I was the first time that I watched it. I think I was— and the intermission surprised me again. The first time I watched it, I was just like, oh, I just like, let's go. Why are we taking a break? Even though it's a long movie and it doesn't seem like it moves quickly, I certainly didn't want to stop. You know what I mean? Does that make sense?"
+    },
+    {
+      "name": "B",
+      "timestamp": "96:19",
+      "text": "Totally."
+    },
+    {
+      "name": "F",
+      "timestamp": "96:20",
+      "text": "I don't know. I'm probably glad I waited until I was an adult adult, over 50, to watch this movie. It appeals to me more maybe than when I was younger, unlike Copper Horns or The Shining or something else that Kubrick did back then. So yeah, I don't know. I really liked it. Especially a special shout out to the Lord Bullington character, young and older. Man, he's just my favorite. He's just such a fucking jam. That duel between him and Barry, oh my God, so fucking good. Anyway, I don't know. It's a shame that Leon Vitali gave up acting just to dedicate his life to Kubrick. Maybe not a shame."
+    },
+    {
+      "name": "E",
+      "timestamp": "97:06",
+      "text": "Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "97:06",
+      "text": "I don't know, I guess I need to watch that documentary. I hear it's really excellent. So yeah, that's about it. I love this movie. It's fucking awesome. I'm glad we're doing it. Who would Tilda Swinton play? I'd actually like for her to be the narrator. I think she would."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:19",
+      "text": "Good choice."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:19",
+      "text": "That'd be great."
+    },
+    {
+      "name": "F",
+      "timestamp": "97:20",
+      "text": "That's it for me. Thanks for doing this one. I hope next week's just as good of a pick. All right, talk to you then. Love you guys."
+    },
+    {
+      "name": "E",
+      "timestamp": "97:27",
+      "text": "Bye."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:28",
+      "text": "What a great— what a great voicemail."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:30",
+      "text": "Thanks, Tim. Scotland entering the chat. If she was getting in the mix there. That'd be interesting."
+    },
+    {
+      "name": "D",
+      "timestamp": "97:36",
+      "text": "Well, that's right."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:37",
+      "text": "Wow, guys."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:38",
+      "text": "Everyone loved this movie. Everyone loved it. No, like, no people didn't love it."
+    },
+    {
+      "name": "E",
+      "timestamp": "97:43",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:44",
+      "text": "I think I have to go 5 stars on this movie."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:47",
+      "text": "Yeah, of course you do."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:48",
+      "text": "Even though it's, even though it's not perfect, um, I really love it and I'm just looking forward to, to revisiting it and kind of like soaking in it again in the future."
+    },
+    {
+      "name": "A",
+      "timestamp": "97:57",
+      "text": "I believe in that."
+    },
+    {
+      "name": "E",
+      "timestamp": "97:59",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "98:00",
+      "text": "It is good. Yeah, it is good."
+    },
+    {
+      "name": "C",
+      "timestamp": "98:02",
+      "text": "Dave, what do you have to plug?"
+    },
+    {
+      "name": "B",
+      "timestamp": "98:05",
+      "text": "Tell the people about your exciting announcement."
+    },
+    {
+      "name": "D",
+      "timestamp": "98:08",
+      "text": "Well, let's see. I mean, I— this is— I, you know, unveiled this a couple months ago, but I am working on a biography of George Carlin. Yes, that's gonna— it's like a 2 to 3 year timetable. So, you know, probably like 2029 is when I'll really be flogging it. But we're already deep into the work of it. And it's just really a delight to be working on. And I live in Morningside Heights, which was Carlin's childhood neighborhood. And it is kind of a real, like, mindfuck to look at, like, childhood pictures of him or his family or whatever."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:46",
+      "text": "I see."
+    },
+    {
+      "name": "D",
+      "timestamp": "98:46",
+      "text": "And then see that, like, the neighborhood in some ways has not really changed that much. And to know exactly where he was when he took that picture or that And even some of the old specials where he would shoot like, uh, opening, you know, wraparound sequences. Famously for, uh, Carlin at Carnegie, he did like a man on the street thing where he just stopped people and was like, hey, how do I get to Carnegie Hall? And people gave him all kinds of crazy answers. And that was filmed on like the corner where my, like, my neighborhood bodega now is. And you can like—"
+    },
+    {
+      "name": "G",
+      "timestamp": "99:19",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:19",
+      "text": "Plainly recognize it I mean, I cannot overstate how important George Carlin was, you know, growing up in the '70s and into the '80s. And to see a guy who so clearly was challenging things on, you know, not only being fucking hilarious, but having a real political purpose, and knowing that he had a voice that was important to be heard."
+    },
+    {
+      "name": "F",
+      "timestamp": "99:47",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:47",
+      "text": "to use. It was really impressive. And so I cannot wait to read that."
+    },
+    {
+      "name": "D",
+      "timestamp": "99:52",
+      "text": "Thank you. Thank you. So yeah, that's, that's, that's where, you know, 75 to 80% of my, you know, neurons are, you know, focused at the moment."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:02",
+      "text": "Nice. Okay, well, we will stay tuned. We will stay tuned for that, for that, for that book to come out."
+    },
+    {
+      "name": "D",
+      "timestamp": "100:10",
+      "text": "More to come."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:11",
+      "text": "More to come. Jason, what do you have Plug, buddy."
+    },
+    {
+      "name": "A",
+      "timestamp": "100:14",
+      "text": "I am gonna plug— so the Discord, you should come hang out with us. I'd asked for comic recommendations for Griffin a while back, and now he's like a huge graphic novel reader."
+    },
+    {
+      "name": "G",
+      "timestamp": "100:24",
+      "text": "I—"
+    },
+    {
+      "name": "A",
+      "timestamp": "100:25",
+      "text": "we talked about last week, or whenever Rosie was on when we did Twilight, um, how he's deeply into the, um, he's deeply into the, uh, Dogman series, uh, and like he made his own comic, his own Captain Underpants Um, in school with some friends. Um, and then another recommendation from the Discord was the Amulet graphic novel series, which he read like the beginning of and he was like, this is too scary, and he put it aside, but then like went back to it and was just like, this fucking rocks. Um, and so yeah, he's like reading so much right now. It's just a delight."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:01",
+      "text": "Um, is Bone still in the mix?"
+    },
+    {
+      "name": "A",
+      "timestamp": "101:03",
+      "text": "Bone went to the wayside because of the other ones, but it's still, it's still on the shelf."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:07",
+      "text": "We'll get to it."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:07",
+      "text": "Okay, okay, sounds good."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:09",
+      "text": "Yeah, amazing. What are you reading right now? What are you taking on vacation? Yeah, to read, I'm gonna—"
+    },
+    {
+      "name": "A",
+      "timestamp": "101:15",
+      "text": "I mean, I still have to finish the Ann Patchett Whistler book, um, which is, uh, really, really good. Have we talked about that in the pod before? It's phenomenal."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:24",
+      "text": "No."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:24",
+      "text": "Um, it's great. Uh, it's a family sort of drama, multi-generational family drama story, and her writing is just like so fucking effortless and beautiful. It just feels like You're not even efforting to read the words. Um, but then Kevin Roose's new AGI Chronicles book just dropped today. Um, and is by all accounts, uh, good friend of the pod Peter, uh, Kafka, I think has a podcast coming out with him."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:52",
+      "text": "Uh, cool."
+    },
+    {
+      "name": "A",
+      "timestamp": "101:53",
+      "text": "And he says it's an amazing read. It's very dense. Um, and like a great chronicle of the first 10 years of the tech industry, uh, with respect to AI. Uh, and so I feel somewhat obliged to read that next as well."
+    },
+    {
+      "name": "I",
+      "timestamp": "102:05",
+      "text": "Cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:06",
+      "text": "I'm gonna plug—"
+    },
+    {
+      "name": "B",
+      "timestamp": "102:08",
+      "text": "so coming in 2 weeks on the podcast, we have Annie Jacobson, the author of Biological War, a scenario about a Y-pestis outbreak, uh, in Siberia that leads to the complete collapse of society over a period of about 12 days. Um, so hopefully we'll still be alive and on the air 12 days from now, um, when we do 28 years later, The Bone Temple."
+    },
+    {
+      "name": "A",
+      "timestamp": "102:36",
+      "text": "Yeah, I don't— it just feels very ominous."
+    },
+    {
+      "name": "D",
+      "timestamp": "102:39",
+      "text": "Wow, that is on the nose."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:41",
+      "text": "Best of luck, everybody."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:48",
+      "text": "And that's it for this episode of Escape Hatch. I want to thank Jason and Dave for an amazing conversation. We're off next week, but back on October 20th, with the return of Ben Rhodes as we take on Stanley Kubrick's Full Metal Jacket."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:03",
+      "text": "If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive content."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:23",
+      "text": "of perks. Links are in the show notes."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:25",
+      "text": "Escape Hatch is a Tapedeck Podcast, John, a production of H Industries."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:30",
+      "text": "Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks for listening. We'll see everybody next week. Sir Richard, this pistol must be faulty. I must have another one. I'm sorry, Lord Bullingdon, but you must first stand your ground and allow Mr."
+    },
+    {
+      "name": "D",
+      "timestamp": "104:07",
+      "text": "Lyndon his turn to fire."
+    },
+    {
+      "name": "A",
+      "timestamp": "104:08",
+      "text": "That is correct, Lord Bullingdon. Your pistol has fired, and that counts as your shot."
+    },
+    {
+      "name": "G",
+      "timestamp": "104:19",
+      "text": "Please."
+    }
+  ]
+}
