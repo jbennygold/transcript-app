@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 337 episodes - updated 2026-10-10
+// Auto-generated - do not edit - 337 episodes - updated 2026-10-11
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16187,7 +16187,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": null,
     "tildaCorey": null,
     "showLink": "https://www.patreon.com/EscapeHatch/posts/barry-lyndon-171833721",
-    "artworkLink": "",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8af6093182b35e4e538ade2ce3",
     "letterboxdLink": "https://letterboxd.com/film/barry-lyndon/",
     "imdbLink": "https://www.imdb.com/title/tt0072684/"
   }
