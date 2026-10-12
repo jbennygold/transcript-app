@@ -16187,6 +16187,31 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/barry-lyndon-171833721",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8af6093182b35e4e538ade2ce3",
     "letterboxdLink": "https://letterboxd.com/film/barry-lyndon/",
-    "imdbLink": "https://www.imdb.com/title/tt0072684/"
+    "imdbLink": "https://www.imdb.com/title/tt0072684/",
+    "tmdbId": 3175,
+    "tmdbPosterPath": "/A0byHUHMwZ7dtBQtfZ44QIgDbjo.jpg",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cinematographers": [
+      "John Alcott"
+    ],
+    "cast": [
+      "Ryan O'Neal",
+      "Marisa Berenson",
+      "Patrick Magee",
+      "Hardy Krüger",
+      "Steven Berkoff",
+      "Gay Hamilton",
+      "Marie Kean",
+      "Diana Körner"
+    ],
+    "composers": [
+      "Leonard Rosenman"
+    ]
   }
 ]
