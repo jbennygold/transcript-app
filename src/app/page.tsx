@@ -470,7 +470,7 @@ function AnswerCard({ result, query, onDeepen, deepening, deepStreamingText }: {
 
   const handleShare = async () => {
     setShareStatus('sharing');
-    try {
+    const urlPromise = (async () => {
       const response = await fetch('/api/share', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -482,8 +482,24 @@ function AnswerCard({ result, query, onDeepen, deepening, deepStreamingText }: {
       }
 
       const { url } = await response.json();
-      const fullUrl = `${window.location.origin}${url}`;
-      await navigator.clipboard.writeText(fullUrl);
+      return `${window.location.origin}${url}`;
+    })();
+
+    try {
+      // Safari only allows clipboard writes started synchronously inside the
+      // click handler, so awaiting the share request first fails with
+      // NotAllowedError (Chrome does too once the request outlasts its ~5s
+      // user-activation window). A ClipboardItem backed by a promise starts
+      // the write now and fills it in when the URL arrives.
+      if (typeof ClipboardItem !== 'undefined' && navigator.clipboard?.write) {
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            'text/plain': urlPromise.then((url) => new Blob([url], { type: 'text/plain' })),
+          }),
+        ]);
+      } else {
+        await navigator.clipboard.writeText(await urlPromise);
+      }
       setShareStatus('copied');
 
       // Reset after 3 seconds
