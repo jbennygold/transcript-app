@@ -1,0 +1,2186 @@
+{
+  "episode_number": 327,
+  "episode_name": "Full Metal Jacket (1987)",
+  "dialogues": [
+    {
+      "name": "A",
+      "timestamp": "0:01",
+      "text": "This, this, this is a Tapedeck podcast."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:04",
+      "text": "Hey everybody, it's Haitch, and welcome to the latest installment of Escape Hatch, your portal into cinematic pocket universes. This week I'm joined as always by my co-host Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "0:28",
+      "text": "Shout out to the early church fathers. The branding's strong. Some of the best branding that's ever been done."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:32",
+      "text": "And it's the return of former Deputy National Security Advisor and co-host of Pod Save the World, Ben Rhodes."
+    },
+    {
+      "name": "D",
+      "timestamp": "0:40",
+      "text": "Then I had to figure out how to write a speech in about an hour and a half to Obama address the nation. The reason there was a little delay is 'cause I had not pre-written the speech."
+    },
+    {
+      "name": "B",
+      "timestamp": "0:47",
+      "text": "The fall of Jason continues as we ship out to Parris Island for Stanley Kubrick's 1987 Vietnam masterpiece, Full Metal Jacket. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help new listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. And now, without further ado, Full Metal Jacket. Okay, so Ben, the last time you were here was for Argo during the first week of the Iran War. And so I thought we would just take a minute for a quick state of play, given how things are developing. So like, my first question to you is the Middle East. How does this end?"
+    },
+    {
+      "name": "D",
+      "timestamp": "1:43",
+      "text": "How does the Middle East end?"
+    },
+    {
+      "name": "B",
+      "timestamp": "1:45",
+      "text": "You know, how does this conflict— I'm particularly concerned about the Houthis and Saudi Arabia and further destabilizing that's going on. And apparently the US can't protect allies anymore. So like, What is the new state of play?"
+    },
+    {
+      "name": "D",
+      "timestamp": "1:59",
+      "text": "Yeah, it turns out kicking the hornet's nest by launching a pointless war against a country of 94 million people that has weathered decades of sanctions, went through a decade of war with Iraq, is not inclined to make a deal with Trump. It turns out that was not a good idea."
+    },
+    {
+      "name": "C",
+      "timestamp": "2:17",
+      "text": "Not a good strategy."
+    },
+    {
+      "name": "D",
+      "timestamp": "2:18",
+      "text": "Not a good strategy. And I think at this point, I share your concern because first of all, I don't see the Iranians making a deal with us. Maybe like a deal to open the Strait of Hormuz that gives them some revenue, but I don't see them making some big nuclear deal because we bombed them twice during negotiations in the Trump administration and assassinated the leader of their country. I don't think they trust any deal that Trump would sign. In terms of how the war ends, I kind of feel like at a certain point, we'll probably have some cycle of escalation after the midterms, but at a certain point, Trump's just going to have to accept that this is not working. True. You mentioned the Gulf countries, Qatar, Saudi Arabia, the UAE. They want the war to end because they're taking huge hits to their economies. They can't export anywhere near the amount of energy that they used to. So that pressure will build. But I mean, in terms of where the Middle East is going—"
+    },
+    {
+      "name": "B",
+      "timestamp": "3:16",
+      "text": "Will they cut a deal though? Will they look to cut their own deal with Iran to try and figure out how to take Trump out of it and de-escalate?"
+    },
+    {
+      "name": "D",
+      "timestamp": "3:24",
+      "text": "I think they will. I mean, if you look at the UAE, first of all, which is the hardest line and the most aligned with Israel of the Gulf countries, there are reports that they've already cut a deal, that they basically have been paying Iran to not attack them, which is— Wow. You know, to the tune of billions and billions of dollars. And so I do think that—"
+    },
+    {
+      "name": "C",
+      "timestamp": "3:42",
+      "text": "It's always a good strategy. That's like a time-tested winner."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:47",
+      "text": "Yeah, yeah, seriously."
+    },
+    {
+      "name": "C",
+      "timestamp": "3:47",
+      "text": "Never goes wrong."
+    },
+    {
+      "name": "B",
+      "timestamp": "3:48",
+      "text": "Nice country you got here. It'd be a shame if something were to happen to it."
+    },
+    {
+      "name": "D",
+      "timestamp": "3:51",
+      "text": "Yeah, yeah, exactly. And so I, I, I, I feel like, to your question about the Middle East, the period of US dominance of this region, which never was what we thought it was— how well have we controlled events there for the last 25 years? Right. But that's ending, which is, again, not the worst thing in the world. It just shouldn't have ended this way because I think the other countries are just— not Israel. I mean, that's a whole other thing. But these Arab countries are going to have to reach their own accommodations with the Iranians. Because the Iranians are there. And you mentioned the Houthis too. They're going to have to reach an accommodation with the Houthis because they can't be defeated militarily. And so at a certain point, I think you're just going to see a lot of deals cut without us, or else they're kind of forced on us and Trump takes credit for some deal that is not beneficial to our interests. And then you have the ongoing problems, obviously, in the West Bank though. That's where I think the next Unfortunately, that's where the the next center of attention is going to be."
+    },
+    {
+      "name": "C",
+      "timestamp": "5:01",
+      "text": "Yeah, yeah, which is also going bad."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:03",
+      "text": "Yeah, yeah, which is also going bad. So you know, it's it's I mean because there's not some military tactic that Trump you know short of using tactical nuclear weapons, which would be catastrophic for reasons people understand. Like there's not some bombing target that's going to force the Iranians to finally. Come out with their hands up. Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "5:25",
+      "text": "Mm-hmm. Well, then let's just to keep the keep the fun train rolling. I mean, in Europe, we have you know this kind of like Cold War destabilization tactics that Putin seems to be carrying out. And you know how like how is that unfolding? And we've got France in in in complete chaos and and the rise of these right you know leaning you know new government factions as the U.S. is pulling you know being forced to pull bombers out that we can't protect in the U.K. Like, this, this seems very troubling."
+    },
+    {
+      "name": "D",
+      "timestamp": "5:57",
+      "text": "I think, yeah, unfortunately, as usual, we're a little dark here at the top. Um, but I, I, I, I think people should connect these dots. Um, the price of, the, the price of, uh, oil and gas, the cost of living is worse in Europe than here because of the Iran War, because Europe gets more of its energy through the Strait of Hormuz from the Middle East, and they don't have the energy resources we have. And they'd already kind of suffered the cutoff of Russian oil and gas. The far right is being helped by Trump's war in Iran. Then if you look at what Trump's doing in terms of just giving away the store to Putin, we've had a diesel deal that lets a bunch of Russian diesel onto the market. We've had the waiving of sanctions on Russia. We've had the US apparently pull back some of the Starlink access that the Ukrainians depend on for early warning of missile strikes. We now have shipments of Patriot missiles, those are defensive missiles, to shoot down Russian ballistic missiles, pull back. This is literally just like the US operating a strategy in coordination with Russia. Right. And Russia's plan, which they've said, so this is not me guessing at it, is to pulverize Ukrainian cities this winter, cutting off access to electricity so that they're trying to freeze the Ukrainians out. Now, not only does that— how is that connected to the cost of living and the far-right parties? Well, that may also lead to another round of Ukrainian refugees, into Europe. It's also gonna drive up the cost of how the European governments have to support Ukraine as we pull back. And that's gonna help the far right too. And I think Putin wants to do that. Like, Putin wants the far right to win the next French election, which is coming up. He wants the, you know, neo-Nazi party in Germany to advance. Germany. 'Cause it fractures European politics. So, it's kind of like a perfect storm in terms of the kind of political conditions that the far right would want in some of these European countries."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:01",
+      "text": "I saw this tweet from Iran. They've got some great tweeters over there. I'm not exactly sure how they developed such an incredible tweeting corps in Iran. I mean,"
+    },
+    {
+      "name": "D",
+      "timestamp": "8:10",
+      "text": "they've clearly studied your tenure at the White House."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:13",
+      "text": "Yeah, they exactly. Whoever said I need to meet my counterpart in digital strategy for the ayatollah. The they had this one that was like, you know, you know, we weathered, you know, we've weathered like, you know, 50 years of sanctions or whatever. And then it's like after five months of sanction, it showed all the riots like throughout throughout Europe. And, you know, obviously they feel very confident in their position at this point. Like, they've kind of gone through this crucible of having their entire leadership decapitated without having to make any real concessions based on that and just giving more, you know, more strength to hardliners. And obviously the decapitations didn't take out the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "8:56",
+      "text": "In the deep bunker."
+    },
+    {
+      "name": "C",
+      "timestamp": "8:57",
+      "text": "Who seems to have just thrived. Yeah, exactly. That was not part of the continuity of government, Ben. They did not say that."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:08",
+      "text": "You're not getting the tap on the shoulder by the guys?"
+    },
+    {
+      "name": "C",
+      "timestamp": "9:09",
+      "text": "Um, so I'm just pointing that out for my own, my own equities. Yeah, no one gave me a card about where to go in the case of an attack."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:18",
+      "text": "Yeah, you brought up Starlink. Uh, I saw Tallarico going after, um, Elon yesterday and really just calling out the notion that one guy—"
+    },
+    {
+      "name": "C",
+      "timestamp": "9:28",
+      "text": "This situation is fucked. Like that, like the, like that, that whole thing is just Completely ridiculous that like a private business could just be like, \"We think Ukraine's making too much, too much advances against Russia, so we're just going to turn off their munitions.\" Essentially, we can just like flip a switch on the entire war for their."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:44",
+      "text": "So has he? Has he overplayed his hand between that and spending $290 million or whatever? Will this be the breaking?"
+    },
+    {
+      "name": "C",
+      "timestamp": "9:53",
+      "text": "I think it's north of $300 million."
+    },
+    {
+      "name": "B",
+      "timestamp": "9:54",
+      "text": "Will this be a breaking point where people like I could imagine people in Texas going, \"I don't want Elon to own.\" Texas. Like, uh, they have this kind of feisty independence that causes them to reject that kind of thing."
+    },
+    {
+      "name": "D",
+      "timestamp": "10:05",
+      "text": "Yeah, it's interesting. So first of all, the data center backlash has been ferocious in Texas. Texas is one of the states that, you know, was the most aggressive in courting data centers, in part because guys like Elon, you know, decamped down to Austin and were just, uh, you know, building stuff, uh, that didn't serve the interests people in Texas. So that's notable. But I think you point to a bigger issue, which is clearly people are fed up with Elon and the Democratic Party. I mean, he's spending hundreds of millions of dollars again to defeat Democrats. We have Doge, which there'll be hearings about, so we'll learn more about how Doge operated, assuming the Democrats win at least one house of Congress. And I think the question though that's gonna be really interesting— and Jason, you, I'm sure, have been thinking about this— is what happens to these tech oligarchs if the Democrats run the table and win Congress and then win the president in a couple— win the presidency in a couple years, you know, knock on wood. But I think that's, that's probably the most likely scenario in American politics right now. And just to take Elon, the challenge is going to be Trump is so— already Elon provided these— SpaceX is pretty critical contractor to the Pentagon. Starlink is obviously pretty fundamental to kind of global commons and, and internet access. Um, Cloud services. Palantir. Yeah, Palantir is deeply embedded in the Pentagon. The Democrats will have to do some thinking now about how to deal with the vulnerabilities that are created by how embedded these guys are in U.S. government systems, because the impulse is going to be, let's rip all this out, let's cancel all the SpaceX contracts, let's kind of not just punish Elon. But it's not just about punishing Elon, it's about not having the U.S. government and American society be so dependent on, like, the whims of a handful of Mentally unstable, ketamine-addled tech bros, right? And, uh, but that, that's not as simple as it sounds because, because again, like, the US military relies a lot on, you know, uh, on, on SpaceX and some of these other companies, obviously."
+    },
+    {
+      "name": "C",
+      "timestamp": "12:13",
+      "text": "The, you know, the other— there's a couple things. I think this is a really good point, uh, I just want to expand on. One is there's a particular challenge that I think the national security establishment's going to have in a '28 context, um, which is just how do you actually, you know, sort of deracinate the Trump appointees across the national security state. Because it's not just the political appointees at this point. It is like, you know, deeply embedded staff that's replaced levels of civilian control across multiple agencies, not just the Pentagon. I think this is gonna be, again, to your, your point, like, you can't just have like, okay, like, we're here, we've, you know, nominated like the best person to be like, you know, you know, head of DNI and head of the Pentagon, and we've got like, you know, the world beat. It's like, well, you've got a system, you've got You know, you've got a whole world of capabilities that are dependent on a very specific set of vendors, and then you've got a whole bunch of controls that are held by, you know, civilian authorities at these agencies, but who have been— who are essentially Trump loyalists. I think that's a very challenging problem to tackle in a way that's like consistent with, you know, national security prerogatives and, you know, making sure that—"
+    },
+    {
+      "name": "B",
+      "timestamp": "13:26",
+      "text": "You don't think those guys flip the same way they flipped last time? They're like, hey, guess what? I never wanted, you know, Palantir to be used for surveillance."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:33",
+      "text": "And so then on the point about— the point about flipping, which Ben brings up, which is like, when does— when do like the tech bros start, you know, triangulating? Breaking news as of this morning, Meta's like head of global policy, Joel Kaplan, is leaving the company, which, you know, like the timing of that, like literally 14 days before the beginning of the Trump lame duck presidency."
+    },
+    {
+      "name": "D",
+      "timestamp": "13:56",
+      "text": "A real creep, by the way. Joel Kaplan."
+    },
+    {
+      "name": "C",
+      "timestamp": "13:59",
+      "text": "Yeah. Like just not a great— not a great dude. You know, it was like, you know, like a long time ago, was front and center at the Kavanaugh hearings, like sitting behind, you know, sitting behind Kavanaugh at the hearings when all of that ruckus went down. This caused a lot of consternation inside Meta at the time. That consternation has been completely suppressed. And like, I think the people who were concerned have been, you know, has been expelled. And I think there's a real question of sort of like what they do in the face of what will be an avalanche of inquiry into what's going on here. You know, Meta also had this very notable issue over the weekend where the, where the No Kings protests were happening and the No Kings page on Instagram was taken down for what they initially said was, you know, it was like too many people, too many updates. And then people pointed out it hadn't been updated that much. And then they've like issued this new explanation that it's like, you know, it's been read, you know, it was just simply being read too much or something by Claude. Like it was a very kind of strange explanation. But like there are all of these things, like, you know, and you see folks like Chris Murphy, you see folks like senators pouncing on this immediately being like, This is going to demand answers. Like, this is not like we are exiting the period of time where this could be done with just impunity and there are no mechanisms by which to demand answers on this like this. And far greater sins are going to require some real answers. So I, you know, I do think, I do think like they will start to triangulate their position through both personnel and, you know, overtures. But, you know, I think people just need to kind of remember where they've been for the past decade."
+    },
+    {
+      "name": "D",
+      "timestamp": "15:32",
+      "text": "But I think that part of their strategy, Jason, is going to be to spend the next 2 years kind of furiously embedding themselves in their companies, in the systems of the US government as a hedge, right? So like, you know, giving themselves multiple kill switches and stuff. Um, and, and that's why this is going to be kind of a complicated geometry of how do you— I mean, because I, I'm— it's not, again, it's not just retribution. I, I don't think that these people should have this much power. Like, it's, it's unhealthy, right? Right. Um, and so I think we're gonna have to We spend the next 2 years kind of mapping out, okay, how do we disentangle our dependencies on these people, and what kind of novel tools do we have to maybe break them apart in some ways? I know there are people doing a lot of antitrust thinking these days. Yeah. I mean, I'm not saying every tech company, but in the power rankings of who Democrats, I think, are concerned about, you probably have Elon on top, you probably have Meta, Up there and then Palantir, you know, like those seem— and then the reality is anybody running for president is going to get pulled to populism on AI. Oh, yeah. Because people don't want AI. People don't want data centers in their communities. People don't want this job displacement that's coming. And so whether they, you know, even if it's a centrist Democrat, I think that there's going to be a requisite populism just to get into that office, you know?"
+    },
+    {
+      "name": "C",
+      "timestamp": "16:52",
+      "text": "Yeah. I don't think there's going to be a lot of appetite in the primary on either side for sort of the like, this is a golden age. of, of, you know, post-scarcity, AI-enabled utopian technology and, you know, and thrivability. Like, I just don't see that as being— I don't see the market rewarding that approach very much. So you will get this pull the plug."
+    },
+    {
+      "name": "B",
+      "timestamp": "17:15",
+      "text": "That'll be a nice upside if it, if it actually pops out. Like, that'll be great. But I don't think we can bank on it. You"
+    },
+    {
+      "name": "D",
+      "timestamp": "17:20",
+      "text": "don't think the All-In Pod will be hosting the entire cabinet for AI summits?"
+    },
+    {
+      "name": "C",
+      "timestamp": "17:24",
+      "text": "And I'll be very— I'm very interested to see how the All-In Pod ends up because, like, you know, like, it's a funny thing. Like, people— this went around like a couple of weeks ago. Chamath had a tweet during the, like, sort of the peak of Woke 1 that was just like, the only things that matter are inequality and climate change. Yeah. Like, you know, I mean, like, these guys, like, you know, that was like, it was like literally like 6 years ago or something like that. And like, you know, it's like, hey, you know, it's like, you know, like all these, all these folks who've like kind of gone in and, you know, sort of bent the knee to Trump and stuff like that, like have, you know, have, have espoused very progressive political positions in the past, which they've had to atone for during the Trump administration. I think they're just going to try to find a way. Well,"
+    },
+    {
+      "name": "D",
+      "timestamp": "18:01",
+      "text": "they've made so much money that maybe they don't care, you know. Yeah, that's— yeah, so, you know, the billions are flowing. So, you know, I mean, if you're Marc Andreessen, you're, you're getting what you paid for, you know."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:11",
+      "text": "Yeah, yeah, you got what you paid for."
+    },
+    {
+      "name": "B",
+      "timestamp": "18:12",
+      "text": "But the good, the good news is corruption has emerged as, you know, alongside AI as one of the top issues. And so that seems like we should be able to capitalize that to have a clear message, um, that is a solid form of populism."
+    },
+    {
+      "name": "C",
+      "timestamp": "18:25",
+      "text": "Well, and I think the corruption message— I think like the corruption inequality message is a way in which the AI world, the AI, like, policy is going to be kind of work its way into the mainstream. It's not going to be, you know, just the data centers. It's not going to be just like things like the Hugging Face incident, which are very difficult concepts for people to wrap their heads around. It's going to be— it's like, oh, you know, trillions of dollars have been spent on this and people have enriched themselves to the tune of billions of dollars. My life has not been made any easier by this technology. And in fact, it is harder. Like, you know, and like the people who have— like the system that has enabled these people to become enriched is the one that You know, Trump and the Republicans. And you'll even see this, you know, you'll even see this running in the running for president from Republicans. You know, I was like, I think as we talked about previously, Ron DeSantis, like, you know, was out on the day that Trump renamed AI to SI. Ron DeSantis was like, SI factories are surveillance factories. Yeah. Like, Ron DeSantis is, you know, like, of all people, like, knows which way the wind is blowing and is like trying to get ahead of, is trying to get ahead of it now. So I think it's gonna be a— I think it will be a unifying cry across parties."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:34",
+      "text": "Let us, let us hope so. We will skip Kim Jong-un passing away. We'll skip China for now. Like, I think, I think that's a good start for us. We do have to—"
+    },
+    {
+      "name": "C",
+      "timestamp": "19:44",
+      "text": "I do want to, I do want to plug, in other news, Ben's excellent podcast with our former boss Barack Obama on Tinker Tailor Soldier Spy. Amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:52",
+      "text": "But here's the thing, Escape Hatch listeners had it first. Right? Because we did Tinker Tailor."
+    },
+    {
+      "name": "C",
+      "timestamp": "19:58",
+      "text": "That's right."
+    },
+    {
+      "name": "B",
+      "timestamp": "19:58",
+      "text": "Yes, of course."
+    },
+    {
+      "name": "D",
+      "timestamp": "19:59",
+      "text": "That's right. I actually went back and listened to that pod to prep for my session with Barack Obama on Tinker Tailor. But it was actually—"
+    },
+    {
+      "name": "B",
+      "timestamp": "20:06",
+      "text": "The LaMare story was incredible."
+    },
+    {
+      "name": "D",
+      "timestamp": "20:08",
+      "text": "Yes, that's right. But it was, it was a cool episode, and we geeked out pretty hard on Tinker Tailor, so people should check it out."
+    },
+    {
+      "name": "C",
+      "timestamp": "20:16",
+      "text": "I really like the point— not, you know, people should go listen to the whole episode— but this point that you raised about like sort of the nature of spy work having completely changed because we no longer live in the world of of human intelligence. But now, you know, it's all signals intelligence, I think, is a really interesting one. And it was like, you know, we have this like complete information, but what do you really— but do— what does that sort of cloak from us by relying so much on, you know, perfect transcripts of every call of every world leader? And this— and this belief that we have like a complete, you know, a complete facsimile of the leader and what they've said. But what, you know, what blind spots does that open us to? I think it's a really is a really fascinating one and not one that I've heard sort of the national security establishment, like, voice about a concern that they've voiced about themselves before. They seem to be pretty stoked about the state of signal intelligence."
+    },
+    {
+      "name": "D",
+      "timestamp": "21:03",
+      "text": "And so, yeah, if people had access to all my phone calls and let's say even my emails, I don't think they would really know what I think. You know, like, like, like that, right? Like, you need George Smiley to do the psychological profile, right? And that's what Tinker Tailor shows you."
+    },
+    {
+      "name": "C",
+      "timestamp": "21:23",
+      "text": "Yeah, it's interesting. You know, I was listening to the Derek Thompson pod this morning. It was about like sort of AI and why haven't we seen a revolution yet? And he started off as like both Derek Thompson and Ezra inevitably will do by invoking Marshall McLuhan. Of course. Obviously is great. But they talked about like how every new technology is both an extension and an amputation. And like, it is like, that's the same pattern that you see in the signal intelligence thing, which is like it was this extension of like our literal ability to hear things that were previously unhearable. But it has amputated something else, which is like our ability to actually know the real person in some sort of human touch way. Yeah, um, I think it's a really— I think it's really interesting. Like, it's both interesting from a national security standpoint and also a media theory standpoint. So anyway, and Barack Obama says some stuff too. He's fine. Yeah, yeah, he's been really—"
+    },
+    {
+      "name": "B",
+      "timestamp": "22:09",
+      "text": "those are your flavor centers. Nice. Well, Ben, we are so excited to have you back. And, uh, you know, your previous episodes— Argo, Casablanca, Tinker Tailor, The Hunt for Red October, Her, and all the way back to Three Days of the Condor."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:26",
+      "text": "Boy, we've— yeah, we've got quite a collab going on."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:28",
+      "text": "It's the best ones. Just the best."
+    },
+    {
+      "name": "D",
+      "timestamp": "22:30",
+      "text": "Just bangers. All."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:31",
+      "text": "All bangers."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:33",
+      "text": "Very good bangers. And tonight is yet another as we keep the Kubrick train rolling for the fall of Jason, as we do Stanley Kubrick's 1987 Vietnam masterpiece full Metal jacket."
+    },
+    {
+      "name": "C",
+      "timestamp": "22:48",
+      "text": "This really is like— this, doing this with Ben, and previous week doing Barry Lyndon with Itzkoff, this might be the best one-two I've ever had, uh, in the whole run of the pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "22:56",
+      "text": "Get ready, because next week on the pod, at long last— they said it would never happen— the return of Jamel Bouie."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:06",
+      "text": "Oh, that's great."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:07",
+      "text": "From the New York Times, as we cover Jason's favorite director Francis Ford Coppola. Mm-hmm. Or, or at least the one Francis Ford Coppola movie that Jason really likes."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:19",
+      "text": "Are we doing The Conversation?"
+    },
+    {
+      "name": "B",
+      "timestamp": "23:20",
+      "text": "We're doing The Conversation, buddy."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:22",
+      "text": "Oh my God. I love The Conversation."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:23",
+      "text": "What a dream. Oh my God."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:24",
+      "text": "That's great. It's exactly— it's just what we were talking about. Paranoid '70s and '60s. Yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:28",
+      "text": "Yeah. I love that movie."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:29",
+      "text": "Paranoid '70s and '60s. It's like a cat man."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:31",
+      "text": "Yeah, it's great. Everything about that movie is great. Yeah. Oh, that's fantastic."
+    },
+    {
+      "name": "C",
+      "timestamp": "23:34",
+      "text": "Oh, I'm so excited to rewatch that. Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "23:36",
+      "text": "I, I had made a play because I was reading, uh, The Last Kings of Hollywood, the, the book about Lucas and Spielberg and Coppola. I had made the play to Jamil for us to do Apocalypse Now, but back-to-back Vietnam might have been, might have been a little bit too much. So very excited for the conversation."
+    },
+    {
+      "name": "D",
+      "timestamp": "23:54",
+      "text": "If you guys ever want to— that is probably my number one movie of all time, Apocalypse Now."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:00",
+      "text": "Really?"
+    },
+    {
+      "name": "B",
+      "timestamp": "24:00",
+      "text": "Hello. Oh, wow. Hello."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:01",
+      "text": "Wow."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:02",
+      "text": "Hello. Absolutely."
+    },
+    {
+      "name": "D",
+      "timestamp": "24:04",
+      "text": "Terminate with extreme prejudice, fellas."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:06",
+      "text": "Yeah, exactly. All right, so that is next week on Escape Hatch."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:12",
+      "text": "Amazing."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:13",
+      "text": "Jason, can we do some quick hatch news?"
+    },
+    {
+      "name": "E",
+      "timestamp": "24:15",
+      "text": "Would you like to know more?"
+    },
+    {
+      "name": "C",
+      "timestamp": "24:17",
+      "text": "Hatch news from beyond!"
+    },
+    {
+      "name": "B",
+      "timestamp": "24:22",
+      "text": "The number one documentary of the last 25 years is You Can See Everything. Still haven't seen it. Elizabeth Holmes. Have you seen it yet, Ben?"
+    },
+    {
+      "name": "D",
+      "timestamp": "24:34",
+      "text": "I have not. I've heard from people who have."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:36",
+      "text": "Nothing but superlative things. People's lives have been changed. You must. The lame can walk. The blind can see because of this movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "24:43",
+      "text": "Everyone must drop everything and go see this movie immediately without reading or listening to anything. Yeah, that's all I'll say. Just, it's as good— it's as good as everyone says, and it really is fantastic. It's currently on track to be the number 1 highest-rated movie on Letterboxd."
+    },
+    {
+      "name": "C",
+      "timestamp": "24:58",
+      "text": "Yeah, I've only been back in the country— it's not playing abroad. I've only been back in the country for 48 hours, so I haven't had much opportunity to see it yet, but I'm gonna get on it as soon as the jet lag goes away."
+    },
+    {
+      "name": "B",
+      "timestamp": "25:08",
+      "text": "Please, please, uh, let's, let's do that. Okay, that's it."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:13",
+      "text": "Well, the other, the other one, other only other piece of Hatch news just to mention is that the, the single from the Dune 3 soundtrack, um, Desert Chant, uh, was released. Um, a, a Timothée Chalamet slash— it's like its byline is Timothée Chalamet and Hans Zimmer, and it's great. It goes hard."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:42",
+      "text": "I'm using the forthcoming release to do the trilogy with my 11-year-old. I think she's old enough."
+    },
+    {
+      "name": "C",
+      "timestamp": "25:51",
+      "text": "Amazing. That's great. Wow. Juniper loved parts 1 and 2 at 5, so I think 11 will be great."
+    },
+    {
+      "name": "D",
+      "timestamp": "25:58",
+      "text": "Yeah, I would have started earlier, but like, this is a good start."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:01",
+      "text": "That's perfect. I"
+    },
+    {
+      "name": "B",
+      "timestamp": "26:02",
+      "text": "have still held off. I have not shown Sam, and he is 8 and a half, almost, almost 9. So this might be your chance."
+    },
+    {
+      "name": "C",
+      "timestamp": "26:08",
+      "text": "It's a good— it's something to consider before the release of part 3."
+    },
+    {
+      "name": "D",
+      "timestamp": "26:10",
+      "text": "Yeah, so you can do the theater for the third one."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:13",
+      "text": "Yeah, it could, it could be. We watched Doctor Strange. Yeah, yeah. And Ben, you know, again, you, you probably got the email, uh, for our event on December 18th up here in San Francisco. If you want to fly up, uh, bring your daughter, 70mm IMAX, um, it's gonna be Incredible. And then a live recording of the pod. So, okay, good times coming soon. All right, are you guys ready to get into this movie?"
+    },
+    {
+      "name": "C",
+      "timestamp": "26:42",
+      "text": "Let's do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "26:43",
+      "text": "Okay, here we go. Full Metal Jacket is how young American men were shaped into killers and the cost that must be paid when they were. In late 1968, on Parris Island, lead drill instructor Gunnery Sergeant Hartman has just 8 weeks to strip his platoon recruits down to nothing and rebuild them as pliant, deadly, fearless Marines. Private Joker cracks wise, Private Cowboy keeps his head down, and Private Pyle, overweight and overwhelmed, becomes the platoon's burden, its project, and finally, its reckoning. A year later, Joker is a jaded correspondent for Stars and Stripes stationed in the relative safety of Da Nang, writing the war stories the brass wants told. But the unforeseen Tet Offensive drops him and his photographer, Rafterman, into the bubble of Hue City, along with the Lusthog Squad— Cowboy, Eightball, Doc J, and an M60-toting brute called Animal Mother. Pinned down by a sniper they can't see and watching his comrades cut to pieces by the hail of fire Joker, a man with Born to Kill on his helmet and a peace button on his chest, will finally have to choose a side and pull the trigger on his gun, firing the deadly bullets, each covered in a full metal jacket."
+    },
+    {
+      "name": "C",
+      "timestamp": "28:02",
+      "text": "Wow. Wow. Backed right into it. Backed right into it."
+    },
+    {
+      "name": "B",
+      "timestamp": "28:13",
+      "text": "Whoa. Okay, guys. Full Metal Jacket. Ben, what was your first experience?"
+    },
+    {
+      "name": "D",
+      "timestamp": "28:20",
+      "text": "Oh my God. It's like, it's like a lot of Kubrick where, you know, I, I don't know how old I was. I was in my, like, early 20s. And I started— it was a Kubrick thing. It was like, you know, I discovered, I think, 2001 first. And then I just started working through the catalog. And when I got to this one, I obviously had a deep experience with Vietnam movies because my parents— my mom was an anti-war protester. So we watched The Deer Hunter and we watched Coming Home and we watched all these— Platoon. And so I kind of came to this kind of late for the Vietnam movies. Wow. And I just remember my only recollection of the first watch was just the opening sequence with Pyle. I just never had seen anything like the relentless psychological breakdown. And again, like, we should name, like, it is uncomfortable to watch, you know? Yeah. As a lot of Kubrick movies can be at times. And I just remember being extremely uncomfortable and yet riveted, you know? And that's how Kubrick kind of plays with you. Like, you cannot look away from this thing, even though it's super uncomfortable. And when it reaches the climax of Pyle killing the drill sergeant himself, I just— I was like, I've never seen that before. I've never seen anything like this before. And I've also never seen a movie that is so much in just kind of 2 parts. It's like 2 movies fused together. Totally distinct. Totally distinct style, totally distinct setting. So that's what stood out to me from the beginning."
+    },
+    {
+      "name": "B",
+      "timestamp": "30:12",
+      "text": "Hmm. Love it, Jason."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:15",
+      "text": "I don't remember the first time I saw it. I was too young. I definitely saw this movie. It was like a thing where I was like 2001 is the best movie I've ever seen. What else has this guy done?"
+    },
+    {
+      "name": "D",
+      "timestamp": "30:22",
+      "text": "You don't want to watch this when you're too young. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "30:24",
+      "text": "I think I saw it in high school, and like I think I definitely like the the it was a movie that fucked me up. Like when I saw it, like too, I was unprepared for just like the entire. Like I wasn't like super freaked out by the death of Pyle, but the entire like last third of the movie was just so. like a level of like visceral haunting violence that like I had never seen before. Um, and so I saw it too young. And then I think like, as we'll talk about later, I, I don't— I didn't— I saw it like before I had any understanding of like Vietnam or the war really, other than it was a war that we fought and lost. Um, and, uh, so, you know, it was, it was really a movie that over time I had to kind of come to put together for myself."
+    },
+    {
+      "name": "B",
+      "timestamp": "31:09",
+      "text": "Hmm. I think I saw this probably when I was 18 in 1988. I think I saw it on video. I didn't go see it in theaters. But I was a big Kubrick fan. 2001: A Space Odyssey, Strange Love, The Shining, like all of those I had seen and was very into. And for me, definitely, I feel much more connected to the first part than the second part. I think I probably watched that more often than watching the whole thing. And same thing, we'll definitely obviously be spending time talking about, about that whole, that whole bit of it. Um, but so that, that really fascinated me, but I haven't watched this movie in probably 20 years. And it was incredible having the visceral memory, like so many of it, so much of this movie I know by heart. And then at the end, I like had that last flash. I was like, oh my God, I just remembered who the sniper is going to be. Yeah. And it was just like, that just came popped out of my brain. So yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "32:04",
+      "text": "I'd forgotten that too. I, that was like a reveal to me. I had forgotten that."
+    },
+    {
+      "name": "B",
+      "timestamp": "32:08",
+      "text": "Yeah. Really, really, uh, really special. So, some quick behind the scenes. This is our 6th Kubrick. 2001: A Space Odyssey, Strange Love, The Shining, Eyes Wide Shut, and Barry Lyndon just 2 weeks ago. What a joy. Um, but this is based on the book The Short-Timers. Mm-hmm. And apparently Kubrick had really wanted to do a war movie, and very specifically to do something that looked at what it meant for people to be changed by war, and what it took to create soldiers, And then what happened once, once they were in that, in that place. And so he found, basically found that title, The Short-Timers by Gustav Hasford, and he ended up working on it and also bringing in Michael Herr, who had written some of the voiceover stuff for Apocalypse Now and just had a great voice for that."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:01",
+      "text": "And one of the greatest books ever written about war, Dispatches. Everybody should read Dispatches. That's Michael Herr's memoir of the war, and it's a trip, man. It's not like any book you've ever read. It's crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:11",
+      "text": "Interesting. And the other one that they always call out is The Things We Left Behind or something?"
+    },
+    {
+      "name": "D",
+      "timestamp": "33:17",
+      "text": "The Things We Carried by Tim O'Brien."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:18",
+      "text": "The Things We Carried."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:19",
+      "text": "Yeah, I'm a Vietnam nerd, and I think Dispatches is the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "33:25",
+      "text": "Even better?"
+    },
+    {
+      "name": "D",
+      "timestamp": "33:25",
+      "text": "It's the second-best book. The best one is A Bright Shining Lie. Yeah. But then Dispatches is like a firecracker."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:34",
+      "text": "Man, I turned 50. I think it's time for me to get in my Vietnam books era right now. Oh yeah, let's do it. It's a genre I've not explored as deeply. Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "33:45",
+      "text": "It's the golden age of American journalism. I mean, it's incredible."
+    },
+    {
+      "name": "C",
+      "timestamp": "33:50",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "33:51",
+      "text": "Amazing. Amazing. So again, I don't want to talk much about the production because we're gonna spend time on the Kubrick of everything, but this whole thing was shot in England, which is crazy. Yeah, which is crazy. It's nuts. Love the description of the guy who— the producer who was just like, Stanley hated shooting anywhere that was more than 10 minutes away from his house. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:09",
+      "text": "He's just like, he didn't fly. He didn't want to go. He wouldn't get on a plane. And like, he's like got this nice estate in the country. He's like, I'm not fucking— Vietnam's coming to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:19",
+      "text": "Exactly."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:21",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:22",
+      "text": "So they spent $30 million on this movie, $120 million worldwide, Jason. This works. That's a hit. Um, and this comes out in June of '87, just 3 months after Platoon won for Best Picture, um, and came out the same day as a movie I have zero connection to, but I know is important to our Discord, which is Dragnet. Um, oh yeah, but, but also at the box office that summer, Beverly Hills Cop 2, The Untouchables— never seen it."
+    },
+    {
+      "name": "D",
+      "timestamp": "34:54",
+      "text": "Oh, Predator. This is awesome. Whoa, whoa, you gotta work on that tonight."
+    },
+    {
+      "name": "C",
+      "timestamp": "34:58",
+      "text": "Yeah, that's crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "34:59",
+      "text": "Predator. Yeah. The Witches of Eastwick, Fatal Attraction, Spaceballs, Innerspace, RoboCop, The Lost Boys, Dirty Dancing, and Good Morning, Vietnam."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:10",
+      "text": "What a time to be alive, guys."
+    },
+    {
+      "name": "C",
+      "timestamp": "35:11",
+      "text": "We used to be a real society. Yeah. We used to have— That's crazy. There used to be palaces."
+    },
+    {
+      "name": "D",
+      "timestamp": "35:16",
+      "text": "Yes."
+    },
+    {
+      "name": "B",
+      "timestamp": "35:17",
+      "text": "Crazy. Uh, yeah, a lot of good, a lot of good movies. All right, so Ben, where do you want to start?"
+    },
+    {
+      "name": "D",
+      "timestamp": "35:26",
+      "text": "I want to start with how clever it is that Kubrick, you know, because Kubrick, there's always different texts, right, that he's playing around with. And this works remarkably as kind of a critique of American war movies. Mm-hmm. Because if you think of like the formulaic— if anybody's ever watched the kind of formulaic World War II movies, There's always like, you know, a unit. There's like a drill sergeant who's a tough hard-ass. Then there's always like a wisecracker, you know. Yeah. There's always like a multiethnic tableau, like, you know, here's the Jewish kid and here's the Black kid. And what this does is it just takes that and turns the dial up to like 1,000, you know. So the drill sergeant is like a raging fascist, not just like a charming hard-ass, right? The racialized banter is dark. It's kind of uncomfortable. There's a scene where they're kind of lying around just making derogatory comments about each other, and it's not okay. Mmm. The violence, right? Usually you get sanitized violence in war movies. Someone is shot and they die, and you don't even really see them bleed. Like when, particularly in the—"
+    },
+    {
+      "name": "B",
+      "timestamp": "36:51",
+      "text": "They're not just laying there being shot over and over again."
+    },
+    {
+      "name": "D",
+      "timestamp": "36:54",
+      "text": "Over and over and groaning. In the mud. Blood is like spurting out of them, right? Um, the, the guy in that copter just like mowing down civilians, you know, like I, I think part of what Kubrick is doing is he's critiquing how the war movie genre has sanitized war and has not like forced us to reckon with the dehumanization of war. Like not only the dehumanization of the people we're killing, but the dehumanization of the people that are turned into killers, you know? Yeah. And so I kept noticing how he was taking all these war movie tropes and kind of playing with them, cranking them up. And so he's simultaneously, like, you know, telling a story, but he's also, I think, making a point about what American media and American movies have done to kind of sanitize our understanding of war itself. And Vietnam is the perfect—"
+    },
+    {
+      "name": "B",
+      "timestamp": "37:50",
+      "text": "Their own responsibility."
+    },
+    {
+      "name": "D",
+      "timestamp": "37:51",
+      "text": "Yeah. And Vietnam is the perfect war to do it with. do that on because Vietnam is when we kind of lost our innocence about war, you know, like we couldn't, we could not defend this thing that we did."
+    },
+    {
+      "name": "C",
+      "timestamp": "38:00",
+      "text": "Hmm. I, you know, just to build on this point, I think this is a great point. Obviously, I'm a sucker for a meta-analysis at any point. I think it also sort of gets to what I have, what I and other viewers have struggled with occasionally in watching this movie, which is like how much of, particularly with the sexualization of violence in the movie, is Like, to what extent is this critique versus like not critique and just entertainment? And on like just to kind of dispense with the it's not critique, it's like entertainment. Like you know the me so horny line is used like you know it is you know becomes like the hook of a Two Life Crew song, right? And like as a kid, like when I saw this, like too too young, like I like I loved like like I thought it was hilarious. Like the whole interaction between Eight Ball and the hooker and like all of that stuff. Like you know like all of the dialogue I thought was hilarious. I think, like, so there's a real, like, sort of gloss on it that's like, okay, this is just Kubrick having fun, like, and sort of playing with these stereotypes. But I think your analysis sort of is the solve for that, which is he's intrinsically calling attention to the fact that, like, the traditional, like, both televised or reported version of war is like there's a band of brothers who, like, has to get together and, like, overcome a great obstacle, and, like, they're put through hell, but there's a bond that never exists, you know, that never breaks. Uh, you know, can be undone. And in the— in this movie, like, it really kind of overcranks on, like, just how important, like, the sexualization of war is and, like, the expelling of anything feminine. And, like, you know, obviously, like, you know, being derogatory towards, like, anything that's gay or anything that's—"
+    },
+    {
+      "name": "D",
+      "timestamp": "39:42",
+      "text": "A lot of gay jokes."
+    },
+    {
+      "name": "C",
+      "timestamp": "39:43",
+      "text": "A lot of gay jokes."
+    },
+    {
+      "name": "D",
+      "timestamp": "39:44",
+      "text": "Tons of gay jokes. Yeah,"
+    },
+    {
+      "name": "C",
+      "timestamp": "39:45",
+      "text": "like, this need to, like, sort of constantly sort of reassert masculinity and, like, you know, virility as, like, an important part of of warfare. Um, and so I do think like that is like— I think, I think understanding the movie as like, this is a, this is a commentary on sort of what is really going on, like the dehumanization that happens for soldiers as well in all of those stories that you've previously seen as just like pure hero-villain narratives, I think is, uh, a pretty neat way out of, of that problem. There was an article I ran across in, in sort of doing my notes for this movie. It was like Susan White in 19— '88 wrote this article, Male Bonding, Hollywood Orientalism, and the Repression of the Feminine in Kubrick's Full Metal Jacket. So we can include that in show notes, um, as, uh, like it really does like a long sort of, uh, breakdown of this whole, of this whole argument, um, of which side does it end up. And she ends up on like, no, this is a critique. Like, this is an intention."
+    },
+    {
+      "name": "D",
+      "timestamp": "40:43",
+      "text": "It's a— I, I think it's definitely critique. I mean, it's because it's cartoonish. Like, the gay jokes are cartoonish. Like, you know, I, I, you know, not to side with Stanley on this one, but I, I think that he, he's like, he's, he's shining the light on, on the toxic masculinity, you know? Yes. Quite clearly."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:01",
+      "text": "Yeah, I just think like as a boy, like young man, like when I saw this movie originally, like, yeah, you can watch it. This is my, this is my rifle, this is my gun segment, like fucking killed. Like you're just like, that's hilarious. Like, you know, like, yeah. And And I think it is like sort of like, you know, Kubrick's talent that like he can make things work in multiple ways."
+    },
+    {
+      "name": "D",
+      "timestamp": "41:20",
+      "text": "And it is like, this is my penis. Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "41:23",
+      "text": "Yeah. No, exactly. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "41:25",
+      "text": "This is for fun. Yeah. But I mean, I remember being, you know, we, we, let's just go ahead and, you know, get to it. Let's get to Gunnery Sergeant Hartman. I mean, like his delivery in the, in all of those scenes is simultaneously, you know, so racist and sexist and horrific. and absolutely hilarious. Absolutely funny. Yeah, yeah. And like, I'm constantly feeling horror and this kind of like, I don't know, just like really caught up in what he is saying. And I mean, I don't know. I don't know whether we'll do clips or not, but like, also just the sheer— it's similar to Clockwork Orange, the book and the movie, that has this incredibly lyrical dialogue."
+    },
+    {
+      "name": "D",
+      "timestamp": "42:10",
+      "text": "Yeah."
+    },
+    {
+      "name": "F",
+      "timestamp": "42:11",
+      "text": "Do you suck dicks? Sir, no, sir. Are you a Peter Puffer? Sir, no, sir. I bet you're the kind of guy that would fuck a person in the ass and not even have the goddamn common courtesy to give him a reach around. I'll be watching you."
+    },
+    {
+      "name": "C",
+      "timestamp": "42:23",
+      "text": "Like good, good pull, good selection."
+    },
+    {
+      "name": "B",
+      "timestamp": "42:25",
+      "text": "That is an unbelievable line of dialogue and pure cinema history made for all time."
+    },
+    {
+      "name": "C",
+      "timestamp": "42:32",
+      "text": "Yeah, it's it is really good. And like apparent, and so like you know, like our our Arlie Ermy was was like a Marine and up and was a drill sergeant. Yeah. And like wrote— like, it's a rare case in which like someone wrote a lot of shit for Kubrick. Um, like he had like just pages and pages of this stuff, um, that he had used previously, um, in his time as a drill sergeant. Um, which is— he says like there was— he— that Kubrick— there's some quote where Kubrick said he generated 150 pages of insults, um, of which they only needed like 2 to 3 for the amount of dialogue that was actually in the movie. Um, it is like a— it is a— it is like darkly comic in a way that's very different though than like, you know, it's not the same as like, uh, Dr. Strangelove. Like, it's not like funny. Right. No. It's like way more sinister. Um, and Ermey apparently said like he thinks Hartman is a bad drill instructor because he should have known that Pyle was crashing out and that he was— he had pushed him too far. Um, and that that was, you know, not something that he— that was an indication of— was like— was he views as like sort of an indictment. Um, one other note about Ermey, he crashed his car while during the filming of this movie. Um, and Uh, like he was driving in the forests of Britain at 1 AM and crushed and broke all the ribs on one side, and they had a 4-month, uh, pause in production, which meant that this movie was in production in principal photography for a year. Uh, it was a year that they were shooting this shit, um, which is pretty amazing. Uh, yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "44:08",
+      "text": "I like that. That's not my favorite R. Lee Ermey Full Metal Jacket car crash story. Uh, in the behind-the-scenes, uh, documentary, he told the story of he was driving with Stanley in Stanley's wife's new, like, Range Rover or whatever. And Stanley was caught up pointing as they were driving through the countryside at a ditch where they were gonna put people and they were gonna do stuff. And he was so caught up in pointing where they were gonna go, he drove into a ditch and flipped the SUV on the side. Oh my God. And so, in a car crash, Ernie said Stanley never stopped talking. He opened the door, took off his seatbelt, climbed up and stood on top of the car and was like, that's where they're gonna go. We're gonna have them lined up. Like, literally did not stop his story. he was so caught up in that moment that a car crash could not stop him."
+    },
+    {
+      "name": "C",
+      "timestamp": "44:52",
+      "text": "My other Arlie— my other Arlie fact is that in 2002, he was promoted, um, to Gunnery Sergeant. Um, he was promoted to E-7, which is the first time in the history of the Marine Corps that someone was promoted as a retiree, uh, to Gunnery Sergeant, because he was like just so clearly known as a— like, the Marine Corps was just like, well, obviously he's a Gunnery Sergeant. Everyone knows he's a Gunnery Sergeant, so we better— we better like make this happen. work on paper."
+    },
+    {
+      "name": "D",
+      "timestamp": "45:20",
+      "text": "That's amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:21",
+      "text": "Which is pretty— yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:22",
+      "text": "But Jason, so this is like— let's just think about this for a minute, because this was one of my points that I wanted to think about, is the idea of building an army. Yeah. And the idea of training people to be able to go out and kill for their country."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:33",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "45:34",
+      "text": "So how do you think about this, Jason, relative to Alec Baldwin, right? Like the notion of this is the one that's held— that's held up."
+    },
+    {
+      "name": "C",
+      "timestamp": "45:41",
+      "text": "No, I think that's right. I think that's right. I, you know, it's funny you mentioned that because I was, I was rewatching the Glengarry Glen Ross scene scene, um, this week, um, because TikTok decided I should. And, uh, like, yeah, so like we talked about when we did Glengarry Glen Ross that the, the Alec Baldwin scene is like viewed by salesmen as like sort of an urtext of like, yes, this is what you need. You need brass balls if you're going to be a salesman. And I do think like there is a world— I'm, I'm very confident there is a world of Marines that looks at like, you know, the, the training sequences like, yes, like this is like what you need in order to, to become a killer, um, for the United States. Um, and I, I, you know, I just think that is the I think that is the duality. Like, uh, that like there is like some— there is something that like resonates with, uh, there's, there's 2 ways in which the, those scenes resonate. One is, is like, yes, like I am called to that. That is something that pulls me in. And there's another where it's like, oh, this is horror. And like, this is like clearly meant as a critique. And I think both, um, you have to sort of be able to, you know, you sort of have to be able to recognize both at the same time without, um, being an"
+    },
+    {
+      "name": "D",
+      "timestamp": "46:44",
+      "text": "absolute What's also striking about it is that in that whole sequence, there's not any discussion— and actually, really, in the whole movie, there's no pretense that what we're doing is right. Like, you know, it's not like he ever mentions, like, we have to go fight for freedom in Vietnam, or, you know, we have to stop the domino theory."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:07",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "47:09",
+      "text": "We happen to be in a war. And, and so we just need to create, like, the most cold-blooded killers possible. We're not— we're not training an army to serve a purpose or to serve a cause or to have any kind of values proposition whatsoever. Like, we're just turning young men into killers."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:28",
+      "text": "That's right. And so there's— there's nothing in it that's like, even, this is for the Union, this is for the country, like, you know, like, this is needed to protect our way of life. You know, I think the scene that really underlines that is is like when he's like, you know, like, who are these— all these assassins that were trained in the Marine Corps? And like, this is like a point of pride that like, you know, um, that Lee Harvey Oswald, uh, was, was trained in the Marine Corps. The Texas—"
+    },
+    {
+      "name": "D",
+      "timestamp": "47:53",
+      "text": "the University of Texas shooter."
+    },
+    {
+      "name": "C",
+      "timestamp": "47:54",
+      "text": "Yeah, the University of Texas shooter. They were, you know, like Oswald was able to get, you know, like, uh, you know, he's, he's, you know, Hartman's saying it with pride. He was able to get 4 shots off in 6 seconds, including a headshot. Like, like it is like a point of pride that the Marines were able to train a killer that efficient, even though that killer was, you know, assassinating the president United States. And so I think, like, I think you're right. Like, it is just about sort of the naked need for violence. And, you know, the other line that goes to that is, you know, Modine's character says, like, the Army— the Marine Corps does not want robots. Like, they— the Marine Corps wants killers. They want indestructible men, like, people who are not afraid and just willing to, like, run into the most dangerous battles on Earth, which is what happens in the second half of the movie. Like, an absolute You know, you know, absolute disaster, which we'll get to, I'm sure."
+    },
+    {
+      "name": "B",
+      "timestamp": "48:42",
+      "text": "I just, I just felt myself having an existential crisis. Like, I hate the idea that this has to happen, right? Like, I hate the idea that we have to have people who are trained to be able to go into places and kill. I understand that there is a need from time to time to defend, you know, the interests of our country, but it, you know, Like, for me coming up in the '70s, you know, my best friend was the son of a GI and a Vietnamese woman who came over on one of the last choppers out of Saigon. So I had, like, a connection and was right there in '75 watching as the US got our asses kicked. And that idea of us being cowed— and I remember in college when Desert Shield happened and the idea of Colin Powell saying, we're not gonna fucking do that. Yeah. Yeah. Like, we're gonna have clear objectives. And we're going to go in and do something, but we're not going to overstep it. It was like, oh my God, could this be a new world where the US has realigned our foreign policy? And then to just watch it all over again."
+    },
+    {
+      "name": "C",
+      "timestamp": "49:46",
+      "text": "Well, but before you even get— since then, but before you even get to like the, the policy, like what are the policy objectives of it? Like, I think you raise a point which is really interesting and valid, which is just like, how do we understand the need for there to be, you know, violence? Like, the state has a, a monopoly on the ability to commit violence, and we do that in the service of, you know, our national interests, sometimes for bad reasons, sometimes for, for good reasons. On the latter point, you know, Ben has a much better story about where he was on the night that bin Laden was assassinated, you know, was killed. Yeah. But like, I was, I was on a plane flying into New York City, and like, I was like, I was literally like on a plane when like getting alerts that like Obama's gonna speak in like an hour. I was like, what the fuck is this? And I, to be clear, I was not in the government. I was just like a dude in the world, right? And like, I was driving—"
+    },
+    {
+      "name": "B",
+      "timestamp": "50:30",
+      "text": "I wanted to be the first one to tell you."
+    },
+    {
+      "name": "C",
+      "timestamp": "50:31",
+      "text": "Yeah, it was exactly that. It was exactly that. And so I was, and you know, I I was watching, like, you know, on, like, poor whatever 3G, like, Obama talk about, like, you know, the death of bin Laden and, like, driving into Lower Manhattan, like, literally, like, crossing over the bridge into Lower Manhattan, like, while that was happening. And I remember I was like, oh, like, you know, on a very, like, you know, emotional visceral level, like, this is a good thing that happened. Like, the person who caused all this destruction, like, is dead. And, like, you know, like, that is, you know, a form of justice for the country and, like, people who died literally here. But, like, on the other hand, like, I was like, like, oh, like, this is a weird thing. Like, we're all, like, gathered around, like, Celebrate that we went and killed a dude. Like that is like a like that that that that does like you know feel as kind of weird. Like I was like I can't feel 100% like just oorah about that. Like there there is like something that is you know yeah as like a squish like a ah like that's you know like like I would that the world wasn't this way that like bin Laden's didn't exist and that like you know they didn't do terrible things that required retribution. But you know we don't obviously don't live in that world. It's just you still do end up having to wrestle. With that reality, I think."
+    },
+    {
+      "name": "D",
+      "timestamp": "51:39",
+      "text": "Yeah, I think, you know, the darker piece of that bin Laden story for me too was because, like, I think we've fought all too many wars. I mean, it's like, yes, you do need an army. Yes, there are situations like, you know, World War II that require, like, military action."
+    },
+    {
+      "name": "C",
+      "timestamp": "51:59",
+      "text": "Clear moral goods. Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "52:00",
+      "text": "But most of the other wars, like, you could probably— I mean, Vietnam, utterly pointless. Pointless, you know. Uh, yeah, Iraq, utterly pointless. But I— what I remember at the bin Laden operation— Korea. Uh, yeah, Korea. But what I remember the bin Laden operation is, um, yeah, yeah, as Jason said, that, that day I was in the Situation Room all day. Um, it was incredibly tense. Um, it was being narrated for us by essentially Admiral McRaven, who was the leader of the, uh, the biggest badass who's ever lived. Biggest badass ever. And, and so he's narrating this operation I remember one of the helicopters clipped one of the walls of the compound, so for a minute it was like, this is the worst-case scenario, a bunch of guys are going to die. But he's like, no, no, these guys know how to handle this. It's fine. They actually ended up blowing up that helicopter because it was damaged, but nobody was hurt. Then I remember it all happened very fast because Geronimo, by the way, not exactly the most politically correct name. Right. That was the call sign for bin Laden. And so when they said, Geronimo, ID, and then very shortly thereafter, Geronimo, KIA, killed in action, it was like, shit, we just killed bin Laden. That's it. You know, like, that's it. Like, this whole drama. But then what I remember, and yeah, I mean, there's a whole story about how then I had to figure out how to write a speech in about an hour and a half for Obama to address the nation. The reason there was a little delay is because I had not pre-written the speech. But I remember we went to see the tape. The SEAL team. They were in Kentucky at a base, and I flew out with Obama, and we meet this SEAL team. And, you know, famously, there's a dog there that had been on the raid, and they kind of give us their version of the raid. And, you know, of course, it's like a cathartic— but to your point, Jason, not exactly like joyful. Right. But then what I remember talking to some of these guys about and, like, talking to McRaven, and these guys had been killing people, like, constantly for years."
+    },
+    {
+      "name": "C",
+      "timestamp": "54:06",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:07",
+      "text": "Like, they were like— the only thing that was different about this raid is that the flight was longer. You know, that they basically had to fly, you know, like, an hour or 2 into Pakistan."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:17",
+      "text": "Into Pakistan."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:18",
+      "text": "And it was just something so sad about the fact that we, like, have a foreign policy— and again, I was a part of it, so I'm holding myself accountable— where we have, like, these young men And actually, some of them are like middle-aged men because they've been doing it for so— that's the other thing, these guys are older. Like, they weren't 22. Right. These guys look like they were, you know, our age now, you know, almost."
+    },
+    {
+      "name": "B",
+      "timestamp": "54:38",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "54:38",
+      "text": "Who just have been kicking down doors and pulling triggers for year after year. And like, that's, you know, they're obviously not like the guys in this movie. They're SEALs. But yeah, like that, there's something that I remember, I remember feeling like pretty uncomfortable about that. Again, we kind of valorize the Special Forces guys, but man, some of those people have broken because of how many people they've killed. Yeah. If you want to read a good book about that, Fort Bragg Cartel by a guy named Seth Harp. He basically writes about this Delta Force community where the people have gone nuts. You know, they're violent. They're— and I'm not trying to impugn the character."
+    },
+    {
+      "name": "B",
+      "timestamp": "55:25",
+      "text": "That guy Trump pardoned, I forget. Yeah, Eddie Gallagher, you know, the SEAL who committed war crimes. And horrific."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:31",
+      "text": "Again, I'm not impugning the character of all these guys. Sure."
+    },
+    {
+      "name": "C",
+      "timestamp": "55:33",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "55:34",
+      "text": "I'm impugning the system that makes people kill for years, you know. And I think this movie kind of is about the danger of like, what does it say about us that we create these killing machines, you know?"
+    },
+    {
+      "name": "C",
+      "timestamp": "55:48",
+      "text": "I think that's right. I think you just have to, like, sort of sit with that, like, uncomfort— I think that's what's so great about this movie, is it, like, forces you to sit with that uncomfortable reality where you both sort of love— you, you love, like, sort of the, you know, seeing these characters become more competent and seeing them, like, you know, you, you— some of the, some of the stuff is funny about, like, you know, like, the sexualization of the violence or just, like, how they interact with each other. Like, there's— they're, they're charming, they're charismatic. Like, you like Animal Mother, you like all of these, you like all of these things. And yet at the end of the day, this is a foreign policy that, like, uh, resulted in a 15-year-old girl getting blown away in a bombed-out, uh, building. Exactly. Um, in, in Wei City. Um, be, you know, for literally no reason. Like, for, you know, for, for, for literally no, like, grander objective in American strategy."
+    },
+    {
+      "name": "B",
+      "timestamp": "56:42",
+      "text": "This is, this is The thing— yeah, this is the thing that to me I love so much, is there are no stakes in this movie and there are all the stakes in the movie. Yeah. It isn't like if we conquer this bridge or if we take out this thing, it's gonna change the course of the war. It's literally a skirmish that no one will ever remember, will never matter. It was a hill that was taken or a city that was taken that will fall back the other way or the other way. And it's so powerful. Like, this is the message that Hollywood should get more often, is about the characters and it's about these guys that we form a connection to that is, I don't know, it's just so powerful. That worked for me so well."
+    },
+    {
+      "name": "C",
+      "timestamp": "57:19",
+      "text": "Can I do a point there since you bring up the— I think contextualizing like this moment that the Vietnam half of the movie, like where this is in history, and Ben will know a lot more about this than I do, because I said I'm not an expert student in Vietnam, Well, like, you know, the movie, like the Vietnam section starts like with the Tet Offensive. So it's like starts like, you know, in like January, end of January 1968. Like one thing like just generally that I, you know, I've like tried to like, I think it probably said on the pod before is that if you look at the first half of 1968, even in the context of the last 10 years of living through Trump 1 and 2, like the first half of 1968. Yeah. Is absolutely the least stable version of the United States that's existed, like you know since the Civil War. For sure. Like you know since the Civil War. Like you know January is like you know January is like the Tet Offensive. Like as part of that is the famous Eddie Adams photograph of the Viet Cong prisoner being you know executed in the street. Executed. Like you know Walker Concrete declares the war unwinnable. You know Johnson in March announces that he's you know the sitting president's not going to run for reelection. Like for the elect. That's going to happen in like you know seven months or whatever. Like absolutely crazy. Martin Luther King is assassinated five days later. Colombia Colombia is occupied. Rob RFK is assassinated two months after that. The Democratic you know the DNC in Chicago turns into a riot, and then Richard Nixon you know Richard Nixon is Richard Nixon is elected. Like it's absolutely a crazy six. Months, um, in the history of the Republic. Um, and it's into that like sort of context that this like, you know, battle for Hue City happens, which is like the Marines who have been trained for jungle warfare are sent into an urban area and told to do like door-to-door close-quarter combat, like street clearing shit, which they've not been trained for heretofore, not done in the course of the war. And it's just like an absolute disaster, you know, hundreds of casualties, hundreds of deaths, and like thousands of casualties, let alone a city of 100,000 that's completely wiped off the face of the earth. It is a scale of loss. Both the year is a scale of loss and this time period is a scale of loss for the Vietnam War that we just cannot comprehend. There is not a moment in our history, I guess with the exception of 9/11, that is this vulnerable for American power and American projected strength."
+    },
+    {
+      "name": "B",
+      "timestamp": "59:59",
+      "text": "I was going to say January 6th is the only other thing I can think of."
+    },
+    {
+      "name": "C",
+      "timestamp": "60:02",
+      "text": "Yeah, but that was an afternoon and it was horrible, but Like, you know,"
+    },
+    {
+      "name": "D",
+      "timestamp": "60:05",
+      "text": "yeah, this is the other thing, Jason, from the Vietnam angle, is that, look, I, I— this was always an unwinnable war. And, and part of what the, uh, movie gets across is that the North Vietnamese, uh, are fighting for something."
+    },
+    {
+      "name": "C",
+      "timestamp": "60:19",
+      "text": "Um, yes."
+    },
+    {
+      "name": "D",
+      "timestamp": "60:20",
+      "text": "And, and our guys are just there. Uh, and, and as one of them says, you know, we're, we're shooting the wrong gooks. Um, which is obviously not the most politically correct way to say it, but yeah. Um, not that we should have been shooting the other ones, But the South Vietnamese government was just like a bastion of corruption, like a nest of corruption. Totally. Meanwhile, these people, whatever you think of Ho Chi Minh and their ideology, they were nationalists. They were just fighting for their freedom. They'd beaten the French, and they're going to beat us. But I think most people that study the war are like, the Tet Offensive is when it became clear that there was no way America could win, like the thing that we should have figured out from the beginning, because they were able to mount this offensive."
+    },
+    {
+      "name": "B",
+      "timestamp": "60:59",
+      "text": "7 years before we left."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:01",
+      "text": "Exactly. So that was the point. That's exactly where I was going, which is that, you know, even the people that were, like, once proponents of the war understood after Tet, like, shit, this has to end and we're not gonna win. And, you know, Nixon even runs on he has a secret plan to end the war. You know, Humphrey runs on he's gonna end the war. And what you get a sense of of is how many people we killed after we knew we weren't going to win the war. Um, obviously tens of thousands of Americans, but like millions of Vietnamese. I mean, and you get that he, he actually has the right, you know, morbid arithmetic. You know, for every American we see killed, we see many Vietnamese killed. So he captures that."
+    },
+    {
+      "name": "C",
+      "timestamp": "61:48",
+      "text": "And Laotians and Cambodians. Well, exactly."
+    },
+    {
+      "name": "D",
+      "timestamp": "61:51",
+      "text": "And then we bomb Laos and Cambodia. under Nixon. And so in miniature, that last third, that battle in Hue, is the pointlessness of all the violence that happened after Tet. Yeah, right. And Modine's character, you know, there's a— he— it's amazing what Kubrick does with minimal dialogue, and he does this in all of his movies. But that one scene where they're having like the editorial meeting of the Stars and Stripes people, and Modine's like, hey, I'm hearing that something big might go down on Tet, you know. Tet! And the guy's like, no, no, it won't. It's, you know, 4th of July and, you know, Christmas rolled into one or something for these guys. Um, like, we, we just— the willful blindness of the, you know, insanity of what we were doing and the pointlessness of it, um, really does come across."
+    },
+    {
+      "name": "B",
+      "timestamp": "62:39",
+      "text": "You get such a powerful sense of the ability for people to rise to the occasion. I was so struck when Cowboy's lieutenant was killed and Cowboy had to immediately step up into it. Yeah. And then when Cowboy is, you know, is taken out, then Animal Mother's gonna come up. This— or the refusal to give up on Doc J or 8-Ball, when it's very obvious that there is no chance for them to get out. But this— there is— this shows both the absolute horror and reprehensible violence that's there, but also those moments of heroism that are still there and possible. And I found that really compelling. Again, you're just constantly pulled in multiple directions. It is, you know, just true cognitive dissonance."
+    },
+    {
+      "name": "D",
+      "timestamp": "63:27",
+      "text": "Well, the truism of what you hear from people who served in war, you know, is that you end up just fighting for the people next to you. Like, you know, there's no time to think about the cause. You know, you're not sitting there in, like, a bombed-out town being like, we must stop these North Vietnamese communists or else, like— Right, right, right. Some Cold War game is gonna go the wrong way. Like, you're thinking, like, I gotta save this guy, or I want to get out of here alive myself. And it does kind of capture that even amongst all the dehumanization, um, that's happening around these guys, they care about each other, you know."
+    },
+    {
+      "name": "C",
+      "timestamp": "64:02",
+      "text": "Vietnam is such like a— Vietnam is such a horrifying, you know, bit of American history, both because of like the absolute like loss of life and just how wasteful it was, but also because it's like, unlike any of our current calamities, it is not— it was not something that was caused by by, you know, venality and corruption, right? Like, it wasn't like— it wasn't as though, like, someone was, you know, it wasn't as though there was someone who was, like, trying to make a fortune on Bitcoin, um, or, you know, and, like, you know, enrich themselves to the tunes of billions of dollars, and that's why solely, like, the Vietnam War was started. It was, you know, like, the best— you know, if you watch, like, Fog of War, like, the McNamara-Earl Morris documentary, it is like— it's so fucking haunting because, like, it is someone who is clearly, like, a world-class intellect, like, a, a, like, an absolute, like, genius thinker, um, who like was capable in so many ways, uh, and yet like just this inexorable logic led him into the greatest foreign policy blunder of, you know, uh, of the 20th century for the United States. Like, it is, it is, it is really hard."
+    },
+    {
+      "name": "B",
+      "timestamp": "65:14",
+      "text": "Hey, Trump said hold my beer though. Like, like there's a new, there's a new grand winner, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "65:18",
+      "text": "Yeah, but I mean, even But it shows, it shows the scale of how— I mean, we'll see, like, with like a lot of time left on the clock to see, like, you know, how we get out of this current entanglement. But like, like, it feels unlikely that we're gonna lose 80,000 American, you know, soldiers, um, in the course."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:34",
+      "text": "So, so, like, an interesting point on that, Jason, is that the re— you know, 50,000 Americans died in Vietnam."
+    },
+    {
+      "name": "C",
+      "timestamp": "65:42",
+      "text": "Yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:43",
+      "text": "And, you know, only a few thousand Americans died in, say, like Iraq. But the reason why is, is not that it was less violent. It's that the, the, the enhancements in battlefield medicine—"
+    },
+    {
+      "name": "C",
+      "timestamp": "65:55",
+      "text": "Yeah, yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "65:56",
+      "text": "Um, and the speed with which, um, you could reach someone who was, uh, shot or injured by an IED, an improvised explosive device. I've heard estimates that basically absent those advances, you would have had the same number of Americans killed in Iraq as Vietnam. That's interesting. You know, and, and so weirdly— That's interesting. And by the way, It also means like people are surviving injuries that are like, life is not okay after that. Horrifying, right? Yeah. You know, like people, multiple amputees or people that just intense traumatic brain injuries. And, uh, and, and I think sometimes like part of what's kind of been chilling about the war on terror is that the casualty count is like lower. Um, and so we, we, we don't react quite the same way, you know, um, when in fact the violence is, The same, you know. That's a great point. It's just as gruesome."
+    },
+    {
+      "name": "B",
+      "timestamp": "66:49",
+      "text": "I, I mean, I do like— it feels like there is more concern for statistics now, right? To the point of even like the, you know, the Defense Department hiding, you know, casualty numbers and, and doctoring that. Um, so it's at least in my mind a better world right now that there's concern that we don't, you know, we're not willing to say like, oh, the casualties are gonna happen, whatever it's gonna be. So I do want to value every life that we have on our side, but I also want to be aware of the innocence on the other side."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:21",
+      "text": "Well, yeah, and that's hundreds of thousands of Iraqis, Afghans. Yeah, you know, yeah, that's— I had one of my points, guys, was, yeah, because it kind of grows out of this, is— and again, I don't mean to take us too far from the movie, so I'll circle back to it— but like, we just have not had the same kind of culture produced about the war You know, um, yeah, you know, you, you had— again, I—"
+    },
+    {
+      "name": "C",
+      "timestamp": "67:45",
+      "text": "this is a great point—"
+    },
+    {
+      "name": "D",
+      "timestamp": "67:46",
+      "text": "Apocalypse Now, you had Full Metal Jacket, you had Platoon, you had The Deer Hunter, you had Coming Home. Like, you— we reckoned with Vietnam in our culture very quickly too."
+    },
+    {
+      "name": "C",
+      "timestamp": "67:55",
+      "text": "Like, all those movies happened very quickly after the end of the war."
+    },
+    {
+      "name": "D",
+      "timestamp": "67:58",
+      "text": "Yeah, this is all within, like, we are 25 years in. And look, you know, there's— we can all find some exception, you know, like there's The Hurt Locker or something, right?"
+    },
+    {
+      "name": "C",
+      "timestamp": "68:07",
+      "text": "Sure."
+    },
+    {
+      "name": "D",
+      "timestamp": "68:07",
+      "text": "But actually, we don't make anti-war films like this anymore. Like, we don't see them. And, um, and why is that? Um, I think it's a weird combination of like corporate media, um, of like Americans just kind of not wanting to move in the direction. Because what this— you, you said something really smart, which is this This movie finds the discomfort and just walks straight into it, you know? Like, the discomfort of turning men into killing machines, the discomfort of what war is like, the discomfort of the sexualization of violence. And we seem unable or unwilling to move in the direction of discomfort through the 25— maybe if we had culture like this, we wouldn't be fighting wars 25 years later, you know?"
+    },
+    {
+      "name": "C",
+      "timestamp": "68:55",
+      "text": "I think this is such a great point."
+    },
+    {
+      "name": "D",
+      "timestamp": "68:57",
+      "text": "Yeah, because the culture is part of what stopped— you mentioned the Colin Powell Like, it was— I remember growing up and it was like kind of the, the rock music I listened to, the movies I saw, like, taught me that war was wrong and bad, you know? And, and, and meanwhile, like, Homeland doesn't, you know? Like, like, with all due respect to, you know, Claire Danes and Mandy Patinkin, like— Like 24. Yeah, 24. Like, all right, all All these, all these Muslim terrorists that are like, you know, in our pop culture."
+    },
+    {
+      "name": "C",
+      "timestamp": "69:30",
+      "text": "Um, or the Bradley Cooper sniper movie. Like, these are not movies."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:34",
+      "text": "Oh my God, that's the worst. Gross. Yeah. And"
+    },
+    {
+      "name": "B",
+      "timestamp": "69:37",
+      "text": "meanwhile, I didn't see— I didn't see Warfare, right? That's like the Alex Garland one. Uh, I didn't see that one."
+    },
+    {
+      "name": "D",
+      "timestamp": "69:42",
+      "text": "Yeah. But meanwhile, so that— and what happened to the people fighting the war? Like, what do you think the opioid epidemic is? You know, a lot of the opioid epidemic is guys who came back and were traumatized or I mean, so the ripples have been enormous from this whole enterprise, and we just don't have culture in movies and music that reckons with it."
+    },
+    {
+      "name": "C",
+      "timestamp": "70:00",
+      "text": "This point just gives me chills because, like, we're not, like, struggling with that uncomfortable nature of contemporary life across so many vectors, like the nature of the wars we fight, the opioid crisis, like, you know, the, the, you know, school shootings, like, being, you know, like another one, you know, like, we just don't, we just don't really interrogate those things. And like, there's, there's ways in which you make art that's too overtly political and like it just becomes like sort of in service to like, you know, a message or a platform or something. It doesn't work as art. But clearly, like, the, the genius of this movie and like the strength of even, you know, Apocalypse Now, like all these movies from this era, like really did wrestle with the unresolved tensions here in a way that, you know, illuminated them, then made the user— made the viewer like face them. And, and we just aren't doing that across— and yes, some of that's like maybe the flattening of culture. Like, it's like everything has to, you know, has to exist like in a multi-quadrant whatever, or like exist for some, you know, exist for some niche to like be split up in a bunch of TikToks, or so I can watch Glenn Gary Gunnarsson 20-second clips on my phone. I don't know, but that's— it's depressing now that you put your finger on it."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:13",
+      "text": "Some of it may be also just like the— with social media and stuff, like so much more of this stuff we see just in the timeline. The notion of the stuff that is just dropped on the timeline."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:22",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "71:23",
+      "text": "That in itself is its own kind of depressive thing that causes you to maybe become sensitized, I think, to it, or desensitized to it."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:30",
+      "text": "Yeah, because we were— I mean, the other thing, because you take it to the film, I mean, one of the other things that comes across in that Stars and Stripes meeting, by the way, notably Pete Hegseth has fired the leadership. Pete Hegseth is trying to take Stars and Stripes back to what it was then."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:44",
+      "text": "Right, right."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:45",
+      "text": "He just kind of purged the entire staff because they wouldn't report what he wanted."
+    },
+    {
+      "name": "C",
+      "timestamp": "71:49",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "71:50",
+      "text": "But when the guy's like, you know, did you report a kill to Modine? You know, add a kill in there or show— How about a general? We do 2 kinds of stories. The ones where we're winning hearts and minds are the ones where we're killing. And meanwhile, what you're seeing is they're not winning any hearts and minds, that's for sure. Right. But you're right, because the absence of social media Sure, there was some great journalism, but a lot of Americans could just live in a reality in which they didn't see this, and they were fed propaganda. And it was only when a critical mass of Americans started coming home and being like, hey, here's what's really happening over there, that you saw public opinion really turn."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:30",
+      "text": "Yeah, and Cronkite putting it on the news, right?"
+    },
+    {
+      "name": "D",
+      "timestamp": "72:32",
+      "text": "Cronkite going on the news, and also young people— there was a draft back then. I mean, that's another thing that the movie— Like, because there was a draft, like, young people had incentive to protest in a way that they don't with these wars because you can opt out. Mm-hmm."
+    },
+    {
+      "name": "B",
+      "timestamp": "72:50",
+      "text": "I want to just shift for a minute to back to Kubrick here because I want to make sure we hit this. Like, this movie looks insane. It is so well shot. And just like a couple of ones, like the obstacle course at Like, I just almost fell off the couch. Like, I couldn't believe that shot. Or the helicopter flying in front of the sun. I was like, J.J., I see you with your TIE fighters in Force Awakens. Like, you just ripped that shot off. Or just everything about when the squad is entering Wei City versus— Jason, when we did Dr. Strangelove, and it has the kind of like the skirmish that's happening outside the headquarters. Right. The scope and the scale of what they created here. And again, this was at— this was all filmed in London at the Beckton Gas Works in East London."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:41",
+      "text": "That's crazy to me."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:42",
+      "text": "Which—"
+    },
+    {
+      "name": "C",
+      "timestamp": "73:42",
+      "text": "it's crazy."
+    },
+    {
+      "name": "D",
+      "timestamp": "73:43",
+      "text": "I read that too, and I couldn't get over it."
+    },
+    {
+      "name": "C",
+      "timestamp": "73:45",
+      "text": "Yeah, I had never— that was a new fact to me. I had never known that this, like, they didn't go anywhere for shooting this. It's absolutely crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "73:52",
+      "text": "They brought in 200 palm trees from Spain and 100,000 plastic plants from Hong Kong. And they shot over the year. So the production design on this film— the other thing that really stood out to me besides Wei City, which is just, like, mind-blowing, was the barracks. And this location of the barracks with the red floors..."
+    },
+    {
+      "name": "D",
+      "timestamp": "74:13",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "74:14",
+      "text": "And just this huge— and them marching, you know, back and forth, and the camera kind of, like, following them and then turning around and then going back. This is production designer Anton Furst. who went straight from this to change history and everything on Tim Burton's Batman, for which he would win an Oscar. Just Anton Furst, incredible production design here."
+    },
+    {
+      "name": "D",
+      "timestamp": "74:39",
+      "text": "It's— on the shots, the couple things that struck me, the first is, like, having read a lot about Kubrick, right? Like, what you hear is he, like, pushes these actors beyond their breaking point, you know? Like, endless takes. And actually, I thought that that might have informed the shooting of the whole training sequence, right? Like, in a way, the drill sergeant is doing to the guys what Kubrick does to his actors. So it's actually not a comment about the shots, but more about how Kubrick's own style has a bit in common there. But then I was really struck in the last third. It's probably not the most accurate depiction of what this looks like. But he chooses to have, like, this kind of repetitive shot of, like, fires, you know? Like, they're just moving around."
+    },
+    {
+      "name": "C",
+      "timestamp": "75:32",
+      "text": "Right."
+    },
+    {
+      "name": "D",
+      "timestamp": "75:33",
+      "text": "And wherever they move is bombed-out building with fire. And it almost looks like the surface of another planet. It's stunningly beautiful in this dark way. But the repetitive nature of the shots, right? Like, we're just traversing through this. fire, quite literally. It left me with this kind of overwhelming sense of the pointlessness of it, you know, and of the kind of idea that these guys are moving. And when they figure out that they're lost, which is a great scene, like, hey, we're lost, we need to go over there. And it's like, oh fuck, how are we gonna get over there? They're just like moving through another maze of fire. It's almost like the maze— Yeah, no GPS. Yeah, no GPS."
+    },
+    {
+      "name": "B",
+      "timestamp": "76:16",
+      "text": "No, nothing. They're just—"
+    },
+    {
+      "name": "D",
+      "timestamp": "76:17",
+      "text": "It's just like, we've moved through one maze of fire, now we're gonna another maze of fire. And it kind of speaks to the— the shots complement what he's trying to communicate, I think, about the nature of this enterprise."
+    },
+    {
+      "name": "C",
+      "timestamp": "76:30",
+      "text": "The other element that's in all of those— the Wey City stuff, particularly towards the end— is the score, which is—"
+    },
+    {
+      "name": "D",
+      "timestamp": "76:36",
+      "text": "Oh yeah, the music is incredible. The score is incredible, and the needle drops are incredible."
+    },
+    {
+      "name": "C",
+      "timestamp": "76:40",
+      "text": "The needle drops are great, but like, the score that comes in at the end is Vivienne Kubrick. It's their— it's his daughter who does this, and this is essentially her only score credit in movie history. Wow, that's good. She just like came in, was just like, yeah, I'm gonna like do this like weird droney synthesizer with like metallic screeching stuff. And like, you know, uh, for just, you know, just 20 minutes of the movie. And it completely sets the texture of this on-fire hellscape that they have to, you know, wander through in a maze. Um, I, I absolutely love it. Apparently she was asked, like Stanley wanted her to to do the, uh, the score for Eyes Wide Shut. Eyes Wide Shut. And she was like, no, I'm not gonna do it. And they got in a huge fight, and, and they— and like, and like, apparently they never reconciled before his death. It was like such a huge fight that she refused to do the score for his last movie. Damn. Yeah, that's terrible."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:30",
+      "text": "Damn."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:30",
+      "text": "I have— so another— can I make one other point too?"
+    },
+    {
+      "name": "C",
+      "timestamp": "77:34",
+      "text": "Yeah, please, please."
+    },
+    {
+      "name": "B",
+      "timestamp": "77:34",
+      "text": "Yeah, please."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:35",
+      "text": "Can we just like take a minute on Matthew Modine? I mean—"
+    },
+    {
+      "name": "C",
+      "timestamp": "77:39",
+      "text": "Oh, I know, I— this was a good one."
+    },
+    {
+      "name": "D",
+      "timestamp": "77:40",
+      "text": "This is— so, okay, I have a couple thoughts on this. Like, one is he kind of busts out of the Kubrickian performance, right? Yeah. Like, most Kubrick actors, you know, by design of Kubrick, are kind of monotone, and, you know, they speak in clipped dialogue. And he is allowed to have like a charisma, uh, that is incredibly magnetic. He's allowed to be much more kind of alive almost than, than some of the people around You know, he's a perfect portal. He's a perfect guy to follow through this world."
+    },
+    {
+      "name": "C",
+      "timestamp": "78:15",
+      "text": "Yep."
+    },
+    {
+      "name": "D",
+      "timestamp": "78:16",
+      "text": "As, like, our guy that we're, like, attached to. So that's the first point of, like, it's not only a great performance, it's a performance that is not— it's atypical for a Kubrick movie. You know, Kubrick usually flattens somebody's charisma or makes it a cartoon, like Jack Nicholson in The Shining or something. This is just, like, a fun performance, a charismatic performance. And then I went down a rabbit hole here, like, fucking Modine did not have the career he could have, right? I mean, there's just not a ton of A-list, you know, performances. But here's this guy that kind of— he just kind of got lost, I guess. There were a lot of male actors around this time. But, you know, he delivers these lines. Even that line where Kubrick is winking at the audience."
+    },
+    {
+      "name": "G",
+      "timestamp": "79:02",
+      "text": "You write Born to Kill on your helmet, and you wear a red hat. What's that supposed to be, some kind of sick joke? No, sir. What is it supposed to mean? I think I was trying to suggest something about the duality of man, sir. The what? The duality of man, the Jungian thing, sir."
+    },
+    {
+      "name": "D",
+      "timestamp": "79:16",
+      "text": "You know, and yeah, he communicates the entire kind of theory of the case about— Right there. What, you know, right there. But he does it in such a way with like a slight tone of humor that he gets away with it, you know. I just thought it was like such an interesting performance. Performance by such an interesting actor who just never got another role like this."
+    },
+    {
+      "name": "C",
+      "timestamp": "79:37",
+      "text": "I agree. He absolutely crushes in this. And all the stuff he does, like, sort of in the slow-mo close-ups where he's like, you know, either with the death of Pyle or like with, you know, the death of the sniper at the end, like, he, he conveys so much. Like, uh, it's a great— it's a real standout performance. And actually, I think your point that he escapes the Kubrick mold is really important because like he is able He's doing so much more emoting than like we're used to seeing in a Kubrick film. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:07",
+      "text": "Oh yeah, and the detail that he was shooting Birdy, which was like an early indie movie— I think Alan Parker was the director— Alan Parker assembled a bunch of footage from the movie and sent it to Kubrick and said, you have to cast this guy. Amazing. And Kubrick didn't like any of the footage because it was all of his performances and stuff, but there was also some shots of him just like hanging around when he didn't realize he was being filmed, and he just loved his presence, and that was what got Kubrick. So like, that's— I love the idea of your director like going out for you. Yeah, get you another job with Stanley frickin' Kubrick."
+    },
+    {
+      "name": "C",
+      "timestamp": "80:43",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "80:44",
+      "text": "But also, speaking of that, he turned around and did the favor. He— Matthew Modine was with his wife and was going to the Hard Rock Cafe or whatever in New York and sees Vincent D'Onofrio working the door, and they had done some stage stuff together. And he was like, you need to come and try out for this movie. And D'Onofrio had never done a film and gets the— gets the audition, gets hired. But Kubrick's like, gain weight. He gained 30 pounds. And Kubrick's like, no, now you just look strong. Gain more. So he had to gain 80 pounds. And then somebody called it out perfectly. He had to keep on that weight for a year as they're filming this movie, which he said was extremely difficult. But this performance by Private Pyle in this movie— It's crazy. Unbelievable."
+    },
+    {
+      "name": "C",
+      "timestamp": "81:35",
+      "text": "It's insane."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:36",
+      "text": "Right?"
+    },
+    {
+      "name": "D",
+      "timestamp": "81:36",
+      "text": "With saying almost nothing. Like, what he does with his face, the way he goes from the smirk at the beginning with the drill sergeant to that deranged psychotic look on his face in the bathroom before he shoots himself and the drill sergeant."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:52",
+      "text": "So scary."
+    },
+    {
+      "name": "D",
+      "timestamp": "81:52",
+      "text": "He just communicates so much, like, physically."
+    },
+    {
+      "name": "B",
+      "timestamp": "81:56",
+      "text": "So I am curious about one thing, which is after the jelly doughnut, right, the next scene where, where Joker's doing his uniform and you're like, oh, this guy is fucked. But then he kind of bottoms out and he starts to excel, right? He's good with the rifle and he's starting to do it. They don't really show why he snaps. Like, there isn't like another inciting incident. I guess it's just the graduation and the awareness that he's I don't"
+    },
+    {
+      "name": "C",
+      "timestamp": "82:21",
+      "text": "think it's like— I don't think there's an inciting incident. I think he's cracked. Like, I think the, the Code Red that they run on him, like, sort of, like, you know, strips him of all of his humanity. I think, like, they are successful in sort of, like, the, the goal of, like, stripping out, like, any fear, any, like, you know, reservations he has about killing. Um, and, like, it turns him into a psychopath who's willing to murder, um, sort of, you know, the, the, the instrument of his, uh, his anguish."
+    },
+    {
+      "name": "D",
+      "timestamp": "82:46",
+      "text": "And it may be because, you know, part of what I think Kubrick's message is, is if you turn people into killers, they might kill other people. You know, they might not just kill Vietnamese. Right. Yeah. They might kill the drill sergeant and themselves. Um, it may be that he snapped after the code red, and frankly, he was training better to turn himself into a killer to do what he did. You know, like, like, it may be that psychologically he's like, okay, I'm just— okay, now I'm gonna make myself a psycho killing machine. machine so I can kill this fucking drill sergeant, not so I can go to Vietnam, you know?"
+    },
+    {
+      "name": "C",
+      "timestamp": "83:19",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:19",
+      "text": "Dang. Yikes. That— I mean, that is so— I am in a world of shit. My God. And the face, absolutely, absolutely horrific."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:30",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "83:31",
+      "text": "D'Onofrio, amazing, amazing performance. Guys, anything we missed? Anything you want to make sure we hit?"
+    },
+    {
+      "name": "C",
+      "timestamp": "83:36",
+      "text": "This was a great, robust discussion. I had a lot of notes and we somehow have gone through all As usual, the needle"
+    },
+    {
+      "name": "D",
+      "timestamp": "83:45",
+      "text": "drops are great, and Kubrick's"
+    },
+    {
+      "name": "C",
+      "timestamp": "83:46",
+      "text": "good with music."
+    },
+    {
+      "name": "D",
+      "timestamp": "83:47",
+      "text": "I mean, and they're— it's diverse, like from like the country music to the Vietnam-era music to the Paint It Black at the end. Like, it's, it's, yeah, it's a, it's a great curation that he has that like somehow this very like eclectic and diverse set of songs like all makes sense in this movie."
+    },
+    {
+      "name": "B",
+      "timestamp": "84:04",
+      "text": "Especially that opening, right? Going from that country opening with the hair shaving, yeah, and then straight to the drill sergeant Right? And what I love is there's none of the voiceover until after the drill sergeant scene. It's only once they're running, you know, that that's when he starts the voiceover. And I also like the fact that the voiceover is used very sparingly."
+    },
+    {
+      "name": "C",
+      "timestamp": "84:27",
+      "text": "And it's like abstract, like the voiceover is like sort of— it reads like, it reads like it's his diary that he's keeping as opposed to the narrator of the film talking to you."
+    },
+    {
+      "name": "D",
+      "timestamp": "84:36",
+      "text": "And just to reinforce my point about like Like how he's kind of doing something better with war movies, like the consistent John Wayne voice and jokes from Joe. Yeah, yeah, yeah, yeah. It's a really good device that he keeps going back to John Wayne because real war is not like a John Wayne movie. I thought that was really masterfully done too. And the occasional— and one last point for me is like, there are these tiny glimpses of the Vietnamese, and you're right, the The one that'd be problematic is like the prostitute, Mischa Horney. But like the sniper at the end is just— I don't know who that woman— but, but like somehow he encapsulates the, the determination, the unfairness of them having to do this. Yeah. Obviously, to skip ahead here, Tilda Swinton as the sniper. Yeah, I was about to ask. I mean, the drill sergeant would be an interesting one too."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:43",
+      "text": "Oh yeah."
+    },
+    {
+      "name": "D",
+      "timestamp": "85:45",
+      "text": "But I also do think he somehow manages to take these kind of little glimpses of Vietnamese humanity and make them really"
+    },
+    {
+      "name": "C",
+      "timestamp": "85:58",
+      "text": "land."
+    },
+    {
+      "name": "B",
+      "timestamp": "85:58",
+      "text": "Yeah, I literally just had— Sam and I watched Doctor Strange this week, so I finally got to Tilda as the Ancient One. So I think that could, that could work in that, in that mode."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:11",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:12",
+      "text": "Jason, what about you? Who would Tilda play for you?"
+    },
+    {
+      "name": "C",
+      "timestamp": "86:14",
+      "text": "I think Tilda Swinton would have to play Hartman for sure. Like, I think like Tilda is a I think Tilda as the drill sergeant would be amazing."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:25",
+      "text": "It would be amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:26",
+      "text": "I just want to see her in the hat mostly."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:30",
+      "text": "Yeah, absolutely, absolutely. Guys, we did it!"
+    },
+    {
+      "name": "C",
+      "timestamp": "86:34",
+      "text": "We did it!"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:34",
+      "text": "Full Metal Jacket!"
+    },
+    {
+      "name": "D",
+      "timestamp": "86:35",
+      "text": "Whoo!"
+    },
+    {
+      "name": "B",
+      "timestamp": "86:36",
+      "text": "Full Metal Jacket."
+    },
+    {
+      "name": "C",
+      "timestamp": "86:38",
+      "text": "Great flick."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:38",
+      "text": "Tough but rewarding watch, man. Tough but— yeah, like, like, and that's, you know, and that, that, that's the Kubrick of it all, right? Like, he doesn't make these things easy, but like, they, they The payoff is worth it, you know."
+    },
+    {
+      "name": "B",
+      "timestamp": "86:50",
+      "text": "Mm, absolutely. Ben, tell the folks about your book, which dropped."
+    },
+    {
+      "name": "D",
+      "timestamp": "86:56",
+      "text": "Oh yeah, everybody can check out my book, All We Say, which is a history of the United States and that kind of argument we've been having with each other about identity from, from the founding to now. So it's a single-volume history of the United States. I use speeches to tell a story, but it's very much a story. I mean, it's not an anthology, and, and it's basically about this argument between 2 stories, a white nationalist exceptionalism versus a progressive exceptionalism trying to close the gap between who we say we are and who we are. This movie shines a light on the darker aspect of who we are, but we occasionally need to be reminded that we can be something else too. So that's what the book is."
+    },
+    {
+      "name": "B",
+      "timestamp": "87:36",
+      "text": "Absolutely. Did you read it? Did you do the—"
+    },
+    {
+      "name": "D",
+      "timestamp": "87:40",
+      "text": "I did the audiobook. And actually, they did a cool thing, which is I read the audiobook, and, and again, most of the book is my writing, but then they have actors, um, do the speeches, and that's kind of cool."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:51",
+      "text": "Oh, that's great."
+    },
+    {
+      "name": "D",
+      "timestamp": "87:52",
+      "text": "That's cool. Cool production."
+    },
+    {
+      "name": "C",
+      "timestamp": "87:53",
+      "text": "Yeah. Who did the JD Vance speech? Who did the—"
+    },
+    {
+      "name": "D",
+      "timestamp": "87:56",
+      "text": "I had to do the JD Vance speech because it wasn't the full speech. Unfortunately, I had to read the, the JD excerpts."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:01",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:02",
+      "text": "Oh my gosh, that's a tough—"
+    },
+    {
+      "name": "C",
+      "timestamp": "88:03",
+      "text": "that's really funny. Tough piece of writing."
+    },
+    {
+      "name": "D",
+      "timestamp": "88:05",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:11",
+      "text": "Holy shit, dude!"
+    },
+    {
+      "name": "C",
+      "timestamp": "88:13",
+      "text": "Very dense conversation as always."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:15",
+      "text": "Really good. Yeah, really good. Yeah, this whole fall adjacent thing turns out worked out good."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:20",
+      "text": "We finally got there."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:22",
+      "text": "We finally, finally got there. All right, are you ready to do some quick voicemails?"
+    },
+    {
+      "name": "C",
+      "timestamp": "88:27",
+      "text": "Let's do it."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:30",
+      "text": "Okay, here is our first voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "88:36",
+      "text": "This is your brother, Animal Mother."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:38",
+      "text": "Okay, hold up, hold on, hold on. I had no clue that this was where Animal Mother came from."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:45",
+      "text": "Until now?"
+    },
+    {
+      "name": "B",
+      "timestamp": "88:46",
+      "text": "Did you know? I had no idea. No idea."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:49",
+      "text": "God."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:50",
+      "text": "I was absolutely gobsmacked, uh, when that happened."
+    },
+    {
+      "name": "C",
+      "timestamp": "88:54",
+      "text": "That's crazy, bro. That is crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "88:56",
+      "text": "I don't know what to tell you, man. I hadn't seen it in a long time. So anyways, all right, Animal Mother, I, I just learned a lot about you. All right, here we go."
+    },
+    {
+      "name": "G",
+      "timestamp": "89:05",
+      "text": "War is neither glamorous nor fun, with the following exceptions: the American Revolution, World War II, and the Star Wars trilogy. If you'd like to learn more about war, there's lots of books in your local library with cool gory pictures. Peace, man. Hello, animal friends and animal"
+    },
+    {
+      "name": "E",
+      "timestamp": "89:23",
+      "text": "lovers. One night during basic, our drill sergeant barged in at 2 AM ordering our squadron To run to the latrines with our flashlights."
+    },
+    {
+      "name": "F",
+      "timestamp": "89:32",
+      "text": "Once we were all stuffed in the dark, he barred roll call, and each trainee had to shine their light on the ceiling as a reply."
+    },
+    {
+      "name": "G",
+      "timestamp": "89:39",
+      "text": "Once the whole ceiling was lit, Sarge ordered lights out, then said, \"The enlisted force is the shelter of the dispossessed.\" After ten seconds of dark silence, he sent us all back to bed. There is an honest savage world that art, entertainment, and journalism. can only hint at, and that civility tries to camouflage. Gunny Hardman might have given us a glimpse, but he was shot dead in his undies, which might not be an ideal training outcome. My namesake is the perfect marine grunt, a melee weapon, not a diplomat, with enough awareness of optics to keep the ugliness between friends and colleagues. If the Corps wanted him to display the duality of man, they'd had issued him one. The soldiering life, in my admittedly weird and narrow opinion, is best captured at the end scene. A huge group of young men sing the Mickey Mouse Club theme song while marching through the ruins of a land they're not trained to understand. You will climb like all people. Fuck. Have you heard a truly nasty war story from the wolf's mouth? Thank you all. See you at the perfume"
+    },
+    {
+      "name": "B",
+      "timestamp": "90:50",
+      "text": "I will say, Jason, for me, I had to nope out at the idea of like, could I be a soldier? Could I— like, I always thought I could actually do a pretty decent job if I had been called and the time had been right for me. But when you have the shared latrine with no stalls, I'm like, I don't know. Just pooping right next to somebody"
+    },
+    {
+      "name": "C",
+      "timestamp": "91:12",
+      "text": "else. Someone?"
+    },
+    {
+      "name": "B",
+      "timestamp": "91:13",
+      "text": "I don't, I don't think I can do that."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:15",
+      "text": "Yeah, I mean, a lot of people, a lot of people have said that, uh, pooping at basic is the hardest part of going to war, uh, overall. That's really— it's not like seeing your friends die in a pointless, uh, uh, foreign battlefield. It is the pooping in on Parris Island. That is the hardest part."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:35",
+      "text": "Seems tough. Seems tough. Uh, what was the question? It was—"
+    },
+    {
+      "name": "C",
+      "timestamp": "91:39",
+      "text": "I think it was like, have you ever heard like a true Like, gnarly war story, I think, or like a, like a, like a tough one."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:45",
+      "text": "Um, uh, I mean, I've talked about how my dad's best friend was Spanky Kushner. Yeah. Who was a famous Vietnam POW for 6 and a half years."
+    },
+    {
+      "name": "C",
+      "timestamp": "91:55",
+      "text": "That's crazy."
+    },
+    {
+      "name": "B",
+      "timestamp": "91:56",
+      "text": "And about how they at one point kidnapped and killed the camp commander's cat. Yeah. As a, as a form of retaliation. And then they, they were then strung up for 3 days Um, and it was literally like, it was sheer will to not die. He had one of his friends, uh, died in, in the midst of that. Um, so yeah, bad, bad shit, but he was always a cool guy."
+    },
+    {
+      "name": "C",
+      "timestamp": "92:20",
+      "text": "That's pretty tough. Um, shout out to my, um, my stepfather who, uh, was an Army officer in Vietnam and received a Purple Heart, um, during his time there. Um, it was very cool when I went for my, uh, departure photo Um, at the White House, uh, he, he came and wore his, um, Purple Heart, uh, ribbon, um, to the photos, which I thought was, um, pretty cool for him."
+    },
+    {
+      "name": "B",
+      "timestamp": "92:47",
+      "text": "That is super cool. Yeah, super cool. Way to go. All right, here is our next voicemail. Mr. Java cannot wait to see what is about to happen."
+    },
+    {
+      "name": "C",
+      "timestamp": "93:01",
+      "text": "A lot of guesses, a lot of guesses."
+    },
+    {
+      "name": "E",
+      "timestamp": "93:03",
+      "text": "Gomer, Gomer Pyle's not doing well. Gunny Sergeant Ritter messed him up, broke his spirit, broke his brain. Gomer Joker thinks he's special, but he ain't all that. Just the smartest nerve the devil's dog. Oh, Joker! Mama! Gonna run up on that stubborn gal. Would be heaven like an animal. Oh, Mama! By the chill of the night. Wow. Hey guys, great movie. 2 movies for the price of one. I'm a big Modine head, so really love that you're doing it. Do you guys have any wild stories from when you were at camp as a kid? Any boyish shenanigans that happened when you're away from home? Tough camp counselor? Give us something between this movie and meatballs. Mama! Listen, listen, listen,"
+    },
+    {
+      "name": "C",
+      "timestamp": "94:48",
+      "text": "listen. Great voicemail as always, Mr. Java. The best who has ever done it."
+    },
+    {
+      "name": "B",
+      "timestamp": "94:52",
+      "text": "Amazing."
+    },
+    {
+      "name": "C",
+      "timestamp": "94:53",
+      "text": "I was glad we got out is the Beastie Boys one last week as a. Oh yeah. Oh"
+    },
+    {
+      "name": "B",
+      "timestamp": "94:58",
+      "text": "yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:00",
+      "text": "I've never. I've seldom. Like the only time I've slept away for camp was like was like week was like the. Was like the week-long camp of sixth grade camp. There's a sixth grade camp we went to. It was like a Monday through Friday thing."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:16",
+      "text": "Yeah."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:17",
+      "text": "Yeah, that's all. That's the only time I've ever gone to like a sleepaway camp of any sort, I feel."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:22",
+      "text": "But again, I still don't understand why was this was just not the Midwest. They just don't do it because like isn't this a big Jewish East Coast thing?"
+    },
+    {
+      "name": "C",
+      "timestamp": "95:30",
+      "text": "No, it's a lot of other Jews, Jewish kids went to a sleepaway camp. I just didn't."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:35",
+      "text": "Oh, they did. You."
+    },
+    {
+      "name": "C",
+      "timestamp": "95:36",
+      "text": "Oh yeah, yeah, yeah, it was very popular."
+    },
+    {
+      "name": "B",
+      "timestamp": "95:38",
+      "text": "You're like, I could be watching, I could be watching videos at the house. Like,"
+    },
+    {
+      "name": "C",
+      "timestamp": "95:42",
+      "text": "I just like, I think my mom wasn't into the idea. And like, I, I like, I never sort of said, you know what I want to do is go away for 6 weeks to like, you know, this camp. My brother maybe went to one camp once. Um, I remember he went to the Tetons once. Um, I don't remember what it was for, but, um, yeah, so I've never really had a lot of camp experience. This, at the 6th grade camp, I did like get into a fight with my camp counselor who was like a, you know, I was in 6th grade and he was like an 11th grader or something like that. And like, um, I like, he like, yeah, I, I'd gotten a letter. Like, I don't even know how this worked. Like, I had a letter from my mom. I'm, I, it's a, it raises the question of how that even worked because I'm not sure how you could have got mail delivery in the 4 days that you were there. But in any case, I had a, a letter from my mom and I knew in this letter that my, I think my mom like was like sort of like, oh, like, you know, I know you're the kid is your counselor and he's kind of a dork or something. He's a jerk or something like that. that. And I didn't like my counselor anyway. Um, so I— and then my counselor like stole this note, um, and was trying to like read it. Um, and I like fucking attacked him to get the note back because I didn't want to like, you know, cause a whole thing where he's— my mom was talking shit about him in the letter. This is my memory of it. Who knows if any of this is true?"
+    },
+    {
+      "name": "B",
+      "timestamp": "96:58",
+      "text": "Huh."
+    },
+    {
+      "name": "C",
+      "timestamp": "96:59",
+      "text": "Um, and like I basically just like, fuck Bodied this, like, kid who was, like, 5 years older than me. Um, because, like, I was just always, like, a big— a big fat kid who could, um, just throw my weight around. But yeah, I don't know. That's why I remember that. I don't know if that counts."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:14",
+      "text": "Listen, if you want to get to the bottom of the story, just do the Hoffman process."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:18",
+      "text": "It'll all come out?"
+    },
+    {
+      "name": "B",
+      "timestamp": "97:19",
+      "text": "It'll all come out. You'll figure everything out. I will say, um, Sam just— we just signed up Sam for next summer. 2 weeks of overnight camp. That, by his insistence, he was like, I want, I want to go for 2 weeks. So cannot, cannot—"
+    },
+    {
+      "name": "C",
+      "timestamp": "97:35",
+      "text": "did he go? I forget. He went for 1 week this previous."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:38",
+      "text": "He went for 5 nights. Yeah, 5 nights and loved it. So now it's like 5 nights plus the weekend and then 5 more nights."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:44",
+      "text": "I bet Griffin would like it, frankly, because he likes— maybe unclear, we'll see. I don't know."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:49",
+      "text": "I bet he'd be—"
+    },
+    {
+      "name": "C",
+      "timestamp": "97:50",
+      "text": "we're not—"
+    },
+    {
+      "name": "B",
+      "timestamp": "97:50",
+      "text": "I bet he'd be into it."
+    },
+    {
+      "name": "C",
+      "timestamp": "97:51",
+      "text": "Yeah, we'll see."
+    },
+    {
+      "name": "B",
+      "timestamp": "97:52",
+      "text": "I bet he'd be into it. Um, I've already told all my gymnastics camp stories, so I'm gonna, I'm gonna pass on that one. Uh, thank you so much, Java. Here is our next voicemail. The Truthsayer. Let's get into it."
+    },
+    {
+      "name": "H",
+      "timestamp": "98:12",
+      "text": "Hey y'all, Birria here. Stanley Kubrick, Parris Island, Gunnery Sergeant Hartman yelling insults that still get quoted at every bachelor party. At the center of this is Vincent D'Onofrio as Private Leonard Gomer Pyle Lawrence. But before that, D'Onofrio was a big guy taking odd jobs around New York City. One of them was as a bodyguard to a rock legend."
+    },
+    {
+      "name": "G",
+      "timestamp": "98:37",
+      "text": "I'd probably hired him on looks alone. For today's Truthsayer, you just gotta figure out which rock and roll star was protected by a young Vinnie D. 2 of the following are false, 1 is true. Good luck."
+    },
+    {
+      "name": "H",
+      "timestamp": "98:49",
+      "text": "Time for the Truthsayer. All right, here are the 3 rock and roll legends. Number 1, David Number 2, Robert Plant, or is it number 3, Tina Turner? Back in the early '80s, which one of those rock and roll legends was guarded by Vincent D'Onofrio?"
+    },
+    {
+      "name": "C",
+      "timestamp": "99:06",
+      "text": "It's good. Wow. I think it's Tina Turner. I just, I got a feeling he's— that's just like sort of his vibe,"
+    },
+    {
+      "name": "B",
+      "timestamp": "99:13",
+      "text": "man. He would fit in so well in the Thunderdome."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:17",
+      "text": "He would, he would. He's as Master Blaster."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:22",
+      "text": "There we go. All right, let's see."
+    },
+    {
+      "name": "H",
+      "timestamp": "99:23",
+      "text": "All right, which rock star did Vincent D'Onofrio guard? It's number 2, Robert Plant. Early '80s, before Hollywood, D'Onofrio worked as a security guard for the Led Zeppelin frontman. Plant wasn't even his most regal client. He also guarded Yul Brynner, the King of Siam himself."
+    },
+    {
+      "name": "C",
+      "timestamp": "99:41",
+      "text": "Oh, amazing."
+    },
+    {
+      "name": "H",
+      "timestamp": "99:41",
+      "text": "Between gigs, he also worked the front door at Hard Rock Cafe and made deliveries."
+    },
+    {
+      "name": "G",
+      "timestamp": "99:47",
+      "text": "So he protected the Golden God and the King of Siam, and Gunnery Sergeant Hartman still couldn't get him over that wall. Here ends the Truthsayer."
+    },
+    {
+      "name": "B",
+      "timestamp": "99:54",
+      "text": "That was amazing, the point about them not being prepared for urban combat. Like, I thought there was going to be more climbing."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:03",
+      "text": "Yeah, exactly."
+    },
+    {
+      "name": "B",
+      "timestamp": "100:05",
+      "text": "Oh, boy. All right, here is our next voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "100:12",
+      "text": "Escape Hatch, it's Kev here. We're back with Stanley Kubrick. We're doing Full Metal Jacket, 2 of Stanley Kubrick's best movies in one, both of them quite different from each other. Mm-hmm. Which, which leaves the whole piece with an interesting legacy in a lot of film nerd minds. I love them both. I think they're great. But I think the star of the show here is that first half with Vincent D'Onofrio and the incredible R. Lee Ermey. Kev's question. You know, the, the thing about this R. Lee Ermey character, the Sergeant Hartman, is that while it is so scary to imagine him screaming directly in your face, I feel like I couldn't help but laugh, maybe out of anxiety."
+    },
+    {
+      "name": "C",
+      "timestamp": "100:55",
+      "text": "Yeah."
+    },
+    {
+      "name": "G",
+      "timestamp": "100:56",
+      "text": "And then the things he sang are also quite funny. So Kev's question: I'm wondering if you have a time in your life at which it was really not a great idea to to laugh, but you couldn't help it. Mm. I also want to recommend a movie, if that's okay. It's a big obvious one. Everyone you know has seen it. You Can See Everything by Nathan Fielder and Lance Oppenheim. It's pretty groundbreaking and amazing in the way it continues both the story of Elizabeth Holmes and the project of Nathan Fielder and, and Lance Oppenheim. It is the ultimate version of a Kev movie everybody likes."
+    },
+    {
+      "name": "C",
+      "timestamp": "101:32",
+      "text": "So check it out. I gotta see—"
+    },
+    {
+      "name": "G",
+      "timestamp": "101:33",
+      "text": "you haven't already? I mean, I know Jason's busy, but like, if you're listening to this and you haven't already, come on, man, just go. All right, talk to you guys next week."
+    },
+    {
+      "name": "B",
+      "timestamp": "101:43",
+      "text": "Once again, it's Kev's Questions. It's a"
+    },
+    {
+      "name": "C",
+      "timestamp": "101:47",
+      "text": "great"
+    },
+    {
+      "name": "B",
+      "timestamp": "101:48",
+      "text": "question. What's, what's your plan? What's your plan?"
+    },
+    {
+      "name": "C",
+      "timestamp": "101:50",
+      "text": "To see this movie?"
+    },
+    {
+      "name": "B",
+      "timestamp": "101:52",
+      "text": "Yes. You're going tomorrow?"
+    },
+    {
+      "name": "C",
+      "timestamp": "101:53",
+      "text": "I don't know when I'm gonna go. We'll see. I have to get over jet lag first. I'm making no commitments to you on this pod. You don't, you don't control my calendar. Um, I've got way too many things on the books right now, and I just needed to clear them off after not being in town for, um, a while. It will not happen this year."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:10",
+      "text": "Have you been spoiled?"
+    },
+    {
+      "name": "C",
+      "timestamp": "102:11",
+      "text": "No."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:12",
+      "text": "You haven't? Okay, good. Please be careful. Please be careful and don't, don't get— I know you generally don't care about spoilers, but yeah, it really is worth it to go in Yeah, I would love to see it. What, what is hap— what is happening? Because it's so bananas and so unexpected in so many ways that I was really, really thankful that I didn't— like, I listened to The Big Picture today and they had kind of like a spoiler-free section and then a spoiler-full section, and I would say you shouldn't listen to either. But I don't know, this is something really, really, really special."
+    },
+    {
+      "name": "C",
+      "timestamp": "102:48",
+      "text": "Yeah, I— we'll see, we'll see. I might get to it eventually. I'm not making any promises to you. We'll see, we'll see."
+    },
+    {
+      "name": "B",
+      "timestamp": "102:59",
+      "text": "Okay, what"
+    },
+    {
+      "name": "C",
+      "timestamp": "103:00",
+      "text": "was Kev's question? It wasn't—"
+    },
+    {
+      "name": "B",
+      "timestamp": "103:02",
+      "text": "the question was a time you laugh when you weren't supposed to laugh. So we had— when I was a kid, we had corporal punishment in my house, and we would get spanked, and my dad would sometimes spank us with his belt. And I remember one time I was gonna get— like, you would know the punishment was gonna happen. It would happen after dinner, and so you had to be, you know, ready, ready for it. And I, at one point, went up and put on like 6 pairs of underwear, and my dad hit me, and I laughed. Hmm. And then he spanked me one more time, and then that was basically it. I think I was probably 11 or something at that point. And that was kind of the end of spankings in my family. That's a weird, weird phenomenon that that was like a thing that parents did."
+    },
+    {
+      "name": "C",
+      "timestamp": "103:56",
+      "text": "Yeah."
+    },
+    {
+      "name": "B",
+      "timestamp": "103:57",
+      "text": "And I don't know, some, some, some may still, but— and I guess I'm a squish, but like, I cannot imagine that idea."
+    },
+    {
+      "name": "C",
+      "timestamp": "104:03",
+      "text": "No, I have a hard time. It's very difficult to imagine like sort of You know, like deciding that like what I should do as an adult is like use my physical strength against my, you know, child who weighs 50 pounds and is like 4 feet tall. Like, it's just— Yeah. It's, it's a crazy idea. Um, and that that's going to somehow produce a better outcome. Right. Um, but you know, there were times during this, there were times during this trip like where I definitely was like, you know, might throw my child in the Tiber River, um, if they don't stop acting like a jerk."
+    },
+    {
+      "name": "B",
+      "timestamp": "104:40",
+      "text": "Uh, I did at one point, I was like, why— when is Sam gonna learn how to make his bed like Joker is showing how to make a bed? Like, this was very appealing to me. I was like, yes, I want— Have you—"
+    },
+    {
+      "name": "C",
+      "timestamp": "104:51",
+      "text": "are you at the point where he will make the bed? How's that going?"
+    },
+    {
+      "name": "B",
+      "timestamp": "104:54",
+      "text": "Not really. Like, he's like— I kind of help him a little bit, and then he kind of just doesn't really do very much. So I have not— like, we've paused his allowance. He doesn't get his allowance anymore. And, you know, he's got to do it in order to turn it back on, but it's not— I wouldn't say it's going great. It's asymmetric warfare, dude. It's like, it's very difficult to win against these kids."
+    },
+    {
+      "name": "C",
+      "timestamp": "105:15",
+      "text": "Yes, they're, they're crafty."
+    },
+    {
+      "name": "B",
+      "timestamp": "105:18",
+      "text": "They are crafty. All right, here is our final voicemail."
+    },
+    {
+      "name": "G",
+      "timestamp": "105:29",
+      "text": "Yeah. Hey, this is Corey calling from Austin, Texas. Texas, where early voting started today, and I already voted today. Oh, you guys, I don't even fucking know what's going to happen with this. Like, all right, we're not here to talk about that. We're here to talk about Full Metal Jacket, right? Stanley Kubrick's Full Metal Jacket, 1987. I forgot that it came out that late. Isn't that kind of interesting? I mean, I've watched this movie a whole bunch. Yeah. Um, it's really beautiful. Uh, it's fucking terrifying. Uh, I've never served in the military. My brother, who's 12 years younger than me, um, did serve in the Air Force, so a little different than Marines. And he actually was a drill sergeant for a bit, but he said times have really changed since, uh, you know, back when this movie was set and how drill sergeants behaved. Anyway, speaking of that, obviously the intensity of the first, like, what, what is it, like 45 45 minutes, it goes by breakneck speed. This fucking boot camp is so awesome. And I used to always say it was like my favorite part, like it feels like 2 movies. But as the years went by and the more I've watched it, I really enjoyed both parts. It's like he downshifts for a bit in the second half, but then it just builds this fucking tension that I was really tuning into the past couple times I've watched it. And like, you just wait for this fucking release and you know it's going to be terrible. Like, the release is just so— ugh. I don't know. This movie's fucking great. Is Kubrick the greatest anti-war filmmaker? Was he? I don't know. I haven't seen enough anti-war films, I don't think, to know, but he does have a pretty good track record, right? Yeah. So there's probably tons to say about all this, but I'll let you all I'll do that. Who would Tilda Swinton play? I would love for her to play the get-some door gunner guy. I think she could really chew up the scenery with that guy. And I noticed when I was looking him up to see if his character had a name, and I don't— I think it's just like door gunner. But the actor, this guy Tim— let me see, look at it— Corsi. He was supposed to be— he was originally chosen to be the drill sergeant. I'll have to read up on that. Maybe you guys will talk about it in the episode. I didn't know that. Yeah, that it wasn't always Emory. So awesome. I love this movie. You guys are officially in like dude pod territory here. Yeah, we're like serious pod bro-ing out with this."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:00",
+      "text": "Pod bros. Pod bros have taken over."
+    },
+    {
+      "name": "G",
+      "timestamp": "108:02",
+      "text": "It's great. I love it. I can't wait to hear you guys talk about it. And I'll talk to you next week. Bye."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:08",
+      "text": "Whoo! Man, that is correct. That guy was cast as the, as the drill instructor And then Ermey came in as the technical advisor and immediately realized that he needed to take this role. So he like got some— he like shot him like getting in and getting into every guy's face in the squad and just making up all of his own stuff. And that was how Kubrick cast him. And then that guy as the Constellation, they, they made that character for him. That's a scary scene, dude. That, that guy is really terrifying. That's like awful."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:46",
+      "text": "No, it's awful. It's just, you know, just war crimes. Um, yeah, we are— we're Dude Pod. We were Dune Pod, we were Escape Hatch, now we're Dude Pod."
+    },
+    {
+      "name": "B",
+      "timestamp": "108:54",
+      "text": "We've got Dude Pod."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:56",
+      "text": "We've made it"
+    },
+    {
+      "name": "B",
+      "timestamp": "108:56",
+      "text": "full circle."
+    },
+    {
+      "name": "C",
+      "timestamp": "108:57",
+      "text": "Yeah,"
+    },
+    {
+      "name": "B",
+      "timestamp": "108:58",
+      "text": "full circle, Jason. We did it."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:00",
+      "text": "What a great pod. Great to have Ben on. Great movie. Great. I think it's— I think this one's gonna slap. I think people are gonna like it."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:08",
+      "text": "Mm, good stuff. What do you have to plug, my friend?"
+    },
+    {
+      "name": "C",
+      "timestamp": "109:12",
+      "text": "Shout out to Christianity, I guess, will be my shout out this week. They really figured something out, um, with like— because like, you know, our kids are heathens and don't really know anything about Christianity. And so we were looking at like these, these Caravaggio paintings where one is like the Crucifixion of Saint Peter, and Griffin was like, why is he like upside down? I'm like— I was like, well, they're crucifying him. Like, what's that? It's like, well, they see the nail through His hand. It was like they're doing that. Was they gonna kill him? Like well, how does that kill him? It's like well, it's like you suffocate. It's very painful. Long time. It's like well, what why why is that? It was like you know. It was like well, there's like you know Jesus was crucified and like we're like he's like who's Jesus? It was like okay. Like you know we're like going through the whole thing, but then like the the viscerality."
+    },
+    {
+      "name": "B",
+      "timestamp": "109:52",
+      "text": "It's like the MCU. Like the connections. Yeah. You gotta lay it out."
+    },
+    {
+      "name": "C",
+      "timestamp": "109:55",
+      "text": "The the viscerality of the crucifixion is and like you know particularly in Renaissance art like is. Sure. Vibrant and like so powerful an image. Like, it really does like work on this like non-linguistic, like non-rational level where you're just like, what the hell? Like, why did this happen? Um, and we were driving to school this morning and there was a tow truck on the side. Um, and it was one of those that like slides under the car and like, you know, like grabs onto the car and like tows it away. And so when it's in its resting position, there's no car on it. It's just a giant— Yeah, yeah. And so it's like literally just a giant crucifix. And Griffin's like, look, there's a cross. Like, are they like still using them? Like, what are they— what are they doing? Like, why are they still around? I was like, no, they're not gonna crucify anybody. That's like for towing cars. Like, no, it's like— so no one gets crucified? And I was like, no, no one gets crucified. Like, you know, we're not— like, that's— that's— that's not a thing we do anymore."
+    },
+    {
+      "name": "B",
+      "timestamp": "110:49",
+      "text": "Oh my God."
+    },
+    {
+      "name": "C",
+      "timestamp": "110:50",
+      "text": "But like the— the power of like the— the crucifixion as like an image and like a concept and like this like, you know, meme, original meme. They really, they really snapped with that one. They really did a great job. So shout out to— it still works. Really, Church Fathers, they really figured out something that still works. That branding is good. Strong. Some of the best branding that's ever been done."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:12",
+      "text": "The power of Christ compels you."
+    },
+    {
+      "name": "C",
+      "timestamp": "111:14",
+      "text": "They should start a LinkedIn and offer, offer marketing tips."
+    },
+    {
+      "name": "B",
+      "timestamp": "111:18",
+      "text": "There we go. Let's do it. And that's it. That's it for this episode of Escape Hatch. I want to thank Jason and Ben for an amazing conversation. Next week, it's the return of Jamel Bouie as we take on Jason's favorite Francis Ford Coppola, his 1974 paranoid masterpiece, The Conversation. If you're enjoying the show, we need your help. Take a minute to leave us a 5-star rating and review wherever you listen to your podcasts, or just tell your friends about us because it really does help the listeners find the show. We also have a Discord server where you can hang out with us online whenever you want, and a Patreon where you can support us and unlock exclusive perks. Links are in the show notes. Escape Hatch is a Tapedeck Podcast, John, a production of H Industries. Our artwork is by Catcher, and our theme music was composed by Scott Fritz and Who's the Boss Music. The episode was edited and produced by me, H. Thanks Thanks for listening. We'll see everybody next week."
+    },
+    {
+      "name": "H",
+      "timestamp": "112:16",
+      "text": "We were driving in Stanley's wife's SUV, nice brand spanking new beautiful SUV. Somehow Stanley talked her out of it that day, and we're looking for a place to do a scene, and Stanley's driving. That's how one-track-minded Stanley was. He was driving and he was pointing. He was saying, Doug, you see that? We're gonna set the troops up over here. And we're driving. And in the meanwhile, I'm sitting there watching us drive slowly into a ditch, and the ditch is about 6 foot deep. Stanley drove as he talked. He drove off into this ditch and the car went over on its side. Stanley reached up Undid his seatbelt, he reached up and he pushed the door open, and he climbed, climbed out of the SUV, and he climbed up on top, and he's still talking. And we'll, we'll, we'll put up the tent over here, and, and we're gonna have— we'll, we'll have base camp over here. Uh, Doug, get up here. And then he jumped off the side of the SUV and started walking down the road. back toward base camp and looked back and said, well, come on! And we're all standing on the side of this SUV saying, do you believe this shit?"
+    }
+  ]
+}
