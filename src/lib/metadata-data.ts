@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 337 episodes - updated 2026-10-21
+// Auto-generated - do not edit - 338 episodes - updated 2026-10-22
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16215,5 +16215,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Leonard Rosenman"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 327,
+    "film": "Full Metal Jacket (1987)",
+    "filmYear": 1987,
+    "releaseDate": "10/22/2026",
+    "length": "1:53:41",
+    "reviewer": "",
+    "guest": "Ben Rhodes",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
