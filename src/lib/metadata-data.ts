@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 338 episodes - updated 2026-10-22
+// Auto-generated - do not edit - 338 episodes - updated 2026-10-23
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16236,9 +16236,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/full-metal-1987-173027651",
     "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "letterboxdLink": "https://letterboxd.com/film/full-metal-jacket/",
+    "imdbLink": "https://www.imdb.com/title/tt0093058/"
   }
 ];
