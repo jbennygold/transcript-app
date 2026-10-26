@@ -16237,6 +16237,31 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/full-metal-1987-173027651",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8abb4a5c63bc029e3a53e0289f",
     "letterboxdLink": "https://letterboxd.com/film/full-metal-jacket/",
-    "imdbLink": "https://www.imdb.com/title/tt0093058/"
+    "imdbLink": "https://www.imdb.com/title/tt0093058/",
+    "tmdbId": 600,
+    "tmdbPosterPath": "/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "cinematographers": [
+      "Douglas Milsome"
+    ],
+    "cast": [
+      "Matthew Modine",
+      "Adam Baldwin",
+      "Vincent D'Onofrio",
+      "R. Lee Ermey",
+      "Dorian Harewood",
+      "Kevyn Major Howard",
+      "Arliss Howard",
+      "Ed O'Ross"
+    ],
+    "composers": [
+      "Vivian Kubrick"
+    ]
   }
 ]
