@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 338 episodes - updated 2026-10-29
+// Auto-generated - do not edit - 339 episodes - updated 2026-10-30
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16265,5 +16265,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Vivian Kubrick"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 328,
+    "film": "The Conversation (1974)",
+    "filmYear": 1974,
+    "releaseDate": "10/29/2026",
+    "length": "1:37:52",
+    "reviewer": "",
+    "guest": "Jamelle Bouie",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
