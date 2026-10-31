@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 339 episodes - updated 2026-10-30
+// Auto-generated - do not edit - 339 episodes - updated 2026-10-31
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16286,9 +16286,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/conversation-173825382",
     "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "letterboxdLink": "https://letterboxd.com/film/the-conversation/",
+    "imdbLink": "https://www.imdb.com/title/tt0071360/"
   }
 ];
