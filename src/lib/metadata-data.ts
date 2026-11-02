@@ -16289,6 +16289,33 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/conversation-173825382",
     "artworkLink": "",
     "letterboxdLink": "https://letterboxd.com/film/the-conversation/",
-    "imdbLink": "https://www.imdb.com/title/tt0071360/"
+    "imdbLink": "https://www.imdb.com/title/tt0071360/",
+    "tmdbId": 592,
+    "tmdbPosterPath": "/dHqVBwcv1SGymOpUueRoKzcmdes.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "cinematographers": [
+      "Wilmer Butler",
+      "Haskell Wexler"
+    ],
+    "cast": [
+      "Gene Hackman",
+      "John Cazale",
+      "Allen Garfield",
+      "Frederic Forrest",
+      "Cindy Williams",
+      "Michael Higgins",
+      "Elizabeth MacRae",
+      "Teri Garr"
+    ],
+    "composers": [
+      "David Shire"
+    ]
   }
 ];
