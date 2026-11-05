@@ -2,11 +2,11 @@ General
 Episode Count,339
 Bonus Ep Count,11
 Regular Ep Count,327
-Claimed,336
-Not yet claimed,3
-Review count,337
-Not yet reviewed,2
-Reviewed percentage,99.41%
+Claimed,338
+Not yet claimed,1
+Review count,339
+Not yet reviewed,0
+Reviewed percentage,100.00%
 
 Episode Length
 Average Length,0.07072875696
@@ -15,11 +15,11 @@ Longest Ep,0.1230439815
 Shortest Ep,0.01517361111
 
 MMMs
-Average MMM,31.16
+Average MMM,30.98
 Median MMM,30.00
 Max MMM,101
 Min MMM,0
 Total MMM,10470
-Total Minutes,34387
-MMM/Minute,0.30448
-MMM/Hour,18.27
+Total Minutes,34485
+MMM/Minute,0.30361
+MMM/Hour,18.22
