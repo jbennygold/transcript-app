@@ -1,0 +1,28 @@
+name: Repair notes thread
+
+# Run by hand when an episode's #engineers announcement posted without a thread
+# (the notes-open step fell back to the webhook). Opens the thread on the
+# existing message — no duplicate announcement — and records it on the
+# open-episode pointer so /pdc-sync-notes can read it.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Open the missing thread
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_ENGINEERS_CHANNEL_ID: ${{ secrets.DISCORD_ENGINEERS_CHANNEL_ID }}
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: node --import tsx ./scripts/repair-notes-thread.ts

@@ -78,14 +78,26 @@ export async function announceWithThread(
     return null;
   }
 
+  const threadId = await createThread(doFetch, headers, opts.channelId, messageId, opts.threadName);
+  return { messageId, threadId };
+}
+
+/** Open a thread on an existing message. Returns the thread id, or null on failure. */
+async function createThread(
+  doFetch: typeof fetch,
+  headers: Record<string, string>,
+  channelId: string,
+  messageId: string,
+  threadName: string
+): Promise<string | null> {
   try {
     const res = await doFetch(
-      `${DISCORD_API}/channels/${opts.channelId}/messages/${messageId}/threads`,
+      `${DISCORD_API}/channels/${channelId}/messages/${messageId}/threads`,
       {
         method: 'POST',
         headers,
         body: JSON.stringify({
-          name: opts.threadName,
+          name: threadName,
           auto_archive_duration: AUTO_ARCHIVE_MINUTES,
         }),
         signal: AbortSignal.timeout(10_000),
@@ -95,14 +107,67 @@ export async function announceWithThread(
       console.warn(
         `[discord-thread] creating the thread returned ${res.status}: ${await res.text()}`
       );
-      return { messageId, threadId: null };
+      return null;
     }
     const data = (await res.json()) as { id?: string };
-    return { messageId, threadId: data.id ?? null };
+    return data.id ?? null;
   } catch (err) {
     console.warn(
       `[discord-thread] creating the thread failed: ${err instanceof Error ? err.message : String(err)}`
     );
-    return { messageId, threadId: null };
+    return null;
   }
+}
+
+export interface RepairOptions {
+  token: string;
+  channelId: string;
+  /** The announcement embed title to look for, e.g. "Ep 328 · Film". */
+  embedTitle: string;
+  threadName: string;
+  fetchImpl?: typeof fetch;
+}
+
+/**
+ * Repair a threadless announcement: find the newest message in the channel
+ * whose first embed has `embedTitle` and open a thread on it. If it already has
+ * a thread, return that one. Returns null if the message can't be found or the
+ * thread can't be created (including a bad token — the error is logged).
+ *
+ * Exists because the webhook fallback posts announcements with no thread;
+ * re-announcing would duplicate the message.
+ */
+export async function openThreadOnAnnouncement(opts: RepairOptions): Promise<string | null> {
+  const doFetch = opts.fetchImpl ?? fetch;
+  const headers = {
+    Authorization: `Bot ${opts.token}`,
+    'Content-Type': 'application/json',
+  };
+
+  let messages: { id: string; embeds?: { title?: string }[]; thread?: { id: string } }[];
+  try {
+    const res = await doFetch(`${DISCORD_API}/channels/${opts.channelId}/messages?limit=100`, {
+      headers,
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!res.ok) {
+      console.warn(`[discord-thread] reading the channel returned ${res.status}: ${await res.text()}`);
+      return null;
+    }
+    messages = await res.json();
+  } catch (err) {
+    console.warn(
+      `[discord-thread] reading the channel failed: ${err instanceof Error ? err.message : String(err)}`
+    );
+    return null;
+  }
+
+  // Discord returns newest first.
+  const target = messages.find(m => m.embeds?.[0]?.title === opts.embedTitle);
+  if (!target) {
+    console.warn(`[discord-thread] no announcement titled "${opts.embedTitle}" in the last 100 messages.`);
+    return null;
+  }
+  if (target.thread?.id) return target.thread.id;
+  return createThread(doFetch, headers, opts.channelId, target.id, opts.threadName);
 }

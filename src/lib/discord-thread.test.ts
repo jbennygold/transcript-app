@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { threadNameFor, announceWithThread } from './discord-thread';
+import { threadNameFor, announceWithThread, openThreadOnAnnouncement } from './discord-thread';
 
 test('threadNameFor names the episode and film', () => {
   assert.equal(threadNameFor('317', 'Barton Fink (1991)'), 'Ep 317 · Barton Fink (1991)');
@@ -109,4 +109,53 @@ test('announceWithThread sends the bot token as an Authorization header', async 
 
   await announceWithThread({ token: 'abc', channelId: 'c1', payload: {}, threadName: 'x', fetchImpl });
   assert.equal(seen.Authorization, 'Bot abc');
+});
+
+function channelFetch(messages: unknown[], threadOk = true) {
+  const calls: string[] = [];
+  const fetchImpl = (async (url: string) => {
+    calls.push(String(url));
+    if (String(url).endsWith('/threads')) {
+      return threadOk
+        ? { ok: true, json: async () => ({ id: 'thread-new' }) }
+        : { ok: false, status: 401, text: async () => 'Unauthorized' };
+    }
+    return { ok: true, json: async () => messages };
+  }) as unknown as typeof fetch;
+  return { calls, fetchImpl };
+}
+
+const repairOpts = { token: 't', channelId: 'c1', embedTitle: 'Ep 328 · Film', threadName: 'Ep 328 · Film' };
+
+test('openThreadOnAnnouncement opens a thread on the newest matching announcement', async () => {
+  const { calls, fetchImpl } = channelFetch([
+    { id: 'chatter', embeds: [] },
+    { id: 'm328', embeds: [{ title: 'Ep 328 · Film' }] },
+    { id: 'm327', embeds: [{ title: 'Ep 327 · Other' }] },
+  ]);
+  const id = await openThreadOnAnnouncement({ ...repairOpts, fetchImpl });
+  assert.equal(id, 'thread-new');
+  assert.equal(calls[1], 'https://discord.com/api/v10/channels/c1/messages/m328/threads');
+});
+
+test('openThreadOnAnnouncement reuses an existing thread instead of creating one', async () => {
+  const { calls, fetchImpl } = channelFetch([
+    { id: 'm328', embeds: [{ title: 'Ep 328 · Film' }], thread: { id: 'thread-old' } },
+  ]);
+  assert.equal(await openThreadOnAnnouncement({ ...repairOpts, fetchImpl }), 'thread-old');
+  assert.equal(calls.length, 1);
+});
+
+test('openThreadOnAnnouncement returns null when no announcement matches or creation fails', async () => {
+  assert.equal(
+    await openThreadOnAnnouncement({ ...repairOpts, fetchImpl: channelFetch([{ id: 'x', embeds: [] }]).fetchImpl }),
+    null
+  );
+  assert.equal(
+    await openThreadOnAnnouncement({
+      ...repairOpts,
+      fetchImpl: channelFetch([{ id: 'm328', embeds: [{ title: 'Ep 328 · Film' }] }], false).fetchImpl,
+    }),
+    null
+  );
 });
