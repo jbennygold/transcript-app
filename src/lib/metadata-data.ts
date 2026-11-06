@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 339 episodes - updated 2026-11-05
+// Auto-generated - do not edit - 340 episodes - updated 2026-11-06
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16317,5 +16317,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "David Shire"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 329,
+    "film": "28 Years Later: The Bone Temple (2026)",
+    "filmYear": 2026,
+    "releaseDate": "11/4/2026",
+    "length": "1:48:35",
+    "reviewer": "",
+    "guest": "Annie Jacobsen",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
