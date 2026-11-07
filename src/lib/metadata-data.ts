@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 340 episodes - updated 2026-11-06
+// Auto-generated - do not edit - 340 episodes - updated 2026-11-07
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -1491,7 +1491,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "3/14/2021",
     "length": "1:55:24",
     "reviewer": "Pat",
-    "guest": "Charles Forsman / dale_a",
+    "guest": "Chuck Forsman / dale_a",
     "mmmCount": 35,
     "thatsGreatCount": 0,
     "notableMoments": "- Jason notices that H works the title of the film into the end of every synopsis\n- Jason promises to wear a pencil mustache if the episode gets 10000 listens; \n- origin of the original Corey sounder? \n- Pod-First - the Dune Pod Discord is conceived!",
@@ -2885,7 +2885,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "9/26/2021",
     "length": "0:57:06",
     "reviewer": "Space Monkey",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 47,
     "thatsGreatCount": 6,
     "notableMoments": "- H won Mr Mainland contest with striptease with purple balloons\n- Slim has a new dog",
@@ -3828,7 +3828,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "1/23/2022",
     "length": "1:12:16",
     "reviewer": "birria",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 22,
     "thatsGreatCount": 1,
     "notableMoments": "- Slim held to account for Episode 91 of 70mm - the great Schism and the Great Reconciliation. \n- Jason thought this was a Smart Dumb Movie, now realizes it is a Smart Smart movie. \n- Would You Like To Know More sounder comes from this movie. \n- Dune Pod is officially against Authoritarianism. \n- Corey connects this movie to Revenge of the Nerds cia bad Electric Violin play. ",
@@ -4669,7 +4669,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "5/29/2022",
     "length": "1:43:22",
     "reviewer": "NJBoom",
-    "guest": "Kaite Dreke",
+    "guest": "Katie Dreke",
     "mmmCount": 43,
     "thatsGreatCount": 3,
     "notableMoments": "- Great pitch for the \"Mum's of DunePod Discord\"\n- H pitched a meetup for Bluey Live. \n- Pod-First: Goldtoe's woes (Coined by Hex!) - Colonoscopy Prep. \n- H announces a Special Edition version of Episode 1 of the pod. \n- H full reading of Zorg monologue. \n- Frank talk about the social benefits of cunnilingus in sci-fi.",
@@ -6304,7 +6304,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "1/15/2023",
     "length": "1:24:00",
     "reviewer": "Space Monkey",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 8,
     "thatsGreatCount": 3,
     "notableMoments": "Pod-First - The Witch! \n- Haitch does not host due to illness",
@@ -6947,7 +6947,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "4/9/2023",
     "length": "1:18:08",
     "reviewer": "Space Monkey",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 37,
     "thatsGreatCount": 1,
     "notableMoments": "N/A",
@@ -8008,7 +8008,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "9/1/2023",
     "length": "1:54:13",
     "reviewer": "Space Monkey",
-    "guest": "Patrick Sommerville / Hoon Lee",
+    "guest": "Patrick Somerville / Hoon Lee",
     "mmmCount": 63,
     "thatsGreatCount": 0,
     "notableMoments": "No Jason",
@@ -8187,7 +8187,7 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "releaseDate": "9/24/2023",
     "length": "1:44:42",
     "reviewer": "Space Monkey",
-    "guest": "Slim",
+    "guest": "slim",
     "mmmCount": 42,
     "thatsGreatCount": 2,
     "notableMoments": "N/A",
@@ -16338,9 +16338,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/28-years-later-174425503",
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8af73fb352f3ad19eadf103538",
+    "letterboxdLink": "https://letterboxd.com/film/28-years-later-the-bone-temple/",
+    "imdbLink": "https://www.imdb.com/title/tt32141377/"
   }
 ];
