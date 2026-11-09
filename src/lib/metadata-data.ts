@@ -16341,6 +16341,32 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "https://www.patreon.com/EscapeHatch/posts/28-years-later-174425503",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8af73fb352f3ad19eadf103538",
     "letterboxdLink": "https://letterboxd.com/film/28-years-later-the-bone-temple/",
-    "imdbLink": "https://www.imdb.com/title/tt32141377/"
+    "imdbLink": "https://www.imdb.com/title/tt32141377/",
+    "tmdbId": 1272837,
+    "tmdbPosterPath": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Nia DaCosta"
+    ],
+    "cinematographers": [
+      "Sean Bobbitt"
+    ],
+    "cast": [
+      "Ralph Fiennes",
+      "Alfie Williams",
+      "Jack O'Connell",
+      "Erin Kellyman",
+      "Chi Lewis-Parry",
+      "Connor Newall",
+      "Maura Bird",
+      "Ghazi Al Ruffai"
+    ],
+    "composers": [
+      "Hildur Guðnadóttir"
+    ]
   }
 ];
