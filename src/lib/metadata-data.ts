@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 340 episodes - updated 2026-11-12
+// Auto-generated - do not edit - 341 episodes - updated 2026-11-13
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16368,5 +16368,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Hildur Guðnadóttir"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 330,
+    "film": "The Right Stuff (1983)",
+    "filmYear": 1983,
+    "releaseDate": "11/12/2026",
+    "length": "1:36:17",
+    "reviewer": "",
+    "guest": "Mac Smith",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
