@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 341 episodes - updated 2026-11-13
+// Auto-generated - do not edit - 341 episodes - updated 2026-11-14
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16389,9 +16389,9 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaJason": "N/A",
     "tildaGuest": null,
     "tildaCorey": null,
-    "showLink": "",
+    "showLink": "https://www.patreon.com/EscapeHatch/posts/right-stuff-1983-175166647",
     "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "letterboxdLink": "https://letterboxd.com/film/the-right-stuff/",
+    "imdbLink": "https://www.imdb.com/title/tt0086197/"
   }
 ];
