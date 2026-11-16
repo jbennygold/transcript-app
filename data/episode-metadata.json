@@ -16390,6 +16390,31 @@
     "showLink": "https://www.patreon.com/EscapeHatch/posts/right-stuff-1983-175166647",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8acf8007ce7b47a9f716b8b970",
     "letterboxdLink": "https://letterboxd.com/film/the-right-stuff/",
-    "imdbLink": "https://www.imdb.com/title/tt0086197/"
+    "imdbLink": "https://www.imdb.com/title/tt0086197/",
+    "tmdbId": 9549,
+    "tmdbPosterPath": "/htEr0vyHbU7FMr8qvTguTmaTvES.jpg",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Philip Kaufman"
+    ],
+    "cinematographers": [
+      "Caleb Deschanel"
+    ],
+    "cast": [
+      "Sam Shepard",
+      "Scott Glenn",
+      "Ed Harris",
+      "Dennis Quaid",
+      "Fred Ward",
+      "Barbara Hershey",
+      "Kim Stanley",
+      "Veronica Cartwright"
+    ],
+    "composers": [
+      "Bill Conti"
+    ]
   }
 ]
