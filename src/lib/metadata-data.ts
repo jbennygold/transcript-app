@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 341 episodes - updated 2026-11-21
+// Auto-generated - do not edit - 342 episodes - updated 2026-11-22
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16418,5 +16418,30 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "composers": [
       "Bill Conti"
     ]
+  },
+  {
+    "pod": "EH",
+    "season": 9,
+    "episode": 331,
+    "film": "Bloodsport (1988)",
+    "filmYear": 1988,
+    "releaseDate": "11/18/2026",
+    "length": "2:21:34",
+    "reviewer": "",
+    "guest": "Dave Callaham",
+    "mmmCount": 0,
+    "thatsGreatCount": 0,
+    "notableMoments": "",
+    "hFlex": "N/A",
+    "jFlex": "N/A",
+    "kevsQuestion": "N/A",
+    "tildaH": "N/A",
+    "tildaJason": "N/A",
+    "tildaGuest": null,
+    "tildaCorey": null,
+    "showLink": "",
+    "artworkLink": "",
+    "letterboxdLink": "",
+    "imdbLink": ""
   }
 ];
