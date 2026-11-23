@@ -1,4 +1,4 @@
-// Auto-generated - do not edit - 342 episodes - updated 2026-11-22
+// Auto-generated - do not edit - 342 episodes - updated 2026-11-23
 import { EpisodeMetadata } from '@/types/episode-metadata';
 export const episodeMetadata: EpisodeMetadata[] = [
   {
@@ -16440,8 +16440,8 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "tildaGuest": null,
     "tildaCorey": null,
     "showLink": "",
-    "artworkLink": "",
-    "letterboxdLink": "",
-    "imdbLink": ""
+    "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a084ffca8d309b8036966898e",
+    "letterboxdLink": "https://letterboxd.com/film/bloodsport/",
+    "imdbLink": "https://www.imdb.com/title/tt0092675/"
   }
 ];
