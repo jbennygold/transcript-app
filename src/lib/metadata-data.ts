@@ -16442,6 +16442,31 @@ export const episodeMetadata: EpisodeMetadata[] = [
     "showLink": "",
     "artworkLink": "https://i.scdn.co/image/ab6765630000ba8a084ffca8d309b8036966898e",
     "letterboxdLink": "https://letterboxd.com/film/bloodsport/",
-    "imdbLink": "https://www.imdb.com/title/tt0092675/"
+    "imdbLink": "https://www.imdb.com/title/tt0092675/",
+    "tmdbId": 11690,
+    "tmdbPosterPath": "/kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "directors": [
+      "Newt Arnold"
+    ],
+    "cinematographers": [
+      "David Worth"
+    ],
+    "cast": [
+      "Jean-Claude Van Damme",
+      "Donald Gibb",
+      "Leah Ayres",
+      "Norman Burton",
+      "Forest Whitaker",
+      "Roy Chiao",
+      "Philip Chan Yan-kin",
+      "Pierre Rafini"
+    ],
+    "composers": [
+      "Paul Hertzog"
+    ]
   }
 ];
